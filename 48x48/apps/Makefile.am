@@ -89,6 +89,7 @@ icon_DATA =\
 	im-nov.png  \
 	im-yahoo.png   \
 	keyboard.png \
+	launcher-program.png \
 	logviewer.png \
 	modem.png \
 	network-config.png \
