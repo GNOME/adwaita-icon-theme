@@ -11,6 +11,7 @@ icon_DATA =\
    gnome-dev-dvd.png  \
    gnome-dev-floppy.png  \
    gnome-dev-harddisk.png  \
+   gnome-dev-ipod.png  \
    gnome-dev-memory.png  \
    gnome-dev-mouse-ball.png  \
    gnome-dev-printer.png  \

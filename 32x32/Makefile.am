@@ -1,1 +1,1 @@
-SUBDIRS=apps filesystems mimetypes stock
+SUBDIRS=apps devices filesystems mimetypes stock
