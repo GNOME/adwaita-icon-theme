@@ -12,6 +12,7 @@ icondir = $(datadir)/icons/gnome
 icon_DATA = index.theme
 
 EXTRA_DIST=index.theme.in index.theme intltool-update.in intltool-merge.in intltool-extract.in \
+	intltool-modules/XML/Parser/Style/OrigTree.pm \
 	gnome-icon-theme.spec gnome-icon-theme.spec.in \
 	gnome-icon-theme.pc.in
 
