@@ -43,6 +43,11 @@ icon_DATA =\
 	emblem-cool.png			\
 	emblem-camera.png		\
 	emblem-certified.png		\
+	emblem-cvs-added.png 	\
+	emblem-cvs-conflict.png 	\
+	emblem-cvs-controlled.png 	\
+	emblem-cvs-modified.png 	\
+	emblem-cvs-sticky.png 	\
 	emblem-danger.png		\
 	emblem-desktop.png		\
 	emblem-documents.png		\
