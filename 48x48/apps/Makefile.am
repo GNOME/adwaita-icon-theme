@@ -93,6 +93,7 @@ icon_DATA =\
 	modem.png \
 	network-config.png \
 	palm-pilot.png \
+	palm-pilot-sync.png \
 	panel-notification-area.png \
 	panel-window-list.png \
 	panel-window-menu.png \
