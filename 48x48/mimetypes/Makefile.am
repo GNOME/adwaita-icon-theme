@@ -57,6 +57,7 @@ icon_DATA =\
 	gnome-mime-application-x-msx-rom.png \
 	gnome-mime-application-x-n64-rom.png \
 	gnome-mime-application-x-nes-rom.png \
+	gnome-mime-application-x-object-file.png \
 	gnome-mime-application-x-ogg.png \
 	gnome-mime-application-x-php.png \
 	gnome-mime-application-x-python-bytecode.png \
@@ -140,6 +141,9 @@ icon_DATA =\
 	gnome-mime-video-x-msvideo.png \
 	gnome-mime-video-x-ms-wmv.png \
 	gnome-mime-x-font-afm.png \
+	gnome-compressed.png \
+	gnome-library.png \
+	gnome-package.png \
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)
