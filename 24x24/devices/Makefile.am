@@ -5,6 +5,7 @@ category=devices
 icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
 
 icon_DATA =\
+   gnome-dev-battery.png   \
    gnome-dev-cdrom-audio.png  \
    gnome-dev-cdrom.png  \
    gnome-dev-dvd.png  \

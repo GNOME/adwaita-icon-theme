@@ -16,6 +16,7 @@ icon_DATA =\
 	gnome-dev-keyboard.png \
 	gnome-dev-memory.png \
 	gnome-dev-mouse-optical.png \
+   gnome-dev-pcmcia.png \
 	gnome-dev-printer.png \
 	gnome-dev-symlink.png \
 	gnome-dev-zipdisk.png \

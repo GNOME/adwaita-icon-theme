@@ -12,9 +12,11 @@ icon_DATA =\
 	stock_calendar.png 		\
 	stock_calendar-and-tasks.png	\
 	stock_cell-phone.png 		\
+   stock_creditcard.png \
 	stock_edit.png			\
 	stock_example.png 		\
 	stock_id.png 			\
+   stock_init.png \
    stock_keyring.png \
 	stock_landline-phone.png 	\
 	stock_news.png 			\

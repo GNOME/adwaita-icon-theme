@@ -10,6 +10,7 @@ icon_DATA =\
    accessibility-directory.png \
    apacheconf.png \
    applets-screenshooter.png \
+   beast.png   \
    blender.png \
    config-date.png \
    config-language.png \
@@ -19,6 +20,7 @@ icon_DATA =\
    disks.png \
    evolution.png  \
    file-manager.png \
+   file-roller.png \
    gdict.png \
    gdm.png \
    gnome-amusements.png \
@@ -72,21 +74,27 @@ icon_DATA =\
 	gnome-util.png \
 	gnome-unknown.png \
    gnome-window-manager.png   \
+   hint.png \
    hwbrowser.png \
    iagno.png \
    keyboard.png \
    logviewer.png \
    network-config.png \
-   postscript-viewer.png \
+   palm-pilot.png \
    panel-notification-area.png \
    panel-window-list.png \
    panel-window-menu.png \
+   postscript-viewer.png \
    realplayer.png \
    serviceconf.png \
    screensaver.png   \
    sodipodi.png \
    tsclient.png \
+   user-info.png  \
+   visor.png   \
+   wallpaper.png  \
    web-browser.png \
+   wine.png \
    xcdroast.png \
    xchat.png \
    xsane.png \
