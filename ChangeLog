@@ -1,3 +1,13 @@
+2004-11-28  Rodney Dawes  <dobey@novlel.com>
+
+	* NEWS, configure.in: Update for 2.9.2 release
+
+	* 16x16/stock/generic/Makefile.am:
+	* 16x16/stock/generic/stock_weather-night-*.png:
+	* 48x48/stock/generic/Makefile.am:
+	* 48x48/stock/generic/stock_weather-night-*.png:
+	Add icons for gweather on clear or partly cloudy nights (bug #68616)
+
 2004-11-24  Jakub Steiner <jimmac@ximian.com>
 
 	* 24x24/stock/object/stock_new-window.png:

@@ -110,6 +110,8 @@ icon_DATA =\
    stock_weather-cloudy.png \
    stock_weather-few-clouds.png \
    stock_weather-fog.png \
+   stock_weather-night-clear.png \
+   stock_weather-night-few-clouds.png \
    stock_weather-showers.png \
    stock_weather-snow.png \
    stock_weather-storm.png \
