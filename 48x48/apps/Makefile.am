@@ -82,6 +82,7 @@ icon_DATA =\
    im-icq.png   \
    im-jabber.png  \
    im-msn.png   \
+   im-nov.png  \
    im-yahoo.png   \
    keyboard.png \
    logviewer.png \
