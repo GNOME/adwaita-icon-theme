@@ -1,3 +1,15 @@
+2004-04-08  Jakub Steiner <jimmac@ximian.com>
+
+	* 48x48/mimetypes/gnome-mime-application-x-executable.png:
+	  mimetype for executables
+	
+	* 48x48/mimetypes/gnome-mime-application-x-perl.png
+	* 48x48/mimetypes/gnome-mime-application-x-python.png
+	* 48x48/mimetypes/gnome-mime-text-x-perl.png(r)
+	* 48x48/mimetypes/gnome-mime-text-x-python.png(r): rename to
+	  reflect current mime database
+	* 48x48/mimetypes/Makefile.am: updated
+
 2004-04-06  Jakub Steiner <jimmac@ximian.com>
 
 	* 24x24/stock/net/stock_hyperlink.png: fix canvas size

@@ -46,6 +46,7 @@ icon_DATA =\
 	gnome-mime-application-x-dia-diagram.png \
 	gnome-mime-application-x-dvi.png \
 	gnome-mime-application-x-e-theme.png \
+	gnome-mime-application-x-executable.png \
 	gnome-mime-application-x-font-afm.png \
 	gnome-mime-application-x-font-bdf.png \
 	gnome-mime-application-x-font-linux-psf.png \
@@ -73,7 +74,9 @@ icon_DATA =\
 	gnome-mime-application-x-n64-rom.png \
 	gnome-mime-application-x-nes-rom.png \
 	gnome-mime-application-x-object.png \
+	gnome-mime-application-x-perl.png \
 	gnome-mime-application-x-php.png \
+	gnome-mime-application-x-python.png \
 	gnome-mime-application-x-python-bytecode.png \
 	gnome-mime-application-x-qw.png \
 	gnome-mime-application-x-rar.png \
@@ -148,8 +151,6 @@ icon_DATA =\
 	gnome-mime-text-x-lyx.png \
 	gnome-mime-text-x-makefile.png \
 	gnome-mime-text-x-patch.png \
-	gnome-mime-text-x-perl.png \
-	gnome-mime-text-x-python.png \
 	gnome-mime-text-x-readme.png \
 	gnome-mime-text-x-scheme.png \
 	gnome-mime-text-x-sql.png \
