@@ -36,6 +36,7 @@ icon_DATA =\
 	gnome-mime-application-x-dc-rom.png \
 	gnome-mime-application-x-deb.png \
 	gnome-mime-application-x-dia-diagram.png \
+   gnome-mime-application-x-dvi.png \
 	gnome-mime-application-x-e-theme.png \
 	gnome-mime-application-x-font-afm.png \
 	gnome-mime-application-x-font-bdf.png \
