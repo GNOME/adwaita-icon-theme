@@ -23,7 +23,6 @@ icon_in_files =				\
 	emblem-distinguished.icon.in	\
 	emblem-documents.icon.in	\
 	emblem-draft.icon.in		\
-	emblem-favorite.icon.in		\
 	emblem-generic.icon.in 		\
 	emblem-handshake.icon.in	\
 	emblem-important.icon.in 	\
@@ -73,7 +72,6 @@ png_DATA =				\
 	emblem-distinguished.png	\
 	emblem-documents.png		\
 	emblem-draft.png		\
-	emblem-favorite.png		\
 	emblem-generic.png		\
 	emblem-handshake.png		\
 	emblem-important.png 		\
