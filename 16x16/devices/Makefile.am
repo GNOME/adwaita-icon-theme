@@ -11,12 +11,16 @@ icon_DATA =\
    gnome-dev-ethernet.png \
    gnome-dev-floppy.png \
    gnome-dev-harddisk.png \
+   gnome-dev-harddisk-1394.png \
+   gnome-dev-harddisk-usb.png \
    gnome-dev-ipod.png \
    gnome-dev-memory.png \
    gnome-dev-mouse-ball.png \
    gnome-dev-pci.png \
    gnome-dev-printer.png \
    gnome-dev-removable.png \
+   gnome-dev-removable-1394.png \
+   gnome-dev-removable-usb.png \
    gnome-dev-wavelan.png \
    gnome-dev-wavelan-encrypted.png \
 	$(NULL)
