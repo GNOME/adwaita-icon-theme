@@ -9,6 +9,7 @@ icon_DATA =\
    stock_lock.png \
    stock_lock-broken.png \
    stock_lock-ok.png \
+   stock_lock-open.png \
    stock_data-sources-hand.png \
    stock_data-sources.png \
    stock_signature.png  \

@@ -34,6 +34,7 @@ icon_DATA =\
    stock_lock.png \
    stock_lock-broken.png \
    stock_lock-ok.png \
+   stock_lock-open.png \
    stock_record-number.png \
    stock_signature.png  \
    stock_signature-bad.png  \
