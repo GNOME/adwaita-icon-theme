@@ -20,10 +20,12 @@ icon_DATA =\
 	gnome-mime-application-vnd.lotus-1-2-3.png \
 	gnome-mime-application-vnd.ms-excel.png \
 	gnome-mime-application-vnd.ms-powerpoint.png \
+	gnome-mime-application-vnd.oasis.openoffice.chart.png \
 	gnome-mime-application-vnd.oasis.openoffice.database.png \
 	gnome-mime-application-vnd.oasis.openoffice.drawing.png \
 	gnome-mime-application-vnd.oasis.openoffice.formula.png \
 	gnome-mime-application-vnd.oasis.openoffice.presentation.png \
+	gnome-mime-application-vnd.oasis.openoffice.spreadsheet.png \
 	gnome-mime-application-vnd.oasis.openoffice.text-master.png \
 	gnome-mime-application-vnd.oasis.openoffice.text.png \
 	gnome-mime-application-vnd.oasis.openoffice.text-web.png \
