@@ -80,6 +80,7 @@ icon_DATA =\
 	gnome-mime-application-x-reject.png \
 	gnome-mime-application-x-rpm.png \
 	gnome-mime-application-x-sharedlib.png \
+	gnome-mime-application-x-shellscript.png \
 	gnome-mime-application-x-shockwave-flash.png \
 	gnome-mime-application-x-sms-rom.png \
 	gnome-mime-application-x-sql.png \
@@ -151,7 +152,6 @@ icon_DATA =\
 	gnome-mime-text-x-python.png \
 	gnome-mime-text-x-readme.png \
 	gnome-mime-text-x-scheme.png \
-	gnome-mime-text-x-shellscript.png \
 	gnome-mime-text-x-sql.png \
 	gnome-mime-text-x-tex.png \
 	gnome-mime-text-x-troff-man.png \
