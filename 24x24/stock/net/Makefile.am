@@ -28,11 +28,11 @@ icon_DATA =\
    stock_mail-compose.png \
    stock_mail-forward.png \
    stock_mail-merge.png \
-   stock_mail_open.png \
+   stock_mail-open.png \
    stock_mail-receive.png \
    stock_mail-reply.png \
    stock_mail-reply-to-all.png \
-   stock_mail_send.png \
+   stock_mail-send.png \
    stock_online-layout.png \
    stock_outbox.png \
    stock_post-message.png \
