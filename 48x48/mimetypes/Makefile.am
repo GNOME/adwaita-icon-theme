@@ -139,7 +139,7 @@ icon_DATA =\
 	gnome-mime-text-x-copying.png \
 	gnome-mime-text-x-credits.png \
 	gnome-mime-text-x-csh.png \
-	gnome-mime-text-x-csharp.png \
+	gnome-mime-text-x-csharpsrc.png \
 	gnome-mime-text-x-csrc.png \
 	gnome-mime-text-x-haskell.png \
 	gnome-mime-text-x-install.png \
