@@ -26,6 +26,7 @@ EXTRA_DIST=index.theme.in index.theme intltool-update.in intltool-merge.in intlt
 # Ensure that hicolor is installed too
 install-data-local:
 	$(MAKE) -C po uninstall
+if ENABLE_HICOLOR_CHECK
 	@dirs='$(hicolor_dirs)'; for dir in $$dirs; do		\
 	    echo Checking for hicolor theme in \'$$dir/hicolor/index.theme\' ;	\
 	    if test -f "$$dir/hicolor/index.theme"; then	\
@@ -41,3 +42,10 @@ install-data-local:
 	echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@" ;	\
 	echo ;											\
 	exit 1
+endif
+
+DISTCHECK_CONFIGURE_FLAGS = --disable-hicolor-check
+
+CLEANFILES = index.theme
+
+DISTCLEANFILES = intltool-extract intltool-merge intltool-update

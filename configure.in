@@ -10,6 +10,12 @@ GETTEXT_PACKAGE=gnome-icon-theme
 AC_SUBST(GETTEXT_PACKAGE)
 AM_GLIB_GNU_GETTEXT
 
+AC_ARG_ENABLE(hicolor-check,
+   AC_HELP_STRING([--disable-hicolor-check],
+                   [disable the check for hicolor [default=no]]),,
+    enable_gtk_doc=yes)
+ AM_CONDITIONAL(ENABLE_HICOLOR_CHECK, test x$enable_gtk_doc = xyes)
+
 AC_OUTPUT([
 Makefile
 gnome-icon-theme.spec

@@ -1,5 +1,17 @@
 2004-01-13  Alexander Larsson  <alexl@redhat.com>
 
+	* Makefile.am: 
+	Add to --disable-hicolor-check to pass distcheck
+	add CLEANFILES & DISTCLEANFILES
+	
+	* configure.in:
+	Add --disable-hicolor-check
+
+	* autogen.sh (REQUIRED_AUTOMAKE_VERSION):
+	Require 1.6 for DISTCHECK_CONFIGURE_FLAGS
+
+2004-01-13  Alexander Larsson  <alexl@redhat.com>
+
 	* NEWS: 
 	* configure.in:
 	Bump to 1.1.5
