@@ -10,6 +10,7 @@ icon_DATA =\
    gnome-devel.png \
    gnome-globe.png \
    gnome-settings.png \
+   im.png   \
    im-aim.png  \
    im-icq.png  \
    im-jabber.png  \

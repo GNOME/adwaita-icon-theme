@@ -77,6 +77,7 @@ icon_DATA =\
    hint.png \
    hwbrowser.png \
    iagno.png \
+   im.png   \
    im-aim.png   \
    im-icq.png   \
    im-jabber.png  \
