@@ -9,6 +9,7 @@ icon_DATA =\
    config-language.png \
    gnome-devel.png \
    gnome-globe.png \
+   gnome-settings.png \
    panel-notification-area.png \
    panel-window-list.png \
    panel-window-menu.png \

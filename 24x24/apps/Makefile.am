@@ -18,6 +18,7 @@ icon_DATA =\
    gnome-lockscreen.png \
    gnome-multimedia.png \
    gnome-searchtool.png \
+   gnome-settings.png \
    gnome-status.png \
    gnome-terminal.png \
    panel-notification-area.png \

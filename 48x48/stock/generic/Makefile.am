@@ -6,6 +6,7 @@ subtype=generic
 icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)/$(subtype)
 
 icon_DATA =\
+	stock_alarm.png 		\
 	stock_autopilot.png 		\
 	stock_calendar.png 		\
 	stock_calendar-and-tasks.png	\

@@ -39,6 +39,8 @@ icon_DATA =\
 	stock_file-properties.png 	\
 	stock_flip-horizontally.png 	\
 	stock_flip-vertically.png 	\
+	stock_folder-copy.png 		\
+	stock_folder-move.png 		\
 	stock_format-page.png 		\
 	stock_fullscreen.png 		\
 	stock_help-agent.png 		\
@@ -71,6 +73,7 @@ icon_DATA =\
 	stock_toilet-paper.png 		\
 	stock_trash_full.png 		\
 	stock_unknown.png 			\
+	stock_undelete.png 			\
 	stock_undo.png 			\
    stock_web-calendar.png \
 	stock_web-support.png 		\

@@ -12,6 +12,7 @@ icon_DATA =\
    stock_channel.png \
    stock_connect.png \
    stock_contact.png \
+   stock_contact-list.png \
    stock_directory-server.png \
    stock_disconnect.png \
    stock_exchange-connector.png \
@@ -24,15 +25,28 @@ icon_DATA =\
    stock_insert-url.png \
    stock_internet.png \
    stock_link.png \
-   stock_mail-compose.png \
-   stock_mail-forward.png \
-   stock_mail-merge.png \
    stock_mail.png \
+   stock_mail-compose.png \
+   stock_mail-copy.png \
+   stock_mail-filters-apply.png \
+   stock_mail-flag-for-followup.png \
+   stock_mail-flag-for-followup-done.png \
+   stock_mail-forward.png \
+   stock_mail-hide-deleted.png \
+   stock_mail-hide-read.png \
+   stock_mail-hide-selected.png \
+   stock_mail-import.png \
+   stock_mail-merge.png \
+   stock_mail-move.png \
    stock_mail-open.png \
+   stock_mail-priority-high.png \
    stock_mail-receive.png \
+   stock_mail-replied.png \
    stock_mail-reply.png \
    stock_mail-reply-to-all.png \
    stock_mail-send.png \
+   stock_mail-send-receive.png \
+   stock_mail-unread.png \
    stock_online-layout.png \
    stock_outbox.png \
    stock_post-message.png \

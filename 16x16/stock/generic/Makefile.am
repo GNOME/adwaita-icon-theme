@@ -36,6 +36,8 @@ icon_DATA =\
    stock_flip-horizontally.png \
    stock_flip-vertically.png \
    stock_folder.png \
+   stock_folder-copy.png \
+   stock_folder-move.png \
    stock_format-page.png \
    stock_fullscreen.png \
    stock_help-add-bookmark.png \
@@ -77,6 +79,7 @@ icon_DATA =\
    stock_toggle-preview.png \
    stock_toilet-paper.png \
    stock_trash_full.png \
+   stock_undelete.png \
    stock_undo.png \
    stock_unknown.png \
    stock_view-details.png \
