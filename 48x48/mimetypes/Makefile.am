@@ -8,6 +8,7 @@ icon_DATA =\
    gnome-mime-application.png \
    gnome-mime-application-magicpoint.png \
 	gnome-mime-application-msword.png \
+	gnome-mime-application-ogg.png \
 	gnome-mime-application-pdf.png \
 	gnome-mime-application-pgp-encrypted.png \
 	gnome-mime-application-pgp-keys.png \
@@ -68,7 +69,6 @@ icon_DATA =\
 	gnome-mime-application-x-n64-rom.png \
 	gnome-mime-application-x-nes-rom.png \
 	gnome-mime-application-x-object-file.png \
-	gnome-mime-application-x-ogg.png \
 	gnome-mime-application-x-php.png \
 	gnome-mime-application-x-python-bytecode.png \
    gnome-mime-application-x-qw.png \
