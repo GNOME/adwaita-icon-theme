@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-08-24 19:55+0200\n"
+"POT-Creation-Date: 2003-12-28 10:32+0100\n"
 "PO-Revision-Date: 2001-07-29 12:32+0200\n"
 "Last-Translator: Andraz Tori <andraz.tori1@guest.arnes.si>\n"
 "Language-Team: Slovenian <sl@li.org>\n"
@@ -15,12 +15,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: index.theme.in.h:1
-msgid "Default Gnome Theme"
+#, fuzzy
+msgid "Default GNOME Theme"
 msgstr "Privzeta tema Gnome"
 
 #: index.theme.in.h:2
-msgid "Gnome"
-msgstr "Gnome"
+msgid "GNOME"
+msgstr ""
 
 # G:3 K:0 O:0
 #: 48x48/emblems/emblem-art.icon.in.h:1
@@ -37,6 +38,11 @@ msgid "Camera"
 msgstr "Fotoaparat"
 
 # G:2 K:0 O:0
+#: 48x48/emblems/emblem-certified.icon.in.h:1
+msgid "Certified"
+msgstr "Preverjeno"
+
+# G:2 K:0 O:0
 #: 48x48/emblems/emblem-cool.icon.in.h:1
 msgid "Cool"
 msgstr "Kulsko"
@@ -46,15 +52,39 @@ msgstr "Kulsko"
 msgid "Danger"
 msgstr "Nevarno"
 
+# G:2 K:0 O:0
+#: 48x48/emblems/emblem-distinguished.icon.in.h:1
+msgid "Distinguished"
+msgstr "Odlikovano"
+
 # G:1 K:0 O:0
 #: 48x48/emblems/emblem-documents.icon.in.h:1
 msgid "Documents"
 msgstr "Dokumenti"
 
+# G:2 K:0 O:0
+#: 48x48/emblems/emblem-draft.icon.in.h:1
+msgid "Draft"
+msgstr "Osnutek"
+
 # G:3 K:1 O:0
 #: 48x48/emblems/emblem-favorite.icon.in.h:1
 msgid "Favorite"
 msgstr "Najljubše"
+
+# G:2 K:0 O:0
+#: 48x48/emblems/emblem-generic.icon.in.h:1
+msgid "Generic"
+msgstr "Splošno"
+
+#: 48x48/emblems/emblem-handshake.icon.in.h:1
+msgid "Handshake"
+msgstr ""
+
+# G:1 K:1 O:0
+#: 48x48/emblems/emblem-important.icon.in.h:1
+msgid "Important"
+msgstr "Pomembno"
 
 # G:5 K:2 O:0
 #: 48x48/emblems/emblem-mail.icon.in.h:1
@@ -65,10 +95,19 @@ msgstr "Pošta"
 msgid "Marketing"
 msgstr "Marketing"
 
+#: 48x48/emblems/emblem-money.icon.in.h:1
+msgid "Money"
+msgstr ""
+
 # G:2 K:2 O:0
 #: 48x48/emblems/emblem-multimedia.icon.in.h:1
 msgid "Multimedia"
 msgstr "Multimedija"
+
+# G:3 K:0 O:0
+#: 48x48/emblems/emblem-new.icon.in.h:1
+msgid "New"
+msgstr "Novo"
 
 # G:4 K:5 O:0
 #: 48x48/emblems/emblem-ohno.icon.in.h:1
@@ -76,9 +115,23 @@ msgid "Oh no!"
 msgstr "O ne!"
 
 # G:3 K:0 O:0
+#: 48x48/emblems/emblem-OK.icon.in.h:1
+msgid "OK"
+msgstr "V redu"
+
+# G:3 K:0 O:0
 #: 48x48/emblems/emblem-package.icon.in.h:1
 msgid "Package"
 msgstr "Paket"
+
+#: 48x48/emblems/emblem-people.icon.in.h:1
+msgid "People"
+msgstr ""
+
+# G:1 K:0 O:0
+#: 48x48/emblems/emblem-personal.icon.in.h:1
+msgid "Personal"
+msgstr "Osebno"
 
 # G:2 K:1 O:0
 #: 48x48/emblems/emblem-pictures.icon.in.h:1
@@ -89,6 +142,10 @@ msgstr "Slike"
 msgid "Plan"
 msgstr "Načrt"
 
+#: 48x48/emblems/emblem-presentation.icon.in.h:1
+msgid "Presentation"
+msgstr ""
+
 #: 48x48/emblems/emblem-sales.icon.in.h:1
 msgid "Sales"
 msgstr "Prodaja"
@@ -98,57 +155,20 @@ msgstr "Prodaja"
 msgid "Sound"
 msgstr "Zvok"
 
+# G:3 K:4 O:0
+#: 48x48/emblems/emblem-special.icon.in.h:1
+msgid "Special"
+msgstr "Posebno"
+
+# G:2 K:1 O:0
+#: 48x48/emblems/emblem-urgent.icon.in.h:1
+msgid "Urgent"
+msgstr "Nujno"
+
 # G:9 K:5 O:0
 #: 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Splet"
 
-# G:2 K:0 O:0
-#: scalable/emblems/emblem-certified.icon.in.h:1
-msgid "Certified"
-msgstr "Preverjeno"
-
-# G:2 K:0 O:0
-#: scalable/emblems/emblem-distinguished.icon.in.h:1
-msgid "Distinguished"
-msgstr "Odlikovano"
-
-# G:2 K:0 O:0
-#: scalable/emblems/emblem-draft.icon.in.h:1
-msgid "Draft"
-msgstr "Osnutek"
-
-# G:2 K:0 O:0
-#: scalable/emblems/emblem-generic.icon.in.h:1
-msgid "Generic"
-msgstr "Splošno"
-
-# G:1 K:1 O:0
-#: scalable/emblems/emblem-important.icon.in.h:1
-msgid "Important"
-msgstr "Pomembno"
-
-# G:3 K:0 O:0
-#: scalable/emblems/emblem-new.icon.in.h:1
-msgid "New"
-msgstr "Novo"
-
-# G:3 K:0 O:0
-#: scalable/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "V redu"
-
-# G:1 K:0 O:0
-#: scalable/emblems/emblem-personal.icon.in.h:1
-msgid "Personal"
-msgstr "Osebno"
-
-# G:3 K:4 O:0
-#: scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "Posebno"
-
-# G:2 K:1 O:0
-#: scalable/emblems/emblem-urgent.icon.in.h:1
-msgid "Urgent"
-msgstr "Nujno"
+#~ msgid "Gnome"
+#~ msgstr "Gnome"
