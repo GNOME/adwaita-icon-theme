@@ -11,6 +11,7 @@ icon_DATA =\
 	gnome-fs-directory-visiting.png \
 	gnome-fs-directory.icon \
 	gnome-fs-directory.png \
+	gnome-fs-home.png \
 	gnome-fs-regular.icon \
 	gnome-fs-regular.png \
 	$(NULL)
