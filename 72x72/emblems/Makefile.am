@@ -1,0 +1,10 @@
+NULL=
+
+iconsize=72x72
+category=emblems
+icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
+
+icon_DATA =\
+	$(NULL)
+
+EXTRA_DIST = $(icon_DATA)
