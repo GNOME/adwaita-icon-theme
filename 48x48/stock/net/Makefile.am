@@ -16,7 +16,7 @@ icon_DATA =\
    stock_groupwise-connector.png \
    stock_inbox.png \
    stock_mail.png \
-   stock_mail_open.png \
+   stock_mail-open.png \
    stock_outbox.png \
    stock_post-message.png \
    stock_sent-mail.png \
