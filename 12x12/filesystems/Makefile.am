@@ -6,6 +6,7 @@ icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
 
 icon_DATA =\
 	gnome-fs-directory-accept.png \
+	gnome-fs-directory-visiting.png \
 	gnome-fs-directory.png \
 	$(NULL)
 

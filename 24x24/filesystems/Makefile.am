@@ -10,6 +10,7 @@ icon_DATA =\
    gnome-fs-client.png \
 	gnome-fs-directory-accept.icon \
 	gnome-fs-directory-accept.png \
+	gnome-fs-directory-visiting.png \
 	gnome-fs-directory.icon \
 	gnome-fs-directory.png \
    gnome-fs-network.png \
