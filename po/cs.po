@@ -8,21 +8,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-12-28 10:32+0100\n"
-"PO-Revision-Date: 2003-10-20 10:17+0200\n"
+"POT-Creation-Date: 2004-05-21 03:50+0200\n"
+"PO-Revision-Date: 2004-05-21 16:43+0200\n"
 "Last-Translator: Miloslav Trmac <mitr@volny.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: index.theme.in.h:1
-msgid "Default GNOME Theme"
-msgstr "Implicitní téma GNOME"
-
-#: index.theme.in.h:2
-msgid "GNOME"
-msgstr "GNOME"
+# 48x48/emblems/emblem-OK.icon.in.h:1
+#: 48x48/emblems/emblem-OK.icon.in.h:1
+msgid "OK"
+msgstr "OK"
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 #: 48x48/emblems/emblem-art.icon.in.h:1
@@ -49,10 +46,42 @@ msgstr "Certifikováno"
 msgid "Cool"
 msgstr "Skvělé"
 
+#: 48x48/emblems/emblem-cvs-added.icon.in.h:1
+msgid "cvs-added"
+msgstr "cvs-added"
+
+#: 48x48/emblems/emblem-cvs-conflict.icon.in.h:1
+msgid "cvs-conflict"
+msgstr "cvs-conflict"
+
+#: 48x48/emblems/emblem-cvs-controlled.icon.in.h:1
+msgid "cvs-controlled"
+msgstr "cvs-controlled"
+
+#: 48x48/emblems/emblem-cvs-modified.icon.in.h:1
+msgid "cvs-modified"
+msgstr "cvs-modified"
+
+#: 48x48/emblems/emblem-cvs-new-file.icon.in.h:1
+msgid "cvs-new-file"
+msgstr "cvs-new-file"
+
+#: 48x48/emblems/emblem-cvs-removed.icon.in.h:1
+msgid "cvs-removed"
+msgstr "cvs-removed"
+
+#: 48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
+msgid "cvs-sticky-tag"
+msgstr "cvs-sticky-tag"
+
 # 48x48/emblems/emblem-danger.icon.in.h:1
 #: 48x48/emblems/emblem-danger.icon.in.h:1
 msgid "Danger"
 msgstr "Nebezpečí"
+
+#: 48x48/emblems/emblem-desktop.icon.in.h:1
+msgid "Desktop"
+msgstr "Pracovní plocha"
 
 #: 48x48/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
@@ -111,15 +140,23 @@ msgstr "Multimédia"
 msgid "New"
 msgstr "Nové"
 
+#: 48x48/emblems/emblem-noread.icon.in.h:1
+msgid "No read"
+msgstr "Bez čtení"
+
+#: 48x48/emblems/emblem-note.icon.in.h:1
+msgid "Note"
+msgstr "Poznámka"
+
+# 48x48/emblems/emblem-favorite.icon.in.h:1
+#: 48x48/emblems/emblem-nowrite.icon.in.h:1
+msgid "No write"
+msgstr "Bez zápisu"
+
 # 48x48/emblems/emblem-ohno.icon.in.h:1
 #: 48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
 msgstr "Ach ne!"
-
-# 48x48/emblems/emblem-OK.icon.in.h:1
-#: 48x48/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "OK"
 
 # 48x48/emblems/emblem-package.icon.in.h:1
 #: 48x48/emblems/emblem-package.icon.in.h:1
@@ -160,10 +197,18 @@ msgstr "Prodej"
 msgid "Sound"
 msgstr "Zvuk"
 
+#: 48x48/emblems/emblem-symbolic-link.icon.in.h:1
+msgid "Symbolic link"
+msgstr "Symbolický odkaz"
+
 # 48x48/emblems/emblem-special.icon.in.h:1
 #: 48x48/emblems/emblem-special.icon.in.h:1
 msgid "Special"
 msgstr "Speciální"
+
+#: 48x48/emblems/emblem-trash.icon.in.h:1
+msgid "Trash"
+msgstr "Smetí"
 
 #: 48x48/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
@@ -173,3 +218,11 @@ msgstr "Naléhavé"
 #: 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Síť"
+
+#: index.theme.in.h:1
+msgid "Default GNOME Theme"
+msgstr "Implicitní téma GNOME"
+
+#: index.theme.in.h:2
+msgid "GNOME"
+msgstr "GNOME"
