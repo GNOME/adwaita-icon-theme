@@ -55,6 +55,7 @@ icon_DATA =\
    stock_help.png \
    stock_home.png \
    stock_id.png \
+   stock_keyring.png \
    stock_landline-phone.png \
    stock_news.png \
    stock_new-appointment.png \
