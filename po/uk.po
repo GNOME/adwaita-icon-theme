@@ -1,27 +1,24 @@
 # Ukrainian translation for gnome-icon-theme.
 # Copyright (C) 2003 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome-icon-theme package.
+# Yuriy Syrota <yuri@renome.rovno.ua>
+# Maxim Dzumanenko <mvd@mylinux.com.ua>, 2004
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-12-28 10:32+0100\n"
-"PO-Revision-Date: 2003-09-11 14:13+0300\n"
-"Last-Translator: Yuriy Syrota <yuri@renome.rovno.ua>\n"
+"POT-Creation-Date: 2004-03-13 14:04+0200\n"
+"PO-Revision-Date: 2004-03-12 14:13+0300\n"
+"Last-Translator: Maxim Dzumanenko <mvd@mylinux.com.ua>\n"
 "Language-Team: Ukrainian <linux@linux.org.ua>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: index.theme.in.h:1
-#, fuzzy
-msgid "Default GNOME Theme"
-msgstr "Стандартна тема середовища GNOME"
-
-#: index.theme.in.h:2
-msgid "GNOME"
-msgstr ""
+#: 48x48/emblems/emblem-OK.icon.in.h:1
+msgid "OK"
+msgstr "Гаразд"
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 #: 48x48/emblems/emblem-art.icon.in.h:1
@@ -40,7 +37,7 @@ msgstr "Камера"
 
 #: 48x48/emblems/emblem-certified.icon.in.h:1
 msgid "Certified"
-msgstr "Сертифіковано"
+msgstr "Сертифікованою"
 
 #: 48x48/emblems/emblem-cool.icon.in.h:1
 msgid "Cool"
@@ -61,7 +58,7 @@ msgstr "Документи"
 
 #: 48x48/emblems/emblem-draft.icon.in.h:1
 msgid "Draft"
-msgstr "Чорновик"
+msgstr "Чернетка"
 
 #: 48x48/emblems/emblem-favorite.icon.in.h:1
 msgid "Favorite"
@@ -74,7 +71,7 @@ msgstr "Загальне"
 # 48x48/emblems/emblem-handshake.icon.in.h:1
 #: 48x48/emblems/emblem-handshake.icon.in.h:1
 msgid "Handshake"
-msgstr ""
+msgstr "Рукостискання"
 
 #: 48x48/emblems/emblem-important.icon.in.h:1
 msgid "Important"
@@ -93,7 +90,7 @@ msgstr "Маркетинг"
 # 48x48/emblems/emblem-money.icon.in.h:1
 #: 48x48/emblems/emblem-money.icon.in.h:1
 msgid "Money"
-msgstr ""
+msgstr "Гроші"
 
 # 48x48/emblems/emblem-multimedia.icon.in.h:1
 #: 48x48/emblems/emblem-multimedia.icon.in.h:1
@@ -108,10 +105,6 @@ msgstr "Нове"
 msgid "Oh no!"
 msgstr "О, ні!"
 
-#: 48x48/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "Гаразд"
-
 # 48x48/emblems/emblem-package.icon.in.h:1
 #: 48x48/emblems/emblem-package.icon.in.h:1
 msgid "Package"
@@ -120,7 +113,7 @@ msgstr "Пакет"
 # 48x48/emblems/emblem-people.icon.in.h:1
 #: 48x48/emblems/emblem-people.icon.in.h:1
 msgid "People"
-msgstr ""
+msgstr "Люди"
 
 #: 48x48/emblems/emblem-personal.icon.in.h:1
 msgid "Personal"
@@ -139,7 +132,7 @@ msgstr "План"
 # 48x48/emblems/emblem-presentation.icon.in.h:1
 #: 48x48/emblems/emblem-presentation.icon.in.h:1
 msgid "Presentation"
-msgstr ""
+msgstr "Презентація"
 
 # 48x48/emblems/emblem-sales.icon.in.h:1
 #: 48x48/emblems/emblem-sales.icon.in.h:1
@@ -164,5 +157,10 @@ msgstr "Термінове"
 msgid "Web"
 msgstr "Веб"
 
-#~ msgid "Gnome"
-#~ msgstr "Гном"
+#: index.theme.in.h:1
+msgid "Default GNOME Theme"
+msgstr "Типова тема середовища GNOME"
+
+#: index.theme.in.h:2
+msgid "GNOME"
+msgstr "GNOME"
