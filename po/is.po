@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-04-03 22:45+0000\n"
+"POT-Creation-Date: 2003-12-28 10:32+0100\n"
 "PO-Revision-Date: 2004-03-13 06:30-0000\n"
 "Last-Translator: helgi <helgi@trance.is>\n"
 "Language-Team: Icelandic <gnome@techattack.nu>\n"
@@ -15,9 +15,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: 48x48/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "Í Lagi"
+#: index.theme.in.h:1
+msgid "Default GNOME Theme"
+msgstr "Sjálfgefið GNOME Þema"
+
+#: index.theme.in.h:2
+msgid "GNOME"
+msgstr "GNOME"
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 # 48x48/emblems/emblem-art.icon.in.h:1
@@ -115,6 +119,10 @@ msgstr "Nýtt"
 msgid "Oh no!"
 msgstr "Ó Nei!"
 
+#: 48x48/emblems/emblem-OK.icon.in.h:1
+msgid "OK"
+msgstr "Í Lagi"
+
 # 48x48/emblems/emblem-package.icon.in.h:1
 # 48x48/emblems/emblem-package.icon.in.h:1
 #: 48x48/emblems/emblem-package.icon.in.h:1
@@ -172,11 +180,3 @@ msgstr "Áríðandi"
 #: 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Vefur"
-
-#: index.theme.in.h:1
-msgid "Default GNOME Theme"
-msgstr "Sjálfgefið GNOME Þema"
-
-#: index.theme.in.h:2
-msgid "GNOME"
-msgstr "GNOME"
