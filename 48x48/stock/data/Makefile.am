@@ -1,6 +1,6 @@
 NULL=
 
-iconsize=32x32
+iconsize=48x48
 category=stock
 subtype=data
 icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)/$(subtype)
@@ -9,8 +9,6 @@ icon_DATA =\
    stock_lock.png \
    stock_lock-broken.png \
    stock_lock-ok.png \
-   stock_data-sources-hand.png \
-   stock_data-sources.png \
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)
