@@ -10,19 +10,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Gnome-Icon-Theme-2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-02-14 18:21+0100\n"
+"POT-Creation-Date: 2003-12-28 10:32+0100\n"
 "PO-Revision-Date: 2004-02-14 18:22+0100\n"
 "Last-Translator: Branko Ivanović <popeye@one.ekof.bg.ac.yu>\n"
 "Language-Team: Serbian (sr) <serbiangnome-lista@nongnu.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3;    plural=n%10==1 && n%100!=11 ? 0 :    n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3;    plural=n%10==1 && n%100!=11 ? 0 :    n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
-# 48x48/emblems/emblem-OK.icon.in.h:1
-#: 48x48/emblems/emblem-OK.icon.in.h:1 scalable/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "U redu"
+#: index.theme.in.h:1
+msgid "Default GNOME Theme"
+msgstr "Podrazumevana tema Gnoma"
+
+#: index.theme.in.h:2
+msgid "GNOME"
+msgstr "Gnom"
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 # 48x48/emblems/emblem-art.icon.in.h:1
@@ -44,25 +48,21 @@ msgstr "Kamera"
 
 # 48x48/emblems/emblem-certified.icon.in.h:1
 #: 48x48/emblems/emblem-certified.icon.in.h:1
-#: scalable/emblems/emblem-certified.icon.in.h:1
 msgid "Certified"
 msgstr "Potvrđeno"
 
 # 48x48/emblems/emblem-cool.icon.in.h:1
 #: 48x48/emblems/emblem-cool.icon.in.h:1
-#: scalable/emblems/emblem-cool.icon.in.h:1
 msgid "Cool"
 msgstr "Odlično"
 
 # 48x48/emblems/emblem-danger.icon.in.h:1
 #: 48x48/emblems/emblem-danger.icon.in.h:1
-#: scalable/emblems/emblem-danger.icon.in.h:1
 msgid "Danger"
 msgstr "Opasno"
 
 # 48x48/emblems/emblem-distinguished.icon.in.h:1
 #: 48x48/emblems/emblem-distinguished.icon.in.h:1
-#: scalable/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
 msgstr "Izuzetno"
 
@@ -74,19 +74,16 @@ msgstr "Dokumenta"
 
 # 48x48/emblems/emblem-draft.icon.in.h:1
 #: 48x48/emblems/emblem-draft.icon.in.h:1
-#: scalable/emblems/emblem-draft.icon.in.h:1
 msgid "Draft"
 msgstr "Priprema"
 
 # 48x48/emblems/emblem-favorite.icon.in.h:1
 #: 48x48/emblems/emblem-favorite.icon.in.h:1
-#: scalable/emblems/emblem-favorite.icon.in.h:1
 msgid "Favorite"
 msgstr "Omiljeno"
 
 # 48x48/emblems/emblem-generic.icon.in.h:1
 #: 48x48/emblems/emblem-generic.icon.in.h:1
-#: scalable/emblems/emblem-generic.icon.in.h:1
 msgid "Generic"
 msgstr "Opšte"
 
@@ -98,7 +95,6 @@ msgstr "Rukovanje"
 
 # 48x48/emblems/emblem-important.icon.in.h:1
 #: 48x48/emblems/emblem-important.icon.in.h:1
-#: scalable/emblems/emblem-important.icon.in.h:1
 msgid "Important"
 msgstr "Važno"
 
@@ -128,7 +124,6 @@ msgstr "Multimedija"
 
 # 48x48/emblems/emblem-new.icon.in.h:1
 #: 48x48/emblems/emblem-new.icon.in.h:1
-#: scalable/emblems/emblem-new.icon.in.h:1
 msgid "New"
 msgstr "Novo"
 
@@ -136,6 +131,11 @@ msgstr "Novo"
 #: 48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
 msgstr "O ne!"
+
+# 48x48/emblems/emblem-OK.icon.in.h:1
+#: 48x48/emblems/emblem-OK.icon.in.h:1
+msgid "OK"
+msgstr "U redu"
 
 # 48x48/emblems/emblem-package.icon.in.h:1
 # 48x48/emblems/emblem-package.icon.in.h:1
@@ -151,7 +151,6 @@ msgstr "Ljudi"
 
 # 48x48/emblems/emblem-personal.icon.in.h:1
 #: 48x48/emblems/emblem-personal.icon.in.h:1
-#: scalable/emblems/emblem-personal.icon.in.h:1
 msgid "Personal"
 msgstr "Lično"
 
@@ -187,13 +186,11 @@ msgstr "Zvuk"
 
 # 48x48/emblems/emblem-special.icon.in.h:1
 #: 48x48/emblems/emblem-special.icon.in.h:1
-#: scalable/emblems/emblem-special.icon.in.h:1
 msgid "Special"
 msgstr "Posebno"
 
 # 48x48/emblems/emblem-urgent.icon.in.h:1
 #: 48x48/emblems/emblem-urgent.icon.in.h:1
-#: scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
 msgstr "Hitno"
 
@@ -203,15 +200,6 @@ msgstr "Hitno"
 msgid "Web"
 msgstr "Mreža"
 
-#: index.theme.in.h:1
-msgid "Default GNOME Theme"
-msgstr "Podrazumevana tema Gnoma"
-
-#: index.theme.in.h:2
-msgid "GNOME"
-msgstr "Gnom"
-
 # 48x48/emblems/emblem-ohno.icon.in.h:1
-#: scalable/emblems/emblem-ohno.icon.in.h:1
-msgid "Oh No!"
-msgstr "O ne!"
+#~ msgid "Oh No!"
+#~ msgstr "O ne!"
