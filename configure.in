@@ -14,7 +14,9 @@ AC_OUTPUT([
 Makefile
 gnome-icon-theme.spec
 12x12/Makefile
+16x16/Makefile
 24x24/Makefile
+32x32/Makefile
 36x36/Makefile
 48x48/Makefile
 72x72/Makefile
@@ -25,10 +27,13 @@ scalable/Makefile
 12x12/emblems/Makefile        
 12x12/filesystems/Makefile    
 12x12/mimetypes/Makefile      
+16x16/apps/Makefile      
+24x24/apps/Makefile        
 24x24/devices/Makefile        
 24x24/emblems/Makefile        
 24x24/filesystems/Makefile    
 24x24/mimetypes/Makefile      
+32x32/apps/Makefile        
 36x36/devices/Makefile        
 36x36/emblems/Makefile        
 36x36/filesystems/Makefile
