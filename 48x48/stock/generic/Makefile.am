@@ -20,6 +20,13 @@ icon_DATA =\
    stock_people.png \
    stock_person.png \
    stock_summary.png \
+   stock_weather-cloudy.png \
+   stock_weather-few-clouds.png \
+   stock_weather-fog.png \
+   stock_weather-showers.png \
+   stock_weather-snow.png \
+   stock_weather-storm.png \
+   stock_weather-sunny.png \
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)
