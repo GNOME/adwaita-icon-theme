@@ -25,6 +25,9 @@ icon_DATA =\
 	$(NULL)
 
 install-data-hook:
-	$(INSTALL) stock_save-as.png $(DESTDIR)$(icondir)/stock_save_as.png
+	$(INSTALL) $(srcdir)/stock_save-as.png $(DESTDIR)$(icondir)/stock_save_as.png
+
+uninstall-hook:
+	rm -f $(DESTDIR)$(icondir)/stock_save_as.png
 
 EXTRA_DIST = $(icon_DATA)

@@ -16,9 +16,14 @@ icondir = $(datadir)/icons/gnome
 
 icon_DATA = index.theme
 
-EXTRA_DIST=index.theme.in index.theme intltool-update.in intltool-merge.in intltool-extract.in \
-	gnome-icon-theme.spec gnome-icon-theme.spec.in \
-	gnome-icon-theme.pc.in \
+EXTRA_DIST=				\
+	index.theme.in 			\
+	intltool-update.in 		\
+	intltool-merge.in 		\
+	intltool-extract.in		\
+	gnome-icon-theme.spec		\
+	gnome-icon-theme.spec.in	\
+	gnome-icon-theme.pc.in		\
 	mkinstalldirs
 
 # we don't want to install mo files, all translations are already stored
@@ -46,6 +51,24 @@ endif
 
 DISTCHECK_CONFIGURE_FLAGS = --disable-hicolor-check
 
-CLEANFILES = index.theme
+CLEANFILES = 				\
+	index.theme
 
-DISTCLEANFILES = intltool-extract intltool-merge intltool-update
+DISTCLEANFILES = 			\
+	po/.intltool-merge-cache	\
+	intltool-extract		\
+	intltool-merge			\
+	intltool-update
+
+MAINTAINERCLEANFILES =			\
+	Makefile.in			\
+	aclocal.m4			\
+	configure			\
+	install-sh			\
+	intltool-extract.in		\
+	intltool-merge.in		\
+	intltool-update.in		\
+	missing				\
+	po/Makefile.in.in		\
+	po/$(GETTEXT_PACKAGE).pot
+
