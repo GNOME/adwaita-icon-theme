@@ -1,21 +1,27 @@
+2004-10-02  Rodney Dawes  <dobey@novell.com>
+
+	* configure.in: Bump version to 2.9.0
+
+	* 48x48/emblems/Makefile.am:
+	* 48x48/emblems/emblem-shared.(png|icon.in):
+	Add a shared emblem for file sharing solutions
+
 2004-10-01  Jon K Hellan  <hellan@acm.org>
 
 	* .cvsignore, 32x32/devices/.cvsignore,
 	16x16/stock/emoticons/.cvsignore: Update/add cvsignore files.
 
-
-
 2004-09-24  Jakub Steiner <jimmac@ximian.com>
 
 	* 48x48/apps:
 	  - character-picker.png
-		- clock.png
-		- drawer.png
-		- eyes.png
-		- modem.png
-		- stock-ticker.png
-		- volume-knob.png: new look for the applets. Can someone please take a
-		look at making the applets use these?
+	  - clock.png
+	  - drawer.png
+	  - eyes.png
+	  - modem.png
+	  - stock-ticker.png
+	  - volume-knob.png: new look for the applets. Can someone please
+	    take a look at making the applets use these?
 
 2004-09-13  Rodney Dawes  <dobey@novell.com>
 	

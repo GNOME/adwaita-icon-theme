@@ -42,6 +42,7 @@ icon_in_files =				\
 	emblem-plan.icon.in		\
 	emblem-presentation.icon.in	\
 	emblem-sales.icon.in		\
+	emblem-shared.icon.in		\
 	emblem-sound.icon.in		\
 	emblem-special.icon.in 		\
 	emblem-symbolic-link.icon.in	\
@@ -60,7 +61,7 @@ icon_DATA =\
 	emblem-cvs-conflict.png 	\
 	emblem-cvs-controlled.png 	\
 	emblem-cvs-modified.png 	\
-   emblem-cvs-new-file.png \
+	emblem-cvs-new-file.png \
 	emblem-cvs-removed.png 	\
 	emblem-cvs-sticky-tag.png 	\
 	emblem-danger.png		\
@@ -88,6 +89,7 @@ icon_DATA =\
 	emblem-plan.png			\
 	emblem-presentation.png		\
 	emblem-sales.png		\
+	emblem-shared.png		\
 	emblem-sound.png		\
 	emblem-special.png		\
 	emblem-symbolic-link.png	\
