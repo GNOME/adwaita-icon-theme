@@ -43,10 +43,12 @@ icon_DATA =\
    gnome-networktool.png \
    gnome-nibbles.png \
 	gnome-other.png \
+   gnome-panel.png   \
    gnome-pdf.png \
 	gnome-reboot.png \
    gnome-searchtool.png \
 	gnome-server-config.png \
+   gnome-session.png \
 	gnome-settings.png \
 	gnome-system.png \
 	gnome-system-config.png \
@@ -55,6 +57,7 @@ icon_DATA =\
    gnome-terminal.png \
 	gnome-util.png \
 	gnome-unknown.png \
+   gnome-window-manager.png   \
    hwbrowser.png \
    iagno.png \
    keyboard.png \
