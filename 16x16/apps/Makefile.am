@@ -13,6 +13,7 @@ icon_DATA =\
    gnome-logout.png \
    gnome-run.png \
    gnome-settings.png \
+	 gnome-window-manager.png \
    im.png   \
    im-aim.png  \
    im-icq.png  \

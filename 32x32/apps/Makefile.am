@@ -40,6 +40,7 @@ icon_DATA =\
    gnome-pdf.png \
    gnome-terminal.png \
    gnome-util.png \
+	 gnome-window-manager.png \
    hwbrowser.png \
    iagno.png \
    keyboard.png \

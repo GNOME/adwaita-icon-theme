@@ -24,6 +24,7 @@ icon_DATA =\
    gnome-settings.png \
    gnome-status.png \
    gnome-terminal.png \
+	 gnome-window-manager.png \
    panel-notification-area.png \
    panel-window-list.png \
    panel-window-menu.png \
