@@ -1,3 +1,24 @@
+2002-12-12  Alexander Larsson  <alexl@redhat.com>
+
+	* .cvsignore:
+	Ignore some files
+	
+	* index.theme.in:
+	Add apps subdirs.
+	
+	* 48x48/Makefile.am:
+	* 48x48/apps/Makefile.am:
+	* 48x48/apps/gnome-desktop-config.png:
+	* 48x48/apps/gnome-server-config.png:
+	* 48x48/apps/gnome-starthere.png:
+	* 48x48/apps/gnome-system-config.png:
+	* 96x96/Makefile.am:
+	* 96x96/apps/Makefile.am:
+	* 96x96/apps/gnome-starthere.png:
+	* configure.in:
+	Added icons needed by start-here. These go in gnome, not hicolor, because
+	they are very gnome-specific, and other desktops won't ever see them.
+
 2002-12-11  Alexander Larsson  <alexl@redhat.com>
 
 	* 48x48/filesystems/Makefile.am:

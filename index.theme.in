@@ -1,7 +1,12 @@
 [Icon Theme]
 _Name=Gnome
 _Comment=Default Gnome Theme
-Directories=192x192/devices,192x192/emblems,192x192/filesystems,192x192/mimetypes,96x96/devices,96x96/emblems,96x96/filesystems,96x96/mimetypes,72x72/devices,72x72/emblems,72x72/filesystems,72x72/mimetypes,48x48/devices,48x48/emblems,48x48/filesystems,48x48/mimetypes,36x36/devices,36x36/emblems,36x36/filesystems,36x36/mimetypes,24x24/devices,24x24/emblems,24x24/filesystems,24x24/mimetypes,12x12/devices,12x12/emblems,12x12/filesystems,12x12/mimetypes,scalable/devices,scalable/emblems,scalable/filesystems,scalable/mimetypes
+Directories=192x192/apps,192x192/devices,192x192/emblems,192x192/filesystems,192x192/mimetypes,96x96/apps,96x96/devices,96x96/emblems,96x96/filesystems,96x96/mimetypes,72x72/apps,72x72/devices,72x72/emblems,72x72/filesystems,72x72/mimetypes,48x48/apps,48x48/devices,48x48/emblems,48x48/filesystems,48x48/mimetypes,36x36/apps,36x36/devices,36x36/emblems,36x36/filesystems,36x36/mimetypes,24x24/apps,24x24/devices,24x24/emblems,24x24/filesystems,24x24/mimetypes,12x12/apps,12x12/devices,12x12/emblems,12x12/filesystems,12x12/mimetypes,scalable/apps,scalable/devices,scalable/emblems,scalable/filesystems,scalable/mimetypes
+
+[192x192/apps]
+Size=192
+Context=Applications
+Type=Scaled
 
 [192x192/devices]
 Size=192
@@ -21,6 +26,11 @@ Type=Scaled
 [192x192/mimetypes]
 Size=192
 Context=MimeTypes
+Type=Scaled
+
+[96x96/apps]
+Size=96
+Context=Applications
 Type=Scaled
 
 [96x96/devices]
@@ -43,6 +53,11 @@ Size=96
 Context=MimeTypes
 Type=Scaled
 
+[72x72/apps]
+Size=72
+Context=Applications
+Type=Scaled
+
 [72x72/devices]
 Size=72
 Context=Devices
@@ -61,6 +76,11 @@ Type=Scaled
 [72x72/mimetypes]
 Size=72
 Context=MimeTypes
+Type=Scaled
+
+[48x48/apps]
+Size=48
+Context=Applications
 Type=Scaled
 
 [48x48/devices]
@@ -83,6 +103,11 @@ Size=48
 Context=MimeTypes
 Type=Scaled
 
+[36x36/apps]
+Size=36
+Context=Applications
+Type=Scaled
+
 [36x36/devices]
 Size=36
 Context=Devices
@@ -101,6 +126,11 @@ Type=Scaled
 [36x36/mimetypes]
 Size=36
 Context=MimeTypes
+Type=Scaled
+
+[24x24/apps]
+Size=24
+Context=Applications
 Type=Scaled
 
 [24x24/devices]
@@ -123,6 +153,11 @@ Size=24
 Context=MimeTypes
 Type=Scaled
 
+[12x12/apps]
+Size=12
+Context=Applications
+Type=Scaled
+
 [12x12/devices]
 Size=12
 Context=Devices
@@ -141,6 +176,11 @@ Type=Scaled
 [12x12/mimetypes]
 Size=12
 Context=MimeTypes
+Type=Scaled
+
+[scalable/apps]
+Size=48
+Context=Applications
 Type=Scaled
 
 [scalable/devices]
