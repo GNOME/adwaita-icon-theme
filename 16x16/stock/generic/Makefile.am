@@ -6,6 +6,7 @@ subtype=generic
 icondir = $(datadir)/icons/hicolor/$(iconsize)/$(category)/$(subtype)
 
 icon_DATA =\
+   stock_autocompletion.png \
    stock_3d-favourites.png \
    stock_about.png \
    stock_active.png \
@@ -23,9 +24,11 @@ icon_DATA =\
    stock_calc-accept.png \
    stock_calc-cancel.png \
    stock_calendar.png \
+   stock_calendar-and-tasks.png \
    stock_cell-phone.png \
    stock_check-filled.png \
    stock_close.png \
+   stock_color.png \
    stock_copy.png \
    stock_cut.png \
    stock_default-folder.png \

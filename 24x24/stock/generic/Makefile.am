@@ -8,6 +8,7 @@ icondir = $(datadir)/icons/hicolor/$(iconsize)/$(category)/$(subtype)
 icon_DATA =\
 	stock_about.png 		\
    stock_active.png  \
+	stock_autocompletion.png \
 	stock_allow-effects.png 	\
 	stock_anchor.png 		\
 	stock_animation.png 		\
@@ -28,8 +29,10 @@ icon_DATA =\
 	stock_calendar-view-work-week.png 		\
 	stock_calendar-view-year.png 		\
 	stock_calendar.png 		\
+	stock_calendar-and-tasks.png 		\
 	stock_cell-phone.png 		\
 	stock_close.png 		\
+	stock_color.png 			\
 	stock_copy.png 			\
 	stock_cut.png 			\
 	stock_delete.png 		\

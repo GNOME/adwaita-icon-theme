@@ -7,6 +7,7 @@ icondir = $(datadir)/icons/hicolor/$(iconsize)/$(category)/$(subtype)
 
 icon_DATA =\
 	stock_alarm.png 		\
+	stock_autocompletion.png \
 	stock_autopilot.png 		\
    stock_briefcase.png  \
 	stock_calendar.png 		\

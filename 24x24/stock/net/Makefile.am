@@ -18,6 +18,7 @@ icon_DATA =\
    stock_disconnect.png \
    stock_exchange-connector.png \
    stock_groupwise-connector.png \
+   stock_hand-signed.png \
    stock_hyperlink-internet-search.png \
    stock_hyperlink.png \
    stock_hyperlink-target.png \
@@ -26,11 +27,13 @@ icon_DATA =\
    stock_insert-url.png \
    stock_internet.png \
    stock_link.png \
+   stock_mail-accounts.png \
    stock_mail.png \
    stock_mail-compose.png \
    stock_mail-copy.png \
    stock_mail-filters-apply.png \
    stock_mail-forward.png \
+   stock_mail-handling.png \
    stock_mail-import.png \
    stock_mail-merge.png \
    stock_mail-move.png \
@@ -44,6 +47,7 @@ icon_DATA =\
    stock_mail-send-receive.png \
    stock_mail-unread.png \
    stock_mail-unread-multiple.png \
+   stock_message-display.png \
    stock_not-spam.png   \
    stock_online-layout.png \
    stock_outbox.png \
