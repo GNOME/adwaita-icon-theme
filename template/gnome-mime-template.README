@@ -1,0 +1,40 @@
+Gnome mime icon template
+========================
+
+1. Purpose
+
+  The purpose of this GIMP icon template is to make it easier
+  for ARTISTS to create new mimetypes for the Gnome icon theme.
+
+  If you are a hacker, with no artistic sense whatsoever, please
+  send a request to an artist instead of commiting a
+  'placeholder' artwork. It's better to have a non-specific icon
+  than an ugly one. 
+
+  If you wan't to speed up the process, send a description of
+  the icon/application handling it, along with the extension
+  suffix and mime-type to jimmac@ximian.com or
+  tigert@ximian.com.
+
+2. Color codes
+
+  Each mime type uses a specific color for the label background
+  color. The template includes all of them, so you can toggle
+  the visibility of the labels to show only the appropriate one
+  (ie, only have 'audio/*' visible if you were drawing
+  gnome-mime-audio-mpeg.png). 
+
+3. Font
+
+  The font to create the labels is Tahoma. You can get it from
+  the MS WebFonts package at http://corefonts.sf.net.
+
+  Use a bold typeface with the size of 10px. Historically the
+  text was rendered using the bytecode-hinter-enabled freetype
+  giving a superbly crisp rendering output. However most distros
+  ship with a default freetype autohinter, so you can use
+  whatever your distro provides (it can be a little blurry). 
+
+  If you use a recent GIMP (1.3.12+), the text tool reads all the
+  font info from the template file so you shouldn't be required
+  to tweak it and only replace the text.
