@@ -5,57 +5,61 @@ category=apps
 icondir = $(datadir)/icons/hicolor/$(iconsize)/$(category)
 
 icon_DATA =\
-   administration.png \
-   advanced-directory.png \
-   accessibility-directory.png \
-   apacheconf.png \
-   applets-screenshooter.png \
-   beast.png   \
-   blender.png \
-   config-date.png \
-   config-language.png \
-   config-users.png \
-   config-xfree.png \
-   dia_gnome_icon.png \
-   disks.png \
-   evolution.png  \
-   file-manager.png \
-   file-roller.png \
-   gdict.png \
-   gdm.png \
-   gnome-amusements.png \
-   gnome-applications.png  \
-   gnome-audio.png \
-   gnome-calculator.png \
-   gnome-cdplayer-icon.png \
+	administration.png \
+	advanced-directory.png \
+	accessibility-directory.png \
+	apacheconf.png \
+	applets-screenshooter.png \
+	beast.png   \
+	blender.png \
+	character-picker.png \
+	clock.png \
+	config-date.png \
+	config-language.png \
+	config-users.png \
+	config-xfree.png \
+	dia_gnome_icon.png \
+	disks.png \
+	drawer.png \
+	evolution.png  \
+	eyes.png \
+	file-manager.png \
+	file-roller.png \
+	gdict.png \
+	gdm.png \
+	gnome-amusements.png \
+	gnome-applications.png  \
+	gnome-audio.png \
+	gnome-calculator.png \
+	gnome-cdplayer-icon.png \
 	gnome-desktop-config.png  \
 	gnome-devel.png \
-   gnome-favorites.png \
-   gnome-finance.png \
-   gnome-ftp.png \
+	gnome-favorites.png \
+	gnome-finance.png \
+	gnome-ftp.png \
 	gnome-globe.png \
-   gnome-gnomine.png \
+	gnome-gnomine.png \
 	gnome-graphics.png \
-   gnome-grecord.png \
-   gnome-gsame.png \
+	gnome-grecord.png \
+	gnome-gsame.png \
 	gnome-help.png \
 	gnome-joystick.png \
 	gnome-lockscreen.png \
 	gnome-logout.png  \
-   gnome-media-player.png \
-   gnome-monitor.png \
+	gnome-media-player.png \
+	gnome-monitor.png \
 	gnome-multimedia.png \
-   gnome-networktool.png \
-   gnome-nibbles.png \
+	gnome-networktool.png \
+	gnome-nibbles.png \
 	gnome-other.png \
-   gnome-panel.png   \
-   gnome-pdf.png \
+	gnome-panel.png   \
+	gnome-pdf.png \
 	gnome-reboot.png \
-   gnome-searchtool.png \
-   gnome-searchtool-animation.png \
-   gnome-searchtool-animation-rest.png \
+	gnome-searchtool.png \
+	gnome-searchtool-animation.png \
+	gnome-searchtool-animation-rest.png \
 	gnome-server-config.png \
-   gnome-session.png \
+	gnome-session.png \
 	gnome-settings.png \
 	gnome-settings-background.png \
 	gnome-settings-font.png \
@@ -70,41 +74,44 @@ icon_DATA =\
 	gnome-system-config.png \
 	gnome-starthere.png \
 	gnome-shutdown.png \
-   gnome-terminal.png \
+	gnome-terminal.png \
 	gnome-util.png \
 	gnome-unknown.png \
-   gnome-window-manager.png   \
-   hint.png \
-   hwbrowser.png \
-   iagno.png \
-   im.png   \
-   im-aim.png   \
-   im-icq.png   \
-   im-jabber.png  \
-   im-msn.png   \
-   im-nov.png  \
-   im-yahoo.png   \
-   keyboard.png \
-   logviewer.png \
-   network-config.png \
-   palm-pilot.png \
-   panel-notification-area.png \
-   panel-window-list.png \
-   panel-window-menu.png \
-   postscript-viewer.png \
-   realplayer.png \
-   serviceconf.png \
-   screensaver.png   \
-   sodipodi.png \
-   tsclient.png \
-   user-info.png  \
-   visor.png   \
-   wallpaper.png  \
-   web-browser.png \
-   wine.png \
-   xcdroast.png \
-   xchat.png \
-   xsane.png \
+	gnome-window-manager.png   \
+	hint.png \
+	hwbrowser.png \
+	iagno.png \
+	im.png   \
+	im-aim.png   \
+	im-icq.png   \
+	im-jabber.png  \
+	im-msn.png   \
+	im-nov.png  \
+	im-yahoo.png   \
+	keyboard.png \
+	logviewer.png \
+	modem.png \
+	network-config.png \
+	palm-pilot.png \
+	panel-notification-area.png \
+	panel-window-list.png \
+	panel-window-menu.png \
+	postscript-viewer.png \
+	realplayer.png \
+	serviceconf.png \
+	screensaver.png   \
+	stock-ticker.png \
+	sodipodi.png \
+	tsclient.png \
+	user-info.png  \
+	visor.png   \
+	volume-knob.png \
+	wallpaper.png  \
+	web-browser.png \
+	wine.png \
+	xcdroast.png \
+	xchat.png \
+	xsane.png \
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)
