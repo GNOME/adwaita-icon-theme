@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-03-18 22:58-0500\n"
+"POT-Creation-Date: 2003-12-28 10:32+0100\n"
 "PO-Revision-Date: 2004-03-18 22:59-0500\n"
 "Last-Translator: Gareth Owen <gowen72@yahoo.comg>\n"
 "Language-Team: \n"
@@ -15,9 +15,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: 48x48/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "OK"
+#: index.theme.in.h:1
+msgid "Default GNOME Theme"
+msgstr "Default GNOME Theme"
+
+#: index.theme.in.h:2
+msgid "GNOME"
+msgstr "GNOME"
 
 #: 48x48/emblems/emblem-art.icon.in.h:1
 msgid "Art"
@@ -95,6 +99,10 @@ msgstr "New"
 msgid "Oh no!"
 msgstr "Oh no!"
 
+#: 48x48/emblems/emblem-OK.icon.in.h:1
+msgid "OK"
+msgstr "OK"
+
 #: 48x48/emblems/emblem-package.icon.in.h:1
 msgid "Package"
 msgstr "Package"
@@ -138,11 +146,3 @@ msgstr "Urgent"
 #: 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Web"
-
-#: index.theme.in.h:1
-msgid "Default GNOME Theme"
-msgstr "Default GNOME Theme"
-
-#: index.theme.in.h:2
-msgid "GNOME"
-msgstr "GNOME"

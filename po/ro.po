@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-03-21 02:51+0200\n"
+"POT-Creation-Date: 2003-12-28 10:32+0100\n"
 "PO-Revision-Date: 2004-03-20 22:40+0200\n"
 "Last-Translator: Mişu Moldovan <dumol@go.ro>\n"
 "Language-Team: Romanian <gnomero-list@lists.sourceforge.net>\n"
@@ -14,9 +14,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: 48x48/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "Ok"
+#: index.theme.in.h:1
+msgid "Default GNOME Theme"
+msgstr "Temă implicită GNOME"
+
+#: index.theme.in.h:2
+msgid "GNOME"
+msgstr "GNOME"
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 #: 48x48/emblems/emblem-art.icon.in.h:1
@@ -103,6 +107,10 @@ msgstr "Nou"
 msgid "Oh no!"
 msgstr "Oh, nu!"
 
+#: 48x48/emblems/emblem-OK.icon.in.h:1
+msgid "OK"
+msgstr "Ok"
+
 # 48x48/emblems/emblem-package.icon.in.h:1
 #: 48x48/emblems/emblem-package.icon.in.h:1
 msgid "Package"
@@ -154,11 +162,3 @@ msgstr "Urgent"
 #: 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Internet"
-
-#: index.theme.in.h:1
-msgid "Default GNOME Theme"
-msgstr "Temă implicită GNOME"
-
-#: index.theme.in.h:2
-msgid "GNOME"
-msgstr "GNOME"
