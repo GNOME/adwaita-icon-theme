@@ -26,7 +26,6 @@ icon_in_files =				\
 	emblem-generic.icon.in 		\
 	emblem-handshake.icon.in	\
 	emblem-important.icon.in 	\
-	emblem-mail.icon.in		\
 	emblem-marketing.icon.in	\
 	emblem-money.icon.in		\
 	emblem-multimedia.icon.in	\
@@ -75,7 +74,6 @@ png_DATA =				\
 	emblem-generic.png		\
 	emblem-handshake.png		\
 	emblem-important.png 		\
-	emblem-mail.png			\
 	emblem-marketing.png		\
 	emblem-money.png		\
 	emblem-multimedia.png		\

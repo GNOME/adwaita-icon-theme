@@ -7,6 +7,7 @@ svgdir = $(icondir)
 
 icon_in_files =\
 	emblem-favorite.icon.in \
+	emblem-mail.icon.in \
 	$(NULL)
 
 icon_DATA =\
@@ -15,6 +16,7 @@ icon_DATA =\
 
 svg_DATA =\
 	emblem-favorite.svg \
+	emblem-mail.svg \
 	$(NULL)
 
 %.icon:   %.icon.in   $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)/po/*.po) ; $(INTLTOOL_MERGE) $(top_srcdir)/po $< $@ -d -u -c $(top_builddir)/po/.intltool-merge-cache
