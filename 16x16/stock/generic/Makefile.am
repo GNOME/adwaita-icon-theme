@@ -18,6 +18,7 @@ icon_DATA =\
    stock_book_open.png \
    stock_book_red.png \
    stock_book_yellow.png \
+   stock_briefcase.png  \
    stock_calc-accept.png \
    stock_calc-cancel.png \
    stock_calendar.png \
