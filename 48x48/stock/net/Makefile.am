@@ -16,12 +16,15 @@ icon_DATA =\
    stock_groupwise-connector.png \
    stock_inbox.png \
    stock_mail.png \
+   stock_mail-compose.png \
    stock_mail-druid.png \
    stock_mail-druid-account.png \
    stock_mail-import.png \
    stock_mail-flag-for-followup.png \
    stock_mail-flag-for-followup-done.png \
    stock_mail-open.png \
+   stock_mail-receive.png   \
+   stock_mail-send.png   \
    stock_not-spam.png   \
    stock_outbox.png \
    stock_post-message.png \
