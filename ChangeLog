@@ -1,3 +1,14 @@
+2003-10-23  Jakub Steiner <jimmac@ximian.com>
+
+	* 24x24/stock/generic/stock_edit.png
+	* 32x32/stock/generic/stock_edit.png
+	* 48x48/stock/generic/stock_edit.png
+	* {24x24,32x32,48x48}/stock/generic/Makefile.am:
+	  for some reason 24x24 was missing. I added 32x32 and 48x48
+	  since it may be used in Evolution prefrences dialog.
+
+	* 16x16/stock/flag/??.png: some minor updates of the flags
+
 2003-10-22  Jakub Steiner <jimmac@ximian.com>
 
 	* TODO: updated
