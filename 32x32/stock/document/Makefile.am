@@ -3,7 +3,7 @@ NULL=
 iconsize=32x32
 category=stock
 subtype=document
-icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)/$(subtype)
+icondir = $(datadir)/icons/hicolor/$(iconsize)/$(category)/$(subtype)
 
 icon_DATA =\
    stock_new-drawing.png \

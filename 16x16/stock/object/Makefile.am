@@ -3,7 +3,7 @@ NULL=
 iconsize=16x16
 category=stock
 subtype=object
-icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)/$(subtype)
+icondir = $(datadir)/icons/hicolor/$(iconsize)/$(category)/$(subtype)
 
 icon_DATA =\
    stock_3d-3d-attributes-only.png \

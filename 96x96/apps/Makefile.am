@@ -2,7 +2,7 @@ NULL=
 
 iconsize=96x96
 category=apps
-icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
+icondir = $(datadir)/icons/hicolor/$(iconsize)/$(category)
 
 icon_DATA =\
 	gnome-starthere.png \

@@ -2,7 +2,7 @@ NULL=
 
 iconsize=32x32
 category=apps
-icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
+icondir = $(datadir)/icons/hicolor/$(iconsize)/$(category)
 
 icon_DATA =\
    administration.png \

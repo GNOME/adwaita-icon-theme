@@ -3,7 +3,7 @@ NULL=
 iconsize=48x48
 category=stock
 subtype=io
-icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)/$(subtype)
+icondir = $(datadir)/icons/hicolor/$(iconsize)/$(category)/$(subtype)
 
 icon_DATA =\
 	stock_bluetooth.png \

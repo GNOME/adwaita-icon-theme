@@ -2,7 +2,7 @@ NULL=
 
 iconsize=72x72
 category=apps
-icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
+icondir = $(datadir)/icons/hicolor/$(iconsize)/$(category)
 
 icon_DATA =\
    gnome-globe.png   \

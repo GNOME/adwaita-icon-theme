@@ -1,3 +1,10 @@
+2003-12-18  Jody Goldberg <jody@gnome.org>
+
+	* configure.in : Add a pkgconfig file
+	  And bump the version so that CVS is > than the last release
+	  Move stock and app icons into hicolor from gnome so that they exist
+	  even if a gnome theme is not selected (eg the default)
+
 2003-12-18  Jakub Steiner <jimmac@ximian.com>
 
 	* 16x16/stock/document/stock_task-assigned-to.png
