@@ -1,15 +1,15 @@
-# Albanian translation of gnome-icon-theme.
-# Copyright (C) 2003, 2004 Free Software Foundation, Inc.
+# Përkthimi i mesazheve të gnome-icon-theme në shqip
+# Copyright (C) 2003, 2004, 2005 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome-icon-theme package.
 # Deep_Dark <epidamus@netscape.net>, 2003.
-# Laurent Dhima <laurenti@alblinux.net>, 2003, 2004.
+# Laurent Dhima <laurenti@alblinux.net>, 2003, 2004, 2005.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-icon-theme.HEAD\n"
+"Project-Id-Version: gnome-icon-theme HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-10-02 19:18-0400\n"
-"PO-Revision-Date: 2004-06-29 11:43+0200\n"
+"POT-Creation-Date: 2005-02-14 04:59+0100\n"
+"PO-Revision-Date: 2005-02-14 12:05+0100\n"
 "Last-Translator: Laurent Dhima <laurenti@alblinux.net>\n"
 "Language-Team: Albanian <gnome-albanian-perkthyesit@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -107,12 +107,6 @@ msgstr "Dokumente"
 #: 48x48/emblems/emblem-draft.icon.in.h:1
 msgid "Draft"
 msgstr "Kopje e keqe"
-
-# 48x48/emblems/emblem-favorite.icon.in.h:1
-# 48x48/emblems/emblem-favorite.icon.in.h:1
-#: 48x48/emblems/emblem-favorite.icon.in.h:1
-msgid "Favorite"
-msgstr "Të preferuarit"
 
 # 48x48/emblems/emblem-generic.icon.in.h:1
 #: 48x48/emblems/emblem-generic.icon.in.h:1
@@ -227,6 +221,10 @@ msgstr "Prezantime"
 msgid "Sales"
 msgstr "Shitje"
 
+#: 48x48/emblems/emblem-shared.icon.in.h:1
+msgid "Shared"
+msgstr "E përbashkët"
+
 # 48x48/emblems/emblem-sound.icon.in.h:1
 # 48x48/emblems/emblem-sound.icon.in.h:1
 # 48x48/emblems/emblem-sound.icon.in.h:1
@@ -259,6 +257,12 @@ msgstr "Urgjente"
 msgid "Web"
 msgstr "Web"
 
+# 48x48/emblems/emblem-favorite.icon.in.h:1
+# 48x48/emblems/emblem-favorite.icon.in.h:1
+#: scalable/emblems/emblem-favorite.icon.in.h:1
+msgid "Favorite"
+msgstr "Të preferuarit"
+
 #: index.theme.in.h:1
 msgid "Default GNOME Theme"
 msgstr "Tema e prezgjedhur e GNOME"
@@ -266,3 +270,4 @@ msgstr "Tema e prezgjedhur e GNOME"
 #: index.theme.in.h:2
 msgid "GNOME"
 msgstr "GNOME"
+
