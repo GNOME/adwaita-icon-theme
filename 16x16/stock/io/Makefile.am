@@ -10,6 +10,11 @@ icon_DATA =\
    stock_insert-file.png \
    stock_open.png \
    stock_open-read-only.png \
+   stock_print.png \
+   stock_print-driver.png \
+   stock_print-preview.png \
+   stock_print-preview-print.png \
+   stock_print-setup.png \
    stock_reload.png \
    stock_save_as.png \
    stock_save-pdf.png \

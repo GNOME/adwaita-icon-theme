@@ -48,10 +48,6 @@ icon_DATA =\
    stock_people.png \
    stock_person.png \
    stock_presentation-box.png \
-   stock_print.png \
-   stock_print-preview.png \
-   stock_print-preview-print.png \
-   stock_print-setup.png \
    stock_redo.png \
    stock_refresh.png \
    stock_scores.png \

@@ -62,10 +62,6 @@ icon_DATA =\
    stock_person.png \
    stock_presentation-box.png \
    stock_presentation-styles.png \
-   stock_print.png \
-   stock_print-preview.png \
-   stock_print-preview-print.png \
-   stock_print-setup.png \
    stock_redo.png \
    stock_refresh.png \
    stock_search.png \

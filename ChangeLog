@@ -1,5 +1,45 @@
 2003-09-30  Jakub Steiner <jimmac@ximian.com>
 
+	* 16x16/stock/generic/stock_print-preview-print.png
+	* 16x16/stock/generic/stock_print-preview.png
+	* 16x16/stock/generic/stock_print-setup.png
+	* 16x16/stock/generic/stock_print.png
+	* 24x24/stock/generic/stock_print-preview-print.png
+	* 24x24/stock/generic/stock_print-preview.png
+	* 24x24/stock/generic/stock_print-setup.png
+	* 24x24/stock/generic/stock_print.png: (re)moved to stock/io.
+	  redesigned some
+	
+	* 32x32/apps/gnome-printers-properties.png
+	* 48x48/apps/gnome-printers-properties.png: removed duplicate
+
+	* 16x16/stock/io/stock_print-driver.png
+	* 16x16/stock/io/stock_print-preview-print.png
+	* 16x16/stock/io/stock_print-preview.png
+	* 16x16/stock/io/stock_print-setup.png
+	* 16x16/stock/io/stock_print.png
+	* 24x24/stock/io/stock_print-driver.png
+	* 24x24/stock/io/stock_print-preview-print.png
+	* 24x24/stock/io/stock_print-preview.png
+	* 24x24/stock/io/stock_print-setup.png
+	* 24x24/stock/io/stock_print.png
+	* 32x32/stock/io/stock_print-preview-print.png
+	* 32x32/stock/io/stock_print-preview.png
+	* 32x32/stock/io/stock_print-setup.png.png
+	* 32x32/stock/io/stock_print.png
+	* 32x32/stock/io/stock_print_driver.png
+	* 48x48/stock/io/Makefile.am
+	* 48x48/stock/io/stock_print-driver.png
+	* 48x48/stock/io/stock_print-preview-print-48.png
+	* 48x48/stock/io/stock_print-preview.png
+	* 48x48/stock/io/stock_print-setup.png.png
+	* 48x48/stock/io/stock_print.png
+	* {16x16,24x24,32x32,48x48}/stock/io/Makefile.am
+	* configure.in,index.theme.in: add, tweak and reorganize the
+	  print icons
+
+2003-09-30  Jakub Steiner <jimmac@ximian.com>
+
 	* 16x16/filesystems/gnome-fs-client.png
 	* 24x24/filesystems/gnome-fs-client.png
 	* 32x32/filesystems/gnome-fs-client.png
