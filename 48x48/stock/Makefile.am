@@ -1,1 +1,1 @@
-SUBDIRS=document generic io net
+SUBDIRS=code document generic io net

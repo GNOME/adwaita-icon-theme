@@ -21,6 +21,7 @@ icon_DATA =\
    stock_macro-watch-variable.png \
    stock_record-macro.png \
    stock_run-macro.png \
+   stock_script.png \
    stock_tools-macro.png \
 	$(NULL)
 

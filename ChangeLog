@@ -1,3 +1,26 @@
+2003-10-17  Jakub Steiner <jimmac@ximian.com>
+
+	* index.theme.in
+	* configure.in
+	* 16x16/stock/code/stock_script.png
+	* 24x24/stock/code/stock_script.png
+	* 32x32/stock/code/stock_script.png
+	* 48x48/stock/code/stock_script.png
+	* {32x32/48x48}/stock/Makefile.am
+	* {16x16,24x24,32x32,48x48}/stock/code/Makefile.am: liked the emblem in
+	  GIMP's preferences. Will be handy I'm sure.
+	
+	* 48x48/emblems/emblem-OK.icon.in
+	* 48x48/emblems/emblem-OK.png
+	* 48x48/emblems/emblem-certified.icon.in
+	* 48x48/emblems/emblem-certified.png
+	* 48x48/emblems/emblem-generic.icon.in
+	* 48x48/emblems/emblem-generic.png
+	* 48x48/emblems/emblem-important.icon.in
+	* 48x48/emblems/emblem-important.png
+	* 48x48/emblems/emblem-special.png
+	* 48x48/emblems/Makefile.am: more emblems as bitmaps
+
 2003-10-16  Jakub Steiner <jimmac@ximian.com>
 
 	* 16x16/stock/io/stock_bluetooth.png
