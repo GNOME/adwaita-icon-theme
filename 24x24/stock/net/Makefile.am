@@ -13,6 +13,7 @@ icon_DATA =\
    stock_hyperlink.png \
    stock_hyperlink-target.png \
    stock_hyperlink-toolbar.png \
+   stock_inbox.png \
    stock_insert_url.png \
    stock_internet.png \
    stock_link.png \
@@ -25,6 +26,8 @@ icon_DATA =\
    stock_mail_reply.png \
    stock_mail_send.png \
    stock_online-layout.png \
+   stock_outbox.png \
+   stock_sent-mail.png \
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)

@@ -46,6 +46,7 @@ icon_DATA =\
    stock_help-pane-on.png \
    stock_help.png \
    stock_home.png \
+   stock_id.png \
    stock_new-dir.png \
    stock_openoffice.png \
    stock_paste.png \

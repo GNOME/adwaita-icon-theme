@@ -34,6 +34,7 @@ icon_DATA =\
    stock_help-agent.png \
    stock_help-chat.png \
    stock_help.png \
+   stock_id.png \
    stock_not.png \
    stock_paste.png \
    stock_presentation-box.png \
