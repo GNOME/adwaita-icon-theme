@@ -22,6 +22,7 @@ icon_DATA =\
    gdict.png \
    gdm.png \
    gnome-amusements.png \
+   gnome-applications.png  \
    gnome-audio.png \
    gnome-calculator.png \
    gnome-cdplayer-icon.png \
