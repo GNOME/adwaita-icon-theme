@@ -1,1 +1,1 @@
-SUBDIRS=chart data document generic io media net
+SUBDIRS=chart data document generic io media net object
