@@ -69,6 +69,7 @@ icon_DATA =\
    stock_timer_stopped.png \
    stock_toggle-info.png \
    stock_toggle-preview.png \
+   stock_toilet-paper.png \
    stock_trash_full.png \
    stock_undo.png \
    stock_view-details.png \

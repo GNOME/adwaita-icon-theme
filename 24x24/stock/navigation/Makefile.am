@@ -24,6 +24,7 @@ icon_DATA =\
    stock_right.png \
    stock_right-with-subpoints.png \
    stock_top.png \
+   stock_undo-history.png \
    stock_up.png \
    stock_up-with-subpoints.png \
    stock_zoom-1.png \

@@ -54,6 +54,7 @@ icon_DATA =\
    stock_summary.png \
    stock_timer.png \
    stock_timer_stopped.png \
+   stock_toilet-paper.png \
    stock_trash_full.png \
    stock_undo.png \
    stock_web-support.png \
