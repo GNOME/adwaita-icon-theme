@@ -1,4 +1,5 @@
-SUBDIRS = 12x12 24x24 36x36 48x48 72x72 96x96 192x192 scalable po
+SUBDIRS = 12x12 24x24 36x36 48x48 72x72 96x96 192x192 scalable
+# Disable for now: po
 
 THEME_IN_FILES=index.theme.in
 
