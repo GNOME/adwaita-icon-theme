@@ -8,6 +8,7 @@ icon_DATA =\
    advanced-directory.png \
    applets-screenshooter.png \
    blender.png \
+   config-language.png \
    gnome-amusements.png \
    gnome-devel.png \
    gnome-favorites.png \
