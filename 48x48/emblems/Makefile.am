@@ -3,6 +3,7 @@ NULL=
 iconsize=48x48
 category=emblems
 icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
+pngdir = $(icondir)
 
 icon_in_files =				\
 	emblem-art.icon.in		\
@@ -19,6 +20,7 @@ icon_in_files =				\
 	emblem-cvs-sticky-tag.icon.in	\
 	emblem-danger.icon.in		\
 	emblem-desktop.icon.in		\
+	emblem-distinguished.icon.in	\
 	emblem-documents.icon.in	\
 	emblem-draft.icon.in		\
 	emblem-favorite.icon.in		\
@@ -51,21 +53,24 @@ icon_in_files =				\
 	emblem-web.icon.in		\
 	$(NULL)
 
-icon_DATA =\
+icon_DATA = $(icon_in_files:.icon.in=.icon)
+
+png_DATA =				\
 	emblem-art.png			\
 	emblem-bin.png			\
 	emblem-cool.png			\
 	emblem-camera.png		\
 	emblem-certified.png		\
-	emblem-cvs-added.png 	\
+	emblem-cvs-added.png		\
 	emblem-cvs-conflict.png 	\
 	emblem-cvs-controlled.png 	\
 	emblem-cvs-modified.png 	\
-	emblem-cvs-new-file.png \
-	emblem-cvs-removed.png 	\
+	emblem-cvs-new-file.png		\
+	emblem-cvs-removed.png		\
 	emblem-cvs-sticky-tag.png 	\
 	emblem-danger.png		\
 	emblem-desktop.png		\
+	emblem-distinguished.png	\
 	emblem-documents.png		\
 	emblem-draft.png		\
 	emblem-favorite.png		\
@@ -96,9 +101,10 @@ icon_DATA =\
 	emblem-trash.png		\
 	emblem-urgent.png		\
 	emblem-web.png			\
-	$(icon_in_files:.icon.in=.icon)
 	$(NULL)
 
 %.icon:   %.icon.in   $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)/po/*.po) ; $(INTLTOOL_MERGE) $(top_srcdir)/po $< $@ -d -u -c $(top_builddir)/po/.intltool-merge-cache
 
-EXTRA_DIST = $(icon_DATA)
+EXTRA_DIST = $(icon_in_files) $(png_DATA)
+
+CLEANFILES = $(icon_DATA)
