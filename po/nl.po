@@ -1,21 +1,19 @@
 # Dutch translation of gnome-icon-theme.
 # Copyright (C) 2002 THE gnome-icon-theme'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the
-# gnome-icon-theme package.
+# This file is distributed under the same license as the gnome-icon-theme package.
 # Jeroen van der Vegt <A.J.vanderVegt@ITS.TUDelft.nl>, 2002.
 # Tino Meinen <a.t.meinen@chello.nl>, 2003.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-10-21 14:39+0200\n"
-"PO-Revision-Date: 2003-10-21 19:05+0200\n"
+"POT-Creation-Date: 2003-10-21 18:58+0200\n"
+"PO-Revision-Date: 2003-10-22 00:24+0200\n"
 "Last-Translator: Tino Meinen <a.t.meinen@chello.nl>\n"
 "Language-Team: Dutch <vertaling@nl.linux.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: 8bit"
 
 #: index.theme.in.h:1
 msgid "Default GNOME Theme"
@@ -66,6 +64,10 @@ msgstr "Cool"
 msgid "Danger"
 msgstr "Gevaar"
 
+#: 48x48/emblems/emblem-distinguished.icon.in.h:1
+msgid "Distinguished"
+msgstr "Voornaam"
+
 # 48x48/emblems/emblem-documents.icon.in.h:1
 # 48x48/emblems/emblem-documents.icon.in.h:1
 # 48x48/emblems/emblem-documents.icon.in.h:1
@@ -73,6 +75,10 @@ msgstr "Gevaar"
 #: 48x48/emblems/emblem-documents.icon.in.h:1
 msgid "Documents"
 msgstr "Documenten"
+
+#: 48x48/emblems/emblem-draft.icon.in.h:1
+msgid "Draft"
+msgstr "Klad"
 
 # 48x48/emblems/emblem-favorite.icon.in.h:1
 # 48x48/emblems/emblem-favorite.icon.in.h:1
@@ -88,7 +94,7 @@ msgstr "Algemeen"
 # 48x48/emblems/emblem-handshake.icon.in.h:1
 #: 48x48/emblems/emblem-handshake.icon.in.h:1
 msgid "Handshake"
-msgstr "Handschudden"
+msgstr "Handdruk"
 
 #: 48x48/emblems/emblem-important.icon.in.h:1
 msgid "Important"
@@ -122,6 +128,10 @@ msgstr "Geld"
 msgid "Multimedia"
 msgstr "Multimedia"
 
+#: 48x48/emblems/emblem-new.icon.in.h:1
+msgid "New"
+msgstr "Nieuw"
+
 # 48x48/emblems/emblem-ohno.icon.in.h:1
 # 48x48/emblems/emblem-ohno.icon.in.h:1
 # 48x48/emblems/emblem-ohno.icon.in.h:1
@@ -146,6 +156,10 @@ msgstr "Pakket"
 msgid "People"
 msgstr "Mensen"
 
+#: 48x48/emblems/emblem-personal.icon.in.h:1
+msgid "Personal"
+msgstr "Persoonlijk"
+
 # 48x48/emblems/emblem-pictures.icon.in.h:1
 # 48x48/emblems/emblem-pictures.icon.in.h:1
 # 48x48/emblems/emblem-pictures.icon.in.h:1
@@ -161,7 +175,6 @@ msgstr "Afbeeldingen"
 msgid "Plan"
 msgstr "Planning"
 
-# Presentatie?
 # 48x48/emblems/emblem-presentation.icon.in.h:1
 #: 48x48/emblems/emblem-presentation.icon.in.h:1
 msgid "Presentation"
@@ -186,6 +199,10 @@ msgstr "Geluid"
 msgid "Special"
 msgstr "Speciaal"
 
+#: 48x48/emblems/emblem-urgent.icon.in.h:1
+msgid "Urgent"
+msgstr "Dringend"
+
 # 48x48/emblems/emblem-web.icon.in.h:1
 # 48x48/emblems/emblem-web.icon.in.h:1
 # 48x48/emblems/emblem-web.icon.in.h:1
@@ -194,22 +211,5 @@ msgstr "Speciaal"
 msgid "Web"
 msgstr "Internet"
 
-#: scalable/emblems/emblem-distinguished.icon.in.h:1
-msgid "Distinguished"
-msgstr "Voornaam"
-
-#: scalable/emblems/emblem-draft.icon.in.h:1
-msgid "Draft"
-msgstr "Klad"
-
-#: scalable/emblems/emblem-new.icon.in.h:1
-msgid "New"
-msgstr "Nieuw"
-
-#: scalable/emblems/emblem-personal.icon.in.h:1
-msgid "Personal"
-msgstr "Persoonlijk"
-
-#: scalable/emblems/emblem-urgent.icon.in.h:1
-msgid "Urgent"
-msgstr "Dringend"
+#~ msgid "Gnome"
+#~ msgstr "Gnome"
