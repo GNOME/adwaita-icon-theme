@@ -101,7 +101,6 @@ icon_DATA =\
 	gnome-mime-application-x-object.png \
 	gnome-mime-application-x-perl.png \
 	gnome-mime-application-x-php.png \
-	gnome-mime-application-x-python.png \
 	gnome-mime-application-x-python-bytecode.png \
 	gnome-mime-application-x-qw.png \
 	gnome-mime-application-x-rar.png \
@@ -178,6 +177,7 @@ icon_DATA =\
 	gnome-mime-text-x-makefile.png \
 	gnome-mime-text-x-objcsrc.png \
 	gnome-mime-text-x-patch.png \
+	gnome-mime-text-x-python.png \
 	gnome-mime-text-x-readme.png \
 	gnome-mime-text-x-scheme.png \
 	gnome-mime-text-x-sql.png \
