@@ -26,6 +26,7 @@ icon_DATA =\
 	gnome-fs-share.png \
 	gnome-fs-smb.png \
 	gnome-fs-socket.png \
+	gnome-fs-ssh.png \
 	gnome-fs-trash-empty.png \
 	gnome-fs-trash-full.png \
 	gnome-fs-web.png \
