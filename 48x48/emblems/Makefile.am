@@ -47,7 +47,6 @@ icon_in_files =				\
 	emblem-special.icon.in 		\
 	emblem-symbolic-link.icon.in	\
 	emblem-trash.icon.in		\
-	emblem-urgent.icon.in		\
 	emblem-web.icon.in		\
 	$(NULL)
 
@@ -95,7 +94,6 @@ png_DATA =				\
 	emblem-special.png		\
 	emblem-symbolic-link.png	\
 	emblem-trash.png		\
-	emblem-urgent.png		\
 	emblem-web.png			\
 	$(NULL)
 
