@@ -16,11 +16,9 @@ icon_DATA =\
 	gnome-fs-directory.icon \
 	gnome-fs-directory.png \
 	gnome-fs-home.png \
-	gnome-fs-locally-shared.png \
 	gnome-fs-network.png \
 	gnome-fs-server.png \
 	gnome-fs-share.png \
-	gnome-fs-share-private.png \
 	gnome-fs-trash-empty.png \
 	gnome-fs-trash-full.png \
 	$(NULL)

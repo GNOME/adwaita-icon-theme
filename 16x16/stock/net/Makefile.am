@@ -59,6 +59,8 @@ icon_DATA =\
    stock_outbox.png \
    stock_post-message.png \
    stock_sent-mail.png \
+	 stock_shared-by-me.png \
+	 stock_shared-to-me.png \
    stock_spam.png \
    stock_video-conferencing.png \
 	$(NULL)

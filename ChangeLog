@@ -1,3 +1,13 @@
+2005-03-10  Jakub Steiner <jimmac@ximian.com>
+
+	* {16x16,24x24}/filesystems/Makefile.am:
+	* {16x16,24x24}/filesystems/gnome-fs-locally-shared.png:
+	* {16x16,24x24}/filesystems/gnome-fs-share-provate.png: removed
+	* {16x16,24x24}/stock/net/Makefile.am:
+	* {16x16,24x24}/stock/net/stock_shared-by-me.png:
+	* {16x16,24x24}/stock/net/stock_shared-to-me.png: renamed as per
+	  Vivek's request
+
 2005-03-07  Rodney Dawes  <dobey@novell.com>
 
 	* configure.in, NEWS: Update for 2.10.0 release
