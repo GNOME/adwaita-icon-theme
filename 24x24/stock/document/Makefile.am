@@ -21,6 +21,7 @@ icon_DATA =\
    stock_preview-four-pages.png \
    stock_preview-two-pages.png \
    stock_print-layout.png \
+   stock_print-resolution.png \
    stock_print-options.png \
    stock_task.png \
    stock_task-assigned.png \
