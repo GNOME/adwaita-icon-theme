@@ -1,28 +1,25 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Bulgarian translation GNOME icon theme.
+# Copyright (C) 2004
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Alexander Shopov <al_shopov@yahoo.com>, 2004.
+# Vladimir Petkov <vpetkov@i-space.org>, 2004 - updates
+# 
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2003-12-28 10:32+0100\n"
-"PO-Revision-Date: 2002-12-18 18:36+0200\n"
+"Project-Id-Version: gnome 2.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-03-23 03:47+0100\n"
+"PO-Revision-Date: 2004-03-28 10:37+0300\n"
 "Last-Translator: Alexander Shopov <al_shopov@yahoo.com>\n"
 "Language-Team: Bulgarian <dict@linux.zonebg.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 0.9.6\n"
+"Content-Transfer-Encoding: 8bit"
 
-#: index.theme.in.h:1
-#, fuzzy
-msgid "Default GNOME Theme"
-msgstr "Тема на Гном по подразбиране"
-
-#: index.theme.in.h:2
-msgid "GNOME"
-msgstr ""
+#: 48x48/emblems/emblem-OK.icon.in.h:1
+msgid "OK"
+msgstr "ОК"
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 #: 48x48/emblems/emblem-art.icon.in.h:1
@@ -32,7 +29,7 @@ msgstr "Изкуство"
 # 48x48/emblems/emblem-bin.icon.in.h:1
 #: 48x48/emblems/emblem-bin.icon.in.h:1
 msgid "Binary"
-msgstr ""
+msgstr "Двуичен"
 
 # 48x48/emblems/emblem-camera.icon.in.h:1
 #: 48x48/emblems/emblem-camera.icon.in.h:1
@@ -75,7 +72,7 @@ msgstr "Родово"
 # 48x48/emblems/emblem-handshake.icon.in.h:1
 #: 48x48/emblems/emblem-handshake.icon.in.h:1
 msgid "Handshake"
-msgstr ""
+msgstr "Ръкостискане"
 
 #: 48x48/emblems/emblem-important.icon.in.h:1
 msgid "Important"
@@ -89,12 +86,12 @@ msgstr "Поща"
 # 48x48/emblems/emblem-marketing.icon.in.h:1
 #: 48x48/emblems/emblem-marketing.icon.in.h:1
 msgid "Marketing"
-msgstr ""
+msgstr "Маркетинг"
 
 # 48x48/emblems/emblem-money.icon.in.h:1
 #: 48x48/emblems/emblem-money.icon.in.h:1
 msgid "Money"
-msgstr ""
+msgstr "Пари"
 
 # 48x48/emblems/emblem-multimedia.icon.in.h:1
 #: 48x48/emblems/emblem-multimedia.icon.in.h:1
@@ -106,13 +103,8 @@ msgid "New"
 msgstr "Ново"
 
 #: 48x48/emblems/emblem-ohno.icon.in.h:1
-#, fuzzy
 msgid "Oh no!"
 msgstr "О, не!"
-
-#: 48x48/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "Става"
 
 # 48x48/emblems/emblem-package.icon.in.h:1
 #: 48x48/emblems/emblem-package.icon.in.h:1
@@ -122,7 +114,7 @@ msgstr "Пакет"
 # 48x48/emblems/emblem-people.icon.in.h:1
 #: 48x48/emblems/emblem-people.icon.in.h:1
 msgid "People"
-msgstr ""
+msgstr "Хора"
 
 #: 48x48/emblems/emblem-personal.icon.in.h:1
 msgid "Personal"
@@ -136,17 +128,17 @@ msgstr "Картинки"
 # 48x48/emblems/emblem-plan.icon.in.h:1
 #: 48x48/emblems/emblem-plan.icon.in.h:1
 msgid "Plan"
-msgstr ""
+msgstr "План"
 
 # 48x48/emblems/emblem-presentation.icon.in.h:1
 #: 48x48/emblems/emblem-presentation.icon.in.h:1
 msgid "Presentation"
-msgstr ""
+msgstr "Презентация"
 
 # 48x48/emblems/emblem-sales.icon.in.h:1
 #: 48x48/emblems/emblem-sales.icon.in.h:1
 msgid "Sales"
-msgstr ""
+msgstr "Продажби"
 
 # 48x48/emblems/emblem-sound.icon.in.h:1
 #: 48x48/emblems/emblem-sound.icon.in.h:1
@@ -165,6 +157,14 @@ msgstr "Спешно"
 #: 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Уеб"
+
+#: index.theme.in.h:1
+msgid "Default GNOME Theme"
+msgstr "Тема на GNOME по подразбиране"
+
+#: index.theme.in.h:2
+msgid "GNOME"
+msgstr "GNOME"
 
 #~ msgid "Gnome"
 #~ msgstr "Гном"
