@@ -145,7 +145,6 @@ icon_DATA =\
 	gnome-mime-video-x-ms-wmv.png \
 	gnome-mime-x-font-afm.png \
 	gnome-mime-x-directory-smb-share.png \
-	gnome-compressed.png \
 	gnome-library.png \
 	gnome-package.png \
 	$(NULL)
