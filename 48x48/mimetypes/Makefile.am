@@ -34,6 +34,7 @@ icon_DATA =\
 	gnome-mime-application-x-blender.png \
 	gnome-mime-application-x-bzip-compressed-tar.png \
 	gnome-mime-application-x-bzip.png \
+	gnome-mime-application-x-cd-image.png \
 	gnome-mime-application-x-class-file.png \
 	gnome-mime-application-x-compress.png \
 	gnome-mime-application-x-compressed-tar.png \
