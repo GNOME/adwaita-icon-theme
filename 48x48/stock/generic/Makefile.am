@@ -10,6 +10,7 @@ icon_DATA =\
    stock_calendar.png \
    stock_cell-phone.png \
    stock_id.png \
+   stock_news.png \
    stock_notes.png \
    stock_summary.png \
 	$(NULL)

@@ -48,6 +48,7 @@ icon_DATA =\
    stock_help.png \
    stock_home.png \
    stock_id.png \
+   stock_news.png \
    stock_new-dir.png \
    stock_notes.png \
    stock_openoffice.png \
