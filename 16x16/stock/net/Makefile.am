@@ -31,6 +31,7 @@ icon_DATA =\
    stock_mail_open.png \
    stock_mail_receive.png \
    stock_mail_reply.png \
+   stock_mail-reply-to-all.png \
    stock_mail_send.png \
    stock_online-layout.png \
    stock_outbox.png \
