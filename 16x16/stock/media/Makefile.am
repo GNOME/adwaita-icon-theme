@@ -9,6 +9,15 @@ icon_DATA =\
    stock_effects-sound.png \
    stock_insert-video-plugin.png \
    stock_line_in.png \
+   stock_media-stop.png \
+   stock_media-stop.png \
+   stock_media-rew.png \
+   stock_media-rec.png \
+   stock_media-prev.png \
+   stock_media-play.png \
+   stock_media-pause.png \
+   stock_media-next.png \
+   stock_media-fwd.png \
    stock_mic.png \
    stock_midi.png \
    stock_repeat.png \
