@@ -29,6 +29,7 @@ icon_DATA =\
    stock_drag-mode.png \
    stock_edit.png \
    stock_equals.png \
+   stock_example.png \
    stock_exit.png \
    stock_extended-help.png \
    stock_file-properties.png \

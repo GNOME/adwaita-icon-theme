@@ -25,6 +25,7 @@ icon_DATA =\
    stock_cut.png \
    stock_delete.png \
    stock_equals.png \
+   stock_example.png \
    stock_exit.png \
    stock_extended-help.png \
    stock_file-properties.png \

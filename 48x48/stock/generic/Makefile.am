@@ -9,6 +9,7 @@ icon_DATA =\
    stock_autopilot.png \
    stock_calendar.png \
    stock_cell-phone.png \
+   stock_example.png \
    stock_id.png \
    stock_landline-phone.png \
    stock_news.png \

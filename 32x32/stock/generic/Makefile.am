@@ -12,6 +12,7 @@ icon_DATA =\
    stock_dialog-info.png \
    stock_dialog-question.png \
    stock_dialog-warning.png \
+   stock_example.png \
    stock_folder.png \
    stock_id.png \
    stock_landline-phone.png \
