@@ -30,6 +30,7 @@ icon_DATA =\
 	gnome-mime-application-x-abiword.png \
 	gnome-mime-application-x-applix-spreadsheet.png \
 	gnome-mime-application-x-applix-word.png \
+	gnome-mime-application-x-archive.png \
 	gnome-mime-application-x-arj.png \
 	gnome-mime-application-x-blender.png \
 	gnome-mime-application-x-bzip-compressed-tar.png \
