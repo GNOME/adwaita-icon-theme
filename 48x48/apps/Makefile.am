@@ -49,6 +49,8 @@ icon_DATA =\
    gnome-pdf.png \
 	gnome-reboot.png \
    gnome-searchtool.png \
+   gnome-searchtool-animation.png \
+   gnome-searchtool-animation-rest.png \
 	gnome-server-config.png \
    gnome-session.png \
 	gnome-settings.png \
