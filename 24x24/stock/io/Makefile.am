@@ -18,7 +18,7 @@ icon_DATA =\
    stock_print-preview-print.png \
    stock_print-setup.png \
    stock_reload.png \
-   stock_save_as.png \
+   stock_save-as.png \
    stock_save-pdf.png \
    stock_save.png \
    stock_save-template.png \

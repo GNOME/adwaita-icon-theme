@@ -1,5 +1,12 @@
 2004-04-14  Jakub Steiner <jimmac@ximian.com>
 
+	* {16x16,24x24}/stock/io/stock_save_as.png (r)
+	* {16x16,24x24}/stock/io/stock_save-as.png: renamed to be
+	  consistent. Discussed in bugzilla (bug #129294)
+	* {16x16,24x24}/stock/io/Makefile.am: updated
+
+2004-04-14  Jakub Steiner <jimmac@ximian.com>
+
 	* 48x48/mimetypes/gnome-mime-application-x-archive.png: ar
 	  archives. fixes bug #130905
 	* 48x48/mimetypes/Makefile.am: added here
