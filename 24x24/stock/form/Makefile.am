@@ -24,6 +24,8 @@ icon_DATA =\
    stock_form-image-control.png \
    stock_form-label.png \
    stock_form-letter-dialog.png \
+   stock_form-line-vertical.png \
+   stock_form-line-horizontal.png \
    stock_form-listbox.png \
    stock_form-navigator.png \
    stock_form-numerical-field.png \
