@@ -47,6 +47,7 @@ icon_DATA =\
    stock_mail-send.png \
    stock_mail-send-receive.png \
    stock_mail-unread.png \
+   stock_not-spam.png   \
    stock_online-layout.png \
    stock_outbox.png \
    stock_post-message.png \

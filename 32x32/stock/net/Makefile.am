@@ -19,6 +19,7 @@ icon_DATA =\
    stock_mail.png \
    stock_mail-import.png \
    stock_mail-open.png \
+   stock_not-spam.png   \
    stock_outbox.png \
    stock_post-message.png \
    stock_sent-mail.png \
