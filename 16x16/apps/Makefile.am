@@ -6,6 +6,7 @@ icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
 
 icon_DATA =\
    blender.png \
+   config-language.png \
    gnome-devel.png \
    panel-notification-area.png \
    panel-window-list.png \
