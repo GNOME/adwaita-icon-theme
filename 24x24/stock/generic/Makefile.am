@@ -67,6 +67,7 @@ icon_DATA =\
 	stock_scores.png 		\
 	stock_search.png 		\
 	stock_send-fax.png 		\
+   stock_show-all.png   \
 	stock_stop.png 			\
 	stock_styles.png 		\
 	stock_summary.png 		\
