@@ -8,6 +8,7 @@ icondir = $(datadir)/icons/hicolor/$(iconsize)/$(category)/$(subtype)
 icon_DATA =\
    stock_3d-favourites.png \
    stock_about.png \
+   stock_active.png \
    stock_allow-effects.png \
    stock_anchor.png \
    stock_animation.png \
@@ -71,6 +72,7 @@ icon_DATA =\
    stock_person.png \
    stock_presentation-box.png \
    stock_presentation-styles.png \
+   stock_properties.png \
    stock_redo.png \
    stock_refresh.png \
    stock_score-lowest.png \

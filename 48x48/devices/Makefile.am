@@ -15,6 +15,7 @@ icon_DATA =\
 	gnome-dev-jazdisk.png \
 	gnome-dev-keyboard.png \
 	gnome-dev-memory.png \
+	gnome-dev-mouse-ball.png \
 	gnome-dev-mouse-optical.png \
    gnome-dev-pcmcia.png \
 	gnome-dev-printer.png \
