@@ -13,14 +13,14 @@ icon_DATA =\
 	gnome-shutdown.png \
 	gnome-reboot.png \
 	gnome-lockscreen.png \
-	gnome-accessories.png \
+	gnome-util.png \
 	gnome-audio2.png \
-	gnome-games.png \
+	gnome-joystick.png \
 	gnome-globe.png \
 	gnome-graphics.png \
 	gnome-help.png \
 	gnome-multimedia.png \
-	gnome-programming.png \
+	gnome-devel.png \
 	gnome-settings.png \
 	gnome-unknown.png \
 	gnome-system.png \
