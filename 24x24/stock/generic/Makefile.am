@@ -36,6 +36,7 @@ icon_DATA =\
    stock_help.png \
    stock_id.png \
    stock_not.png \
+   stock_notes.png \
    stock_paste.png \
    stock_presentation-box.png \
    stock_print.png \
@@ -49,6 +50,7 @@ icon_DATA =\
    stock_send-fax.png \
    stock_stop.png \
    stock_styles.png \
+   stock_summary.png \
    stock_timer.png \
    stock_timer_stopped.png \
    stock_trash_full.png \

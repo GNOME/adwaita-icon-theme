@@ -48,6 +48,7 @@ icon_DATA =\
    stock_home.png \
    stock_id.png \
    stock_new-dir.png \
+   stock_notes.png \
    stock_openoffice.png \
    stock_paste.png \
    stock_presentation-box.png \
@@ -62,6 +63,7 @@ icon_DATA =\
    stock_send-fax.png \
    stock_stop.png \
    stock_styles.png \
+   stock_summary.png \
    stock_timer.png \
    stock_timer_stopped.png \
    stock_toggle-info.png \

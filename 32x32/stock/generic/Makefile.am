@@ -14,7 +14,9 @@ icon_DATA =\
    stock_folder.png \
    stock_id.png \
    stock_language.png \
+   stock_notes.png \
    stock_openoffice.png \
+   stock_summary.png \
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)
