@@ -9,6 +9,7 @@ icon_DATA =\
    applets-screenshooter.png \
    blender.png \
    config-language.png \
+	 evolution.png \
    gnome-amusements.png \
    gnome-devel.png \
    gnome-favorites.png \

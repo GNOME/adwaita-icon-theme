@@ -7,6 +7,7 @@ icondir = $(datadir)/icons/hicolor/$(iconsize)/$(category)
 icon_DATA =\
    blender.png \
    config-language.png \
+	 evolution.png \
    gnome-devel.png \
    gnome-globe.png \
    gnome-help.png \
