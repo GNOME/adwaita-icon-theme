@@ -51,6 +51,7 @@ icon_DATA =\
    stock_navigator-text.png \
    stock_navigator-update-entry.png \
    stock_navigator-wrong-table-formula.png \
+   stock_new-tab.png \
    stock_next-page.png \
    stock_next.png \
    stock_previous-page.png \

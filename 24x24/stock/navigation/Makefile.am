@@ -18,6 +18,7 @@ icon_DATA =\
    stock_navigator.png \
    stock_next-page.png \
    stock_next.png \
+   stock_new-tab.png \
    stock_previous-page.png \
    stock_previous.png \
    stock_right.png \
