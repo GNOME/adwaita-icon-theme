@@ -21,6 +21,9 @@ icon_DATA =\
    stock_preview-two-pages.png \
    stock_print-layout.png \
    stock_print-options.png \
+   stock_task-assigned.png \
+   stock_task-assigned-to.png \
+   stock_task-recurring.png \
    stock_todo.png \
    stock_view-html-source.png \
 	$(NULL)

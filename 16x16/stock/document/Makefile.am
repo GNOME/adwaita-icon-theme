@@ -23,6 +23,9 @@ icon_DATA =\
    stock_print-options.png \
    stock_script.png \
    stock_scripts.png \
+   stock_task-assigned.png \
+   stock_task-assigned-to.png \
+   stock_task-recurring.png \
    stock_todo.png \
    stock_view-html-source.png \
 	$(NULL)

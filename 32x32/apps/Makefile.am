@@ -16,6 +16,7 @@ icon_DATA =\
    dia_gnome_icon.png \
    disks.png \
    file-manager.png \
+   evolution.png  \
    gdict.png \
    gdm.png \
    gnome-applications.png \

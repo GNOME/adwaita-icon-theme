@@ -28,6 +28,7 @@ icon_DATA =\
    stock_mail.png \
    stock_mail-compose.png \
    stock_mail-copy.png \
+   stock_mail-filters-apply.png \
    stock_mail-forward.png \
    stock_mail-import.png \
    stock_mail-merge.png \

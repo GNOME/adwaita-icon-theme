@@ -12,6 +12,7 @@ icon_DATA =\
    stock_anchor.png \
    stock_animation.png \
    stock_autopilot.png \
+   stock_bell.png \
    stock_book_blue.png \
    stock_book_green.png \
    stock_book_open.png \
@@ -21,6 +22,7 @@ icon_DATA =\
    stock_calc-cancel.png \
    stock_calendar.png \
    stock_cell-phone.png \
+   stock_check-filled.png \
    stock_close.png \
    stock_copy.png \
    stock_cut.png \
@@ -38,6 +40,7 @@ icon_DATA =\
    stock_folder.png \
    stock_folder-copy.png \
    stock_folder-move.png \
+   stock_folder-properties.png \
    stock_format-page.png \
    stock_fullscreen.png \
    stock_help-add-bookmark.png \
@@ -75,6 +78,7 @@ icon_DATA =\
    stock_test-mode.png \
    stock_timer.png \
    stock_timer_stopped.png \
+   stock_timezone.png \
    stock_toggle-info.png \
    stock_toggle-preview.png \
    stock_toilet-paper.png \

@@ -17,6 +17,7 @@ icon_DATA =\
    config-xfree.png \
    dia_gnome_icon.png \
    disks.png \
+   evolution.png  \
    file-manager.png \
    gdict.png \
    gdm.png \
