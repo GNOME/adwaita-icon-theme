@@ -29,7 +29,6 @@ icon_DATA =\
    stock_group.png \
    stock_handles-simple.png \
    stock_insert-applet.png \
-   stock_insert_bookmark.png \
    stock_insert-floating-frame.png \
    stock_insert-gluepoint.png \
    stock_insert_graphic.png \
@@ -46,6 +45,7 @@ icon_DATA =\
    stock_new-bcard.png \
    stock_object-behind.png \
    stock_object-infront.png \
+   stock_pin.png \
    stock_position-size.png \
    stock_reverse-order.png \
    stock_slide-design.png \
