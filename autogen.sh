@@ -14,6 +14,9 @@ PKG_NAME="gnome-icon-theme"
     exit 1
 }
 
+echo "Running glib-gettextize"
+glib-gettextize --copy --force
+
 echo "Running intltoolize"
 intltoolize --copy --force --automake
 
