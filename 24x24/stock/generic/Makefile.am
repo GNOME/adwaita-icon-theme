@@ -18,6 +18,7 @@ icon_DATA =\
    stock_book_yellow.png \
    stock_calc-accept.png \
    stock_calc-cancel.png \
+   stock_cell-phone.png \
    stock_close.png \
    stock_copy.png \
    stock_cut.png \
