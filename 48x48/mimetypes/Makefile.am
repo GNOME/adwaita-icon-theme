@@ -20,6 +20,13 @@ icon_DATA =\
 	gnome-mime-application-vnd.lotus-1-2-3.png \
 	gnome-mime-application-vnd.ms-excel.png \
 	gnome-mime-application-vnd.ms-powerpoint.png \
+	gnome-mime-application-vnd.oasis.openoffice.database.png \
+	gnome-mime-application-vnd.oasis.openoffice.drawing.png \
+	gnome-mime-application-vnd.oasis.openoffice.formula.png \
+	gnome-mime-application-vnd.oasis.openoffice.presentation.png \
+	gnome-mime-application-vnd.oasis.openoffice.text-master.png \
+	gnome-mime-application-vnd.oasis.openoffice.text.png \
+	gnome-mime-application-vnd.oasis.openoffice.text-web.png \
 	gnome-mime-application-vnd.rn-realmedia.png \
 	gnome-mime-application-vnd.stardivision.calc.png \
 	gnome-mime-application-vnd.stardivision.impress.png \
@@ -101,13 +108,6 @@ icon_DATA =\
 	gnome-mime-application-x-tar.png \
 	gnome-mime-application-x-tex.png \
 	gnome-mime-application-x-trash.png \
-	gnome-mime-application-x-vnd.oasis.openoffice.database.png \
-	gnome-mime-application-x-vnd.oasis.openoffice.drawing.png \
-	gnome-mime-application-x-vnd.oasis.openoffice.formula.png \
-	gnome-mime-application-x-vnd.oasis.openoffice.presentation.png \
-	gnome-mime-application-x-vnd.oasis.openoffice.text-master.png \
-	gnome-mime-application-x-vnd.oasis.openoffice.text.png \
-	gnome-mime-application-x-vnd.oasis.openoffice.text-web.png \
 	gnome-mime-application-x-x509-ca-cert.png \
 	gnome-mime-application-zip.png \
 	gnome-mime-application.png \
