@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: atk HEAD\n"
-"POT-Creation-Date: 2003-07-12 00:46+0800\n"
+"POT-Creation-Date: 2003-10-20 14:44+0200\n"
 "PO-Revision-Date: 2003-07-12 00:47+0800\n"
 "Last-Translator: Hasbullah Bin Pit <sebol@ikhlas.com>\n"
 "Language-Team: Projek Gabai <gabai-penyumbang@lists.sourceforge.org>\n"
@@ -14,12 +14,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: index.theme.in.h:1
-msgid "Default Gnome Theme"
+#, fuzzy
+msgid "Default GNOME Theme"
 msgstr "Tema Gnome Default"
 
 #: index.theme.in.h:2
-msgid "Gnome"
-msgstr "Gnome"
+msgid "GNOME"
+msgstr ""
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 msgid "Art"
@@ -32,6 +33,9 @@ msgstr "Binari"
 # 48x48/emblems/emblem-camera.icon.in.h:1
 msgid "Camera"
 msgstr "Kamera"
+
+msgid "Certified"
+msgstr "Diperakui"
 
 msgid "Cool"
 msgstr "Sejuk"
@@ -46,6 +50,16 @@ msgstr "Dokumen"
 msgid "Favorite"
 msgstr "Kegemaran"
 
+msgid "Generic"
+msgstr "Generik"
+
+# 48x48/emblems/emblem-handshake.icon.in.h:1
+msgid "Handshake"
+msgstr ""
+
+msgid "Important"
+msgstr "Penting"
+
 # 48x48/emblems/emblem-mail.icon.in.h:1
 msgid "Mail"
 msgstr "Mel"
@@ -54,6 +68,10 @@ msgstr "Mel"
 msgid "Marketing"
 msgstr "Pemasaran"
 
+# 48x48/emblems/emblem-money.icon.in.h:1
+msgid "Money"
+msgstr ""
+
 # 48x48/emblems/emblem-multimedia.icon.in.h:1
 msgid "Multimedia"
 msgstr "Multimedia"
@@ -61,9 +79,16 @@ msgstr "Multimedia"
 msgid "Oh no!"
 msgstr "Alamak!"
 
+msgid "OK"
+msgstr "OK"
+
 # 48x48/emblems/emblem-package.icon.in.h:1
 msgid "Package"
 msgstr "Pakej"
+
+# 48x48/emblems/emblem-people.icon.in.h:1
+msgid "People"
+msgstr ""
 
 # 48x48/emblems/emblem-pictures.icon.in.h:1
 msgid "Pictures"
@@ -73,6 +98,10 @@ msgstr "Gambar"
 msgid "Plan"
 msgstr "Rancangan"
 
+# 48x48/emblems/emblem-presentation.icon.in.h:1
+msgid "Presentation"
+msgstr ""
+
 # 48x48/emblems/emblem-sales.icon.in.h:1
 msgid "Sales"
 msgstr "Jualan"
@@ -81,13 +110,12 @@ msgstr "Jualan"
 msgid "Sound"
 msgstr "Bunyi"
 
+msgid "Special"
+msgstr "Istimewa"
+
 # 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Web"
-
-#: scalable/emblems/emblem-certified.icon.in.h:1
-msgid "Certified"
-msgstr "Diperakui"
 
 #: scalable/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
@@ -97,31 +125,17 @@ msgstr "Unggul"
 msgid "Draft"
 msgstr "Draf"
 
-#: scalable/emblems/emblem-generic.icon.in.h:1
-msgid "Generic"
-msgstr "Generik"
-
-#: scalable/emblems/emblem-important.icon.in.h:1
-msgid "Important"
-msgstr "Penting"
-
 #: scalable/emblems/emblem-new.icon.in.h:1
 msgid "New"
 msgstr "Baru"
-
-#: scalable/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "OK"
 
 #: scalable/emblems/emblem-personal.icon.in.h:1
 msgid "Personal"
 msgstr "Peribadi"
 
-#: scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "Istimewa"
-
 #: scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
 msgstr "Segera"
 
+#~ msgid "Gnome"
+#~ msgstr "Gnome"

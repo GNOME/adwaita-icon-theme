@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon theme 2.2\n"
-"POT-Creation-Date: 2003-08-08 19:32+0530\n"
+"POT-Creation-Date: 2003-10-20 14:44+0200\n"
 "PO-Revision-Date: 2003-08-08 19:40+0530\n"
 "Last-Translator: G Karunakar <karunakar@freedomink.org>\n"
 "Language-Team: Gnome Hindi Team <indlinux-hindi-gnome@lists.sourceforge."
@@ -16,12 +16,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: index.theme.in.h:1
-msgid "Default Gnome Theme"
+#, fuzzy
+msgid "Default GNOME Theme"
 msgstr "डिफॉल्ट गनोम थीम"
 
 #: index.theme.in.h:2
-msgid "Gnome"
-msgstr "गनोम"
+msgid "GNOME"
+msgstr ""
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 msgid "Art"
@@ -34,6 +35,9 @@ msgstr "बायनरी"
 # 48x48/emblems/emblem-camera.icon.in.h:1
 msgid "Camera"
 msgstr "कैमेरा"
+
+msgid "Certified"
+msgstr "प्रमाणित"
 
 msgid "Cool"
 msgstr "ठंडा"
@@ -48,6 +52,16 @@ msgstr "दस्तावेज"
 msgid "Favorite"
 msgstr "मन्पसंद"
 
+msgid "Generic"
+msgstr "साधारण"
+
+# 48x48/emblems/emblem-handshake.icon.in.h:1
+msgid "Handshake"
+msgstr ""
+
+msgid "Important"
+msgstr "महत्वपूर्ण"
+
 # 48x48/emblems/emblem-mail.icon.in.h:1
 msgid "Mail"
 msgstr "डाक"
@@ -56,6 +70,10 @@ msgstr "डाक"
 msgid "Marketing"
 msgstr "विपणन"
 
+# 48x48/emblems/emblem-money.icon.in.h:1
+msgid "Money"
+msgstr ""
+
 # 48x48/emblems/emblem-multimedia.icon.in.h:1
 msgid "Multimedia"
 msgstr "मल्टीमीडिया"
@@ -63,9 +81,16 @@ msgstr "मल्टीमीडिया"
 msgid "Oh no!"
 msgstr "ओह नहीं!"
 
+msgid "OK"
+msgstr "ठीक है"
+
 # 48x48/emblems/emblem-package.icon.in.h:1
 msgid "Package"
 msgstr "पैकेज"
+
+# 48x48/emblems/emblem-people.icon.in.h:1
+msgid "People"
+msgstr ""
 
 # 48x48/emblems/emblem-pictures.icon.in.h:1
 msgid "Pictures"
@@ -75,6 +100,10 @@ msgstr "चित्रें"
 msgid "Plan"
 msgstr "योजना"
 
+# 48x48/emblems/emblem-presentation.icon.in.h:1
+msgid "Presentation"
+msgstr ""
+
 # 48x48/emblems/emblem-sales.icon.in.h:1
 msgid "Sales"
 msgstr "विक्री"
@@ -83,13 +112,12 @@ msgstr "विक्री"
 msgid "Sound"
 msgstr "ध्वनी"
 
+msgid "Special"
+msgstr "विशेष"
+
 # 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "वेब"
-
-#: scalable/emblems/emblem-certified.icon.in.h:1
-msgid "Certified"
-msgstr "प्रमाणित"
 
 #: scalable/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
@@ -99,30 +127,17 @@ msgstr "विख्यात"
 msgid "Draft"
 msgstr "ड्राफ्ट"
 
-#: scalable/emblems/emblem-generic.icon.in.h:1
-msgid "Generic"
-msgstr "साधारण"
-
-#: scalable/emblems/emblem-important.icon.in.h:1
-msgid "Important"
-msgstr "महत्वपूर्ण"
-
 #: scalable/emblems/emblem-new.icon.in.h:1
 msgid "New"
 msgstr "नया"
-
-#: scalable/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "ठीक है"
 
 #: scalable/emblems/emblem-personal.icon.in.h:1
 msgid "Personal"
 msgstr "व्यक्तिगत"
 
-#: scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "विशेष"
-
 #: scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
 msgstr "अत्यावश्यक"
+
+#~ msgid "Gnome"
+#~ msgstr "गनोम"

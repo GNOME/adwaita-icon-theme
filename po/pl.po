@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
-"POT-Creation-Date: 2003-07-08 11:08+0200\n"
+"POT-Creation-Date: 2003-10-20 14:44+0200\n"
 "PO-Revision-Date: 2003-06-30 00:11+0100\n"
 "Last-Translator: Gnome PL Team <translators@gnome.pl>\n"
 "Language-Team: Polish <pl@li.org>\n"
@@ -18,12 +18,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: index.theme.in.h:1
-msgid "Default Gnome Theme"
+#, fuzzy
+msgid "Default GNOME Theme"
 msgstr "Domyślny motyw GNOME"
 
 #: index.theme.in.h:2
-msgid "Gnome"
-msgstr "GNOME"
+msgid "GNOME"
+msgstr ""
 
 msgid "Art"
 msgstr "Sztuka"
@@ -34,6 +35,9 @@ msgstr "Binarny"
 
 msgid "Camera"
 msgstr "Aparat"
+
+msgid "Certified"
+msgstr "Zatwierdzony"
 
 msgid "Cool"
 msgstr "Spoko"
@@ -47,6 +51,16 @@ msgstr "Dokumenty"
 msgid "Favorite"
 msgstr "Ulubiony"
 
+msgid "Generic"
+msgstr "Zwykły"
+
+# 48x48/emblems/emblem-handshake.icon.in.h:1
+msgid "Handshake"
+msgstr ""
+
+msgid "Important"
+msgstr "Ważny"
+
 msgid "Mail"
 msgstr "List"
 
@@ -54,14 +68,25 @@ msgstr "List"
 msgid "Marketing"
 msgstr "Reklama"
 
+# 48x48/emblems/emblem-money.icon.in.h:1
+msgid "Money"
+msgstr ""
+
 msgid "Multimedia"
 msgstr "Multimedia"
 
 msgid "Oh no!"
 msgstr "Oh nie!"
 
+msgid "OK"
+msgstr "OK"
+
 msgid "Package"
 msgstr "Paczka"
+
+# 48x48/emblems/emblem-people.icon.in.h:1
+msgid "People"
+msgstr ""
 
 msgid "Pictures"
 msgstr "Obrazy"
@@ -70,6 +95,10 @@ msgstr "Obrazy"
 msgid "Plan"
 msgstr "Plan"
 
+# 48x48/emblems/emblem-presentation.icon.in.h:1
+msgid "Presentation"
+msgstr ""
+
 # 48x48/emblems/emblem-sales.icon.in.h:1
 msgid "Sales"
 msgstr "Sprzedaż"
@@ -77,12 +106,11 @@ msgstr "Sprzedaż"
 msgid "Sound"
 msgstr "Dźwięk"
 
+msgid "Special"
+msgstr "Specjalny"
+
 msgid "Web"
 msgstr "WWW"
-
-#: scalable/emblems/emblem-certified.icon.in.h:1
-msgid "Certified"
-msgstr "Zatwierdzony"
 
 #: scalable/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
@@ -92,30 +120,17 @@ msgstr "Wyróżniony"
 msgid "Draft"
 msgstr "Szkic"
 
-#: scalable/emblems/emblem-generic.icon.in.h:1
-msgid "Generic"
-msgstr "Zwykły"
-
-#: scalable/emblems/emblem-important.icon.in.h:1
-msgid "Important"
-msgstr "Ważny"
-
 #: scalable/emblems/emblem-new.icon.in.h:1
 msgid "New"
 msgstr "Nowy"
-
-#: scalable/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "OK"
 
 #: scalable/emblems/emblem-personal.icon.in.h:1
 msgid "Personal"
 msgstr "Osobisty"
 
-#: scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "Specjalny"
-
 #: scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
 msgstr "Pilny"
+
+#~ msgid "Gnome"
+#~ msgstr "GNOME"

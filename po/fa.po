@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
-"POT-Creation-Date: 2003-07-08 11:08+0200\n"
+"POT-Creation-Date: 2003-10-20 14:44+0200\n"
 "PO-Revision-Date: 2003-02-20 01:22+0330\n"
 "Last-Translator: Roozbeh Pournader <roozbeh@sharif.edu>\n"
 "Language-Team: Persian <farsi@lists.sharif.edu>\n"
@@ -14,12 +14,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: index.theme.in.h:1
-msgid "Default Gnome Theme"
+#, fuzzy
+msgid "Default GNOME Theme"
 msgstr "تم پیشفرض گنوم"
 
 #: index.theme.in.h:2
-msgid "Gnome"
-msgstr "گنوم"
+msgid "GNOME"
+msgstr ""
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 msgid "Art"
@@ -32,6 +33,9 @@ msgstr ""
 # 48x48/emblems/emblem-camera.icon.in.h:1
 msgid "Camera"
 msgstr "دوربین"
+
+msgid "Certified"
+msgstr "تأییدشده"
 
 msgid "Cool"
 msgstr "باحال"
@@ -46,12 +50,26 @@ msgstr "اسناد"
 msgid "Favorite"
 msgstr "مورد علاقه"
 
+msgid "Generic"
+msgstr "عمومی"
+
+# 48x48/emblems/emblem-handshake.icon.in.h:1
+msgid "Handshake"
+msgstr ""
+
+msgid "Important"
+msgstr "مهم"
+
 # 48x48/emblems/emblem-mail.icon.in.h:1
 msgid "Mail"
 msgstr "نامه"
 
 # 48x48/emblems/emblem-marketing.icon.in.h:1
 msgid "Marketing"
+msgstr ""
+
+# 48x48/emblems/emblem-money.icon.in.h:1
+msgid "Money"
 msgstr ""
 
 # 48x48/emblems/emblem-multimedia.icon.in.h:1
@@ -62,9 +80,16 @@ msgstr "چندرسانه‌ای"
 msgid "Oh no!"
 msgstr "اوخ نه!"
 
+msgid "OK"
+msgstr "تأیید"
+
 # 48x48/emblems/emblem-package.icon.in.h:1
 msgid "Package"
 msgstr "بسته"
+
+# 48x48/emblems/emblem-people.icon.in.h:1
+msgid "People"
+msgstr ""
 
 # 48x48/emblems/emblem-pictures.icon.in.h:1
 msgid "Pictures"
@@ -72,6 +97,10 @@ msgstr "تصاویر"
 
 # 48x48/emblems/emblem-plan.icon.in.h:1
 msgid "Plan"
+msgstr ""
+
+# 48x48/emblems/emblem-presentation.icon.in.h:1
+msgid "Presentation"
 msgstr ""
 
 # 48x48/emblems/emblem-sales.icon.in.h:1
@@ -82,13 +111,12 @@ msgstr ""
 msgid "Sound"
 msgstr "صدا"
 
+msgid "Special"
+msgstr "ویژه"
+
 # 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "وب"
-
-#: scalable/emblems/emblem-certified.icon.in.h:1
-msgid "Certified"
-msgstr "تأییدشده"
 
 #: scalable/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
@@ -98,30 +126,17 @@ msgstr "برجسته"
 msgid "Draft"
 msgstr "پیشنویس"
 
-#: scalable/emblems/emblem-generic.icon.in.h:1
-msgid "Generic"
-msgstr "عمومی"
-
-#: scalable/emblems/emblem-important.icon.in.h:1
-msgid "Important"
-msgstr "مهم"
-
 #: scalable/emblems/emblem-new.icon.in.h:1
 msgid "New"
 msgstr "جدید"
-
-#: scalable/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "تأیید"
 
 #: scalable/emblems/emblem-personal.icon.in.h:1
 msgid "Personal"
 msgstr "شخصی"
 
-#: scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "ویژه"
-
 #: scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
 msgstr "فوری"
+
+#~ msgid "Gnome"
+#~ msgstr "گنوم"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
-"POT-Creation-Date: 2003-07-08 11:08+0200\n"
+"POT-Creation-Date: 2003-10-20 14:44+0200\n"
 "PO-Revision-Date: 2003-02-03 17:24-0700\n"
 "Last-Translator: Paisa Seeluangsawat <paisa@colorado.edu>\n"
 "Language-Team: Thai <>\n"
@@ -15,12 +15,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: index.theme.in.h:1
-msgid "Default Gnome Theme"
+#, fuzzy
+msgid "Default GNOME Theme"
 msgstr "รูปแบบปริยายของ Gnome"
 
 #: index.theme.in.h:2
-msgid "Gnome"
-msgstr "Gnome"
+msgid "GNOME"
+msgstr ""
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 msgid "Art"
@@ -33,6 +34,9 @@ msgstr ""
 # 48x48/emblems/emblem-camera.icon.in.h:1
 msgid "Camera"
 msgstr "กล้อง"
+
+msgid "Certified"
+msgstr "ได้รับการรับรอง"
 
 msgid "Cool"
 msgstr "จ้าบ"
@@ -47,12 +51,26 @@ msgstr "เอกสาร"
 msgid "Favorite"
 msgstr "ของชอบ"
 
+msgid "Generic"
+msgstr "ทั่วไป"
+
+# 48x48/emblems/emblem-handshake.icon.in.h:1
+msgid "Handshake"
+msgstr ""
+
+msgid "Important"
+msgstr "สำคัญ"
+
 # 48x48/emblems/emblem-mail.icon.in.h:1
 msgid "Mail"
 msgstr "จดหมาย"
 
 # 48x48/emblems/emblem-marketing.icon.in.h:1
 msgid "Marketing"
+msgstr ""
+
+# 48x48/emblems/emblem-money.icon.in.h:1
+msgid "Money"
 msgstr ""
 
 # 48x48/emblems/emblem-multimedia.icon.in.h:1
@@ -63,9 +81,16 @@ msgstr "มัลติมีเดีย"
 msgid "Oh no!"
 msgstr "Oh No!"
 
+msgid "OK"
+msgstr "OK"
+
 # 48x48/emblems/emblem-package.icon.in.h:1
 msgid "Package"
 msgstr "แพ็กเกจ"
+
+# 48x48/emblems/emblem-people.icon.in.h:1
+msgid "People"
+msgstr ""
 
 # 48x48/emblems/emblem-pictures.icon.in.h:1
 msgid "Pictures"
@@ -73,6 +98,10 @@ msgstr "รูป"
 
 # 48x48/emblems/emblem-plan.icon.in.h:1
 msgid "Plan"
+msgstr ""
+
+# 48x48/emblems/emblem-presentation.icon.in.h:1
+msgid "Presentation"
 msgstr ""
 
 # 48x48/emblems/emblem-sales.icon.in.h:1
@@ -83,13 +112,12 @@ msgstr ""
 msgid "Sound"
 msgstr "เสียง"
 
+msgid "Special"
+msgstr "พิเศษ"
+
 # 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "เว็บ"
-
-#: scalable/emblems/emblem-certified.icon.in.h:1
-msgid "Certified"
-msgstr "ได้รับการรับรอง"
 
 #: scalable/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
@@ -99,30 +127,17 @@ msgstr "แตะตา"
 msgid "Draft"
 msgstr "ร่าง"
 
-#: scalable/emblems/emblem-generic.icon.in.h:1
-msgid "Generic"
-msgstr "ทั่วไป"
-
-#: scalable/emblems/emblem-important.icon.in.h:1
-msgid "Important"
-msgstr "สำคัญ"
-
 #: scalable/emblems/emblem-new.icon.in.h:1
 msgid "New"
 msgstr "ใหม่"
-
-#: scalable/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "OK"
 
 #: scalable/emblems/emblem-personal.icon.in.h:1
 msgid "Personal"
 msgstr "ส่วนตัว"
 
-#: scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "พิเศษ"
-
 #: scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
 msgstr "ด่วน"
+
+#~ msgid "Gnome"
+#~ msgstr "Gnome"

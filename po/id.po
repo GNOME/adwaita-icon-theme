@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme HEAD\n"
-"POT-Creation-Date: 2003-07-08 11:08+0200\n"
+"POT-Creation-Date: 2003-10-20 14:44+0200\n"
 "PO-Revision-Date: 2003-02-06 10:27+0700\n"
 "Last-Translator: Mohammad DAMT <mdamt@bisnisweb.com>\n"
 "Language-Team: Indonesia <id@li.org>\n"
@@ -15,12 +15,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: index.theme.in.h:1
-msgid "Default Gnome Theme"
+#, fuzzy
+msgid "Default GNOME Theme"
 msgstr "Tema Gnome default"
 
 #: index.theme.in.h:2
-msgid "Gnome"
-msgstr "Gnome"
+msgid "GNOME"
+msgstr ""
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 msgid "Art"
@@ -33,6 +34,9 @@ msgstr ""
 # 48x48/emblems/emblem-camera.icon.in.h:1
 msgid "Camera"
 msgstr "Kamera"
+
+msgid "Certified"
+msgstr "Bersertifikat"
 
 msgid "Cool"
 msgstr "Keren"
@@ -47,12 +51,26 @@ msgstr "Dokumen"
 msgid "Favorite"
 msgstr "Favorit"
 
+msgid "Generic"
+msgstr "Generik"
+
+# 48x48/emblems/emblem-handshake.icon.in.h:1
+msgid "Handshake"
+msgstr ""
+
+msgid "Important"
+msgstr "Penting"
+
 # 48x48/emblems/emblem-mail.icon.in.h:1
 msgid "Mail"
 msgstr "Surat"
 
 # 48x48/emblems/emblem-marketing.icon.in.h:1
 msgid "Marketing"
+msgstr ""
+
+# 48x48/emblems/emblem-money.icon.in.h:1
+msgid "Money"
 msgstr ""
 
 # 48x48/emblems/emblem-multimedia.icon.in.h:1
@@ -63,9 +81,16 @@ msgstr "Multimedia"
 msgid "Oh no!"
 msgstr "Ya Ampun!"
 
+msgid "OK"
+msgstr "OK"
+
 # 48x48/emblems/emblem-package.icon.in.h:1
 msgid "Package"
 msgstr "Paket"
+
+# 48x48/emblems/emblem-people.icon.in.h:1
+msgid "People"
+msgstr ""
 
 # 48x48/emblems/emblem-pictures.icon.in.h:1
 msgid "Pictures"
@@ -73,6 +98,10 @@ msgstr "Gambar"
 
 # 48x48/emblems/emblem-plan.icon.in.h:1
 msgid "Plan"
+msgstr ""
+
+# 48x48/emblems/emblem-presentation.icon.in.h:1
+msgid "Presentation"
 msgstr ""
 
 # 48x48/emblems/emblem-sales.icon.in.h:1
@@ -83,13 +112,12 @@ msgstr ""
 msgid "Sound"
 msgstr "Suara"
 
+msgid "Special"
+msgstr "Spesial"
+
 # 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Web"
-
-#: scalable/emblems/emblem-certified.icon.in.h:1
-msgid "Certified"
-msgstr "Bersertifikat"
 
 #: scalable/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
@@ -99,30 +127,17 @@ msgstr "Hebat"
 msgid "Draft"
 msgstr "Draf"
 
-#: scalable/emblems/emblem-generic.icon.in.h:1
-msgid "Generic"
-msgstr "Generik"
-
-#: scalable/emblems/emblem-important.icon.in.h:1
-msgid "Important"
-msgstr "Penting"
-
 #: scalable/emblems/emblem-new.icon.in.h:1
 msgid "New"
 msgstr "Baru"
-
-#: scalable/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "OK"
 
 #: scalable/emblems/emblem-personal.icon.in.h:1
 msgid "Personal"
 msgstr "Pribadi"
 
-#: scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "Spesial"
-
 #: scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
 msgstr "Segera"
+
+#~ msgid "Gnome"
+#~ msgstr "Gnome"

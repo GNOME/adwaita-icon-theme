@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme.HEAD\n"
-"POT-Creation-Date: 2003-07-08 11:08+0200\n"
+"POT-Creation-Date: 2003-10-20 14:44+0200\n"
 "PO-Revision-Date: 2003-03-06 14:47 GMT\n"
 "Last-Translator: Paul Duffy <dubhthach@zion.nuigalway.ie>\n"
 "Language-Team: Irish\n"
@@ -15,12 +15,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: index.theme.in.h:1
-msgid "Default Gnome Theme"
+#, fuzzy
+msgid "Default GNOME Theme"
 msgstr "An Téama loiceadh le haighaidh Gnome"
 
 #: index.theme.in.h:2
-msgid "Gnome"
-msgstr "Gnome"
+msgid "GNOME"
+msgstr ""
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 msgid "Art"
@@ -33,6 +34,9 @@ msgstr ""
 # 48x48/emblems/emblem-camera.icon.in.h:1
 msgid "Camera"
 msgstr "Ceamara"
+
+msgid "Certified"
+msgstr "Deimhnach"
 
 msgid "Cool"
 msgstr "Fionnuar"
@@ -47,12 +51,26 @@ msgstr "Doiciméad"
 msgid "Favorite"
 msgstr "An rud is fearr liom"
 
+msgid "Generic"
+msgstr "Ginearálta"
+
+# 48x48/emblems/emblem-handshake.icon.in.h:1
+msgid "Handshake"
+msgstr ""
+
+msgid "Important"
+msgstr "Tábhachtach"
+
 # 48x48/emblems/emblem-mail.icon.in.h:1
 msgid "Mail"
 msgstr "Post"
 
 # 48x48/emblems/emblem-marketing.icon.in.h:1
 msgid "Marketing"
+msgstr ""
+
+# 48x48/emblems/emblem-money.icon.in.h:1
+msgid "Money"
 msgstr ""
 
 # 48x48/emblems/emblem-multimedia.icon.in.h:1
@@ -63,9 +81,16 @@ msgstr "Illmheáin"
 msgid "Oh no!"
 msgstr "Damnú!"
 
+msgid "OK"
+msgstr "Ceart go leoir"
+
 # 48x48/emblems/emblem-package.icon.in.h:1
 msgid "Package"
 msgstr "Pacáiste"
+
+# 48x48/emblems/emblem-people.icon.in.h:1
+msgid "People"
+msgstr ""
 
 # 48x48/emblems/emblem-pictures.icon.in.h:1
 msgid "Pictures"
@@ -73,6 +98,10 @@ msgstr "Pictiúraí"
 
 # 48x48/emblems/emblem-plan.icon.in.h:1
 msgid "Plan"
+msgstr ""
+
+# 48x48/emblems/emblem-presentation.icon.in.h:1
+msgid "Presentation"
 msgstr ""
 
 # 48x48/emblems/emblem-sales.icon.in.h:1
@@ -83,13 +112,12 @@ msgstr ""
 msgid "Sound"
 msgstr "Glór"
 
+msgid "Special"
+msgstr "Speisialta"
+
 # 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Líon"
-
-#: scalable/emblems/emblem-certified.icon.in.h:1
-msgid "Certified"
-msgstr "Deimhnach"
 
 #: scalable/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
@@ -99,30 +127,17 @@ msgstr "Céimiúil"
 msgid "Draft"
 msgstr "Dréacht"
 
-#: scalable/emblems/emblem-generic.icon.in.h:1
-msgid "Generic"
-msgstr "Ginearálta"
-
-#: scalable/emblems/emblem-important.icon.in.h:1
-msgid "Important"
-msgstr "Tábhachtach"
-
 #: scalable/emblems/emblem-new.icon.in.h:1
 msgid "New"
 msgstr "Nua"
-
-#: scalable/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "Ceart go leoir"
 
 #: scalable/emblems/emblem-personal.icon.in.h:1
 msgid "Personal"
 msgstr "Pearsanta"
 
-#: scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "Speisialta"
-
 #: scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
 msgstr "Díthneascach"
+
+#~ msgid "Gnome"
+#~ msgstr "Gnome"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
-"POT-Creation-Date: 2003-08-07 22:29+0800\n"
+"POT-Creation-Date: 2003-10-20 14:44+0200\n"
 "PO-Revision-Date: 2003-08-07 05:36+0800\n"
 "Last-Translator: He Qiangqiang <carton@linux.net.cn>\n"
 "Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
@@ -17,12 +17,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 
 #: index.theme.in.h:1
-msgid "Default Gnome Theme"
+#, fuzzy
+msgid "Default GNOME Theme"
 msgstr "GNOME 默认主题"
 
 #: index.theme.in.h:2
-msgid "Gnome"
-msgstr "GNOME"
+msgid "GNOME"
+msgstr ""
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 msgid "Art"
@@ -36,6 +37,9 @@ msgstr "二进制"
 # 48x48/emblems/emblem-camera.icon.in.h:1
 msgid "Camera"
 msgstr "相片"
+
+msgid "Certified"
+msgstr "认证"
 
 # 48x48/emblems/emblem-cool.icon.in.h:1
 msgid "Cool"
@@ -53,6 +57,16 @@ msgstr "文档"
 msgid "Favorite"
 msgstr "最爱"
 
+msgid "Generic"
+msgstr "一般"
+
+# 48x48/emblems/emblem-handshake.icon.in.h:1
+msgid "Handshake"
+msgstr ""
+
+msgid "Important"
+msgstr "重要"
+
 # 48x48/emblems/emblem-mail.icon.in.h:1
 msgid "Mail"
 msgstr "邮件"
@@ -62,6 +76,10 @@ msgstr "邮件"
 msgid "Marketing"
 msgstr "营销"
 
+# 48x48/emblems/emblem-money.icon.in.h:1
+msgid "Money"
+msgstr ""
+
 # 48x48/emblems/emblem-multimedia.icon.in.h:1
 msgid "Multimedia"
 msgstr "多媒体"
@@ -70,9 +88,16 @@ msgstr "多媒体"
 msgid "Oh no!"
 msgstr "不！"
 
+msgid "OK"
+msgstr "好"
+
 # 48x48/emblems/emblem-package.icon.in.h:1
 msgid "Package"
 msgstr "软件包"
+
+# 48x48/emblems/emblem-people.icon.in.h:1
+msgid "People"
+msgstr ""
 
 # 48x48/emblems/emblem-pictures.icon.in.h:1
 msgid "Pictures"
@@ -83,6 +108,10 @@ msgstr "图片"
 msgid "Plan"
 msgstr "计划"
 
+# 48x48/emblems/emblem-presentation.icon.in.h:1
+msgid "Presentation"
+msgstr ""
+
 # 48x48/emblems/emblem-sales.icon.in.h:1
 # 48x48/emblems/emblem-sales.icon.in.h:1
 msgid "Sales"
@@ -92,13 +121,12 @@ msgstr "销售"
 msgid "Sound"
 msgstr "音效"
 
+msgid "Special"
+msgstr "特别"
+
 # 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "网页"
-
-#: scalable/emblems/emblem-certified.icon.in.h:1
-msgid "Certified"
-msgstr "认证"
 
 #: scalable/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
@@ -108,30 +136,17 @@ msgstr "优等"
 msgid "Draft"
 msgstr "草稿"
 
-#: scalable/emblems/emblem-generic.icon.in.h:1
-msgid "Generic"
-msgstr "一般"
-
-#: scalable/emblems/emblem-important.icon.in.h:1
-msgid "Important"
-msgstr "重要"
-
 #: scalable/emblems/emblem-new.icon.in.h:1
 msgid "New"
 msgstr "新"
-
-#: scalable/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "好"
 
 #: scalable/emblems/emblem-personal.icon.in.h:1
 msgid "Personal"
 msgstr "私人"
 
-#: scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "特别"
-
 #: scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
 msgstr "紧急"
+
+#~ msgid "Gnome"
+#~ msgstr "GNOME"

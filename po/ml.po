@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version:gnome-icon-theme.HEAD\n"
-"POT-Creation-Date: 2003-06-06 04:22+0200\n"
+"POT-Creation-Date: 2003-10-20 14:44+0200\n"
 "PO-Revision-Date: 2003-07-05 10:29+0530\n"
 "Last-Translator: FSF-India <locale@gnu.org.in>\n"
 "Language-Team: Malayalam <locale@gnu.org.in>\n"
@@ -15,51 +15,100 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: index.theme.in.h:1
-msgid "Default Gnome Theme"
+#, fuzzy
+msgid "Default GNOME Theme"
 msgstr "സ്വതേയുള്ള ഗ്നോം രംഗവിധാനം"
 
 #: index.theme.in.h:2
-msgid "Gnome"
-msgstr "ഗ്നോം"
+msgid "GNOME"
+msgstr ""
 
 msgid "Art"
 msgstr "കല"
 
+# 48x48/emblems/emblem-bin.icon.in.h:1
+msgid "Binary"
+msgstr ""
+
 msgid "Camera"
 msgstr "ക്യാമറ"
+
+msgid "Certified"
+msgstr "സാക്ഷ്യപ്പെടുത്തുക"
+
+msgid "Cool"
+msgstr "തണുത്ത"
+
+msgid "Danger"
+msgstr "അപായം"
 
 msgid "Documents"
 msgstr "ഗ്രന്ഥങ്ങള്"
 
+msgid "Favorite"
+msgstr "ഇഷ്ടപ്പെട്ട"
+
+msgid "Generic"
+msgstr "സാധാരണ"
+
+# 48x48/emblems/emblem-handshake.icon.in.h:1
+msgid "Handshake"
+msgstr ""
+
+msgid "Important"
+msgstr "സുപ്രധാനമായ"
+
 msgid "Mail"
 msgstr "തപാല്"
+
+# 48x48/emblems/emblem-marketing.icon.in.h:1
+msgid "Marketing"
+msgstr ""
+
+# 48x48/emblems/emblem-money.icon.in.h:1
+msgid "Money"
+msgstr ""
 
 msgid "Multimedia"
 msgstr "ബഹുമാധ്യമം"
 
+#, fuzzy
+msgid "Oh no!"
+msgstr "ഓ ഇല്ല!"
+
+msgid "OK"
+msgstr "ശരി"
+
 msgid "Package"
 msgstr "പൊതി"
+
+# 48x48/emblems/emblem-people.icon.in.h:1
+msgid "People"
+msgstr ""
 
 msgid "Pictures"
 msgstr "ചിത്രങ്ങള്‌"
 
+# 48x48/emblems/emblem-plan.icon.in.h:1
+msgid "Plan"
+msgstr ""
+
+# 48x48/emblems/emblem-presentation.icon.in.h:1
+msgid "Presentation"
+msgstr ""
+
+# 48x48/emblems/emblem-sales.icon.in.h:1
+msgid "Sales"
+msgstr ""
+
 msgid "Sound"
 msgstr "ശബ്ദം"
 
+msgid "Special"
+msgstr "സവിശേഷം"
+
 msgid "Web"
 msgstr "വെബ്"
-
-#: scalable/emblems/emblem-certified.icon.in.h:1
-msgid "Certified"
-msgstr "സാക്ഷ്യപ്പെടുത്തുക"
-
-#: scalable/emblems/emblem-cool.icon.in.h:1
-msgid "Cool"
-msgstr "തണുത്ത"
-
-#: scalable/emblems/emblem-danger.icon.in.h:1
-msgid "Danger"
-msgstr "അപായം"
 
 #: scalable/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
@@ -69,38 +118,17 @@ msgstr "തിരിച്ചറിഞ്ഞ"
 msgid "Draft"
 msgstr "കരട്‌"
 
-#: scalable/emblems/emblem-favorite.icon.in.h:1
-msgid "Favorite"
-msgstr "ഇഷ്ടപ്പെട്ട"
-
-#: scalable/emblems/emblem-generic.icon.in.h:1
-msgid "Generic"
-msgstr "സാധാരണ"
-
-#: scalable/emblems/emblem-important.icon.in.h:1
-msgid "Important"
-msgstr "സുപ്രധാനമായ"
-
 #: scalable/emblems/emblem-new.icon.in.h:1
 msgid "New"
 msgstr "പുതിയ"
-
-#: scalable/emblems/emblem-ohno.icon.in.h:1
-msgid "Oh No!"
-msgstr "ഓ ഇല്ല!"
-
-#: scalable/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "ശരി"
 
 #: scalable/emblems/emblem-personal.icon.in.h:1
 msgid "Personal"
 msgstr "വ്യക്തിപരം"
 
-#: scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "സവിശേഷം"
-
 #: scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
 msgstr "അത്യാവശ്യം"
+
+#~ msgid "Gnome"
+#~ msgstr "ഗ്നോം"

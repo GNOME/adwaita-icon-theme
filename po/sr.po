@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Gnome-Icon-Theme-2.2\n"
-"POT-Creation-Date: 2003-08-08 03:24+0200\n"
+"POT-Creation-Date: 2003-10-20 14:44+0200\n"
 "PO-Revision-Date: 2003-08-08 03:24+0200\n"
 "Last-Translator: Бранко Ивановић <popeye@one.ekof.bg.ac.yu>\n"
 "Language-Team: Serbian (sr) <serbiangnome-lista@nongnu.org>\n"
@@ -19,12 +19,13 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 #: index.theme.in.h:1
-msgid "Default Gnome Theme"
+#, fuzzy
+msgid "Default GNOME Theme"
 msgstr "Подразумевана Гном Тема"
 
 #: index.theme.in.h:2
-msgid "Gnome"
-msgstr "Гном"
+msgid "GNOME"
+msgstr ""
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 msgid "Art"
@@ -37,6 +38,9 @@ msgstr "Бинарно"
 # 48x48/emblems/emblem-camera.icon.in.h:1
 msgid "Camera"
 msgstr "Камера"
+
+msgid "Certified"
+msgstr "Потврђено"
 
 msgid "Cool"
 msgstr "Одлично"
@@ -51,6 +55,16 @@ msgstr "Документа"
 msgid "Favorite"
 msgstr "Омиљено"
 
+msgid "Generic"
+msgstr "Опште"
+
+# 48x48/emblems/emblem-handshake.icon.in.h:1
+msgid "Handshake"
+msgstr ""
+
+msgid "Important"
+msgstr "Важно"
+
 # 48x48/emblems/emblem-mail.icon.in.h:1
 msgid "Mail"
 msgstr "Пошта"
@@ -59,6 +73,10 @@ msgstr "Пошта"
 msgid "Marketing"
 msgstr "Маркетинг"
 
+# 48x48/emblems/emblem-money.icon.in.h:1
+msgid "Money"
+msgstr ""
+
 # 48x48/emblems/emblem-multimedia.icon.in.h:1
 msgid "Multimedia"
 msgstr "Мултимедија"
@@ -66,9 +84,16 @@ msgstr "Мултимедија"
 msgid "Oh no!"
 msgstr "О не!"
 
+msgid "OK"
+msgstr "¾º"
+
 # 48x48/emblems/emblem-package.icon.in.h:1
 msgid "Package"
 msgstr "Пакет"
+
+# 48x48/emblems/emblem-people.icon.in.h:1
+msgid "People"
+msgstr ""
 
 # 48x48/emblems/emblem-pictures.icon.in.h:1
 msgid "Pictures"
@@ -78,6 +103,10 @@ msgstr "Слике"
 msgid "Plan"
 msgstr "План"
 
+# 48x48/emblems/emblem-presentation.icon.in.h:1
+msgid "Presentation"
+msgstr ""
+
 # 48x48/emblems/emblem-sales.icon.in.h:1
 msgid "Sales"
 msgstr "Продаја"
@@ -86,13 +115,12 @@ msgstr "Продаја"
 msgid "Sound"
 msgstr "Звук"
 
+msgid "Special"
+msgstr "Посебно"
+
 # 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Мрежа"
-
-#: scalable/emblems/emblem-certified.icon.in.h:1
-msgid "Certified"
-msgstr "Потврђено"
 
 #: scalable/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
@@ -102,30 +130,17 @@ msgstr "Изузетно"
 msgid "Draft"
 msgstr "Припрема"
 
-#: scalable/emblems/emblem-generic.icon.in.h:1
-msgid "Generic"
-msgstr "Опште"
-
-#: scalable/emblems/emblem-important.icon.in.h:1
-msgid "Important"
-msgstr "Важно"
-
 #: scalable/emblems/emblem-new.icon.in.h:1
 msgid "New"
 msgstr "Ново"
-
-#: scalable/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "¾º"
 
 #: scalable/emblems/emblem-personal.icon.in.h:1
 msgid "Personal"
 msgstr "Лично"
 
-#: scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "Посебно"
-
 #: scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
 msgstr "Хитно"
+
+#~ msgid "Gnome"
+#~ msgstr "Гном"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.4\n"
-"POT-Creation-Date: 2003-07-19 16:41+0100\n"
+"POT-Creation-Date: 2003-10-20 14:44+0200\n"
 "PO-Revision-Date: 2003-07-19 16:45+0100\n"
 "Last-Translator: Duarte Loreto <happyguy_pt@hotmail.com>\n"
 "Language-Team: pt <gnome_pt@yahoogroups.com>\n"
@@ -15,12 +15,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: index.theme.in.h:1
-msgid "Default Gnome Theme"
+#, fuzzy
+msgid "Default GNOME Theme"
 msgstr "Tema Gnome por Omissão"
 
 #: index.theme.in.h:2
-msgid "Gnome"
-msgstr "Gnome"
+msgid "GNOME"
+msgstr ""
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 msgid "Art"
@@ -33,6 +34,9 @@ msgstr "Binário"
 # 48x48/emblems/emblem-camera.icon.in.h:1
 msgid "Camera"
 msgstr "Câmara"
+
+msgid "Certified"
+msgstr "Certificado"
 
 msgid "Cool"
 msgstr "Porreiro"
@@ -47,6 +51,16 @@ msgstr "Documentos"
 msgid "Favorite"
 msgstr "Favorito"
 
+msgid "Generic"
+msgstr "Genérico"
+
+# 48x48/emblems/emblem-handshake.icon.in.h:1
+msgid "Handshake"
+msgstr ""
+
+msgid "Important"
+msgstr "Importante"
+
 # 48x48/emblems/emblem-mail.icon.in.h:1
 msgid "Mail"
 msgstr "Correio"
@@ -55,6 +69,10 @@ msgstr "Correio"
 msgid "Marketing"
 msgstr "Marketing"
 
+# 48x48/emblems/emblem-money.icon.in.h:1
+msgid "Money"
+msgstr ""
+
 # 48x48/emblems/emblem-multimedia.icon.in.h:1
 msgid "Multimedia"
 msgstr "Multimédia"
@@ -62,9 +80,16 @@ msgstr "Multimédia"
 msgid "Oh no!"
 msgstr "Oh não!"
 
+msgid "OK"
+msgstr "OK"
+
 # 48x48/emblems/emblem-package.icon.in.h:1
 msgid "Package"
 msgstr "Pacote"
+
+# 48x48/emblems/emblem-people.icon.in.h:1
+msgid "People"
+msgstr ""
 
 # 48x48/emblems/emblem-pictures.icon.in.h:1
 msgid "Pictures"
@@ -74,6 +99,10 @@ msgstr "Imagens"
 msgid "Plan"
 msgstr "Plano"
 
+# 48x48/emblems/emblem-presentation.icon.in.h:1
+msgid "Presentation"
+msgstr ""
+
 # 48x48/emblems/emblem-sales.icon.in.h:1
 msgid "Sales"
 msgstr "Vendas"
@@ -82,13 +111,12 @@ msgstr "Vendas"
 msgid "Sound"
 msgstr "Som"
 
+msgid "Special"
+msgstr "Especial"
+
 # 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Web"
-
-#: scalable/emblems/emblem-certified.icon.in.h:1
-msgid "Certified"
-msgstr "Certificado"
 
 #: scalable/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
@@ -98,30 +126,17 @@ msgstr "Distinto"
 msgid "Draft"
 msgstr "Rascunho"
 
-#: scalable/emblems/emblem-generic.icon.in.h:1
-msgid "Generic"
-msgstr "Genérico"
-
-#: scalable/emblems/emblem-important.icon.in.h:1
-msgid "Important"
-msgstr "Importante"
-
 #: scalable/emblems/emblem-new.icon.in.h:1
 msgid "New"
 msgstr "Novo"
-
-#: scalable/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "OK"
 
 #: scalable/emblems/emblem-personal.icon.in.h:1
 msgid "Personal"
 msgstr "Pessoal"
 
-#: scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "Especial"
-
 #: scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
 msgstr "Urgente"
+
+#~ msgid "Gnome"
+#~ msgstr "Gnome"

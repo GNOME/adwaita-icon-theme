@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
-"POT-Creation-Date: 2003-07-10 16:28+0400\n"
+"POT-Creation-Date: 2003-10-20 14:44+0200\n"
 "PO-Revision-Date: 2003-07-10 16:29+0400\n"
 "Last-Translator: Dmitry G. Mastrukov <dmitry@taurussoft.org>\n"
 "Language-Team: Russina <gnome-cyr@gnome.org>\n"
@@ -15,12 +15,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: index.theme.in.h:1
-msgid "Default Gnome Theme"
+#, fuzzy
+msgid "Default GNOME Theme"
 msgstr "Стандартная тема среды Гном"
 
 #: index.theme.in.h:2
-msgid "Gnome"
-msgstr "Гном"
+msgid "GNOME"
+msgstr ""
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 msgid "Art"
@@ -33,6 +34,9 @@ msgstr "Двоичные"
 # 48x48/emblems/emblem-camera.icon.in.h:1
 msgid "Camera"
 msgstr "Камера"
+
+msgid "Certified"
+msgstr "Сертифицировано"
 
 msgid "Cool"
 msgstr "Круто"
@@ -47,6 +51,16 @@ msgstr "Документы"
 msgid "Favorite"
 msgstr "Любимый"
 
+msgid "Generic"
+msgstr "Общий"
+
+# 48x48/emblems/emblem-handshake.icon.in.h:1
+msgid "Handshake"
+msgstr ""
+
+msgid "Important"
+msgstr "Важно"
+
 # 48x48/emblems/emblem-mail.icon.in.h:1
 msgid "Mail"
 msgstr "Почта"
@@ -55,6 +69,10 @@ msgstr "Почта"
 msgid "Marketing"
 msgstr "Маркетинг"
 
+# 48x48/emblems/emblem-money.icon.in.h:1
+msgid "Money"
+msgstr ""
+
 # 48x48/emblems/emblem-multimedia.icon.in.h:1
 msgid "Multimedia"
 msgstr "Мультимедия"
@@ -62,9 +80,16 @@ msgstr "Мультимедия"
 msgid "Oh no!"
 msgstr "О, нет!"
 
+msgid "OK"
+msgstr "OK"
+
 # 48x48/emblems/emblem-package.icon.in.h:1
 msgid "Package"
 msgstr "Пакет"
+
+# 48x48/emblems/emblem-people.icon.in.h:1
+msgid "People"
+msgstr ""
 
 # 48x48/emblems/emblem-pictures.icon.in.h:1
 msgid "Pictures"
@@ -74,6 +99,10 @@ msgstr "Картинки"
 msgid "Plan"
 msgstr "План"
 
+# 48x48/emblems/emblem-presentation.icon.in.h:1
+msgid "Presentation"
+msgstr ""
+
 # 48x48/emblems/emblem-sales.icon.in.h:1
 msgid "Sales"
 msgstr "Продажи"
@@ -82,13 +111,12 @@ msgstr "Продажи"
 msgid "Sound"
 msgstr "Звук"
 
+msgid "Special"
+msgstr "Специальный"
+
 # 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Веб"
-
-#: scalable/emblems/emblem-certified.icon.in.h:1
-msgid "Certified"
-msgstr "Сертифицировано"
 
 #: scalable/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
@@ -98,30 +126,17 @@ msgstr "Выдающийся"
 msgid "Draft"
 msgstr "Черновик"
 
-#: scalable/emblems/emblem-generic.icon.in.h:1
-msgid "Generic"
-msgstr "Общий"
-
-#: scalable/emblems/emblem-important.icon.in.h:1
-msgid "Important"
-msgstr "Важно"
-
 #: scalable/emblems/emblem-new.icon.in.h:1
 msgid "New"
 msgstr "Новый"
-
-#: scalable/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "OK"
 
 #: scalable/emblems/emblem-personal.icon.in.h:1
 msgid "Personal"
 msgstr "Персональный"
 
-#: scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "Специальный"
-
 #: scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
 msgstr "Срочный"
+
+#~ msgid "Gnome"
+#~ msgstr "Гном"

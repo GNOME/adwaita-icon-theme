@@ -7,93 +7,121 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme 1.0.7\n"
-"POT-Creation-Date: 2003-08-19 12:06+0200\n"
+"POT-Creation-Date: 2003-10-20 14:44+0200\n"
 "PO-Revision-Date: 2003-09-02 10:50+0300\n"
 "Last-Translator: Tomas Kuliavas <tokul@users.sourceforge.net>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: index.theme.in.h:1
-msgid "Default Gnome Theme"
+#, fuzzy
+msgid "Default GNOME Theme"
 msgstr "Standartinė Gnome tema"
 
 #: index.theme.in.h:2
-msgid "Gnome"
-msgstr "Gnome"
+msgid "GNOME"
+msgstr ""
 
-#: 48x48/emblems/emblem-art.icon.in.h:1
+# 48x48/emblems/emblem-art.icon.in.h:1
 msgid "Art"
 msgstr "Menas"
 
-#: 48x48/emblems/emblem-bin.icon.in.h:1
+# 48x48/emblems/emblem-bin.icon.in.h:1
 msgid "Binary"
 msgstr "Dvejetainė"
 
-#: 48x48/emblems/emblem-camera.icon.in.h:1
+# 48x48/emblems/emblem-camera.icon.in.h:1
 msgid "Camera"
 msgstr "Foto"
 
-#: 48x48/emblems/emblem-cool.icon.in.h:1
+msgid "Certified"
+msgstr "Sertifikuota"
+
+# 48x48/emblems/emblem-cool.icon.in.h:1
 msgid "Cool"
 msgstr "Šaunu"
 
-#: 48x48/emblems/emblem-danger.icon.in.h:1
+# 48x48/emblems/emblem-danger.icon.in.h:1
 msgid "Danger"
 msgstr "Pavojus"
 
-#: 48x48/emblems/emblem-documents.icon.in.h:1
+# 48x48/emblems/emblem-documents.icon.in.h:1
 msgid "Documents"
 msgstr "Dokumentai"
 
-#: 48x48/emblems/emblem-favorite.icon.in.h:1
+# 48x48/emblems/emblem-favorite.icon.in.h:1
 msgid "Favorite"
 msgstr "Mėgstama"
 
-#: 48x48/emblems/emblem-mail.icon.in.h:1
+msgid "Generic"
+msgstr "Bendra"
+
+# 48x48/emblems/emblem-handshake.icon.in.h:1
+msgid "Handshake"
+msgstr ""
+
+msgid "Important"
+msgstr "Svarbi"
+
+# 48x48/emblems/emblem-mail.icon.in.h:1
 msgid "Mail"
 msgstr "Paštas"
 
-#: 48x48/emblems/emblem-marketing.icon.in.h:1
+# 48x48/emblems/emblem-marketing.icon.in.h:1
 msgid "Marketing"
 msgstr "Reklama"
 
-#: 48x48/emblems/emblem-multimedia.icon.in.h:1
+# 48x48/emblems/emblem-money.icon.in.h:1
+msgid "Money"
+msgstr ""
+
+# 48x48/emblems/emblem-multimedia.icon.in.h:1
 msgid "Multimedia"
 msgstr "Multimedija"
 
-#: 48x48/emblems/emblem-ohno.icon.in.h:1
+# 48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
 msgstr "O ne!"
 
-#: 48x48/emblems/emblem-package.icon.in.h:1
+msgid "OK"
+msgstr "Gerai"
+
+# 48x48/emblems/emblem-package.icon.in.h:1
 msgid "Package"
 msgstr "Paketas"
 
-#: 48x48/emblems/emblem-pictures.icon.in.h:1
+# 48x48/emblems/emblem-people.icon.in.h:1
+msgid "People"
+msgstr ""
+
+# 48x48/emblems/emblem-pictures.icon.in.h:1
 msgid "Pictures"
 msgstr "Paveikslai"
 
-#: 48x48/emblems/emblem-plan.icon.in.h:1
+# 48x48/emblems/emblem-plan.icon.in.h:1
 msgid "Plan"
 msgstr "Planas"
 
-#: 48x48/emblems/emblem-sales.icon.in.h:1
+# 48x48/emblems/emblem-presentation.icon.in.h:1
+msgid "Presentation"
+msgstr ""
+
+# 48x48/emblems/emblem-sales.icon.in.h:1
 msgid "Sales"
 msgstr "Pardavimai"
 
-#: 48x48/emblems/emblem-sound.icon.in.h:1
+# 48x48/emblems/emblem-sound.icon.in.h:1
 msgid "Sound"
 msgstr "Garsas"
 
-#: 48x48/emblems/emblem-web.icon.in.h:1
+msgid "Special"
+msgstr "Speciali"
+
+# 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Tinklas"
-
-#: scalable/emblems/emblem-certified.icon.in.h:1
-msgid "Certified"
-msgstr "Sertifikuota"
 
 #: scalable/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
@@ -103,31 +131,17 @@ msgstr "Išskirtinė"
 msgid "Draft"
 msgstr "Juodraštis"
 
-#: scalable/emblems/emblem-generic.icon.in.h:1
-msgid "Generic"
-msgstr "Bendra"
-
-#: scalable/emblems/emblem-important.icon.in.h:1
-msgid "Important"
-msgstr "Svarbi"
-
 #: scalable/emblems/emblem-new.icon.in.h:1
 msgid "New"
 msgstr "Nauja"
-
-#: scalable/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "Gerai"
 
 #: scalable/emblems/emblem-personal.icon.in.h:1
 msgid "Personal"
 msgstr "Asmeninė"
 
-#: scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "Speciali"
-
 #: scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
 msgstr "Skubi"
 
+#~ msgid "Gnome"
+#~ msgstr "Gnome"

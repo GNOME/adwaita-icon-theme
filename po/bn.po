@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme 0.1.3\n"
-"POT-Creation-Date: 2003-07-08 11:08+0200\n"
+"POT-Creation-Date: 2003-10-20 14:44+0200\n"
 "PO-Revision-Date: 2003-02-06 22:08+0100\n"
 "Last-Translator: Taneem Ahmed <taneem@eyetap.org>\n"
 "Language-Team: Bengali <gnome-translation@bengalinux.org>\n"
@@ -16,12 +16,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: index.theme.in.h:1
-msgid "Default Gnome Theme"
+#, fuzzy
+msgid "Default GNOME Theme"
 msgstr "জিনম থিম"
 
 #: index.theme.in.h:2
-msgid "Gnome"
-msgstr "জিনম"
+msgid "GNOME"
+msgstr ""
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 msgid "Art"
@@ -34,6 +35,9 @@ msgstr ""
 # 48x48/emblems/emblem-camera.icon.in.h:1
 msgid "Camera"
 msgstr "ক্যমেরা"
+
+msgid "Certified"
+msgstr "সার্টিফাইড"
 
 msgid "Cool"
 msgstr "দুরদান্ত"
@@ -48,12 +52,26 @@ msgstr "ডকুমেন্টস"
 msgid "Favorite"
 msgstr "প্রিয়"
 
+msgid "Generic"
+msgstr "সাধারণ"
+
+# 48x48/emblems/emblem-handshake.icon.in.h:1
+msgid "Handshake"
+msgstr ""
+
+msgid "Important"
+msgstr "জরুরি"
+
 # 48x48/emblems/emblem-mail.icon.in.h:1
 msgid "Mail"
 msgstr "চিঠি"
 
 # 48x48/emblems/emblem-marketing.icon.in.h:1
 msgid "Marketing"
+msgstr ""
+
+# 48x48/emblems/emblem-money.icon.in.h:1
+msgid "Money"
 msgstr ""
 
 # 48x48/emblems/emblem-multimedia.icon.in.h:1
@@ -64,9 +82,16 @@ msgstr "মাল্টিমিডিয়া"
 msgid "Oh no!"
 msgstr "হায় হায়!"
 
+msgid "OK"
+msgstr "ওকে"
+
 # 48x48/emblems/emblem-package.icon.in.h:1
 msgid "Package"
 msgstr "প্যকেজ"
+
+# 48x48/emblems/emblem-people.icon.in.h:1
+msgid "People"
+msgstr ""
 
 # 48x48/emblems/emblem-pictures.icon.in.h:1
 msgid "Pictures"
@@ -74,6 +99,10 @@ msgstr "ছবি"
 
 # 48x48/emblems/emblem-plan.icon.in.h:1
 msgid "Plan"
+msgstr ""
+
+# 48x48/emblems/emblem-presentation.icon.in.h:1
+msgid "Presentation"
 msgstr ""
 
 # 48x48/emblems/emblem-sales.icon.in.h:1
@@ -84,13 +113,12 @@ msgstr ""
 msgid "Sound"
 msgstr "শব্দ"
 
+msgid "Special"
+msgstr "বিশিষ্ট"
+
 # 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "ওয়েব"
-
-#: scalable/emblems/emblem-certified.icon.in.h:1
-msgid "Certified"
-msgstr "সার্টিফাইড"
 
 #: scalable/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
@@ -100,30 +128,17 @@ msgstr "অসাধারণ"
 msgid "Draft"
 msgstr "ড্রাফট"
 
-#: scalable/emblems/emblem-generic.icon.in.h:1
-msgid "Generic"
-msgstr "সাধারণ"
-
-#: scalable/emblems/emblem-important.icon.in.h:1
-msgid "Important"
-msgstr "জরুরি"
-
 #: scalable/emblems/emblem-new.icon.in.h:1
 msgid "New"
 msgstr "নতূন"
-
-#: scalable/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "ওকে"
 
 #: scalable/emblems/emblem-personal.icon.in.h:1
 msgid "Personal"
 msgstr "ব্যক্তিগত"
 
-#: scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "বিশিষ্ট"
-
 #: scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
 msgstr "জরুরি"
+
+#~ msgid "Gnome"
+#~ msgstr "জিনম"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-themes 0.1\n"
-"POT-Creation-Date: 2003-08-19 00:17+0200\n"
+"POT-Creation-Date: 2003-10-20 14:44+0200\n"
 "PO-Revision-Date: 2003-08-19 00:18+0200\n"
 "Last-Translator: Kjartan Maraas <kmaraas@online.no>\n"
 "Language-Team: Norwegian <no@li.org>\n"
@@ -14,12 +14,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: index.theme.in.h:1
-msgid "Default Gnome Theme"
+#, fuzzy
+msgid "Default GNOME Theme"
 msgstr "Forvalgt GNOME tema"
 
 #: index.theme.in.h:2
-msgid "Gnome"
-msgstr "GNOME"
+msgid "GNOME"
+msgstr ""
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 msgid "Art"
@@ -32,6 +33,9 @@ msgstr "Binær"
 # 48x48/emblems/emblem-camera.icon.in.h:1
 msgid "Camera"
 msgstr "Kamera"
+
+msgid "Certified"
+msgstr "Sertifisert"
 
 msgid "Cool"
 msgstr "Kult"
@@ -46,6 +50,16 @@ msgstr "Dokumenter"
 msgid "Favorite"
 msgstr "Favoritt"
 
+msgid "Generic"
+msgstr "Vanlig"
+
+# 48x48/emblems/emblem-handshake.icon.in.h:1
+msgid "Handshake"
+msgstr ""
+
+msgid "Important"
+msgstr "Viktig"
+
 # 48x48/emblems/emblem-mail.icon.in.h:1
 msgid "Mail"
 msgstr "E-post"
@@ -54,6 +68,10 @@ msgstr "E-post"
 msgid "Marketing"
 msgstr "Markedsføring"
 
+# 48x48/emblems/emblem-money.icon.in.h:1
+msgid "Money"
+msgstr ""
+
 # 48x48/emblems/emblem-multimedia.icon.in.h:1
 msgid "Multimedia"
 msgstr "Multimedia"
@@ -61,9 +79,16 @@ msgstr "Multimedia"
 msgid "Oh no!"
 msgstr "Å nei!"
 
+msgid "OK"
+msgstr "OK"
+
 # 48x48/emblems/emblem-package.icon.in.h:1
 msgid "Package"
 msgstr "Pakke"
+
+# 48x48/emblems/emblem-people.icon.in.h:1
+msgid "People"
+msgstr ""
 
 # 48x48/emblems/emblem-pictures.icon.in.h:1
 msgid "Pictures"
@@ -73,6 +98,10 @@ msgstr "Bilder"
 msgid "Plan"
 msgstr "Plan"
 
+# 48x48/emblems/emblem-presentation.icon.in.h:1
+msgid "Presentation"
+msgstr ""
+
 # 48x48/emblems/emblem-sales.icon.in.h:1
 msgid "Sales"
 msgstr "Salg"
@@ -81,13 +110,12 @@ msgstr "Salg"
 msgid "Sound"
 msgstr "Lyd"
 
+msgid "Special"
+msgstr "Spesiell"
+
 # 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Nett"
-
-#: scalable/emblems/emblem-certified.icon.in.h:1
-msgid "Certified"
-msgstr "Sertifisert"
 
 #: scalable/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
@@ -97,30 +125,17 @@ msgstr "Utpreget"
 msgid "Draft"
 msgstr "Kladd"
 
-#: scalable/emblems/emblem-generic.icon.in.h:1
-msgid "Generic"
-msgstr "Vanlig"
-
-#: scalable/emblems/emblem-important.icon.in.h:1
-msgid "Important"
-msgstr "Viktig"
-
 #: scalable/emblems/emblem-new.icon.in.h:1
 msgid "New"
 msgstr "Ny"
-
-#: scalable/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "OK"
 
 #: scalable/emblems/emblem-personal.icon.in.h:1
 msgid "Personal"
 msgstr "Personlig"
 
-#: scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "Spesiell"
-
 #: scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
 msgstr "Haster"
+
+#~ msgid "Gnome"
+#~ msgstr "GNOME"

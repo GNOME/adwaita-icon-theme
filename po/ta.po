@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Tamil GnomeIconTheme 2.2\n"
-"POT-Creation-Date: 2003-07-08 11:08+0200\n"
+"POT-Creation-Date: 2003-10-20 14:44+0200\n"
 "PO-Revision-Date: 2003-04-21 23:16+0600\n"
 "Last-Translator: Dinesh Nadarajah <n_dinesh@yahoo.com>\n"
 "Language-Team: Tamil <tamilinix@yahoogroups.com>\n"
@@ -15,12 +15,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: index.theme.in.h:1
-msgid "Default Gnome Theme"
+#, fuzzy
+msgid "Default GNOME Theme"
 msgstr "¦¸¡¼¡ ¿¢¨Ä ¸§É¡õ §¾¡üÈõ"
 
 #: index.theme.in.h:2
-msgid "Gnome"
-msgstr "¸§É¡õ"
+msgid "GNOME"
+msgstr ""
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 msgid "Art"
@@ -33,6 +34,9 @@ msgstr ""
 # 48x48/emblems/emblem-camera.icon.in.h:1
 msgid "Camera"
 msgstr "´Ç¢ôÀ¼ì ¸ÕÅ¢"
+
+msgid "Certified"
+msgstr "¯Õ¾¢ôÀÎò¾¢ÂÐ"
 
 msgid "Cool"
 msgstr "¿Å£É"
@@ -47,12 +51,26 @@ msgstr "¬Å½í¸û"
 msgid "Favorite"
 msgstr "Å¢ÕôÀõ"
 
+msgid "Generic"
+msgstr "þÉõº¡÷ó¾Ð"
+
+# 48x48/emblems/emblem-handshake.icon.in.h:1
+msgid "Handshake"
+msgstr ""
+
+msgid "Important"
+msgstr "Óì¸¢Âõ"
+
 # 48x48/emblems/emblem-mail.icon.in.h:1
 msgid "Mail"
 msgstr "«ïºø"
 
 # 48x48/emblems/emblem-marketing.icon.in.h:1
 msgid "Marketing"
+msgstr ""
+
+# 48x48/emblems/emblem-money.icon.in.h:1
+msgid "Money"
 msgstr ""
 
 # 48x48/emblems/emblem-multimedia.icon.in.h:1
@@ -63,9 +81,16 @@ msgstr "Àø °¼¸õ"
 msgid "Oh no!"
 msgstr "«ö§Â¡ þø¨Ä!"
 
+msgid "OK"
+msgstr "ºÃ¢"
+
 # 48x48/emblems/emblem-package.icon.in.h:1
 msgid "Package"
 msgstr "¦À¡¾¢"
+
+# 48x48/emblems/emblem-people.icon.in.h:1
+msgid "People"
+msgstr ""
 
 # 48x48/emblems/emblem-pictures.icon.in.h:1
 msgid "Pictures"
@@ -73,6 +98,10 @@ msgstr "À¼í¸û"
 
 # 48x48/emblems/emblem-plan.icon.in.h:1
 msgid "Plan"
+msgstr ""
+
+# 48x48/emblems/emblem-presentation.icon.in.h:1
+msgid "Presentation"
 msgstr ""
 
 # 48x48/emblems/emblem-sales.icon.in.h:1
@@ -83,13 +112,12 @@ msgstr ""
 msgid "Sound"
 msgstr "´Ä¢"
 
+msgid "Special"
+msgstr "Å¢§ºõ"
+
 # 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Å¨Ä"
-
-#: scalable/emblems/emblem-certified.icon.in.h:1
-msgid "Certified"
-msgstr "¯Õ¾¢ôÀÎò¾¢ÂÐ"
 
 #: scalable/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
@@ -99,30 +127,17 @@ msgstr "§ÁõÀð¼"
 msgid "Draft"
 msgstr "Å¨Ã×"
 
-#: scalable/emblems/emblem-generic.icon.in.h:1
-msgid "Generic"
-msgstr "þÉõº¡÷ó¾Ð"
-
-#: scalable/emblems/emblem-important.icon.in.h:1
-msgid "Important"
-msgstr "Óì¸¢Âõ"
-
 #: scalable/emblems/emblem-new.icon.in.h:1
 msgid "New"
 msgstr "Ò¾¢ÂÐ"
-
-#: scalable/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "ºÃ¢"
 
 #: scalable/emblems/emblem-personal.icon.in.h:1
 msgid "Personal"
 msgstr "«ó¾Ãí¸õ"
 
-#: scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "Å¢§ºõ"
-
 #: scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
 msgstr "«ÅºÃõ"
+
+#~ msgid "Gnome"
+#~ msgstr "¸§É¡õ"
