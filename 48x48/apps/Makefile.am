@@ -24,6 +24,7 @@ icon_DATA =\
 	gnome-settings.png \
 	gnome-unknown.png \
 	gnome-system.png \
+	gnome-other.png \
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)
