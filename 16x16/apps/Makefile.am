@@ -10,6 +10,10 @@ icon_DATA =\
    gnome-devel.png \
    gnome-globe.png \
    gnome-settings.png \
+   im-aim.png  \
+   im-icq.png  \
+   im-msn.png  \
+   im-yahoo.png  \
    panel-notification-area.png \
    panel-window-list.png \
    panel-window-menu.png \
