@@ -1,3 +1,60 @@
+2003-07-09  Frederic Crozat  <fcrozat@mandrakesoft.com>
+
+	* .cvsignore:
+	* 16x16/.cvsignore:
+	* 16x16/apps/.cvsignore:
+	* 16x16/stock/.cvsignore:
+	* 16x16/stock/chart/.cvsignore:
+	* 16x16/stock/code/.cvsignore:
+	* 16x16/stock/data/.cvsignore:
+	* 16x16/stock/document/.cvsignore:
+	* 16x16/stock/form/.cvsignore:
+	* 16x16/stock/generic/.cvsignore:
+	* 16x16/stock/image/.cvsignore:
+	* 16x16/stock/io/.cvsignore:
+	* 16x16/stock/media/.cvsignore:
+	* 16x16/stock/navigation/.cvsignore:
+	* 16x16/stock/net/.cvsignore:
+	* 16x16/stock/object/.cvsignore:
+	* 16x16/stock/table/.cvsignore:
+	* 16x16/stock/text/.cvsignore:
+	* 24x24/apps/.cvsignore:
+	* 24x24/stock/.cvsignore:
+	* 24x24/stock/chart/.cvsignore:
+	* 24x24/stock/code/.cvsignore:
+	* 24x24/stock/data/.cvsignore:
+	* 24x24/stock/document/.cvsignore:
+	* 24x24/stock/form/.cvsignore:
+	* 24x24/stock/generic/.cvsignore:
+	* 24x24/stock/image/.cvsignore:
+	* 24x24/stock/io/.cvsignore:
+	* 24x24/stock/media/.cvsignore:
+	* 24x24/stock/navigation/.cvsignore:
+	* 24x24/stock/net/.cvsignore:
+	* 24x24/stock/object/.cvsignore:
+	* 24x24/stock/table/.cvsignore:
+	* 24x24/stock/text/.cvsignore:
+	* 32x32/.cvsignore:
+	* 32x32/apps/.cvsignore:
+	* 32x32/stock/.cvsignore:
+	* 32x32/stock/chart/.cvsignore:
+	* 32x32/stock/data/.cvsignore:
+	* 32x32/stock/document/.cvsignore:
+	* 32x32/stock/generic/.cvsignore:
+	* 32x32/stock/io/.cvsignore:
+	* 32x32/stock/media/.cvsignore:
+	* 32x32/stock/net/.cvsignore:
+	* 36x36/stock/.cvsignore:
+	* 36x36/stock/document/.cvsignore:
+	* 36x36/stock/generic/.cvsignore:
+	* 48x48/stock/.cvsignore:
+	* 48x48/stock/document/.cvsignore:
+	* 48x48/stock/generic/.cvsignore:
+	Quiet cvs..
+	* Makefile.am:
+	Uninstall locale files at install time, since theme files already
+	contains translations and we shouldn't install catalog files.
+
 2003-07-08  Alexander Larsson  <alexl@redhat.com>
 
 	* NEWS: 

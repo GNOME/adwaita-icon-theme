@@ -9,3 +9,8 @@ icondir = $(datadir)/icons/gnome
 icon_DATA = index.theme
 
 EXTRA_DIST=index.theme.in index.theme intltool-update.in intltool-merge.in intltool-extract.in gnome-icon-theme.spec gnome-icon-theme.spec.in
+
+# we don't want to install mo files, all translations are already stored
+# in theme files
+install-data-local:
+	$(MAKE) -C po uninstall
