@@ -49,7 +49,7 @@ icon_DATA =\
 	emblem-cvs-modified.png 	\
    emblem-cvs-new-file.png \
 	emblem-cvs-removed.png 	\
-	emblem-cvs-sticky.png 	\
+	emblem-cvs-sticky-tag.png 	\
 	emblem-danger.png		\
 	emblem-desktop.png		\
 	emblem-documents.png		\

@@ -63,6 +63,7 @@ icon_DATA =\
    panel-notification-area.png \
    panel-window-list.png \
    panel-window-menu.png \
+   realplayer.png \
    serviceconf.png \
    sodipodi.png \
    tsclient.png \

@@ -1,1 +1,1 @@
-SUBDIRS=devices emblems filesystems mimetypes
+SUBDIRS=apps devices emblems filesystems mimetypes

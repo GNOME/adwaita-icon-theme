@@ -15,6 +15,8 @@ icon_DATA =\
    gnome-mime-image-svg.png \
    gnome-mime-image-tiff.png \
    gnome-mime-image-wmf.png \
+   gnome-mime-x-directory-nfs-server.png \
+   gnome-mime-x-directory-smb-workgroup.png \
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)

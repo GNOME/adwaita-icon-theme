@@ -14,6 +14,7 @@ icon_DATA =\
 	gnome-dev-jazdisk.png \
 	gnome-dev-memory.png \
 	gnome-dev-printer.png \
+	gnome-dev-symlink.png \
 	gnome-dev-zipdisk.png \
 	$(NULL)
 
