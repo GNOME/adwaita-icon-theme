@@ -151,6 +151,10 @@ icon_DATA =\
    stock_transform-circle-perspective.png \
    stock_transform-circle-slant.png \
    stock_transparency.png \
+   stock_wallpaper-center.png \
+   stock_wallpaper-fill.png   \
+   stock_wallpaper-scale.png  \
+   stock_wallpaper-tile.png   \
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)
