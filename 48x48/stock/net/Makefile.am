@@ -24,6 +24,7 @@ icon_DATA =\
    stock_mail-flag-for-followup-done.png \
    stock_mail-open.png \
    stock_mail-receive.png   \
+   stock_mail-replied.png   \
    stock_mail-send.png   \
    stock_mail-send-receive.png   \
    stock_not-spam.png   \
