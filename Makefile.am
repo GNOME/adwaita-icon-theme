@@ -8,4 +8,4 @@ icondir = $(datadir)/icons/gnome
 
 icon_DATA = index.theme
 
-EXTRA_DIST=index.theme.in index.theme intltool-update.in intltool-merge.in
+EXTRA_DIST=index.theme.in index.theme intltool-update.in intltool-merge.in intltool-extract.in
