@@ -18,7 +18,7 @@ icon_DATA =\
 	stock_book_open.png 		\
 	stock_book_red.png 		\
 	stock_book_yellow.png 		\
-   stock_briefcase.png  \
+	stock_briefcase.png  \
 	stock_calc-accept.png 		\
 	stock_calc-cancel.png 		\
 	stock_calendar.png 		\
@@ -36,9 +36,9 @@ icon_DATA =\
 	stock_copy.png 			\
 	stock_cut.png 			\
 	stock_delete.png 		\
-   stock_dialog-error.png  \
-   stock_dialog-info.png  \
-   stock_dialog-warning.png  \
+	stock_dialog-error.png  \
+	stock_dialog-info.png  \
+	stock_dialog-warning.png  \
 	stock_edit.png			\
 	stock_equals.png 		\
 	stock_example.png 		\
@@ -50,17 +50,17 @@ icon_DATA =\
 	stock_folder.png 		\
 	stock_folder-copy.png 		\
 	stock_folder-move.png 		\
-   stock_folder-properties.png \
+	stock_folder-properties.png \
 	stock_format-page.png 		\
 	stock_fullscreen.png 		\
 	stock_help-agent.png 		\
 	stock_help-chat.png 		\
 	stock_help.png 			\
-   stock_home.png \
+	stock_home.png \
 	stock_id.png 			\
-   stock_keyring.png \
+	stock_keyring.png \
 	stock_landline-phone.png 	\
-   stock_mark.png \
+	stock_mark.png \
 	stock_news.png 			\
 	stock_new-appointment.png 	\
 	stock_new-24h-appointment.png 	\
@@ -72,13 +72,14 @@ icon_DATA =\
 	stock_people.png 		\
 	stock_person.png 		\
 	stock_presentation-box.png 	\
-   stock_properties.png \
+	stock_properties.png \
 	stock_redo.png 			\
 	stock_refresh.png 		\
 	stock_scores.png 		\
 	stock_search.png 		\
+	stock_search-and-replace.png	\
 	stock_send-fax.png 		\
-   stock_show-all.png   \
+	stock_show-all.png   \
 	stock_stop.png 			\
 	stock_styles.png 		\
 	stock_summary.png 		\
@@ -91,7 +92,7 @@ icon_DATA =\
 	stock_unknown.png 			\
 	stock_undelete.png 			\
 	stock_undo.png 			\
-   stock_web-calendar.png \
+	stock_web-calendar.png \
 	stock_web-support.png 		\
 	$(NULL)
 

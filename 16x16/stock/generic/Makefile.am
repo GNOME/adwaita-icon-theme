@@ -89,6 +89,7 @@ icon_DATA =\
    stock_score-higher.png \
    stock_score-highest.png \
    stock_search.png \
+   stock_search-and-replace.png \
    stock_send-fax.png \
    stock_show-all.png   \
    stock_stop.png \

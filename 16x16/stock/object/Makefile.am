@@ -59,6 +59,7 @@ icon_DATA =\
    stock_insert-note.png \
    stock_insert-ole-object.png \
    stock_insert-plugin.png \
+   stock_insert-rule.png \
    stock_insert-single-column-text-frame.png \
    stock_insert-slide.png \
    stock_insert-sound-plugin.png \

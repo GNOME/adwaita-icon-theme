@@ -71,6 +71,7 @@ icon_DATA =\
    stock_text_italic.png \
    stock_text_justify.png \
    stock_text_left.png \
+   stock_text-monospaced.png \
    stock_text-outline.png \
    stock_text-quickedit.png \
    stock_text_right.png \
