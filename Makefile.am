@@ -7,6 +7,11 @@ THEME_IN_FILES=index.theme.in
 
 %.theme:   %.theme.in $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)/po/*.po) ; $(INTLTOOL_MERGE) $(top_srcdir)/po $< $@ -d -u -c $(top_builddir)/po/.intltool-merge-cache
 
+hicolor_dirs = \
+	$(datadir)/pixmaps		\
+	$(datadir)/icons		\
+	/usr/share/icons		\
+	/usr/share/pixmaps
 icondir = $(datadir)/icons/gnome
 
 icon_DATA = index.theme
@@ -18,5 +23,21 @@ EXTRA_DIST=index.theme.in index.theme intltool-update.in intltool-merge.in intlt
 
 # we don't want to install mo files, all translations are already stored
 # in theme files
+# Ensure that hicolor is installed too
 install-data-local:
 	$(MAKE) -C po uninstall
+	@dirs='$(hicolor_dirs)'; for dir in $$dirs; do		\
+	    echo Checking for hicolor theme in \'$$dir/hicolor/index.theme\' ;	\
+	    if test -f "$$dir/hicolor/index.theme"; then	\
+		echo Good.  Found it.	;			\
+		exit 0;						\
+	    fi ;						\
+	done ;							\
+	echo ;							\
+	echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@" ;	\
+	echo "Could not find the theme 'hicolor' which acts as the base for all other" ;	\
+	echo "themes, including gnome-icon-theme.  Perhaps you need to install it." ;		\
+	echo "You can get a copy from http://freedesktop.org/Software/icon-theme/releases" ;	\
+	echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@" ;	\
+	echo ;											\
+	exit 1

@@ -1,3 +1,10 @@
+2004-01-12  Jody Goldberg <jody@gnome.org>
+
+	* Makefile.am (install-data-local) : Cause more problems.  Put in an
+	  install time test that hicolor exists.  It is not strictly correct.
+	  What we really need is a _package_ dependency.  But it should at
+	  least light off a few warning bells.
+
 2004-01-12  Jakub Steiner <jimmac@ximian.com>
 
 	* 48x48/mimetypes/Makefile.am
