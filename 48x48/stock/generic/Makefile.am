@@ -13,6 +13,9 @@ icon_DATA =\
 	stock_calendar-and-tasks.png	\
 	stock_cell-phone.png 		\
    stock_creditcard.png \
+   stock_dialog-error.png  \
+   stock_dialog-info.png  \
+   stock_dialog-warning.png  \
 	stock_edit.png			\
 	stock_example.png 		\
    stock_home.png \

@@ -30,6 +30,9 @@ icon_DATA =\
    stock_cut.png \
    stock_default-folder.png \
    stock_delete.png \
+   stock_dialog-error.png  \
+   stock_dialog-info.png  \
+   stock_dialog-warning.png  \
    stock_drag-mode.png \
    stock_edit.png \
    stock_equals.png \

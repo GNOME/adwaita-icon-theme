@@ -33,6 +33,9 @@ icon_DATA =\
 	stock_copy.png 			\
 	stock_cut.png 			\
 	stock_delete.png 		\
+   stock_dialog-error.png  \
+   stock_dialog-info.png  \
+   stock_dialog-warning.png  \
 	stock_edit.png			\
 	stock_equals.png 		\
 	stock_example.png 		\
