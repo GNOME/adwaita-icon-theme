@@ -1,6 +1,12 @@
 2003-12-15  Jakub Steiner <jimmac@ximian.com>
 
-	* M 16x16/stock/net/Makefile.am
+	* configure.in
+	* 16x16/stock/Makefile.am: don't install flags, they are not
+	  politically acceptable globally
+
+2003-12-15  Jakub Steiner <jimmac@ximian.com>
+
+	* 16x16/stock/net/Makefile.am
 	* 16x16/stock/net/stock_mail-forward.png
 	* 16x16/stock/net/stock_mail-open.png
 	* 16x16/stock/net/stock_mail-receive.png
