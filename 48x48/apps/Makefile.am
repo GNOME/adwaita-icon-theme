@@ -77,6 +77,10 @@ icon_DATA =\
    hint.png \
    hwbrowser.png \
    iagno.png \
+   im-aim.png   \
+   im-icq.png   \
+   im-msn.png   \
+   im-yahoo.png   \
    keyboard.png \
    logviewer.png \
    network-config.png \
