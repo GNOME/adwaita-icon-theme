@@ -1,3 +1,4 @@
+INSTALL
 Makefile
 Makefile.in
 aclocal.m4
@@ -5,6 +6,7 @@ config.log
 config.status
 config.cache
 configure
+install-sh
 intltool-extract
 intltool-extract.in
 intltool-merge
@@ -14,6 +16,7 @@ intltool-update.in
 index.theme
 index.theme.in.h
 autom4te.cache
-gnome-icon-theme.spec
-gnome-icon-theme.pc
+*.spec
+*.pc
 mkinstalldirs
+missing
