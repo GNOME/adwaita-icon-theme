@@ -7,10 +7,18 @@ icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
 icon_in_files =				\
 	emblem-art.icon.in		\
 	emblem-bin.icon.in		\
-	emblem-cool.icon.in		\
 	emblem-camera.icon.in		\
 	emblem-certified.icon.in 	\
+	emblem-cool.icon.in		\
+	emblem-cvs-added.icon.in	\
+	emblem-cvs-conflict.icon.in	\
+	emblem-cvs-controlled.icon.in	\
+	emblem-cvs-modified.icon.in	\
+	emblem-cvs-new-file.icon.in	\
+	emblem-cvs-removed.icon.in	\
+	emblem-cvs-sticky-tag.icon.in	\
 	emblem-danger.icon.in		\
+	emblem-desktop.icon.in		\
 	emblem-documents.icon.in	\
 	emblem-draft.icon.in		\
 	emblem-favorite.icon.in		\
@@ -22,6 +30,9 @@ icon_in_files =				\
 	emblem-money.icon.in		\
 	emblem-multimedia.icon.in	\
 	emblem-new.icon.in		\
+	emblem-noread.icon.in		\
+	emblem-note.icon.in		\
+	emblem-nowrite.icon.in		\
 	emblem-ohno.icon.in		\
 	emblem-OK.icon.in 		\
 	emblem-package.icon.in		\
@@ -33,8 +44,10 @@ icon_in_files =				\
 	emblem-sales.icon.in		\
 	emblem-sound.icon.in		\
 	emblem-special.icon.in 		\
-	emblem-web.icon.in		\
+	emblem-symbolic-link.icon.in	\
+	emblem-trash.icon.in		\
 	emblem-urgent.icon.in		\
+	emblem-web.icon.in		\
 	$(NULL)
 
 icon_DATA =\
