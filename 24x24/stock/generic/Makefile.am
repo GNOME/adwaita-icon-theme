@@ -42,6 +42,7 @@ icon_DATA =\
    stock_new-24h-appointment.png \
    stock_new-meeting.png \
    stock_not.png \
+   stock_notebook.png \
    stock_notes.png \
    stock_paste.png \
    stock_people.png \

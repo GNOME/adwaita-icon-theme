@@ -20,6 +20,7 @@ icon_DATA =\
    stock_new-appointment.png \
    stock_new-24h-appointment.png \
    stock_new-meeting.png \
+   stock_notebook.png \
    stock_notes.png \
    stock_openoffice.png \
    stock_people.png \
