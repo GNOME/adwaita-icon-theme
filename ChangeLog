@@ -1,7 +1,21 @@
 2004-06-06  Rodney Dawes  <dobey@novell.com>
 
-	* 16x16/stock/io/Makefile.am (install-data-local):
-	* 24x24/stock/io/Makefile.am (install-data-local):
+	* Makefile.am (EXTRA_DIST): Update to include what we really need
+	(DISTCLEANFILES, MAINTAINERCLEANFILES):
+	Add these variables so we can clean up stuff
+	
+	* autogen.sh: Add check to copy in mkinstalldirs from gettext
+	This is needed for installation to work
+
+	* 16x16/stock/io/Makefile.am (install-data-hook):
+	* 24x24/stock/io/Makefile.am (install-data-hook):
+	Fix support for srcdir != builddir installs
+	(uninstall-hook): Add uninstall rules for distcheck to pass
+
+2004-06-06  Rodney Dawes  <dobey@novell.com>
+
+	* 16x16/stock/io/Makefile.am (install-data-hook):
+	* 24x24/stock/io/Makefile.am (install-data-hook):
 	Install stock_save-as.png as stock_save_as.png as well, to fix
 	API breakage from April 14, 2004
 
