@@ -15,6 +15,7 @@ icon_DATA =\
 	gnome-fs-directory-visiting.png \
 	gnome-fs-directory.icon \
 	gnome-fs-directory.png \
+	gnome-fs-home.png \
 	gnome-fs-locally-shared.png \
 	gnome-fs-network.png \
 	gnome-fs-server.png \
