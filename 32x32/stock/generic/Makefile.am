@@ -22,6 +22,8 @@ icon_DATA =\
    stock_new-meeting.png \
    stock_notes.png \
    stock_openoffice.png \
+   stock_people.png \
+   stock_person.png \
    stock_summary.png \
 	$(NULL)
 

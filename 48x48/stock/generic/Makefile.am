@@ -16,6 +16,8 @@ icon_DATA =\
    stock_new-24h-appointment.png \
    stock_new-meeting.png \
    stock_notes.png \
+   stock_people.png \
+   stock_person.png \
    stock_summary.png \
 	$(NULL)
 

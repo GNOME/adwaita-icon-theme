@@ -57,6 +57,8 @@ icon_DATA =\
    stock_notes.png \
    stock_openoffice.png \
    stock_paste.png \
+   stock_people.png \
+   stock_person.png \
    stock_presentation-box.png \
    stock_presentation-styles.png \
    stock_print.png \
