@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-03-11 10:37+0300\n"
+"POT-Creation-Date: 2003-12-28 10:32+0100\n"
 "PO-Revision-Date: 2003-03-11 10:40+0300\n"
 "Last-Translator: Dmitry G. Mastrukov <dmitry@taurussoft.org>\n"
 "Language-Team: Russina <gnome-cyr@gnome.org>\n"
@@ -15,9 +15,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: 48x48/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "OK"
+#: index.theme.in.h:1
+msgid "Default GNOME Theme"
+msgstr "Стандартная тема среды Гном"
+
+#: index.theme.in.h:2
+msgid "GNOME"
+msgstr "Среда Гном"
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 #: 48x48/emblems/emblem-art.icon.in.h:1
@@ -104,6 +108,10 @@ msgstr "Новый"
 msgid "Oh no!"
 msgstr "О, нет!"
 
+#: 48x48/emblems/emblem-OK.icon.in.h:1
+msgid "OK"
+msgstr "OK"
+
 # 48x48/emblems/emblem-package.icon.in.h:1
 #: 48x48/emblems/emblem-package.icon.in.h:1
 msgid "Package"
@@ -155,14 +163,6 @@ msgstr "Срочный"
 #: 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Веб"
-
-#: index.theme.in.h:1
-msgid "Default GNOME Theme"
-msgstr "Стандартная тема среды Гном"
-
-#: index.theme.in.h:2
-msgid "GNOME"
-msgstr "Среда Гном"
 
 #~ msgid "Gnome"
 #~ msgstr "Гном"
