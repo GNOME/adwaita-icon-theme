@@ -73,6 +73,7 @@ icon_DATA =\
 	gnome-mime-application-x-sms-rom.png \
 	gnome-mime-application-x-sql.png \
 	gnome-mime-application-x-stuffit.png \
+	gnome-mime-application-x-tar.png \
 	gnome-mime-application-x-tex.png \
    gnome-mime-application-zip.png \
 	gnome-mime-audio-ac3.png \
