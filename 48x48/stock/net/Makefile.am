@@ -9,6 +9,7 @@ icon_DATA =\
    stock_addressbook.png \
    stock_appointment-reminder-excl.png \
    stock_appointment-reminder.png \
+   stock_channel.png \
    stock_contact.png \
    stock_directory-server.png \
    stock_exchange-connector.png \
