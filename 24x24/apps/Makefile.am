@@ -14,9 +14,12 @@ icon_DATA =\
    gnome-favorites.png \
    gnome-globe.png \
    gnome-graphics.png \
+   gnome-help.png \
    gnome-joystick.png \
    gnome-lockscreen.png \
+   gnome-logout.png \
    gnome-multimedia.png \
+   gnome-run.png \
    gnome-searchtool.png \
    gnome-settings.png \
    gnome-status.png \

@@ -9,6 +9,9 @@ icon_DATA =\
    config-language.png \
    gnome-devel.png \
    gnome-globe.png \
+   gnome-help.png \
+   gnome-logout.png \
+   gnome-run.png \
    gnome-settings.png \
    im.png   \
    im-aim.png  \

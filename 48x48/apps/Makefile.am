@@ -56,6 +56,7 @@ icon_DATA =\
 	gnome-panel.png   \
 	gnome-pdf.png \
 	gnome-reboot.png \
+	gnome-run.png \
 	gnome-searchtool.png \
 	gnome-searchtool-animation.png \
 	gnome-searchtool-animation-rest.png \
