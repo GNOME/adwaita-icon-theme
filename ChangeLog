@@ -1,3 +1,8 @@
+2004-01-13  Jody Goldberg <jody@gnome.org>
+
+	* autogen.sh (REQUIRED_AUTOMAKE_VERSION) : require newer automake so
+	  that we can distcheck.
+
 2004-01-13  Jakub Steiner <jimmac@ximian.com>
 
 	* 16x16/stock/generic/stock_show-all.png
