@@ -24,10 +24,15 @@ icon_DATA =\
 	gnome-mime-application-vnd.oasis.opendocument.database.png \
 	gnome-mime-application-vnd.oasis.opendocument.drawing.png \
 	gnome-mime-application-vnd.oasis.opendocument.formula.png \
+	gnome-mime-application-vnd.oasis.opendocument.graphics-template.png \
+	gnome-mime-application-vnd.oasis.opendocument.image.png \
 	gnome-mime-application-vnd.oasis.opendocument.presentation.png \
+	gnome-mime-application-vnd.oasis.opendocument.presentation-template.png \
 	gnome-mime-application-vnd.oasis.opendocument.spreadsheet.png \
+	gnome-mime-application-vnd.oasis.opendocument.spreadsheet-template.png \
 	gnome-mime-application-vnd.oasis.opendocument.text-master.png \
 	gnome-mime-application-vnd.oasis.opendocument.text.png \
+	gnome-mime-application-vnd.oasis.opendocument.text-template.png \
 	gnome-mime-application-vnd.oasis.opendocument.text-web.png \
 	gnome-mime-application-vnd.rn-realmedia.png \
 	gnome-mime-application-vnd.stardivision.calc.png \
