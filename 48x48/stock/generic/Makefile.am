@@ -9,6 +9,8 @@ icon_DATA =\
    stock_autopilot.png \
    stock_cell-phone.png \
    stock_id.png \
+   stock_notes.png \
+   stock_summary.png \
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)
