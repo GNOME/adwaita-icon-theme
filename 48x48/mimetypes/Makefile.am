@@ -96,6 +96,7 @@ icon_DATA =\
 	gnome-mime-application-x-tar.png \
 	gnome-mime-application-x-tex.png \
 	gnome-mime-application-x-trash.png \
+	gnome-mime-application-x-x509-ca-cert.png \
 	gnome-mime-application-zip.png \
 	gnome-mime-application.png \
 	gnome-mime-audio-ac3.png \
