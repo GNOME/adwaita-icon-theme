@@ -192,6 +192,6 @@ install-data-hook:
 	ln -sf gnome-mime-text-x-chdr.png $(DESTDIR)$(icondir)/gnome-mime-text-x-c-header.png
 	ln -sf gnome-mime-text-x-csrc.png $(DESTDIR)$(icondir)/gnome-mime-text-x-c.png
 	ln -sf gnome-mime-text-x-c++src.png $(DESTDIR)$(icondir)/gnome-mime-text-x-c++.png
-	ln -sf gnome-mime-text-x-shellscript.png $(DESTDIR)$(icondir)/gnome-mime-text-x-sh.png
+	ln -sf gnome-mime-application-x-shellscript.png $(DESTDIR)$(icondir)/gnome-mime-text-x-sh.png
 
 EXTRA_DIST = $(icon_DATA)
