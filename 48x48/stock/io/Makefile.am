@@ -11,6 +11,10 @@ icon_DATA =\
    stock_print.png \
    stock_printers.png \
    stock_print-driver.png \
+   stock_print-duplex.png \
+   stock_print-duplex-no-tumble.png \
+   stock_print-duplex-tumble.png \
+   stock_print-non-duplex.png \
    stock_print-preview.png \
    stock_print-preview-print.png \
    stock_print-setup.png \

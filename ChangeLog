@@ -1,3 +1,16 @@
+2004-03-19  Jakub Steiner <jimmac@ximian.com>
+
+	* 24x24/stock/document/Makefile.am
+	* 24x24/stock/document/stock_duplex-doc.png
+	* 24x24/stock/document/stock_duplex-tumble.png: removing, since
+	  something a bit different was needed.
+
+	* 48x48/stock/io/stock_print-duplex-no-tumble.png
+	* 48x48/stock/io/stock_print-duplex-tumble.png
+	* 48x48/stock/io/stock_print-duplex.png
+	* 48x48/stock/io/stock_print-non-duplex.png
+	* 48x48/stock/io/Makefile.am: for the print dialog.
+	
 2004-03-18  Gareth Owen  <gowen72@yahoo.com>
 
 	* configure.in: Added en_GB to ALL_LINGUAS

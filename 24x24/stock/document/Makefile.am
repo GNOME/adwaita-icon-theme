@@ -7,8 +7,6 @@ icondir = $(datadir)/icons/hicolor/$(iconsize)/$(category)/$(subtype)
 
 icon_DATA =\
    stock_attach.png \
-   stock_duplex-doc.png \
-   stock_duplex-tumble.png \
    stock_new-drawing.png \
    stock_new-formula.png \
    stock_new-html.png \
