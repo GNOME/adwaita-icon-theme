@@ -9,9 +9,10 @@ icon_DATA =\
 	gnome-mime-application-msword.png \
 	gnome-mime-application-ogg.png \
 	gnome-mime-application-pdf.png \
+	gnome-mime-application-pgp.png \
 	gnome-mime-application-pgp-encrypted.png \
 	gnome-mime-application-pgp-keys.png \
-	gnome-mime-application-pgp.png \
+	gnome-mime-application-pgp-signature.png \
 	gnome-mime-application-postscript.png \
 	gnome-mime-application-rhythmbox-effect.png \
 	gnome-mime-application-rhythmbox-playlist.png \
