@@ -52,6 +52,7 @@ icon_DATA =\
 	gnome-mime-application-x-font-ttf.png \
 	gnome-mime-application-x-gameboy-rom.png \
 	gnome-mime-application-x-genesis-rom.png \
+   gnome-mime-application-x-glade.png  \
 	gnome-mime-application-x-gnome-app-info.png \
 	gnome-mime-application-x-gnucash.png \
 	gnome-mime-application-x-gnumeric.png \
