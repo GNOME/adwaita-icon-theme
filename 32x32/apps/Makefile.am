@@ -44,6 +44,7 @@ icon_DATA =\
    logviewer.png \
    network-config.png \
    panel-notification-area.png \
+   panel-window-menu.png \
    postscript-viewer.png \
    serviceconf.png \
    system-floppy.png \

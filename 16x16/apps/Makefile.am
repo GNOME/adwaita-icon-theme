@@ -8,6 +8,7 @@ icon_DATA =\
    blender.png \
    gnome-devel.png \
    panel-notification-area.png \
+   panel-window-menu.png \
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)
