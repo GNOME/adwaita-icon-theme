@@ -8,6 +8,7 @@ icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)/$(subtype)
 icon_DATA =\
 	stock_autopilot.png 		\
 	stock_calendar.png 		\
+	stock_calendar-and-tasks.png	\
 	stock_cell-phone.png 		\
 	stock_edit.png			\
 	stock_example.png 		\
