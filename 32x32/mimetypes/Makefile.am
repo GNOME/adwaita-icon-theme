@@ -9,9 +9,12 @@ icon_DATA =\
    gnome-mime-application-vnd.ms-excel.png \
    gnome-mime-application-vnd.ms-powerpoint.png \
    gnome-mime-image-bmp.png \
+   gnome-mime-image-gif.png \
    gnome-mime-image-jpeg.png \
    gnome-mime-image-png.png \
    gnome-mime-image-svg.png \
+   gnome-mime-image-tiff.png \
+   gnome-mime-image-wmf.png \
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)
