@@ -47,6 +47,8 @@ icon_DATA =\
 	emblem-cvs-conflict.png 	\
 	emblem-cvs-controlled.png 	\
 	emblem-cvs-modified.png 	\
+   emblem-cvs-new-file.png \
+	emblem-cvs-removed.png 	\
 	emblem-cvs-sticky.png 	\
 	emblem-danger.png		\
 	emblem-desktop.png		\
