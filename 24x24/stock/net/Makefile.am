@@ -11,6 +11,7 @@ icon_DATA =\
    stock_appointment-reminder.png \
    stock_channel.png \
    stock_connect.png \
+   stock_connect-to-url.png \
    stock_contact.png \
    stock_contact-list.png \
    stock_directory-server.png \
