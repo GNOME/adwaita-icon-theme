@@ -50,6 +50,7 @@ icon_DATA =\
    stock_post-message.png \
    stock_sent-mail.png \
    stock_spam.png \
+   stock_video-conferencing.png \
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)
