@@ -139,6 +139,7 @@ icon_DATA =\
 	gnome-mime-text-x-sql.png \
 	gnome-mime-text-x-troff-man.png \
 	gnome-mime-text-x-zsh.png \
+	gnome-mime-video.png \
 	gnome-mime-video-mpeg.png \
 	gnome-mime-video-quicktime.png \
 	gnome-mime-video-x-ms-asf.png \
