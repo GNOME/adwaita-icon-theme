@@ -29,7 +29,9 @@ icon_DATA =\
 	gnome-mime-application-x-arj.png \
 	gnome-mime-application-x-backup.png \
 	gnome-mime-application-x-bzip.png \
+   gnome-mime-application-x-bzip-compressed-tar.png \
 	gnome-mime-application-x-compress.png \
+   gnome-mime-application-x-compressed-tar.png \
 	gnome-mime-application-x-core-file.png \
 	gnome-mime-application-x-dc-rom.png \
 	gnome-mime-application-x-deb.png \
@@ -69,6 +71,7 @@ icon_DATA =\
 	gnome-mime-application-x-sql.png \
 	gnome-mime-application-x-stuffit.png \
 	gnome-mime-application-x-tex.png \
+   gnome-mime-application-zip.png \
 	gnome-mime-audio-ac3.png \
 	gnome-mime-audio-basic.png \
 	gnome-mime-audio.png \
