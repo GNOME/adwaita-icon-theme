@@ -15,6 +15,7 @@ icon_DATA =\
    stock_creditcard.png \
 	stock_edit.png			\
 	stock_example.png 		\
+   stock_home.png \
 	stock_id.png 			\
    stock_init.png \
    stock_keyring.png \
