@@ -9,6 +9,9 @@ icon_DATA =\
    stock_lock.png \
    stock_lock-broken.png \
    stock_lock-ok.png \
+   stock_signature.png  \
+   stock_signature-bad.png  \
+   stock_signature-ok.png  \
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)

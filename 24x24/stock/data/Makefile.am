@@ -35,6 +35,9 @@ icon_DATA =\
    stock_lock-broken.png \
    stock_lock-ok.png \
    stock_record-number.png \
+   stock_signature.png  \
+   stock_signature-bad.png  \
+   stock_signature-ok.png  \
    stock_sort-ascending.png \
    stock_sort-column-ascending.png \
    stock_sort-criteria.png \
