@@ -70,6 +70,7 @@ icon_DATA =\
    stock_stop.png \
    stock_styles.png \
    stock_summary.png \
+   stock_test-mode.png \
    stock_timer.png \
    stock_timer_stopped.png \
    stock_toggle-info.png \
