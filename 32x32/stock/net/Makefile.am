@@ -6,6 +6,7 @@ subtype=net
 icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)/$(subtype)
 
 icon_DATA =\
+   stock_addressbook.png \
    stock_appointment-reminder-excl.png \
    stock_appointment-reminder.png \
    stock_internet.png \
