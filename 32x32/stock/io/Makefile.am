@@ -6,8 +6,10 @@ subtype=io
 icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)/$(subtype)
 
 icon_DATA =\
+   stock_network-printer.png \
    stock_opensave.png \
    stock_print.png \
+   stock_printers.png \
    stock_print-driver.png \
    stock_print-preview.png \
    stock_print-preview-print.png \
