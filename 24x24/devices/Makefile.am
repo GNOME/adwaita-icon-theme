@@ -8,6 +8,13 @@ icon_DATA =\
    gnome-dev-battery.png   \
    gnome-dev-cdrom-audio.png  \
    gnome-dev-cdrom.png  \
+   gnome-dev-disc-cdr.png \
+   gnome-dev-disc-cdrw.png \
+   gnome-dev-disc-dvdr.png \
+   gnome-dev-disc-dvdr-plus.png \
+   gnome-dev-disc-dvdram.png \
+   gnome-dev-disc-dvdrom.png \
+   gnome-dev-disc-dvdrw.png \
    gnome-dev-dvd.png  \
    gnome-dev-ethernet.png \
    gnome-dev-floppy.png  \

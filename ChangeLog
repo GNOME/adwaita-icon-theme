@@ -1,5 +1,25 @@
 2004-10-29  Jakub Steiner <jimmac@ximian.com>
 
+	* 48x48/devices/gnome-dev-disc-cdr.png
+	* 48x48/devices/gnome-dev-disc-cdrw.png
+	* 48x48/devices/gnome-dev-disc-dvdr-plus.png
+	* 48x48/devices/gnome-dev-disc-dvdr.png
+	* 48x48/devices/gnome-dev-disc-dvdram.png
+	* 48x48/devices/gnome-dev-disc-dvdrom.png
+	* 48x48/devices/gnome-dev-disc-dvdrw.png
+	* 24x24/devices/gnome-dev-disc-cdr.png
+	* 24x24/devices/gnome-dev-disc-cdrw.png
+	* 24x24/devices/gnome-dev-disc-dvdr-plus.png
+	* 24x24/devices/gnome-dev-disc-dvdr.png
+	* 24x24/devices/gnome-dev-disc-dvdram.png
+	* 24x24/devices/gnome-dev-disc-dvdrom.png
+	* 24x24/devices/gnome-dev-disc-dvdrw.png
+	* 24x24/devices/Makefile.am
+	* 48x48/devices/Makefile.am: disc types needed by hal.
+	  fixes bug #156066
+
+2004-10-29  Jakub Steiner <jimmac@ximian.com>
+
 	* gnome-mime-application-x-x509-ca-cert.png: Certificates. fixes 
 	  bug #153245
 	
