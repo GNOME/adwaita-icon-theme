@@ -19,6 +19,7 @@ icon_in_files =				\
 icon_DATA =\
 	emblem-art.png \
 	emblem-camera.png \
+	emblem-desktop.png \
 	emblem-documents.png \
 	emblem-mail.png \
 	emblem-multimedia.png \
