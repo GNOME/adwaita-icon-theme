@@ -63,6 +63,7 @@ icon_DATA =\
 	gnome-mime-application-x-ogg.png \
 	gnome-mime-application-x-php.png \
 	gnome-mime-application-x-python-bytecode.png \
+   gnome-mime-application-x-qw.png \
 	gnome-mime-application-x-reject.png \
 	gnome-mime-application-x-rpm.png \
 	gnome-mime-application-x-scheme.png \
