@@ -24,4 +24,7 @@ icon_DATA =\
    stock_save-template.png \
 	$(NULL)
 
+install-data-hook:
+	$(INSTALL) stock_save-as.png $(DESTDIR)$(icondir)/stock_save_as.png
+
 EXTRA_DIST = $(icon_DATA)
