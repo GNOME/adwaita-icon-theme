@@ -1,5 +1,4 @@
-SUBDIRS = 12x12 24x24 36x36 48x48 72x72 96x96 192x192 scalable
-# Disable for now: po
+SUBDIRS = 12x12 24x24 36x36 48x48 72x72 96x96 192x192 scalable po
 
 THEME_IN_FILES=index.theme.in
 
@@ -9,4 +8,4 @@ icondir = $(datadir)/icons/gnome
 
 icon_DATA = index.theme
 
-EXTRA_DIST=index.theme.in index.theme
+EXTRA_DIST=index.theme.in index.theme intltool-update.in intltool-merge.in

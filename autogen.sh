@@ -14,6 +14,9 @@ PKG_NAME="gnome-icon-theme"
     exit 1
 }
 
+echo "Running intltoolize"
+intltoolize --copy --force --automake
+
 which gnome-autogen.sh || {
     echo "You need to install gnome-common from the GNOME CVS"
     exit 1
