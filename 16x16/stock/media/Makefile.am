@@ -6,7 +6,9 @@ subtype=media
 icondir = $(datadir)/icons/hicolor/$(iconsize)/$(category)/$(subtype)
 
 icon_DATA =\
+	stock_3dsound.png		\
 	stock_effects-sound.png		\
+	stock_headphones.png		\
 	stock_insert-video-plugin.png 	\
 	stock_line_in.png 		\
 	stock_media-fwd.png 		\
