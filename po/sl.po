@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-12-28 10:32+0100\n"
+"POT-Creation-Date: 2004-05-29 01:11-0400\n"
 "PO-Revision-Date: 2001-07-29 12:32+0200\n"
 "Last-Translator: Andraz Tori <andraz.tori1@guest.arnes.si>\n"
 "Language-Team: Slovenian <sl@li.org>\n"
@@ -14,14 +14,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: index.theme.in.h:1
-#, fuzzy
-msgid "Default GNOME Theme"
-msgstr "Privzeta tema Gnome"
-
-#: index.theme.in.h:2
-msgid "GNOME"
-msgstr ""
+# G:3 K:0 O:0
+#: 48x48/emblems/emblem-OK.icon.in.h:1
+msgid "OK"
+msgstr "V redu"
 
 # G:3 K:0 O:0
 #: 48x48/emblems/emblem-art.icon.in.h:1
@@ -47,10 +43,42 @@ msgstr "Preverjeno"
 msgid "Cool"
 msgstr "Kulsko"
 
+#: 48x48/emblems/emblem-cvs-added.icon.in.h:1
+msgid "cvs-added"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-conflict.icon.in.h:1
+msgid "cvs-conflict"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-controlled.icon.in.h:1
+msgid "cvs-controlled"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-modified.icon.in.h:1
+msgid "cvs-modified"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-new-file.icon.in.h:1
+msgid "cvs-new-file"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-removed.icon.in.h:1
+msgid "cvs-removed"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
+msgid "cvs-sticky-tag"
+msgstr ""
+
 # G:2 K:0 O:0
 #: 48x48/emblems/emblem-danger.icon.in.h:1
 msgid "Danger"
 msgstr "Nevarno"
+
+#: 48x48/emblems/emblem-desktop.icon.in.h:1
+msgid "Desktop"
+msgstr ""
 
 # G:2 K:0 O:0
 #: 48x48/emblems/emblem-distinguished.icon.in.h:1
@@ -109,15 +137,24 @@ msgstr "Multimedija"
 msgid "New"
 msgstr "Novo"
 
+#: 48x48/emblems/emblem-noread.icon.in.h:1
+msgid "No read"
+msgstr ""
+
+#: 48x48/emblems/emblem-note.icon.in.h:1
+msgid "Note"
+msgstr ""
+
+# G:3 K:1 O:0
+#: 48x48/emblems/emblem-nowrite.icon.in.h:1
+#, fuzzy
+msgid "No write"
+msgstr "Najljubše"
+
 # G:4 K:5 O:0
 #: 48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
 msgstr "O ne!"
-
-# G:3 K:0 O:0
-#: 48x48/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "V redu"
 
 # G:3 K:0 O:0
 #: 48x48/emblems/emblem-package.icon.in.h:1
@@ -155,10 +192,18 @@ msgstr "Prodaja"
 msgid "Sound"
 msgstr "Zvok"
 
+#: 48x48/emblems/emblem-symbolic-link.icon.in.h:1
+msgid "Symbolic link"
+msgstr ""
+
 # G:3 K:4 O:0
 #: 48x48/emblems/emblem-special.icon.in.h:1
 msgid "Special"
 msgstr "Posebno"
+
+#: 48x48/emblems/emblem-trash.icon.in.h:1
+msgid "Trash"
+msgstr ""
 
 # G:2 K:1 O:0
 #: 48x48/emblems/emblem-urgent.icon.in.h:1
@@ -169,6 +214,15 @@ msgstr "Nujno"
 #: 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Splet"
+
+#: index.theme.in.h:1
+#, fuzzy
+msgid "Default GNOME Theme"
+msgstr "Privzeta tema Gnome"
+
+#: index.theme.in.h:2
+msgid "GNOME"
+msgstr ""
 
 #~ msgid "Gnome"
 #~ msgstr "Gnome"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme.HEAD.mn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-12-28 10:32+0100\n"
+"POT-Creation-Date: 2004-05-29 01:11-0400\n"
 "PO-Revision-Date: 2003-11-10 02:58+0100\n"
 "Last-Translator: Sanlig Badral <badral@users.sf.net>\n"
 "Language-Team: Mongolian <openmn-core@lists.sf.net>\n"
@@ -18,13 +18,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.0.2\n"
 
-#: index.theme.in.h:1
-msgid "Default GNOME Theme"
-msgstr "ГНОМЕ-стандарт загварууд"
-
-#: index.theme.in.h:2
-msgid "GNOME"
-msgstr "ГНОМЕ"
+# 48x48/emblems/emblem-OK.icon.in.h:1
+#: 48x48/emblems/emblem-OK.icon.in.h:1
+msgid "OK"
+msgstr "OK"
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 # 48x48/emblems/emblem-art.icon.in.h:1
@@ -54,10 +51,42 @@ msgstr "Баталгаажсан"
 msgid "Cool"
 msgstr "Сайхан"
 
+#: 48x48/emblems/emblem-cvs-added.icon.in.h:1
+msgid "cvs-added"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-conflict.icon.in.h:1
+msgid "cvs-conflict"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-controlled.icon.in.h:1
+msgid "cvs-controlled"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-modified.icon.in.h:1
+msgid "cvs-modified"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-new-file.icon.in.h:1
+msgid "cvs-new-file"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-removed.icon.in.h:1
+msgid "cvs-removed"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
+msgid "cvs-sticky-tag"
+msgstr ""
+
 # 48x48/emblems/emblem-danger.icon.in.h:1
 #: 48x48/emblems/emblem-danger.icon.in.h:1
 msgid "Danger"
 msgstr "Аюул"
+
+#: 48x48/emblems/emblem-desktop.icon.in.h:1
+msgid "Desktop"
+msgstr ""
 
 # 48x48/emblems/emblem-distinguished.icon.in.h:1
 #: 48x48/emblems/emblem-distinguished.icon.in.h:1
@@ -125,15 +154,24 @@ msgstr "Мультимедиа"
 msgid "New"
 msgstr "Шинэ"
 
+#: 48x48/emblems/emblem-noread.icon.in.h:1
+msgid "No read"
+msgstr ""
+
+#: 48x48/emblems/emblem-note.icon.in.h:1
+msgid "Note"
+msgstr ""
+
+# 48x48/emblems/emblem-favorite.icon.in.h:1
+#: 48x48/emblems/emblem-nowrite.icon.in.h:1
+#, fuzzy
+msgid "No write"
+msgstr "Дуртай"
+
 # 48x48/emblems/emblem-ohno.icon.in.h:1
 #: 48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
 msgstr "Өө Үгүй!"
-
-# 48x48/emblems/emblem-OK.icon.in.h:1
-#: 48x48/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "OK"
 
 # 48x48/emblems/emblem-package.icon.in.h:1
 # 48x48/emblems/emblem-package.icon.in.h:1
@@ -182,10 +220,18 @@ msgstr "Худалдаа"
 msgid "Sound"
 msgstr "Аудио"
 
+#: 48x48/emblems/emblem-symbolic-link.icon.in.h:1
+msgid "Symbolic link"
+msgstr ""
+
 # 48x48/emblems/emblem-special.icon.in.h:1
 #: 48x48/emblems/emblem-special.icon.in.h:1
 msgid "Special"
 msgstr "Онцгой"
+
+#: 48x48/emblems/emblem-trash.icon.in.h:1
+msgid "Trash"
+msgstr ""
 
 # 48x48/emblems/emblem-urgent.icon.in.h:1
 #: 48x48/emblems/emblem-urgent.icon.in.h:1
@@ -197,6 +243,14 @@ msgstr "Чухал"
 #: 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Вэб"
+
+#: index.theme.in.h:1
+msgid "Default GNOME Theme"
+msgstr "ГНОМЕ-стандарт загварууд"
+
+#: index.theme.in.h:2
+msgid "GNOME"
+msgstr "ГНОМЕ"
 
 #~ msgid "Gnome"
 #~ msgstr "GNOME"

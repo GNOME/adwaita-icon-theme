@@ -21,6 +21,13 @@ glib-gettextize --copy --force
 echo "Running intltoolize"
 intltoolize --copy --force --automake
 
+gettext=`which gettext`
+gettext_prefix=`dirname $gettext | xargs dirname`
+
+if [ -x $gettext_prefix/share/gettext/mkinstalldirs ]; then
+    cp $gettext_prefix/share/gettext/mkinstalldirs $srcdir
+fi
+
 which gnome-autogen.sh || {
     echo "You need to install gnome-common from the GNOME CVS"
     exit 1

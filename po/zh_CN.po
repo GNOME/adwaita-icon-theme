@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-12-28 10:32+0100\n"
+"POT-Creation-Date: 2004-05-29 01:11-0400\n"
 "PO-Revision-Date: 2004-01-23 23:56+0800\n"
 "Last-Translator: He Qiangqiang <carton@linux.net.cn>\n"
 "Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
@@ -16,13 +16,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: index.theme.in.h:1
-msgid "Default GNOME Theme"
-msgstr "GNOME 默认主题"
-
-#: index.theme.in.h:2
-msgid "GNOME"
-msgstr "GNOME"
+#: 48x48/emblems/emblem-OK.icon.in.h:1
+msgid "OK"
+msgstr "好"
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 #: 48x48/emblems/emblem-art.icon.in.h:1
@@ -49,10 +45,42 @@ msgstr "认证"
 msgid "Cool"
 msgstr "酷"
 
+#: 48x48/emblems/emblem-cvs-added.icon.in.h:1
+msgid "cvs-added"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-conflict.icon.in.h:1
+msgid "cvs-conflict"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-controlled.icon.in.h:1
+msgid "cvs-controlled"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-modified.icon.in.h:1
+msgid "cvs-modified"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-new-file.icon.in.h:1
+msgid "cvs-new-file"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-removed.icon.in.h:1
+msgid "cvs-removed"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
+msgid "cvs-sticky-tag"
+msgstr ""
+
 # 48x48/emblems/emblem-danger.icon.in.h:1
 #: 48x48/emblems/emblem-danger.icon.in.h:1
 msgid "Danger"
 msgstr "危险"
+
+#: 48x48/emblems/emblem-desktop.icon.in.h:1
+msgid "Desktop"
+msgstr ""
 
 #: 48x48/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
@@ -110,14 +138,24 @@ msgstr "多媒体"
 msgid "New"
 msgstr "新"
 
+#: 48x48/emblems/emblem-noread.icon.in.h:1
+msgid "No read"
+msgstr ""
+
+#: 48x48/emblems/emblem-note.icon.in.h:1
+msgid "Note"
+msgstr ""
+
+# 48x48/emblems/emblem-favorite.icon.in.h:1
+#: 48x48/emblems/emblem-nowrite.icon.in.h:1
+#, fuzzy
+msgid "No write"
+msgstr "最爱"
+
 # 48x48/emblems/emblem-ohno.icon.in.h:1
 #: 48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
 msgstr "不！"
-
-#: 48x48/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "好"
 
 # 48x48/emblems/emblem-package.icon.in.h:1
 #: 48x48/emblems/emblem-package.icon.in.h:1
@@ -160,9 +198,17 @@ msgstr "销售"
 msgid "Sound"
 msgstr "音效"
 
+#: 48x48/emblems/emblem-symbolic-link.icon.in.h:1
+msgid "Symbolic link"
+msgstr ""
+
 #: 48x48/emblems/emblem-special.icon.in.h:1
 msgid "Special"
 msgstr "特别"
+
+#: 48x48/emblems/emblem-trash.icon.in.h:1
+msgid "Trash"
+msgstr ""
 
 #: 48x48/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
@@ -172,3 +218,11 @@ msgstr "紧急"
 #: 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "网页"
+
+#: index.theme.in.h:1
+msgid "Default GNOME Theme"
+msgstr "GNOME 默认主题"
+
+#: index.theme.in.h:2
+msgid "GNOME"
+msgstr "GNOME"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-12-28 10:32+0100\n"
+"POT-Creation-Date: 2004-05-29 01:11-0400\n"
 "PO-Revision-Date: 2004-03-12 14:13+0300\n"
 "Last-Translator: Maxim Dzumanenko <mvd@mylinux.com.ua>\n"
 "Language-Team: Ukrainian <linux@linux.org.ua>\n"
@@ -16,13 +16,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: index.theme.in.h:1
-msgid "Default GNOME Theme"
-msgstr "Типова тема середовища GNOME"
-
-#: index.theme.in.h:2
-msgid "GNOME"
-msgstr "GNOME"
+#: 48x48/emblems/emblem-OK.icon.in.h:1
+msgid "OK"
+msgstr "Гаразд"
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 #: 48x48/emblems/emblem-art.icon.in.h:1
@@ -47,9 +43,41 @@ msgstr "Сертифікованою"
 msgid "Cool"
 msgstr "Класно"
 
+#: 48x48/emblems/emblem-cvs-added.icon.in.h:1
+msgid "cvs-added"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-conflict.icon.in.h:1
+msgid "cvs-conflict"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-controlled.icon.in.h:1
+msgid "cvs-controlled"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-modified.icon.in.h:1
+msgid "cvs-modified"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-new-file.icon.in.h:1
+msgid "cvs-new-file"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-removed.icon.in.h:1
+msgid "cvs-removed"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
+msgid "cvs-sticky-tag"
+msgstr ""
+
 #: 48x48/emblems/emblem-danger.icon.in.h:1
 msgid "Danger"
 msgstr "Небезпека"
+
+#: 48x48/emblems/emblem-desktop.icon.in.h:1
+msgid "Desktop"
+msgstr ""
 
 #: 48x48/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
@@ -105,13 +133,22 @@ msgstr "Мультимедія"
 msgid "New"
 msgstr "Нове"
 
+#: 48x48/emblems/emblem-noread.icon.in.h:1
+msgid "No read"
+msgstr ""
+
+#: 48x48/emblems/emblem-note.icon.in.h:1
+msgid "Note"
+msgstr ""
+
+#: 48x48/emblems/emblem-nowrite.icon.in.h:1
+#, fuzzy
+msgid "No write"
+msgstr "Улюблене"
+
 #: 48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
 msgstr "О, ні!"
-
-#: 48x48/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "Гаразд"
 
 # 48x48/emblems/emblem-package.icon.in.h:1
 #: 48x48/emblems/emblem-package.icon.in.h:1
@@ -152,9 +189,17 @@ msgstr "Продаж"
 msgid "Sound"
 msgstr "Звук"
 
+#: 48x48/emblems/emblem-symbolic-link.icon.in.h:1
+msgid "Symbolic link"
+msgstr ""
+
 #: 48x48/emblems/emblem-special.icon.in.h:1
 msgid "Special"
 msgstr "Особливе"
+
+#: 48x48/emblems/emblem-trash.icon.in.h:1
+msgid "Trash"
+msgstr ""
 
 #: 48x48/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
@@ -164,3 +209,11 @@ msgstr "Термінове"
 #: 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Веб"
+
+#: index.theme.in.h:1
+msgid "Default GNOME Theme"
+msgstr "Типова тема середовища GNOME"
+
+#: index.theme.in.h:2
+msgid "GNOME"
+msgstr "GNOME"

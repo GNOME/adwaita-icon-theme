@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-12-28 10:32+0100\n"
+"POT-Creation-Date: 2004-05-29 01:11-0400\n"
 "PO-Revision-Date: 2003-10-31 01:35+0900\n"
 "Last-Translator: KAMAGASAKO Masatoshi <emearld@gnome.gr.jp>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
@@ -17,13 +17,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: index.theme.in.h:1
-msgid "Default GNOME Theme"
-msgstr "デフォルトの GNOME テーマ"
-
-#: index.theme.in.h:2
-msgid "GNOME"
-msgstr "GNOME"
+# 48x48/emblems/emblem-OK.icon.in.h:1
+#: 48x48/emblems/emblem-OK.icon.in.h:1
+msgid "OK"
+msgstr "OK"
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 # 48x48/emblems/emblem-art.icon.in.h:1
@@ -57,11 +54,43 @@ msgstr "確認済"
 msgid "Cool"
 msgstr "クール！"
 
+#: 48x48/emblems/emblem-cvs-added.icon.in.h:1
+msgid "cvs-added"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-conflict.icon.in.h:1
+msgid "cvs-conflict"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-controlled.icon.in.h:1
+msgid "cvs-controlled"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-modified.icon.in.h:1
+msgid "cvs-modified"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-new-file.icon.in.h:1
+msgid "cvs-new-file"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-removed.icon.in.h:1
+msgid "cvs-removed"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
+msgid "cvs-sticky-tag"
+msgstr ""
+
 # 48x48/emblems/emblem-danger.icon.in.h:1
 # 48x48/emblems/emblem-danger.icon.in.h:1
 #: 48x48/emblems/emblem-danger.icon.in.h:1
 msgid "Danger"
 msgstr "危険"
+
+#: 48x48/emblems/emblem-desktop.icon.in.h:1
+msgid "Desktop"
+msgstr ""
 
 # 48x48/emblems/emblem-distinguished.icon.in.h:1
 #: 48x48/emblems/emblem-distinguished.icon.in.h:1
@@ -134,16 +163,26 @@ msgstr "マルチメディア"
 msgid "New"
 msgstr "新規"
 
+#: 48x48/emblems/emblem-noread.icon.in.h:1
+msgid "No read"
+msgstr ""
+
+#: 48x48/emblems/emblem-note.icon.in.h:1
+msgid "Note"
+msgstr ""
+
+# 48x48/emblems/emblem-favorite.icon.in.h:1
+# 48x48/emblems/emblem-favorite.icon.in.h:1
+#: 48x48/emblems/emblem-nowrite.icon.in.h:1
+#, fuzzy
+msgid "No write"
+msgstr "お気に入り"
+
 # 48x48/emblems/emblem-ohno.icon.in.h:1
 # 48x48/emblems/emblem-ohno.icon.in.h:1
 #: 48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
 msgstr "もう、いや！"
-
-# 48x48/emblems/emblem-OK.icon.in.h:1
-#: 48x48/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "OK"
 
 # 48x48/emblems/emblem-package.icon.in.h:1
 # 48x48/emblems/emblem-package.icon.in.h:1
@@ -197,10 +236,18 @@ msgstr "商用"
 msgid "Sound"
 msgstr "サウンド"
 
+#: 48x48/emblems/emblem-symbolic-link.icon.in.h:1
+msgid "Symbolic link"
+msgstr ""
+
 # 48x48/emblems/emblem-special.icon.in.h:1
 #: 48x48/emblems/emblem-special.icon.in.h:1
 msgid "Special"
 msgstr "特別"
+
+#: 48x48/emblems/emblem-trash.icon.in.h:1
+msgid "Trash"
+msgstr ""
 
 # 48x48/emblems/emblem-urgent.icon.in.h:1
 #: 48x48/emblems/emblem-urgent.icon.in.h:1
@@ -213,6 +260,14 @@ msgstr "緊急"
 #: 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "WWW ウェブ"
+
+#: index.theme.in.h:1
+msgid "Default GNOME Theme"
+msgstr "デフォルトの GNOME テーマ"
+
+#: index.theme.in.h:2
+msgid "GNOME"
+msgstr "GNOME"
 
 #~ msgid "Gnome"
 #~ msgstr "GNOME"

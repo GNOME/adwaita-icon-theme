@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-12-28 10:32+0100\n"
+"POT-Creation-Date: 2004-05-29 01:11-0400\n"
 "PO-Revision-Date: 2003-06-28 04:45+0100\n"
 "Last-Translator: Dafydd Harries <daf@parnassus.ath.cx>\n"
 "Language-Team: Welsh <gnome-cy@pengwyn.linux.org.uk>\n"
@@ -15,13 +15,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: index.theme.in.h:1
-msgid "Default GNOME Theme"
-msgstr "Thema diofyn GNOME"
-
-#: index.theme.in.h:2
-msgid "GNOME"
-msgstr "GNOME"
+# 48x48/emblems/emblem-OK.icon.in.h:1
+#: 48x48/emblems/emblem-OK.icon.in.h:1
+msgid "OK"
+msgstr "Iawn"
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 # 48x48/emblems/emblem-art.icon.in.h:1
@@ -51,10 +48,42 @@ msgstr "Tystiwyd"
 msgid "Cool"
 msgstr "Cŵl"
 
+#: 48x48/emblems/emblem-cvs-added.icon.in.h:1
+msgid "cvs-added"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-conflict.icon.in.h:1
+msgid "cvs-conflict"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-controlled.icon.in.h:1
+msgid "cvs-controlled"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-modified.icon.in.h:1
+msgid "cvs-modified"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-new-file.icon.in.h:1
+msgid "cvs-new-file"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-removed.icon.in.h:1
+msgid "cvs-removed"
+msgstr ""
+
+#: 48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
+msgid "cvs-sticky-tag"
+msgstr ""
+
 # 48x48/emblems/emblem-danger.icon.in.h:1
 #: 48x48/emblems/emblem-danger.icon.in.h:1
 msgid "Danger"
 msgstr "Rhybudd"
+
+#: 48x48/emblems/emblem-desktop.icon.in.h:1
+msgid "Desktop"
+msgstr ""
 
 # 48x48/emblems/emblem-distinguished.icon.in.h:1
 #: 48x48/emblems/emblem-distinguished.icon.in.h:1
@@ -122,15 +151,24 @@ msgstr "Aml-gyfrwng"
 msgid "New"
 msgstr "Newydd"
 
+#: 48x48/emblems/emblem-noread.icon.in.h:1
+msgid "No read"
+msgstr ""
+
+#: 48x48/emblems/emblem-note.icon.in.h:1
+msgid "Note"
+msgstr ""
+
+# 48x48/emblems/emblem-favorite.icon.in.h:1
+#: 48x48/emblems/emblem-nowrite.icon.in.h:1
+#, fuzzy
+msgid "No write"
+msgstr "Ffefryn"
+
 # 48x48/emblems/emblem-ohno.icon.in.h:1
 #: 48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
 msgstr "O na!"
-
-# 48x48/emblems/emblem-OK.icon.in.h:1
-#: 48x48/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "Iawn"
 
 # 48x48/emblems/emblem-package.icon.in.h:1
 # 48x48/emblems/emblem-package.icon.in.h:1
@@ -179,10 +217,18 @@ msgstr "Gwerthu"
 msgid "Sound"
 msgstr "Sain"
 
+#: 48x48/emblems/emblem-symbolic-link.icon.in.h:1
+msgid "Symbolic link"
+msgstr ""
+
 # 48x48/emblems/emblem-special.icon.in.h:1
 #: 48x48/emblems/emblem-special.icon.in.h:1
 msgid "Special"
 msgstr "Arbennig"
+
+#: 48x48/emblems/emblem-trash.icon.in.h:1
+msgid "Trash"
+msgstr ""
 
 # 48x48/emblems/emblem-urgent.icon.in.h:1
 #: 48x48/emblems/emblem-urgent.icon.in.h:1
@@ -194,6 +240,14 @@ msgstr "Ar Frys"
 #: 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Gwê"
+
+#: index.theme.in.h:1
+msgid "Default GNOME Theme"
+msgstr "Thema diofyn GNOME"
+
+#: index.theme.in.h:2
+msgid "GNOME"
+msgstr "GNOME"
 
 #~ msgid "Gnome"
 #~ msgstr "Gnome"
