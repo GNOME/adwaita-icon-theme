@@ -67,7 +67,6 @@ icon_DATA =\
    gnome-mime-application-x-qw.png \
 	gnome-mime-application-x-reject.png \
 	gnome-mime-application-x-rpm.png \
-	gnome-mime-application-x-scheme.png \
 	gnome-mime-application-x-smil.png \
 	gnome-mime-application-x-sms-rom.png \
 	gnome-mime-application-x-sql.png \
@@ -136,6 +135,7 @@ icon_DATA =\
 	gnome-mime-text-x-perl.png \
 	gnome-mime-text-x-python.png \
 	gnome-mime-text-x-readme.png \
+	gnome-mime-text-x-scheme.png \
 	gnome-mime-text-x-sh.png \
 	gnome-mime-text-x-sql.png \
    gnome-mime-text-x-tex.png \
