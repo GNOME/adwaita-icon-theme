@@ -1,20 +1,20 @@
-# GNOME Icon Theme Hungarian translation
-# Copyright (C) 2002 Andras Timar
+# Hungarian translation of gnome-icon-theme.
+# Copyright (C) 2002-2004 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome-icon-theme package.
-# Andras Timar <timar@gnome.hu>, 2002.
+# Andras Timar <timar@gnome.hu>, 2002-2004.
+# Laszlo Dvornik <dvornik@invitel.hu>, 2004.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-icon-theme CVS\n"
+"Project-Id-Version: gnome-icon-theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-05-29 01:11-0400\n"
-"PO-Revision-Date: 2004-01-23 12:20+0100\n"
-"Last-Translator: Andras Timar <timar@fsf.hu>\n"
-"Language-Team: Hungarian <hu@gnome.hu>\n"
+"POT-Creation-Date: 2004-06-17 03:56+0200\n"
+"PO-Revision-Date: 2004-06-17 14:43+0200\n"
+"Last-Translator: Laszlo Dvornik <dvornik@invitel.hu>\n"
+"Language-Team: Hungarian <gnome@gnome.hu>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.2\n"
 
 # 48x48/emblems/emblem-OK.icon.in.h:1
 #: 48x48/emblems/emblem-OK.icon.in.h:1
@@ -51,31 +51,31 @@ msgstr "Laza"
 
 #: 48x48/emblems/emblem-cvs-added.icon.in.h:1
 msgid "cvs-added"
-msgstr ""
+msgstr "cvs-hozzáadva"
 
 #: 48x48/emblems/emblem-cvs-conflict.icon.in.h:1
 msgid "cvs-conflict"
-msgstr ""
+msgstr "cvs-ütközés"
 
 #: 48x48/emblems/emblem-cvs-controlled.icon.in.h:1
 msgid "cvs-controlled"
-msgstr ""
+msgstr "cvs-felügyelve"
 
 #: 48x48/emblems/emblem-cvs-modified.icon.in.h:1
 msgid "cvs-modified"
-msgstr ""
+msgstr "cvs-módosítva"
 
 #: 48x48/emblems/emblem-cvs-new-file.icon.in.h:1
 msgid "cvs-new-file"
-msgstr ""
+msgstr "cvs-új-fájl"
 
 #: 48x48/emblems/emblem-cvs-removed.icon.in.h:1
 msgid "cvs-removed"
-msgstr ""
+msgstr "cvs-eltávolítva"
 
 #: 48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
 msgid "cvs-sticky-tag"
-msgstr ""
+msgstr "cvs-sticky-tag"
 
 # 48x48/emblems/emblem-danger.icon.in.h:1
 #: 48x48/emblems/emblem-danger.icon.in.h:1
@@ -84,7 +84,7 @@ msgstr "Veszély"
 
 #: 48x48/emblems/emblem-desktop.icon.in.h:1
 msgid "Desktop"
-msgstr ""
+msgstr "Munkaasztal"
 
 # 48x48/emblems/emblem-distinguished.icon.in.h:1
 #: 48x48/emblems/emblem-distinguished.icon.in.h:1
@@ -154,17 +154,16 @@ msgstr "Új"
 
 #: 48x48/emblems/emblem-noread.icon.in.h:1
 msgid "No read"
-msgstr ""
+msgstr "Nincs olvasás"
 
 #: 48x48/emblems/emblem-note.icon.in.h:1
 msgid "Note"
-msgstr ""
+msgstr "Megjegyzés"
 
 # 48x48/emblems/emblem-favorite.icon.in.h:1
 #: 48x48/emblems/emblem-nowrite.icon.in.h:1
-#, fuzzy
 msgid "No write"
-msgstr "Kedvenc"
+msgstr "Nincs írás"
 
 # 48x48/emblems/emblem-ohno.icon.in.h:1
 #: 48x48/emblems/emblem-ohno.icon.in.h:1
@@ -220,7 +219,7 @@ msgstr "Hang"
 
 #: 48x48/emblems/emblem-symbolic-link.icon.in.h:1
 msgid "Symbolic link"
-msgstr ""
+msgstr "Szimbolikus link"
 
 # 48x48/emblems/emblem-special.icon.in.h:1
 #: 48x48/emblems/emblem-special.icon.in.h:1
@@ -229,7 +228,7 @@ msgstr "Speciális"
 
 #: 48x48/emblems/emblem-trash.icon.in.h:1
 msgid "Trash"
-msgstr ""
+msgstr "Kuka"
 
 # 48x48/emblems/emblem-urgent.icon.in.h:1
 #: 48x48/emblems/emblem-urgent.icon.in.h:1
@@ -249,6 +248,3 @@ msgstr "Alapértelmezett GNOME-téma"
 #: index.theme.in.h:2
 msgid "GNOME"
 msgstr "GNOME"
-
-#~ msgid "Gnome"
-#~ msgstr "GNOME"
