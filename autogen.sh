@@ -15,12 +15,6 @@ REQUIRED_AUTOMAKE_VERSION=1.6
     exit 1
 }
 
-echo "Running glib-gettextize"
-glib-gettextize --copy --force
-
-echo "Running intltoolize"
-intltoolize --copy --force --automake
-
 gettext=`which gettext`
 gettext_prefix=`dirname $gettext | xargs dirname`
 
@@ -32,4 +26,4 @@ which gnome-autogen.sh || {
     echo "You need to install gnome-common from the GNOME CVS"
     exit 1
 }
-REQUIRED_AUTOMAKE_VERSION=1.6 USE_GNOME2_MACROS=1 . gnome-autogen.sh
+USE_GNOME2_MACROS=1 . gnome-autogen.sh
