@@ -17,6 +17,7 @@ icon_DATA =\
    stock_inbox.png \
    stock_mail.png \
    stock_mail-druid.png \
+   stock_mail-druid-account.png \
    stock_mail-import.png \
    stock_mail-flag-for-followup.png \
    stock_mail-flag-for-followup-done.png \
