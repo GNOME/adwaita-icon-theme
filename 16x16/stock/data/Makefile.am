@@ -9,6 +9,7 @@ icon_DATA =\
    stock_add-decimal-place.png \
    stock_advanced-filter.png \
    stock_autofilter.png \
+	 stock_database.png \
    stock_data-delete-link.png \
    stock_data-delete-query.png \
    stock_data-delete-record.png \
