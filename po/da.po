@@ -2,14 +2,15 @@
 # Copyright (C) 2002, 03, 04 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome-icon-theme package.
 # Ole Laursen <olau@hardworking.dk>, 2002, 03, 04.
+# Martin Willemoes Hansen <mwh@sysrq.dk>, 2005.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-10-02 19:18-0400\n"
-"PO-Revision-Date: 2004-07-07 18:52+0200\n"
-"Last-Translator: Ole Laursen <olau@hardworking.dk>\n"
+"POT-Creation-Date: 2005-02-21 13:31+0100\n"
+"PO-Revision-Date: 2005-02-21 13:31+0100\n"
+"Last-Translator: Martin Willemoes Hansen <mwh@sysrq.dk>\n"
 "Language-Team: Danish <dansk@klid.dk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -87,10 +88,6 @@ msgstr "Dokumenter"
 msgid "Draft"
 msgstr "Udkast"
 
-#: 48x48/emblems/emblem-favorite.icon.in.h:1
-msgid "Favorite"
-msgstr "Favorit"
-
 #: 48x48/emblems/emblem-generic.icon.in.h:1
 msgid "Generic"
 msgstr "Generel"
@@ -167,6 +164,10 @@ msgstr "Præsentation"
 msgid "Sales"
 msgstr "Salg"
 
+#: 48x48/emblems/emblem-shared.icon.in.h:1
+msgid "Shared"
+msgstr "Delt"
+
 #: 48x48/emblems/emblem-sound.icon.in.h:1
 msgid "Sound"
 msgstr "Lyd"
@@ -190,6 +191,10 @@ msgstr "Haster"
 #: 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Internet"
+
+#: scalable/emblems/emblem-favorite.icon.in.h:1
+msgid "Favorite"
+msgstr "Favorit"
 
 #: index.theme.in.h:1
 msgid "Default GNOME Theme"
