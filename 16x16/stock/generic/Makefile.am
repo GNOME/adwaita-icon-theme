@@ -71,6 +71,13 @@ icon_DATA =\
    stock_presentation-styles.png \
    stock_redo.png \
    stock_refresh.png \
+   stock_score-lowest.png \
+   stock_score-lower.png \
+   stock_score-low.png \
+   stock_score-normal.png \
+   stock_score-high.png \
+   stock_score-higher.png \
+   stock_score-highest.png \
    stock_search.png \
    stock_send-fax.png \
    stock_show-all.png   \
