@@ -36,7 +36,6 @@ icon_DATA =\
    gnome-networktool.png \
    gnome-nibbles.png \
    gnome-pdf.png \
-   gnome-printers-properties.png \
    gnome-terminal.png \
    gnome-util.png \
    hwbrowser.png \

@@ -43,7 +43,6 @@ icon_DATA =\
    gnome-nibbles.png \
 	gnome-other.png \
    gnome-pdf.png \
-   gnome-printers-properties.png \
 	gnome-reboot.png \
    gnome-searchtool.png \
 	gnome-server-config.png \
