@@ -36,7 +36,10 @@ icon_DATA =\
 	gnome-mime-application-x-archive.png \
 	gnome-mime-application-x-arj.png \
 	gnome-mime-application-x-bittorrent.png \
+	gnome-mime-application-x-bla.png \
 	gnome-mime-application-x-blender.png \
+	gnome-mime-application-x-blf.png \
+	gnome-mime-application-x-blv.png \
 	gnome-mime-application-x-bzip-compressed-tar.png \
 	gnome-mime-application-x-bzip.png \
 	gnome-mime-application-x-cd-image.png \
