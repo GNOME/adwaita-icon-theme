@@ -28,6 +28,7 @@ icon_DATA =\
 	gnome-mime-application-x-applix-word.png \
 	gnome-mime-application-x-arj.png \
 	gnome-mime-application-x-backup.png \
+	gnome-mime-application-x-blender.png \
 	gnome-mime-application-x-bzip.png \
    gnome-mime-application-x-bzip-compressed-tar.png \
 	gnome-mime-application-x-compress.png \
