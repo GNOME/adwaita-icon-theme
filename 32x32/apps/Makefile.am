@@ -44,7 +44,6 @@ icon_DATA =\
    keyboard.png \
    logviewer.png \
    network-config.png \
-   network.png \
    panel-notification-area.png \
    postscript-viewer.png \
    serviceconf.png \

@@ -7,6 +7,8 @@ icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
 icon_DATA =\
 	gnome-fs-bookmark.png \
 	gnome-fs-bookmark-missing.png \
+   gnome-fs-client.png \
+   gnome-fs-network.png \
    gnome-fs-server.png \
 	$(NULL)
 
