@@ -44,6 +44,7 @@ icon_DATA =\
 	emblem-multimedia.png \
 	emblem-note.png \
 	emblem-noread.png \
+	emblem-nowrite.png \
 	emblem-ohno.png \
 	emblem-package.png \
 	emblem-people.png \
