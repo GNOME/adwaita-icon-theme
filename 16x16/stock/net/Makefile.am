@@ -66,3 +66,8 @@ icon_DATA =\
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)
+
+install-data-local:
+	$(mkinstalldirs) $(DESTDIR)$(icondir)/../../filesystems
+	ln -sf $(icondir)/stock_shared-by-me.png $(DESTDIR)$(icondir)/../../filesystems/gnome-fs-locally-shared.png
+	ln -sf $(icondir)/stock_shared-to-me.png $(DESTDIR)$(icondir)/../../filesystems/gnome-fs-share-private.png

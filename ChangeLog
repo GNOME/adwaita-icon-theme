@@ -1,3 +1,10 @@
+2005-03-22  Rodney Dawes  <dobey@novell.com>
+
+	* configure.in, NEWS: Update for 2.10.1 release
+
+	* (16x16,24x24)/stock/net/Makefile.am: Install symlinks for the old
+	gnome-fs-locally-shared and gnome-fs-share-private icon names
+
 2005-03-22  Jakub Steiner <jimmac@ximian.com>
 
 	* gnome-mime-application-vnd.oasis.opendocument.graphics-template.png
@@ -19,14 +26,14 @@
 	* gnome-mime-application-x-vnd.oasis.openoffice.presentation.png
 	* gnome-mime-application-x-vnd.oasis.openoffice.text-master.png
 	* gnome-mime-application-x-vnd.oasis.openoffice.text.png
-	* gnome-mime-application-x-vnd.oasis.openoffice.text-web.png: new
-	  OOo mime types
+	* gnome-mime-application-x-vnd.oasis.openoffice.text-web.png:
+	new OOo mime types
 
 2005-03-10  Jakub Steiner <jimmac@ximian.com>
 
 	* {16x16,24x24}/filesystems/Makefile.am:
 	* {16x16,24x24}/filesystems/gnome-fs-locally-shared.png:
-	* {16x16,24x24}/filesystems/gnome-fs-share-provate.png: removed
+	* {16x16,24x24}/filesystems/gnome-fs-share-private.png: removed
 	* {16x16,24x24}/stock/net/Makefile.am:
 	* {16x16,24x24}/stock/net/stock_shared-by-me.png:
 	* {16x16,24x24}/stock/net/stock_shared-to-me.png: renamed as per
