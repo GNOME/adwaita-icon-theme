@@ -1,4 +1,9 @@
-Version 1.2.1
+Version 1.2.3
+
+Changes since 1.2.1:
+* Fix API breakage for stock_save_as vs. stock_save-as
+* Fix build so that make distcheck works
+* Bugs fixed: #142001, #142988
 
 Changes since 1.2.0:
 * new im icons

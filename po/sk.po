@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-12-28 10:32+0100\n"
+"POT-Creation-Date: 2004-05-22 19:54-0400\n"
 "PO-Revision-Date: 2004-03-09 18:10+0100\n"
 "Last-Translator: Stanislav Visnovsky <visnovsky@nenya.ms.mff.cuni.cz>\n"
 "Language-Team: Slovak <sk-i18n@linux.sk>\n"
@@ -19,13 +19,9 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: index.theme.in.h:1
-msgid "Default GNOME Theme"
-msgstr "Štandardná téma GNOME"
-
-#: index.theme.in.h:2
-msgid "GNOME"
-msgstr "GNOME"
+#: 48x48/emblems/emblem-OK.icon.in.h:1
+msgid "OK"
+msgstr "OK"
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 # 48x48/emblems/emblem-art.icon.in.h:1
@@ -123,10 +119,6 @@ msgstr "Nový"
 msgid "Oh no!"
 msgstr "Ale nie!"
 
-#: 48x48/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "OK"
-
 # 48x48/emblems/emblem-package.icon.in.h:1
 # 48x48/emblems/emblem-package.icon.in.h:1
 #: 48x48/emblems/emblem-package.icon.in.h:1
@@ -184,3 +176,11 @@ msgstr "Urgentný"
 #: 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Web"
+
+#: index.theme.in.h:1
+msgid "Default GNOME Theme"
+msgstr "Štandardná téma GNOME"
+
+#: index.theme.in.h:2
+msgid "GNOME"
+msgstr "GNOME"

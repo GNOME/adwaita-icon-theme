@@ -6,7 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme CVS\n"
-"POT-Creation-Date: 2003-12-28 10:32+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-05-22 19:54-0400\n"
 "PO-Revision-Date: 2004-01-23 12:20+0100\n"
 "Last-Translator: Andras Timar <timar@fsf.hu>\n"
 "Language-Team: Hungarian <hu@gnome.hu>\n"
@@ -15,13 +16,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.2\n"
 
-#: index.theme.in.h:1
-msgid "Default GNOME Theme"
-msgstr "Alapértelmezett GNOME-téma"
-
-#: index.theme.in.h:2
-msgid "GNOME"
-msgstr "GNOME"
+# 48x48/emblems/emblem-OK.icon.in.h:1
+#: 48x48/emblems/emblem-OK.icon.in.h:1
+msgid "OK"
+msgstr "OK"
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 # 48x48/emblems/emblem-art.icon.in.h:1
@@ -127,11 +125,6 @@ msgstr "Új"
 msgid "Oh no!"
 msgstr "Na ne!"
 
-# 48x48/emblems/emblem-OK.icon.in.h:1
-#: 48x48/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "OK"
-
 # 48x48/emblems/emblem-package.icon.in.h:1
 # 48x48/emblems/emblem-package.icon.in.h:1
 #: 48x48/emblems/emblem-package.icon.in.h:1
@@ -194,6 +187,14 @@ msgstr "Sürgős"
 #: 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Web"
+
+#: index.theme.in.h:1
+msgid "Default GNOME Theme"
+msgstr "Alapértelmezett GNOME-téma"
+
+#: index.theme.in.h:2
+msgid "GNOME"
+msgstr "GNOME"
 
 #~ msgid "Gnome"
 #~ msgstr "GNOME"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme.HEAD.mk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-12-28 10:32+0100\n"
+"POT-Creation-Date: 2004-05-22 19:54-0400\n"
 "PO-Revision-Date: 2003-06-15 09:41+0200\n"
 "Last-Translator: \n"
 "Language-Team:  <mk@li.org>\n"
@@ -17,14 +17,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.0\n"
 
-#: index.theme.in.h:1
-#, fuzzy
-msgid "Default GNOME Theme"
-msgstr "Основна Gnome Тема"
-
-#: index.theme.in.h:2
-msgid "GNOME"
-msgstr ""
+#: 48x48/emblems/emblem-OK.icon.in.h:1
+msgid "OK"
+msgstr "Во ред"
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 # 48x48/emblems/emblem-art.icon.in.h:1
@@ -117,10 +112,6 @@ msgstr "Ново"
 msgid "Oh no!"
 msgstr "НЕЕЕЕ!"
 
-#: 48x48/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "Во ред"
-
 # 48x48/emblems/emblem-package.icon.in.h:1
 # 48x48/emblems/emblem-package.icon.in.h:1
 #: 48x48/emblems/emblem-package.icon.in.h:1
@@ -176,6 +167,15 @@ msgstr "Итно"
 #: 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Веб"
+
+#: index.theme.in.h:1
+#, fuzzy
+msgid "Default GNOME Theme"
+msgstr "Основна Gnome Тема"
+
+#: index.theme.in.h:2
+msgid "GNOME"
+msgstr ""
 
 #~ msgid "Gnome"
 #~ msgstr "Gnome"

@@ -6,7 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
-"POT-Creation-Date: 2003-12-28 10:32+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-05-22 19:54-0400\n"
 "PO-Revision-Date: 2003-07-11 10:19+0200\n"
 "Last-Translator: Pablo Saratxaga <pablo@mandrakesoft.com>\n"
 "Language-Team: Walon <linux-wa@walon.org>\n"
@@ -15,14 +16,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.0.2\n"
 
-#: index.theme.in.h:1
-#, fuzzy
-msgid "Default GNOME Theme"
-msgstr "Prémetou tinme di Gnome"
-
-#: index.theme.in.h:2
-msgid "GNOME"
-msgstr ""
+#: 48x48/emblems/emblem-OK.icon.in.h:1
+msgid "OK"
+msgstr "'l est bon"
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 #: 48x48/emblems/emblem-art.icon.in.h:1
@@ -113,10 +109,6 @@ msgstr "Novea"
 msgid "Oh no!"
 msgstr "Waye!"
 
-#: 48x48/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "'l est bon"
-
 # 48x48/emblems/emblem-package.icon.in.h:1
 #: 48x48/emblems/emblem-package.icon.in.h:1
 msgid "Package"
@@ -168,6 +160,15 @@ msgstr "Urdjint"
 #: 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Waibe"
+
+#: index.theme.in.h:1
+#, fuzzy
+msgid "Default GNOME Theme"
+msgstr "Prémetou tinme di Gnome"
+
+#: index.theme.in.h:2
+msgid "GNOME"
+msgstr ""
 
 #~ msgid "Gnome"
 #~ msgstr "Gnome"
