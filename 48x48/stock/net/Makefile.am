@@ -25,6 +25,7 @@ icon_DATA =\
    stock_not-spam.png   \
    stock_outbox.png \
    stock_post-message.png \
+   stock_proxy.png   \
    stock_sent-mail.png \
    stock_spam.png \
 	$(NULL)

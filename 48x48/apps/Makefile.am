@@ -83,6 +83,7 @@ icon_DATA =\
    panel-window-menu.png \
    realplayer.png \
    serviceconf.png \
+   screensaver.png   \
    sodipodi.png \
    tsclient.png \
    web-browser.png \
