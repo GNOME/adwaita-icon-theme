@@ -10,12 +10,16 @@ icon_DATA =\
 	gnome-fs-client.png \
 	gnome-fs-directory.png \
 	gnome-fs-desktop.png \
+	gnome-fs-ftp.png \
 	gnome-fs-home.png \
 	gnome-fs-locally-shared.png \
 	gnome-fs-network.png \
+	gnome-fs-nfs.png \
 	gnome-fs-server.png \
 	gnome-fs-share.png \
 	gnome-fs-share-private.png \
+	gnome-fs-smb.png \
+	gnome-fs-ssh.png \
 	gnome-fs-trash-empty.png \
 	gnome-fs-trash-full.png \
 	$(NULL)
