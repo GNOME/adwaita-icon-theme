@@ -1,4 +1,4 @@
-# Gnome yn Gymraeg.
+# gnome-icon-theme yn Gymraeg.
 # Copyright (C) 2003 Free Software Foundation, Inc.
 # www.gyfieithu.co.uk <kyfieithu@dotmon.com>, 2003.
 # and contributors.
@@ -6,14 +6,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
-"POT-Creation-Date: 2003-01-13 14:52+0100\n"
-"PO-Revision-Date: 2003-05-02 21:50+0200\n"
-"Last-Translator: www.gyfieithu.co.uk <kyfieithu@dotmon.com>\n"
+"POT-Creation-Date: 2003-06-28 04:44+0100\n"
+"PO-Revision-Date: 2003-06-28 04:45+0100\n"
+"Last-Translator: Dafydd Harries <daf@parnassus.ath.cx>\n"
 "Language-Team: Welsh <gnome-cy@pengwyn.linux.org.uk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
-"X-Generator: Kartouche 0.0.1a\n"
 
 #: index.theme.in.h:1
 msgid "Default Gnome Theme"
@@ -27,21 +26,41 @@ msgstr "Gnome"
 msgid "Art"
 msgstr "Celf"
 
+# 48x48/emblems/emblem-bin.icon.in.h:1
+msgid "Binary"
+msgstr "Deuol"
+
 # 48x48/emblems/emblem-camera.icon.in.h:1
 msgid "Camera"
 msgstr "Camera"
+
+msgid "Cool"
+msgstr "Cŵl"
+
+msgid "Danger"
+msgstr "Rhybudd"
 
 # 48x48/emblems/emblem-documents.icon.in.h:1
 msgid "Documents"
 msgstr "Dogfenni"
 
+msgid "Favorite"
+msgstr "Ffefryn"
+
 # 48x48/emblems/emblem-mail.icon.in.h:1
 msgid "Mail"
 msgstr "Post"
 
+# 48x48/emblems/emblem-marketing.icon.in.h:1
+msgid "Marketing"
+msgstr "Marchnata"
+
 # 48x48/emblems/emblem-multimedia.icon.in.h:1
 msgid "Multimedia"
 msgstr "Aml-gyfrwng"
+
+msgid "Oh no!"
+msgstr "O na!"
 
 # 48x48/emblems/emblem-package.icon.in.h:1
 msgid "Package"
@@ -50,6 +69,14 @@ msgstr "Pecyn"
 # 48x48/emblems/emblem-pictures.icon.in.h:1
 msgid "Pictures"
 msgstr "Lluniau"
+
+# 48x48/emblems/emblem-plan.icon.in.h:1
+msgid "Plan"
+msgstr "Cynllun"
+
+# 48x48/emblems/emblem-sales.icon.in.h:1
+msgid "Sales"
+msgstr "Gwerthu"
 
 # 48x48/emblems/emblem-sound.icon.in.h:1
 msgid "Sound"
@@ -63,14 +90,6 @@ msgstr "Gwê"
 msgid "Certified"
 msgstr "Tystiwyd"
 
-#: scalable/emblems/emblem-cool.icon.in.h:1
-msgid "Cool"
-msgstr "Cŵl"
-
-#: scalable/emblems/emblem-danger.icon.in.h:1
-msgid "Danger"
-msgstr "Rhybudd"
-
 #: scalable/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
 msgstr "Anrhydeddig"
@@ -78,10 +97,6 @@ msgstr "Anrhydeddig"
 #: scalable/emblems/emblem-draft.icon.in.h:1
 msgid "Draft"
 msgstr "Drafft"
-
-#: scalable/emblems/emblem-favorite.icon.in.h:1
-msgid "Favorite"
-msgstr "Ffefryn"
 
 #: scalable/emblems/emblem-generic.icon.in.h:1
 msgid "Generic"
@@ -94,10 +109,6 @@ msgstr "Pwysig"
 #: scalable/emblems/emblem-new.icon.in.h:1
 msgid "New"
 msgstr "Newydd"
-
-#: scalable/emblems/emblem-ohno.icon.in.h:1
-msgid "Oh No!"
-msgstr "O Na!"
 
 #: scalable/emblems/emblem-OK.icon.in.h:1
 msgid "OK"
