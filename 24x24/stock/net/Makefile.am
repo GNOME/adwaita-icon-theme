@@ -13,10 +13,11 @@ icon_DATA =\
    stock_insert_url.png \
    stock_internet.png \
    stock_link.png \
+   stock_mail.png \
    stock_mail-compose.png \
    stock_mail_forward.png \
    stock_mail-merge.png \
-   stock_mail.png \
+   stock_mail_open.png \
    stock_mail_receive.png \
    stock_mail_reply.png \
    stock_mail_send.png \

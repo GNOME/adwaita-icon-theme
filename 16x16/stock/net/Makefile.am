@@ -17,6 +17,7 @@ icon_DATA =\
    stock_mail_forward.png \
    stock_mail-merge.png \
    stock_mail.png \
+   stock_mail_open.png \
    stock_mail_receive.png \
    stock_mail_reply.png \
    stock_mail_send.png \

@@ -1,1 +1,1 @@
-SUBDIRS=document generic
+SUBDIRS=document generic net
