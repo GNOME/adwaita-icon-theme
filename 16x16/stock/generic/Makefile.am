@@ -78,6 +78,7 @@ icon_DATA =\
    stock_toilet-paper.png \
    stock_trash_full.png \
    stock_undo.png \
+   stock_unknown.png \
    stock_view-details.png \
    stock_weather-cloudy.png \
    stock_weather-few-clouds.png \

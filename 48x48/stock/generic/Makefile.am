@@ -23,6 +23,7 @@ icon_DATA =\
 	stock_people.png 		\
 	stock_person.png 		\
 	stock_summary.png 		\
+	stock_unknown.png	\
 	stock_weather-cloudy.png 	\
 	stock_weather-few-clouds.png 	\
 	stock_weather-fog.png 		\

@@ -5,6 +5,7 @@ category=devices
 icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
 
 icon_DATA =\
+	gnome-dev-battery.png \
 	gnome-dev-cdrom-audio.png \
 	gnome-dev-cdrom.png \
 	gnome-dev-dvd.png \
@@ -12,7 +13,9 @@ icon_DATA =\
 	gnome-dev-harddisk.png \
 	gnome-dev-removable.png \
 	gnome-dev-jazdisk.png \
+	gnome-dev-keyboard.png \
 	gnome-dev-memory.png \
+	gnome-dev-mouse-optical.png \
 	gnome-dev-printer.png \
 	gnome-dev-symlink.png \
 	gnome-dev-zipdisk.png \

@@ -63,6 +63,7 @@ icon_DATA =\
 	stock_timer_stopped.png 	\
 	stock_toilet-paper.png 		\
 	stock_trash_full.png 		\
+	stock_unknown.png 			\
 	stock_undo.png 			\
    stock_web-calendar.png \
 	stock_web-support.png 		\
