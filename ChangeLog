@@ -1,3 +1,10 @@
+2004-06-06  Rodney Dawes  <dobey@novell.com>
+
+	* 16x16/stock/io/Makefile.am (install-data-local):
+	* 24x24/stock/io/Makefile.am (install-data-local):
+	Install stock_save-as.png as stock_save_as.png as well, to fix
+	API breakage from April 14, 2004
+
 2004-05-29  Christian Rose  <menthos@menthos.com>
 
 	* configure.in: Added "tk" to ALL_LINGUAS.
