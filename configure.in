@@ -5,7 +5,7 @@ AM_MAINTAINER_MODE
 
 AC_PROG_INTLTOOL
 
-ALL_LINGUAS="am bg ca cs da de el es fr he hu it lv nl no pl pt_BR sv vi"
+ALL_LINGUAS="am bg ca cs da de el es fr he hu it lv nl no pl pt_BR sv vi zh_TW"
 GETTEXT_PACKAGE=gnome-icon-theme
 AC_SUBST(GETTEXT_PACKAGE)
 AM_GLIB_GNU_GETTEXT
