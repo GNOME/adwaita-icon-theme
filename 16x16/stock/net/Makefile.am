@@ -35,6 +35,7 @@ icon_DATA =\
    stock_outbox.png \
    stock_post-message.png \
    stock_sent-mail.png \
+   stock_spam.png \
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)
