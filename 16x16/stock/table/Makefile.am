@@ -29,6 +29,7 @@ icon_DATA =\
    stock_insert-columns.png \
    stock_insert-names-define.png \
    stock_insert-rows.png \
+   stock_select-cell.png \
    stock_select-column.png \
    stock_select-row.png \
    stock_select-table.png \
