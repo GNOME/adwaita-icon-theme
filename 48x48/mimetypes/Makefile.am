@@ -25,8 +25,10 @@ icon_DATA =\
 	gnome-mime-application-vnd.stardivision.impress.png \
 	gnome-mime-application-vnd.stardivision.writer.png \
 	gnome-mime-application-vnd.sun.xml.calc.png \
+	gnome-mime-application-vnd.sun.xml.draw.png \
 	gnome-mime-application-vnd.sun.xml.impress.png \
 	gnome-mime-application-vnd.sun.xml.writer.png \
+	gnome-mime-application-vnd.sun.xml.writer.template.png \
 	gnome-mime-application-wordperfect.png \
 	gnome-mime-application-x-abiword.png \
 	gnome-mime-application-x-applix-spreadsheet.png \
