@@ -13,7 +13,7 @@ icon_DATA =\
    gnome-logout.png \
    gnome-run.png \
    gnome-settings.png \
-	 gnome-window-manager.png \
+   gnome-window-manager.png \
    im.png   \
    im-aim.png  \
    im-icq.png  \
@@ -24,6 +24,7 @@ icon_DATA =\
    panel-notification-area.png \
    panel-window-list.png \
    panel-window-menu.png \
+   text-editor.png \
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)

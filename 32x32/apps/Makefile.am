@@ -40,7 +40,7 @@ icon_DATA =\
    gnome-pdf.png \
    gnome-terminal.png \
    gnome-util.png \
-	 gnome-window-manager.png \
+   gnome-window-manager.png \
    hwbrowser.png \
    iagno.png \
    keyboard.png \
@@ -52,6 +52,7 @@ icon_DATA =\
    postscript-viewer.png \
    serviceconf.png \
    system-floppy.png \
+   text-editor.png \
    tsclient.png \
    web-browser.png \
    xcdroast.png \

@@ -106,6 +106,7 @@ icon_DATA =\
 	screensaver.png   \
 	stock-ticker.png \
 	sodipodi.png \
+	text-editor.png \
 	tsclient.png \
 	user-info.png  \
 	visor.png   \
