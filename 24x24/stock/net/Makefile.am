@@ -27,6 +27,7 @@ icon_DATA =\
    stock_mail_send.png \
    stock_online-layout.png \
    stock_outbox.png \
+   stock_post-message.png \
    stock_sent-mail.png \
 	$(NULL)
 

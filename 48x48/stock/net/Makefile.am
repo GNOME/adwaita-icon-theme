@@ -13,6 +13,7 @@ icon_DATA =\
    stock_mail.png \
    stock_mail_open.png \
    stock_outbox.png \
+   stock_post-message.png \
    stock_sent-mail.png \
 	$(NULL)
 
