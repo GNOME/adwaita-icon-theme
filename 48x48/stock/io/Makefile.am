@@ -6,6 +6,7 @@ subtype=io
 icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)/$(subtype)
 
 icon_DATA =\
+	stock_bluetooth.png \
    stock_network-printer.png \
    stock_print.png \
    stock_printers.png \
