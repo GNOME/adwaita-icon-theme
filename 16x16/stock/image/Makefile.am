@@ -6,6 +6,7 @@ subtype=image
 icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)/$(subtype)
 
 icon_DATA =\
+   stock_arrowstyle.png \
    stock_3d-color-picker.png \
    stock_3d-colors.png \
    stock_3d-custom-color.png \
