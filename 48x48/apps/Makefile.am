@@ -14,6 +14,16 @@ icon_DATA =\
 	gnome-reboot.png \
 	gnome-lockscreen.png \
 	gnome-accessories.png \
+	gnome-audio2.png \
+	gnome-games.png \
+	gnome-globe.png \
+	gnome-graphics.png \
+	gnome-help.png \
+	gnome-multimedia.png \
+	gnome-programming.png \
+	gnome-settings.png \
+	gnome-unknown.png \
+	gnome-system.png \
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)
