@@ -16,6 +16,7 @@ icon_DATA =\
    stock_new-spreadsheet.png \
    stock_new-template.png \
    stock_new-text.png \
+   stock_todo.png \
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)
