@@ -30,6 +30,7 @@ icon_DATA =\
 	stock_weather-snow.png 		\
 	stock_weather-storm.png 	\
 	stock_weather-sunny.png 	\
+   stock_web-calendar.png \
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)

@@ -86,6 +86,7 @@ icon_DATA =\
    stock_weather-snow.png \
    stock_weather-storm.png \
    stock_weather-sunny.png \
+   stock_web-calendar.png \
    stock_web-support.png \
 	$(NULL)
 

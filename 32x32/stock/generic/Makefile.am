@@ -28,6 +28,7 @@ icon_DATA =\
 	stock_people.png 		\
 	stock_person.png 		\
 	stock_summary.png 		\
+   stock_web-calendar.png \
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)

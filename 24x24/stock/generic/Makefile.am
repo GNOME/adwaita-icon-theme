@@ -64,6 +64,7 @@ icon_DATA =\
 	stock_toilet-paper.png 		\
 	stock_trash_full.png 		\
 	stock_undo.png 			\
+   stock_web-calendar.png \
 	stock_web-support.png 		\
 	$(NULL)
 
