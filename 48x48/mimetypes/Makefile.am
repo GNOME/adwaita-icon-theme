@@ -5,8 +5,7 @@ category=mimetypes
 icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
 
 icon_DATA =\
-   gnome-mime-application.png \
-   gnome-mime-application-magicpoint.png \
+	gnome-mime-application-magicpoint.png \
 	gnome-mime-application-msword.png \
 	gnome-mime-application-ogg.png \
 	gnome-mime-application-pdf.png \
@@ -14,10 +13,10 @@ icon_DATA =\
 	gnome-mime-application-pgp-keys.png \
 	gnome-mime-application-pgp.png \
 	gnome-mime-application-postscript.png \
-	gnome-mime-application-qif.png \
-   gnome-mime-application-rhythmbox-playlist.png \
-   gnome-mime-application-rhythmbox-effect.png \
+	gnome-mime-application-rhythmbox-effect.png \
+	gnome-mime-application-rhythmbox-playlist.png \
 	gnome-mime-application-rtf.png \
+	gnome-mime-application-smil.png \
 	gnome-mime-application-vnd.lotus-1-2-3.png \
 	gnome-mime-application-vnd.ms-excel.png \
 	gnome-mime-application-vnd.ms-powerpoint.png \
@@ -32,17 +31,20 @@ icon_DATA =\
 	gnome-mime-application-x-applix-spreadsheet.png \
 	gnome-mime-application-x-applix-word.png \
 	gnome-mime-application-x-arj.png \
-	gnome-mime-application-x-backup.png \
 	gnome-mime-application-x-blender.png \
+	gnome-mime-application-x-bzip-compressed-tar.png \
 	gnome-mime-application-x-bzip.png \
-   gnome-mime-application-x-bzip-compressed-tar.png \
+	gnome-mime-application-x-class-file.png \
 	gnome-mime-application-x-compress.png \
-   gnome-mime-application-x-compressed-tar.png \
-	gnome-mime-application-x-core-file.png \
+	gnome-mime-application-x-compressed-tar.png \
+	gnome-mime-application-x-core.png \
+	gnome-mime-application-x-cpio-compressed.png \
+	gnome-mime-application-x-cpio.png \
 	gnome-mime-application-x-dc-rom.png \
 	gnome-mime-application-x-deb.png \
+	gnome-mime-application-x-desktop.png \
 	gnome-mime-application-x-dia-diagram.png \
-   gnome-mime-application-x-dvi.png \
+	gnome-mime-application-x-dvi.png \
 	gnome-mime-application-x-e-theme.png \
 	gnome-mime-application-x-font-afm.png \
 	gnome-mime-application-x-font-bdf.png \
@@ -52,44 +54,46 @@ icon_DATA =\
 	gnome-mime-application-x-font-ttf.png \
 	gnome-mime-application-x-gameboy-rom.png \
 	gnome-mime-application-x-genesis-rom.png \
-   gnome-mime-application-x-glade.png  \
-	gnome-mime-application-x-gnome-app-info.png \
+	gnome-mime-application-x-glade.png  \
 	gnome-mime-application-x-gnucash.png \
 	gnome-mime-application-x-gnumeric.png \
 	gnome-mime-application-x-gtktalog.png \
 	gnome-mime-application-x-gzip.png \
 	gnome-mime-application-x-ipod-firmware.png \
-   gnome-mime-application-x-java-archive.png \
-	gnome-mime-application-x-java-byte-code.png \
+	gnome-mime-application-x-jar.png \
 	gnome-mime-application-x-kde-app-info.png \
 	gnome-mime-application-x-killustrator.png \
 	gnome-mime-application-x-kpresenter.png \
 	gnome-mime-application-x-kspread.png \
 	gnome-mime-application-x-kword.png \
+	gnome-mime-application-x-lha.png \
+	gnome-mime-application-x-lhz.png \
 	gnome-mime-application-x-mrproject.png \
 	gnome-mime-application-x-msx-rom.png \
 	gnome-mime-application-x-n64-rom.png \
 	gnome-mime-application-x-nes-rom.png \
-	gnome-mime-application-x-object-file.png \
+	gnome-mime-application-x-object.png \
 	gnome-mime-application-x-php.png \
 	gnome-mime-application-x-python-bytecode.png \
-   gnome-mime-application-x-qw.png \
+	gnome-mime-application-x-qw.png \
+	gnome-mime-application-x-rar.png \
 	gnome-mime-application-x-reject.png \
 	gnome-mime-application-x-rpm.png \
-   gnome-mime-application-x-shockwave-flash.png \
-	gnome-mime-application-x-smil.png \
+	gnome-mime-application-x-sharedlib.png \
+	gnome-mime-application-x-shockwave-flash.png \
 	gnome-mime-application-x-sms-rom.png \
 	gnome-mime-application-x-sql.png \
 	gnome-mime-application-x-stuffit.png \
 	gnome-mime-application-x-tar.png \
 	gnome-mime-application-x-tex.png \
-   gnome-mime-application-zip.png \
+	gnome-mime-application-x-trash.png \
+	gnome-mime-application-zip.png \
+	gnome-mime-application.png \
 	gnome-mime-audio-ac3.png \
 	gnome-mime-audio-basic.png \
-	gnome-mime-audio.png \
+	gnome-mime-audio-midi.png \
 	gnome-mime-audio-x-aiff.png \
 	gnome-mime-audio-x-it.png \
-	gnome-mime-audio-x-midi.png \
 	gnome-mime-audio-x-mod.png \
 	gnome-mime-audio-x-mp3.png \
 	gnome-mime-audio-x-pn-realaudio.png \
@@ -100,13 +104,13 @@ icon_DATA =\
 	gnome-mime-audio-x-wav.png \
 	gnome-mime-audio-x-xi.png \
 	gnome-mime-audio-x-xm.png \
+	gnome-mime-audio.png \
 	gnome-mime-image-bmp.png \
 	gnome-mime-image-gif.png \
 	gnome-mime-image-ief.png \
 	gnome-mime-image-jpeg.png \
-	gnome-mime-image.png \
 	gnome-mime-image-png.png \
-	gnome-mime-image-svg.png \
+	gnome-mime-image-svg+xml.png \
 	gnome-mime-image-tiff.png \
 	gnome-mime-image-x-3ds.png \
 	gnome-mime-image-x-applix-graphic.png \
@@ -125,48 +129,65 @@ icon_DATA =\
 	gnome-mime-image-x-xfig.png \
 	gnome-mime-image-x-xpixmap.png \
 	gnome-mime-image-x-xwindowdump.png \
+	gnome-mime-image.png \
 	gnome-mime-text-css.png \
 	gnome-mime-text-html.png \
-	gnome-mime-text.png \
 	gnome-mime-text-x-authors.png \
-	gnome-mime-text-x-c-header.png \
+	gnome-mime-text-x-c++src.png \
+	gnome-mime-text-x-chdr.png \
 	gnome-mime-text-x-copying.png \
-	gnome-mime-text-x-c.png \
-	gnome-mime-text-x-c++.png \
 	gnome-mime-text-x-credits.png \
 	gnome-mime-text-x-csh.png \
 	gnome-mime-text-x-csharp.png \
+	gnome-mime-text-x-csrc.png \
 	gnome-mime-text-x-haskell.png \
 	gnome-mime-text-x-install.png \
 	gnome-mime-text-x-java.png \
 	gnome-mime-text-x-literate-haskell.png \
 	gnome-mime-text-x-lyx.png \
 	gnome-mime-text-x-makefile.png \
-	gnome-mime-text-xml.png \
 	gnome-mime-text-x-patch.png \
 	gnome-mime-text-x-perl.png \
 	gnome-mime-text-x-python.png \
 	gnome-mime-text-x-readme.png \
 	gnome-mime-text-x-scheme.png \
-	gnome-mime-text-x-sh.png \
+	gnome-mime-text-x-shellscript.png \
 	gnome-mime-text-x-sql.png \
-   gnome-mime-text-x-tex.png \
+	gnome-mime-text-x-tex.png \
 	gnome-mime-text-x-troff-man.png \
-   gnome-mime-text-x-vcard.png   \
+	gnome-mime-text-x-vcard.png   \
 	gnome-mime-text-x-zsh.png \
-	gnome-mime-video.png \
+	gnome-mime-text-xml.png \
+	gnome-mime-text.png \
 	gnome-mime-video-mpeg.png \
 	gnome-mime-video-quicktime.png \
 	gnome-mime-video-x-ms-asf.png \
-	gnome-mime-video-x-msvideo.png \
 	gnome-mime-video-x-ms-wmv.png \
-	gnome-mime-x-font-afm.png \
+	gnome-mime-video-x-msvideo.png \
+	gnome-mime-video.png \
+	gnome-mime-x-directory-nfs-server.png \
+	gnome-mime-x-directory-smb-server.png \
 	gnome-mime-x-directory-smb-share.png \
-   gnome-mime-x-directory-smb-workgroup.png \
-   gnome-mime-x-directory-smb-server.png \
-   gnome-mime-x-directory-nfs-server.png \
+	gnome-mime-x-directory-smb-workgroup.png \
+	gnome-mime-x-font-afm.png \
 	gnome-library.png \
 	gnome-package.png \
 	$(NULL)
+
+install-data-hook:
+	echo Installing backwards compat symlinks
+	ln -sf $(icondir)/gnome-mime-application-x-qw.png $(icondir)/gnome-mime-application-qif.png
+	ln -sf $(icondir)/gnome-mime-application-x-trash.png $(icondir)/gnome-mime-application-x-backup.png
+	ln -sf $(icondir)/gnome-mime-application-x-core.png $(icondir)/gnome-mime-application-x-core-file.png
+	ln -sf $(icondir)/gnome-mime-application-x-desktop.png $(icondir)/gnome-mime-application-x-gnome-app-info.png
+	ln -sf $(icondir)/gnome-mime-application-x-class-file.png $(icondir)/gnome-mime-application-x-java-byte-code.png
+	ln -sf $(icondir)/gnome-mime-application-x-object.png $(icondir)/gnome-mime-application-x-object-file.png
+	ln -sf $(icondir)/gnome-mime-application-smil.png $(icondir)/gnome-mime-application-x-smil.png
+	ln -sf $(icondir)/gnome-mime-audio-midi.png $(icondir)/gnome-mime-audio-x-midi.png
+	ln -sf $(icondir)/gnome-mime-image-svg+xml.png $(icondir)/gnome-mime-image-svg.png
+	ln -sf $(icondir)/gnome-mime-text-x-chdr.png $(icondir)/gnome-mime-text-x-c-header.png
+	ln -sf $(icondir)/gnome-mime-text-x-csrc.png $(icondir)/gnome-mime-text-x-c.png
+	ln -sf $(icondir)/gnome-mime-text-x-c++src.png $(icondir)/gnome-mime-text-x-c++.png
+	ln -sf $(icondir)/gnome-mime-text-x-shellscript.png $(icondir)/gnome-mime-text-x-sh.png
 
 EXTRA_DIST = $(icon_DATA)
