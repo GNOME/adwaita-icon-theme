@@ -12,6 +12,7 @@ icon_DATA =\
    gnome-settings.png \
    im-aim.png  \
    im-icq.png  \
+   im-jabber.png  \
    im-msn.png  \
    im-yahoo.png  \
    panel-notification-area.png \

@@ -79,6 +79,7 @@ icon_DATA =\
    iagno.png \
    im-aim.png   \
    im-icq.png   \
+   im-jabber.png  \
    im-msn.png   \
    im-yahoo.png   \
    keyboard.png \
