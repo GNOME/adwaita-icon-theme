@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: es\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-12-28 10:32+0100\n"
-"PO-Revision-Date: 2004-03-09 01:33+0100\n"
+"POT-Creation-Date: 2004-05-23 19:22+0200\n"
+"PO-Revision-Date: 2004-05-23 19:24+0200\n"
 "Last-Translator: Francisco Javier F. Serrador <serrador@cvs.gnome.org>\n"
 "Language-Team: Spanish <traductores@es.gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -21,13 +21,9 @@ msgstr ""
 "X-Generator: KBabel 1.3.1\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
-#: index.theme.in.h:1
-msgid "Default GNOME Theme"
-msgstr "Tema predeterminado de Gnome"
-
-#: index.theme.in.h:2
-msgid "GNOME"
-msgstr "Gnome"
+#: 48x48/emblems/emblem-OK.icon.in.h:1
+msgid "OK"
+msgstr "Aprobado"
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 # 48x48/emblems/emblem-art.icon.in.h:1
@@ -59,11 +55,43 @@ msgstr "Certificado"
 msgid "Cool"
 msgstr "Divertido"
 
+#: 48x48/emblems/emblem-cvs-added.icon.in.h:1
+msgid "cvs-added"
+msgstr "añadido al cvs"
+
+#: 48x48/emblems/emblem-cvs-conflict.icon.in.h:1
+msgid "cvs-conflict"
+msgstr "conflicto cvs"
+
+#: 48x48/emblems/emblem-cvs-controlled.icon.in.h:1
+msgid "cvs-controlled"
+msgstr "controlado con cvs"
+
+#: 48x48/emblems/emblem-cvs-modified.icon.in.h:1
+msgid "cvs-modified"
+msgstr "modificado en cvs"
+
+#: 48x48/emblems/emblem-cvs-new-file.icon.in.h:1
+msgid "cvs-new-file"
+msgstr "archivo nuevo cvs"
+
+#: 48x48/emblems/emblem-cvs-removed.icon.in.h:1
+msgid "cvs-removed"
+msgstr "eliminado cvs"
+
+#: 48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
+msgid "cvs-sticky-tag"
+msgstr "etiqueta persistente cvs"
+
 # 48x48/emblems/emblem-danger.icon.in.h:1
 # 48x48/emblems/emblem-danger.icon.in.h:1
 #: 48x48/emblems/emblem-danger.icon.in.h:1
 msgid "Danger"
 msgstr "Peligro"
+
+#: 48x48/emblems/emblem-desktop.icon.in.h:1
+msgid "Desktop"
+msgstr "Escritorio"
 
 #: 48x48/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
@@ -128,15 +156,25 @@ msgstr "Multimedia"
 msgid "New"
 msgstr "Nuevo"
 
+#: 48x48/emblems/emblem-noread.icon.in.h:1
+msgid "No read"
+msgstr "No leído"
+
+#: 48x48/emblems/emblem-note.icon.in.h:1
+msgid "Note"
+msgstr "Nota"
+
+# 48x48/emblems/emblem-favorite.icon.in.h:1
+# 48x48/emblems/emblem-favorite.icon.in.h:1
+#: 48x48/emblems/emblem-nowrite.icon.in.h:1
+msgid "No write"
+msgstr "No escrito"
+
 # 48x48/emblems/emblem-ohno.icon.in.h:1
 # 48x48/emblems/emblem-ohno.icon.in.h:1
 #: 48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
 msgstr "¡Oh no!"
-
-#: 48x48/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "Aprobado"
 
 # 48x48/emblems/emblem-package.icon.in.h:1
 # 48x48/emblems/emblem-package.icon.in.h:1
@@ -185,9 +223,17 @@ msgstr "Ventas"
 msgid "Sound"
 msgstr "Sonido"
 
+#: 48x48/emblems/emblem-symbolic-link.icon.in.h:1
+msgid "Symbolic link"
+msgstr "Enlace simbólico"
+
 #: 48x48/emblems/emblem-special.icon.in.h:1
 msgid "Special"
 msgstr "Especial"
+
+#: 48x48/emblems/emblem-trash.icon.in.h:1
+msgid "Trash"
+msgstr "Papelera"
 
 #: 48x48/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
@@ -200,5 +246,10 @@ msgstr "Urgente"
 msgid "Web"
 msgstr "Web"
 
-#~ msgid "Gnome"
-#~ msgstr "Gnome"
+#: index.theme.in.h:1
+msgid "Default GNOME Theme"
+msgstr "Tema predeterminado de Gnome"
+
+#: index.theme.in.h:2
+msgid "GNOME"
+msgstr "Gnome"
