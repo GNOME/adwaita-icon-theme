@@ -1,4 +1,9 @@
-Version 1.3.2
+Version 1.3.3
+
+Changes since 1.3.2:
+
+* Fix API breakage for stock_save_as vs. stock_save-as
+* Fix build so that make distcheck works
 
 Changes since 1.2.1:
 
