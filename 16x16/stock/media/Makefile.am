@@ -19,6 +19,7 @@ icon_DATA =\
 	stock_media-stop.png 		\
 	stock_mic.png 			\
 	stock_midi.png 			\
+	stock_music-library.png		\
 	stock_playlist.png		\
 	stock_repeat.png 		\
 	stock_shuffle.png 		\
