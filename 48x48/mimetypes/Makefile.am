@@ -155,7 +155,7 @@ icon_DATA =\
 	gnome-mime-text-x-sql.png \
 	gnome-mime-text-x-tex.png \
 	gnome-mime-text-x-troff-man.png \
-	gnome-mime-text-x-vcard.png   \
+	gnome-mime-text-x-vcalendar.png   \
 	gnome-mime-text-x-zsh.png \
 	gnome-mime-text-xml.png \
 	gnome-mime-text.png \
