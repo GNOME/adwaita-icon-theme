@@ -12,6 +12,7 @@ icon_in_files =				\
 	emblem-certified.icon.in 	\
 	emblem-danger.icon.in		\
 	emblem-documents.icon.in	\
+	emblem-draft.icon.in		\
 	emblem-favorite.icon.in		\
 	emblem-generic.icon.in 		\
 	emblem-handshake.icon.in	\
@@ -20,10 +21,12 @@ icon_in_files =				\
 	emblem-marketing.icon.in	\
 	emblem-money.icon.in		\
 	emblem-multimedia.icon.in	\
+	emblem-new.icon.in		\
 	emblem-ohno.icon.in		\
 	emblem-OK.icon.in 		\
 	emblem-package.icon.in		\
 	emblem-people.icon.in		\
+	emblem-personal.icon.in		\
 	emblem-pictures.icon.in		\
 	emblem-plan.icon.in		\
 	emblem-presentation.icon.in	\
@@ -31,6 +34,7 @@ icon_in_files =				\
 	emblem-sound.icon.in		\
 	emblem-special.icon.in 		\
 	emblem-web.icon.in		\
+	emblem-urgent.icon.in		\
 	$(NULL)
 
 icon_DATA =\
@@ -42,6 +46,7 @@ icon_DATA =\
 	emblem-danger.png		\
 	emblem-desktop.png		\
 	emblem-documents.png		\
+	emblem-draft.png		\
 	emblem-favorite.png		\
 	emblem-generic.png		\
 	emblem-handshake.png		\
@@ -50,6 +55,7 @@ icon_DATA =\
 	emblem-marketing.png		\
 	emblem-money.png		\
 	emblem-multimedia.png		\
+	emblem-new.png			\
 	emblem-note.png			\
 	emblem-noread.png		\
 	emblem-nowrite.png		\
@@ -57,6 +63,7 @@ icon_DATA =\
 	emblem-OK.png			\
 	emblem-package.png		\
 	emblem-people.png		\
+	emblem-personal.png		\
 	emblem-pictures.png		\
 	emblem-plan.png			\
 	emblem-presentation.png		\
@@ -65,6 +72,7 @@ icon_DATA =\
 	emblem-special.png		\
 	emblem-symbolic-link.png	\
 	emblem-trash.png		\
+	emblem-urgent.png		\
 	emblem-web.png			\
 	$(icon_in_files:.icon.in=.icon)
 	$(NULL)
