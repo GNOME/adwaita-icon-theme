@@ -8,10 +8,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-icon-theme.gnome-2-6.he\n"
+"Project-Id-Version: gnome-icon-theme.HEAD.he\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-04-24 02:45+0200\n"
-"PO-Revision-Date: 2004-04-24 12:31+0000\n"
+"POT-Creation-Date: 2004-05-22 03:52+0200\n"
+"PO-Revision-Date: 2004-05-22 15:31+0300\n"
 "Last-Translator: Gil Osher <dolfin@rpg.org.il>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -50,10 +50,42 @@ msgstr "מאושר"
 msgid "Cool"
 msgstr "מגניב"
 
+#: 48x48/emblems/emblem-cvs-added.icon.in.h:1
+msgid "cvs-added"
+msgstr "נוסף ל cvs"
+
+#: 48x48/emblems/emblem-cvs-conflict.icon.in.h:1
+msgid "cvs-conflict"
+msgstr "התנגשות ב cvs"
+
+#: 48x48/emblems/emblem-cvs-controlled.icon.in.h:1
+msgid "cvs-controlled"
+msgstr "נשלט על-ידי cvs"
+
+#: 48x48/emblems/emblem-cvs-modified.icon.in.h:1
+msgid "cvs-modified"
+msgstr "נערך ב cvs"
+
+#: 48x48/emblems/emblem-cvs-new-file.icon.in.h:1
+msgid "cvs-new-file"
+msgstr "קובץ חדש ב cvs"
+
+#: 48x48/emblems/emblem-cvs-removed.icon.in.h:1
+msgid "cvs-removed"
+msgstr "הוסר ב cvs"
+
+#: 48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
+msgid "cvs-sticky-tag"
+msgstr "תג דביק ב cvs"
+
 # 48x48/emblems/emblem-danger.icon.in.h:1
 #: 48x48/emblems/emblem-danger.icon.in.h:1
 msgid "Danger"
 msgstr "מסוכן"
+
+#: 48x48/emblems/emblem-desktop.icon.in.h:1
+msgid "Desktop"
+msgstr "שולחן עבודה"
 
 #: 48x48/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
@@ -113,6 +145,19 @@ msgstr "מולטימדיה"
 msgid "New"
 msgstr "חדש"
 
+#: 48x48/emblems/emblem-noread.icon.in.h:1
+msgid "No read"
+msgstr "לא נקרא"
+
+#: 48x48/emblems/emblem-note.icon.in.h:1
+msgid "Note"
+msgstr "הערה"
+
+# 48x48/emblems/emblem-favorite.icon.in.h:1
+#: 48x48/emblems/emblem-nowrite.icon.in.h:1
+msgid "No write"
+msgstr "לא נכתב"
+
 # 48x48/emblems/emblem-ohno.icon.in.h:1
 #: 48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
@@ -160,9 +205,17 @@ msgstr "מכירות"
 msgid "Sound"
 msgstr "קול"
 
+#: 48x48/emblems/emblem-symbolic-link.icon.in.h:1
+msgid "Symbolic link"
+msgstr "קישור סימבולי"
+
 #: 48x48/emblems/emblem-special.icon.in.h:1
 msgid "Special"
 msgstr "מיוחד"
+
+#: 48x48/emblems/emblem-trash.icon.in.h:1
+msgid "Trash"
+msgstr "אשפה"
 
 #: 48x48/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
