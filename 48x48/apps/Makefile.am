@@ -12,6 +12,7 @@ icon_DATA =\
 	applets-screenshooter.png \
 	beast.png   \
 	blender.png \
+	burner.png	\
 	character-picker.png \
 	clock.png \
 	config-date.png \
@@ -111,7 +112,6 @@ icon_DATA =\
 	wallpaper.png  \
 	web-browser.png \
 	wine.png \
-	xcdroast.png \
 	xchat.png \
 	xsane.png \
 	$(NULL)
