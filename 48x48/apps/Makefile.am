@@ -22,7 +22,6 @@ icon_DATA =\
 	dia_gnome_icon.png \
 	disks.png \
 	drawer.png \
-	evolution.png  \
 	eyes.png \
 	file-manager.png \
 	file-roller.png \
