@@ -1,5 +1,18 @@
 2003-09-19  Jakub Steiner <jimmac@ximian.com>
 
+	* 16x16/apps/blender.png
+	* 24x24/apps/blender.png
+	* 32x32/apps/blender.png
+	* 48x48/apps/blender.png: realised I need a desktop icon for
+	  blender ;) Although I spend considerable time clicking myself
+	  away to anti-alias it still seems imperfect at 32x32 and 48x48.
+ 	* 16x16/apps/generic/Makefile.am
+	* 24x24/apps/generic/Makefile.am
+	* 32x32/apps/generic/Makefile.am
+	* 48x48/apps/generic/Makefile.am: added
+
+2003-09-19  Jakub Steiner <jimmac@ximian.com>
+
 	* 16x16/mimetypes/gnome-mime-image-bmp.png
 	* 16x16/mimetypes/gnome-mime-image-svg.png
 	* 32x32/mimetypes/gnome-mime-image-bmp.png

@@ -8,6 +8,7 @@ icon_DATA =\
    administration.png \
    apacheconf.png \
    applets-screenshooter.png \
+   blender.png \
    config-date.png \
    config-language.png \
    config-users.png \

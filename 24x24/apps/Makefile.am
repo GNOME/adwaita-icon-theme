@@ -7,6 +7,7 @@ icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
 icon_DATA =\
    advanced-directory.png \
    applets-screenshooter.png \
+   blender.png \
    gnome-amusements.png \
    gnome-devel.png \
    gnome-favorites.png \
