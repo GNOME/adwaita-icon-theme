@@ -44,6 +44,7 @@ icon_DATA =\
    stock_insert-text-frame.png \
    stock_interaction.png \
    stock_new-bcard.png \
+   stock_new-window.png \
    stock_object-behind.png \
    stock_object-infront.png \
    stock_pin.png \
