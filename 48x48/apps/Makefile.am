@@ -60,6 +60,7 @@ icon_DATA =\
    logviewer.png \
    network-config.png \
    postscript-viewer.png \
+   panel-window-list.png \
    panel-window-menu.png \
    serviceconf.png \
    sodipodi.png \

@@ -20,6 +20,7 @@ icon_DATA =\
    gnome-status.png \
    gnome-terminal.png \
    panel-notification-area.png \
+   panel-window-list.png \
    panel-window-menu.png \
 	$(NULL)
 
