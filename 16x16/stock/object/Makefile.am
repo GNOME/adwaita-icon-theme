@@ -27,10 +27,14 @@ icon_DATA =\
    stock_3d-texture-parallel.png \
    stock_3d-texture.png \
    stock_3d-texture-spherical.png \
+   stock_add-bookmark.png \
    stock_auto-contour.png \
+   stock_bookmark.png \
    stock_bring-backward.png \
    stock_bring-forward.png \
    stock_create-with-attributes.png \
+   stock_delete-bookmark.png \
+   stock_edit-bookmark.png \
    stock_effects-more-options.png \
    stock_effects-object-colorize.png \
    stock_effects-object-hide.png \

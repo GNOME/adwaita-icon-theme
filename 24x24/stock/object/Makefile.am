@@ -6,9 +6,13 @@ subtype=object
 icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)/$(subtype)
 
 icon_DATA =\
+   stock_add-bookmark.png \
+   stock_bookmark.png \
    stock_bring-backward.png \
    stock_bring-forward.png \
    stock_create-with-attributes.png \
+   stock_delete-bookmark.png \
+   stock_edit-bookmark.png \
    stock_effects-more-options.png \
    stock_effects-object-colorize.png \
    stock_effects-object-hide.png \
