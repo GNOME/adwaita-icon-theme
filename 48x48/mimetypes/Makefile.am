@@ -5,6 +5,8 @@ category=mimetypes
 icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
 
 icon_DATA =\
+   gnome-mime-application.png \
+   gnome-mime-application-magicpoint.png \
 	gnome-mime-application-msword.png \
 	gnome-mime-application-pdf.png \
 	gnome-mime-application-pgp-encrypted.png \
@@ -12,6 +14,8 @@ icon_DATA =\
 	gnome-mime-application-pgp.png \
 	gnome-mime-application-postscript.png \
 	gnome-mime-application-qif.png \
+   gnome-mime-application-rhythmbox-playlist.png \
+   gnome-mime-application-rhythmbox-effect.png \
 	gnome-mime-application-rtf.png \
 	gnome-mime-application-vnd.lotus-1-2-3.png \
 	gnome-mime-application-vnd.ms-excel.png \
@@ -154,6 +158,9 @@ icon_DATA =\
 	gnome-mime-video-x-ms-wmv.png \
 	gnome-mime-x-font-afm.png \
 	gnome-mime-x-directory-smb-share.png \
+   gnome-mime-x-directory-smb-workgroup.png \
+   gnome-mime-x-directory-smb-server.png \
+   gnome-mime-x-directory-nfs-server.png \
 	gnome-library.png \
 	gnome-package.png \
 	$(NULL)
