@@ -6,15 +6,11 @@ icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
 
 icon_in_files =\
 	emblem-certified.icon.in \
-	emblem-cool.icon.in \
-	emblem-danger.icon.in \
 	emblem-distinguished.icon.in \
 	emblem-draft.icon.in \
-	emblem-favorite.icon.in \
 	emblem-generic.icon.in \
 	emblem-important.icon.in \
 	emblem-new.icon.in \
-	emblem-ohno.icon.in \
 	emblem-OK.icon.in \
 	emblem-personal.icon.in \
 	emblem-special.icon.in \
@@ -23,17 +19,13 @@ icon_in_files =\
 
 icon_DATA =\
 	emblem-certified.svg \
-	emblem-cool.svg \
-	emblem-danger.svg \
 	emblem-distinguished.svg \
 	emblem-draft.svg \
-	emblem-favorite.svg \
 	emblem-generic.svg \
 	emblem-important.svg \
 	emblem-new.svg \
 	emblem-noread.svg \
 	emblem-nowrite.svg \
-	emblem-ohno.svg \
 	emblem-OK.svg \
 	emblem-personal.svg \
 	emblem-special.svg \
