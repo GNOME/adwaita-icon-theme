@@ -19,6 +19,7 @@ icon_DATA =\
    gdict.png \
    gdm.png \
    gnome-applications.png \
+   gnome-calculator.png \
    gnome-cdplayer-icon.png \
    gnome-character-map.png \
    gnome-devel.png \
