@@ -10,6 +10,7 @@ icon_DATA =\
    stock_appointment-reminder-excl.png \
    stock_appointment-reminder.png \
    stock_contact.png \
+   stock_directory-server.png \
    stock_exchange-connector.png \
    stock_groupwise-connector.png \
    stock_inbox.png \

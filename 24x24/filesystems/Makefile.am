@@ -11,6 +11,7 @@ icon_DATA =\
 	gnome-fs-directory-accept.png \
 	gnome-fs-directory.icon \
 	gnome-fs-directory.png \
+   gnome-fs-server.png \
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)
