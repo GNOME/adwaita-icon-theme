@@ -7,7 +7,6 @@ pngdir = $(icondir)
 
 icon_in_files =				\
 	emblem-art.icon.in		\
-	emblem-bin.icon.in		\
 	emblem-camera.icon.in		\
 	emblem-certified.icon.in 	\
 	emblem-cool.icon.in		\
@@ -23,9 +22,7 @@ icon_in_files =				\
 	emblem-distinguished.icon.in	\
 	emblem-documents.icon.in	\
 	emblem-draft.icon.in		\
-	emblem-generic.icon.in 		\
 	emblem-handshake.icon.in	\
-	emblem-important.icon.in 	\
 	emblem-marketing.icon.in	\
 	emblem-money.icon.in		\
 	emblem-multimedia.icon.in	\
@@ -44,7 +41,6 @@ icon_in_files =				\
 	emblem-sales.icon.in		\
 	emblem-shared.icon.in		\
 	emblem-sound.icon.in		\
-	emblem-special.icon.in 		\
 	emblem-symbolic-link.icon.in	\
 	emblem-trash.icon.in		\
 	emblem-web.icon.in		\
@@ -54,7 +50,6 @@ icon_DATA = $(icon_in_files:.icon.in=.icon)
 
 png_DATA =				\
 	emblem-art.png			\
-	emblem-bin.png			\
 	emblem-cool.png			\
 	emblem-camera.png		\
 	emblem-certified.png		\
@@ -70,9 +65,7 @@ png_DATA =				\
 	emblem-distinguished.png	\
 	emblem-documents.png		\
 	emblem-draft.png		\
-	emblem-generic.png		\
 	emblem-handshake.png		\
-	emblem-important.png 		\
 	emblem-marketing.png		\
 	emblem-money.png		\
 	emblem-multimedia.png		\
@@ -91,7 +84,6 @@ png_DATA =				\
 	emblem-sales.png		\
 	emblem-shared.png		\
 	emblem-sound.png		\
-	emblem-special.png		\
 	emblem-symbolic-link.png	\
 	emblem-trash.png		\
 	emblem-web.png			\

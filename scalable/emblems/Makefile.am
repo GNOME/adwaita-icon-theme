@@ -6,8 +6,12 @@ icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
 svgdir = $(icondir)
 
 icon_in_files =\
+	emblem-bin.icon.in \
 	emblem-favorite.icon.in \
+	emblem-generic.icon.in \
+	emblem-important.icon.in \
 	emblem-mail.icon.in \
+	emblem-special.icon.in \
 	emblem-urgent.icon.in \
 	$(NULL)
 
@@ -16,8 +20,12 @@ icon_DATA =\
 	$(NULL)
 
 svg_DATA =\
+	emblem-bin.svg \
 	emblem-favorite.svg \
+	emblem-generic.svg \
+	emblem-important.svg \
 	emblem-mail.svg \
+	emblem-special.svg \
 	emblem-urgent.svg \
 	$(NULL)
 

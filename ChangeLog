@@ -1,3 +1,25 @@
+2005-04-05  Jakub Steiner <jimmac@ximian.com>
+
+	* 48x48/emblems/Makefile.am
+	* 48x48/emblems/emblem-bin.icon.in
+	* 48x48/emblems/emblem-bin.png
+	* 48x48/emblems/emblem-generic.icon.in
+	* 48x48/emblems/emblem-generic.png
+	* 48x48/emblems/emblem-important.icon.in
+	* 48x48/emblems/emblem-important.png
+	* 48x48/emblems/emblem-special.icon.in
+	* 48x48/emblems/emblem-special.png: remove bitmaps
+	
+	* scalable/emblems/Makefile.am
+	* scalable/emblems/emblem-bin.icon.in
+	* scalable/emblems/emblem-bin.svg
+	* scalable/emblems/emblem-generic.icon.in
+	* scalable/emblems/emblem-generic.svg
+	* scalable/emblems/emblem-important.icon.in
+	* scalable/emblems/emblem-important.svg
+	* scalable/emblems/emblem-special.icon.in
+	* scalable/emblems/emblem-special.svg: make them SVG 
+
 2005-04-01  Adi Attar  <aattar@cvs.gnome.org>
 
 	* configure.in: Added "xh" to ALL_LINGUAS.
