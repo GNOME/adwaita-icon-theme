@@ -22,6 +22,7 @@ icon_DATA =\
 	emblem-documents.png \
 	emblem-mail.png \
 	emblem-multimedia.png \
+	emblem-note.png \
 	emblem-noread.png \
 	emblem-package.png \
 	emblem-pictures.png \
