@@ -1,3 +1,16 @@
+2004-10-13  Rodney Dawes  <dobey@novell.com>
+
+	* autogen.sh: Remove duplicate declaration of REQUIRED_AUTOMAKE_VERSION
+	Remove duplicated effort to run glib-gettextize and intltoolize
+
+	* configure.in: Add requirement of Autoconf 2.53 or newer
+	Update to use newer autoconf API and define bugzilla url
+	General cleanup of layout and ordering
+	Add workaround to define ACLOCAL_AMFLAGS for calling aclocal
+	Add declaration and substitution of localedir
+
+	Fixes #154668
+
 2004-10-03  Jesus Bravo Alvarez  <suso@trasno.net>
 
 	* configure.in: Added gl (Galician) to ALL_LINGUAS
