@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme 1.1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-03-01 03:24+0800\n"
+"POT-Creation-Date: 2003-12-28 10:32+0100\n"
 "PO-Revision-Date: 2004-03-01 03:29+0800\n"
 "Last-Translator: Roy Chan <roy.chan@linux.org.hk>\n"
 "Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
@@ -15,9 +15,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: 48x48/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "確定"
+#: index.theme.in.h:1
+msgid "Default GNOME Theme"
+msgstr "預設 GNOME 佈景主題"
+
+#: index.theme.in.h:2
+msgid "GNOME"
+msgstr "GNOME"
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 #: 48x48/emblems/emblem-art.icon.in.h:1
@@ -110,6 +114,10 @@ msgstr "嶄新"
 msgid "Oh no!"
 msgstr "糟了！"
 
+#: 48x48/emblems/emblem-OK.icon.in.h:1
+msgid "OK"
+msgstr "確定"
+
 # 48x48/emblems/emblem-package.icon.in.h:1
 #: 48x48/emblems/emblem-package.icon.in.h:1
 msgid "Package"
@@ -163,11 +171,3 @@ msgstr "緊急"
 #: 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "網頁"
-
-#: index.theme.in.h:1
-msgid "Default GNOME Theme"
-msgstr "預設 GNOME 佈景主題"
-
-#: index.theme.in.h:2
-msgid "GNOME"
-msgstr "GNOME"
