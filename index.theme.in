@@ -180,25 +180,35 @@ Type=Scalable
 
 [scalable/apps]
 Size=48
+MinSize=1
+MaxSize=256
 Context=Applications
 Type=Scalable
 
 [scalable/devices]
 Size=48
+MinSize=1
+MaxSize=256
 Context=Devices
 Type=Scalable
 
 [scalable/emblems]
 Size=48
+MinSize=1
+MaxSize=256
 Context=Emblems
 Type=Scalable
 
 [scalable/filesystems]
 Size=48
+MinSize=1
+MaxSize=256
 Context=FileSystems
 Type=Scalable
 
 [scalable/mimetypes]
 Size=48
+MinSize=1
+MaxSize=256
 Context=MimeTypes
 Type=Scalable
