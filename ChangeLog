@@ -1,5 +1,16 @@
 2003-10-02  Jakub Steiner <jimmac@ximian.com>
 
+	* 192x192/filesystems/Makefile.am
+	* 192x192/filesystems/gnome-fs-regular.icon
+	* 192x192/filesystems/gnome-fs-regular.png
+	* 72x72/filesystems/gnome-fs-regular.icon
+	* 72x72/filesystems/gnome-fs-regular.png
+	* 96x96/filesystems/gnome-fs-regular.icon
+	* 96x96/filesystems/gnome-fs-regular.png: use XD regular -
+	  stretches better.
+
+2003-10-02  Jakub Steiner <jimmac@ximian.com>
+
 	* 48x48/mimetypes/Makefile.am
 	* 48x48/mimetypes/gnome-mime-application-ogg.png
 	* 48x48/mimetypes/gnome-mime-application-x-ogg.png: renamed. It

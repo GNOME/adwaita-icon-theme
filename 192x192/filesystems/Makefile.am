@@ -5,6 +5,8 @@ category=filesystems
 icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
 
 icon_DATA =\
+	gnome-fs-regular.png \
+	gnome-fs-regular.icon \
 	gnome-fs-trash-empty.png \
 	gnome-fs-trash-full.png	\
 	$(NULL)
