@@ -29,6 +29,7 @@ icon_DATA =\
    stock_form-numerical-field.png \
    stock_form-open-in-design-mode.png \
    stock_form-pattern-field.png \
+   stock_form-progressbar.png \
    stock_form-properties.png \
    stock_form-radio.png \
    stock_form-table-control.png \
