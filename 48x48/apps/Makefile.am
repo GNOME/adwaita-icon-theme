@@ -7,6 +7,7 @@ icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
 icon_DATA =\
    administration.png \
    advanced-directory.png \
+   accessibility-directory.png \
    apacheconf.png \
    applets-screenshooter.png \
    blender.png \
@@ -50,6 +51,15 @@ icon_DATA =\
 	gnome-server-config.png \
    gnome-session.png \
 	gnome-settings.png \
+	gnome-settings-background.png \
+	gnome-settings-font.png \
+	gnome-settings-keybindings.png \
+	gnome-settings-ui-behavior.png \
+	gnome-settings-sound.png \
+	gnome-settings-theme.png \
+	gnome-settings-accessibility-technologies.png \
+	gnome-settings-accessibility-keyboard.png \
+	gnome-settings-default-applications.png \
 	gnome-system.png \
 	gnome-system-config.png \
 	gnome-starthere.png \
