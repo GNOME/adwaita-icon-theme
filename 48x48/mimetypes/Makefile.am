@@ -67,6 +67,7 @@ icon_DATA =\
    gnome-mime-application-x-qw.png \
 	gnome-mime-application-x-reject.png \
 	gnome-mime-application-x-rpm.png \
+   gnome-mime-application-x-shockwave-flash.png \
 	gnome-mime-application-x-smil.png \
 	gnome-mime-application-x-sms-rom.png \
 	gnome-mime-application-x-sql.png \
