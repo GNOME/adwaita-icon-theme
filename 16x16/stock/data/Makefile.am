@@ -54,6 +54,7 @@ icon_DATA =\
    stock_function-autopilot.png \
    stock_goal-seek.png \
    stock_insert-fields.png \
+   stock_record-number.png \
    stock_sort-ascending.png \
    stock_sort-column-ascending.png \
    stock_sort-criteria.png \
