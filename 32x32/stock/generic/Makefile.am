@@ -18,6 +18,7 @@ icon_DATA =\
    stock_news.png \
    stock_new-appointment.png \
    stock_new-24h-appointment.png \
+   stock_new-meeting.png \
    stock_notes.png \
    stock_openoffice.png \
    stock_summary.png \
