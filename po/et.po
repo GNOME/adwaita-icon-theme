@@ -3,17 +3,20 @@
 # This file is distributed under the same license as the gnome-icon-theme package.
 # Tõivo Leedjärv <toivo@linux.ee>, 2003.
 # Allan Sims <allsi@eau.ee>, 2003.
+# Ivar Smolin <okul@linux.ee>, 2005.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-08-06 11:44+0200\n"
-"PO-Revision-Date: 2004-02-27 18:56+0300\n"
-"Last-Translator: Priit Laes <amd@tt.ee>\n"
+"POT-Creation-Date: 2005-02-08 15:04+0100\n"
+"PO-Revision-Date: 2005-02-14 10:48+0200\n"
+"Last-Translator: Ivar Smolin <okul@linux.ee>\n"
 "Language-Team: Estonian <gnome-et@linux.ee>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: 48x48/emblems/emblem-OK.icon.in.h:1
 msgid "OK"
@@ -41,35 +44,35 @@ msgstr "Lahe"
 
 #: 48x48/emblems/emblem-cvs-added.icon.in.h:1
 msgid "cvs-added"
-msgstr ""
+msgstr "cvs-lisatud"
 
 #: 48x48/emblems/emblem-cvs-conflict.icon.in.h:1
 msgid "cvs-conflict"
-msgstr ""
+msgstr "cvs-vastuolu"
 
 #: 48x48/emblems/emblem-cvs-controlled.icon.in.h:1
 msgid "cvs-controlled"
-msgstr ""
+msgstr "cvs-kontrollitud"
 
 #: 48x48/emblems/emblem-cvs-modified.icon.in.h:1
 msgid "cvs-modified"
-msgstr ""
+msgstr "cvs-muudetud"
 
 #: 48x48/emblems/emblem-cvs-new-file.icon.in.h:1
 msgid "cvs-new-file"
-msgstr ""
+msgstr "cvs-uus-fail"
 
 #: 48x48/emblems/emblem-cvs-removed.icon.in.h:1
 msgid "cvs-removed"
-msgstr ""
+msgstr "cvs-eemaldatud"
 
 #: 48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
 msgid "cvs-sticky-tag"
-msgstr ""
+msgstr "cvs-kleepuv-silt"
 
 #: 48x48/emblems/emblem-danger.icon.in.h:1
 msgid "Danger"
-msgstr "Oht"
+msgstr "Ohtlik"
 
 #: 48x48/emblems/emblem-desktop.icon.in.h:1
 msgid "Desktop"
@@ -86,10 +89,6 @@ msgstr "Dokumendid"
 #: 48x48/emblems/emblem-draft.icon.in.h:1
 msgid "Draft"
 msgstr "Mustand"
-
-#: 48x48/emblems/emblem-favorite.icon.in.h:1
-msgid "Favorite"
-msgstr "Lemmik"
 
 #: 48x48/emblems/emblem-generic.icon.in.h:1
 msgid "Generic"
@@ -125,15 +124,15 @@ msgstr "Uus"
 
 #: 48x48/emblems/emblem-noread.icon.in.h:1
 msgid "No read"
-msgstr ""
+msgstr "Loetamatu"
 
 #: 48x48/emblems/emblem-note.icon.in.h:1
 msgid "Note"
-msgstr ""
+msgstr "Märkus"
 
 #: 48x48/emblems/emblem-nowrite.icon.in.h:1
 msgid "No write"
-msgstr ""
+msgstr "Kirjutamatu"
 
 #: 48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
@@ -161,11 +160,15 @@ msgstr "Plaan"
 
 #: 48x48/emblems/emblem-presentation.icon.in.h:1
 msgid "Presentation"
-msgstr "Presentatsioon"
+msgstr "Esitlus"
 
 #: 48x48/emblems/emblem-sales.icon.in.h:1
 msgid "Sales"
 msgstr "Müük"
+
+#: 48x48/emblems/emblem-shared.icon.in.h:1
+msgid "Shared"
+msgstr "Jagatud"
 
 #: 48x48/emblems/emblem-sound.icon.in.h:1
 msgid "Sound"
@@ -173,23 +176,27 @@ msgstr "Heli"
 
 #: 48x48/emblems/emblem-symbolic-link.icon.in.h:1
 msgid "Symbolic link"
-msgstr ""
+msgstr "Nimeviit"
 
 #: 48x48/emblems/emblem-special.icon.in.h:1
 msgid "Special"
-msgstr "Spetsiaalne"
+msgstr "Eriline"
 
 #: 48x48/emblems/emblem-trash.icon.in.h:1
 msgid "Trash"
-msgstr ""
+msgstr "Prügi"
 
 #: 48x48/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
-msgstr "Kiire"
+msgstr "Kiireloomuline"
 
 #: 48x48/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Veeb"
+
+#: scalable/emblems/emblem-favorite.icon.in.h:1
+msgid "Favorite"
+msgstr "Lemmik"
 
 #: index.theme.in.h:1
 msgid "Default GNOME Theme"
