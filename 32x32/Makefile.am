@@ -1,1 +1,1 @@
-SUBDIRS=apps stock
+SUBDIRS=apps filesystems stock
