@@ -35,6 +35,7 @@ icon_DATA =\
    stock_mail-merge.png \
    stock_mail-move.png \
    stock_mail-open.png \
+   stock_mail-open-multiple.png \
    stock_mail-receive.png \
    stock_mail-replied.png \
    stock_mail-reply.png \
