@@ -63,5 +63,10 @@ EXTRA_DIST = $(icon_DATA)
 
 install-data-local:
 	$(mkinstalldirs) $(DESTDIR)$(icondir)/../../filesystems
+if OS_WIN32
+	$(INSTALL) stock_shared-by-me.png $(DESTDIR)$(icondir)/../../filesystems/gnome-fs-locally-shared.png
+	$(INSTALL) stock_shared-to-me.png $(DESTDIR)$(icondir)/../../filesystems/gnome-fs-share-private.png
+else
 	ln -sf $(icondir)/stock_shared-by-me.png $(DESTDIR)$(icondir)/../../filesystems/gnome-fs-locally-shared.png
 	ln -sf $(icondir)/stock_shared-to-me.png $(DESTDIR)$(icondir)/../../filesystems/gnome-fs-share-private.png
+endif

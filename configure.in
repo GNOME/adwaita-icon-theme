@@ -9,6 +9,17 @@ AM_INIT_AUTOMAKE(AC_PACKAGE_NAME, AC_PACKAGE_VERSION)
 
 AC_PROG_INTLTOOL
 
+AC_CANONICAL_HOST
+case "$host" in
+  *-*-mingw*)
+    os_win32=yes
+    ;;
+  *)
+    os_win32=no
+    ;;
+esac
+AM_CONDITIONAL(OS_WIN32, [test "$os_win32" = "yes"])
+
 GETTEXT_PACKAGE="${PACKAGE}"
 AC_SUBST(GETTEXT_PACKAGE)
 
@@ -34,6 +45,7 @@ AC_CONFIG_FILES([
 Makefile
 gnome-icon-theme.spec
 gnome-icon-theme.pc
+gnome-icon-theme-zip
 12x12/Makefile
 16x16/Makefile
 24x24/Makefile

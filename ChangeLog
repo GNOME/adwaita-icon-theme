@@ -1,3 +1,19 @@
+2005-03-25  Tor Lillqvist  <tml@novell.com>
+
+	Windows "port".
+
+	* gnome-icon-theme-zip.in: New file, to build Win32 zipfile
+	distribution.
+
+	* configure.in
+	* Makefile.am: Expand and dist in.
+
+	* configure.in: Set up new Automake conditional OS_WIN32.
+
+	* 16x16/stock/net/Makefile.am
+	* 24x24/stock/net/Makefile.am
+	* 48x48/mimetypes/Makefile.am: Don't use symlinks on Win32.
+
 2005-03-23  Jakub Steiner <jimmac@ximian.com>
 
 	* 48x48/mimetypes/gnome-mime-application-x-python.png: removed

@@ -24,6 +24,7 @@ EXTRA_DIST=				\
 	gnome-icon-theme.spec		\
 	gnome-icon-theme.spec.in	\
 	gnome-icon-theme.pc.in		\
+	gnome-icon-theme-zip.in		\
 	mkinstalldirs
 
 # we don't want to install mo files, all translations are already stored

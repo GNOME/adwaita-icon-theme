@@ -204,6 +204,22 @@ icon_DATA =\
 	$(NULL)
 
 install-data-hook:
+if OS_WIN32
+	echo Installing backwards compat copies
+	$(INSTALL) gnome-mime-application-x-qw.png $(DESTDIR)$(icondir)/gnome-mime-application-qif.png
+	$(INSTALL) gnome-mime-application-x-trash.png $(DESTDIR)$(icondir)/gnome-mime-application-x-backup.png
+	$(INSTALL) gnome-mime-application-x-core.png $(DESTDIR)$(icondir)/gnome-mime-application-x-core-file.png
+	$(INSTALL) gnome-mime-application-x-desktop.png $(DESTDIR)$(icondir)/gnome-mime-application-x-gnome-app-info.png
+	$(INSTALL) gnome-mime-application-x-class-file.png $(DESTDIR)$(icondir)/gnome-mime-application-x-java-byte-code.png
+	$(INSTALL) gnome-mime-application-x-object.png $(DESTDIR)$(icondir)/gnome-mime-application-x-object-file.png
+	$(INSTALL) gnome-mime-application-smil.png $(DESTDIR)$(icondir)/gnome-mime-application-x-smil.png
+	$(INSTALL) gnome-mime-audio-midi.png $(DESTDIR)$(icondir)/gnome-mime-audio-x-midi.png
+	$(INSTALL) gnome-mime-image-svg+xml.png $(DESTDIR)$(icondir)/gnome-mime-image-svg.png
+	$(INSTALL) gnome-mime-text-x-chdr.png $(DESTDIR)$(icondir)/gnome-mime-text-x-c-header.png
+	$(INSTALL) gnome-mime-text-x-csrc.png $(DESTDIR)$(icondir)/gnome-mime-text-x-c.png
+	$(INSTALL) gnome-mime-text-x-c++src.png $(DESTDIR)$(icondir)/gnome-mime-text-x-c++.png
+	$(INSTALL) gnome-mime-application-x-shellscript.png $(DESTDIR)$(icondir)/gnome-mime-text-x-sh.png
+else
 	echo Installing backwards compat symlinks
 	ln -sf gnome-mime-application-x-qw.png $(DESTDIR)$(icondir)/gnome-mime-application-qif.png
 	ln -sf gnome-mime-application-x-trash.png $(DESTDIR)$(icondir)/gnome-mime-application-x-backup.png
@@ -218,5 +234,6 @@ install-data-hook:
 	ln -sf gnome-mime-text-x-csrc.png $(DESTDIR)$(icondir)/gnome-mime-text-x-c.png
 	ln -sf gnome-mime-text-x-c++src.png $(DESTDIR)$(icondir)/gnome-mime-text-x-c++.png
 	ln -sf gnome-mime-application-x-shellscript.png $(DESTDIR)$(icondir)/gnome-mime-text-x-sh.png
+endif
 
 EXTRA_DIST = $(icon_DATA)
