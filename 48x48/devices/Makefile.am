@@ -11,15 +11,23 @@ icon_DATA =\
 	gnome-dev-dvd.png \
 	gnome-dev-floppy.png \
 	gnome-dev-harddisk.png \
-	gnome-dev-removable.png \
+	gnome-dev-harddisk-usb.png \
+	gnome-dev-harddisk-1394.png \
 	gnome-dev-ipod.png \
 	gnome-dev-jazdisk.png \
 	gnome-dev-keyboard.png \
 	gnome-dev-memory.png \
+	gnome-dev-media-cf.png	\
+	gnome-dev-media-ms.png	\
+	gnome-dev-media-sdmmc.png	\
+	gnome-dev-media-sm.png	\
 	gnome-dev-mouse-ball.png \
 	gnome-dev-mouse-optical.png \
-   gnome-dev-pcmcia.png \
+	gnome-dev-pcmcia.png \
 	gnome-dev-printer.png \
+	gnome-dev-removable.png \
+	gnome-dev-removable-usb.png \
+	gnome-dev-removable-1394.png \
 	gnome-dev-symlink.png \
 	gnome-dev-zipdisk.png \
 	$(NULL)
