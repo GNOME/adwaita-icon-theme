@@ -152,6 +152,7 @@ icon_DATA =\
 	gnome-mime-text-x-literate-haskell.png \
 	gnome-mime-text-x-lyx.png \
 	gnome-mime-text-x-makefile.png \
+	gnome-mime-text-x-objcsrc.png \
 	gnome-mime-text-x-patch.png \
 	gnome-mime-text-x-readme.png \
 	gnome-mime-text-x-scheme.png \
