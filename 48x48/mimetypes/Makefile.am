@@ -59,6 +59,7 @@ icon_DATA =\
 	gnome-mime-application-x-gtktalog.png \
 	gnome-mime-application-x-gzip.png \
 	gnome-mime-application-x-ipod-firmware.png \
+   gnome-mime-application-x-java-archive.png \
 	gnome-mime-application-x-java-byte-code.png \
 	gnome-mime-application-x-kde-app-info.png \
 	gnome-mime-application-x-killustrator.png \
