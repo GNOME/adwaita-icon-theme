@@ -19,6 +19,13 @@ icon_DATA =\
 	stock_calc-accept.png 		\
 	stock_calc-cancel.png 		\
 	stock_calendar.png 		\
+	stock_calendar-view-day.png 		\
+	stock_calendar-view-list.png 		\
+	stock_calendar-view-month.png 		\
+	stock_calendar-view-week.png 		\
+	stock_calendar-view-work-week.png 		\
+	stock_calendar-view-year.png 		\
+	stock_calendar.png 		\
 	stock_cell-phone.png 		\
 	stock_close.png 		\
 	stock_copy.png 			\
