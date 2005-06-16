@@ -10,6 +10,7 @@ icon_DATA =\
   gnome-mime-application-msword.png \
 	gnome-mime-application-ogg.png \
 	gnome-mime-application-par.png \
+	gnome-mime-application-pdf.png \
 	gnome-mime-application-pgp-encrypted.png \
 	gnome-mime-application-pgp-keys.png \
 	gnome-mime-application-pgp.png \
