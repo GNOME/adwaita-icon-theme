@@ -138,6 +138,7 @@ icon_DATA =\
 	gnome-mime-image-x-cmu-raster.png \
 	gnome-mime-image-x-lwo.png \
 	gnome-mime-image-x-lws.png \
+	gnome-mime-image-x-xcf.png \
 	gnome-mime-text-css.png \
 	gnome-mime-text-html.png \
 	gnome-mime-text-plain.png \
