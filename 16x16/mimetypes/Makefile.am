@@ -142,8 +142,6 @@ icon_DATA =\
 	gnome-mime-image-x-xcf.png \
 	gnome-mime-text-css.png \
 	gnome-mime-text-html.png \
-	gnome-mime-text-plain.png \
-	gnome-mime-text-plaintext.png \
 	gnome-mime-text-x-authors.png \
 	gnome-mime-text-x-c++src.png \
 	gnome-mime-text-x-c-header.png \
