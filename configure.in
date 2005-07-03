@@ -1,24 +1,14 @@
 # Process this file with autoconf to produce a configure script.
 AC_PREREQ(2.53)
 
-AC_INIT([gnome-icon-theme], [2.10.1],
+AC_INIT([gnome-icon-theme], [2.11.4],
         [http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-icon-theme])
 AC_CONFIG_SRCDIR(index.theme.in)
 
 AM_INIT_AUTOMAKE(AC_PACKAGE_NAME, AC_PACKAGE_VERSION)
 
 AC_PROG_INTLTOOL
-
-AC_CANONICAL_HOST
-case "$host" in
-  *-*-mingw*)
-    os_win32=yes
-    ;;
-  *)
-    os_win32=no
-    ;;
-esac
-AM_CONDITIONAL(OS_WIN32, [test "$os_win32" = "yes"])
+AC_PROG_LN_S
 
 GETTEXT_PACKAGE="${PACKAGE}"
 AC_SUBST(GETTEXT_PACKAGE)
@@ -43,9 +33,7 @@ AM_CONDITIONAL(ENABLE_HICOLOR_CHECK, test x$enable_hicolor_check = xyes)
 
 AC_CONFIG_FILES([
 Makefile
-gnome-icon-theme.spec
 gnome-icon-theme.pc
-gnome-icon-theme-zip
 12x12/Makefile
 16x16/Makefile
 24x24/Makefile

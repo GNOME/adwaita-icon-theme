@@ -21,10 +21,7 @@ EXTRA_DIST=				\
 	intltool-update.in 		\
 	intltool-merge.in 		\
 	intltool-extract.in		\
-	gnome-icon-theme.spec		\
-	gnome-icon-theme.spec.in	\
 	gnome-icon-theme.pc.in		\
-	gnome-icon-theme-zip.in		\
 	mkinstalldirs
 
 # we don't want to install mo files, all translations are already stored
@@ -56,7 +53,6 @@ CLEANFILES = 				\
 	index.theme
 
 DISTCLEANFILES = 			\
-	po/.intltool-merge-cache	\
 	intltool-extract		\
 	intltool-merge			\
 	intltool-update
@@ -70,6 +66,5 @@ MAINTAINERCLEANFILES =			\
 	intltool-merge.in		\
 	intltool-update.in		\
 	missing				\
-	po/Makefile.in.in		\
-	po/$(GETTEXT_PACKAGE).pot
+	mkinstalldirs
 

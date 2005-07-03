@@ -1,3 +1,26 @@
+2005-07-02  Rodney Dawes  <dobey@novell.com>
+
+	* Makefile.am (EXTRA_DIST): Remove the spec file stuff, and the
+	zip script for creating zip files for win32
+	(DISTCLEANFILES): Remove po/.intltool-merge-cache
+	(MAINTAINERCLEANFILES): Remove po/ stuff and add mkinstalldirs
+
+	* NEWS: Updated for release
+
+	* configure.in: Up version to 2.11.4
+	Remove check for win32 and allocation of OS_WIN32 Makefile variable
+	Add AC_PROG_LN_S so that $(LN_S) can be used for symlinks
+	Remove gnome-icon-theme.spec and gnome-icon-theme-zip from the
+	AC_CONFIG_FILES macro call
+
+	* gnome-icon-theme-zip.in:
+	* gnome-icon-theme.spec.in: Removed these two files
+
+	* 16x16/stock/net/Makefile.am:
+	* 24x24/stock/net/Makefile.am:
+	* 48x48/stock/net/Makefile.am: Use $(LN_S) instead of calling ln -s
+	directly, so that we work better on win32
+
 2005-07-01  Rodney Dawes  <dobey@novell.com>
 
 	* 16x16/mimetypes/Makefile.am: Remove the text/plain and text/plaintext
