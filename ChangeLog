@@ -1,3 +1,10 @@
+2005-07-11  Rodney Dawes  <dobey@novell.com>
+
+	* configure.ac: Add -f argument to the $LN_S variable so that we do
+	not error out if the link already exists
+
+	Fixes #309635
+
 2005-07-02  Rodney Dawes  <dobey@novell.com>
 
 	* Makefile.am (EXTRA_DIST): Remove the spec file stuff, and the
