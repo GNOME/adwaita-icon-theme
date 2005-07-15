@@ -1,6 +1,15 @@
+2005-07-14  Rodney Dawes  <dobey@novell.com>
+
+	* NEWS: Updated for release
+
+	* autogen.sh: Require automake 1.9
+	
+	* configure.in: Up version to 2.11.5
+	Require automake 1.9 and use tar-ustar
+
 2005-07-11  Rodney Dawes  <dobey@novell.com>
 
-	* configure.ac: Add -f argument to the $LN_S variable so that we do
+	* configure.in: Add -f argument to the $LN_S variable so that we do
 	not error out if the link already exists
 
 	Fixes #309635

@@ -1,11 +1,11 @@
 # Process this file with autoconf to produce a configure script.
 AC_PREREQ(2.53)
 
-AC_INIT([gnome-icon-theme], [2.11.4],
+AC_INIT([gnome-icon-theme], [2.11.5],
         [http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-icon-theme])
 AC_CONFIG_SRCDIR(index.theme.in)
 
-AM_INIT_AUTOMAKE(AC_PACKAGE_NAME, AC_PACKAGE_VERSION)
+AM_INIT_AUTOMAKE([1.9 tar-ustar])
 
 AC_PROG_INTLTOOL
 AC_PROG_LN_S

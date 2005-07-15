@@ -1,4 +1,10 @@
-Version 2.11.4
+Version 2.11.5
+
+Changes since 2.11.4
+
+* Add -f argument to $LN_S variable
+  -- bug #309635 (Rodney Dawes)
+* Require automake 1.9 and use tar-ustar (Shaun McCance, Rodney Dawes)
 
 Changes since 2.10.1
 
@@ -7,7 +13,7 @@ Changes since 2.10.1
 * New icon for Evolution (Jakub Steiner)
 * Support for Win32 (Tor Lillqvist, Rodney Dawes)
 * New stock_database icon at 16 and 24 px sizes
-	-- bug #132769 (Jakub Steiner)
+  -- bug #132769 (Jakub Steiner)
 * Fix python mime type icon
   -- bug #167182 (Jakub Steiner)
 * New and updated translations [gl, fa, rw, th, vi, xh, zh_TW]
