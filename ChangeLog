@@ -1,3 +1,11 @@
+2005-07-25  Rodney Dawes  <dobey@novell.com>
+
+	* 16x16/stock/net/Makefile.am:
+	* 24x24/stock/net/Makefile.am:
+	* 48x48/mimetypes/Makefile.am: Work around automake wanting to do
+	install-data-local before install-data, and install the files that
+	ln creates symlinks to, so that we don't break win32's usage of cp
+
 2005-07-14  Rodney Dawes  <dobey@novell.com>
 
 	* NEWS: Updated for release
