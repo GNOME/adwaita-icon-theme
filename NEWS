@@ -1,4 +1,9 @@
-Version 2.11.5
+Version 2.11.90
+
+Changes since 2.11.5
+
+* Install image files required by symlinks so cp does not break on win32
+  (Rodney Dawes)
 
 Changes since 2.11.4
 

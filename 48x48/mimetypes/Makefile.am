@@ -204,19 +204,19 @@ icon_DATA =\
 	$(NULL)
 
 install-data-hook:
-	$(INSTALL) gnome-mime-application-x-qw.png $(DESTDIR)/$(icondir)
-	$(INSTALL) gnome-mime-application-x-trash.png $(DESTDIR)/$(icondir)
-	$(INSTALL) gnome-mime-application-x-core.png $(DESTDIR)/$(icondir)
-	$(INSTALL) gnome-mime-application-x-desktop.png $(DESTDIR)/$(icondir)
-	$(INSTALL) gnome-mime-application-x-class-file.png $(DESTDIR)/$(icondir)
-	$(INSTALL) gnome-mime-application-x-object.png $(DESTDIR)/$(icondir)
-	$(INSTALL) gnome-mime-application-smil.png $(DESTDIR)/$(icondir)
-	$(INSTALL) gnome-mime-audio-midi.png $(DESTDIR)/$(icondir)
-	$(INSTALL) gnome-mime-image-svg+xml.png $(DESTDIR)/$(icondir)
-	$(INSTALL) gnome-mime-text-x-chdr.png $(DESTDIR)/$(icondir)
-	$(INSTALL) gnome-mime-text-x-csrc.png $(DESTDIR)/$(icondir)
-	$(INSTALL) gnome-mime-text-x-c++src.png $(DESTDIR)/$(icondir)
-	$(INSTALL) gnome-mime-application-x-shellscript.png $(DESTDIR)/$(icondir)
+	$(INSTALL) $(srcdir)/gnome-mime-application-x-qw.png $(DESTDIR)/$(icondir)
+	$(INSTALL) $(srcdir)/gnome-mime-application-x-trash.png $(DESTDIR)/$(icondir)
+	$(INSTALL) $(srcdir)/gnome-mime-application-x-core.png $(DESTDIR)/$(icondir)
+	$(INSTALL) $(srcdir)/gnome-mime-application-x-desktop.png $(DESTDIR)/$(icondir)
+	$(INSTALL) $(srcdir)/gnome-mime-application-x-class-file.png $(DESTDIR)/$(icondir)
+	$(INSTALL) $(srcdir)/gnome-mime-application-x-object.png $(DESTDIR)/$(icondir)
+	$(INSTALL) $(srcdir)/gnome-mime-application-smil.png $(DESTDIR)/$(icondir)
+	$(INSTALL) $(srcdir)/gnome-mime-audio-midi.png $(DESTDIR)/$(icondir)
+	$(INSTALL) $(srcdir)/gnome-mime-image-svg+xml.png $(DESTDIR)/$(icondir)
+	$(INSTALL) $(srcdir)/gnome-mime-text-x-chdr.png $(DESTDIR)/$(icondir)
+	$(INSTALL) $(srcdir)/gnome-mime-text-x-csrc.png $(DESTDIR)/$(icondir)
+	$(INSTALL) $(srcdir)/gnome-mime-text-x-c++src.png $(DESTDIR)/$(icondir)
+	$(INSTALL) $(srcdir)/gnome-mime-application-x-shellscript.png $(DESTDIR)/$(icondir)
 	$(LN_S) gnome-mime-application-x-qw.png $(DESTDIR)$(icondir)/gnome-mime-application-qif.png
 	$(LN_S) gnome-mime-application-x-trash.png $(DESTDIR)$(icondir)/gnome-mime-application-x-backup.png
 	$(LN_S) gnome-mime-application-x-core.png $(DESTDIR)$(icondir)/gnome-mime-application-x-core-file.png
