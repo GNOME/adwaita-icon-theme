@@ -1,5 +1,10 @@
 2005-08-08  Jakub Steiner <jimmac@ximian.com>
 
+	* 192x192/filesystems/gnome-dev-cdrom.png: Somehow this managed to
+	  survive here. (bug #312099)
+
+2005-08-08  Jakub Steiner <jimmac@ximian.com>
+
 	* 24x24/apps/mozilla-firefox.png: removed due to licensing issues
 	 (bug #312839)
 
@@ -82,6 +87,7 @@
 	* index.theme.in: s/Scalable/Fixed/g for bitmap icons. Been broken
 	  for so long...
 		
+>>>>>>> 1.438
 2005-05-20  Jakub Steiner <jimmac@ximian.com>
 
 	* 24x24/apps: merge back some work from William Szilveszter 
