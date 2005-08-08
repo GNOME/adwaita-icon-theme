@@ -9,6 +9,7 @@ icon_DATA =\
 	gnome-fs-bookmark-missing.png \
 	gnome-fs-client.png \
 	gnome-fs-directory.png \
+	gnome-fs-directory-accept.png \
 	gnome-fs-desktop.png \
 	gnome-fs-ftp.png \
 	gnome-fs-home.png \
