@@ -35,7 +35,6 @@ icon_DATA =\
 	gnome-mime-application-vnd.oasis.opendocument.text.png \
 	gnome-mime-application-vnd.oasis.opendocument.text-template.png \
 	gnome-mime-application-vnd.oasis.opendocument.text-web.png \
-	gnome-mime-application-vnd.rn-realmedia.png \
 	gnome-mime-application-vnd.stardivision.calc.png \
 	gnome-mime-application-vnd.stardivision.impress.png \
 	gnome-mime-application-vnd.stardivision.writer.png \
@@ -87,7 +86,6 @@ icon_DATA =\
 	gnome-mime-application-x-gzip.png \
 	gnome-mime-application-x-ipod-firmware.png \
 	gnome-mime-application-x-jar.png \
-	gnome-mime-application-x-kde-app-info.png \
 	gnome-mime-application-x-killustrator.png \
 	gnome-mime-application-x-kpresenter.png \
 	gnome-mime-application-x-kspread.png \
@@ -125,7 +123,6 @@ icon_DATA =\
 	gnome-mime-audio-x-it.png \
 	gnome-mime-audio-x-mod.png \
 	gnome-mime-audio-x-mp3.png \
-	gnome-mime-audio-x-pn-realaudio.png \
 	gnome-mime-audio-x-s3m.png \
 	gnome-mime-audio-x-stm.png \
 	gnome-mime-audio-x-ulaw.png \

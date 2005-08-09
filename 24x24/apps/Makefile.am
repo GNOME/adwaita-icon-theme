@@ -76,7 +76,6 @@ icon_DATA =\
    gnome-terminal.png \
 	 gnome-unknown.png \
    gnome-window-manager.png \
-	 mozilla-icon.png \
 	 ooo_calc.png \
 	 ooo_draw.png \
 	 ooo_gulls.png \
@@ -90,7 +89,6 @@ icon_DATA =\
    panel-window-list.png \
    panel-window-menu.png \
 	 postscript-viewer.png \
-	 realplayer.png \
 	 screensaver.png \
 	 shares.png \
 	 stock-ticker.png \

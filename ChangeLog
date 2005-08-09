@@ -1,5 +1,45 @@
 2005-08-08  Rodney Dawes  <dobey@novell.com>
 
+	* 16x16/mimetypes/Makefile.am:
+	* 16x16/mimetypes/gnome-mime-application-x-kde-app-info.png:
+	Removed this icon as it used the KDE logo and the mime type does not
+	exist in the shared-mime-info database (application/x-desktop is used
+	now instead, as both desktops use the menu spec and these files)
+
+	* 24x24/apps/Makefile.am:
+	* 24x24/apps/mozilla-icon.png:
+	* 24x24/apps/realplayer.png:
+	Remove these two icons as they contain trademarked logos
+
+	* 48x48/apps/Makefile.am:
+	* 48x48/apps/realplayer.png:
+	Remove this icon as it contains a trademarked logo
+	
+	* 48x48/mimetypes/Makefile.am:
+	* 48x48/mimetypes/gnome-mime-application-vnd.rn-realmedia.png:
+	* 48x48/mimetypes/gnome-mime-application-x-kde-app-info.png:
+	* 48x48/mimetypes/gnome-mime-audio-x-pn-realaudio.png:
+	Remove these icons as they are contain trademarked logos
+
+	* 48x48/mimetypes/gnome-mime-application-vnd.oasis.opendocument.spreadsheet-template.png:
+	* 48x48/mimetypes/gnome-mime-application-vnd.oasis.opendocument.spreadsheet-template.xcf.bz2:
+	* 48x48/mimetypes/gnome-mime-application-vnd.oasis.opendocument.spreadsheet.png:
+	* 48x48/mimetypes/gnome-mime-application-vnd.oasis.opendocument.spreadsheet.xcf.bz2:
+	* 48x48/mimetypes/gnome-mime-application-vnd.sun.xml.calc.png:
+	* 48x48/mimetypes/gnome-mime-application-vnd.sun.xml.draw.png:
+	* 48x48/mimetypes/gnome-mime-application-vnd.sun.xml.impress.png:
+	* 48x48/mimetypes/gnome-mime-application-vnd.sun.xml.writer.png:
+	* 48x48/mimetypes/gnome-mime-application-vnd.sun.xml.writer.template.png:
+	Remove the OpenOffice.org seagulls from these icons
+
+	* 48x48/mimetypes/gnome-mime-application-x-killustrator.png:
+	* 48x48/mimetypes/gnome-mime-application-x-kpresenter.png:
+	* 48x48/mimetypes/gnome-mime-application-x-kspread.png:
+	* 48x48/mimetypes/gnome-mime-application-x-kword.png:
+	Remove the old KDE logo from these icons
+
+2005-08-08  Rodney Dawes  <dobey@novell.com>
+
 	* 48x48/mimetypes/gnome-mime-application-vnd.stardivision.writer.png:
 	Remove the Staroffice butterfly logo from the mime type icon
 

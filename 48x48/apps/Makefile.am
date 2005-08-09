@@ -100,7 +100,6 @@ icon_DATA =\
 	panel-window-list.png \
 	panel-window-menu.png \
 	postscript-viewer.png \
-	realplayer.png \
 	serviceconf.png \
 	screensaver.png   \
 	stock-ticker.png \

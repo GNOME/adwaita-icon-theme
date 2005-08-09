@@ -76,7 +76,6 @@ icon_DATA =\
 	gnome-mime-application-x-gzip.png \
 	gnome-mime-application-x-ipod-firmware.png \
 	gnome-mime-application-x-jar.png \
-	gnome-mime-application-x-kde-app-info.png \
 	gnome-mime-application-x-killustrator.png \
 	gnome-mime-application-x-kpresenter.png \
 	gnome-mime-application-x-kspread.png \
