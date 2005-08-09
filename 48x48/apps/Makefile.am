@@ -11,7 +11,6 @@ icon_DATA =\
 	apacheconf.png \
 	applets-screenshooter.png \
 	beast.png   \
-	blender.png \
 	burner.png	\
 	character-picker.png \
 	clock.png \
