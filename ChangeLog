@@ -1,5 +1,11 @@
 2005-08-15  Jakub Steiner <jimmac@ximian.com>
 
+	* index.theme.in: while it looks crap, I don't have the motivation
+	to create all the missing 16x16 and 24x24 versions, so let's bring
+	the 48x48 scaled bluriness back. fixes bug #313387
+
+2005-08-15  Jakub Steiner <jimmac@ximian.com>
+
 	* 24x24/apps/postscript-viewer.png: remove adobe logo. fixes bug #313390
 
 2005-08-09  Jakub Steiner <jimmac@ximian.com>
