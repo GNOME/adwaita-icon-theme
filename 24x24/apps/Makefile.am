@@ -75,6 +75,7 @@ icon_DATA =\
    gnome-terminal.png \
 	 gnome-unknown.png \
    gnome-window-manager.png \
+	 image-viewer.png	\
 	 ooo_calc.png \
 	 ooo_draw.png \
 	 ooo_gulls.png \

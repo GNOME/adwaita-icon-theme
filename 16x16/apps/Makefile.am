@@ -21,6 +21,7 @@ icon_DATA =\
    im-msn.png  \
    im-nov.png  \
    im-yahoo.png  \
+	 image-viewer.png	\
    panel-notification-area.png \
    panel-window-list.png \
    panel-window-menu.png \

@@ -88,6 +88,7 @@ icon_DATA =\
 	im-msn.png   \
 	im-nov.png  \
 	im-yahoo.png   \
+	image-viewer.png	\
 	keyboard.png \
 	launcher-program.png \
 	logviewer.png \
