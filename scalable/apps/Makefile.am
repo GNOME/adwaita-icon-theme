@@ -2,7 +2,7 @@ NULL=
 
 iconsize=scalable
 category=apps
-icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
+icondir = $(datadir)/icons/hicolor/$(iconsize)/$(category)
 
 icon_DATA =\
 	evolution.svg \
