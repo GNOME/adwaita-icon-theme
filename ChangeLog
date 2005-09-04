@@ -1,7 +1,15 @@
-2005-08-30  Tor Lillqvist  <tml@novell.com>
+2005-09-04  Rodney Dawes  <dobey@novell.com>
 
-	* 16x16/stock/net/Makefile.am (install-data-local)
-	* 24x24/stock/net/Makefile.am (install-data-local)
+	* NEWS:
+	* configure.in: Update for 2.12.0 release
+
+	* 16x16/stock/net/Makefile.am (install-data-local):
+	Fix an issue with Tor's patch that caused a missing separator error
+
+2005-09-04  Tor Lillqvist  <tml@novell.com>
+
+	* 16x16/stock/net/Makefile.am (install-data-local):
+	* 24x24/stock/net/Makefile.am (install-data-local):
 	* 48x48/mimetypes/Makefile.am (install-data-hook):
 	Create icondir before installing into it.
 	No / between $(DESTDIR) and $(icondir).
