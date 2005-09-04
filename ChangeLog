@@ -1,3 +1,11 @@
+2005-08-30  Tor Lillqvist  <tml@novell.com>
+
+	* 16x16/stock/net/Makefile.am (install-data-local)
+	* 24x24/stock/net/Makefile.am (install-data-local)
+	* 48x48/mimetypes/Makefile.am (install-data-hook):
+	Create icondir before installing into it.
+	No / between $(DESTDIR) and $(icondir).
+
 2005-09-03  Jakub Steiner <jimmac@ximian.com>
 
 	* scalable/apps/Makefile.am: this actually goes to hicolor
