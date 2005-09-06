@@ -26,6 +26,7 @@ icon_DATA =\
    panel-window-list.png \
    panel-window-menu.png \
    text-editor.png \
+   volume-knob.png \
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)

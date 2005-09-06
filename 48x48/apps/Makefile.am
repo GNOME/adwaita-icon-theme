@@ -108,7 +108,6 @@ icon_DATA =\
 	tsclient.png \
 	user-info.png  \
 	visor.png   \
-	volume-knob.png \
 	wallpaper.png  \
 	web-browser.png \
 	wine.png \

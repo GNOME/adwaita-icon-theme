@@ -94,6 +94,7 @@ icon_DATA =\
 	 stock-ticker.png \
    text-editor.png \
 	 tsclient.png \
+	 volume-knob.png \
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)
