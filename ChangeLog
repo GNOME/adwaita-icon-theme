@@ -1,3 +1,10 @@
+2005-09-23  Rodney Dawes  <dobey@novell.com>
+
+	* 16x16/stock/emoticons/Makefile.am: Install these into the gnome
+	icon theme directory and not the hicolor theme directory
+
+	Fixes http://bugzilla.novell.com/show_bug.cgi?id=91387
+
 2005-09-08  Jakub Steiner <jimmac@ximian.com>
 
 	* scalable/apps/volume-knob.svg: forgot to add
