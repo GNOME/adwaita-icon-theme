@@ -1,3 +1,11 @@
+2005-10-02  Rodney Dawes  <dobey@novell.com>
+
+	* 16x16/stock/media/Makefile.am:
+	* 24x24/stock/media/Makefile.am:
+	* 32x32/stock/media/Makefile.am:
+	Install these icons to the gnome theme instead of the hicolor theme,
+	as it does not provide the proper directories to find the icons
+
 2005-10-02  Jakub Steiner <jimmac@ximian.com>
 
 	* stock_volume.png:
