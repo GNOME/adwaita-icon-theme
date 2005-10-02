@@ -1,6 +1,6 @@
 SUBDIRS = 12x12 16x16 24x24 32x32 36x36 48x48 72x72 96x96 192x192 scalable po
 
-pkgconfigdir = $(libdir)/pkgconfig
+pkgconfigdir = $(datadir)/pkgconfig
 pkgconfig_DATA = gnome-icon-theme.pc
 
 THEME_IN_FILES=index.theme.in

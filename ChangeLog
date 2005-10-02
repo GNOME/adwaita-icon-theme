@@ -1,5 +1,18 @@
 2005-10-02  Stanislav Brabec <sbrabec@suse.cz>
 
+	* Makefile.am: Install gnome-icon-theme.pc to $(datadir)/pkgconfig
+	
+	* configure.in: Require pkg-config 0.19 for bug fixes and support for
+	installing pc files into $(datadir)/pkgconfig
+
+	* gnome-icon-theme.pc.in: Remove all the path variables as we don't
+	need theme for gnome-icon-theme since implementations should follow
+	the Icon Theme specification, and we don't install libraries or headers
+
+	Fixes #316200
+
+2005-10-02  Stanislav Brabec <sbrabec@suse.cz>
+
 	* 16x16/stock/io/Makefile.am:
 	* 16x16/stock/net/Makefile.am:
 	* 24x24/stock/io/Makefile.am:
