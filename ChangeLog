@@ -1,3 +1,15 @@
+2005-10-02  Stanislav Brabec <sbrabec@suse.cz>
+
+	* 16x16/stock/io/Makefile.am:
+	* 16x16/stock/net/Makefile.am:
+	* 24x24/stock/io/Makefile.am:
+	* 24x24/stock/net/Makefile.am:
+	* 48x48/mimetypes/Makefile.am:
+	Replace $(INSTALL) with $(INSTALL_DATA) so that the installed icons
+	are not flagged as executable
+
+	Fixes #316173
+
 2005-10-02  Rodney Dawes  <dobey@novell.com>
 
 	* 16x16/stock/media/Makefile.am:
