@@ -1,4 +1,16 @@
-Version 2.12.0
+Version 2.12.1
+
+Changes since 2.12.0
+
+* Improve architecture independence
+  -- bug #316200 (Stanislav Brabec)
+* Fix permissions of some installed png files to not be executable
+  -- bug #316173 (Stanislav Brabec)
+* Fix installation of media and emoticons to use gnome instead of hicolor
+  -- http://bugzilla.novell.com/show_bug.cgi?id=91387 (Rodney Dawes)
+* Change the volume-knob icon in all sizes, and replace 48x48 with svg
+  -- bug #408160 (Jakub Steiner)
+* Updated translations [bg, bn, eu]
 
 Changes since 2.11.92
 
