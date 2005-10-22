@@ -104,6 +104,7 @@ icon_DATA =\
 	gnome-mime-application-x-rar.png \
 	gnome-mime-application-x-reject.png \
 	gnome-mime-application-x-rpm.png \
+	gnome-mime-application-x-ruby.png	\
 	gnome-mime-application-x-sharedlib.png \
 	gnome-mime-application-x-shellscript.png \
 	gnome-mime-application-x-shockwave-flash.png \
