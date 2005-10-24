@@ -187,7 +187,6 @@ install-data-hook:
 	$(INSTALL_DATA) $(srcdir)/gnome-mime-application-x-object.png $(DESTDIR)$(icondir)
 	$(INSTALL_DATA) $(srcdir)/gnome-mime-application-smil.png $(DESTDIR)$(icondir)
 	$(INSTALL_DATA) $(srcdir)/gnome-mime-audio-midi.png $(DESTDIR)$(icondir)
-	$(INSTALL_DATA) $(srcdir)/gnome-mime-image-svg+xml.png $(DESTDIR)$(icondir)
 	$(INSTALL_DATA) $(srcdir)/gnome-mime-text-x-chdr.png $(DESTDIR)$(icondir)
 	$(INSTALL_DATA) $(srcdir)/gnome-mime-text-x-csrc.png $(DESTDIR)$(icondir)
 	$(INSTALL_DATA) $(srcdir)/gnome-mime-text-x-c++src.png $(DESTDIR)$(icondir)
@@ -200,7 +199,6 @@ install-data-hook:
 	$(LN_S) gnome-mime-application-x-object.png $(DESTDIR)$(icondir)/gnome-mime-application-x-object-file.png
 	$(LN_S) gnome-mime-application-smil.png $(DESTDIR)$(icondir)/gnome-mime-application-x-smil.png
 	$(LN_S) gnome-mime-audio-midi.png $(DESTDIR)$(icondir)/gnome-mime-audio-x-midi.png
-	$(LN_S) gnome-mime-image-svg+xml.png $(DESTDIR)$(icondir)/gnome-mime-image-svg.png
 	$(LN_S) gnome-mime-text-x-chdr.png $(DESTDIR)$(icondir)/gnome-mime-text-x-c-header.png
 	$(LN_S) gnome-mime-text-x-csrc.png $(DESTDIR)$(icondir)/gnome-mime-text-x-c.png
 	$(LN_S) gnome-mime-text-x-c++src.png $(DESTDIR)$(icondir)/gnome-mime-text-x-c++.png
