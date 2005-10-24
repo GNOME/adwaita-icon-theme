@@ -5,6 +5,7 @@ category=mimetypes
 icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
 
 icon_DATA =\
+	 gnome-mime-image.png	\
    gnome-mime-x-directory-nfs-server.png \
 	$(NULL)
 
