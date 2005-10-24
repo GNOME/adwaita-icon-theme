@@ -1,3 +1,10 @@
+2005-10-24  Rodney Dawes  <dobey@novell.com>
+
+	* */mimetypes/Makefile.am: Remove specific image type icons
+	
+	* */mimetypes/gnome-mime-image-*.*: Removed these specific image type
+	icons so that we only have the generic image icon
+
 2005-10-22  Jakub Steiner <jimmac@ximian.com>
 
 	* gnome-mime-application-x-ruby.png: based on artwork by Geoff

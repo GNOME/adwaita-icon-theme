@@ -7,7 +7,7 @@ icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
 icon_DATA =\
 	gnome-library.png \
 	gnome-mime-application-magicpoint.png \
-  gnome-mime-application-msword.png \
+	gnome-mime-application-msword.png \
 	gnome-mime-application-ogg.png \
 	gnome-mime-application-par.png \
 	gnome-mime-application-pdf.png \
@@ -21,8 +21,8 @@ icon_DATA =\
 	gnome-mime-application-rtf.png \
 	gnome-mime-application-smil.png \
 	gnome-mime-application-vnd.lotus-1-2-3.png \
-  gnome-mime-application-vnd.ms-excel.png \
-  gnome-mime-application-vnd.ms-powerpoint.png \
+	gnome-mime-application-vnd.ms-excel.png \
+	gnome-mime-application-vnd.ms-powerpoint.png \
 	gnome-mime-application-vnd.stardivision.calc.png \
 	gnome-mime-application-vnd.stardivision.impress.png \
 	gnome-mime-application-vnd.stardivision.writer.png \
@@ -124,21 +124,7 @@ icon_DATA =\
 	gnome-mime-audio-x-xi.png \
 	gnome-mime-audio-x-xm.png \
 	gnome-mime-audio.png \
-  gnome-mime-image.png \
-  gnome-mime-image-bmp.png \
-  gnome-mime-image-gif.png \
-  gnome-mime-image-jpeg.png \
-  gnome-mime-image-png.png \
-  gnome-mime-image-svg.png \
-	gnome-mime-image-svg+xml.png \
-  gnome-mime-image-tiff.png \
-  gnome-mime-image-wmf.png \
-	gnome-mime-image-x-3ds.png \
-	gnome-mime-image-x-applix-graphic.png \
-	gnome-mime-image-x-cmu-raster.png \
-	gnome-mime-image-x-lwo.png \
-	gnome-mime-image-x-lws.png \
-	gnome-mime-image-x-xcf.png \
+	gnome-mime-image.png \
 	gnome-mime-text-css.png \
 	gnome-mime-text-html.png \
 	gnome-mime-text-x-authors.png \
@@ -176,8 +162,8 @@ icon_DATA =\
 	gnome-mime-video-x-ms-wmv.png \
 	gnome-mime-video-x-msvideo.png \
 	gnome-mime-video.png \
-  gnome-mime-x-directory-nfs-server.png \
-  gnome-mime-x-directory-smb-workgroup.png \
+	gnome-mime-x-directory-nfs-server.png \
+	gnome-mime-x-directory-smb-workgroup.png \
 	gnome-mime-x-directory-smb-server.png \
 	gnome-mime-x-directory-smb-share.png \
 	gnome-mime-x-font-afm.png \

@@ -132,30 +132,6 @@ icon_DATA =\
 	gnome-mime-audio-x-xi.png \
 	gnome-mime-audio-x-xm.png \
 	gnome-mime-audio.png \
-	gnome-mime-image-bmp.png \
-	gnome-mime-image-gif.png \
-	gnome-mime-image-ief.png \
-	gnome-mime-image-jpeg.png \
-	gnome-mime-image-png.png \
-	gnome-mime-image-svg+xml.png \
-	gnome-mime-image-tiff.png \
-	gnome-mime-image-x-3ds.png \
-	gnome-mime-image-x-applix-graphic.png \
-	gnome-mime-image-x-cmu-raster.png \
-	gnome-mime-image-x-lwo.png \
-	gnome-mime-image-x-lws.png \
-	gnome-mime-image-x-portable-anymap.png \
-	gnome-mime-image-x-portable-bitmap.png \
-	gnome-mime-image-x-portable-graymap.png \
-	gnome-mime-image-x-portable-pixmap.png \
-	gnome-mime-image-x-psd.png \
-	gnome-mime-image-x-rgb.png \
-	gnome-mime-image-x-tga.png \
-	gnome-mime-image-x-xbitmap.png \
-	gnome-mime-image-x-xcf.png \
-	gnome-mime-image-x-xfig.png \
-	gnome-mime-image-x-xpixmap.png \
-	gnome-mime-image-x-xwindowdump.png \
 	gnome-mime-image.png \
 	gnome-mime-text-css.png \
 	gnome-mime-text-html.png \
