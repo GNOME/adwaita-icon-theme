@@ -162,11 +162,6 @@ icon_DATA =\
 	gnome-mime-text-x-zsh.png \
 	gnome-mime-text-xml.png \
 	gnome-mime-text.png \
-	gnome-mime-video-mpeg.png \
-	gnome-mime-video-quicktime.png \
-	gnome-mime-video-x-ms-asf.png \
-	gnome-mime-video-x-ms-wmv.png \
-	gnome-mime-video-x-msvideo.png \
 	gnome-mime-video.png \
 	gnome-mime-x-directory-nfs-server.png \
 	gnome-mime-x-directory-smb-server.png \

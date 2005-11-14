@@ -1,3 +1,10 @@
+2005-11-14  Rodney Dawes  <dobey@novell.com>
+
+	* */mimetypes/Makefile.am: Remove specific video type icons
+	
+	* */mimetypes/gnome-mime-video-*.*: Removed these specific video type
+	icons so that we only have the generic video icon
+
 2005-10-24  Rodney Dawes  <dobey@novell.com>
 
 	* NEWS:
