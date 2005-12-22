@@ -96,12 +96,12 @@ Type=Fixed
 [48x48/filesystems]
 Size=48
 Context=FileSystems
-Type=Scalable
+Type=Fixed
 
 [48x48/mimetypes]
 Size=48
 Context=MimeTypes
-Type=Scalable
+Type=Fixed
 
 [48x48/stock/code]
 Size=48
@@ -440,35 +440,35 @@ Type=Fixed
 
 [scalable/apps]
 Size=48
-MinSize=1
+MinSize=32
 MaxSize=256
 Context=Applications
 Type=Scalable
 
 [scalable/devices]
 Size=48
-MinSize=1
+MinSize=32
 MaxSize=256
 Context=Devices
 Type=Scalable
 
 [scalable/emblems]
 Size=48
-MinSize=1
+MinSize=32
 MaxSize=256
 Context=Emblems
 Type=Scalable
 
 [scalable/filesystems]
 Size=48
-MinSize=1
+MinSize=32
 MaxSize=256
 Context=FileSystems
 Type=Scalable
 
 [scalable/mimetypes]
 Size=48
-MinSize=1
+MinSize=32
 MaxSize=256
 Context=MimeTypes
 Type=Scalable
