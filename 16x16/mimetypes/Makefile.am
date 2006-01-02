@@ -70,6 +70,7 @@ icon_DATA =\
 	gnome-mime-application-x-gameboy-rom.png \
 	gnome-mime-application-x-genesis-rom.png \
 	gnome-mime-application-x-glade.png \
+	gnome-mime-application-x-gnome-saved-search.png	\
 	gnome-mime-application-x-gnucash.png \
 	gnome-mime-application-x-gnumeric.png \
 	gnome-mime-application-x-gtktalog.png \

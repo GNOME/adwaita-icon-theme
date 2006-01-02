@@ -11,7 +11,7 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docbase="/home/jimmac/src/cvs/gnome/gnome-icon-theme/scalable/filesystems"
    sodipodi:docname="gnome-fs-home.svg"
-   inkscape:version="0.40+cvs"
+   inkscape:version="0.43+devel"
    sodipodi:version="0.32"
    id="svg1"
    height="48.000000px"
@@ -21,95 +21,91 @@
    version="1.0">
   <metadata
      id="metadata162">
-    <rdf:RDF
-       id="RDF163">
+    <rdf:RDF>
       <cc:Work
-         id="Work164"
          rdf:about="">
-        <dc:format
-           id="format165">image/svg+xml</dc:format>
+        <dc:format>image/svg+xml</dc:format>
         <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage"
-           id="type166" />
-        <dc:title
-           id="title254">Home Folder</dc:title>
-        <dc:creator
-           id="creator255">
-          <cc:Agent
-             id="Agent256">
-            <dc:title
-               id="title257">Jakub Steiner</dc:title>
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Home Folder</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
           </cc:Agent>
         </dc:creator>
-        <dc:date
-           id="date258">2005-02-02</dc:date>
+        <dc:date>2005-02-02</dc:date>
         <cc:license
-           rdf:resource="http://creativecommons.org/licenses/GPL/2.0/"
-           id="license259" />
-        <dc:identifier
-           id="identifier267">http://jimmac.musichall.cz/</dc:identifier>
-        <dc:subject
-           id="subject268">
-          <rdf:Bag
-             id="Bag269">
-            <rdf:li
-               id="li266">folder</rdf:li>
-            <rdf:li
-               id="li267">directory</rdf:li>
-            <rdf:li
-               id="li268">storage</rdf:li>
-            <rdf:li
-               id="li269">home</rdf:li>
-            <rdf:li
-               id="li270">user</rdf:li>
-            <rdf:li
-               id="li271">default</rdf:li>
+           rdf:resource="http://creativecommons.org/licenses/GPL/2.0/" />
+        <dc:identifier>http://jimmac.musichall.cz/</dc:identifier>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>folder</rdf:li>
+            <rdf:li>directory</rdf:li>
+            <rdf:li>storage</rdf:li>
+            <rdf:li>home</rdf:li>
+            <rdf:li>user</rdf:li>
+            <rdf:li>default</rdf:li>
           </rdf:Bag>
         </dc:subject>
       </cc:Work>
       <cc:License
-         id="License260"
          rdf:about="http://creativecommons.org/licenses/GPL/2.0/">
         <cc:permits
-           id="permits261"
            rdf:resource="http://web.resource.org/cc/Reproduction" />
         <cc:permits
-           id="permits262"
            rdf:resource="http://web.resource.org/cc/Distribution" />
         <cc:requires
-           id="requires263"
            rdf:resource="http://web.resource.org/cc/Notice" />
         <cc:permits
-           id="permits264"
            rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
         <cc:requires
-           id="requires265"
            rdf:resource="http://web.resource.org/cc/ShareAlike" />
         <cc:requires
-           id="requires266"
            rdf:resource="http://web.resource.org/cc/SourceCode" />
       </cc:License>
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
      inkscape:current-layer="layer2"
-     inkscape:window-y="38"
-     inkscape:window-x="265"
+     inkscape:window-y="257"
+     inkscape:window-x="231"
      showgrid="true"
      inkscape:document-units="px"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="28.622957"
-     inkscape:cy="23.227340"
+     inkscape:zoom="4"
+     inkscape:cx="82.861362"
+     inkscape:cy="48.372422"
      inkscape:window-height="806"
-     inkscape:window-width="831"
+     inkscape:window-width="872"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
-     borderopacity="1.0"
+     borderopacity="0.16862745"
      bordercolor="#666666"
      pagecolor="#ffffff"
-     id="base" />
+     id="base"
+     showborder="false" />
   <defs
      id="defs3">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2339">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop2341" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop2343" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2339"
+       id="linearGradient2345"
+       x1="25.850664"
+       y1="37.625"
+       x2="24.996323"
+       y2="25.25"
+       gradientUnits="userSpaceOnUse" />
     <linearGradient
        id="linearGradient465">
       <stop
@@ -345,7 +341,7 @@
        x2="-26.692234"
        y1="48.765125"
        x1="-18.497044"
-       gradientTransform="matrix(1.240100,0.000000,0.000000,0.806386,48.00003,-0.500002)"
+       gradientTransform="matrix(1.244987,0,0,0.806386,48.17274,-0.500002)"
        gradientUnits="userSpaceOnUse"
        id="linearGradient348"
        xlink:href="#linearGradient874"
@@ -366,7 +362,7 @@
        x2="23.405350"
        y1="45.585804"
        x1="25.178135"
-       gradientTransform="scale(1.184955,0.843914)"
+       gradientTransform="matrix(1.189625,0,0,0.843914,-1.646173e-2,0)"
        id="linearGradient468"
        xlink:href="#linearGradient465"
        inkscape:collect="always" />
@@ -443,8 +439,10 @@
     <path
        sodipodi:nodetypes="czzszcccccccc"
        id="rect337"
-       d="M 7.6726774,16.296282 L 15.574880,16.296282 C 16.313702,16.296282 16.937480,15.915471 17.255424,15.414278 C 17.391630,15.199569 18.518429,13.288550 18.607769,13.158052 C 18.905383,12.723328 19.377651,12.399136 19.944483,12.399136 L 42.896263,12.399136 C 43.695948,12.399136 44.339737,13.042925 44.339737,13.842610 L 44.339737,38.915459 C 44.339737,39.715143 43.695948,40.358932 42.896263,40.358932 L 6.1202502,40.358932 C 5.3205659,40.358932 4.6767767,39.715143 4.6767767,38.915459 L 4.6767767,19.481904 C 4.6767767,17.507539 5.8126165,16.296282 7.6726774,16.296282 z "
-       style="color:#000000;fill:url(#linearGradient348);fill-opacity:1.0000000;fill-rule:evenodd;stroke:url(#linearGradient468);stroke-width:1.0000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;marker:none;marker-start:none;marker-mid:none;marker-end:none;visibility:visible;display:inline;overflow:visible" />
+       d="M 7.6864537,16.296282 L 15.619799,16.296282 C 16.361533,16.296282 16.987769,15.915471 17.306966,15.414278 C 17.443709,15.199569 18.574948,13.28855 18.66464,13.158052 C 18.963427,12.723328 19.437557,12.399136 20.006622,12.399136 L 43.048855,12.399136 C 43.851692,12.399136 44.498018,13.042925 44.498018,13.84261 L 44.498018,38.915459 C 44.498018,39.715143 43.851692,40.358932 43.048855,40.358932 L 6.1279084,40.358932 C 5.3250725,40.358932 4.6787461,39.715143 4.6787461,38.915459 L 4.6787461,19.481904 C 4.6787461,17.507539 5.8190623,16.296282 7.6864537,16.296282 z "
+       style="color:#000000;fill:url(#linearGradient348);fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient468);stroke-width:0.99999988;stroke-linecap:butt;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       inkscape:r_cx="true"
+       inkscape:r_cy="true" />
     <path
        sodipodi:nodetypes="ccccccccccccccccccccc"
        id="path349"
@@ -463,5 +461,16 @@
        id="path892"
        style="opacity:0.64999998;fill:#ffffff;fill-rule:evenodd;stroke-width:3.0000000pt"
        d="M 17.275592,27.775226 L 17.275592,34.500000 L 24.227116,34.500000 L 24.227116,29.064465 L 28.010612,29.064465 L 28.010612,34.500000 L 32.331830,34.500000 L 32.331830,27.775226 L 34.695894,27.773248 L 24.847948,21.000000 L 15.000000,27.773248 L 17.275592,27.775226 z " />
+    <rect
+       style="opacity:0.28571429;color:#000000;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient2345);stroke-width:1.00000024;stroke-linecap:square;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       id="rect2337"
+       width="37.95816"
+       height="23.625"
+       x="5.5381637"
+       y="15.75"
+       inkscape:r_cx="true"
+       inkscape:r_cy="true"
+       rx="0.43750021"
+       ry="0.4375" />
   </g>
 </svg>
