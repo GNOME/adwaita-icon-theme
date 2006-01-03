@@ -3,7 +3,7 @@ NULL=
 iconsize=16x16
 category=stock
 subtype=navigation
-icondir = $(datadir)/icons/hicolor/$(iconsize)/$(category)/$(subtype)
+icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)/$(subtype)
 
 icon_DATA =\
    stock_bottom.png \

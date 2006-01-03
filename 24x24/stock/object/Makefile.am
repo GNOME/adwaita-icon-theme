@@ -3,7 +3,7 @@ NULL=
 iconsize=24x24
 category=stock
 subtype=object
-icondir = $(datadir)/icons/hicolor/$(iconsize)/$(category)/$(subtype)
+icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)/$(subtype)
 
 icon_DATA =\
    stock_add-bookmark.png \

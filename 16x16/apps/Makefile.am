@@ -2,7 +2,7 @@ NULL=
 
 iconsize=16x16
 category=apps
-icondir = $(datadir)/icons/hicolor/$(iconsize)/$(category)
+icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
 
 icon_DATA =\
    config-language.png \

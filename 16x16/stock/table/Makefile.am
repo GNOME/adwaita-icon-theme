@@ -3,7 +3,7 @@ NULL=
 iconsize=16x16
 category=stock
 subtype=table
-icondir = $(datadir)/icons/hicolor/$(iconsize)/$(category)/$(subtype)
+icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)/$(subtype)
 
 icon_DATA =\
    stock_alignment-bottom.png \

@@ -1,3 +1,13 @@
+2006-01-03  Rodney Dawes  <dobey@novell.com>
+
+	* Makefile.am:
+	* configure.in: Disable the checks for hicolor, as we no longer install
+	icons into the hicolor theme, with this commit
+
+	* */*/Makefile.am: Don't install gnome icons to hicolor, to avoid the
+	possibility for conflicts, when we move all the gnome icons over to the
+	Icon Naming Specification names
+	
 2006-01-02  Rodney Dawes  <dobey@novell.com>
 
 	* NEWS:
