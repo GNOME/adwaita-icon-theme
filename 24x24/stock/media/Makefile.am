@@ -18,7 +18,7 @@ icon_DATA =\
 	stock_media-prev.png 		\
 	stock_media-rec.png 		\
 	stock_media-rew.png 		\
-	stock_media-shuffle.png 	\
+	stock_shuffle.png 	\
 	stock_media-stop.png 		\
 	stock_mic.png 			\
 	stock_midi.png 			\
