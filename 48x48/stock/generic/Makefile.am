@@ -31,7 +31,6 @@ icon_DATA =					\
 	stock_notebook.png 			\
 	stock_notes.png 			\
 	stock_people.png 			\
-	stock_person.png 			\
 	stock_summary.png 			\
 	stock_timezone.png 			\
 	stock_unknown.png			\
