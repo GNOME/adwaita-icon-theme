@@ -1,13 +1,15 @@
-NULL=
 
-iconsize=24x24
-category=mimetypes
-icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
+size = 24x24
+context = mimetypes
 
-icon_DATA =\
-	 gnome-mime-image.png	\
-   gnome-mime-x-directory-nfs-server.png \
-	 gnome-mime-application-x-gnome-saved-search.png	\
-	$(NULL)
+iconsdir = $(themedir)/$(size)/$(context)
 
-EXTRA_DIST = $(icon_DATA)
+icons_DATA =					\
+	gnome-mime-application-x-gnome-saved-search.png	\
+	image-x-generic.png
+
+EXTRA_DIST =					\
+	$(icons_DATA)
+
+install-data-local: install-iconsDATA
+	(cd $(DESTDIR)$(themedir)/$(size) && $(ICONMAP) -c $(context))

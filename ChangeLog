@@ -1,3 +1,17 @@
+2006-01-16  Rodney Dawes  <dobey@novell.com>
+
+	* configure.in: Require icon-naming-utils >= 0.6.5 for compat
+	Set the themedir variable here, to improve maintainability
+
+	* index.theme.in: Update for new contexts, and removals
+
+	* *: Update to use the icon naming spec where we can for now
+	Get rid of extra duplicate icons, and use generic versions instead
+	Remove extraneous sizes to prepare for 16, 22, and scalable only in
+	the future
+
+	Solves #317460, #318505, #163693, #303601, #112909, #169745
+
 2006-01-13  Jakub Steiner <jimmac@ximian.com>
 
 	* 16x16/stock/generic/stock_person.xcf.bz2:

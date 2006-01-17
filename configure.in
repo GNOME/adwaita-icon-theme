@@ -1,18 +1,14 @@
 # Process this file with autoconf to produce a configure script.
 AC_PREREQ(2.53)
 
-AC_INIT([gnome-icon-theme], [2.13.4],
+AC_INIT([gnome-icon-theme], [2.13.4.1],
         [http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-icon-theme])
 AC_CONFIG_SRCDIR(index.theme.in)
 
 AM_INIT_AUTOMAKE([1.9 tar-ustar])
 
 AC_PROG_INTLTOOL
-AC_PROG_LN_S
 PKG_PROG_PKG_CONFIG([0.19])
-
-LN_S="$LN_S -f"
-AC_SUBST([LN_S])
 
 GETTEXT_PACKAGE="${PACKAGE}"
 AC_SUBST(GETTEXT_PACKAGE)
@@ -28,120 +24,106 @@ AC_SUBST(localedir)
 # Workaround to make aclocal get the right flags
 AC_SUBST(ACLOCAL_AMFLAGS, "\${ACLOCAL_FLAGS}")
 
+# Define the toplevel path here
+AC_SUBST(themedir, "\${datadir}/icons/gnome")
+
+UTILS_REQUIRED=0.6.5
+
+AC_MSG_CHECKING([icon-naming-utils >= $UTILS_REQUIRED])
+PKG_CHECK_EXISTS(icon-naming-utils >= $UTILS_REQUIRED,
+                 have_utils=yes, have_utils=no)
+if test "x$have_utils" = "xyes"; then
+   UTILS_PATH="`$PKG_CONFIG --variable=program_path icon-naming-utils`"
+   ICONMAP="$UTILS_PATH/icon-name-mapping"
+   AC_SUBST(ICONMAP)
+   AC_MSG_RESULT([yes])
+else
+   AC_MSG_RESULT([no])
+   AC_MSG_ERROR([icon-naming-utils >= $UTILS_REQUIRED is required to build
+                 and install gnome-icon-theme])
+fi
+
 AC_CONFIG_FILES([
 Makefile
 gnome-icon-theme.pc
-12x12/Makefile
 16x16/Makefile
 24x24/Makefile
-32x32/Makefile
-36x36/Makefile
 48x48/Makefile
-72x72/Makefile
-96x96/Makefile
-192x192/Makefile
 scalable/Makefile
-12x12/devices/Makefile        
-12x12/emblems/Makefile        
-12x12/filesystems/Makefile    
-12x12/mimetypes/Makefile      
-16x16/apps/Makefile      
-16x16/devices/Makefile      
-16x16/filesystems/Makefile    
+16x16/actions/Makefile
+16x16/apps/Makefile
+16x16/categories/Makefile
+16x16/devices/Makefile
+16x16/filesystems/Makefile
 16x16/mimetypes/Makefile
-16x16/stock/Makefile      
-16x16/stock/chart/Makefile      
-16x16/stock/code/Makefile      
-16x16/stock/data/Makefile      
-16x16/stock/document/Makefile      
-16x16/stock/emoticons/Makefile      
-16x16/stock/form/Makefile      
-16x16/stock/generic/Makefile      
-16x16/stock/image/Makefile      
-16x16/stock/io/Makefile      
-16x16/stock/media/Makefile      
-16x16/stock/navigation/Makefile      
-16x16/stock/net/Makefile      
-16x16/stock/object/Makefile      
-16x16/stock/table/Makefile      
-16x16/stock/text/Makefile      
-24x24/apps/Makefile        
-24x24/devices/Makefile        
-24x24/emblems/Makefile        
-24x24/filesystems/Makefile    
-24x24/mimetypes/Makefile      
+16x16/places/Makefile
+16x16/status/Makefile
+16x16/stock/Makefile
+16x16/stock/chart/Makefile
+16x16/stock/code/Makefile
+16x16/stock/data/Makefile
+16x16/stock/document/Makefile
+16x16/stock/emoticons/Makefile
+16x16/stock/form/Makefile
+16x16/stock/generic/Makefile
+16x16/stock/image/Makefile
+16x16/stock/io/Makefile
+16x16/stock/media/Makefile
+16x16/stock/navigation/Makefile
+16x16/stock/net/Makefile
+16x16/stock/object/Makefile
+16x16/stock/table/Makefile
+16x16/stock/text/Makefile
+24x24/actions/Makefile
+24x24/apps/Makefile
+24x24/categories/Makefile
+24x24/devices/Makefile
+24x24/emblems/Makefile
+24x24/filesystems/Makefile
+24x24/mimetypes/Makefile
+24x24/places/Makefile
+24x24/status/Makefile
 24x24/stock/Makefile
 24x24/stock/chart/Makefile
-24x24/stock/data/Makefile
-24x24/stock/generic/Makefile
-24x24/stock/net/Makefile
-24x24/stock/text/Makefile
 24x24/stock/code/Makefile
+24x24/stock/data/Makefile
 24x24/stock/document/Makefile
-24x24/stock/image/Makefile
-24x24/stock/media/Makefile
-24x24/stock/object/Makefile
 24x24/stock/form/Makefile
+24x24/stock/generic/Makefile
+24x24/stock/image/Makefile
 24x24/stock/io/Makefile
+24x24/stock/media/Makefile
 24x24/stock/navigation/Makefile
+24x24/stock/net/Makefile
+24x24/stock/object/Makefile
 24x24/stock/table/Makefile
-32x32/apps/Makefile        
-32x32/devices/Makefile        
-32x32/filesystems/Makefile
-32x32/mimetypes/Makefile
-32x32/stock/Makefile        
-32x32/stock/code/Makefile        
-32x32/stock/chart/Makefile        
-32x32/stock/data/Makefile        
-32x32/stock/document/Makefile        
-32x32/stock/generic/Makefile        
-32x32/stock/io/Makefile        
-32x32/stock/media/Makefile        
-32x32/stock/net/Makefile        
-32x32/stock/object/Makefile
-36x36/apps/Makefile
-36x36/devices/Makefile        
-36x36/emblems/Makefile        
-36x36/filesystems/Makefile
-36x36/mimetypes/Makefile   
-36x36/stock/Makefile   
-36x36/stock/document/Makefile   
-36x36/stock/generic/Makefile   
-48x48/apps/Makefile     
-48x48/devices/Makefile     
-48x48/emblems/Makefile     
-48x48/filesystems/Makefile 
-48x48/mimetypes/Makefile   
-48x48/stock/Makefile   
-48x48/stock/code/Makefile        
-48x48/stock/data/Makefile        
-48x48/stock/generic/Makefile   
-48x48/stock/document/Makefile   
-48x48/stock/io/Makefile   
-48x48/stock/net/Makefile   
-72x72/apps/Makefile     
-72x72/devices/Makefile     
-72x72/emblems/Makefile     
-72x72/filesystems/Makefile 
-72x72/mimetypes/Makefile   
-96x96/apps/Makefile     
-96x96/devices/Makefile     
-96x96/emblems/Makefile     
-96x96/filesystems/Makefile 
-96x96/mimetypes/Makefile
-192x192/apps/Makefile      
-192x192/devices/Makefile      
-192x192/emblems/Makefile      
-192x192/filesystems/Makefile  
-192x192/mimetypes/Makefile    
-scalable/apps/Makefile      
-scalable/devices/Makefile      
-scalable/emblems/Makefile      
-scalable/filesystems/Makefile  
-scalable/mimetypes/Makefile    
-scalable/stock/Makefile    
-scalable/stock/generic/Makefile    
-po/Makefile.in	
-])	
+24x24/stock/text/Makefile
+48x48/actions/Makefile
+48x48/apps/Makefile
+48x48/categories/Makefile
+48x48/devices/Makefile
+48x48/emblems/Makefile
+48x48/filesystems/Makefile
+48x48/mimetypes/Makefile
+48x48/places/Makefile
+48x48/status/Makefile
+48x48/stock/Makefile
+48x48/stock/code/Makefile
+48x48/stock/data/Makefile
+48x48/stock/document/Makefile
+48x48/stock/generic/Makefile
+48x48/stock/io/Makefile
+48x48/stock/net/Makefile
+scalable/apps/Makefile
+scalable/devices/Makefile
+scalable/emblems/Makefile
+scalable/mimetypes/Makefile
+scalable/places/Makefile
+scalable/status/Makefile
+scalable/stock/Makefile
+scalable/stock/generic/Makefile
+po/Makefile.in
+])
 
 AC_OUTPUT
+

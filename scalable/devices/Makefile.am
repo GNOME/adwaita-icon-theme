@@ -1,10 +1,8 @@
-NULL=
 
-iconsize=scalable
-category=devices
-icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
+size = scalable
+context = devices
+iconsdir = $(themedir)/$(size)/$(context)
 
-icon_DATA =\
-	$(NULL)
+icons_DATA =
 
-EXTRA_DIST = $(icon_DATA)
+EXTRA_DIST = $(icons_DATA)

@@ -1,11 +1,9 @@
-NULL=
 
-iconsize=scalable
-category=mimetypes
-icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
+size = scalable
+context = mimetypes
+iconsdir = $(themedir)/$(size)/$(context)
 
-icon_DATA =\
-	gnome-mime-application-x-gnome-saved-search.svg	\
-	$(NULL)
+icons_DATA =						\
+	gnome-mime-application-x-gnome-saved-search.svg
 
-EXTRA_DIST = $(icon_DATA)
+EXTRA_DIST = $(icons_DATA)

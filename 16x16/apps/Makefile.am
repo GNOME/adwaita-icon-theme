@@ -1,32 +1,24 @@
-NULL=
+size = 16x16
+context = apps
 
-iconsize=16x16
-category=apps
-icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
+iconsdir = $(themedir)/$(size)/$(context)
 
-icon_DATA =\
-   config-language.png \
-	 evolution.png \
-   gnome-devel.png \
-   gnome-globe.png \
-   gnome-help.png \
-   gnome-logout.png \
-   gnome-run.png \
-   gnome-settings.png \
-   gnome-window-manager.png \
-   im.png   \
-   im-aim.png  \
-   im-icq.png  \
-   im-jabber.png  \
-   im-msn.png  \
-   im-nov.png  \
-   im-yahoo.png  \
-	 image-viewer.png	\
-   panel-notification-area.png \
-   panel-window-list.png \
-   panel-window-menu.png \
-   text-editor.png \
-   volume-knob.png \
-	$(NULL)
+icons_DATA =				\
+	accessories-text-editor.png	\
+	evolution.png			\
+	gnome-logout.png		\
+	gnome-run.png			\
+	gnome-window-manager.png	\
+	help-browser.png		\
+	image-viewer.png		\
+	multimedia-volume-control.png	\
+	panel-notification-area.png	\
+	panel-window-list.png		\
+	panel-window-menu.png		\
+	preferences-desktop-locale.png
 
-EXTRA_DIST = $(icon_DATA)
+EXTRA_DIST = $(icons_DATA)
+
+install-data-local: install-iconsDATA
+	(cd $(DESTDIR)$(themedir)/$(size) && $(ICONMAP) -c $(context))
+
