@@ -1,5 +1,5 @@
 
-size = 24x24
+size = 48x48
 context = places
 
 iconsdir = $(themedir)/$(size)/$(context)

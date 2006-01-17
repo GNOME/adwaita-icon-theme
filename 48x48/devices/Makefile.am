@@ -1,5 +1,5 @@
 
-size = 16x16
+size = 48x48
 context = devices
 
 iconsdir = $(themedir)/$(size)/$(context)
