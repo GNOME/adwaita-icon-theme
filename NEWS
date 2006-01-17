@@ -1,4 +1,14 @@
-Version 2.13.4
+Version 2.13.5
+
+* Initial major cleanup and porting to Icon Naming Spec
+  -- bugs #317460, #318505, #163693, #303601, #112909, #169745 (Rodney Dawes)
+* Replace the stock person icon with an abstract person icon
+  -- bug #311844 (Jakub Steiner)
+* No longer install icons to hicolor to prevent conflicts (Rodney Dawes)
+  (This change requires gtk+ 2.8.10 or newer for themes that do not explicitly
+   have a fallback hierarchy which includes "gnome" for several applications)
+
+Changes since 2.13.4
 
 * Do not use Scalable as the type for bitmap icons (Rodney Dawes)
 * New saved search icon (Jakub Steiner)
