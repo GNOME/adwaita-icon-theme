@@ -16,6 +16,7 @@ icons_DATA =				\
 	dialog-warning.png		\
 	folder-drag-accept.png		\
 	folder-open.png			\
+	folder-visiting.png			\
 	media-playlist-repeat.png	\
 	media-playlist-shuffle.png	\
 	network-wireless-encrypted.png	\
