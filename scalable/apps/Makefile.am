@@ -1,12 +1,18 @@
-NULL=
 
-iconsize=scalable
-category=apps
-icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
+size = scalable
+context = apps
+iconsdir = $(themedir)/$(size)/$(context)
 
-icon_DATA =\
-	evolution.svg \
-	volume-knob.svg \
-	$(NULL)
+icons_DATA =				\
+	evolution.svg			\
+	multimedia-volume-control.svg
 
-EXTRA_DIST = $(icon_DATA)
+EXTRA_DIST =		\
+	$(icons_DATA)
+
+MAINTAINERCLEANFILES =	\
+	Makefile.in
+
+install-data-local: install-iconsDATA
+	(cd $(DESTDIR)$(themedir)/$(size) && $(ICONMAP) -c $(context))
+

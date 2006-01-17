@@ -1,5 +1,15 @@
 2006-01-17  Rodney Dawes  <dobey@novell.com>
 
+	* 24x24/apps/Makefile.am:
+	* scalable/apps/Makefile.am:
+	Cleanups and use of icon-naming-utils to map compat names
+
+	* 24x24/apps/volume-knob.*:
+	* scalable/apps/volume-knob.*:
+	Renamed to multimedia-volume-control as	per the Icon Naming Spec
+
+2006-01-17  Rodney Dawes  <dobey@novell.com>
+
 	* 16x16/devices/computer.png: Use a blue screen like the larger
 	versions of this bitmap
 
