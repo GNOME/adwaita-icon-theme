@@ -1,5 +1,15 @@
 2006-01-19  Jakub Steiner <jimmac@ximian.com>
 
+	* mimetypes/Makefile.am: install the icons
+	* mimetypes/font-x-generic.svg
+	* mimetypes/fonx-x-generic.svg: fix typo
+	* mimetypes/gnome-mime-application-x-gnome-saved-search.svg:
+		removed. will need to go to icon-naming-utils (linking to
+		folder-saved-search)
+	* mimetypes/text-html.svg: small tweaks
+
+2006-01-19  Jakub Steiner <jimmac@ximian.com>
+
 	* scalable/mimetypes/application-x-executable.svg
 	* scalable/mimetypes/audio-x-generic.svg
 	* scalable/mimetypes/fonx-x-generic.svg
