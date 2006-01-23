@@ -1,5 +1,11 @@
 2006-01-23  Luca Ferretti  <elle.uca@libero.it>
 
+	* 48x48/mimetypes/Makefile.am: remove all entries in icon_DATA, icons
+	for MIME types are now under scalable (someone should remove files from
+	repository too).
+
+2006-01-23  Luca Ferretti  <elle.uca@libero.it>
+
 	* scalable/devices/Makefile.am:
 	* scalable/mimetypes/Makefile.am: tab, not spaces.
 
