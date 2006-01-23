@@ -11,4 +11,4 @@ MAINTAINERCLEANFILES =	\
 	Makefile.in
 
 install-data-local: install-iconsDATA
-        (cd $(DESTDIR)$(themedir)/$(size) && $(ICONMAP) -c $(context))
+	(cd $(DESTDIR)$(themedir)/$(size) && $(ICONMAP) -c $(context))
