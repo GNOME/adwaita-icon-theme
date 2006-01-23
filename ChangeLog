@@ -1,3 +1,10 @@
+2006-01-23  Luca Ferretti  <elle.uca@libero.it>
+
+	* scalable/devices/Makefile.am: add MAINTAINERCLEANFILES and 
+	install-data-local rules
+	* scalable/mimetypes/Makefile.am: ditto, plus add package-x-generic.svg
+	to icons_DATA
+
 2006-01-19  Jakub Steiner <jimmac@ximian.com>
 
 	* mimetypes/Makefile.am: install the icons

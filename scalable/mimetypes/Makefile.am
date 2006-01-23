@@ -8,7 +8,8 @@ icons_DATA =						\
 	audio-x-generic.svg	\
 	font-x-generic.svg	\
 	image-x-generic.svg	\
-	text-html.svg	\
+	package-x-generic.svg	\
+	text-html.svg		\
 	text-x-generic.svg	\
 	text-x-script.svg	\
 	video-x-generic.svg	\
@@ -19,3 +20,9 @@ icons_DATA =						\
 	x-office-spreadsheet.svg
 
 EXTRA_DIST = $(icons_DATA)
+
+MAINTAINERCLEANFILES =	\
+	Makefile.in
+
+install-data-local: install-iconsDATA
+        (cd $(DESTDIR)$(themedir)/$(size) && $(ICONMAP) -c $(context))
