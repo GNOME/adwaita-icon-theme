@@ -6,7 +6,8 @@ iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
 	gnome-fs-bookmark-missing.png	\
-	gnome-fs-bookmark.png
+	gnome-fs-bookmark.png		\
+	gnome-fs-regular.png
 
 EXTRA_DIST =				\
 	$(icons_DATA)
