@@ -1,5 +1,21 @@
 2006-02-03  Rodney Dawes  <dobey@novell.com>
 
+	* */filesystems/gnome-fs-regular.*:
+	Remove this icon to be replaced by text-x-preview
+
+	* */mimetypes/Makefile.am:
+	Update for additions/removals of icons
+
+	* */mimetypes/gnome-mime-application-x-gnome-saved-search.*:
+	This is replaced by folder-saved-search in the places context
+
+	* */mimetypes/text-x-preview.*: New icon to replace the ugly old
+	gnome-fs-regular icon for people who use text previews
+
+	* 24x24/*/*.png: Updated to use the 22x22 icons with 1px border
+	
+2006-02-03  Rodney Dawes  <dobey@novell.com>
+
 	* 16x16/filesystems/Makefile.am:
 	* 16x16/filesystems/gnome-fs-regular.png:
 	Add new-style icon for gnome-fs-regular at 16x16 size

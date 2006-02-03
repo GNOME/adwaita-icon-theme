@@ -11,6 +11,8 @@ icons_DATA =				\
 	package-x-generic.svg		\
 	text-html.svg			\
 	text-x-generic.svg		\
+	text-x-preview.icon		\
+	text-x-preview.svg		\
 	text-x-script.svg		\
 	video-x-generic.svg		\
 	x-office-address-book.svg	\
