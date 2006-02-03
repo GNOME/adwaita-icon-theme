@@ -5,7 +5,6 @@ SUBDIRS =		\
 	devices		\
 	emblems		\
 	filesystems	\
-	mimetypes	\
 	places		\
 	status		\
 	stock
