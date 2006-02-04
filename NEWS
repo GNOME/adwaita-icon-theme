@@ -1,4 +1,20 @@
-Version 2.13.5.1
+Version 2.13.6
+
+* Requires icon-naming-utils 0.6.7 fore updates (Rodney Dawes)
+* Replace gnome-fs-regular with text-x-preview (Rodney Dawes)
+* Remove the old gnome-mime-application-x-gnome-saved-search icons that were
+  replaced with the folder-saved-search icon (Rodney Dawes)
+* Update 24x24 icons to match the new 22x22 icons (Rodney Dawes)
+* Remove 48x48/mimetypes as they are replaced by scalable versions
+  (Rodney Dawes)
+* Updated style for icons (Jakub Steiner)
+* Fix typographical error in index.theme.in (Luca Ferretti)
+* Renamed volume-knob to multimedia-volume-control to match naming spec
+  (Rodney Dawes)
+* Match color in 16px computer screen with larger versions
+  -- bug #165860 (Rodney Dawes)
+
+Changes since 2.13.5.1
 
 * Update a few icons to use hints from Tango Style Guidelines (Jakub Steiner)
 * Fix some icons being installed to wrong size locations (Rodney Dawes)
