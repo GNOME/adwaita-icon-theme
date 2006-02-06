@@ -1,6 +1,12 @@
-Version 2.13.6
+Version 2.13.7
 
-* Requires icon-naming-utils 0.6.7 fore updates (Rodney Dawes)
+* Add in spinner animations to replace gnome-spinner images
+  (Jakub Steiner, Rodney Dawes)
+* Update scalable folders to match the pixmaps better (Jakub Steiner)
+ 
+Changes since 2.13.6
+
+* Require icon-naming-utils 0.6.7 for updates (Rodney Dawes)
 * Replace gnome-fs-regular with text-x-preview (Rodney Dawes)
 * Remove the old gnome-mime-application-x-gnome-saved-search icons that were
   replaced with the folder-saved-search icon (Rodney Dawes)
