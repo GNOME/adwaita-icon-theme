@@ -1,3 +1,13 @@
+2006-02-06  Rodney Dawes  <dobey@novell.com>
+
+	* configure.in:
+	* 16x16/Makefile.am:
+	* 16x16/animations/Makefile.am:
+	Add all the Makefile magic to install the animations
+
+	* 16x16/animations/process-idle.png: Single frame of the animation
+	for compatibility with gnome-spinner-rest
+
 2006-02-06  Jakub Steiner <jimmac@ximian.com>
 
 	* scalable/places/folder-remote.svg
