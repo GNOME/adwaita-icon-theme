@@ -7,6 +7,7 @@ iconsdir = $(themedir)/$(size)/$(context)
 icons_DATA =			\
 	folder.png		\
 	folder-remote.png	\
+	folder-saved-search.png	\
 	network-server.png	\
 	network-workgroup.png	\
 	user-desktop.png	\
