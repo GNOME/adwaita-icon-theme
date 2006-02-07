@@ -9,7 +9,6 @@ icons_DATA =			\
 	folder-drag-accept.svg	\
 	folder-visiting.icon	\
 	folder-visiting.svg	\
-	user-trash-full.icon	\
 	user-trash-full.svg
 
 EXTRA_DIST =		\
