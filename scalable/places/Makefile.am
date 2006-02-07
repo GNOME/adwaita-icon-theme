@@ -5,6 +5,7 @@ context = places
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =			\
+	folder.icon		\
 	folder.svg		\
 	folder-remote.svg		\
 	folder-saved-search.svg		\

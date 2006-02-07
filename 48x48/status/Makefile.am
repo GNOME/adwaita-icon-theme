@@ -10,10 +10,6 @@ icons_DATA =				\
 	dialog-error.png		\
 	dialog-information.png		\
 	dialog-warning.png		\
-	folder-drag-accept.png		\
-	folder-drag-accept.icon		\
-	folder-visiting.png		\
-	folder-visiting.icon		\
 	user-trash-full.png		\
 	weather-clear.png		\
 	weather-clear-night.png		\
