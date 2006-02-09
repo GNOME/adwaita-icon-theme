@@ -8,6 +8,7 @@ icons_DATA =				\
 	evolution.png			\
 	gnome-logout.png		\
 	gnome-run.png			\
+	gnome-shutdown.png	\
 	gnome-window-manager.png	\
 	help-browser.png		\
 	image-viewer.png		\

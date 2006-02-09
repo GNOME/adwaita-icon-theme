@@ -5,6 +5,7 @@ iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
 	evolution.svg			\
+	gnome-shutdown.svg	\
 	multimedia-volume-control.svg
 
 EXTRA_DIST =		\

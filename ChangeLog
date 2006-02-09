@@ -1,5 +1,12 @@
 2006-02-09  Jakub Steiner <jimmac@ximian.com>
 
+	* 16x16/apps/gnome-shutdown.png:
+	* 22x22/apps/gnome-shutdown.png:
+	* 24x24/apps/gnome-shutdown.png:
+	* scalable/apps/gnome-shutdown.svg: fixes bug #330520
+
+2006-02-09  Jakub Steiner <jimmac@ximian.com>
+
 	* 24x24/devices: can't do 24 from 22 as it would mean depending on
 		imagemagick. doing manually for now.
 
