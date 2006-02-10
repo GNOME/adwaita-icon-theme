@@ -11,6 +11,7 @@ icons_DATA =				\
 	im-jabber.svg	\
 	im-msn.svg	\
 	im-nov.svg	\
+	im-yahoo.svg	\
 	multimedia-volume-control.svg	\
 	web-browser.svg
 
