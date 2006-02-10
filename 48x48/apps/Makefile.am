@@ -73,7 +73,6 @@ icon_DATA =\
 	gnome-system.png \
 	gnome-system-config.png \
 	gnome-starthere.png \
-	gnome-shutdown.png \
 	gnome-terminal.png \
 	gnome-util.png \
 	gnome-unknown.png \
