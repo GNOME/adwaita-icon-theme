@@ -79,6 +79,7 @@ icons_DATA =				\
 	im-icq.png	\
 	im-jabber.png	\
 	im-msn.png	\
+	im-nov.png	\
 	multimedia-volume-control.png	\
 	ooo_calc.png			\
 	ooo_draw.png			\

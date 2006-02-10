@@ -10,6 +10,7 @@ icons_DATA =				\
 	im-icq.svg	\
 	im-jabber.svg	\
 	im-msn.svg	\
+	im-nov.svg	\
 	multimedia-volume-control.svg	\
 	web-browser.svg
 
