@@ -75,6 +75,10 @@ icons_DATA =				\
 	gnome-unknown.png		\
 	gnome-window-manager.png	\
 	image-viewer.png		\
+	im-aim.png	\
+	im-icq.png	\
+	im-jabber.png	\
+	im-msn.png	\
 	multimedia-volume-control.png	\
 	ooo_calc.png			\
 	ooo_draw.png			\

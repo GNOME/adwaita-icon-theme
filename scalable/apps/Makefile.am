@@ -6,6 +6,10 @@ iconsdir = $(themedir)/$(size)/$(context)
 icons_DATA =				\
 	evolution.svg			\
 	gnome-shutdown.svg	\
+	im-aim.svg	\
+	im-icq.svg	\
+	im-jabber.svg	\
+	im-msn.svg	\
 	multimedia-volume-control.svg	\
 	web-browser.svg
 

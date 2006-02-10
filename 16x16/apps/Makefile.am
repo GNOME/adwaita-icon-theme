@@ -12,6 +12,13 @@ icons_DATA =				\
 	gnome-window-manager.png	\
 	help-browser.png		\
 	image-viewer.png		\
+	im.png	\
+	im-aim.png	\
+	im-icq.png	\
+	im-jabber.png	\
+	im-msn.png	\
+	im-nov.png	\
+	im-yahoo.png	\
 	multimedia-volume-control.png	\
 	panel-notification-area.png	\
 	panel-window-list.png		\

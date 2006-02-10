@@ -81,12 +81,6 @@ icon_DATA =\
 	hwbrowser.png \
 	iagno.png \
 	im.png   \
-	im-aim.png   \
-	im-icq.png   \
-	im-jabber.png  \
-	im-msn.png   \
-	im-nov.png  \
-	im-yahoo.png   \
 	image-viewer.png	\
 	keyboard.png \
 	launcher-program.png \
