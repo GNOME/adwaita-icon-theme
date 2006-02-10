@@ -108,7 +108,6 @@ icon_DATA =\
 	user-info.png  \
 	visor.png   \
 	wallpaper.png  \
-	web-browser.png \
 	wine.png \
 	xchat.png \
 	xsane.png \

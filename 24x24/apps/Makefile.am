@@ -93,7 +93,8 @@ icons_DATA =				\
 	shares.png			\
 	stock-ticker.png		\
 	text-editor.png			\
-	tsclient.png
+	tsclient.png		\
+	web-browser.png
 
 EXTRA_DIST =		\
 	$(icons_DATA)
