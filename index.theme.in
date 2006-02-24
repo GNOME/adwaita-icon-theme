@@ -96,12 +96,16 @@ Type=Fixed
 [48x48/filesystems]
 Size=48
 Context=FileSystems
-Type=Fixed
+Type=Scalable
+MinSize=16
+MaxSize=48
 
 [48x48/mimetypes]
 Size=48
 Context=MimeTypes
-Type=Fixed
+Type=Scalable
+MinSize=16
+MaxSize=48
 
 [48x48/stock/code]
 Size=48

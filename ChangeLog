@@ -1,3 +1,9 @@
+2006-02-23  Rodney Dawes  <dobey@novell.com>
+
+	* index.theme.in: Revert back to using Scalable type for filesystems
+	and mimetypes at the 48x48 size to work around icons missing in the
+	smaller sizes
+
 2006-02-11  Rodney Dawes  <dobey@novell.com>
 
 	* NEWS:
