@@ -22,7 +22,8 @@ icons_DATA =				\
 	media-playlist-repeat.png	\
 	media-playlist-shuffle.png	\
 	network-wireless-encrypted.png	\
-	user-trash-full.png
+	user-trash-full.png		\
+	weather-clear.png
 
 EXTRA_DIST =				\
 	$(icons_DATA)

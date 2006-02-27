@@ -11,7 +11,6 @@ icons_DATA =				\
 	dialog-information.png		\
 	dialog-warning.png		\
 	user-trash-full.png		\
-	weather-clear.png		\
 	weather-clear-night.png		\
 	weather-few-clouds.png		\
 	weather-few-clouds-night.png	\
