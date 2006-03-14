@@ -81,7 +81,8 @@ Type=Fixed
 [48x48/apps]
 Size=48
 Context=Applications
-Type=Fixed
+Type=Scalable
+MaxSize=48
 
 [48x48/devices]
 Size=48
@@ -97,14 +98,12 @@ Type=Fixed
 Size=48
 Context=FileSystems
 Type=Scalable
-MinSize=16
 MaxSize=48
 
 [48x48/mimetypes]
 Size=48
 Context=MimeTypes
 Type=Scalable
-MinSize=16
 MaxSize=48
 
 [48x48/stock/code]
