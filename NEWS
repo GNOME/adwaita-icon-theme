@@ -1,3 +1,9 @@
+Version 2.14.2
+
+* Make 48x48/apps Scalable as well (Rodney Dawes)
+* Remove MinSize setting from 48x48 contexts set as Scalable
+  -- bug #332894 (Rodney Dawes)
+
 Version 2.14.1
 
 * Revert to using Scalable for 48x48/{filesystems,mimetypes} (Rodney Dawes)
