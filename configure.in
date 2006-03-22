@@ -17,7 +17,7 @@ AC_SUBST([LN_S])
 GETTEXT_PACKAGE="${PACKAGE}"
 AC_SUBST(GETTEXT_PACKAGE)
 
-ALL_LINGUAS="am ar az be bg bn bs ca cs cy da de el en_CA en_GB es et eu fa fi fr ga gl gu he hi hr hu id is it ja kn ko li lt lv mk ml mn ms nb ne nl nn no pa pl pt pt_BR ro ru rw sk sl sq sr sr@Latn sv ta te th tk tr uk vi wa xh zh_CN zh_TW"
+ALL_LINGUAS="am ar az be bg bn bs ca cs cy da de el en_CA en_GB es et eu fa fi fr ga gl gu he hi hr hu id is it jai ka kn ko li lt lv mk ml mn ms nb ne nl nn no pa pl pt pt_BR ro ru rw sk sl sq sr sr@Latn sv ta te th tk tr uk vi wa xh zh_CN zh_TW"
 AM_GLIB_GNU_GETTEXT
 
 # AM_GLIB_GNU_GETTEXT above subst. $DATADIRNAME
