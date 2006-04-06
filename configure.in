@@ -47,6 +47,7 @@ AC_CONFIG_FILES([
 Makefile
 gnome-icon-theme.pc
 16x16/Makefile
+22x22/Makefile
 24x24/Makefile
 48x48/Makefile
 scalable/Makefile
@@ -75,6 +76,13 @@ scalable/Makefile
 16x16/stock/object/Makefile
 16x16/stock/table/Makefile
 16x16/stock/text/Makefile
+22x22/actions/Makefile
+22x22/animations/Makefile
+22x22/apps/Makefile
+22x22/devices/Makefile
+22x22/mimetypes/Makefile
+22x22/places/Makefile
+22x22/status/Makefile
 24x24/actions/Makefile
 24x24/animations/Makefile
 24x24/apps/Makefile
