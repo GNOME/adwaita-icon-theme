@@ -34,15 +34,6 @@ icon_DATA =					\
 	stock_summary.png 			\
 	stock_timezone.png 			\
 	stock_unknown.png			\
-	stock_weather-cloudy.png 		\
-	stock_weather-few-clouds.png 		\
-	stock_weather-fog.png 			\
-	stock_weather-night-clear.png		\
-	stock_weather-night-few-clouds.png	\
-	stock_weather-showers.png 		\
-	stock_weather-snow.png 			\
-	stock_weather-storm.png 		\
-	stock_weather-sunny.png 		\
 	stock_web-calendar.png			\
 	$(NULL)
 
