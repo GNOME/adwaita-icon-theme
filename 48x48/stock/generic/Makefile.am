@@ -10,22 +10,16 @@ icon_DATA =					\
 	stock_autocompletion.png		\
 	stock_autopilot.png 			\
 	stock_briefcase.png			\
-	stock_calendar.png 			\
 	stock_calendar-and-tasks.png		\
 	stock_cell-phone.png 			\
 	stock_creditcard.png			\
-	stock_dialog-error.png			\
-	stock_dialog-info.png			\
-	stock_dialog-warning.png		\
 	stock_edit.png				\
 	stock_example.png 			\
-	stock_home.png				\
 	stock_id.png 				\
 	stock_init.png				\
 	stock_keyring.png			\
 	stock_landline-phone.png 		\
 	stock_news.png 				\
-	stock_new-appointment.png 		\
 	stock_new-24h-appointment.png 		\
 	stock_new-meeting.png 			\
 	stock_notebook.png 			\

@@ -23,19 +23,12 @@ icon_DATA =\
    stock_briefcase.png  \
    stock_calc-accept.png \
    stock_calc-cancel.png \
-   stock_calendar.png \
    stock_calendar-and-tasks.png \
    stock_cell-phone.png \
    stock_check-filled.png \
    stock_close.png \
    stock_color.png \
-   stock_copy.png \
-   stock_cut.png \
    stock_default-folder.png \
-   stock_delete.png \
-   stock_dialog-error.png  \
-   stock_dialog-info.png  \
-   stock_dialog-warning.png  \
    stock_drag-mode.png \
    stock_edit.png \
    stock_equals.png \
@@ -45,7 +38,6 @@ icon_DATA =\
    stock_file-properties.png \
    stock_flip-horizontally.png \
    stock_flip-vertically.png \
-   stock_folder.png \
    stock_folder-copy.png \
    stock_folder-move.png \
    stock_folder-properties.png \
@@ -59,29 +51,23 @@ icon_DATA =\
    stock_help-document.png \
    stock_help-pane-off.png \
    stock_help-pane-on.png \
-   stock_help.png \
-   stock_home.png \
    stock_id.png \
    stock_keyring.png \
    stock_landline-phone.png \
    stock_leave-fullscreen.png \
    stock_mark.png \
    stock_news.png \
-   stock_new-appointment.png \
    stock_new-24h-appointment.png \
    stock_new-dir.png \
    stock_new-meeting.png \
    stock_notebook.png \
    stock_notes.png \
    stock_openoffice.png \
-   stock_paste.png \
    stock_people.png \
    stock_person.png \
    stock_presentation-box.png \
    stock_presentation-styles.png \
    stock_properties.png \
-   stock_redo.png \
-   stock_refresh.png \
    stock_score-lowest.png \
    stock_score-lower.png \
    stock_score-low.png \
@@ -89,11 +75,8 @@ icon_DATA =\
    stock_score-high.png \
    stock_score-higher.png \
    stock_score-highest.png \
-   stock_search.png \
-   stock_search-and-replace.png \
    stock_send-fax.png \
    stock_show-all.png   \
-   stock_stop.png \
    stock_styles.png \
    stock_summary.png \
    stock_test-mode.png \
@@ -105,7 +88,6 @@ icon_DATA =\
    stock_toilet-paper.png \
    stock_trash_full.png \
    stock_undelete.png \
-   stock_undo.png \
    stock_unknown.png \
    stock_view-details.png \
    stock_web-calendar.png \
