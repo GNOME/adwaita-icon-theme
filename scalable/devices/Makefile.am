@@ -7,7 +7,8 @@ icons_DATA =	\
 	drive-cdrom.svg	\
 	drive-harddisk.svg	\
 	drive-removable-media.svg	\
-	media-cdrom.svg
+	media-cdrom.svg	\
+	video-display.svg	
 
 EXTRA_DIST = $(icons_DATA)
 
