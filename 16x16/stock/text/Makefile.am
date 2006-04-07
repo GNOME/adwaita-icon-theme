@@ -83,29 +83,19 @@ icon_DATA =\
    stock_styles-update-style.png \
    stock_subscript.png \
    stock_superscript.png \
-   stock_text_bold.png \
-   stock_text_center.png \
    stock_text_color_background.png \
    stock_text_color_foreground.png \
    stock_text_color_hilight.png \
    stock_text-direction-ltr.png \
    stock_text-direction-ttb.png \
    stock_text-double-click-to-edit.png \
-   stock_text_indent.png \
-   stock_text_italic.png \
-   stock_text_justify.png \
-   stock_text_left.png \
    stock_text-monospaced.png \
    stock_text-outline.png \
    stock_text-quickedit.png \
-   stock_text_right.png \
    stock_text-select-text-only.png \
    stock_text-shadow.png \
    stock_text-spacing.png \
-   stock_text-strikethrough.png \
    stock_text_underlined-double.png \
-   stock_text_underlined.png \
-   stock_text_unindent.png \
    stock_thesaurus.png \
    stock_to-background.png \
    stock_to-foreground.png \
