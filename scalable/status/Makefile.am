@@ -9,6 +9,7 @@ icons_DATA =			\
 	folder-drag-accept.svg	\
 	folder-visiting.icon	\
 	folder-visiting.svg	\
+	image-loading.svg		\
 	user-trash-full.svg	\
 	weather-clear.svg
 
