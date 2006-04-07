@@ -58,7 +58,6 @@ icon_DATA =\
    stock_mark.png \
    stock_news.png \
    stock_new-24h-appointment.png \
-   stock_new-dir.png \
    stock_new-meeting.png \
    stock_notebook.png \
    stock_notes.png \

@@ -12,24 +12,14 @@ icon_DATA =\
    stock_network-printer.png \
    stock_open.png \
    stock_open-read-only.png \
-   stock_print.png \
    stock_printers.png \
    stock_print-driver.png \
-   stock_print-preview.png \
    stock_print-preview-print.png \
    stock_print-setup.png \
    stock_reload.png \
-   stock_save-as.png \
    stock_save-pdf.png \
-   stock_save.png \
    stock_save-template.png \
    stock_up-one-dir.png \
 	$(NULL)
-
-install-data-hook:
-	$(INSTALL_DATA) $(srcdir)/stock_save-as.png $(DESTDIR)$(icondir)/stock_save_as.png
-
-uninstall-hook:
-	rm -f $(DESTDIR)$(icondir)/stock_save_as.png
 
 EXTRA_DIST = $(icon_DATA)

@@ -7,8 +7,6 @@ icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)/$(subtype)
 
 icon_DATA =\
    stock_addressbook.png \
-   stock_appointment-reminder-excl.png \
-   stock_appointment-reminder.png \
    stock_channel.png \
    stock_connect.png \
    stock_connect-to-url.png \
@@ -29,10 +27,8 @@ icon_DATA =\
    stock_link.png \
    stock_mail-accounts.png \
    stock_mail.png \
-   stock_mail-compose.png \
    stock_mail-copy.png \
    stock_mail-filters-apply.png \
-   stock_mail-forward.png \
    stock_mail-handling.png \
    stock_mail-import.png \
    stock_mail-merge.png \
@@ -41,21 +37,16 @@ icon_DATA =\
    stock_mail-open-multiple.png \
    stock_mail-receive.png \
    stock_mail-replied.png \
-   stock_mail-reply.png \
-   stock_mail-reply-to-all.png \
    stock_mail-send.png \
-   stock_mail-send-receive.png \
    stock_mail-unread.png \
    stock_mail-unread-multiple.png \
    stock_message-display.png \
-   stock_not-spam.png   \
    stock_online-layout.png \
    stock_outbox.png \
    stock_post-message.png \
    stock_sent-mail.png \
    stock_shared-by-me.png \
    stock_shared-to-me.png \
-   stock_spam.png \
    stock_video-conferencing.png \
 	$(NULL)
 

@@ -27,7 +27,6 @@ icon_DATA =\
    stock_3d-texture-parallel.png \
    stock_3d-texture.png \
    stock_3d-texture-spherical.png \
-   stock_add-bookmark.png \
    stock_auto-contour.png \
    stock_bookmark.png \
    stock_bring-backward.png \
@@ -67,7 +66,6 @@ icon_DATA =\
    stock_insert-text-frame.png \
    stock_interaction.png \
    stock_new-bcard.png \
-   stock_new-window.png \
    stock_object-behind.png \
    stock_object-infront.png \
    stock_pin.png \
