@@ -1,5 +1,11 @@
 2006-04-07  Rodney Dawes  <dobey@novell.com>
 
+	* */stock/media/Makefile.am:
+	* */stock/media/*.png: Removed some media icons that have been
+	superceded by icon names in other contexts	
+
+2006-04-07  Rodney Dawes  <dobey@novell.com>
+
 	* */stock/text/Makefile.am:
 	* */stock/text/stock_text*: Removed some text formatting icons that
 	have been superceded by formatting icons in the actions context
