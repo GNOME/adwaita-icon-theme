@@ -7,6 +7,7 @@ icons_DATA =	\
 	drive-cdrom.svg	\
 	drive-harddisk.svg	\
 	drive-removable-media.svg	\
+	input-keyboard.svg	\
 	media-cdrom.svg	\
 	video-display.svg	
 

@@ -11,6 +11,7 @@ icons_DATA =				\
 	drive-cdrom.png	\
 	drive-harddisk.png	\
 	drive-removable-media.png	\
+	input-keyboard.png	\
 	input-mouse.png			\
 	media-cdrom.png	\
 	media-floppy.png	\
