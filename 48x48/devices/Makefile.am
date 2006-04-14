@@ -5,10 +5,6 @@ context = devices
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
-	battery.png			\
-	computer.png			\
-	input-keyboard.png		\
-	input-mouse.png			\
 	media-floppy.png		\
 	media-jaz.png			\
 	media-zip.png			\
