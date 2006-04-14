@@ -4,10 +4,12 @@ context = devices
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =	\
+	battery.svg	\
 	drive-cdrom.svg	\
 	drive-harddisk.svg	\
 	drive-removable-media.svg	\
 	input-keyboard.svg	\
+	input-mouse.svg	\
 	media-cdrom.svg	\
 	video-display.svg	
 
