@@ -10,6 +10,7 @@ icons_DATA =	\
 	drive-removable-media.svg	\
 	input-keyboard.svg	\
 	input-mouse.svg	\
+	media-floppy.svg	\
 	media-cdrom.svg	\
 	video-display.svg	
 

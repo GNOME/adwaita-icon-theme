@@ -5,7 +5,6 @@ context = devices
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
-	media-floppy.png		\
 	media-jaz.png			\
 	media-zip.png			\
 	multimedia-player.png		\
