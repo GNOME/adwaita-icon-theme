@@ -4,6 +4,7 @@ context = apps
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
+	accessories-dictionary.png	\
 	gnome-shutdown.png		\
 	im-aim.png	\
 	im-icq.png	\
