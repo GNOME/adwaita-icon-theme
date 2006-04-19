@@ -4,15 +4,15 @@ context = apps
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
-	accessories-dictionary.png	\
+	accessories-dictionary.svg	\
 	evolution.svg			\
-	gnome-shutdown.svg	\
-	im-aim.svg	\
-	im-icq.svg	\
-	im-jabber.svg	\
-	im-msn.svg	\
-	im-nov.svg	\
-	im-yahoo.svg	\
+	gnome-shutdown.svg		\
+	im-aim.svg			\
+	im-icq.svg			\
+	im-jabber.svg			\
+	im-msn.svg			\
+	im-nov.svg			\
+	im-yahoo.svg			\
 	multimedia-volume-control.svg	\
 	web-browser.svg
 
