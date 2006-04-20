@@ -7,8 +7,7 @@ iconsdir = $(themedir)/$(size)/$(context)
 icons_DATA =				\
 	media-jaz.png			\
 	media-zip.png			\
-	multimedia-player.png		\
-	printer.png
+	multimedia-player.png	
 
 EXTRA_DIST =				\
 	$(icons_DATA)

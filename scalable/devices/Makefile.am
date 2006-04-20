@@ -12,6 +12,7 @@ icons_DATA =	\
 	input-mouse.svg	\
 	media-floppy.svg	\
 	media-cdrom.svg	\
+	printer.svg	\
 	video-display.svg	
 
 EXTRA_DIST = $(icons_DATA)
