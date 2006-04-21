@@ -1,0 +1,23 @@
+
+size = scalable
+context = actions
+iconsdir = $(themedir)/$(size)/$(context)
+
+icons_DATA =				\
+	edit-find.svg		\
+	edit-find-replace.svg		\
+	document-print.svg	\
+	document-print-preview.svg	\
+	document-save.svg		\
+	document-save-as.svg		\
+	edit-delete.svg
+
+EXTRA_DIST =		\
+	$(icons_DATA)
+
+MAINTAINERCLEANFILES =	\
+	Makefile.in
+
+install-data-local: install-iconsDATA
+	(cd $(DESTDIR)$(themedir)/$(size) && $(ICONMAP) -c $(context))
+
