@@ -10,7 +10,10 @@ icons_DATA =				\
 	document-print-preview.svg	\
 	document-save.svg		\
 	document-save-as.svg		\
-	edit-delete.svg
+	edit-delete.svg	\
+	zoom-in.svg	\
+	zoom-original.svg	\
+	zoom-out.svg	
 
 EXTRA_DIST =		\
 	$(icons_DATA)
