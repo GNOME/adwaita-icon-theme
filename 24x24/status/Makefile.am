@@ -19,6 +19,7 @@ icons_DATA =				\
 	folder-open.png			\
 	folder-visiting.png		\
 	folder-visiting.icon		\
+	image-loading.png		\
 	media-playlist-repeat.png	\
 	media-playlist-shuffle.png	\
 	network-wireless-encrypted.png	\

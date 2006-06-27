@@ -5,12 +5,14 @@ context = status
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
+	dialog-error.png	\
 	folder-drag-accept.png		\
 	folder-open.png			\
 	folder-visiting.png		\
 	image-loading.png		\
 	media-playlist-repeat.png	\
 	media-playlist-shuffle.png	\
+	network-wireless-encrypted.png	\
 	user-trash-full.png		\
 	weather-clear.png		\
 	weather-clear-night.png
