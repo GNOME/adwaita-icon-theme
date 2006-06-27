@@ -4,12 +4,17 @@ context = apps
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
+	accessibility-directory.png	\
 	accessories-dictionary.png	\
 	accessories-text-editor.png	\
+	applets-screenshooter.png	\
+	boot.png	\
 	evolution.png			\
 	gnome-logout.png		\
+	gnome-monitor.png	\
 	gnome-run.png			\
 	gnome-shutdown.png	\
+	gnome-session.png	\
 	gnome-window-manager.png	\
 	help-browser.png		\
 	image-viewer.png		\
