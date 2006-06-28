@@ -61,7 +61,6 @@ icon_DATA =\
 	gnome-server-config.png \
 	gnome-session.png \
 	gnome-settings.png \
-	gnome-settings-background.png \
 	gnome-settings-font.png \
 	gnome-settings-keybindings.png \
 	gnome-settings-ui-behavior.png \
@@ -101,7 +100,6 @@ icon_DATA =\
 	tsclient.png \
 	user-info.png  \
 	visor.png   \
-	wallpaper.png  \
 	wine.png \
 	xsane.png \
 	$(NULL)

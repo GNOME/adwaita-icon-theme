@@ -63,7 +63,6 @@ icons_DATA =				\
 	gnome-searchtool.png		\
 	gnome-session.png		\
 	gnome-settings.png		\
-	gnome-settings-background.png	\
 	gnome-settings-font.png		\
 	gnome-settings-keybindings.png	\
 	gnome-settings-sound.png	\

@@ -1,5 +1,5 @@
 
-size = 16x16
+size = 22x22
 context = categories
 
 iconsdir = $(themedir)/$(size)/$(context)

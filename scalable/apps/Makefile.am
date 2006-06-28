@@ -14,6 +14,7 @@ icons_DATA =				\
 	im-nov.svg			\
 	im-yahoo.svg			\
 	multimedia-volume-control.svg	\
+	preferences-desktop-wallpaper.svg	\
 	web-browser.svg
 
 EXTRA_DIST =		\

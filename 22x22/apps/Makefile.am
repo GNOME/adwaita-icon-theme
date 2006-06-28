@@ -1,5 +1,5 @@
 
-size = 24x24
+size = 22x22
 context = apps
 iconsdir = $(themedir)/$(size)/$(context)
 
@@ -17,6 +17,7 @@ icons_DATA =				\
 	im-msn.png	\
 	im-nov.png	\
 	im-yahoo.png	\
+	preferences-desktop-wallpaper.png	\
 	web-browser.png
 
 EXTRA_DIST =		\

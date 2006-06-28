@@ -1,5 +1,23 @@
 2006-06-28  Rodney Dawes  <dobey@novell.com>
 
+	* */apps/Makefile.am:
+	* */apps/gnome-settings-background.*
+	* */apps/wallpaper.*:
+
+	Removed these old poorly named icons
+
+	* */apps/Makefile.am:
+	* */apps/preferences-desktop-wallpaper.*:
+
+	Add this icon from Andreas Nilsson
+
+	Fixes #313643
+
+	* 22x22/categories/Makefile.am: Fix the size here so that icons are
+	installing to the proper size directory in the theme
+	
+2006-06-28  Rodney Dawes  <dobey@novell.com>
+
 	* 48x48/apps/Makefile.am:
 	* 48x48/apps/xchat.png:
 	Remove this icon, as it should be installed by xchat itself

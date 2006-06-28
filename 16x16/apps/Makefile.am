@@ -29,7 +29,9 @@ icons_DATA =				\
 	panel-notification-area.png	\
 	panel-window-list.png		\
 	panel-window-menu.png		\
-	preferences-desktop-locale.png
+	preferences-desktop-locale.png	\
+	preferences-desktop-wallpaper.png	\
+	web-browser.png
 
 EXTRA_DIST = $(icons_DATA)
 
