@@ -103,7 +103,6 @@ icon_DATA =\
 	visor.png   \
 	wallpaper.png  \
 	wine.png \
-	xchat.png \
 	xsane.png \
 	$(NULL)
 
