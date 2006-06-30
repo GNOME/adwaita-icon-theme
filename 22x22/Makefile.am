@@ -4,6 +4,7 @@ SUBDIRS =		\
 	apps		\
 	categories	\
 	devices		\
+	emblems	\
 	mimetypes	\
 	places		\
 	status		

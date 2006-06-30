@@ -70,7 +70,6 @@ icons_DATA =				\
 	gnome-settings-ui-behavior.png	\
 	gnome-shutdown.png		\
 	gnome-status.png		\
-	gnome-terminal.png		\
 	gnome-unknown.png		\
 	gnome-window-manager.png	\
 	image-viewer.png		\

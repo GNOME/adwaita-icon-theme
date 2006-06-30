@@ -1,13 +1,12 @@
 NULL=
 
-iconsize=24x24
+iconsize=32x32
 category=emblems
 icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
 
 icon_DATA =\
+	emblem-important.png \
 	emblem-favorite.png	\
-	emblem-important.png	\
-	emblem-symbolic-link.png \
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)
