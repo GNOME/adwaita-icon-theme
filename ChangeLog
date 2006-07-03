@@ -1,3 +1,15 @@
+2006-07-03  Rodney Dawes  <dobey@novell.com>
+
+	* configure.in: Add scalable/categories to output
+
+	* scalable/Makefile.am: Add categories as a subdir
+
+	* scalable/categories/Makefile.am:
+	* scalable/categories/applications-internet.svg:
+	Add a scalable applications-internet to the repo
+
+	Fixes #164068
+
 2006-06-30  Jakub Steiner <jimmac@ximian.com>
 
 	* emblem-important, emblem-favorite: add properly sized emblem 
