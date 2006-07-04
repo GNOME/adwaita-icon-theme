@@ -6,7 +6,6 @@ icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
 svgdir = $(icondir)
 
 icon_in_files =\
-	emblem-bin.icon.in \
 	emblem-favorite.icon.in \
 	emblem-generic.icon.in \
 	emblem-important.icon.in \
