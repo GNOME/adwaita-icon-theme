@@ -8,7 +8,6 @@ icons_DATA =				\
 	accessories-dictionary.png	\
 	applets-screenshooter.png	\
 	boot.png	\
-	gnome-monitor.png	\
 	gnome-shutdown.png		\
 	gnome-session.png	\
 	im-aim.png	\
@@ -18,6 +17,7 @@ icons_DATA =				\
 	im-nov.png	\
 	im-yahoo.png	\
 	preferences-desktop-wallpaper.png	\
+	utilities-system-monitor.png	\
 	web-browser.png
 
 EXTRA_DIST =		\

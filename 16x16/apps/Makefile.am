@@ -11,7 +11,6 @@ icons_DATA =				\
 	boot.png	\
 	evolution.png			\
 	gnome-logout.png		\
-	gnome-monitor.png	\
 	gnome-run.png			\
 	gnome-shutdown.png	\
 	gnome-session.png	\
@@ -31,6 +30,7 @@ icons_DATA =				\
 	panel-window-menu.png		\
 	preferences-desktop-locale.png	\
 	preferences-desktop-wallpaper.png	\
+	utilities-system-monitor.png	\
 	web-browser.png
 
 EXTRA_DIST = $(icons_DATA)

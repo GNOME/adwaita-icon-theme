@@ -46,7 +46,6 @@ icon_DATA =\
 	gnome-lockscreen.png \
 	gnome-logout.png  \
 	gnome-media-player.png \
-	gnome-monitor.png \
 	gnome-multimedia.png \
 	gnome-networktool.png \
 	gnome-nibbles.png \

@@ -47,7 +47,6 @@ icons_DATA =				\
 	gnome-mini-commander.png	\
 	gnome-modem.png			\
 	gnome-money.png			\
-	gnome-monitor.png		\
 	gnome-multimedia.png		\
 	gnome-netstatus-disconn.png	\
 	gnome-netstatus-error.png	\
@@ -97,7 +96,8 @@ icons_DATA =				\
 	shares.png			\
 	stock-ticker.png		\
 	text-editor.png			\
-	tsclient.png		\
+	tsclient.png			\
+	utilities-system-monitor.png	\
 	web-browser.png
 
 EXTRA_DIST =		\

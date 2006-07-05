@@ -1,3 +1,12 @@
+2006-07-05  Rodney Dawes  <dobey@novell.com>
+
+	* */apps/Makefile.am:
+	* */apps/gnome-monitor.*:
+	* */apps/utilities-system-monitor.*:
+	Replace gnome-monitor with a redrawn utilities-system-monitor icon
+
+	Fixes #306537
+
 2006-07-05  Jakub Steiner <jimmac@ximian.com>
 
 	* scalable/emblems/Makefile.am: forgot to remove emblem-bin. bug
