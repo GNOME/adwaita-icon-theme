@@ -36,7 +36,6 @@ icon_DATA =\
 	gnome-favorites.png \
 	gnome-finance.png \
 	gnome-ftp.png \
-	gnome-globe.png \
 	gnome-gnomine.png \
 	gnome-graphics.png \
 	gnome-grecord.png \

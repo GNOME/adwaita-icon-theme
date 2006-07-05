@@ -1,6 +1,12 @@
 2006-07-05  Rodney Dawes  <dobey@novell.com>
 
 	* */apps/Makefile.am:
+	* */apps/gnome-globe.*:
+	Removed gnome-globe as it's replaced by applications-internet
+
+2006-07-05  Rodney Dawes  <dobey@novell.com>
+
+	* */apps/Makefile.am:
 	* */apps/gnome-monitor.*:
 	* */apps/utilities-system-monitor.*:
 	Replace gnome-monitor with a redrawn utilities-system-monitor icon

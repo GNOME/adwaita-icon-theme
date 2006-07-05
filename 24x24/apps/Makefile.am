@@ -36,7 +36,6 @@ icons_DATA =				\
 	gnome-eyes.png			\
 	gnome-favorites.png		\
 	gnome-finance.png		\
-	gnome-globe.png			\
 	gnome-gnomine.png		\
 	gnome-graphics.png		\
 	gnome-gsame.png			\
