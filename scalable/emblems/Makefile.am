@@ -19,7 +19,6 @@ icon_DATA =\
 	$(NULL)
 
 svg_DATA =\
-	emblem-bin.svg \
 	emblem-favorite.svg \
 	emblem-generic.svg \
 	emblem-important.svg \
