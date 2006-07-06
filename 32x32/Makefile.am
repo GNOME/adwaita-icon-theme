@@ -1,5 +1,5 @@
 SUBDIRS =		\
-	emblems	status	
+	emblems	places status	
 
 MAINTAINERCLEANFILES =	\
 	Makefile.in
