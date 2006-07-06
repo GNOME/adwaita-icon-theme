@@ -12,8 +12,7 @@ icons_DATA =	\
 	input-mouse.png	\
 	media-floppy.png	\
 	media-cdrom.png	\
-	printer.png	\
-	video-display.png	
+	printer.png
 
 EXTRA_DIST = $(icons_DATA)
 

@@ -1,15 +1,11 @@
 
 size = 32x32
-context = places
+context = apps
 
 iconsdir = $(themedir)/$(size)/$(context)
 
-icons_DATA =			\
-	folder.png		\
-	folder-remote.png		\
-	folder-saved-search.png		\
-	user-home.png		\
-	user-trash.png
+icons_DATA =				\
+	utilities-system-monitor.svg
 
 EXTRA_DIST =		\
 	$(icons_DATA)

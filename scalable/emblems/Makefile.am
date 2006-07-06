@@ -24,7 +24,6 @@ svg_DATA =\
 	emblem-important.svg \
 	emblem-mail.svg \
 	emblem-special.svg \
-	emblem-symbolic-link.svg	\
 	emblem-urgent.svg \
 	$(NULL)
 
