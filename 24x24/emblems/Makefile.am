@@ -11,3 +11,6 @@ icon_DATA =\
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)
+
+install-data-local: install-iconsDATA
+	(cd $(DESTDIR)$(themedir)/$(size) && $(ICONMAP) -c $(context))

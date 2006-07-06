@@ -1,5 +1,12 @@
 2006-07-06  Rodney Dawes  <dobey@novell.com>
 
+	* */emblems/Makefile.am: Add missing rule to run the icon-name-mapping
+	script for all the emblem icons
+
+	Fixes #346306
+
+2006-07-06  Rodney Dawes  <dobey@novell.com>
+
 	* Makefile.am: Add 32x32 to SUBDIRS
 
 	* configure.in: Add 32x32/apps and 32x32/places

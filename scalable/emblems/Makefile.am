@@ -32,3 +32,6 @@ svg_DATA =\
 EXTRA_DIST = $(icon_in_files) $(svg_DATA)
 
 CLEANFILES = $(icon_DATA)
+
+install-data-local: install-iconsDATA
+	(cd $(DESTDIR)$(themedir)/$(size) && $(ICONMAP) -c $(context))
