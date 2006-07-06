@@ -1,5 +1,14 @@
 2006-07-06  Rodney Dawes  <dobey@novell.com>
 
+	* scalable/places/Makefile.am:
+	* scalable/places/folder-remote.icon:
+	Add folder-remote.icon to specify emblem placement to match that
+	of the standard folder icon
+
+	Bug #309113
+
+2006-07-06  Rodney Dawes  <dobey@novell.com>
+
 	* 24x24/apps/Makefile.am:
 	* 48x48/apps/Makefile.am:
 	Update for removed icons

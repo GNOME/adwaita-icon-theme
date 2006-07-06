@@ -7,8 +7,9 @@ iconsdir = $(themedir)/$(size)/$(context)
 icons_DATA =			\
 	folder.icon		\
 	folder.svg		\
-	folder-remote.svg		\
-	folder-saved-search.svg		\
+	folder-remote.icon	\
+	folder-remote.svg	\
+	folder-saved-search.svg	\
 	user-home.svg		\
 	user-trash.svg
 
