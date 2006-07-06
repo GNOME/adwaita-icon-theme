@@ -5,6 +5,7 @@ context = mimetypes
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
+	application-x-executable.png	\
 	audio-x-generic.png		\
 	font-x-generic.png		\
 	image-x-generic.png		\

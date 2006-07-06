@@ -7,6 +7,7 @@ icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
 icon_DATA =\
 	emblem-important.png \
 	emblem-favorite.png	\
+	emblem-symbolic-link.png	\
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)
