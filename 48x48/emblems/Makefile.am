@@ -1,8 +1,8 @@
 NULL=
 
-iconsize=48x48
-category=emblems
-icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
+size = 48x48
+context = emblems
+iconsdir = $(themedir)/$(size)/$(context)
 pngdir = $(icondir)
 
 icon_in_files =				\
@@ -45,7 +45,7 @@ icon_in_files =				\
 	emblem-web.icon.in		\
 	$(NULL)
 
-icon_DATA = $(icon_in_files:.icon.in=.icon)
+icons_DATA = $(icon_in_files:.icon.in=.icon)
 
 png_DATA =				\
 	emblem-art.png			\
@@ -91,7 +91,7 @@ png_DATA =				\
 
 EXTRA_DIST = $(icon_in_files) $(png_DATA)
 
-CLEANFILES = $(icon_DATA)
+CLEANFILES = $(icons_DATA)
 
 install-data-local: install-iconsDATA
 	(cd $(DESTDIR)$(themedir)/$(size) && $(ICONMAP) -c $(context))

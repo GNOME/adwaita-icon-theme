@@ -1,8 +1,8 @@
 NULL=
 
-iconsize=scalable
-category=emblems
-icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
+size = scalable
+context = emblems
+iconsdir = $(themedir)/$(size)/$(context)
 svgdir = $(icondir)
 
 icon_in_files =\
@@ -14,7 +14,7 @@ icon_in_files =\
 	emblem-urgent.icon.in \
 	$(NULL)
 
-icon_DATA =\
+icons_DATA =\
 	$(icon_in_files:.icon.in=.icon)
 	$(NULL)
 
@@ -32,7 +32,7 @@ svg_DATA =				\
 
 EXTRA_DIST = $(icon_in_files) $(svg_DATA)
 
-CLEANFILES = $(icon_DATA)
+CLEANFILES = $(icons_DATA)
 
 install-data-local: install-iconsDATA
 	(cd $(DESTDIR)$(themedir)/$(size) && $(ICONMAP) -c $(context))

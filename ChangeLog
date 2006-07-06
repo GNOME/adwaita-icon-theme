@@ -1,5 +1,16 @@
 2006-07-06  Jakub Steiner <jimmac@ximian.com>
 
+	* 16x16/emblems/Makefile.am:
+	* 22x22/emblems/Makefile.am: 
+	* 24x24/emblems/Makefile.am: 
+	* 32x32/emblems/Makefile.am: 
+	* 48x48/emblems/Makefile.am: 
+	* scalable/emblems/Makefile.am: not really knowing what I'm doing,
+	but mimicking how the file looks elsewhere. Won't build otherwise
+	for me, complaining about missing target `install-iconsDATA'.
+
+2006-07-06  Jakub Steiner <jimmac@ximian.com>
+
 	* 48x48/emblems/emblem-symbolic-link: removed the old style link
 		(is a scalable now).
 	

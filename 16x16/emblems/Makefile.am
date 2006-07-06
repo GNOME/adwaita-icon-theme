@@ -1,16 +1,19 @@
 NULL=
 
-iconsize=16x16
-category=emblems
-icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)
+size = 16x16
+context = emblems
+iconsdir = $(themedir)/$(size)/$(context)
 
-icon_DATA =\
+icons_DATA =\
 	emblem-favorite.png	\
 	emblem-important.png \
 	emblem-symbolic-link.png	\
 	$(NULL)
 
-EXTRA_DIST = $(icon_DATA)
+EXTRA_DIST = $(icons_DATA)
+
+MAINTAINERCLEANFILES =			\
+	Makefile.in
 
 install-data-local: install-iconsDATA
 	(cd $(DESTDIR)$(themedir)/$(size) && $(ICONMAP) -c $(context))
