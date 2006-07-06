@@ -41,7 +41,6 @@ icon_in_files =				\
 	emblem-sales.icon.in		\
 	emblem-shared.icon.in		\
 	emblem-sound.icon.in		\
-	emblem-symbolic-link.icon.in	\
 	emblem-trash.icon.in		\
 	emblem-web.icon.in		\
 	$(NULL)
@@ -84,7 +83,6 @@ png_DATA =				\
 	emblem-sales.png		\
 	emblem-shared.png		\
 	emblem-sound.png		\
-	emblem-symbolic-link.png	\
 	emblem-trash.png		\
 	emblem-web.png			\
 	$(NULL)
