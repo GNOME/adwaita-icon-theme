@@ -5,6 +5,8 @@ context = status
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =			\
+	dialog-error.svg	\
+	dialog-warning.svg	\
 	folder-drag-accept.icon	\
 	folder-drag-accept.svg	\
 	folder-open.icon	\
