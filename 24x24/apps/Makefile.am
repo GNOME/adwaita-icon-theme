@@ -9,9 +9,7 @@ icons_DATA =				\
 	advanced-directory.png		\
 	apacheconf.png			\
 	applets-screenshooter.png	\
-	beep-media-player.png		\
 	boot.png			\
-	burner.png			\
 	character-picker.png		\
 	clock.png			\
 	config-language.png		\

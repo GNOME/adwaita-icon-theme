@@ -11,7 +11,6 @@ icon_DATA =\
 	apacheconf.png \
 	applets-screenshooter.png \
 	beast.png   \
-	burner.png	\
 	character-picker.png \
 	clock.png \
 	config-date.png \
@@ -23,7 +22,6 @@ icon_DATA =\
 	drawer.png \
 	eyes.png \
 	file-manager.png \
-	file-roller.png \
 	gdict.png \
 	gdm.png \
 	gnome-amusements.png \

@@ -1,5 +1,14 @@
 2006-07-06  Rodney Dawes  <dobey@novell.com>
 
+	* 24x24/apps/Makefile.am:
+	* 48x48/apps/Makefile.am:
+	Update for removed icons
+
+	* scalable/emblems/Makefile.am:
+	Add emblem-symbolic-link back now that it exists
+
+2006-07-06  Rodney Dawes  <dobey@novell.com>
+
         * */apps/beep-media-player.*:
         * */apps/burner.*:
         Remove these icons
