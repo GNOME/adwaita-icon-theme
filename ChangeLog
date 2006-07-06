@@ -1,3 +1,16 @@
+2006-07-06  Rodney Dawes  <dobey@novell.com>
+
+        * */apps/beep-media-player.*:
+        * */apps/burner.*:
+        Remove these icons
+
+        * 24x24/apps/gnome-shutdown.xcf.bz2:
+        This 24x24 icon is generated from the 22x22 now
+
+        * 48x48/apps/file-roller.*:
+        Don't need to ship the same icon as the app, in the theme, and the
+        icon should be shipped with the app anyway
+
 2006-07-06  Jakub Steiner <jimmac@ximian.com>
 
 	* 24x24/mimetypes/application-x-executable.png,
