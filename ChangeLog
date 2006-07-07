@@ -1,3 +1,11 @@
+2006-07-07  Rodney Dawes  <dobey@novell.com>
+
+	* 48x48/emblems/Makefile.am: Don't run the mapping script here, this
+	folder is going away soon, and has old names anyway
+
+	* scalable/emblems/Makefile.am: Depend on both the SVG files and icon
+	files being installed here, for the mapping rule
+
 2006-07-07  Jakub Steiner <jimmac@ximian.com>
 
 	* 48x48/emblems/Makefile.am:

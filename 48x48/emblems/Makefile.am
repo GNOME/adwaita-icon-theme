@@ -92,6 +92,3 @@ png_DATA =				\
 EXTRA_DIST = $(icon_in_files) $(png_DATA)
 
 CLEANFILES = $(icons_DATA)
-
-install-data-local: install-iconsDATA
-	(cd $(DESTDIR)$(themedir)/$(size) && $(ICONMAP) -c $(context))
