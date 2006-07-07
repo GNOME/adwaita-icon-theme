@@ -3,7 +3,7 @@ NULL=
 size = 48x48
 context = emblems
 iconsdir = $(themedir)/$(size)/$(context)
-pngdir = $(icondir)
+pngdir = $(iconsdir)
 
 icon_in_files =				\
 	emblem-art.icon.in		\

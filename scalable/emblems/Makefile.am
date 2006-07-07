@@ -3,7 +3,7 @@ NULL=
 size = scalable
 context = emblems
 iconsdir = $(themedir)/$(size)/$(context)
-svgdir = $(icondir)
+svgdir = $(iconsdir)
 
 icon_in_files =\
 	emblem-favorite.icon.in \
