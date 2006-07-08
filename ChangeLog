@@ -1,3 +1,13 @@
+2006-07-08  Rodney Dawes  <dobey@novell.com>
+
+	* configure.in:
+	* 8x8/Makefile.am:
+	* 8x8/emblems/Makfile.am:
+	* 8x8/emblems/emblem-symbolic-link.*:
+	Add an 8x8 version of the symbolic link emblem for list views
+
+	Fixes #310402 and #311279
+
 2006-07-07  Rodney Dawes  <dobey@novell.com>
 
 	* 48x48/emblems/Makefile.am: Don't run the mapping script here, this

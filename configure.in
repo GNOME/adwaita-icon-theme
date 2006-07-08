@@ -45,12 +45,14 @@ fi
 AC_CONFIG_FILES([
 Makefile
 gnome-icon-theme.pc
+8x8/Makefile
 16x16/Makefile
 22x22/Makefile
 24x24/Makefile
 32x32/Makefile
 48x48/Makefile
 scalable/Makefile
+8x8/emblems/Makefile
 16x16/actions/Makefile
 16x16/animations/Makefile
 16x16/apps/Makefile
