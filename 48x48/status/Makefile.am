@@ -7,9 +7,6 @@ iconsdir = $(themedir)/$(size)/$(context)
 icons_DATA =				\
 	appointment-missed.png		\
 	appointment-soon.png		\
-	dialog-error.png		\
-	dialog-information.png		\
-	dialog-warning.png		\
 	weather-few-clouds.png		\
 	weather-few-clouds-night.png	\
 	weather-fog.png			\

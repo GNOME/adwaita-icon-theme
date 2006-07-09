@@ -1,3 +1,11 @@
+2006-07-09  Rodney Dawes  <dobey@novell.com>
+
+	* 48x48/status/Makefile.am:
+	* 48x48/status/dialog-*.*:
+	Removed these icons as they are replaced by scalable sizes
+
+	Fixes #347023
+
 2006-07-08  Rodney Dawes  <dobey@novell.com>
 
 	* configure.in:
