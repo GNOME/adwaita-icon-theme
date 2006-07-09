@@ -4,7 +4,7 @@ context = apps
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
-	accessibility-directory.png	\
+	accessories-calculator.png	\
 	administration.png		\
 	advanced-directory.png		\
 	apacheconf.png			\
@@ -19,55 +19,30 @@ icons_DATA =				\
 	evolution-calendar.png		\
 	evolution-mail.png		\
 	evolution-tasks.png		\
-	gaim.png			\
 	gdm.png				\
-	gftp.png			\
 	gnome-amusements.png		\
 	gnome-applications.png		\
 	gnome-audio.png			\
-	gnome-calculator.png		\
-	gnome-cdplayer-icon.png		\
-	gnome-control-center.png	\
 	gnome-cpu.png			\
 	gnome-desktop-config.png	\
-	gnome-devel.png			\
 	gnome-eyes.png			\
 	gnome-favorites.png		\
 	gnome-finance.png		\
-	gnome-gnomine.png		\
-	gnome-graphics.png		\
-	gnome-gsame.png			\
-	gnome-help.png			\
-	gnome-joystick.png		\
-	gnome-lockscreen.png		\
 	gnome-logout.png		\
 	gnome-mini-commander.png	\
-	gnome-modem.png			\
-	gnome-money.png			\
-	gnome-multimedia.png		\
-	gnome-netstatus-disconn.png	\
-	gnome-netstatus-error.png	\
-	gnome-netstatus-idle.png	\
-	gnome-netstatus-rx.png		\
-	gnome-netstatus-tx.png		\
-	gnome-netstatus-txrx.png	\
 	gnome-networktool.png		\
-	gnome-nibbles.png		\
-	gnome-office.png		\
 	gnome-panel.png			\
 	gnome-run.png			\
 	gnome-searchtool.png		\
 	gnome-session.png		\
-	gnome-settings.png		\
-	gnome-settings-font.png		\
 	gnome-settings-keybindings.png	\
 	gnome-settings-sound.png	\
-	gnome-settings-theme.png	\
 	gnome-settings-ui-behavior.png	\
 	gnome-shutdown.png		\
 	gnome-status.png		\
 	gnome-unknown.png		\
 	gnome-window-manager.png	\
+	help-browser.png		\
 	image-viewer.png		\
 	im-aim.png	\
 	im-icq.png	\
@@ -89,11 +64,14 @@ icons_DATA =				\
 	panel-window-list.png		\
 	panel-window-menu.png		\
 	postscript-viewer.png		\
-	screensaver.png			\
+	preferences-desktop-accessibility.png	\
+	preferences-desktop-font.png	\
+	preferences-desktop-theme.png	\
+	preferences-desktop-wallpaper.png	\
+	preferences-desktop-screensaver.png	\
 	shares.png			\
 	stock-ticker.png		\
 	text-editor.png			\
-	tsclient.png			\
 	utilities-system-monitor.png	\
 	web-browser.png
 

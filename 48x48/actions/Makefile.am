@@ -10,7 +10,8 @@ icons_DATA =				\
 	mail-mark-junk.png		\
 	mail-mark-not-junk.png		\
 	mail-message-new.png		\
-	mail-send-receive.png
+	mail-send-receive.png		\
+	system-lock-screen.png
 
 EXTRA_DIST =				\
 	$(icons_DATA)

@@ -55,6 +55,7 @@ icons_DATA =				\
 	media-skip-backward.png		\
 	media-skip-forward.png		\
 	process-stop.png		\
+	system-lock-screen.png		\
 	tab-new.png			\
 	view-refresh.png 		\
 	window-close.png		\

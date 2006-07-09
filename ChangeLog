@@ -1,5 +1,75 @@
 2006-07-09  Rodney Dawes  <dobey@novell.com>
 
+	* */apps/accessibility-directory.*:
+	* */apps/gnome-settings-accessibility-technologies.*:
+	Renamed accessibility-directory to preferences-desktop-accessibility
+	to follow the icon naming spec
+
+	* */actions/system-lock-screen.*:
+	* */apps/gnome-lockscreen.*:
+	Moved gnome-lockscreen to actions/system-lock-screen
+
+	* */apps/gnome-netstatus-*.*:
+	* */status/network-*.*:
+	Moved gnome-netstatus-* icons to status/network-*
+
+	* */apps/accessories-calculator.*:
+	* */apps/gnome-calculator.*:
+	Renamed gnome-calculator to accesscories-calculator
+
+	* */apps/accessories-text-editor.*:
+	* */apps/text-editor.*:
+	Renamed text-editor to accessories-text-editor
+
+	* */apps/gnome-help.*:
+	* */apps/help-browser.*:
+	Renamed gnome-help to help-browser
+
+	* */apps/gnome-modem.*:
+	* */apps/modem.*:
+	* */devices/modem.*:
+	Moved gnome-modem to devices/modem
+
+	* */apps/Makefile.am:
+	* */apps/beast.*:
+	* */apps/dia_gnome_icon.*:
+	* */apps/gaim.*:
+	* */apps/gdict.*:
+	* */apps/gftp.*:
+	* */apps/gnome-cdplayer-icon.*:
+	* */apps/gnome-control-center.*:
+	* */apps/gnome-devel.*:
+	* */apps/gnome-ftp.*:
+	* */apps/gnome-gnomine.*:
+	* */apps/gnome-graphics.*:
+	* */apps/gnome-gsame.*:
+	* */apps/gnome-joystick.*:
+	* */apps/gnome-media-player.*:
+	* */apps/gnome-money.*:
+	* */apps/gnome-multimedia.*:
+	* */apps/gnome-nibbles.*:
+	* */apps/gnome-office.*:
+	* */apps/gnome-other.*:
+	* */apps/gnome-reboot.*:
+	* */apps/gnome-settings.*:
+	* */apps/gnome-starthere.*:
+	* */apps/gnome-system.*:
+	* */apps/gnome-util.*:
+	* */apps/tsclient.*:
+	* */apps/iagno.*:
+	* */apps/keyboard.*:
+	* */apps/logviewer.*:
+	* */apps/sodipodi.*:
+	* */apps/tsclient.*:
+	* */apps/wine.*:
+	* */apps/xsane.*:
+	Removed these app icons which need to be included with the application
+	itself, are now unused, or have already been renamed
+
+	See #346621
+	
+2006-07-09  Rodney Dawes  <dobey@novell.com>
+
 	* 48x48/status/Makefile.am:
 	* 48x48/status/dialog-*.*:
 	Removed these icons as they are replaced by scalable sizes
