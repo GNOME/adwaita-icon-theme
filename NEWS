@@ -1,3 +1,31 @@
+Version 2.15.3
+
+* Various build related bug fixes
+  -- bugs #347083 #346870 #346306 #346580 (Rodney Dawes, Jakub Steiner)
+* More removal and renaming of icons
+  -- bugs #346621 #347023 (Rodney Dawes)
+* 8x8 version of the symlink emblem icon
+  -- bugs #311279 #310402 (Rodney Dawes)
+* Add folder-remote.icon for scalable to match emblems of folder.icon
+  -- bug #309113 (Rodney Dawes)
+* New symbolic link icon
+  -- bug #310402 (Jakub Steiner)
+* New utilities-system-monitor icon
+  -- bug #306537 (Rodney Dawes, Lapo Calemendrei)
+* New dialog-warning, dialog-error, dialog-information icons (Jakub Steiner)
+* New appointment status icons (Jakub Steiner)
+* Scalable version of applications-internet
+  -- bug #164068 (Rodney Dawes)
+* New emblem-important, emblem-favorite icons (Jakub Steiner)
+* New preferences-desktop-wallpaper icon
+  -- bug #313643 (Andreas Nilsson, Rodney Dawes, Jakub Steiner)
+* Removed xchat icon
+  -- bug #153078 (Rodney Dawes)
+* New audio-volume status icons at bitmap sizes (Jakub Steiner)
+* use proper coordinates for SVG for text-x-preview.icon
+  -- bug #329877 (Rodney Dawes)
+* New and updated translations [bn_IN, zh_HK, zh_TW]
+
 Version 2.15.2
 
 * Use of po/LINGUAS and requirement of intltool 0.35.0 (Rodney Dawes)

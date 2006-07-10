@@ -1,5 +1,14 @@
 2006-07-10  Rodney Dawes  <dobey@novell.com>
 
+	* NEWS: Update for release and bug fixes
+	
+	* configure.in: Up version to 2.15.3 for release
+	Up icon-naming-utils requirement to 0.7.3
+
+	* Makefile.am: Add 8x8 to SUBDIRS
+
+2006-07-10  Rodney Dawes  <dobey@novell.com>
+
 	* 48x48/apps/Makefile.am: Update to use the same variables as other
 	sizes, so that the install-data-local mapping rule will work
 
