@@ -1,10 +1,10 @@
 NULL=
 
-iconsize = 48x48
-category = apps
-icondir  = $(datadir)/icons/gnome/$(iconsize)/$(category)
+size = 48x48
+context = apps
+iconsdir = $(themedir)/$(size)/$(context)
 
-icon_DATA =				\
+icons_DATA =				\
 	accessories-calculator.png	\
 	accessories-text-editor.png	\
 	administration.png		\
@@ -70,7 +70,7 @@ icon_DATA =				\
 	visor.png			\
 	$(NULL)
 
-EXTRA_DIST = $(icon_DATA)
+EXTRA_DIST = $(icons_DATA)
 
 MAINTAINERCLEANFILES =			\
 	Makefile.in
