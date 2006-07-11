@@ -1,3 +1,13 @@
+2006-07-11  Rodney Dawes  <dobey@novell.com>
+
+	* 48x48/status/Makefile.am:
+	* 48x48/status/appointment-*.*:
+	Removed these icons as they are replaced by scalable versions
+
+	* scalable/status/Makefile.am:
+	* scalable/status/appointment-*.*:
+	Add new scalable versions of appointment-{missed,soon} icons
+
 2006-07-10  Rodney Dawes  <dobey@novell.com>
 
 	* NEWS: Update for release and bug fixes

@@ -5,6 +5,8 @@ context = status
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =			\
+	appointment-missed.svg	\
+	appointment-soon.svg	\
 	dialog-error.svg	\
 	dialog-information.svg	\
 	dialog-warning.svg	\
