@@ -11,6 +11,7 @@ icons_DATA =				\
 	document-save.svg		\
 	document-save-as.svg		\
 	edit-delete.svg	\
+	go-home.svg	\
 	zoom-in.svg	\
 	zoom-original.svg	\
 	zoom-out.svg	

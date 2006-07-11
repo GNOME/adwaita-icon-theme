@@ -1,3 +1,17 @@
+2006-07-11  Rodney Dawes  <dobey@novell.com>
+
+	* 48x48/actions/Makefile.am:
+	* 48x48/actions/go-home.*:
+	Removed to be replaced with a scalable version of the new style go-home
+
+	* 48x48/categories/Makefile.am:
+	* 48x48/categories/applications-internet.*:
+	Removed this as a scalable applications-internet already exists
+
+	* scalable/actions/Makefile.am:
+	* scalable/actions/go-home.*:
+	Add a new scalable version of go-home based on the 22x22 version
+
 2006-07-11  Jakub Steiner <jimmac@ximian.com>
 
 	* scalable/status/appointment-*.*: slight tweaks

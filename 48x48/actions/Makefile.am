@@ -6,7 +6,6 @@ iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
 	appointment-new.png		\
-	go-home.png			\
 	mail-mark-junk.png		\
 	mail-mark-not-junk.png		\
 	mail-message-new.png		\
