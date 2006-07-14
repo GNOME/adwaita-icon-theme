@@ -1,5 +1,5 @@
 SUBDIRS =		\
-	apps devices	emblems	places status	
+	animations apps devices	emblems	places status	
 
 MAINTAINERCLEANFILES =	\
 	Makefile.in
