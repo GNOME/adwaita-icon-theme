@@ -1,5 +1,17 @@
 2006-07-21  Rodney Dawes  <dobey@novell.com>
 
+	* configure.ac: Add 32x32/actions/Makefile to AC_OUTPUT
+
+	* */actions/Makefile.am:
+	* */action/system-run.*:
+	Add this new icon from Lapo Calamendrei
+
+	* */apps/Makefile.am:
+	* */apps/gnome-run.*:
+	Remove this old run icon which is replaced by system-run above
+
+2006-07-21  Rodney Dawes  <dobey@novell.com>
+
 	* */apps/Makefile.am:
 	* */apps/preferences-desktop-screensaver.*:
 	* */apps/system-file-manager.*:

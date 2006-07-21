@@ -31,7 +31,6 @@ icons_DATA =				\
 	gnome-networktool.png		\
 	gnome-panel.png			\
 	gnome-pdf.png			\
-	gnome-run.png			\
 	gnome-searchtool.png		\
 	gnome-searchtool-animation.png	\
 	gnome-searchtool-animation-rest.png	\

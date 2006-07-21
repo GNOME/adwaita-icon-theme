@@ -10,7 +10,6 @@ icons_DATA =				\
 	boot.png			\
 	evolution.png			\
 	gnome-logout.png		\
-	gnome-run.png			\
 	gnome-shutdown.png		\
 	gnome-session.png		\
 	gnome-window-manager.png	\

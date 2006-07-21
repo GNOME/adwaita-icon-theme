@@ -4,16 +4,17 @@ context = actions
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
-	edit-find.svg		\
+	edit-find.svg			\
 	edit-find-replace.svg		\
-	document-print.svg	\
+	document-print.svg		\
 	document-print-preview.svg	\
 	document-save.svg		\
 	document-save-as.svg		\
-	edit-delete.svg	\
-	go-home.svg	\
-	zoom-in.svg	\
-	zoom-original.svg	\
+	edit-delete.svg			\
+	go-home.svg			\
+	system-run.svg			\
+	zoom-in.svg			\
+	zoom-original.svg		\
 	zoom-out.svg	
 
 EXTRA_DIST =		\

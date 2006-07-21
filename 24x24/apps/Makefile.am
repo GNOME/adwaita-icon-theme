@@ -32,7 +32,6 @@ icons_DATA =				\
 	gnome-mini-commander.png	\
 	gnome-networktool.png		\
 	gnome-panel.png			\
-	gnome-run.png			\
 	gnome-searchtool.png		\
 	gnome-session.png		\
 	gnome-settings-keybindings.png	\
