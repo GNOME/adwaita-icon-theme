@@ -14,7 +14,9 @@ icons_DATA =				\
 	im-nov.svg			\
 	im-yahoo.svg			\
 	multimedia-volume-control.svg	\
+	preferences-desktop-screensaver.svg	\
 	preferences-desktop-wallpaper.svg	\
+	system-file-manager.svg		\
 	utilities-system-monitor.svg	\
 	web-browser.svg
 

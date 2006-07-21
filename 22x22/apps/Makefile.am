@@ -16,7 +16,9 @@ icons_DATA =				\
 	im-nov.png			\
 	im-yahoo.png			\
 	preferences-desktop-accessibility.png	\
+	preferences-desktop-screensaver.png	\
 	preferences-desktop-wallpaper.png	\
+	system-file-manager.png		\
 	utilities-system-monitor.png	\
 	web-browser.png
 

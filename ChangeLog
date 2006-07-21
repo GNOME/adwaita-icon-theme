@@ -1,3 +1,14 @@
+2006-07-21  Rodney Dawes  <dobey@novell.com>
+
+	* */apps/Makefile.am:
+	* */apps/preferences-desktop-screensaver.*:
+	* */apps/system-file-manager.*:
+	Add icons from Andreas Nilsson
+
+	* 48x48/apps/Makefile.am: Remove old file manager and screensaver icons
+
+	* 32x32/apps/Makefile.am: Install the png not the svg, for 32x32
+
 2006-07-17  Jakub Steiner <jimmac@ximian.com>
 
 	* applications-accessories*:

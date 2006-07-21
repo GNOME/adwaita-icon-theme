@@ -44,12 +44,12 @@ icons_DATA =				\
 	gnome-window-manager.png	\
 	help-browser.png		\
 	image-viewer.png		\
-	im-aim.png	\
-	im-icq.png	\
-	im-jabber.png	\
-	im-msn.png	\
-	im-nov.png	\
-	im-yahoo.png	\
+	im-aim.png			\
+	im-icq.png			\
+	im-jabber.png			\
+	im-msn.png			\
+	im-nov.png			\
+	im-yahoo.png			\
 	multimedia-volume-control.png	\
 	ooo_calc.png			\
 	ooo_draw.png			\
@@ -71,6 +71,7 @@ icons_DATA =				\
 	preferences-desktop-screensaver.png	\
 	shares.png			\
 	stock-ticker.png		\
+	system-file-manager.png		\
 	text-editor.png			\
 	utilities-system-monitor.png	\
 	web-browser.png

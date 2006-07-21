@@ -29,7 +29,9 @@ icons_DATA =				\
 	panel-window-menu.png		\
 	preferences-desktop-accessibility.png	\
 	preferences-desktop-locale.png	\
+	preferences-desktop-screensaver.png	\
 	preferences-desktop-wallpaper.png	\
+	system-file-manager.png		\
 	utilities-system-monitor.png	\
 	web-browser.png
 

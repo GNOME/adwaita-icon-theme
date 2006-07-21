@@ -61,11 +61,9 @@ icons_DATA =				\
 	postscript-viewer.png		\
 	preferences-desktop-accessibility.png	\
 	preferences-desktop-font.png	\
-	preferences-desktop-screensaver.png	\
 	preferences-desktop-theme.png	\
 	serviceconf.png			\
 	stock-ticker.png		\
-	system-file-manager.png		\
 	user-info.png			\
 	visor.png			\
 	$(NULL)

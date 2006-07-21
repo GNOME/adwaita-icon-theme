@@ -5,7 +5,7 @@ context = apps
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
-	utilities-system-monitor.svg
+	utilities-system-monitor.png
 
 EXTRA_DIST =		\
 	$(icons_DATA)
