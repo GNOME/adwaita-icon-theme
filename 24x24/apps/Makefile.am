@@ -73,6 +73,7 @@ icons_DATA =				\
 	system-file-manager.png		\
 	text-editor.png			\
 	utilities-system-monitor.png	\
+	utilities-terminal.png		\
 	web-browser.png
 
 EXTRA_DIST =		\

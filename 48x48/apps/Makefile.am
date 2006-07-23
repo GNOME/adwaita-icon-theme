@@ -42,7 +42,6 @@ icons_DATA =				\
 	gnome-settings-accessibility-keyboard.png	\
 	gnome-settings-default-applications.png		\
 	gnome-system-config.png		\
-	gnome-terminal.png		\
 	gnome-unknown.png		\
 	gnome-window-manager.png	\
 	help-browser.png		\

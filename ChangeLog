@@ -1,5 +1,19 @@
 2006-07-23  Rodney Dawes  <dobey@novell.com>
 
+	* */apps/Makefile.am:
+	* */apps/utilities-terminal.*:
+	Add new terminal icon from Andreas Nilsson
+
+	* 32x32/apps/preferences-desktop-screensaver.*:
+	* 32x32/apps/system-file-manager.*:
+	Add 32x32 versions of these from Andreas Nilsson
+
+	* 48x48/apps/Makefile.am:
+	* 48x48/apps/gnome-terminal.*:
+	Remove the old terminal icon
+
+2006-07-23  Rodney Dawes  <dobey@novell.com>
+
 	* 22x22/apps/preferences-desktop-screensaver.*:
 	* 24x24/apps/preferences-desktop-screensaver.*:
 	Remove the background from this image

@@ -32,6 +32,7 @@ icons_DATA =				\
 	preferences-desktop-wallpaper.png	\
 	system-file-manager.png		\
 	utilities-system-monitor.png	\
+	utilities-terminal.png		\
 	web-browser.png
 
 EXTRA_DIST = $(icons_DATA)
