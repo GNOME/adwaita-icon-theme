@@ -3,16 +3,17 @@ size = scalable
 context = devices
 iconsdir = $(themedir)/$(size)/$(context)
 
-icons_DATA =	\
-	battery.svg	\
-	drive-cdrom.svg	\
+icons_DATA =			\
+	battery.svg		\
+	computer.svg		\
+	drive-cdrom.svg		\
 	drive-harddisk.svg	\
 	drive-removable-media.svg	\
 	input-keyboard.svg	\
-	input-mouse.svg	\
+	input-mouse.svg		\
 	media-floppy.svg	\
-	media-cdrom.svg	\
-	printer.svg	\
+	media-cdrom.svg		\
+	printer.svg		\
 	video-display.svg	
 
 EXTRA_DIST = $(icons_DATA)
