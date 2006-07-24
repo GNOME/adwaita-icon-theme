@@ -21,6 +21,7 @@ icons_DATA =				\
 	edit-paste.png			\
 	edit-redo.png			\
 	edit-undo.png			\
+	folder-new.png	\
 	format-indent-less.png		\
 	format-indent-more.png		\
 	format-justify-center.png	\
