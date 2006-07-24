@@ -1,5 +1,17 @@
 2006-07-24  Rodney Dawes  <dobey@novell.com>
 
+	* */actions/Makefile.am:
+	* */actions/view-fullscreen.png:
+	* */actions/view-restore.png:
+	Move the old fullscreen action icons out of stock and to new names
+
+	* */stock/generic/Makefile.am:
+	* */stock/generic/stock_fullscreen.png:
+	* */stock/generic/stock_leave-fullscreen.png:
+	Remove these icons replaced by the new versions above
+	
+2006-07-24  Rodney Dawes  <dobey@novell.com>
+
 	* */stock/generic/Makefile.am:
 	* */stock/generic/stock_close.png:
 	Removed the stock_close icon that is obsoleted by window-close
