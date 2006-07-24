@@ -1,3 +1,11 @@
+2006-07-24  Rodney Dawes  <dobey@novell.com>
+
+	* */stock/io/Makefile.am:
+	* */stock/io/stock_open.png:
+	Removed the stock_open icon that is obsoleted by folder-open
+
+	Fixes #348401
+
 2006-07-24  Jakub Steiner <jimmac@ximian.com>
 
 	* tab-new, window-new, folder-new: updated the 'new' emblem
