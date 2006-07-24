@@ -1,3 +1,21 @@
+Version 2.15.90
+
+* Moved stock_* fullscreen icons to view-* action names (Rodney Dawes)
+* Removed stock_close icons
+  -- bug #348509 (Rodney Dawes)
+* Removed stock_open icons
+  -- bug #348401 (Rodney Dawes)
+* Add document-new icons and update new "emblem" on *-new icons
+  -- bug #348433 (Jakub Steiner)
+* New utilities-terminal icons (Andreas Nilsson)
+* Fix missing computer.svg in scalable/devices/Makefile.am (Rodney Dawes)
+* New system-run icons (Lapo Calamendrei)
+* New preferences-desktop-screensaver and system-file-manager (Andreas Nilsson)
+* 32x32 version of spinner images (Jakub Steiner)
+* Removed some old icons replaced with newer versions already (Rodney Dawes)
+* Scalable versions of the appointment-* status icons
+  (Rodney Dawes, Jakub Steiner)
+
 Version 2.15.3
 
 * Various build related bug fixes
