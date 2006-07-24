@@ -8,6 +8,7 @@ icons_DATA =				\
 	application-exit.png		\
 	appointment-new.png		\
 	bookmark-new.png		\
+	document-new.png	\
 	document-print.png		\
 	document-print-preview.png	\
 	document-save.png		\

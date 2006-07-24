@@ -5,6 +5,7 @@ context = actions
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
+	document-new.png	\
 	system-run.png
 
 EXTRA_DIST =		\
