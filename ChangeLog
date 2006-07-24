@@ -1,5 +1,13 @@
 2006-07-24  Rodney Dawes  <dobey@novell.com>
 
+	* */stock/generic/Makefile.am:
+	* */stock/generic/stock_close.png:
+	Removed the stock_close icon that is obsoleted by window-close
+
+	Fixes #348509
+
+2006-07-24  Rodney Dawes  <dobey@novell.com>
+
 	* */stock/io/Makefile.am:
 	* */stock/io/stock_open.png:
 	Removed the stock_open icon that is obsoleted by folder-open

@@ -26,7 +26,6 @@ icon_DATA =\
    stock_calendar-and-tasks.png \
    stock_cell-phone.png \
    stock_check-filled.png \
-   stock_close.png \
    stock_color.png \
    stock_default-folder.png \
    stock_drag-mode.png \
