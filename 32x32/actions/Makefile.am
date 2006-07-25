@@ -6,7 +6,8 @@ iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
 	document-new.png	\
-	system-run.png
+	system-run.png		\
+	view-fullscreen.png
 
 EXTRA_DIST =		\
 	$(icons_DATA)

@@ -59,6 +59,7 @@ icons_DATA =				\
 	process-stop.png		\
 	system-run.png			\
 	tab-new.png			\
+	view-fullscreen.png		\
 	view-refresh.png 		\
 	window-close.png		\
 	window-new.png			\

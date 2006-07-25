@@ -14,6 +14,7 @@ icons_DATA =				\
 	edit-delete.svg			\
 	go-home.svg			\
 	system-run.svg			\
+	view-fullscreen.svg		\
 	zoom-in.svg			\
 	zoom-original.svg		\
 	zoom-out.svg	
