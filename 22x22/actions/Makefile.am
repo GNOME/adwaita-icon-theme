@@ -61,6 +61,7 @@ icons_DATA =				\
 	tab-new.png			\
 	view-fullscreen.png		\
 	view-refresh.png 		\
+	view-restore.png		\
 	window-close.png		\
 	window-new.png			\
 	zoom-in.png			\
