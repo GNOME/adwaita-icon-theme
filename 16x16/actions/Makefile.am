@@ -57,6 +57,7 @@ icons_DATA =				\
 	media-skip-forward.png		\
 	process-stop.png		\
 	system-run.png			\
+	tab-new.png			\
 	view-fullscreen.png		\
 	view-refresh.png 		\
 	view-restore.png		\
