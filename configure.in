@@ -26,7 +26,7 @@ AC_SUBST(ACLOCAL_AMFLAGS, "\${ACLOCAL_FLAGS}")
 # Define the toplevel path here
 AC_SUBST(themedir, "\${datadir}/icons/gnome")
 
-UTILS_REQUIRED=0.7.4
+UTILS_REQUIRED=0.8.0
 
 AC_MSG_CHECKING([icon-naming-utils >= $UTILS_REQUIRED])
 PKG_CHECK_EXISTS(icon-naming-utils >= $UTILS_REQUIRED,

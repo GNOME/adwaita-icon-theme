@@ -6,13 +6,14 @@ iconsdir = $(themedir)/$(size)/$(context)
 icons_DATA =			\
 	battery.svg		\
 	computer.svg		\
-	drive-cdrom.svg		\
 	drive-harddisk.svg	\
+	drive-optical.svg	\
 	drive-removable-media.svg	\
 	input-keyboard.svg	\
 	input-mouse.svg		\
+	media-flash.svg		\
 	media-floppy.svg	\
-	media-cdrom.svg		\
+	media-optical.svg	\
 	printer.svg		\
 	video-display.svg	
 

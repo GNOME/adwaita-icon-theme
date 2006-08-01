@@ -3,15 +3,15 @@ size = 32x32
 context = devices
 iconsdir = $(themedir)/$(size)/$(context)
 
-icons_DATA =	\
-	battery.png	\
-	drive-cdrom.png	\
+icons_DATA =			\
+	battery.png		\
 	drive-harddisk.png	\
+	drive-optical.png	\
 	drive-removable-media.png	\
 	input-keyboard.png	\
-	input-mouse.png	\
+	input-mouse.png		\
 	media-floppy.png	\
-	media-cdrom.png	\
+	media-optical.png	\
 	printer.png
 
 EXTRA_DIST = $(icons_DATA)

@@ -1,3 +1,18 @@
+2006-08-01  Rodney Dawes  <dobey@novell.com>
+
+	* configure.in: Require icon-naming-utils 0.8.0
+
+	* */devices/drive-cdrom.*:
+	* */devices/media-cdrom.*:
+	Removed these icons to be replaced with drive-optical and media-optical
+
+	* */devices/drive-optical.*:
+	* */devices/media-optical.*:
+	Icons that replace drive-cdrom and media-cdrom
+
+	* scalable/devices/media-flash.*: Add a scalable generic flash icon
+	for flash media types
+
 2006-07-31  Jakub Steiner <jimmac@ximian.com>
 
 	* {24x24,32x32}/animations/process-idle, 
