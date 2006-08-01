@@ -8,12 +8,12 @@ icons_DATA =				\
 	audio-input-microphone.png	\
 	battery.png			\
 	computer.png			\
-	drive-cdrom.png			\
 	drive-harddisk.png		\
+	drive-optical.png		\
 	drive-removable-media.png	\
 	input-mouse.png			\
-	media-cdrom.png			\
 	media-floppy.png		\
+	media-optical.png		\
 	modem.png			\
 	multimedia-player.png		\
 	network-wired.png		\
