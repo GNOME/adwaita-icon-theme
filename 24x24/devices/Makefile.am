@@ -12,6 +12,7 @@ icons_DATA =				\
 	drive-optical.png		\
 	drive-removable-media.png	\
 	input-mouse.png			\
+	media-flash.png			\
 	media-floppy.png		\
 	media-optical.png		\
 	modem.png			\
