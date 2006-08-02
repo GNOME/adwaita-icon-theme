@@ -1,18 +1,17 @@
 
-size = scalable
+size = 32x32
 context = categories
+
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
-	applications-games.svg	\
-	applications-internet.svg
+	applications-games.png	
 
-EXTRA_DIST =		\
+EXTRA_DIST =				\
 	$(icons_DATA)
 
-MAINTAINERCLEANFILES =	\
+MAINTAINERCLEANFILES =			\
 	Makefile.in
 
 install-data-local: install-iconsDATA
 	(cd $(DESTDIR)$(themedir)/$(size) && $(ICONMAP) -c $(context))
-
