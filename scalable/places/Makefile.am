@@ -10,6 +10,7 @@ icons_DATA =			\
 	folder-remote.icon	\
 	folder-remote.svg	\
 	folder-saved-search.svg	\
+	network-server.svg	\
 	user-home.svg		\
 	user-trash.svg
 

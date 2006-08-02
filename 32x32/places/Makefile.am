@@ -8,6 +8,7 @@ icons_DATA =			\
 	folder.png		\
 	folder-remote.png		\
 	folder-saved-search.png		\
+	network-server.png	\
 	user-home.png		\
 	user-trash.png
 
