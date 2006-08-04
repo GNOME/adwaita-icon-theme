@@ -14,6 +14,7 @@ icons_DATA =			\
 	media-flash.svg		\
 	media-floppy.svg	\
 	media-optical.svg	\
+	multimedia-player.svg	\
 	printer.svg		\
 	video-display.svg	
 
