@@ -15,6 +15,7 @@ icons_DATA =				\
 	config-language.png		\
 	config-users.png		\
 	display-capplet.png		\
+	evolution.png	\
 	evolution-calendar.png		\
 	evolution-mail.png		\
 	evolution-tasks.png		\
