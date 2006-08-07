@@ -16,6 +16,7 @@ icons_DATA =				\
 	system-run.svg			\
 	view-fullscreen.svg		\
 	view-restore.svg		\
+	window-new.svg	\
 	zoom-in.svg			\
 	zoom-original.svg		\
 	zoom-out.svg	

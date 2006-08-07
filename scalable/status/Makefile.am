@@ -7,6 +7,10 @@ iconsdir = $(themedir)/$(size)/$(context)
 icons_DATA =			\
 	appointment-missed.svg	\
 	appointment-soon.svg	\
+	audio-volume-high.svg	\
+	audio-volume-low.svg	\
+	audio-volume-medium.svg	\
+	audio-volume-muted.svg	\
 	dialog-error.svg	\
 	dialog-information.svg	\
 	dialog-warning.svg	\
