@@ -11,6 +11,7 @@ icons_DATA =			\
 	folder-remote.svg	\
 	folder-saved-search.svg	\
 	network-server.svg	\
+	network-workgroup.svg	\
 	start-here.svg	\
 	user-home.svg		\
 	user-trash.svg
