@@ -5,7 +5,9 @@ context = categories
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
-	applications-games.png	
+	applications-games.png	\
+	applications-internet.png	\
+	preferences-system.png
 
 EXTRA_DIST =				\
 	$(icons_DATA)

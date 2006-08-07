@@ -5,7 +5,8 @@ iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
 	applications-games.svg	\
-	applications-internet.svg
+	applications-internet.svg	\
+	preferences-system.svg
 
 EXTRA_DIST =		\
 	$(icons_DATA)
