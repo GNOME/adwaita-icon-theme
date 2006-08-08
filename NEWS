@@ -1,3 +1,24 @@
+Version 2.15.91
+
+* Add applications-accessories scalable icon (Andreas Nilsson, Jakub Steiner)
+* Add new preferences-system icon (Andreas Nilsson, Jakub Steiner)
+* Add new network-workgroup icon (Andreas Nilsson, Jakub Steiner)
+* Add missing size icons, and fixes (Lapo Calamandrei, Jakub Steiner)
+* Add new start-here icon (Lapo Calamandrei, Jakub Steiner)
+* Add new media-flash icon (Rodney Dawes, Jakub Steiner)
+* New generic multimedia-player icon (Andreas Nilsson, Jakub Steiner)
+* Add new network-server icon (Andreas Nilsson, Jakub Steiner)
+* Add new applications-games icon (Andreas Nilsson, Jakub Steiner)
+* Rename {drive,media}-cdrom to {drive,media}-optical (Rodney Dawes)
+* Add properly sized process-{idle,working} animation icons
+  -- bug #349353 (Jakub Steiner)
+* Add missing directories to index.theme.in
+  -- bug #349353 (Rodney Dawes)
+* Add missing tab-new in 16x16/actions/Makefile.am
+  -- bug #348981 (Rodney Dawes)
+* Add new view-fullscreen and view-restore icons (Jakub Steiner)
+* New and updated translations [bn_IN, fr, mk, ml, or]
+
 Version 2.15.90
 
 * Moved stock_* fullscreen icons to view-* action names (Rodney Dawes)
