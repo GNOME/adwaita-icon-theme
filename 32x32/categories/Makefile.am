@@ -6,6 +6,7 @@ iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
 	applications-accessories.png	\
+	applications-development.png	\
 	applications-games.png	\
 	applications-internet.png	\
 	preferences-system.png
