@@ -12,7 +12,17 @@ icons_DATA =				\
 	folder-open.png	\
 	folder-visiting.png	\
 	image-loading.png	\
-	user-trash-full.png
+	user-trash-full.png	\
+	weather-clear.png	\
+	weather-clear-night.png	\
+	weather-few-clouds.png	\
+	weather-few-clouds-night.png	\
+	weather-overcast.png	\
+	weather-severe-alert.png	\
+	weather-showers.png	\
+	weather-showers-scattered.png	\
+	weather-snow.png	\
+	weather-storm.png
 
 EXTRA_DIST =				\
 	$(icons_DATA)
