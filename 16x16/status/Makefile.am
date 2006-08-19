@@ -28,7 +28,9 @@ icons_DATA =				\
 	weather-few-clouds-night.png	\
 	weather-fog.png			\
 	weather-overcast.png		\
+	weather-severe-alert.png	\
 	weather-showers.png		\
+	weather-showers-scattered.png	\
 	weather-snow.png		\
 	weather-storm.png
 
