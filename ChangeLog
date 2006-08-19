@@ -1,5 +1,11 @@
 2006-08-19  Rodney Dawes  <dobey@novell.com>
 
+	* scalable/apps/Makefile.am: Fix web-browser.svg not being installed
+
+	Fixes #351249
+
+2006-08-19  Rodney Dawes  <dobey@novell.com>
+
 	* 32x32/actions/zoom-*.*: 32x32 versions of zoom icons from
 	Lapo Calamandrei
 

@@ -18,7 +18,7 @@ icons_DATA =				\
 	preferences-desktop-wallpaper.svg	\
 	system-file-manager.svg		\
 	utilities-system-monitor.svg	\
-	utilities-terminal.svg
+	utilities-terminal.svg		\
 	web-browser.svg
 
 EXTRA_DIST =		\
