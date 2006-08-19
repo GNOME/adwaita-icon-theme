@@ -11,7 +11,10 @@ icons_DATA =				\
 	system-run.png		\
 	view-fullscreen.png		\
 	view-restore.png	\
-	window-new.png
+	window-new.png		\
+	zoom-in.png		\
+	zoom-original.png	\
+	zoom-out.png
 
 EXTRA_DIST =		\
 	$(icons_DATA)
