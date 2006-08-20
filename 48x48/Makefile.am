@@ -7,7 +7,6 @@ SUBDIRS =		\
 	emblems		\
 	filesystems	\
 	places		\
-	status		\
 	stock
 
 MAINTAINERCLEANFILES =	\
