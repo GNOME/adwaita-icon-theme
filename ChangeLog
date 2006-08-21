@@ -1,5 +1,11 @@
 2006-08-21  Rodney Dawes  <dobey@novell.com>
 
+	* 48x48/devices/Makefile.am:
+	* 48x48/devices/multimedia-player.*:
+	Removed this file as we have a scalable version of multimedia-player
+
+2006-08-21  Rodney Dawes  <dobey@novell.com>
+
 	* */actions/Makefile.am:
 	* */actions/zoom-best-fit.*:
 	Add in new zoom-best-fit icons from Lapo Calamandrei
