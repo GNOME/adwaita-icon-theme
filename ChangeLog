@@ -1,5 +1,15 @@
 2006-08-21  Rodney Dawes  <dobey@novell.com>
 
+	* configure.in:
+	* 32x32/Makefile.am:
+	Add 32x32/mimetypes to the build
+
+	* */mimetypes/Makefile.am:
+	* */mimetypes/application-certificate.*:
+	Add application-certificate icons from Andreas Nilsson
+
+2006-08-21  Rodney Dawes  <dobey@novell.com>
+
 	* */apps/Makefile.am:
 	* */apps/clock.*:
 	* */apps/drawer.*:

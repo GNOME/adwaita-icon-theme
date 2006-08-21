@@ -5,6 +5,7 @@ SUBDIRS =		\
 	categories	\
 	devices		\
 	emblems		\
+	mimetypes	\
 	places		\
 	status	
 
