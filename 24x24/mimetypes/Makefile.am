@@ -19,6 +19,7 @@ icons_DATA =				\
 	x-office-address-book.png	\
 	x-office-calendar.png		\
 	x-office-document.png		\
+	x-office-drawing.png		\
 	x-office-presentation.png	\
 	x-office-spreadsheet.png
 
