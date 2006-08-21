@@ -6,17 +6,18 @@ iconsdir = $(themedir)/$(size)/$(context)
 icons_DATA =				\
 	edit-find.svg			\
 	edit-find-replace.svg		\
-	document-new.svg	\
+	document-new.svg		\
 	document-print.svg		\
 	document-print-preview.svg	\
 	document-save.svg		\
 	document-save-as.svg		\
+	folder-new.svg			\
 	edit-delete.svg			\
 	go-home.svg			\
 	system-run.svg			\
 	view-fullscreen.svg		\
 	view-restore.svg		\
-	window-new.svg	\
+	window-new.svg			\
 	zoom-in.svg			\
 	zoom-original.svg		\
 	zoom-out.svg	

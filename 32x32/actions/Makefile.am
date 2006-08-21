@@ -4,12 +4,13 @@ context = actions
 
 iconsdir = $(themedir)/$(size)/$(context)
 
-icons_DATA =				\
+icons_DATA =			\
 	document-new.png	\
 	document-save.png	\
 	document-save-as.png	\
+	folder-new.png		\
 	system-run.png		\
-	view-fullscreen.png		\
+	view-fullscreen.png	\
 	view-restore.png	\
 	window-new.png		\
 	zoom-in.png		\
