@@ -12,13 +12,11 @@ icons_DATA =				\
 	apacheconf.png			\
 	applets-screenshooter.png	\
 	character-picker.png		\
-	clock.png			\
 	config-date.png			\
 	config-language.png		\
 	config-users.png		\
 	config-xfree.png		\
 	disks.png			\
-	drawer.png			\
 	eyes.png			\
 	gdm.png				\
 	gnome-amusements.png		\
@@ -29,7 +27,6 @@ icons_DATA =				\
 	gnome-grecord.png		\
 	gnome-logout.png		\
 	gnome-networktool.png		\
-	gnome-panel.png			\
 	gnome-pdf.png			\
 	gnome-searchtool.png		\
 	gnome-searchtool-animation.png	\
@@ -53,9 +50,6 @@ icons_DATA =				\
 	network-config.png		\
 	palm-pilot.png			\
 	palm-pilot-sync.png		\
-	panel-notification-area.png	\
-	panel-window-list.png		\
-	panel-window-menu.png		\
 	postscript-viewer.png		\
 	preferences-desktop-accessibility.png	\
 	preferences-desktop-font.png	\

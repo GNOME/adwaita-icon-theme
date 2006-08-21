@@ -11,7 +11,6 @@ icons_DATA =				\
 	applets-screenshooter.png	\
 	boot.png			\
 	character-picker.png		\
-	clock.png			\
 	config-language.png		\
 	config-users.png		\
 	display-capplet.png		\
@@ -31,7 +30,6 @@ icons_DATA =				\
 	gnome-logout.png		\
 	gnome-mini-commander.png	\
 	gnome-networktool.png		\
-	gnome-panel.png			\
 	gnome-searchtool.png		\
 	gnome-session.png		\
 	gnome-settings-keybindings.png	\
@@ -59,9 +57,6 @@ icons_DATA =				\
 	ooo_template.png		\
 	ooo_web.png			\
 	ooo_writer.png			\
-	panel-notification-area.png	\
-	panel-window-list.png		\
-	panel-window-menu.png		\
 	postscript-viewer.png		\
 	preferences-desktop-accessibility.png	\
 	preferences-desktop-font.png	\

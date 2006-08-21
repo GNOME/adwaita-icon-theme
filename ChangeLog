@@ -1,5 +1,25 @@
 2006-08-21  Rodney Dawes  <dobey@novell.com>
 
+	* */apps/Makefile.am:
+	* */apps/clock.*:
+	* */apps/drawer.*:
+	* */apps/gnome-panel.*:
+	* */apps/panel-notification-area.*:
+	* */apps/panel-window-list.*:
+	* */apps/panel-window-menu.*:
+	Remove these icons as they are installed more appropriately by
+	gnome-panel itself now
+
+	* 48x48/categories/Makefile.am:
+	* 48x48/categories/applications-accessories.*:
+	* 48x48/categories/applications-games.*:
+	These icons are available in scalable now
+
+	* 48x48/categories/preferences-desktop-accessibility.*:
+	Removed as it conflicts with the apps icon of the same name
+
+2006-08-21  Rodney Dawes  <dobey@novell.com>
+
 	* 48x48/devices/Makefile.am:
 	* 48x48/devices/multimedia-player.*:
 	Removed this file as we have a scalable version of multimedia-player

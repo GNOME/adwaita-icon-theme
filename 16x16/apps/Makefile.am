@@ -23,9 +23,6 @@ icons_DATA =				\
 	im-nov.png			\
 	im-yahoo.png			\
 	multimedia-volume-control.png	\
-	panel-notification-area.png	\
-	panel-window-list.png		\
-	panel-window-menu.png		\
 	preferences-desktop-accessibility.png	\
 	preferences-desktop-locale.png	\
 	preferences-desktop-screensaver.png	\
