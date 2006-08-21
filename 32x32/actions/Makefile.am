@@ -13,6 +13,7 @@ icons_DATA =			\
 	view-fullscreen.png	\
 	view-restore.png	\
 	window-new.png		\
+	zoom-best-fit.png	\
 	zoom-in.png		\
 	zoom-original.png	\
 	zoom-out.png

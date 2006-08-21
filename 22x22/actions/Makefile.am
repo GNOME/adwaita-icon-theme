@@ -8,7 +8,7 @@ icons_DATA =				\
 	application-exit.png		\
 	appointment-new.png		\
 	bookmark-new.png		\
-	document-new.png	\
+	document-new.png		\
 	document-print.png		\
 	document-print-preview.png	\
 	document-save.png		\
@@ -21,7 +21,7 @@ icons_DATA =				\
 	edit-paste.png			\
 	edit-redo.png			\
 	edit-undo.png			\
-	folder-new.png	\
+	folder-new.png			\
 	format-indent-less.png		\
 	format-indent-more.png		\
 	format-justify-center.png	\
@@ -64,6 +64,7 @@ icons_DATA =				\
 	view-restore.png		\
 	window-close.png		\
 	window-new.png			\
+	zoom-best-fit.png		\
 	zoom-in.png			\
 	zoom-original.png		\
 	zoom-out.png

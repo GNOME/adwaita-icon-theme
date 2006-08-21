@@ -18,6 +18,7 @@ icons_DATA =				\
 	view-fullscreen.svg		\
 	view-restore.svg		\
 	window-new.svg			\
+	zoom-best-fit.svg		\
 	zoom-in.svg			\
 	zoom-original.svg		\
 	zoom-out.svg	
