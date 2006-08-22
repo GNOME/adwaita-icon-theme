@@ -1,5 +1,11 @@
 2006-08-22  Rodney Dawes  <dobey@novell.com>
 
+	* index.theme.in: Remove the 48x48/status directory as we don't have
+	anything in here any more
+	Add the 32x32/mimetypes directory to the Directories list
+
+2006-08-22  Rodney Dawes  <dobey@novell.com>
+
 	* */status/Makefile.am:
 	* */status/network-*.*:
 	Add new style network status icons from Lapo Calamandrei
