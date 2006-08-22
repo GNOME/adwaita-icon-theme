@@ -16,6 +16,12 @@ icons_DATA =				\
 	image-loading.png		\
 	media-playlist-repeat.png	\
 	media-playlist-shuffle.png	\
+	network-error.png		\
+	network-idle.png		\
+	network-offline.png		\
+	network-receive.png		\
+	network-transmit.png		\
+	network-transmit-receive.png	\
 	network-wireless-encrypted.png	\
 	user-trash-full.png		\
 	weather-clear.png		\

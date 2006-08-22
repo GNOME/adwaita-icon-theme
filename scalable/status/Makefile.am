@@ -21,6 +21,12 @@ icons_DATA =			\
 	folder-visiting.icon	\
 	folder-visiting.svg	\
 	image-loading.svg	\
+	network-error.svg	\
+	network-idle.svg	\
+	network-offline.svg	\
+	network-receive.svg	\
+	network-transmit.svg	\
+	network-transmit-receive.svg	\
 	user-trash-full.svg	\
 	weather-clear.svg	\
 	weather-clear-night.svg	\
