@@ -1,6 +1,21 @@
 2006-08-23  Rodney Dawes  <dobey@novell.com>
 
 	* 48x48/emblems/Makefile.am:
+	* 48x48/emblems/emblem-cvs-added.*:
+	* 48x48/emblems/emblem-cvs-conflict.*:
+	* 48x48/emblems/emblem-cvs-new-file.*:
+	* 48x48/emblems/emblem-cvs-removed.*:
+	Removed these as they are replaced by scalable versions now
+
+	* scalable/emblems/Makefile.am:
+	* scalable/emblems/emblem-cvs-added.*:
+	* scalable/emblems/emblem-cvs-conflict.*:
+	* scalable/emblems/emblem-cvs-removed.*:
+	Scalable versions of some of the cvs emblem icons
+
+2006-08-23  Rodney Dawes  <dobey@novell.com>
+
+	* 48x48/emblems/Makefile.am:
 	* 48x48/emblems/emblem-package.*:
 	* 48x48/emblems/emblem-web.*:
 	Removed these as they are replaced by scalable versions

@@ -10,12 +10,8 @@ icon_in_files =				\
 	emblem-camera.icon.in		\
 	emblem-certified.icon.in 	\
 	emblem-cool.icon.in		\
-	emblem-cvs-added.icon.in	\
-	emblem-cvs-conflict.icon.in	\
 	emblem-cvs-controlled.icon.in	\
 	emblem-cvs-modified.icon.in	\
-	emblem-cvs-new-file.icon.in	\
-	emblem-cvs-removed.icon.in	\
 	emblem-cvs-sticky-tag.icon.in	\
 	emblem-danger.icon.in		\
 	emblem-desktop.icon.in		\
@@ -50,12 +46,8 @@ png_DATA =				\
 	emblem-cool.png			\
 	emblem-camera.png		\
 	emblem-certified.png		\
-	emblem-cvs-added.png		\
-	emblem-cvs-conflict.png 	\
 	emblem-cvs-controlled.png 	\
-	emblem-cvs-modified.png 	\
-	emblem-cvs-new-file.png		\
-	emblem-cvs-removed.png		\
+	emblem-cvs-modified.png		\
 	emblem-cvs-sticky-tag.png 	\
 	emblem-danger.png		\
 	emblem-desktop.png		\
