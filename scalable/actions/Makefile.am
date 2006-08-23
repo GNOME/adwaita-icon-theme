@@ -14,6 +14,8 @@ icons_DATA =				\
 	folder-new.svg			\
 	edit-delete.svg			\
 	go-home.svg			\
+	list-add.svg			\
+	list-remove.svg			\
 	system-run.svg			\
 	view-fullscreen.svg		\
 	view-restore.svg		\

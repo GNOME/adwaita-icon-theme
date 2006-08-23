@@ -1,5 +1,14 @@
 2006-08-23  Rodney Dawes  <dobey@novell.com>
 
+	* */actions/Makefile.am:
+	* */actions/list-add.*:
+	* */actions/list-remove.*:
+	Add list-add and list-remove icons from Andreas Nilsson
+
+	Fixes #348415
+
+2006-08-23  Rodney Dawes  <dobey@novell.com>
+
 	* 48x48/emblems/Makefile.am:
 	* 48x48/emblems/emblem-cvs-added.*:
 	* 48x48/emblems/emblem-cvs-conflict.*:

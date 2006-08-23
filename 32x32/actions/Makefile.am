@@ -9,6 +9,8 @@ icons_DATA =			\
 	document-save.png	\
 	document-save-as.png	\
 	folder-new.png		\
+	list-add.png		\
+	list-remove.png		\
 	system-run.png		\
 	view-fullscreen.png	\
 	view-restore.png	\
