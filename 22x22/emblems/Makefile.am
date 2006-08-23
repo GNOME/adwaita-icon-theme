@@ -4,10 +4,12 @@ size = 22x22
 context = emblems
 iconsdir = $(themedir)/$(size)/$(context)
 
-icons_DATA =\
-	emblem-favorite.png	\
-	emblem-important.png \
+icons_DATA =				\
+	emblem-favorite.png		\
+	emblem-important.png		\
+	emblem-package.png		\
 	emblem-symbolic-link.png	\
+	emblem-web.png
 	$(NULL)
 
 EXTRA_DIST = $(icons_DATA)

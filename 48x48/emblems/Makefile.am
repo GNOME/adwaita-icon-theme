@@ -32,7 +32,6 @@ icon_in_files =				\
 	emblem-nowrite.icon.in		\
 	emblem-ohno.icon.in		\
 	emblem-OK.icon.in 		\
-	emblem-package.icon.in		\
 	emblem-people.icon.in		\
 	emblem-personal.icon.in		\
 	emblem-pictures.icon.in		\
@@ -42,7 +41,6 @@ icon_in_files =				\
 	emblem-shared.icon.in		\
 	emblem-sound.icon.in		\
 	emblem-trash.icon.in		\
-	emblem-web.icon.in		\
 	$(NULL)
 
 icons_DATA = $(icon_in_files:.icon.in=.icon)
@@ -74,7 +72,6 @@ png_DATA =				\
 	emblem-nowrite.png		\
 	emblem-ohno.png			\
 	emblem-OK.png			\
-	emblem-package.png		\
 	emblem-people.png		\
 	emblem-personal.png		\
 	emblem-pictures.png		\
@@ -84,7 +81,6 @@ png_DATA =				\
 	emblem-shared.png		\
 	emblem-sound.png		\
 	emblem-trash.png		\
-	emblem-web.png			\
 	$(NULL)
 
 %.icon:   %.icon.in   $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)/po/*.po) ; $(INTLTOOL_MERGE) $(top_srcdir)/po $< $@ -d -u -c $(top_builddir)/po/.intltool-merge-cache

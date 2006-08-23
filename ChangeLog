@@ -1,3 +1,16 @@
+2006-08-23  Rodney Dawes  <dobey@novell.com>
+
+	* 48x48/emblems/Makefile.am:
+	* 48x48/emblems/emblem-package.*:
+	* 48x48/emblems/emblem-web.*:
+	Removed these as they are replaced by scalable versions
+
+	* */emblems/Makefile.am:
+	* */emblems/emblem-package.*:
+	* */emblems/emblem-web.*:
+	Copy over package-x-generic and applications-internet icons to fill
+	out these two emblems in the new style
+
 2006-08-22  Rodney Dawes  <dobey@novell.com>
 
 	* index.theme.in: Remove the 48x48/status directory as we don't have
