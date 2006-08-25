@@ -13,7 +13,15 @@ icons_DATA =				\
 	document-save-as.svg		\
 	folder-new.svg			\
 	edit-delete.svg			\
+	go-bottom.svg			\
+	go-down.svg			\
+	go-first.svg			\
 	go-home.svg			\
+	go-last.svg			\
+	go-next.svg			\
+	go-previous.svg			\
+	go-top.svg			\
+	go-up.svg			\
 	list-add.svg			\
 	list-remove.svg			\
 	system-run.svg			\

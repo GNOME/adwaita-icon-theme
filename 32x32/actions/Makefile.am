@@ -9,6 +9,14 @@ icons_DATA =			\
 	document-save.png	\
 	document-save-as.png	\
 	folder-new.png		\
+	go-bottom.png		\
+	go-down.png		\
+	go-first.png		\
+	go-last.png		\
+	go-next.png		\
+	go-previous.png		\
+	go-top.png		\
+	go-up.png		\
 	list-add.png		\
 	list-remove.png		\
 	system-run.png		\
