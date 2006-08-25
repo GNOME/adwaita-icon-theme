@@ -12,6 +12,7 @@ icons_DATA =			\
 	go-bottom.png		\
 	go-down.png		\
 	go-first.png		\
+	go-home.png		\
 	go-last.png		\
 	go-next.png		\
 	go-previous.png		\
