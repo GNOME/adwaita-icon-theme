@@ -12,7 +12,8 @@ icons_DATA =			\
 	folder-saved-search.svg	\
 	network-server.svg	\
 	network-workgroup.svg	\
-	start-here.svg	\
+	start-here.svg		\
+	user-desktop.svg	\
 	user-home.svg		\
 	user-trash.svg
 

@@ -7,9 +7,10 @@ icons_DATA =				\
 	accessories-dictionary.png	\
 	applets-screenshooter.png	\
 	boot.png			\
-	evolution.png	\
+	evolution.png			\
 	gnome-shutdown.png		\
 	gnome-session.png		\
+	help-browser.png		\
 	im-aim.png			\
 	im-icq.png			\
 	im-jabber.png			\

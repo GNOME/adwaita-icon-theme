@@ -13,6 +13,7 @@ icon_in_files =				\
 	emblem-generic.icon.in		\
 	emblem-important.icon.in	\
 	emblem-mail.icon.in		\
+	emblem-new.icon.in		\
 	emblem-package.icon.in		\
 	emblem-special.icon.in		\
 	emblem-urgent.icon.in		\
@@ -30,6 +31,7 @@ svg_DATA =				\
 	emblem-generic.svg		\
 	emblem-important.svg		\
 	emblem-mail.svg			\
+	emblem-new.svg			\
 	emblem-package.svg		\
 	emblem-special.svg		\
 	emblem-symbolic-link.svg	\

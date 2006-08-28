@@ -22,7 +22,6 @@ icon_in_files =				\
 	emblem-marketing.icon.in	\
 	emblem-money.icon.in		\
 	emblem-multimedia.icon.in	\
-	emblem-new.icon.in		\
 	emblem-noread.icon.in		\
 	emblem-note.icon.in		\
 	emblem-nowrite.icon.in		\
@@ -58,7 +57,6 @@ png_DATA =				\
 	emblem-marketing.png		\
 	emblem-money.png		\
 	emblem-multimedia.png		\
-	emblem-new.png			\
 	emblem-note.png			\
 	emblem-noread.png		\
 	emblem-nowrite.png		\

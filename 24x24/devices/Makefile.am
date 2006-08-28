@@ -11,6 +11,7 @@ icons_DATA =				\
 	drive-harddisk.png		\
 	drive-optical.png		\
 	drive-removable-media.png	\
+	input-keyboard.png		\
 	input-mouse.png			\
 	media-flash.png			\
 	media-floppy.png		\

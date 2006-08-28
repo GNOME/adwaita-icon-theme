@@ -41,7 +41,6 @@ icons_DATA =				\
 	gnome-system-config.png		\
 	gnome-unknown.png		\
 	gnome-window-manager.png	\
-	help-browser.png		\
 	hint.png			\
 	hwbrowser.png			\
 	im.png				\

@@ -1,3 +1,16 @@
+2006-08-28  Rodney Dawes  <dobey@novell.com>
+
+	* */apps/help-browser.*:
+	* */emblems/emblem-new.*:
+	* */places/user-desktop.*:
+	Update to new version from Lapo Calamandrei
+	scalable versions replace 48x48
+
+	* configure.in:
+	* 48x48/Makefile.am:
+	* 48x48/places:
+	Removed 48x48/places from the build as we no longer need it
+
 2006-08-25  Rodney Dawes  <dobey@novell.com>
 
 	* */mimetypes/Makefile.am:

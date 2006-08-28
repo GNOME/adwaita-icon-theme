@@ -6,7 +6,6 @@ SUBDIRS =		\
 	devices		\
 	emblems		\
 	filesystems	\
-	places		\
 	stock
 
 MAINTAINERCLEANFILES =	\
