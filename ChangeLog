@@ -1,5 +1,15 @@
 2006-09-03  Rodney Dawes  <dobey@novell.com>
 
+	* 22x22/devices/computer.xcf.bz2: Remove old computer icon source
+
+	* 24x24/devices/Makefile.am: Install video-display.png (#354112)
+
+	* 24x24/devices/computer.png: Update from newer icon (#354111)
+
+	Fixes bugs #354111 and #354112
+	
+2006-09-03  Rodney Dawes  <dobey@novell.com>
+
 	* */apps/Makefile.am:
 	* */apps/logviewer.*:
 	Add a new logviewer icon from Lapo Calamandrei
