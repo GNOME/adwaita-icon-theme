@@ -17,6 +17,7 @@ icons_DATA =				\
 	im-msn.png			\
 	im-nov.png			\
 	im-yahoo.png			\
+	logviewer.png			\
 	preferences-desktop-accessibility.png	\
 	preferences-desktop-screensaver.png	\
 	preferences-desktop-wallpaper.png	\

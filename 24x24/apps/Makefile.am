@@ -14,7 +14,7 @@ icons_DATA =				\
 	config-language.png		\
 	config-users.png		\
 	display-capplet.png		\
-	evolution.png	\
+	evolution.png			\
 	evolution-calendar.png		\
 	evolution-mail.png		\
 	evolution-tasks.png		\
@@ -47,6 +47,7 @@ icons_DATA =				\
 	im-msn.png			\
 	im-nov.png			\
 	im-yahoo.png			\
+	logviewer.png			\
 	multimedia-volume-control.png	\
 	ooo_calc.png			\
 	ooo_draw.png			\

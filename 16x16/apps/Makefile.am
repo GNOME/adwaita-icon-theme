@@ -8,7 +8,7 @@ icons_DATA =				\
 	accessories-text-editor.png	\
 	applets-screenshooter.png	\
 	boot.png			\
-	evolution.png	\
+	evolution.png			\
 	gnome-logout.png		\
 	gnome-shutdown.png		\
 	gnome-session.png		\
@@ -22,6 +22,7 @@ icons_DATA =				\
 	im-msn.png			\
 	im-nov.png			\
 	im-yahoo.png			\
+	logviewer.png			\
 	multimedia-volume-control.png	\
 	preferences-desktop-accessibility.png	\
 	preferences-desktop-locale.png	\
