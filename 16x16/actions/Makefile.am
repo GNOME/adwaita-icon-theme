@@ -40,6 +40,7 @@ icons_DATA =				\
 	go-previous.png			\
 	go-top.png			\
 	go-up.png			\
+	gtk-edit.png			\
 	list-add.png			\
 	list-remove.png			\
 	mail-forward.png		\
