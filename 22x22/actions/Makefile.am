@@ -60,6 +60,7 @@ icons_DATA =				\
 	media-skip-backward.png		\
 	media-skip-forward.png		\
 	process-stop.png		\
+	system-lock-screen.png		\
 	system-run.png			\
 	tab-new.png			\
 	view-fullscreen.png		\

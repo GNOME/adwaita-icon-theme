@@ -20,6 +20,7 @@ icons_DATA =			\
 	go-up.png		\
 	list-add.png		\
 	list-remove.png		\
+	system-lock-screen.png	\
 	system-run.png		\
 	view-fullscreen.png	\
 	view-restore.png	\

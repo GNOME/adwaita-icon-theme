@@ -24,6 +24,7 @@ icons_DATA =				\
 	go-up.svg			\
 	list-add.svg			\
 	list-remove.svg			\
+	system-lock-screen.svg		\
 	system-run.svg			\
 	view-fullscreen.svg		\
 	view-restore.svg		\
