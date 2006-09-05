@@ -68,7 +68,6 @@ icons_DATA =				\
 	shares.png			\
 	stock-ticker.png		\
 	system-file-manager.png		\
-	text-editor.png			\
 	utilities-system-monitor.png	\
 	utilities-terminal.png		\
 	web-browser.png
