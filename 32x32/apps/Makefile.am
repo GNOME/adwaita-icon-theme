@@ -5,6 +5,7 @@ context = apps
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
+	accessories-text-editor.png	\
 	evolution.png			\
 	help-browser.png		\
 	logviewer.png			\
