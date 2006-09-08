@@ -25,9 +25,11 @@ icons_DATA =				\
 	logviewer.png			\
 	multimedia-volume-control.png	\
 	preferences-desktop-accessibility.png	\
+	preferences-desktop-keyboard-shortcuts.png	\
 	preferences-desktop-locale.png	\
 	preferences-desktop-remote-desktop.png	\
 	preferences-desktop-screensaver.png	\
+	preferences-desktop-theme.png	\
 	preferences-desktop-wallpaper.png	\
 	system-file-manager.png		\
 	utilities-system-monitor.png	\

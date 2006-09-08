@@ -20,8 +20,10 @@ icons_DATA =				\
 	im-yahoo.png			\
 	logviewer.png			\
 	preferences-desktop-accessibility.png	\
+	preferences-desktop-keyboard-shortcuts.png	\
 	preferences-desktop-remote-desktop.png	\
 	preferences-desktop-screensaver.png	\
+	preferences-desktop-theme.png	\
 	preferences-desktop-wallpaper.png	\
 	system-file-manager.png		\
 	utilities-system-monitor.png	\
