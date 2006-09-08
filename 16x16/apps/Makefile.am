@@ -31,6 +31,7 @@ icons_DATA =				\
 	preferences-desktop-screensaver.png	\
 	preferences-desktop-theme.png	\
 	preferences-desktop-wallpaper.png	\
+	preferences-system-windows.png	\
 	system-file-manager.png		\
 	utilities-system-monitor.png	\
 	utilities-terminal.png		\

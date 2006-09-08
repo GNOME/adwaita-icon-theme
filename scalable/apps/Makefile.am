@@ -22,6 +22,7 @@ icons_DATA =				\
 	preferences-desktop-screensaver.svg	\
 	preferences-desktop-theme.svg	\
 	preferences-desktop-wallpaper.svg	\
+	preferences-system-windows.svg	\
 	system-file-manager.svg		\
 	utilities-system-monitor.svg	\
 	utilities-terminal.svg		\
