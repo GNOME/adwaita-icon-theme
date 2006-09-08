@@ -9,6 +9,7 @@ icons_DATA =				\
 	evolution.png			\
 	help-browser.png		\
 	logviewer.png			\
+	preferences-desktop-remote-desktop.png	\
 	preferences-desktop-screensaver.png	\
 	system-file-manager.png		\
 	utilities-system-monitor.png	\
