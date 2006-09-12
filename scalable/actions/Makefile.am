@@ -4,6 +4,7 @@ context = actions
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
+	contact-new.svg	\
 	edit-find.svg			\
 	edit-find-replace.svg		\
 	document-new.svg		\
