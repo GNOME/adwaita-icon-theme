@@ -9,6 +9,7 @@ icons_DATA =				\
 	applications-development.png	\
 	applications-games.png	\
 	applications-internet.png	\
+	applications-multimedia.png	\
 	preferences-system.png
 
 EXTRA_DIST =				\
