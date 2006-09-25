@@ -10,6 +10,7 @@ icons_DATA =				\
 	bookmark-new.png		\
 	contact-new.png	\
 	document-new.png		\
+	document-open.png		\
 	document-print.png		\
 	document-print-preview.png	\
 	document-save.png		\

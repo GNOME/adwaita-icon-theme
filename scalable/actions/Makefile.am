@@ -8,6 +8,7 @@ icons_DATA =				\
 	edit-find.svg			\
 	edit-find-replace.svg		\
 	document-new.svg		\
+	document-open.svg		\
 	document-print.svg		\
 	document-print-preview.svg	\
 	document-save.svg		\
