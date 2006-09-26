@@ -4,6 +4,7 @@ context = devices
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =			\
+	audio-input-microphone.png	\
 	battery.png		\
 	drive-harddisk.png	\
 	drive-optical.png	\
