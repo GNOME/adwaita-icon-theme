@@ -18,9 +18,9 @@
    sodipodi:docname="go-home.svg"
    version="1.0">
   <sodipodi:namedview
-     inkscape:cy="48.198925"
+     inkscape:cy="48.110537"
      inkscape:cx="40.544396"
-     inkscape:zoom="5.6568542"
+     inkscape:zoom="1"
      inkscape:window-height="968"
      inkscape:window-width="1051"
      inkscape:pageshadow="2"
@@ -34,14 +34,26 @@
      id="base"
      inkscape:showpageshadow="false"
      showgrid="false"
-     inkscape:window-x="610"
-     inkscape:window-y="15"
+     inkscape:window-x="278"
+     inkscape:window-y="72"
      inkscape:current-layer="layer1"
      width="32px"
      height="32px"
      showborder="true" />
   <defs
      id="defs1330">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5204">
+      <stop
+         style="stop-color:white;stop-opacity:1;"
+         offset="0"
+         id="stop5206" />
+      <stop
+         style="stop-color:white;stop-opacity:0;"
+         offset="1"
+         id="stop5208" />
+    </linearGradient>
     <linearGradient
        id="linearGradient2851">
       <stop
@@ -121,6 +133,15 @@
        y1="31.000082"
        x2="14.34375"
        y2="24.997843" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5204"
+       id="linearGradient5210"
+       x1="16.015625"
+       y1="11.969368"
+       x2="16.015625"
+       y2="35.30389"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="namedview21"
@@ -223,11 +244,8 @@ Rodney Dawes</dc:title>
        id="rect5117"
        sodipodi:nodetypes="cccccccccccc" />
     <path
-       sodipodi:type="inkscape:offset"
-       inkscape:radius="-1"
-       inkscape:original="M 16 1.65625 L 1.5 17.53125 L 4.46875 17.53125 L 4.5 28.5 L 27.53125 28.5 L 27.5 17.46875 L 30.5625 17.5 L 24.5 10.90625 L 24.5 3.5 L 20.5 3.5 L 20.5 6.5625 L 16 1.65625 z "
-       style="color:black;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:white;stroke-width:1.00000095;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;opacity:0.4"
-       id="path2820"
-       d="M 16,3.15625 L 3.78125,16.53125 L 4.46875,16.53125 C 5.0210119,16.531305 5.4686948,16.978988 5.46875,17.53125 L 5.5,27.5 L 26.53125,27.5 L 26.5,17.46875 C 26.500055,16.916488 26.947738,16.468805 27.5,16.46875 L 28.25,16.46875 L 23.75,11.59375 C 23.582835,11.404378 23.493521,11.158765 23.5,10.90625 L 23.5,4.5 L 21.5,4.5 L 21.5,6.5625 C 21.511018,6.983133 21.257571,7.3656728 20.865932,7.519531 C 20.474293,7.6733892 20.028238,7.5656536 19.75,7.25 L 16,3.15625 z " />
+       style="opacity:0.4;color:black;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient5210);stroke-width:1.00000095;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;visibility:visible;display:inline;overflow:visible"
+       d="M 16,3.15625 L 3.78125,16.53125 L 4.46875,16.53125 C 5.0210119,16.531305 5.4686948,16.978988 5.46875,17.53125 L 5.5,27.5 L 26.53125,27.5 L 26.5,17.46875 C 26.500055,16.916488 26.947738,16.468805 27.5,16.46875 L 28.25,16.46875 L 23.75,11.59375 C 23.582835,11.404378 23.493521,11.158765 23.5,10.90625 L 23.5,4.5 L 21.5,4.5 L 21.5,6.5625 C 21.511018,6.983133 21.257571,7.3656728 20.865932,7.519531 C 20.474293,7.6733892 20.028238,7.5656536 19.75,7.25 L 16,3.15625 z "
+       id="path2820" />
   </g>
 </svg>
