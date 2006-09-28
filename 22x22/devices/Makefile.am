@@ -16,6 +16,7 @@ icons_DATA =				\
 	media-flash.png			\
 	media-floppy.png		\
 	media-optical.png		\
+	modem.png		\
 	multimedia-player.png		\
 	network-wired.png		\
 	network-wireless.png		\
