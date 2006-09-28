@@ -16,7 +16,8 @@ icons_DATA =			\
 	media-optical.png	\
 	modem.png		\
 	multimedia-player.png	\
-	printer.png
+	printer.png	\
+	video-display.png
 
 EXTRA_DIST = $(icons_DATA)
 
