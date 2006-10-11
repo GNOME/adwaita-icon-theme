@@ -60,6 +60,10 @@ icons_DATA =				\
 	media-seek-forward.png		\
 	media-skip-backward.png		\
 	media-skip-forward.png		\
+	object-flip-horizontal.png	\
+	object-flip-vertical.png	\
+	object-rotate-left.png		\
+	object-rotate-right.png		\
 	process-stop.png		\
 	system-lock-screen.png		\
 	system-run.png			\

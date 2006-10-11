@@ -26,6 +26,10 @@ icons_DATA =				\
 	go-up.svg			\
 	list-add.svg			\
 	list-remove.svg			\
+	object-flip-horizontal.svg	\
+	object-flip-vertical.svg	\
+	object-rotate-left.svg		\
+	object-rotate-right.svg		\
 	system-lock-screen.svg		\
 	system-run.svg			\
 	view-fullscreen.svg		\
