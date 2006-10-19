@@ -4,6 +4,7 @@ context = apps
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
+	accessories-calculator.png	\
 	accessories-dictionary.png	\
 	accessories-text-editor.png	\
 	applets-screenshooter.png	\
