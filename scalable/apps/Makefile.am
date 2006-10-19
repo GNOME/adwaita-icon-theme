@@ -4,6 +4,7 @@ context = apps
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
+	accessories-calculator.svg	\
 	accessories-dictionary.svg	\
 	accessories-text-editor.svg	\
 	evolution.svg			\

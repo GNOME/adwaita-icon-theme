@@ -5,7 +5,6 @@ context = apps
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
-	accessories-calculator.png	\
 	administration.png		\
 	advanced-directory.png		\
 	apacheconf.png			\
