@@ -10,6 +10,7 @@ icons_DATA =			\
 	document-open.png	\
 	document-save.png	\
 	document-save-as.png	\
+	edit-cut.png	\
 	folder-new.png		\
 	go-bottom.png		\
 	go-down.png		\

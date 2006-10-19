@@ -14,6 +14,7 @@ icons_DATA =				\
 	document-save.svg		\
 	document-save-as.svg		\
 	folder-new.svg			\
+	edit-cut.svg	\
 	edit-delete.svg			\
 	go-bottom.svg			\
 	go-down.svg			\
