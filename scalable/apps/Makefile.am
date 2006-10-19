@@ -17,6 +17,7 @@ icons_DATA =				\
 	im-yahoo.svg			\
 	logviewer.svg			\
 	multimedia-volume-control.svg	\
+	preferences-desktop-font.svg	\
 	preferences-desktop-keyboard-shortcuts.svg	\
 	preferences-desktop-remote-desktop.svg	\
 	preferences-desktop-screensaver.svg	\

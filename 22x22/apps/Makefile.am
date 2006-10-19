@@ -20,6 +20,7 @@ icons_DATA =				\
 	im-yahoo.png			\
 	logviewer.png			\
 	multimedia-volume-control.png		\
+	preferences-desktop-font.png	\
 	preferences-desktop-accessibility.png	\
 	preferences-desktop-keyboard-shortcuts.png	\
 	preferences-desktop-remote-desktop.png	\

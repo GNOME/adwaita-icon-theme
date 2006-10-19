@@ -9,6 +9,7 @@ icons_DATA =				\
 	evolution.png			\
 	help-browser.png		\
 	logviewer.png			\
+	preferences-desktop-font.png	\
 	preferences-desktop-keyboard-shortcuts.png	\
 	preferences-desktop-remote-desktop.png	\
 	preferences-desktop-screensaver.png	\
