@@ -1,3 +1,13 @@
+2006-11-09  Rodney Dawes  <dobey@novell.com>
+
+	* 16x16/actions/Makefile.am: Add missing bookmark-new
+	* 16x16/mimetpes/Makefile.am: Add missing application-x-executable
+	* 22x22/mimetypes/Makefile.am: Add missing text-x-preview
+	* 22x22/status/Makefile.am: Add missing audio-volume-* icons
+	* 24x24/actions/Makefile.am: Add missing folder-new
+	* 24x24/apps/Makefile.am: Add missing preferences-system-windows
+	* 32x32/devices/Makefile.am: Add missing computer
+
 2006-11-07  Rodney Dawes  <dobey@novell.com>
 
 	* configure.in: Update for 2.17.2 release

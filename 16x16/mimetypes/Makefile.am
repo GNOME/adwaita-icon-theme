@@ -6,6 +6,7 @@ iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
 	application-certificate.png	\
+	application-x-executable.png	\
 	audio-x-generic.png		\
 	font-x-generic.png		\
 	image-x-generic.png		\

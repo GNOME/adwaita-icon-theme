@@ -68,6 +68,7 @@ icons_DATA =				\
 	preferences-desktop-remote-desktop.png	\
 	preferences-desktop-screensaver.png	\
 	preferences-desktop-wallpaper.png	\
+	preferences-system-windows.png	\
 	shares.png			\
 	stock-ticker.png		\
 	system-file-manager.png		\

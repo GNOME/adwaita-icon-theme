@@ -5,11 +5,15 @@ context = status
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
-	appointment-missed.png	\
-	appointment-soon.png	\
-	dialog-error.png	\
-	dialog-information.png	\
-	dialog-warning.png	\
+	appointment-missed.png		\
+	appointment-soon.png		\
+	audio-volume-high.png		\
+	audio-volume-low.png		\
+	audio-volume-medium.png		\
+	audio-volume-muted.png		\
+	dialog-error.png		\
+	dialog-information.png		\
+	dialog-warning.png		\
 	folder-drag-accept.png		\
 	folder-open.png			\
 	folder-visiting.png		\
@@ -25,14 +29,14 @@ icons_DATA =				\
 	network-wireless-encrypted.png	\
 	user-trash-full.png		\
 	weather-clear.png		\
-	weather-clear-night.png	\
-	weather-few-clouds.png	\
+	weather-clear-night.png		\
+	weather-few-clouds.png		\
 	weather-few-clouds-night.png	\
-	weather-overcast.png	\
+	weather-overcast.png		\
 	weather-severe-alert.png	\
-	weather-showers.png	\
+	weather-showers.png		\
 	weather-showers-scattered.png	\
-	weather-snow.png	\
+	weather-snow.png		\
 	weather-storm.png
 
 EXTRA_DIST =				\

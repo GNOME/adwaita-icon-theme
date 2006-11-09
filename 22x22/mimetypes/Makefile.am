@@ -14,6 +14,7 @@ icons_DATA =				\
 	text-html.png			\
 	text-x-generic.png		\
 	text-x-generic-template.png	\
+	text-x-preview.png		\
 	text-x-script.png		\
 	video-x-generic.png		\
 	x-office-address-book.png	\
