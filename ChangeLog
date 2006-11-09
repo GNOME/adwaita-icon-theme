@@ -1,5 +1,10 @@
 2006-11-09  Rodney Dawes  <dobey@novell.com>
 
+	* */*/Makefile.am: Add nifty make check rule to check that all of the
+	icons are listed in the Makefile.am to help prevent missing icons
+
+2006-11-09  Rodney Dawes  <dobey@novell.com>
+
 	* 16x16/actions/Makefile.am: Add missing bookmark-new
 	* 16x16/mimetpes/Makefile.am: Add missing application-x-executable
 	* 22x22/mimetypes/Makefile.am: Add missing text-x-preview
