@@ -12,7 +12,6 @@ icons_DATA =				\
 	character-picker.png		\
 	config-date.png			\
 	config-language.png		\
-	config-users.png		\
 	config-xfree.png		\
 	disks.png			\
 	eyes.png			\

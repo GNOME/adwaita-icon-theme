@@ -30,6 +30,7 @@ icons_DATA =				\
 	preferences-desktop-wallpaper.png	\
 	preferences-system-windows.png	\
 	system-file-manager.png		\
+	system-users.png	\
 	utilities-system-monitor.png	\
 	utilities-terminal.png		\
 	web-browser.png

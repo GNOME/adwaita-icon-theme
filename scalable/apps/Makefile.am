@@ -26,6 +26,7 @@ icons_DATA =				\
 	preferences-desktop-wallpaper.svg	\
 	preferences-system-windows.svg	\
 	system-file-manager.svg		\
+	system-users.svg		\
 	utilities-system-monitor.svg	\
 	utilities-terminal.svg		\
 	web-browser.svg
