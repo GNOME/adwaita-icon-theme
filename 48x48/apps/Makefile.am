@@ -49,8 +49,6 @@ icons_DATA =				\
 	palm-pilot-sync.png		\
 	postscript-viewer.png		\
 	preferences-desktop-accessibility.png	\
-	preferences-desktop-font.png	\
-	preferences-desktop-theme.png	\
 	serviceconf.png			\
 	stock-ticker.png		\
 	user-info.png			\
