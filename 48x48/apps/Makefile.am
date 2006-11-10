@@ -31,7 +31,6 @@ icons_DATA =				\
 	gnome-searchtool-animation-rest.png	\
 	gnome-server-config.png		\
 	gnome-session.png		\
-	gnome-settings-keybindings.png	\
 	gnome-settings-ui-behavior.png	\
 	gnome-settings-sound.png	\
 	gnome-settings-accessibility-keyboard.png	\
