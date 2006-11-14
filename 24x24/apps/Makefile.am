@@ -63,6 +63,7 @@ icons_DATA =				\
 	postscript-viewer.png		\
 	preferences-desktop-accessibility.png	\
 	preferences-desktop-font.png	\
+	preferences-desktop-keyboard.png	\
 	preferences-desktop-keyboard-shortcuts.png	\
 	preferences-desktop-theme.png	\
 	preferences-desktop-remote-desktop.png	\
