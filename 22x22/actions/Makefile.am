@@ -13,6 +13,7 @@ icons_DATA =				\
 	document-open.png		\
 	document-print.png		\
 	document-print-preview.png	\
+	document-properties.png		\
 	document-save.png		\
 	document-save-as.png		\
 	edit-copy.png			\

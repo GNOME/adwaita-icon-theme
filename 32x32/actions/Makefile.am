@@ -8,6 +8,7 @@ icons_DATA =			\
 	contact-new.png	\
 	document-new.png	\
 	document-open.png	\
+	document-properties.png	\
 	document-save.png	\
 	document-save-as.png	\
 	edit-cut.png	\

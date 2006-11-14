@@ -23,6 +23,7 @@ icons_DATA =				\
 	multimedia-volume-control.png		\
 	preferences-desktop-font.png	\
 	preferences-desktop-accessibility.png	\
+	preferences-desktop-keyboard.png	\
 	preferences-desktop-keyboard-shortcuts.png	\
 	preferences-desktop-remote-desktop.png	\
 	preferences-desktop-screensaver.png	\

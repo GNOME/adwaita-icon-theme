@@ -19,6 +19,7 @@ icons_DATA =				\
 	logviewer.svg			\
 	multimedia-volume-control.svg	\
 	preferences-desktop-font.svg	\
+	preferences-desktop-keyboard.svg	\
 	preferences-desktop-keyboard-shortcuts.svg	\
 	preferences-desktop-remote-desktop.svg	\
 	preferences-desktop-screensaver.svg	\

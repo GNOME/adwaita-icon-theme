@@ -27,6 +27,7 @@ icons_DATA =				\
 	multimedia-volume-control.png	\
 	preferences-desktop-accessibility.png	\
 	preferences-desktop-font.png	\
+	preferences-desktop-keyboard.png	\
 	preferences-desktop-keyboard-shortcuts.png	\
 	preferences-desktop-locale.png	\
 	preferences-desktop-remote-desktop.png	\
