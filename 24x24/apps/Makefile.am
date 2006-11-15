@@ -34,7 +34,6 @@ icons_DATA =				\
 	gnome-networktool.png		\
 	gnome-searchtool.png		\
 	gnome-session.png		\
-	gnome-settings-keybindings.png	\
 	gnome-settings-sound.png	\
 	gnome-settings-ui-behavior.png	\
 	gnome-shutdown.png		\
