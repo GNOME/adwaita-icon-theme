@@ -1,3 +1,12 @@
+2006-11-15  Luca Ferretti  <elle.uca@libero.it>
+
+	* 16x16/apps/gnome-window-manager.*:
+	* 24x24/apps/gnome-window-manager.*:
+	* 16x16/apps/Makefile.am:
+	* 24x24/apps/Makefile.am:
+	Remove legacy gnome-window-manager named icons (replaced
+	by preferences-system-windows)
+
 2006-11-14  Lapo Calamandrei <calamandrei@gmail.com>
 	
 	* 22x22/categories/applications-multimedia: tweaks

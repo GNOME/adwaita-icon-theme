@@ -13,7 +13,6 @@ icons_DATA =				\
 	gnome-logout.png		\
 	gnome-shutdown.png		\
 	gnome-session.png		\
-	gnome-window-manager.png	\
 	help-browser.png		\
 	image-viewer.png		\
 	im.png				\

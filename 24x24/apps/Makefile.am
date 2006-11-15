@@ -40,7 +40,6 @@ icons_DATA =				\
 	gnome-shutdown.png		\
 	gnome-status.png		\
 	gnome-unknown.png		\
-	gnome-window-manager.png	\
 	help-browser.png		\
 	image-viewer.png		\
 	im-aim.png			\
