@@ -26,6 +26,7 @@ icons_DATA =				\
 	go-previous.svg			\
 	go-top.svg			\
 	go-up.svg			\
+	help-faq.svg			\
 	list-add.svg			\
 	list-remove.svg			\
 	object-flip-horizontal.svg	\

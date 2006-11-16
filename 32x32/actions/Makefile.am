@@ -22,6 +22,7 @@ icons_DATA =			\
 	go-previous.png		\
 	go-top.png		\
 	go-up.png		\
+	help-faq.png		\
 	list-add.png		\
 	list-remove.png		\
 	system-lock-screen.png	\
