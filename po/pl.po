@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-03-04 22:15+0100\n"
+"POT-Creation-Date: 2006-11-12 16:00+0100\n"
 "PO-Revision-Date: 2003-06-30 00:11+0100\n"
 "Last-Translator: Gnome PL Team <translators@gnomepl.org>\n"
 "Language-Team: Polish <pl@li.org>\n"
@@ -26,11 +26,6 @@ msgstr "OK"
 msgid "Art"
 msgstr "Sztuka"
 
-# 48x48/emblems/emblem-bin.icon.in.h:1
-#: ../48x48/emblems/emblem-bin.icon.in.h:1
-msgid "Binary"
-msgstr "Binarny"
-
 #: ../48x48/emblems/emblem-camera.icon.in.h:1
 msgid "Camera"
 msgstr "Aparat"
@@ -43,14 +38,6 @@ msgstr "Certyfikowany"
 msgid "Cool"
 msgstr "Spoko"
 
-#: ../48x48/emblems/emblem-cvs-added.icon.in.h:1
-msgid "cvs-added"
-msgstr "cvs-dodany"
-
-#: ../48x48/emblems/emblem-cvs-conflict.icon.in.h:1
-msgid "cvs-conflict"
-msgstr "cvs-konflikt"
-
 # FIXME - jeszcze tego nie spotkałem
 #: ../48x48/emblems/emblem-cvs-controlled.icon.in.h:1
 msgid "cvs-controlled"
@@ -59,14 +46,6 @@ msgstr "cvs-sterowany"
 #: ../48x48/emblems/emblem-cvs-modified.icon.in.h:1
 msgid "cvs-modified"
 msgstr "cvs-zmodyfikowany"
-
-#: ../48x48/emblems/emblem-cvs-new-file.icon.in.h:1
-msgid "cvs-new-file"
-msgstr "cvs-nowy-plik"
-
-#: ../48x48/emblems/emblem-cvs-removed.icon.in.h:1
-msgid "cvs-removed"
-msgstr "cvs-usunięty"
 
 #: ../48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
 msgid "cvs-sticky-tag"
@@ -92,18 +71,10 @@ msgstr "Dokumenty"
 msgid "Draft"
 msgstr "Szkic"
 
-#: ../48x48/emblems/emblem-generic.icon.in.h:1
-msgid "Generic"
-msgstr "Zwykły"
-
 # 48x48/emblems/emblem-handshake.icon.in.h:1
 #: ../48x48/emblems/emblem-handshake.icon.in.h:1
 msgid "Handshake"
 msgstr "Uścisk ręki"
-
-#: ../48x48/emblems/emblem-important.icon.in.h:1
-msgid "Important"
-msgstr "Ważny"
 
 # 48x48/emblems/emblem-marketing.icon.in.h:1
 #: ../48x48/emblems/emblem-marketing.icon.in.h:1
@@ -118,10 +89,6 @@ msgstr "Pieniądze"
 #: ../48x48/emblems/emblem-multimedia.icon.in.h:1
 msgid "Multimedia"
 msgstr "Multimedia"
-
-#: ../48x48/emblems/emblem-new.icon.in.h:1
-msgid "New"
-msgstr "Nowy"
 
 #: ../48x48/emblems/emblem-noread.icon.in.h:1
 msgid "No read"
@@ -138,10 +105,6 @@ msgstr "Bez zapisu"
 #: ../48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
 msgstr "Oh nie!"
-
-#: ../48x48/emblems/emblem-package.icon.in.h:1
-msgid "Package"
-msgstr "Paczka"
 
 # 48x48/emblems/emblem-people.icon.in.h:1
 #: ../48x48/emblems/emblem-people.icon.in.h:1
@@ -179,34 +142,9 @@ msgstr "Udostępnione"
 msgid "Sound"
 msgstr "Dźwięk"
 
-# FIXME - Albo odnośnik symboliczny? Ale link się przyjął
-#: ../48x48/emblems/emblem-symbolic-link.icon.in.h:1
-msgid "Symbolic link"
-msgstr "Link symboliczny"
-
-#: ../48x48/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "Specjalny"
-
 #: ../48x48/emblems/emblem-trash.icon.in.h:1
 msgid "Trash"
 msgstr "Śmietnik"
-
-#: ../48x48/emblems/emblem-urgent.icon.in.h:1
-msgid "Urgent"
-msgstr "Pilny"
-
-#: ../48x48/emblems/emblem-web.icon.in.h:1
-msgid "Web"
-msgstr "WWW"
-
-#: ../scalable/emblems/emblem-favorite.icon.in.h:1
-msgid "Favorite"
-msgstr "Ulubiony"
-
-#: ../scalable/emblems/emblem-mail.icon.in.h:1
-msgid "Mail"
-msgstr "List"
 
 #: ../index.theme.in.h:1
 msgid "Default GNOME Theme"
@@ -215,3 +153,62 @@ msgstr "Domyślny motyw GNOME"
 #: ../index.theme.in.h:2
 msgid "GNOME"
 msgstr "GNOME"
+
+#: ../scalable/emblems/emblem-cvs-added.icon.in.h:1
+msgid "cvs-added"
+msgstr "cvs-dodany"
+
+#: ../scalable/emblems/emblem-cvs-conflict.icon.in.h:1
+msgid "cvs-conflict"
+msgstr "cvs-konflikt"
+
+#: ../scalable/emblems/emblem-cvs-removed.icon.in.h:1
+msgid "cvs-removed"
+msgstr "cvs-usunięty"
+
+#: ../scalable/emblems/emblem-favorite.icon.in.h:1
+msgid "Favorite"
+msgstr "Ulubiony"
+
+#: ../scalable/emblems/emblem-generic.icon.in.h:1
+msgid "Generic"
+msgstr "Zwykły"
+
+#: ../scalable/emblems/emblem-important.icon.in.h:1
+msgid "Important"
+msgstr "Ważny"
+
+#: ../scalable/emblems/emblem-mail.icon.in.h:1
+msgid "Mail"
+msgstr "List"
+
+#: ../scalable/emblems/emblem-new.icon.in.h:1
+msgid "New"
+msgstr "Nowy"
+
+#: ../scalable/emblems/emblem-package.icon.in.h:1
+msgid "Package"
+msgstr "Paczka"
+
+#: ../scalable/emblems/emblem-special.icon.in.h:1
+msgid "Special"
+msgstr "Specjalny"
+
+#: ../scalable/emblems/emblem-urgent.icon.in.h:1
+msgid "Urgent"
+msgstr "Pilny"
+
+#: ../scalable/emblems/emblem-web.icon.in.h:1
+msgid "Web"
+msgstr "WWW"
+
+# 48x48/emblems/emblem-bin.icon.in.h:1
+#~ msgid "Binary"
+#~ msgstr "Binarny"
+
+#~ msgid "cvs-new-file"
+#~ msgstr "cvs-nowy-plik"
+
+# FIXME - Albo odnośnik symboliczny? Ale link się przyjął
+#~ msgid "Symbolic link"
+#~ msgstr "Link symboliczny"
