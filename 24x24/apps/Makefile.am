@@ -22,7 +22,6 @@ icons_DATA =				\
 	evolution-tasks.png		\
 	gdm.png				\
 	gnome-amusements.png		\
-	gnome-applications.png		\
 	gnome-audio.png			\
 	gnome-cpu.png			\
 	gnome-desktop-config.png	\
