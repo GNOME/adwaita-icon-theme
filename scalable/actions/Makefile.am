@@ -15,8 +15,9 @@ icons_DATA =				\
 	document-save.svg		\
 	document-save-as.svg		\
 	folder-new.svg			\
-	edit-cut.svg	\
+	edit-cut.svg			\
 	edit-delete.svg			\
+	edit-select-all.svg		\
 	go-bottom.svg			\
 	go-down.svg			\
 	go-first.svg			\
@@ -37,6 +38,8 @@ icons_DATA =				\
 	system-run.svg			\
 	view-fullscreen.svg		\
 	view-restore.svg		\
+	view-sort-ascending.svg		\
+	view-sort-descending.svg	\
 	window-new.svg			\
 	zoom-best-fit.svg		\
 	zoom-in.svg			\

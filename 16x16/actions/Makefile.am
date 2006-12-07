@@ -23,6 +23,7 @@ icons_DATA =				\
 	edit-find-replace.png		\
 	edit-paste.png			\
 	edit-redo.png			\
+	edit-select-all.png		\
 	edit-undo.png			\
 	folder-new.png			\
 	format-indent-less.png		\
@@ -74,6 +75,8 @@ icons_DATA =				\
 	view-fullscreen.png		\
 	view-refresh.png 		\
 	view-restore.png		\
+	view-sort-ascending.png		\
+	view-sort-descending.png	\
 	window-close.png		\
 	window-new.png			\
 	zoom-best-fit.png		\
