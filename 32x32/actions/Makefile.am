@@ -5,6 +5,7 @@ context = actions
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =			\
+	bookmark-new.png	\
 	contact-new.png		\
 	document-new.png	\
 	document-open.png	\
