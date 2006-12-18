@@ -28,6 +28,7 @@ icons_DATA =			\
 	help-faq.png		\
 	list-add.png		\
 	list-remove.png		\
+	process-stop.png	\
 	system-lock-screen.png	\
 	system-run.png		\
 	view-fullscreen.png	\

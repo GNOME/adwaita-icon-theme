@@ -36,6 +36,7 @@ icons_DATA =				\
 	object-flip-vertical.svg	\
 	object-rotate-left.svg		\
 	object-rotate-right.svg		\
+	process-stop.svg		\
 	system-lock-screen.svg		\
 	system-run.svg			\
 	view-fullscreen.svg		\
