@@ -9,6 +9,8 @@ icons_DATA =				\
 	contact-new.svg			\
 	edit-find.svg			\
 	edit-find-replace.svg		\
+	edit-redo.svg			\
+	edit-undo.svg			\
 	document-new.svg		\
 	document-open.svg		\
 	document-print.svg		\
@@ -30,6 +32,10 @@ icons_DATA =				\
 	go-top.svg			\
 	go-up.svg			\
 	help-faq.svg			\
+	format-justify-center.svg	\
+	format-justify-fill.svg		\
+	format-justify-left.svg		\
+	format-justify-right.svg	\
 	list-add.svg			\
 	list-remove.svg			\
 	object-flip-horizontal.svg	\
