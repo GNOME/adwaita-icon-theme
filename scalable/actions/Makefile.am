@@ -31,11 +31,14 @@ icons_DATA =				\
 	go-previous.svg			\
 	go-top.svg			\
 	go-up.svg			\
-	help-faq.svg			\
 	format-justify-center.svg	\
 	format-justify-fill.svg		\
 	format-justify-left.svg		\
 	format-justify-right.svg	\
+	help-faq.svg			\
+	insert-image.svg		\
+	insert-link.svg			\
+	insert-text.svg			\
 	list-add.svg			\
 	list-remove.svg			\
 	object-flip-horizontal.svg	\

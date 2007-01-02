@@ -48,6 +48,9 @@ icons_DATA =				\
 	go-up.png			\
 	gtk-edit.png			\
 	help-faq.png			\
+	insert-image.png		\
+	insert-link.png			\
+	insert-text.png			\
 	list-add.png			\
 	list-remove.png			\
 	mail-forward.png		\
