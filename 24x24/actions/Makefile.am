@@ -60,6 +60,7 @@ icons_DATA =				\
 	mail-reply-all.png		\
 	mail-reply-sender.png		\
 	mail-send-receive.png		\
+	media-eject.png			\
 	media-playback-pause.png	\
 	media-playback-start.png	\
 	media-playback-stop.png		\
