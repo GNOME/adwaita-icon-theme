@@ -1,3 +1,11 @@
+2007-01-05  Rodney Dawes  <dobey@novell.com>
+
+	* 16x16/stock/text/Makefile.am:
+	* 16x16/stock/text/stock_select-all.*:
+	Remove this icon which is replaced by edit-select-all
+
+	Fixes #388149
+
 2007-01-03  Jakub Steiner <jimmac@ximian.com>
 
 	* categories/applications-graphics: new icon from ulisse covering
