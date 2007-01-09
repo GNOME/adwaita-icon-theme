@@ -18,6 +18,7 @@ icons_DATA =			\
 	network-receive.png	\
 	network-transmit.png	\
 	network-transmit-receive.png	\
+	printer-error.png	\
 	user-trash-full.png	\
 	weather-clear.png	\
 	weather-clear-night.png	\

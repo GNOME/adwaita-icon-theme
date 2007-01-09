@@ -27,6 +27,7 @@ icons_DATA =			\
 	network-receive.svg	\
 	network-transmit.svg	\
 	network-transmit-receive.svg	\
+	printer-error.svg	\
 	user-trash-full.svg	\
 	weather-clear.svg	\
 	weather-clear-night.svg	\
