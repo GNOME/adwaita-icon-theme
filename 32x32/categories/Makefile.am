@@ -12,6 +12,7 @@ icons_DATA =				\
 	applications-internet.png	\
 	applications-multimedia.png	\
 	applications-office.png		\
+	applications-other.png	\
 	applications-science.png	\
 	preferences-system.png
 
