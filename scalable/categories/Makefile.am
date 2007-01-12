@@ -11,6 +11,7 @@ icons_DATA =				\
 	applications-internet.svg	\
 	applications-multimedia.svg	\
 	applications-office.svg		\
+	applications-other.svg		\
 	applications-science.svg	\
 	preferences-system.svg
 
