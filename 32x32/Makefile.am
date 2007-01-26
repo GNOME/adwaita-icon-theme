@@ -7,7 +7,8 @@ SUBDIRS =		\
 	emblems		\
 	mimetypes	\
 	places		\
-	status	
+	status		\
+	stock	
 
 MAINTAINERCLEANFILES =	\
 	Makefile.in
