@@ -13,6 +13,7 @@ icons_DATA =				\
 	applications-office.svg		\
 	applications-other.svg		\
 	applications-science.svg	\
+	applications-system.svg	\
 	preferences-system.svg
 
 EXTRA_DIST =		\

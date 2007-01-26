@@ -14,6 +14,7 @@ icons_DATA =				\
 	applications-office.png		\
 	applications-other.png	\
 	applications-science.png	\
+	applications-system.png	\
 	preferences-system.png
 
 EXTRA_DIST =				\
