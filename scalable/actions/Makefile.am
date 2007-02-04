@@ -41,6 +41,7 @@ icons_DATA =				\
 	insert-text.svg			\
 	list-add.svg			\
 	list-remove.svg			\
+	media-eject.svg			\
 	object-flip-horizontal.svg	\
 	object-flip-vertical.svg	\
 	object-rotate-left.svg		\

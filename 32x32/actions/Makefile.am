@@ -34,6 +34,7 @@ icons_DATA =				\
 	format-justify-right.png	\
 	list-add.png			\
 	list-remove.png			\
+	media-eject.png			\
 	process-stop.png		\
 	system-lock-screen.png		\
 	system-run.png			\
