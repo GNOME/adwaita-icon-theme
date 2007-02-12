@@ -5,6 +5,7 @@ context = emblems
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
+	emblem-default.png		\
 	emblem-new.png			\
 	emblem-symbolic-link.png	\
 	$(NULL)

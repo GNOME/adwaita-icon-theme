@@ -27,6 +27,7 @@ svg_DATA =				\
 	emblem-cvs-added.svg		\
 	emblem-cvs-conflict.svg		\
 	emblem-cvs-removed.svg		\
+	emblem-default.svg		\
 	emblem-favorite.svg		\
 	emblem-generic.svg		\
 	emblem-important.svg		\
