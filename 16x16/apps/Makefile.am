@@ -12,7 +12,6 @@ icons_DATA =				\
 	evolution.png			\
 	gnome-logout.png		\
 	gnome-shutdown.png		\
-	gnome-session.png		\
 	help-browser.png		\
 	image-viewer.png		\
 	im.png				\

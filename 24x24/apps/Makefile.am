@@ -32,7 +32,6 @@ icons_DATA =				\
 	gnome-mini-commander.png	\
 	gnome-networktool.png		\
 	gnome-searchtool.png		\
-	gnome-session.png		\
 	gnome-settings-sound.png	\
 	gnome-settings-ui-behavior.png	\
 	gnome-shutdown.png		\

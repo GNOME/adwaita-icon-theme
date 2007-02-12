@@ -11,7 +11,6 @@ icons_DATA =				\
 	boot.png			\
 	evolution.png			\
 	gnome-shutdown.png		\
-	gnome-session.png		\
 	help-browser.png		\
 	im-aim.png			\
 	im-icq.png			\
