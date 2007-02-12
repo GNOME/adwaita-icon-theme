@@ -53,7 +53,6 @@ icon_DATA =\
    stock_page-total-number.png \
    stock_paragraph-spacing-decrease.png \
    stock_paragraph-spacing-increase.png \
-   stock_select-all.png \
    stock_spellcheck.png \
    stock_styles-new-style-from-selection.png \
    stock_styles-update-style.png \

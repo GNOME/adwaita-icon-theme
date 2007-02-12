@@ -1,3 +1,11 @@
+2007-02-12  Rodney Dawes  <dobey@novell.com>
+
+	* 24x24/stock/text/Makefile.am:
+	* 24x24/stock/text/stock_select-all.png:
+	Remove this old icon that is replaced by edit-select-all
+
+	Fixes #388149
+
 2007-02-04  Jakub Steiner <jimmac@ximian.com>
 
 	* {32x32,scalable}/actions/media-eject: add scalables
