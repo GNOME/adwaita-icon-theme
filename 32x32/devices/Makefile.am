@@ -6,6 +6,7 @@ iconsdir = $(themedir)/$(size)/$(context)
 icons_DATA =			\
 	audio-input-microphone.png	\
 	battery.png		\
+	camera-photo.png	\
 	computer.png		\
 	drive-harddisk.png	\
 	drive-optical.png	\
