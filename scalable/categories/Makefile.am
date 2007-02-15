@@ -14,6 +14,7 @@ icons_DATA =				\
 	applications-other.svg		\
 	applications-science.svg	\
 	applications-system.svg	\
+	preferences-desktop.svg	\
 	preferences-system.svg
 
 EXTRA_DIST =		\
