@@ -7,7 +7,6 @@ iconsdir = $(themedir)/$(size)/$(context)
 icons_DATA =				\
 	accessories-calculator.png	\
 	accessories-text-editor.png	\
-	evolution.png			\
 	help-browser.png		\
 	logviewer.png			\
 	preferences-desktop-font.png	\

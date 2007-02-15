@@ -9,7 +9,6 @@ icons_DATA =				\
 	accessories-text-editor.png	\
 	applets-screenshooter.png	\
 	boot.png			\
-	evolution.png			\
 	gnome-logout.png		\
 	gnome-shutdown.png		\
 	help-browser.png		\

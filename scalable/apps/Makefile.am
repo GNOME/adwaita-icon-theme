@@ -7,7 +7,6 @@ icons_DATA =				\
 	accessories-calculator.svg	\
 	accessories-dictionary.svg	\
 	accessories-text-editor.svg	\
-	evolution.svg			\
 	gnome-shutdown.svg		\
 	help-browser.svg		\
 	im-aim.svg			\
