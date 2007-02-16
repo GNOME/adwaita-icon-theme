@@ -13,7 +13,6 @@ icons_DATA =				\
 	applets-screenshooter.png	\
 	boot.png			\
 	character-picker.png		\
-	config-language.png		\
 	config-users.png		\
 	display-capplet.png		\
 	evolution-calendar.png		\

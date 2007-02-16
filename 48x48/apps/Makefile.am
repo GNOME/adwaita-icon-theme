@@ -11,7 +11,6 @@ icons_DATA =				\
 	applets-screenshooter.png	\
 	character-picker.png		\
 	config-date.png			\
-	config-language.png		\
 	config-xfree.png		\
 	disks.png			\
 	eyes.png			\
