@@ -9,6 +9,7 @@ icons_DATA =				\
 	accessories-text-editor.png	\
 	help-browser.png		\
 	logviewer.png			\
+	preferences-desktop-accessibility.png	\
 	preferences-desktop-font.png	\
 	preferences-desktop-keyboard.png	\
 	preferences-desktop-keyboard-shortcuts.png	\
