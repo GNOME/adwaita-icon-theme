@@ -45,7 +45,6 @@ icons_DATA =				\
 	postscript-viewer.png		\
 	serviceconf.png			\
 	stock-ticker.png		\
-	user-info.png			\
 	visor.png			\
 	$(NULL)
 

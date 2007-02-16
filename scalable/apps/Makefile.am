@@ -30,6 +30,7 @@ icons_DATA =				\
 	preferences-system-windows.svg	\
 	system-file-manager.svg		\
 	system-users.svg		\
+	user-info.svg	\
 	utilities-system-monitor.svg	\
 	utilities-terminal.svg		\
 	web-browser.svg

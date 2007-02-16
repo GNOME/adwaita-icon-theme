@@ -32,6 +32,7 @@ icons_DATA =				\
 	preferences-system-windows.png	\
 	system-file-manager.png		\
 	system-users.png	\
+	user-info.png	\
 	utilities-system-monitor.png	\
 	utilities-terminal.png		\
 	web-browser.png
