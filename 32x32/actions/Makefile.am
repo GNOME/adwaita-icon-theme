@@ -11,6 +11,7 @@ icons_DATA =				\
 	document-new.png		\
 	document-open.png		\
 	document-properties.png		\
+	document-revert.png		\
 	document-save.png		\
 	document-save-as.png		\
 	edit-cut.png			\

@@ -16,6 +16,7 @@ icons_DATA =				\
 	document-print.svg		\
 	document-print-preview.svg	\
 	document-properties.svg		\
+	document-revert.svg		\
 	document-save.svg		\
 	document-save-as.svg		\
 	folder-new.svg			\
