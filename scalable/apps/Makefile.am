@@ -8,6 +8,7 @@ icons_DATA =				\
 	accessories-dictionary.svg	\
 	accessories-text-editor.svg	\
 	gnome-shutdown.svg		\
+	gnome-settings-ui-behavior.svg	\
 	help-browser.svg		\
 	im-aim.svg			\
 	im-icq.svg			\

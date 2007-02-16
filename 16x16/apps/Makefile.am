@@ -10,6 +10,7 @@ icons_DATA =				\
 	applets-screenshooter.png	\
 	boot.png			\
 	gnome-logout.png		\
+	gnome-settings-ui-behavior.png	\
 	gnome-shutdown.png		\
 	help-browser.png		\
 	image-viewer.png		\
