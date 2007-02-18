@@ -14,6 +14,7 @@ icons_DATA =			\
 	drive-removable-media.svg	\
 	input-keyboard.svg	\
 	input-mouse.svg		\
+	input-tablet.svg	\
 	media-flash.svg		\
 	media-floppy.svg	\
 	media-optical.svg	\
