@@ -15,6 +15,7 @@ icons_DATA =				\
 	document-save.png		\
 	document-save-as.png		\
 	edit-cut.png			\
+	edit-paste.png		\
 	edit-select-all.png		\
 	edit-redo.png			\
 	edit-undo.png			\

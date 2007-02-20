@@ -9,6 +9,7 @@ icons_DATA =				\
 	contact-new.svg			\
 	edit-find.svg			\
 	edit-find-replace.svg		\
+	edit-paste.svg		\
 	edit-redo.svg			\
 	edit-undo.svg			\
 	document-new.svg		\
