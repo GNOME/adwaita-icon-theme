@@ -12,6 +12,7 @@ icons_DATA =			\
 	folder-open.png		\
 	folder-visiting.png	\
 	image-loading.png	\
+	mail-attachment.png	\
 	network-error.png	\
 	network-idle.png	\
 	network-offline.png	\

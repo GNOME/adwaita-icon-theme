@@ -21,6 +21,7 @@ icons_DATA =			\
 	folder-visiting.icon	\
 	folder-visiting.svg	\
 	image-loading.svg	\
+	mail-attachment.svg	\
 	network-error.svg	\
 	network-idle.svg	\
 	network-offline.svg	\
