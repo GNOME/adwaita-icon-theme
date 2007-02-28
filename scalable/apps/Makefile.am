@@ -29,6 +29,7 @@ icons_DATA =				\
 	preferences-desktop-wallpaper.svg	\
 	preferences-system-windows.svg	\
 	system-file-manager.svg		\
+	system-software-installer.svg	\
 	system-users.svg		\
 	user-info.svg	\
 	utilities-system-monitor.svg	\
