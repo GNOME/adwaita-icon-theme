@@ -416,11 +416,11 @@ MaxSize=256
 Context=Actions
 Type=Scalable
 
-[scalable/devices]
+[scalable/apps]
 Size=48
 MinSize=32
 MaxSize=256
-Context=Devices
+Context=Apps
 Type=Scalable
 
 [scalable/categories]
@@ -428,6 +428,13 @@ Size=48
 MinSize=32
 MaxSize=256
 Context=Categories
+Type=Scalable
+
+[scalable/devices]
+Size=48
+MinSize=32
+MaxSize=256
+Context=Devices
 Type=Scalable
 
 [scalable/emblems]
