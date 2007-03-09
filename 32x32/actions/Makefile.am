@@ -37,6 +37,8 @@ icons_DATA =				\
 	list-add.png			\
 	list-remove.png			\
 	media-eject.png			\
+	object-rotate-left.png	\
+	object-rotate-right.png	\
 	process-stop.png		\
 	system-lock-screen.png		\
 	system-run.png			\
