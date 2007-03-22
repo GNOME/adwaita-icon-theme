@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-06-03 20:52+0000\n"
+"POT-Creation-Date: 2006-12-04 15:35+0100\n"
 "PO-Revision-Date: 2005-06-04 00:02+0200\n"
 "Last-Translator: Ignacio Casal Quinteiro <nacho.resa@gmail.com>\n"
 "Language-Team: Galego\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../48x48/emblems/emblem-OK.icon.in.h:1
 msgid "OK"
-msgstr "OK"
+msgstr "Aceptar"
 
 #: ../48x48/emblems/emblem-art.icon.in.h:1
 msgid "Art"
@@ -38,14 +38,6 @@ msgstr "Certificado"
 msgid "Cool"
 msgstr "Divertido"
 
-#: ../48x48/emblems/emblem-cvs-added.icon.in.h:1
-msgid "cvs-added"
-msgstr "CVS: engadido"
-
-#: ../48x48/emblems/emblem-cvs-conflict.icon.in.h:1
-msgid "cvs-conflict"
-msgstr "CVS: conflito"
-
 #: ../48x48/emblems/emblem-cvs-controlled.icon.in.h:1
 msgid "cvs-controlled"
 msgstr "CVS: controlado"
@@ -54,17 +46,9 @@ msgstr "CVS: controlado"
 msgid "cvs-modified"
 msgstr "CVS: modificado"
 
-#: ../48x48/emblems/emblem-cvs-new-file.icon.in.h:1
-msgid "cvs-new-file"
-msgstr "CVS: novo ficheiro"
-
-#: ../48x48/emblems/emblem-cvs-removed.icon.in.h:1
-msgid "cvs-removed"
-msgstr "CVS: eliminado"
-
 #: ../48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
 msgid "cvs-sticky-tag"
-msgstr "CVS: etiqueta pegañenta"
+msgstr "CVS: etiqueta adhesiva"
 
 #: ../48x48/emblems/emblem-danger.icon.in.h:1
 msgid "Danger"
@@ -76,7 +60,7 @@ msgstr "Escritorio"
 
 #: ../48x48/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
-msgstr "Distinguido"
+msgstr "Distintivo"
 
 #: ../48x48/emblems/emblem-documents.icon.in.h:1
 msgid "Documents"
@@ -92,7 +76,7 @@ msgstr "Acordo"
 
 #: ../48x48/emblems/emblem-marketing.icon.in.h:1
 msgid "Marketing"
-msgstr "Marketing"
+msgstr "Mercadotecnia"
 
 #: ../48x48/emblems/emblem-money.icon.in.h:1
 msgid "Money"
@@ -102,13 +86,9 @@ msgstr "Diñeiro"
 msgid "Multimedia"
 msgstr "Multimedia"
 
-#: ../48x48/emblems/emblem-new.icon.in.h:1
-msgid "New"
-msgstr "Novo"
-
 #: ../48x48/emblems/emblem-noread.icon.in.h:1
 msgid "No read"
-msgstr "Non lexible"
+msgstr "Non lido"
 
 #: ../48x48/emblems/emblem-note.icon.in.h:1
 msgid "Note"
@@ -116,19 +96,15 @@ msgstr "Nota"
 
 #: ../48x48/emblems/emblem-nowrite.icon.in.h:1
 msgid "No write"
-msgstr "Non escribible"
+msgstr "Sen escritura"
 
 #: ../48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
 msgstr "Ou non!"
 
-#: ../48x48/emblems/emblem-package.icon.in.h:1
-msgid "Package"
-msgstr "Paquete"
-
 #: ../48x48/emblems/emblem-people.icon.in.h:1
 msgid "People"
-msgstr "Xente"
+msgstr "Persoas"
 
 #: ../48x48/emblems/emblem-personal.icon.in.h:1
 msgid "Personal"
@@ -148,7 +124,7 @@ msgstr "Presentación"
 
 #: ../48x48/emblems/emblem-sales.icon.in.h:1
 msgid "Sales"
-msgstr "Ventas"
+msgstr "Vendas"
 
 #: ../48x48/emblems/emblem-shared.icon.in.h:1
 msgid "Shared"
@@ -158,29 +134,29 @@ msgstr "Compartido"
 msgid "Sound"
 msgstr "Son"
 
-#: ../48x48/emblems/emblem-symbolic-link.icon.in.h:1
-msgid "Symbolic link"
-msgstr "Ligazón simbólica"
-
 #: ../48x48/emblems/emblem-trash.icon.in.h:1
 msgid "Trash"
 msgstr "Lixo"
 
-#: ../48x48/emblems/emblem-web.icon.in.h:1
-msgid "Web"
-msgstr "Web"
-
 #: ../index.theme.in.h:1
 msgid "Default GNOME Theme"
-msgstr "Tema por defecto de GNOME"
+msgstr "Tema predeterminado de Gnome"
 
 #: ../index.theme.in.h:2
 msgid "GNOME"
 msgstr "GNOME"
 
-#: ../scalable/emblems/emblem-bin.icon.in.h:1
-msgid "Binary"
-msgstr "Binario"
+#: ../scalable/emblems/emblem-cvs-added.icon.in.h:1
+msgid "cvs-added"
+msgstr "CVS: engadido"
+
+#: ../scalable/emblems/emblem-cvs-conflict.icon.in.h:1
+msgid "cvs-conflict"
+msgstr "CVS: conflito"
+
+#: ../scalable/emblems/emblem-cvs-removed.icon.in.h:1
+msgid "cvs-removed"
+msgstr "CVS: eliminado"
 
 #: ../scalable/emblems/emblem-favorite.icon.in.h:1
 msgid "Favorite"
@@ -198,6 +174,14 @@ msgstr "Importante"
 msgid "Mail"
 msgstr "Correo"
 
+#: ../scalable/emblems/emblem-new.icon.in.h:1
+msgid "New"
+msgstr "Novo"
+
+#: ../scalable/emblems/emblem-package.icon.in.h:1
+msgid "Package"
+msgstr "Paquete"
+
 #: ../scalable/emblems/emblem-special.icon.in.h:1
 msgid "Special"
 msgstr "Especial"
@@ -206,3 +190,15 @@ msgstr "Especial"
 msgid "Urgent"
 msgstr "Urxente"
 
+#: ../scalable/emblems/emblem-web.icon.in.h:1
+msgid "Web"
+msgstr "Web"
+
+#~ msgid "cvs-new-file"
+#~ msgstr "CVS: novo ficheiro"
+
+#~ msgid "Symbolic link"
+#~ msgstr "Ligazón simbólica"
+
+#~ msgid "Binary"
+#~ msgstr "Binario"
