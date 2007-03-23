@@ -46,6 +46,7 @@ icons_DATA =				\
 	view-restore.png		\
 	view-sort-ascending.png		\
 	view-sort-descending.png 	\
+	window-close.png			\
 	window-new.png			\
 	zoom-best-fit.png		\
 	zoom-in.png			\

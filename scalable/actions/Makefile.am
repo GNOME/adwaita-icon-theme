@@ -55,6 +55,7 @@ icons_DATA =				\
 	view-restore.svg		\
 	view-sort-ascending.svg		\
 	view-sort-descending.svg	\
+	window-close.svg			\
 	window-new.svg			\
 	zoom-best-fit.svg		\
 	zoom-in.svg			\
