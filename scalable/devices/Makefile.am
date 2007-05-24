@@ -21,6 +21,7 @@ icons_DATA =			\
 	media-tape.svg	\
 	modem.svg		\
 	multimedia-player.svg	\
+	phone.svg		\
 	printer.svg		\
 	video-display.svg	
 
