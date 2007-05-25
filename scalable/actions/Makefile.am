@@ -33,10 +33,16 @@ icons_DATA =				\
 	go-previous.svg			\
 	go-top.svg			\
 	go-up.svg			\
+	format-indent-less.svg		\
+	format-indent-more.svg		\
 	format-justify-center.svg	\
 	format-justify-fill.svg		\
 	format-justify-left.svg		\
 	format-justify-right.svg	\
+	format-text-bold.svg		\
+	format-text-italic.svg		\
+	format-text-strikethrough.svg	\
+	format-text-underline.svg	\
 	help-faq.svg			\
 	insert-image.svg		\
 	insert-link.svg			\

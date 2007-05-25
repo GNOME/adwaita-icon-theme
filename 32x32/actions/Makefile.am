@@ -30,10 +30,16 @@ icons_DATA =				\
 	go-top.png			\
 	go-up.png			\
 	help-faq.png			\
+	format-indent-less.png		\
+	format-indent-more.png		\
 	format-justify-center.png	\
 	format-justify-fill.png		\
 	format-justify-left.png		\
 	format-justify-right.png	\
+	format-text-bold.png		\
+	format-text-italic.png		\
+	format-text-strikethrough.png	\
+	format-text-underline.png	\
 	list-add.png			\
 	list-remove.png			\
 	media-eject.png			\
