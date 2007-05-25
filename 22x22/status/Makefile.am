@@ -29,6 +29,8 @@ icons_DATA =				\
 	network-transmit-receive.png	\
 	network-wireless-encrypted.png	\
 	printer-error.png		\
+	security-medium.png	\
+	security-high.png	\
 	user-trash-full.png		\
 	weather-clear.png		\
 	weather-clear-night.png		\
