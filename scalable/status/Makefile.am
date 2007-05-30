@@ -13,6 +13,7 @@ icons_DATA =			\
 	audio-volume-muted.svg	\
 	dialog-error.svg	\
 	dialog-information.svg	\
+	dialog-password.svg	\
 	dialog-warning.svg	\
 	folder-drag-accept.icon	\
 	folder-drag-accept.svg	\

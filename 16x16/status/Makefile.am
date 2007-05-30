@@ -13,6 +13,7 @@ icons_DATA =				\
 	audio-volume-muted.png		\
 	dialog-error.png		\
 	dialog-information.png		\
+	dialog-password.png	\
 	dialog-warning.png		\
 	folder-drag-accept.png		\
 	folder-open.png			\

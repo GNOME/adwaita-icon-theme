@@ -7,6 +7,7 @@ iconsdir = $(themedir)/$(size)/$(context)
 icons_DATA =			\
 	dialog-error.png	\
 	dialog-information.png	\
+	dialog-password.png	\
 	dialog-warning.png	\
 	folder-drag-accept.png	\
 	folder-open.png		\
