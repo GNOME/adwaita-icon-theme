@@ -20,6 +20,7 @@ icons_DATA =				\
 	folder-visiting.png		\
 	folder-visiting.icon		\
 	image-loading.png		\
+	image-missing.png	\
 	media-playlist-repeat.png	\
 	media-playlist-shuffle.png	\
 	network-error.png		\
