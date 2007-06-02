@@ -1,16 +1,15 @@
-# Bulgarian translation GNOME icon theme.
-# Copyright (C) 2004
+# Bulgarian translation of GNOME icon theme.
+# Copyright (C) 2004, 2005, 2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome icon theme package.
-# Alexander Shopov <al_shopov@yahoo.com>, 2004.
+# Alexander Shopov <ash@contact.bg>, 2004, 2005, 2007.
 # Vladimir Petkov <vpetkov@i-space.org>, 2004.
-# Alexander Shopov <ash@contact.bg>, 2005.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome icon theme gnome 2.10\n"
+"Project-Id-Version: gnome-icon-theme gnome 2.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-10-01 12:29+0300\n"
-"PO-Revision-Date: 2005-10-01 12:34+0300\n"
+"POT-Creation-Date: 2007-06-02 10:29+0300\n"
+"PO-Revision-Date: 2007-06-02 10:27+0300\n"
 "Last-Translator: Vladimir Petkov <vpetkov@i-space.org>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
 "MIME-Version: 1.0\n"
@@ -22,12 +21,10 @@ msgstr ""
 msgid "OK"
 msgstr "ОК"
 
-# 48x48/emblems/emblem-art.icon.in.h:1#: 48x48/emblems/emblem-art.icon.in.h:1
 #: ../48x48/emblems/emblem-art.icon.in.h:1
 msgid "Art"
 msgstr "Изкуство"
 
-# 48x48/emblems/emblem-camera.icon.in.h:1#: 48x48/emblems/emblem-camera.icon.in.h:1
 #: ../48x48/emblems/emblem-camera.icon.in.h:1
 msgid "Camera"
 msgstr "Камера"
@@ -40,33 +37,17 @@ msgstr "Проверено"
 msgid "Cool"
 msgstr "Готино"
 
-#: ../48x48/emblems/emblem-cvs-added.icon.in.h:1
-msgid "cvs-added"
-msgstr "добавен към cvs"
-
-#: ../48x48/emblems/emblem-cvs-conflict.icon.in.h:1
-msgid "cvs-conflict"
-msgstr "конфликт със cvs"
-
 #: ../48x48/emblems/emblem-cvs-controlled.icon.in.h:1
 msgid "cvs-controlled"
-msgstr "контролиран със cvs"
+msgstr "Проследявано (cvs)"
 
 #: ../48x48/emblems/emblem-cvs-modified.icon.in.h:1
 msgid "cvs-modified"
-msgstr "променен спрямо cvs"
-
-#: ../48x48/emblems/emblem-cvs-new-file.icon.in.h:1
-msgid "cvs-new-file"
-msgstr "нов файл в cvs"
-
-#: ../48x48/emblems/emblem-cvs-removed.icon.in.h:1
-msgid "cvs-removed"
-msgstr "премахнат от cvs"
+msgstr "Променено (cvs)"
 
 #: ../48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
 msgid "cvs-sticky-tag"
-msgstr "етикет в cvs"
+msgstr "Етикет (cvs)"
 
 #: ../48x48/emblems/emblem-danger.icon.in.h:1
 msgid "Danger"
@@ -80,7 +61,6 @@ msgstr "Работно място"
 msgid "Distinguished"
 msgstr "Бележито"
 
-# 48x48/emblems/emblem-documents.icon.in.h:1#: 48x48/emblems/emblem-documents.icon.in.h:1
 #: ../48x48/emblems/emblem-documents.icon.in.h:1
 msgid "Documents"
 msgstr "Документи"
@@ -89,29 +69,21 @@ msgstr "Документи"
 msgid "Draft"
 msgstr "Чернова"
 
-# 48x48/emblems/emblem-handshake.icon.in.h:1#: 48x48/emblems/emblem-handshake.icon.in.h:1
 #: ../48x48/emblems/emblem-handshake.icon.in.h:1
 msgid "Handshake"
 msgstr "Ръкостискане"
 
-# 48x48/emblems/emblem-marketing.icon.in.h:1#: 48x48/emblems/emblem-marketing.icon.in.h:1
 #: ../48x48/emblems/emblem-marketing.icon.in.h:1
 msgid "Marketing"
 msgstr "Маркетинг"
 
-# 48x48/emblems/emblem-money.icon.in.h:1#: 48x48/emblems/emblem-money.icon.in.h:1
 #: ../48x48/emblems/emblem-money.icon.in.h:1
 msgid "Money"
 msgstr "Пари"
 
-# 48x48/emblems/emblem-multimedia.icon.in.h:1#: 48x48/emblems/emblem-multimedia.icon.in.h:1
 #: ../48x48/emblems/emblem-multimedia.icon.in.h:1
 msgid "Multimedia"
 msgstr "Мултимедия"
-
-#: ../48x48/emblems/emblem-new.icon.in.h:1
-msgid "New"
-msgstr "Ново"
 
 #: ../48x48/emblems/emblem-noread.icon.in.h:1
 msgid "No read"
@@ -127,14 +99,8 @@ msgstr "Забранено писането"
 
 #: ../48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
-msgstr "О, не!"
+msgstr "Ой, лошо!"
 
-# 48x48/emblems/emblem-package.icon.in.h:1#: 48x48/emblems/emblem-package.icon.in.h:1
-#: ../48x48/emblems/emblem-package.icon.in.h:1
-msgid "Package"
-msgstr "Пакет"
-
-# 48x48/emblems/emblem-people.icon.in.h:1#: 48x48/emblems/emblem-people.icon.in.h:1
 #: ../48x48/emblems/emblem-people.icon.in.h:1
 msgid "People"
 msgstr "Хора"
@@ -143,22 +109,18 @@ msgstr "Хора"
 msgid "Personal"
 msgstr "Лично"
 
-# 48x48/emblems/emblem-pictures.icon.in.h:1#: 48x48/emblems/emblem-pictures.icon.in.h:1
 #: ../48x48/emblems/emblem-pictures.icon.in.h:1
 msgid "Pictures"
 msgstr "Картинки"
 
-# 48x48/emblems/emblem-plan.icon.in.h:1#: 48x48/emblems/emblem-plan.icon.in.h:1
 #: ../48x48/emblems/emblem-plan.icon.in.h:1
 msgid "Plan"
 msgstr "План"
 
-# 48x48/emblems/emblem-presentation.icon.in.h:1#: 48x48/emblems/emblem-presentation.icon.in.h:1
 #: ../48x48/emblems/emblem-presentation.icon.in.h:1
 msgid "Presentation"
 msgstr "Презентация"
 
-# 48x48/emblems/emblem-sales.icon.in.h:1#: 48x48/emblems/emblem-sales.icon.in.h:1
 #: ../48x48/emblems/emblem-sales.icon.in.h:1
 msgid "Sales"
 msgstr "Продажби"
@@ -167,23 +129,13 @@ msgstr "Продажби"
 msgid "Shared"
 msgstr "Споделено"
 
-# 48x48/emblems/emblem-sound.icon.in.h:1#: 48x48/emblems/emblem-sound.icon.in.h:1
 #: ../48x48/emblems/emblem-sound.icon.in.h:1
 msgid "Sound"
 msgstr "Звук"
 
-#: ../48x48/emblems/emblem-symbolic-link.icon.in.h:1
-msgid "Symbolic link"
-msgstr "Символна връзка"
-
 #: ../48x48/emblems/emblem-trash.icon.in.h:1
 msgid "Trash"
 msgstr "За кошчето"
-
-# 48x48/emblems/emblem-web.icon.in.h:1#: 48x48/emblems/emblem-web.icon.in.h:1
-#: ../48x48/emblems/emblem-web.icon.in.h:1
-msgid "Web"
-msgstr "Уеб"
 
 #: ../index.theme.in.h:1
 msgid "Default GNOME Theme"
@@ -193,10 +145,17 @@ msgstr "Тема на GNOME по подразбиране"
 msgid "GNOME"
 msgstr "GNOME"
 
-# 48x48/emblems/emblem-bin.icon.in.h:1#: 48x48/emblems/emblem-bin.icon.in.h:1
-#: ../scalable/emblems/emblem-bin.icon.in.h:1
-msgid "Binary"
-msgstr "Двоичен"
+#: ../scalable/emblems/emblem-cvs-added.icon.in.h:1
+msgid "cvs-added"
+msgstr "Добавено (cvs)"
+
+#: ../scalable/emblems/emblem-cvs-conflict.icon.in.h:1
+msgid "cvs-conflict"
+msgstr "Конфликт (cvs)"
+
+#: ../scalable/emblems/emblem-cvs-removed.icon.in.h:1
+msgid "cvs-removed"
+msgstr "Премахнато (cvs)"
 
 #: ../scalable/emblems/emblem-favorite.icon.in.h:1
 msgid "Favorite"
@@ -210,10 +169,17 @@ msgstr "Родово"
 msgid "Important"
 msgstr "Важно"
 
-# 48x48/emblems/emblem-mail.icon.in.h:1#: 48x48/emblems/emblem-mail.icon.in.h:1
 #: ../scalable/emblems/emblem-mail.icon.in.h:1
 msgid "Mail"
 msgstr "Поща"
+
+#: ../scalable/emblems/emblem-new.icon.in.h:1
+msgid "New"
+msgstr "Ново"
+
+#: ../scalable/emblems/emblem-package.icon.in.h:1
+msgid "Package"
+msgstr "Пакет"
 
 #: ../scalable/emblems/emblem-special.icon.in.h:1
 msgid "Special"
@@ -223,5 +189,6 @@ msgstr "Специално"
 msgid "Urgent"
 msgstr "Спешно"
 
-#~ msgid "Gnome"
-#~ msgstr "Гном"
+#: ../scalable/emblems/emblem-web.icon.in.h:1
+msgid "Web"
+msgstr "Уеб"
