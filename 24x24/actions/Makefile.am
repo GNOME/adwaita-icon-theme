@@ -48,6 +48,7 @@ icons_DATA =				\
 	go-top.png			\
 	go-up.png			\
 	gtk-edit.png			\
+	help-about.png	\
 	help-faq.png			\
 	insert-image.png		\
 	insert-link.png			\

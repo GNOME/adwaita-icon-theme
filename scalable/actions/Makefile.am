@@ -43,6 +43,7 @@ icons_DATA =				\
 	format-text-italic.svg		\
 	format-text-strikethrough.svg	\
 	format-text-underline.svg	\
+	help-about.svg	\
 	help-faq.svg			\
 	insert-image.svg		\
 	insert-link.svg			\

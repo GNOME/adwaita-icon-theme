@@ -29,6 +29,7 @@ icons_DATA =				\
 	go-previous.png			\
 	go-top.png			\
 	go-up.png			\
+	help-about.png	\
 	help-faq.png			\
 	format-indent-less.png		\
 	format-indent-more.png		\
