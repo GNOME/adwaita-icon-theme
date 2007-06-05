@@ -31,6 +31,7 @@ icons_DATA =			\
 	network-transmit.svg	\
 	network-transmit-receive.svg	\
 	printer-error.svg	\
+	printer-printing.svg		\
 	security-medium.svg	\
 	security-high.svg	\
 	user-trash-full.svg	\

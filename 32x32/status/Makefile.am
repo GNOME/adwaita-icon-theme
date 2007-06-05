@@ -22,6 +22,7 @@ icons_DATA =			\
 	network-transmit.png	\
 	network-transmit-receive.png	\
 	printer-error.png	\
+	printer-printing.png		\
 	security-medium.png	\
 	security-high.png	\
 	user-trash-full.png	\
