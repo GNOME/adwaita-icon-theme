@@ -34,6 +34,7 @@ icons_DATA =			\
 	printer-printing.svg		\
 	security-medium.svg	\
 	security-high.svg	\
+	task-due.svg	\
 	user-trash-full.svg	\
 	weather-clear.svg	\
 	weather-clear-night.svg	\

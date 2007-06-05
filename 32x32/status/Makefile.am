@@ -25,6 +25,7 @@ icons_DATA =			\
 	printer-printing.png		\
 	security-medium.png	\
 	security-high.png	\
+	task-due.png	\
 	user-trash-full.png	\
 	weather-clear.png	\
 	weather-clear-night.png	\
