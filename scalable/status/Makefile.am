@@ -11,6 +11,8 @@ icons_DATA =			\
 	audio-volume-low.svg	\
 	audio-volume-medium.svg	\
 	audio-volume-muted.svg	\
+	battery-caution.svg	\
+	battery-low.svg		\
 	dialog-error.svg	\
 	dialog-information.svg	\
 	dialog-password.svg	\
