@@ -10,7 +10,6 @@ icons_DATA =				\
 	applications-games.png		\
 	applications-graphics.png	\
 	applications-internet.png	\
-	applications-multimedia.png	\
 	applications-office.png		\
 	applications-other.png	\
 	applications-science.png	\
