@@ -15,6 +15,7 @@ icon_in_files =				\
 	emblem-mail.icon.in		\
 	emblem-new.icon.in		\
 	emblem-package.icon.in		\
+	emblem-photos.icon.in		\
 	emblem-special.icon.in		\
 	emblem-urgent.icon.in		\
 	emblem-web.icon.in		\
@@ -34,6 +35,7 @@ svg_DATA =				\
 	emblem-mail.svg			\
 	emblem-new.svg			\
 	emblem-package.svg		\
+	emblem-photos.svg		\
 	emblem-special.svg		\
 	emblem-symbolic-link.svg	\
 	emblem-urgent.svg		\
