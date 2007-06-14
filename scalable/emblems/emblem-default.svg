@@ -13,9 +13,9 @@
    height="48"
    id="svg11055"
    sodipodi:version="0.32"
-   inkscape:version="0.44+devel"
+   inkscape:version="0.45"
    version="1.0"
-   sodipodi:docbase="/home/andreas/project/gnome-icon-theme/32x32/emblems"
+   sodipodi:docbase="/home/lapo/Icone/svn/gnome-icon-theme/scalable/emblems"
    sodipodi:docname="emblem-default.svg"
    inkscape:export-filename="/home/andreas/project/gnome-icon-theme/32x32/emblems/emblem-default.png"
    inkscape:export-xdpi="90"
@@ -24,6 +24,18 @@
    sodipodi:modified="true">
   <defs
      id="defs11057">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient6915">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop6917" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop6919" />
+    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient9048">
@@ -35,21 +47,6 @@
          style="stop-color:#ffffff;stop-opacity:1"
          offset="1"
          id="stop9052" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3428">
-      <stop
-         style="stop-color:black;stop-opacity:0;"
-         offset="0"
-         id="stop3430" />
-      <stop
-         id="stop3436"
-         offset="0.5"
-         style="stop-color:black;stop-opacity:1;" />
-      <stop
-         style="stop-color:black;stop-opacity:0;"
-         offset="1"
-         id="stop3432" />
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
@@ -75,28 +72,6 @@
          offset="1"
          id="stop11384" />
     </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient8397">
-      <stop
-         style="stop-color:#9de754;stop-opacity:1"
-         offset="0"
-         id="stop8399" />
-      <stop
-         style="stop-color:#64c707;stop-opacity:1"
-         offset="1"
-         id="stop8401" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient8397"
-       id="linearGradient8403"
-       x1="30.919174"
-       y1="40.322842"
-       x2="37.072601"
-       y2="27.392887"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(13.72618,19.87439)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient11380"
@@ -128,6 +103,17 @@
        y2="12.160716"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1.348032,0,0,1.3913043,2.7860361,2.2391312)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6915"
+       id="radialGradient6921"
+       cx="24.015074"
+       cy="22.895605"
+       fx="24.015074"
+       fy="22.895605"
+       r="16.112992"
+       gradientTransform="matrix(2.7687591,0,0,1.7000016,-43.998358,-14.791665)"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -136,21 +122,23 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="5.7052451"
-     inkscape:cy="26.070691"
+     inkscape:zoom="1"
+     inkscape:cx="42.914524"
+     inkscape:cy="30.053657"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1674"
      inkscape:window-height="968"
-     inkscape:window-x="0"
-     inkscape:window-y="26"
+     inkscape:window-x="5"
+     inkscape:window-y="24"
      fill="#8ae234"
      showguides="true"
      inkscape:guide-bbox="true"
      width="48px"
-     height="48px" />
+     height="48px"
+     inkscape:showpageshadow="false"
+     showborder="false" />
   <metadata
      id="metadata11060">
     <rdf:RDF>
@@ -186,5 +174,10 @@
        d="M 9.2622765,24.527349 C 11.980688,26.753114 19.09782,38.786825 19.25399,40.499999 L 24.573637,40.492744 C 24.974421,37.273426 36.138933,14.111927 40.48826,8.5126881 C 38.458656,8.5084585 38.236401,8.5042298 37.318333,8.5000002 C 27.589552,20.277946 21.619722,33.867512 21.598994,33.761182 C 21.662442,33.805956 17.005497,24.604745 13.296415,24.579261 L 9.2622765,24.527349 z "
        id="path5907"
        sodipodi:nodetypes="cccccccc" />
+    <path
+       style="opacity:0.65671642;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#radialGradient6921);stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 40.48826,8.5126881 C 38.458656,8.5084585 38.236401,8.5042298 37.318333,8.5000002 C 27.589552,20.277946 21.619722,33.867512 21.598994,33.761182 C 21.662442,33.805956 17.005497,24.604745 13.296415,24.579261 L 9.2622765,24.527349"
+       id="path5944"
+       sodipodi:nodetypes="ccccc" />
   </g>
 </svg>
