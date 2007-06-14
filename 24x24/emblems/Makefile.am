@@ -6,6 +6,7 @@ iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
 	emblem-default.png		\
+	emblem-documents.png		\
 	emblem-favorite.png		\
 	emblem-important.png		\
 	emblem-new.png			\
