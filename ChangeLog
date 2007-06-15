@@ -1,3 +1,8 @@
+2007-06-15  Pedro Villavicencio  <pvillavi@gnome.org>
+
+	* 16x16/emblems/Makefile.am: Fixed the build, there was
+	a missing 's', Fixes bug #447670. (Ghislain MARY)
+
 2007-06-16  Lapo Calamandrei <calamandrei@gmail.com>
 
 	* {16x16,22x22}/emblems/emblem-downloads.* : new icons.
