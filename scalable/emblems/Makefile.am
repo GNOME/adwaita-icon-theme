@@ -9,6 +9,7 @@ icon_in_files =				\
 	emblem-cvs-added.icon.in	\
 	emblem-cvs-conflict.icon.in	\
 	emblem-cvs-removed.icon.in	\
+	emblem-downloads.icon.in	\
 	emblem-favorite.icon.in		\
 	emblem-generic.icon.in		\
 	emblem-important.icon.in	\
@@ -29,6 +30,7 @@ svg_DATA =				\
 	emblem-cvs-conflict.svg		\
 	emblem-cvs-removed.svg		\
 	emblem-default.svg		\
+	emblem-downloads.svg		\
 	emblem-favorite.svg		\
 	emblem-generic.svg		\
 	emblem-important.svg		\
