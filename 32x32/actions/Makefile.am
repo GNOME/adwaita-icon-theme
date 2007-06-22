@@ -14,7 +14,11 @@ icons_DATA =				\
 	document-revert.png		\
 	document-save.png		\
 	document-save-as.png		\
+	edit-copy.png			\
 	edit-cut.png			\
+	edit-delete.png			\
+	edit-find.png			\
+	edit-find-replace.png		\
 	edit-paste.png		\
 	edit-select-all.png		\
 	edit-redo.png			\
@@ -31,6 +35,9 @@ icons_DATA =				\
 	go-up.png			\
 	help-about.png	\
 	help-faq.png			\
+	insert-image.png		\
+	insert-link.png			\
+	insert-text.png			\
 	format-indent-less.png		\
 	format-indent-more.png		\
 	format-justify-center.png	\
@@ -44,6 +51,8 @@ icons_DATA =				\
 	list-add.png			\
 	list-remove.png			\
 	media-eject.png			\
+	object-flip-horizontal.png	\
+	object-flip-vertical.png	\
 	object-rotate-left.png	\
 	object-rotate-right.png	\
 	process-stop.png		\

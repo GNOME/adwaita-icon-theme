@@ -7,6 +7,7 @@ icons_DATA =				\
 	address-book-new.svg		\
 	bookmark-new.svg		\
 	contact-new.svg			\
+	edit-copy.svg			\
 	edit-find.svg			\
 	edit-find-replace.svg		\
 	edit-paste.svg		\

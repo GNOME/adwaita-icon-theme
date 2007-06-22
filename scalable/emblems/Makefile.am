@@ -30,6 +30,7 @@ svg_DATA =				\
 	emblem-cvs-conflict.svg		\
 	emblem-cvs-removed.svg		\
 	emblem-default.svg		\
+	emblem-documents.svg		\
 	emblem-downloads.svg		\
 	emblem-favorite.svg		\
 	emblem-generic.svg		\
