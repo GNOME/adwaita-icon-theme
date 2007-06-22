@@ -10,6 +10,7 @@ icons_DATA =				\
 	gnome-settings-ui-behavior.png	\
 	help-browser.png		\
 	logviewer.png			\
+	multimedia-volume-control.png			\
 	preferences-desktop-accessibility.png	\
 	preferences-desktop-font.png	\
 	preferences-desktop-keyboard.png	\
