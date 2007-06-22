@@ -33,6 +33,7 @@ icons_DATA =				\
 	network-wireless-encrypted.png	\
 	printer-error.png		\
 	printer-printing.png		\
+	security-low.png	\
 	security-medium.png	\
 	security-high.png	\
 	task-due.png	\
