@@ -5,8 +5,8 @@ iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
 	address-book-new.svg		\
-	application-exit.png		\
-	appointment-new.png		\
+	application-exit.svg		\
+	appointment-new.svg		\
 	bookmark-new.svg		\
 	contact-new.svg			\
 	edit-copy.svg			\
@@ -17,6 +17,7 @@ icons_DATA =				\
 	edit-undo.svg			\
 	document-new.svg		\
 	document-open.svg		\
+	document-open-recent.svg	\
 	document-print.svg		\
 	document-print-preview.svg	\
 	document-properties.svg		\

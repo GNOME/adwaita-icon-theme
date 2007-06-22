@@ -12,6 +12,7 @@ icons_DATA =				\
 	contact-new.png			\
 	document-new.png		\
 	document-open.png		\
+	document-open-recent.png	\
 	document-properties.png		\
 	document-revert.png		\
 	document-save.png		\
