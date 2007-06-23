@@ -5,6 +5,8 @@ context = status
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =			\
+	battery-caution.png	\
+	battery-low.png		\
 	dialog-error.png	\
 	dialog-information.png	\
 	dialog-password.png	\
