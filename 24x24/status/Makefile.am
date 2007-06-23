@@ -11,6 +11,8 @@ icons_DATA =				\
 	audio-volume-low.png		\
 	audio-volume-medium.png		\
 	audio-volume-muted.png		\
+	battery-caution.png		\
+	battery-low.png			\
 	dialog-error.png		\
 	dialog-information.png		\
 	dialog-password.png	\
