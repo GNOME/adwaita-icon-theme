@@ -13,6 +13,7 @@ icons_DATA =				\
 	document-new.png		\
 	document-open.png		\
 	document-open-recent.png	\
+	document-page-setup.png		\
 	document-properties.png		\
 	document-revert.png		\
 	document-save.png		\

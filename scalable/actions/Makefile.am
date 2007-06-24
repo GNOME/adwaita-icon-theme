@@ -18,6 +18,7 @@ icons_DATA =				\
 	document-new.svg		\
 	document-open.svg		\
 	document-open-recent.svg	\
+	document-page-setup.svg		\
 	document-print.svg		\
 	document-print-preview.svg	\
 	document-properties.svg		\
