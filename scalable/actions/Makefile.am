@@ -64,6 +64,7 @@ icons_DATA =				\
 	system-lock-screen.svg		\
 	system-run.svg			\
 	view-fullscreen.svg		\
+	view-refresh.svg		\
 	view-restore.svg		\
 	view-sort-ascending.svg		\
 	view-sort-descending.svg	\
