@@ -33,6 +33,7 @@ icons_DATA =				\
 	go-down.svg			\
 	go-first.svg			\
 	go-home.svg			\
+	go-jump.svg			\
 	go-last.svg			\
 	go-next.svg			\
 	go-previous.svg			\
