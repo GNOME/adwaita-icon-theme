@@ -22,6 +22,7 @@ icons_DATA =			\
 	media-tape.png		\
 	modem.png		\
 	multimedia-player.png	\
+	pda.png			\
 	phone.png		\
 	printer.png	\
 	video-display.png
