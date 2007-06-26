@@ -1,24 +1,25 @@
 # Vietnamese translation for gnome-icon-theme.
-# Copyright © 2005 Gnome i18n Project for Vietnamese.
+# Copyright © 2007 Gnome i18n Project for Vietnamese.
 # T.M.Thanh <tmthanh@yahoo.com>, 2002.
-# Clytie Siddall <clytie@riverland.net.au>, 2005.
+# Clytie Siddall <clytie@riverland.net.au>, 2005-2007.
 # 
 msgid ""
-msgstr ""
-"Project-Id-Version: Gnome-icon-theme for GNOME 2.1.0\n"
+""
+msgstr "Project-Id-Version: Gnome-icon-theme for GNOME 2.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-07-21 06:24+0000\n"
-"PO-Revision-Date: 2005-06-23 15:43+0930\n"
+"POT-Creation-Date: 2007-06-23 03:17+0100\n"
+"PO-Revision-Date: 2007-06-26 22:50+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <gnomevi-list@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: LocFactoryEditor 1.6.4a3\n"
 
 #: ../48x48/emblems/emblem-OK.icon.in.h:1
 msgid "OK"
-msgstr "Được"
+msgstr "OK"
 
 # 48x48/emblems/emblem-art.icon.in.h:1
 # 48x48/emblems/emblem-art.icon.in.h:1
@@ -34,40 +35,24 @@ msgstr "Máy ảnh"
 
 #: ../48x48/emblems/emblem-certified.icon.in.h:1
 msgid "Certified"
-msgstr "Được chứng thực"
+msgstr "Đã chứng thực"
 
 # 48x48/emblems/emblem-cool.icon.in.h:1
 #: ../48x48/emblems/emblem-cool.icon.in.h:1
 msgid "Cool"
 msgstr "Hay tuyệt"
 
-#: ../48x48/emblems/emblem-cvs-added.icon.in.h:1
-msgid "cvs-added"
-msgstr "[cvs] thêm"
-
-#: ../48x48/emblems/emblem-cvs-conflict.icon.in.h:1
-msgid "cvs-conflict"
-msgstr "[cvs] xung đột"
-
 #: ../48x48/emblems/emblem-cvs-controlled.icon.in.h:1
 msgid "cvs-controlled"
-msgstr "[cvs] điều khiển"
+msgstr "do cvs điều khiển"
 
 #: ../48x48/emblems/emblem-cvs-modified.icon.in.h:1
 msgid "cvs-modified"
-msgstr "[cvs] sửa đổi"
-
-#: ../48x48/emblems/emblem-cvs-new-file.icon.in.h:1
-msgid "cvs-new-file"
-msgstr "[cvs] mới"
-
-#: ../48x48/emblems/emblem-cvs-removed.icon.in.h:1
-msgid "cvs-removed"
-msgstr "[cvs] loại bỏ"
+msgstr "bị sửa đổi cvs"
 
 #: ../48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
 msgid "cvs-sticky-tag"
-msgstr "[cvs] thẻ dính"
+msgstr "thẻ dính cvs"
 
 # 48x48/emblems/emblem-danger.icon.in.h:1
 #: ../48x48/emblems/emblem-danger.icon.in.h:1
@@ -106,17 +91,13 @@ msgstr "Thị trường"
 # 48x48/emblems/emblem-money.icon.in.h:1
 #: ../48x48/emblems/emblem-money.icon.in.h:1
 msgid "Money"
-msgstr "Tiền tệ"
+msgstr "Tiền"
 
 # 48x48/emblems/emblem-multimedia.icon.in.h:1
 # 48x48/emblems/emblem-multimedia.icon.in.h:1
 #: ../48x48/emblems/emblem-multimedia.icon.in.h:1
 msgid "Multimedia"
-msgstr "Đa phương tiện"
-
-#: ../48x48/emblems/emblem-new.icon.in.h:1
-msgid "New"
-msgstr "Mới"
+msgstr "Ảnh/Nhạc"
 
 #: ../48x48/emblems/emblem-noread.icon.in.h:1
 msgid "No read"
@@ -135,12 +116,6 @@ msgstr "Không ghi"
 #: ../48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
 msgstr "Chết chưa!"
-
-# 48x48/emblems/emblem-package.icon.in.h:1
-# 48x48/emblems/emblem-package.icon.in.h:1
-#: ../48x48/emblems/emblem-package.icon.in.h:1
-msgid "Package"
-msgstr "Gói tin"
 
 # 48x48/emblems/emblem-people.icon.in.h:1
 #: ../48x48/emblems/emblem-people.icon.in.h:1
@@ -184,19 +159,9 @@ msgstr "Dùng chung"
 msgid "Sound"
 msgstr "Âm thanh"
 
-#: ../48x48/emblems/emblem-symbolic-link.icon.in.h:1
-msgid "Symbolic link"
-msgstr "Liên kết tượng trưng"
-
 #: ../48x48/emblems/emblem-trash.icon.in.h:1
 msgid "Trash"
 msgstr "Sọt rác"
-
-# 48x48/emblems/emblem-web.icon.in.h:1
-# 48x48/emblems/emblem-web.icon.in.h:1
-#: ../48x48/emblems/emblem-web.icon.in.h:1
-msgid "Web"
-msgstr "Mạng"
 
 #: ../index.theme.in.h:1
 msgid "Default GNOME Theme"
@@ -206,11 +171,21 @@ msgstr "Sắc thái GNOME Mặc Định"
 msgid "GNOME"
 msgstr "GNOME"
 
-# 48x48/emblems/emblem-bin.icon.in.h:1
-# 48x48/emblems/emblem-bin.icon.in.h:1
-#: ../scalable/emblems/emblem-bin.icon.in.h:1
-msgid "Binary"
-msgstr "Nhị phân"
+#: ../scalable/emblems/emblem-cvs-added.icon.in.h:1
+msgid "cvs-added"
+msgstr "đã thêm cvs"
+
+#: ../scalable/emblems/emblem-cvs-conflict.icon.in.h:1
+msgid "cvs-conflict"
+msgstr "bị xung đột cvs"
+
+#: ../scalable/emblems/emblem-cvs-removed.icon.in.h:1
+msgid "cvs-removed"
+msgstr "bị gỡ bỏ cvs"
+
+#: ../scalable/emblems/emblem-downloads.icon.in.h:1
+msgid "Downloads"
+msgstr "Tải về"
 
 # 48x48/emblems/emblem-favorite.icon.in.h:1
 #: ../scalable/emblems/emblem-favorite.icon.in.h:1
@@ -219,7 +194,7 @@ msgstr "Ưa thích"
 
 #: ../scalable/emblems/emblem-generic.icon.in.h:1
 msgid "Generic"
-msgstr "Chuẩn chung"
+msgstr "Giống loài"
 
 #: ../scalable/emblems/emblem-important.icon.in.h:1
 msgid "Important"
@@ -231,6 +206,20 @@ msgstr "Quan trọng"
 msgid "Mail"
 msgstr "Thư"
 
+#: ../scalable/emblems/emblem-new.icon.in.h:1
+msgid "New"
+msgstr "Mới"
+
+# 48x48/emblems/emblem-package.icon.in.h:1
+# 48x48/emblems/emblem-package.icon.in.h:1
+#: ../scalable/emblems/emblem-package.icon.in.h:1
+msgid "Package"
+msgstr "Gói"
+
+#: ../scalable/emblems/emblem-photos.icon.in.h:1
+msgid "Photos"
+msgstr "Ảnh chụp"
+
 #: ../scalable/emblems/emblem-special.icon.in.h:1
 msgid "Special"
 msgstr "Đặc biệt"
@@ -239,5 +228,22 @@ msgstr "Đặc biệt"
 msgid "Urgent"
 msgstr "Khẩn cấp"
 
-msgid "Gnome"
-msgstr "Gnome"
+# 48x48/emblems/emblem-web.icon.in.h:1
+# 48x48/emblems/emblem-web.icon.in.h:1
+#: ../scalable/emblems/emblem-web.icon.in.h:1
+msgid "Web"
+msgstr "Mạng"
+
+#~ msgid "cvs-new-file"
+#~ msgstr "[cvs] mới"
+
+#~ msgid "Symbolic link"
+#~ msgstr "Liên kết tượng trưng"
+
+# 48x48/emblems/emblem-bin.icon.in.h:1
+# 48x48/emblems/emblem-bin.icon.in.h:1
+#~ msgid "Binary"
+#~ msgstr "Nhị phân"
+
+#~ msgid "Gnome"
+#~ msgstr "Gnome"
