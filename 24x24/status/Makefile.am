@@ -38,6 +38,8 @@ icons_DATA =				\
 	security-low.png	\
 	security-medium.png	\
 	security-high.png	\
+	software-update-available.png	\
+	software-update-urgent.png	\
 	task-due.png	\
 	user-trash-full.png		\
 	weather-clear.png		\
