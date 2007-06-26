@@ -38,6 +38,7 @@ icons_DATA =			\
 	security-medium.svg	\
 	security-high.svg	\
 	task-due.svg	\
+	task-passed-due.svg	\
 	user-trash-full.svg	\
 	weather-clear.svg	\
 	weather-clear-night.svg	\

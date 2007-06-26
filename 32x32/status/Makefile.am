@@ -29,6 +29,7 @@ icons_DATA =			\
 	security-medium.png	\
 	security-high.png	\
 	task-due.png	\
+	task-passed-due.png	\
 	user-trash-full.png	\
 	weather-clear.png	\
 	weather-clear-night.png	\
