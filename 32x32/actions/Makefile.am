@@ -14,6 +14,8 @@ icons_DATA =				\
 	document-open.png		\
 	document-open-recent.png	\
 	document-page-setup.png		\
+	document-print.png		\
+	document-print-preview.png	\
 	document-properties.png		\
 	document-revert.png		\
 	document-save.png		\
