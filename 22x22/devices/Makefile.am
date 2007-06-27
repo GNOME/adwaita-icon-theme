@@ -28,6 +28,7 @@ icons_DATA =				\
 	pda.png				\
 	phone.png			\
 	printer.png			\
+	scanner.png			\
 	video-display.png
 
 EXTRA_DIST =		\

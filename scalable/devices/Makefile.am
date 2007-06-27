@@ -25,6 +25,7 @@ icons_DATA =			\
 	pda.svg			\
 	phone.svg		\
 	printer.svg		\
+	scanner.svg		\
 	video-display.svg	
 
 EXTRA_DIST = $(icons_DATA)
