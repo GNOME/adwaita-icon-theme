@@ -18,7 +18,8 @@ icons_DATA =				\
 	preferences-desktop.svg	\
 	preferences-desktop-peripherals.svg	\
 	preferences-desktop-personal.svg	\
-	preferences-system.svg
+	preferences-system.svg		\
+	preferences-system-network.svg
 
 EXTRA_DIST =		\
 	$(icons_DATA)
