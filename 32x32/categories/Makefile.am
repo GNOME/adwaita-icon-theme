@@ -18,6 +18,7 @@ icons_DATA =				\
 	applications-system.png	\
 	preferences-desktop.png	\
 	preferences-desktop-peripherals.png	\
+	preferences-desktop-personal.png \
 	preferences-system.png
 
 EXTRA_DIST =				\
