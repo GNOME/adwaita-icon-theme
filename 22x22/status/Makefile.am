@@ -46,6 +46,7 @@ icons_DATA =				\
 	weather-clear-night.png		\
 	weather-few-clouds.png		\
 	weather-few-clouds-night.png	\
+	weather-fog.png			\
 	weather-overcast.png		\
 	weather-severe-alert.png	\
 	weather-showers.png		\

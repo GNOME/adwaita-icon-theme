@@ -44,6 +44,7 @@ icons_DATA =			\
 	weather-clear-night.svg	\
 	weather-few-clouds.svg	\
 	weather-few-clouds-night.svg	\
+	weather-fog.svg		\
 	weather-overcast.svg	\
 	weather-severe-alert.svg	\
 	weather-showers.svg	\
