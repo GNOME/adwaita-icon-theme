@@ -40,7 +40,9 @@ svg_DATA =				\
 	emblem-package.svg		\
 	emblem-photos.svg		\
 	emblem-special.svg		\
+	emblem-readonly.svg		\
 	emblem-symbolic-link.svg	\
+	emblem-unreadable.svg		\
 	emblem-urgent.svg		\
 	emblem-web.svg			\
 	$(NULL)
