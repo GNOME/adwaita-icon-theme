@@ -42,6 +42,7 @@ svg_DATA =				\
 	emblem-special.svg		\
 	emblem-readonly.svg		\
 	emblem-symbolic-link.svg	\
+	emblem-system.svg		\
 	emblem-unreadable.svg		\
 	emblem-urgent.svg		\
 	emblem-web.svg			\

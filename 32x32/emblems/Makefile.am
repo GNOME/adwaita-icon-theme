@@ -15,6 +15,7 @@ icons_DATA =				\
 	emblem-photos.png		\
 	emblem-readonly.png		\
 	emblem-symbolic-link.png	\
+	emblem-system.png		\
 	emblem-unreadable.png		\
 	emblem-web.png			\
 	$(NULL)
