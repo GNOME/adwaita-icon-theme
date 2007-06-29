@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme.HEAD.dz\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-02-21 13:24+0100\n"
-"PO-Revision-Date: 2006-03-23 16:26-0500\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2007-06-23 03:17+0100\n"
+"PO-Revision-Date: 2007-06-27 03:48+0530\n"
+"Last-Translator: Tshewang Norbu <bumthap2006@hotmail.com>\n"
 "Language-Team: DZONGKHA <pgeyleg@dit.gov.bt>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -39,14 +39,6 @@ msgstr "ངོ་སྦྱོར་གྲུབ་པ།"
 msgid "Cool"
 msgstr "བསིལ་བ།"
 
-#: ../48x48/emblems/emblem-cvs-added.icon.in.h:1
-msgid "cvs-added"
-msgstr "སི་བི་ཨེསི་ཁ་སྐོང་བརྐྱབས་ཡོདཔ།"
-
-#: ../48x48/emblems/emblem-cvs-conflict.icon.in.h:1
-msgid "cvs-conflict"
-msgstr "སི་བི་ཨེསི་-མི་མཐུན་པ།"
-
 #: ../48x48/emblems/emblem-cvs-controlled.icon.in.h:1
 msgid "cvs-controlled"
 msgstr "སི་བི་ཨེསི་-ཚད་འཛིན་འབད་ཡོདཔ།"
@@ -54,14 +46,6 @@ msgstr "སི་བི་ཨེསི་-ཚད་འཛིན་འབད་�
 #: ../48x48/emblems/emblem-cvs-modified.icon.in.h:1
 msgid "cvs-modified"
 msgstr "སི་བི་ཨེསི་-ལེགས་བཅོས་གྲུབ་པ།"
-
-#: ../48x48/emblems/emblem-cvs-new-file.icon.in.h:1
-msgid "cvs-new-file"
-msgstr "སི་བི་ཨེསི་-ཡིག་སྣོད་གསརཔ།"
-
-#: ../48x48/emblems/emblem-cvs-removed.icon.in.h:1
-msgid "cvs-removed"
-msgstr "སི་བི་ཨེསི་-རྩ་བསྐྲད་བཏང་ཡོདཔ།"
 
 #: ../48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
 msgid "cvs-sticky-tag"
@@ -103,10 +87,6 @@ msgstr "དངུལ།"
 msgid "Multimedia"
 msgstr "སྣ་མང་་བརྡ་ལམ།"
 
-#: ../48x48/emblems/emblem-new.icon.in.h:1
-msgid "New"
-msgstr "གསརཔ།"
-
 #: ../48x48/emblems/emblem-noread.icon.in.h:1
 msgid "No read"
 msgstr "ལྷག་ནི་མེད།"
@@ -122,10 +102,6 @@ msgstr "འབྲི་ནི་མེད།"
 #: ../48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
 msgstr "དབའི་ མེན!"
-
-#: ../48x48/emblems/emblem-package.icon.in.h:1
-msgid "Package"
-msgstr "ཐུམ་སྒྲིལ།"
 
 #: ../48x48/emblems/emblem-people.icon.in.h:1
 msgid "People"
@@ -159,17 +135,9 @@ msgstr "རུབ་སྤྱོད་འབད་ཡོད།"
 msgid "Sound"
 msgstr "སྒྲ་སྐད།"
 
-#: ../48x48/emblems/emblem-symbolic-link.icon.in.h:1
-msgid "Symbolic link"
-msgstr "བརྡ་མཚོན་འབྲེལ་ལམ།"
-
 #: ../48x48/emblems/emblem-trash.icon.in.h:1
 msgid "Trash"
 msgstr "ཕྱགས་ཧོད།"
-
-#: ../48x48/emblems/emblem-web.icon.in.h:1
-msgid "Web"
-msgstr "ཝེབ།"
 
 #: ../index.theme.in.h:1
 msgid "Default GNOME Theme"
@@ -179,9 +147,21 @@ msgstr "སྔོན་སྒྲིག་ཇི་ནོམ་བརྗོད་
 msgid "GNOME"
 msgstr "ཇི་ནོམ།"
 
-#: ../scalable/emblems/emblem-bin.icon.in.h:1
-msgid "Binary"
-msgstr "བའི་ན་རི།"
+#: ../scalable/emblems/emblem-cvs-added.icon.in.h:1
+msgid "cvs-added"
+msgstr "སི་བི་ཨེསི་ཁ་སྐོང་བརྐྱབས་ཡོདཔ།"
+
+#: ../scalable/emblems/emblem-cvs-conflict.icon.in.h:1
+msgid "cvs-conflict"
+msgstr "སི་བི་ཨེསི་-མི་མཐུན་པ།"
+
+#: ../scalable/emblems/emblem-cvs-removed.icon.in.h:1
+msgid "cvs-removed"
+msgstr "སི་བི་ཨེསི་-རྩ་བསྐྲད་བཏང་ཡོདཔ།"
+
+#: ../scalable/emblems/emblem-downloads.icon.in.h:1
+msgid "Downloads"
+msgstr "མངོན་གསལ་འབདཝ་ཨིན"
 
 #: ../scalable/emblems/emblem-favorite.icon.in.h:1
 msgid "Favorite"
@@ -199,6 +179,18 @@ msgstr "གལ་ཅན།"
 msgid "Mail"
 msgstr "ཡིག་འཕྲིན།"
 
+#: ../scalable/emblems/emblem-new.icon.in.h:1
+msgid "New"
+msgstr "གསརཔ།"
+
+#: ../scalable/emblems/emblem-package.icon.in.h:1
+msgid "Package"
+msgstr "ཐུམ་སྒྲིལ།"
+
+#: ../scalable/emblems/emblem-photos.icon.in.h:1
+msgid "Photos"
+msgstr "དཔར་ཚུ"
+
 #: ../scalable/emblems/emblem-special.icon.in.h:1
 msgid "Special"
 msgstr "དམིགས་བསལ།"
@@ -206,4 +198,15 @@ msgstr "དམིགས་བསལ།"
 #: ../scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
 msgstr "འཕྲལ་མཁོ།"
+
+#: ../scalable/emblems/emblem-web.icon.in.h:1
+msgid "Web"
+msgstr "ཝེབ།"
+
+#~ msgid "cvs-new-file"
+#~ msgstr "སི་བི་ཨེསི་-ཡིག་སྣོད་གསརཔ།"
+#~ msgid "Symbolic link"
+#~ msgstr "བརྡ་མཚོན་འབྲེལ་ལམ།"
+#~ msgid "Binary"
+#~ msgstr "བའི་ན་རི།"
 
