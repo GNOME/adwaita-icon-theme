@@ -24,7 +24,8 @@ icons_DATA =			\
 	multimedia-player.png	\
 	pda.png			\
 	phone.png		\
-	printer.png	\
+	printer.png		\
+	scanner.png		\
 	video-display.png
 
 EXTRA_DIST = $(icons_DATA)
