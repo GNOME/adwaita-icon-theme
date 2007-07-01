@@ -9,6 +9,7 @@ icons_DATA =				\
 	appointment-new.svg		\
 	bookmark-new.svg		\
 	contact-new.svg			\
+	edit-clear.svg			\
 	edit-copy.svg			\
 	edit-find.svg			\
 	edit-find-replace.svg		\
