@@ -69,6 +69,7 @@ icons_DATA =				\
 	stock-ticker.png		\
 	system-file-manager.png		\
 	system-software-installer.png	\
+	system-software-update.png	\
 	system-users.png		\
 	user-info.png	\
 	utilities-system-monitor.png	\
