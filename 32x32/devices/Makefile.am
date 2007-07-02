@@ -8,6 +8,7 @@ icons_DATA =			\
 	audio-input-microphone.png	\
 	battery.png		\
 	camera-photo.png	\
+	camera-video.png	\
 	camera-web.png	\
 	computer.png		\
 	drive-harddisk.png	\
