@@ -57,6 +57,7 @@ icons_DATA =				\
 	insert-text.svg			\
 	list-add.svg			\
 	list-remove.svg			\
+	mail-reply-sender.svg		\
 	media-eject.svg			\
 	object-flip-horizontal.svg	\
 	object-flip-vertical.svg	\
