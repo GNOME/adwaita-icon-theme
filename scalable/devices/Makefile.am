@@ -24,6 +24,7 @@ icons_DATA =			\
 	modem.svg		\
 	multimedia-player.svg	\
 	network-wired.svg	\
+	network-wireless.svg	\
 	pda.svg			\
 	phone.svg		\
 	printer.svg		\
