@@ -5,7 +5,7 @@ context = emotes
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =			\
-	face-mokey.png
+	face-mokney.png
 
 EXTRA_DIST =		\
 	$(icons_DATA)
