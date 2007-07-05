@@ -9,6 +9,7 @@ icon_in_files =				\
 	emblem-cvs-added.icon.in	\
 	emblem-cvs-conflict.icon.in	\
 	emblem-cvs-removed.icon.in	\
+	emblem-documents.icon.in	\
 	emblem-downloads.icon.in	\
 	emblem-favorite.icon.in		\
 	emblem-generic.icon.in		\

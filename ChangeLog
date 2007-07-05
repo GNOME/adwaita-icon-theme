@@ -1,3 +1,13 @@
+2007-07-05  Luca Ferretti  <elle.uca@libero.it>
+
+	* 48x48/emblems/Makefile.am:
+	* 48x48/emblems/emblem-documents.icon.in: removed
+	* 48x48/emblems/emblem-documents.png:
+	* scalable/emblems/Makefile.am:
+	* scalable/emblems/emblem-documents.icon.in: added
+
+	kill old emblem-documents icon (fix bug #453669)
+
 2007-07-04  Lapo Calamandrei <calamandrei@gmail.com>
 
 	* {16x16,22x22}/devices/network-wired.* : restyling.

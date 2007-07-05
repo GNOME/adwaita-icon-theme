@@ -16,7 +16,6 @@ icon_in_files =				\
 	emblem-danger.icon.in		\
 	emblem-desktop.icon.in		\
 	emblem-distinguished.icon.in	\
-	emblem-documents.icon.in	\
 	emblem-draft.icon.in		\
 	emblem-handshake.icon.in	\
 	emblem-marketing.icon.in	\
@@ -51,7 +50,6 @@ png_DATA =				\
 	emblem-danger.png		\
 	emblem-desktop.png		\
 	emblem-distinguished.png	\
-	emblem-documents.png		\
 	emblem-draft.png		\
 	emblem-handshake.png		\
 	emblem-marketing.png		\
