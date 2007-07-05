@@ -54,6 +54,7 @@ icons_DATA =				\
 	help-faq.svg			\
 	insert-image.svg		\
 	insert-link.svg			\
+	insert-object.svg		\
 	insert-text.svg			\
 	list-add.svg			\
 	list-remove.svg			\

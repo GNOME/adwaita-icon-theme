@@ -56,6 +56,7 @@ icons_DATA =				\
 	help-faq.png			\
 	insert-image.png		\
 	insert-link.png			\
+	insert-object.png		\
 	insert-text.png			\
 	list-add.png			\
 	list-remove.png			\

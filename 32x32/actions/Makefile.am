@@ -45,6 +45,7 @@ icons_DATA =				\
 	help-faq.png			\
 	insert-image.png		\
 	insert-link.png			\
+	insert-object.png		\
 	insert-text.png			\
 	format-indent-less.png		\
 	format-indent-more.png		\
