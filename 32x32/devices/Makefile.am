@@ -24,6 +24,7 @@ icons_DATA =			\
 	modem.png		\
 	multimedia-player.png	\
 	network-wired.png	\
+	network-wireless.png	\
 	pda.png			\
 	phone.png		\
 	printer.png		\
