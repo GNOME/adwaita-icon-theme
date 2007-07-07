@@ -54,6 +54,8 @@ icons_DATA =				\
 	format-justify-left.png		\
 	format-justify-right.png	\
 	format-text-bold.png		\
+	format-text-direction-ltr.png	\
+	format-text-direction-rtl.png	\
 	format-text-italic.png		\
 	format-text-strikethrough.png	\
 	format-text-underline.png	\
