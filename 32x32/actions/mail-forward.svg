@@ -15,14 +15,26 @@
    sodipodi:version="0.32"
    inkscape:version="0.45+devel"
    sodipodi:docbase="/home/andreas/project/gnome-icon-theme/scalable/actions"
-   sodipodi:docname="mail-reply-sender.svg"
+   sodipodi:docname="mail-forward.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
-   inkscape:export-filename="/home/andreas/project/gnome-icon-theme/32x32/actions/mail-reply-sender.png"
+   inkscape:export-filename="/home/andreas/project/gnome-icon-theme/32x32/actions/mail-forward.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
      id="defs4339">
+    <linearGradient
+       id="linearGradient5928"
+       inkscape:collect="always">
+      <stop
+         id="stop5930"
+         offset="0"
+         style="stop-color:#2f5c95;stop-opacity:1" />
+      <stop
+         id="stop5932"
+         offset="1"
+         style="stop-color:#3d77bf;stop-opacity:1" />
+    </linearGradient>
     <filter
        inkscape:collect="always"
        x="-0.10033944"
@@ -308,26 +320,14 @@
        y2="12.805173" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5551"
+       xlink:href="#linearGradient5928"
        id="linearGradient6621"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-1.2857143,0,0,1.2857143,-20.089537,-25.705357)"
+       gradientTransform="matrix(1.2857143,0,0,1.2857143,1.339286,-25.705357)"
        x1="-5"
        y1="30.485746"
        x2="-5"
        y2="28" />
-    <filter
-       inkscape:collect="always"
-       x="-0.058871186"
-       width="1.1177424"
-       y="-0.45862553"
-       height="1.9172511"
-       id="filter7234">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.74048913"
-         id="feGaussianBlur7236" />
-    </filter>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient5573"
@@ -388,10 +388,10 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.313709"
-     inkscape:cx="17.294345"
-     inkscape:cy="16.364742"
-     inkscape:current-layer="g5725"
+     inkscape:zoom="11.313708"
+     inkscape:cx="34.164452"
+     inkscape:cy="3.359972"
+     inkscape:current-layer="g6617"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
@@ -505,13 +505,13 @@
        id="g6617"
        transform="translate(25.375,9.5625)">
       <path
-         style="opacity:1;color:#000000;fill:url(#linearGradient6621);fill-opacity:1;fill-rule:nonzero;stroke:#a60f11;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         style="opacity:1;color:#000000;fill:url(#linearGradient6621);fill-opacity:1;fill-rule:nonzero;stroke:#294d7c;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          id="path6613"
-         d="M -15.88682,3.9886831 L -15.88682,7.920147 L -7.875251,7.920147 L -7.875251,15.931716 L -15.88682,15.931716 L -15.88682,19.9375 L -24.8125,12.223215 L -15.88682,3.9886831 z" />
+         d="M -2.863431,3.9886831 L -2.863431,7.920147 L -10.875,7.920147 L -10.875,15.931716 L -2.863431,15.931716 L -2.863431,19.9375 L 6.062249,12.223215 L -2.863431,3.9886831 z" />
       <path
          style="opacity:1;color:#000000;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.23873877;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          id="path6615"
-         d="M -16.875251,6.340005 L -16.875251,9.017606 L -8.863682,9.017606 L -8.863682,15.011821 L -16.875251,15.011821 L -16.875251,17.615101 L -23.390118,12.21743 L -16.875251,6.340005 z" />
+         d="M -1.875,6.340005 L -1.875,9.017606 L -9.886569,9.017606 L -9.886569,15.011821 L -1.875,15.011821 L -1.875,17.615101 L 4.639867,12.21743 L -1.875,6.340005 z" />
     </g>
   </g>
 </svg>
