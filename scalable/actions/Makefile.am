@@ -47,6 +47,8 @@ icons_DATA =				\
 	format-justify-left.svg		\
 	format-justify-right.svg	\
 	format-text-bold.svg		\
+	format-text-direction-ltr.svg	\
+	format-text-direction-rtl.svg	\
 	format-text-italic.svg		\
 	format-text-strikethrough.svg	\
 	format-text-underline.svg	\
