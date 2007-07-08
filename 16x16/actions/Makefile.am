@@ -84,6 +84,7 @@ icons_DATA =				\
 	system-lock-screen.png		\
 	system-run.png			\
 	tab-new.png			\
+	tools-check-spelling.png	\
 	view-fullscreen.png		\
 	view-refresh.png 		\
 	view-restore.png		\
