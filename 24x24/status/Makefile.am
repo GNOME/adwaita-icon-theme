@@ -24,6 +24,7 @@ icons_DATA =				\
 	folder-visiting.icon		\
 	image-loading.png		\
 	image-missing.png	\
+	mail-attachment.png		\
 	media-playlist-repeat.png	\
 	media-playlist-shuffle.png	\
 	network-error.png		\
@@ -47,6 +48,7 @@ icons_DATA =				\
 	weather-clear-night.png	\
 	weather-few-clouds.png	\
 	weather-few-clouds-night.png	\
+	weather-fog.png			\
 	weather-overcast.png	\
 	weather-severe-alert.png	\
 	weather-showers.png	\
