@@ -9,6 +9,7 @@ icons_DATA =				\
 	emblem-documents.png		\
 	emblem-downloads.png		\
 	emblem-favorite.png		\
+	emblem-generic.png	\
 	emblem-important.png		\
 	emblem-new.png			\
 	emblem-package.png		\
