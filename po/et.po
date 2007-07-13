@@ -1,18 +1,21 @@
 # GNOME ikooniteema eesti keele tõlge.
 # Estonian translation of GNOME icon theme.
 #
-# Copyright (C) 2003 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-icon-theme package.
+# Copyright (C) 2003, 2005 Free Software Foundation, Inc.
+# Copyright (C) 2007 The GNOME Project
+# This file is distributed under the same license as the gnome-icon-theme
+# package.
+#
 # Tõivo Leedjärv <toivo@linux.ee>, 2003.
 # Allan Sims <allsi@eau.ee>, 2003.
-# Ivar Smolin <okul@linux.ee>, 2005.
+# Ivar Smolin <okul@linux.ee>, 2005, 2007.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-01-02 02:23+0000\n"
-"PO-Revision-Date: 2005-02-14 10:48+0200\n"
+"POT-Creation-Date: 2007-06-23 03:17+0100\n"
+"PO-Revision-Date: 2007-06-28 12:11+0300\n"
 "Last-Translator: Ivar Smolin <okul@linux.ee>\n"
 "Language-Team: Estonian <gnome-et@linux.ee>\n"
 "MIME-Version: 1.0\n"
@@ -160,6 +163,10 @@ msgstr "cvs-vastuolu"
 msgid "cvs-removed"
 msgstr "cvs-eemaldatud"
 
+#: ../scalable/emblems/emblem-downloads.icon.in.h:1
+msgid "Downloads"
+msgstr "Allalaadimised"
+
 #: ../scalable/emblems/emblem-favorite.icon.in.h:1
 msgid "Favorite"
 msgstr "Lemmik"
@@ -184,6 +191,10 @@ msgstr "Uus"
 msgid "Package"
 msgstr "Pakk"
 
+#: ../scalable/emblems/emblem-photos.icon.in.h:1
+msgid "Photos"
+msgstr "Fotod"
+
 #: ../scalable/emblems/emblem-special.icon.in.h:1
 msgid "Special"
 msgstr "Eriline"
@@ -195,12 +206,3 @@ msgstr "Kiireloomuline"
 #: ../scalable/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Veeb"
-
-#~ msgid "Binary"
-#~ msgstr "Binaarne"
-
-#~ msgid "cvs-new-file"
-#~ msgstr "cvs-uus-fail"
-
-#~ msgid "Symbolic link"
-#~ msgstr "Nimeviit"
