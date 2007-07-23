@@ -1,25 +1,25 @@
 # Translation on gnome-icon-theme to Telugu.
-# Copyright (C) 2005
+# Copyright (C) 2005, Vijay Kiran Kamuju
+# Copyright (C) 2007, Swecha Telugu Localisation Team <localistion@swecha.org>
 # This file is distributed under the same license as the gnome-icon-theme package.
-#
 # Vijay Kiran Kamuju <infyquest@gmail.com>, 2005.
-#
+# Y.Kiran Chandra <kiran@swecha.net>, 2007
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-12-13 22:07+0530\n"
-"PO-Revision-Date: 2005-11-30 11:35+0530\n"
-"Last-Translator: Vijay Kiran Kamuju <infyquest@gmail.com>\n"
-"Language-Team: Swecha Telugu Localisation <indlinux-telugu@lists.sourceforge."
-"net>\n"
+"POT-Creation-Date: 2007-07-23 19:50+0530\n"
+"PO-Revision-Date: 2007-07-19 13:19+0530\n"
+"Last-Translator: Y.Kiran Chandra <kiran@swecha.net>\n"
+"Language-Team: Swecha Telugu Localisation Team <localisation@swecha.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../48x48/emblems/emblem-OK.icon.in.h:1
 msgid "OK"
-msgstr "ఓకె"
+msgstr "సరే "
 
 #: ../48x48/emblems/emblem-art.icon.in.h:1
 msgid "Art"
@@ -37,33 +37,17 @@ msgstr "ధ్రూవీకరించబడిది"
 msgid "Cool"
 msgstr "చల్లని"
 
-#: ../48x48/emblems/emblem-cvs-added.icon.in.h:1
-msgid "cvs-added"
-msgstr ""
-
-#: ../48x48/emblems/emblem-cvs-conflict.icon.in.h:1
-msgid "cvs-conflict"
-msgstr ""
-
 #: ../48x48/emblems/emblem-cvs-controlled.icon.in.h:1
 msgid "cvs-controlled"
-msgstr ""
+msgstr "cvs-నియంత్రణలో"
 
 #: ../48x48/emblems/emblem-cvs-modified.icon.in.h:1
 msgid "cvs-modified"
-msgstr ""
-
-#: ../48x48/emblems/emblem-cvs-new-file.icon.in.h:1
-msgid "cvs-new-file"
-msgstr ""
-
-#: ../48x48/emblems/emblem-cvs-removed.icon.in.h:1
-msgid "cvs-removed"
-msgstr ""
+msgstr "cvs-మార్చి"
 
 #: ../48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
 msgid "cvs-sticky-tag"
-msgstr ""
+msgstr "న"
 
 #: ../48x48/emblems/emblem-danger.icon.in.h:1
 msgid "Danger"
@@ -76,10 +60,6 @@ msgstr "రంగస్ఠలం"
 #: ../48x48/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
 msgstr "విలక్షణమైన"
-
-#: ../48x48/emblems/emblem-documents.icon.in.h:1
-msgid "Documents"
-msgstr "పత్రములు"
 
 #: ../48x48/emblems/emblem-draft.icon.in.h:1
 msgid "Draft"
@@ -101,10 +81,6 @@ msgstr "డబ్బు"
 msgid "Multimedia"
 msgstr "బహుళ మాద్యమం"
 
-#: ../48x48/emblems/emblem-new.icon.in.h:1
-msgid "New"
-msgstr "కొత్త"
-
 #: ../48x48/emblems/emblem-noread.icon.in.h:1
 msgid "No read"
 msgstr "చదువుట లేదు"
@@ -120,10 +96,6 @@ msgstr "వ్రాయుట లేదు"
 #: ../48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
 msgstr "అయ్యొ!"
-
-#: ../48x48/emblems/emblem-package.icon.in.h:1
-msgid "Package"
-msgstr "కట్ట"
 
 #: ../48x48/emblems/emblem-people.icon.in.h:1
 msgid "People"
@@ -143,7 +115,7 @@ msgstr "ప్రణాలిక"
 
 #: ../48x48/emblems/emblem-presentation.icon.in.h:1
 msgid "Presentation"
-msgstr ""
+msgstr "సమర్పణ "
 
 #: ../48x48/emblems/emblem-sales.icon.in.h:1
 msgid "Sales"
@@ -157,17 +129,9 @@ msgstr "పంచుకున్నవి"
 msgid "Sound"
 msgstr "ధ్వని"
 
-#: ../48x48/emblems/emblem-symbolic-link.icon.in.h:1
-msgid "Symbolic link"
-msgstr "సాంకెతిక అనుసంధానం"
-
 #: ../48x48/emblems/emblem-trash.icon.in.h:1
 msgid "Trash"
 msgstr "చెత్త"
-
-#: ../48x48/emblems/emblem-web.icon.in.h:1
-msgid "Web"
-msgstr ""
 
 #: ../index.theme.in.h:1
 msgid "Default GNOME Theme"
@@ -177,9 +141,25 @@ msgstr "అప్రమెయ గ్నొమ్ వైవిద్యాంశ�
 msgid "GNOME"
 msgstr "గ్నోమ్"
 
-#: ../scalable/emblems/emblem-bin.icon.in.h:1
-msgid "Binary"
-msgstr "ద్వియాశం"
+#: ../scalable/emblems/emblem-cvs-added.icon.in.h:1
+msgid "cvs-added"
+msgstr "cvs-జతచేసిన "
+
+#: ../scalable/emblems/emblem-cvs-conflict.icon.in.h:1
+msgid "cvs-conflict"
+msgstr "cvs-లో ఘర్షణ "
+
+#: ../scalable/emblems/emblem-cvs-removed.icon.in.h:1
+msgid "cvs-removed"
+msgstr "cvs-తీసివేసిన "
+
+#: ../scalable/emblems/emblem-documents.icon.in.h:1
+msgid "Documents"
+msgstr "పత్రములు"
+
+#: ../scalable/emblems/emblem-downloads.icon.in.h:1
+msgid "Downloads"
+msgstr "దిగుమతులు "
 
 #: ../scalable/emblems/emblem-favorite.icon.in.h:1
 msgid "Favorite"
@@ -197,6 +177,18 @@ msgstr "ముఖ్యమైన"
 msgid "Mail"
 msgstr "తపాలా"
 
+#: ../scalable/emblems/emblem-new.icon.in.h:1
+msgid "New"
+msgstr "కొత్త"
+
+#: ../scalable/emblems/emblem-package.icon.in.h:1
+msgid "Package"
+msgstr "కట్ట"
+
+#: ../scalable/emblems/emblem-photos.icon.in.h:1
+msgid "Photos"
+msgstr "చిత్రాలు "
+
 #: ../scalable/emblems/emblem-special.icon.in.h:1
 msgid "Special"
 msgstr "ప్రత్యెకం"
@@ -204,3 +196,13 @@ msgstr "ప్రత్యెకం"
 #: ../scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
 msgstr "అత్యవసరం"
+
+#: ../scalable/emblems/emblem-web.icon.in.h:1
+msgid "Web"
+msgstr "మహాతలం "
+
+msgid "Symbolic link"
+msgstr "సాంకెతిక అనుసంధానం"
+
+msgid "Binary"
+msgstr "ద్వియాశం"
