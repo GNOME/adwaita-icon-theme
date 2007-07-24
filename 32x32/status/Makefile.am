@@ -33,6 +33,7 @@ icons_DATA =			\
 	security-medium.png	\
 	security-high.png	\
 	software-update-available.png \
+	software-update-urgent.png \
 	task-due.png	\
 	task-passed-due.png	\
 	user-trash-full.png	\
