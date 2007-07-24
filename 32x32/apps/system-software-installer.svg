@@ -15,12 +15,24 @@
    sodipodi:version="0.32"
    inkscape:version="0.45"
    version="1.0"
-   sodipodi:docbase="/home/lapo/Icone/svn/gnome-icon-theme/32x32/apps"
+   sodipodi:docbase="/home/lapo/Icone/gnome-icon-theme/32x32/apps"
    sodipodi:docname="system-software-installer.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    sodipodi:modified="true">
   <defs
      id="defs7856">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient6381">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop6383" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop6385" />
+    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient6256">
@@ -342,16 +354,6 @@
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient6242"
-       id="linearGradient6248"
-       x1="6.9461918"
-       y1="8.06674"
-       x2="39.044338"
-       y2="8.06674"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.6795232,0,0,0.6885714,0.4684686,-11.412426)" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient4210"
        id="linearGradient6252"
        gradientUnits="userSpaceOnUse"
@@ -401,6 +403,15 @@
        y2="3.273787"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1,0,0,0.8333333,0,1.2500001)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6381"
+       id="linearGradient6387"
+       x1="23.157747"
+       y1="11.36132"
+       x2="23.157747"
+       y2="5.5276899"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -413,8 +424,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="21.366018"
-     inkscape:cy="24.833976"
+     inkscape:cx="23.60613"
+     inkscape:cy="19.323986"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      width="32px"
@@ -423,7 +434,7 @@
      inkscape:window-width="880"
      inkscape:window-height="829"
      inkscape:window-x="147"
-     inkscape:window-y="221"
+     inkscape:window-y="195"
      showgrid="false"
      showborder="false" />
   <metadata
@@ -557,6 +568,13 @@
        d="M 5.6170119,6.4691874 L 4.2165593,12.5 L 28.662588,12.5 L 27.330248,6.4893809 L 5.6170119,6.4691874 z "
        id="path4885"
        sodipodi:nodetypes="ccccc" />
+    <path
+       sodipodi:type="inkscape:offset"
+       inkscape:radius="-1.013667"
+       inkscape:original="M 5.625 6.46875 L 4.21875 12.5 L 28.65625 12.5 L 27.34375 6.5 L 5.625 6.46875 z "
+       style="opacity:0.3;color:#000000;fill:none;fill-opacity:1.0;fill-rule:nonzero;stroke:url(#linearGradient6387);stroke-width:1.00000083;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:block;overflow:visible;enable-background:accumulate"
+       id="path5406"
+       d="M 6.4375,7.46875 L 5.5,11.5 L 27.375,11.5 L 26.5,7.5 L 6.4375,7.46875 z " />
     <g
        inkscape:label="Layer 1"
        id="g5212"
