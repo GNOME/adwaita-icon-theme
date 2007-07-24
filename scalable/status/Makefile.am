@@ -37,6 +37,7 @@ icons_DATA =			\
 	security-low.svg	\
 	security-medium.svg	\
 	security-high.svg	\
+	software-update-available.svg \
 	task-due.svg	\
 	task-passed-due.svg	\
 	user-trash-full.svg	\
