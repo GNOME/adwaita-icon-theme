@@ -23,6 +23,7 @@ icons_DATA =				\
 	media-floppy.png		\
 	media-optical.png		\
 	media-tape.png	\
+	media-zip.png	\
 	modem.png	\
 	multimedia-player.png		\
 	network-wired.png		\

@@ -5,8 +5,7 @@ context = devices
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
-	media-jaz.png			\
-	media-zip.png			
+	media-jaz.png
 
 EXTRA_DIST =				\
 	$(icons_DATA)

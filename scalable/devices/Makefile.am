@@ -22,6 +22,7 @@ icons_DATA =			\
 	media-floppy.svg	\
 	media-optical.svg	\
 	media-tape.svg	\
+	media-zip.svg	\
 	modem.svg		\
 	multimedia-player.svg	\
 	network-wired.svg	\
