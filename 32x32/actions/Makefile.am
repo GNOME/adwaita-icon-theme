@@ -61,6 +61,7 @@ icons_DATA =				\
 	format-text-underline.png	\
 	list-add.png			\
 	list-remove.png			\
+	mail-message-new.png		\
 	mail-reply-sender.png		\
 	media-eject.png			\
 	object-flip-horizontal.png	\
