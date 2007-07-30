@@ -1,3 +1,11 @@
+2007-07-30  Jakub Steiner <jimmac@ximian.com>
+
+	* 32x32/actions/Makefile.am
+	* 24x24/stock/navigation/Makefile.am
+	* 16x16/stock/navigation/Makefile.am
+	* scalable/actions/Makefile.am: fix up makefiles to pass distcheck
+	* scalable/actions/mail-message-new.svg: missing size
+
 2007-07-30  Rodney Dawes  <dobey.pwns@gmail.com>
 
 	* */stock/navigation/stock_zoom-1.*:

@@ -60,7 +60,9 @@ icons_DATA =				\
 	insert-text.svg			\
 	list-add.svg			\
 	list-remove.svg			\
+	mail-forward.svg	\
 	mail-message-new.svg		\
+	mail-reply-all.svg		\
 	mail-reply-sender.svg		\
 	media-eject.svg			\
 	object-flip-horizontal.svg	\

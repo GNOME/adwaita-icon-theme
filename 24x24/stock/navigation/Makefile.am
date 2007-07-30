@@ -18,12 +18,9 @@ icon_DATA =\
    stock_right-with-subpoints.png \
    stock_undo-history.png \
    stock_up-with-subpoints.png \
-   stock_zoom-1.png \
-   stock_zoom-in.png \
    stock_zoom-next.png \
    stock_zoom-object.png \
    stock_zoom-optimal.png \
-   stock_zoom-out.png \
    stock_zoom-page.png \
    stock_zoom-page-width.png \
    stock_zoom.png \
