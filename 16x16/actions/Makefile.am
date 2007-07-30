@@ -53,6 +53,7 @@ icons_DATA =				\
 	go-up.png			\
 	gtk-edit.png			\
 	help-about.png	\
+	help-contents.png		\
 	help-faq.png			\
 	insert-image.png		\
 	insert-link.png			\

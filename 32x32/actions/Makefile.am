@@ -65,6 +65,7 @@ icons_DATA =				\
 	mail-message-new.png		\
 	mail-reply-all.png		\
 	mail-reply-sender.png		\
+	mail-send-receive.png		\
 	media-eject.png			\
 	object-flip-horizontal.png	\
 	object-flip-vertical.png	\
