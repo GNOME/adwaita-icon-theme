@@ -6,9 +6,6 @@ iconsdir = $(themedir)/$(size)/$(context)
 svgdir = $(iconsdir)
 
 icon_in_files =				\
-	emblem-cvs-added.icon.in	\
-	emblem-cvs-conflict.icon.in	\
-	emblem-cvs-removed.icon.in	\
 	emblem-documents.icon.in	\
 	emblem-downloads.icon.in	\
 	emblem-favorite.icon.in		\
@@ -27,9 +24,6 @@ icons_DATA =				\
 	$(icon_in_files:.icon.in=.icon)
 
 svg_DATA =				\
-	emblem-cvs-added.svg		\
-	emblem-cvs-conflict.svg		\
-	emblem-cvs-removed.svg		\
 	emblem-default.svg		\
 	emblem-documents.svg		\
 	emblem-downloads.svg		\

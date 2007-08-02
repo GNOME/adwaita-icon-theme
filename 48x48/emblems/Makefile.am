@@ -10,9 +10,6 @@ icon_in_files =				\
 	emblem-camera.icon.in		\
 	emblem-certified.icon.in 	\
 	emblem-cool.icon.in		\
-	emblem-cvs-controlled.icon.in	\
-	emblem-cvs-modified.icon.in	\
-	emblem-cvs-sticky-tag.icon.in	\
 	emblem-danger.icon.in		\
 	emblem-desktop.icon.in		\
 	emblem-distinguished.icon.in	\
@@ -44,9 +41,6 @@ png_DATA =				\
 	emblem-cool.png			\
 	emblem-camera.png		\
 	emblem-certified.png		\
-	emblem-cvs-controlled.png 	\
-	emblem-cvs-modified.png		\
-	emblem-cvs-sticky-tag.png 	\
 	emblem-danger.png		\
 	emblem-desktop.png		\
 	emblem-distinguished.png	\

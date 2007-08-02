@@ -11,6 +11,7 @@ icons_DATA =				\
 	emblem-favorite.png		\
 	emblem-generic.png	\
 	emblem-important.png		\
+	emblem-mail.png	\
 	emblem-new.png			\
 	emblem-package.png		\
 	emblem-photos.png		\
@@ -18,6 +19,7 @@ icons_DATA =				\
 	emblem-symbolic-link.png	\
 	emblem-system.png		\
 	emblem-unreadable.png		\
+	emblem-urgent.png	\
 	emblem-web.png
 	$(NULL)
 
