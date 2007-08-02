@@ -25,7 +25,6 @@ icon_DATA =\
    stock_mail-replied.png   \
    stock_mail-send.png   \
    stock_mail-send-receive.png   \
-   stock_not-spam.png   \
    stock_outbox.png \
    stock_post-message.png \
    stock_proxy.png   \
