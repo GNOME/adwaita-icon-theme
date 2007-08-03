@@ -6,6 +6,7 @@ iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
 	accessories-calculator.png	\
+	accessories-character-map.png	\
 	accessories-dictionary.png	\
 	accessories-text-editor.png	\
 	gnome-settings-ui-behavior.png	\

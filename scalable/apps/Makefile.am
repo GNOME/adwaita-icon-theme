@@ -5,6 +5,7 @@ iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
 	accessories-calculator.svg	\
+	accessories-character-map.svg	\
 	accessories-dictionary.svg	\
 	accessories-text-editor.svg	\
 	gnome-shutdown.svg		\
