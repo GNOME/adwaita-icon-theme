@@ -1,14 +1,14 @@
 # Catalan translation of gnome-icon-theme.
 # Copyright © 2002, 2003, 2004, 2005, 2006 Free Software Foundation, Inc.
 # This file is distributed under the same license as gnome-icon-theme.
-# Jordi Mallach <jordi@sindominio.net>, 2002, 2003, 2004, 2005, 2006.
+# Jordi Mallach <jordi@sindominio.net>, 2002, 2003, 2004, 2005, 2006, 2007.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme 2.9.91\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-03-06 00:02+0100\n"
-"PO-Revision-Date: 2006-03-06 00:00+0100\n"
+"POT-Creation-Date: 2007-08-11 21:37+0200\n"
+"PO-Revision-Date: 2007-08-11 21:37+0200\n"
 "Last-Translator: Jordi Mallach <jordi@sindominio.net>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "MIME-Version: 1.0\n"
@@ -36,34 +36,6 @@ msgstr "Certificat"
 msgid "Cool"
 msgstr "Guai"
 
-#: ../48x48/emblems/emblem-cvs-added.icon.in.h:1
-msgid "cvs-added"
-msgstr "cvs-afegit"
-
-#: ../48x48/emblems/emblem-cvs-conflict.icon.in.h:1
-msgid "cvs-conflict"
-msgstr "cvs-conflicte"
-
-#: ../48x48/emblems/emblem-cvs-controlled.icon.in.h:1
-msgid "cvs-controlled"
-msgstr "cvs-controlat"
-
-#: ../48x48/emblems/emblem-cvs-modified.icon.in.h:1
-msgid "cvs-modified"
-msgstr "cvs-modificat"
-
-#: ../48x48/emblems/emblem-cvs-new-file.icon.in.h:1
-msgid "cvs-new-file"
-msgstr "cvs-fitxer-nou"
-
-#: ../48x48/emblems/emblem-cvs-removed.icon.in.h:1
-msgid "cvs-removed"
-msgstr "cvs-eliminat"
-
-#: ../48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
-msgid "cvs-sticky-tag"
-msgstr "cvs-etiqueta-permanent"
-
 #: ../48x48/emblems/emblem-danger.icon.in.h:1
 msgid "Danger"
 msgstr "Perill"
@@ -75,10 +47,6 @@ msgstr "Escriptori"
 #: ../48x48/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
 msgstr "Distingit"
-
-#: ../48x48/emblems/emblem-documents.icon.in.h:1
-msgid "Documents"
-msgstr "Documents"
 
 #: ../48x48/emblems/emblem-draft.icon.in.h:1
 msgid "Draft"
@@ -101,10 +69,6 @@ msgstr "Diners"
 msgid "Multimedia"
 msgstr "Multimèdia"
 
-#: ../48x48/emblems/emblem-new.icon.in.h:1
-msgid "New"
-msgstr "Nou"
-
 #: ../48x48/emblems/emblem-noread.icon.in.h:1
 msgid "No read"
 msgstr "Sense lectura"
@@ -120,10 +84,6 @@ msgstr "Sense escriptura"
 #: ../48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
 msgstr "Oh no!"
-
-#: ../48x48/emblems/emblem-package.icon.in.h:1
-msgid "Package"
-msgstr "Paquet"
 
 #: ../48x48/emblems/emblem-people.icon.in.h:1
 msgid "People"
@@ -158,17 +118,9 @@ msgstr "Compartit"
 msgid "Sound"
 msgstr "So"
 
-#: ../48x48/emblems/emblem-symbolic-link.icon.in.h:1
-msgid "Symbolic link"
-msgstr "Enllaç simbòlic"
-
 #: ../48x48/emblems/emblem-trash.icon.in.h:1
 msgid "Trash"
 msgstr "Paperera"
-
-#: ../48x48/emblems/emblem-web.icon.in.h:1
-msgid "Web"
-msgstr "Web"
 
 #: ../index.theme.in.h:1
 msgid "Default GNOME Theme"
@@ -178,9 +130,13 @@ msgstr "Tema del GNOME per defecte"
 msgid "GNOME"
 msgstr "GNOME"
 
-#: ../scalable/emblems/emblem-bin.icon.in.h:1
-msgid "Binary"
-msgstr "Binari"
+#: ../scalable/emblems/emblem-documents.icon.in.h:1
+msgid "Documents"
+msgstr "Documents"
+
+#: ../scalable/emblems/emblem-downloads.icon.in.h:1
+msgid "Downloads"
+msgstr "Baixades"
 
 #: ../scalable/emblems/emblem-favorite.icon.in.h:1
 msgid "Favorite"
@@ -198,6 +154,18 @@ msgstr "Important"
 msgid "Mail"
 msgstr "Correu"
 
+#: ../scalable/emblems/emblem-new.icon.in.h:1
+msgid "New"
+msgstr "Nou"
+
+#: ../scalable/emblems/emblem-package.icon.in.h:1
+msgid "Package"
+msgstr "Paquet"
+
+#: ../scalable/emblems/emblem-photos.icon.in.h:1
+msgid "Photos"
+msgstr "Fotografies"
+
 #: ../scalable/emblems/emblem-special.icon.in.h:1
 msgid "Special"
 msgstr "Especial"
@@ -205,3 +173,34 @@ msgstr "Especial"
 #: ../scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
 msgstr "Urgent"
+
+#: ../scalable/emblems/emblem-web.icon.in.h:1
+msgid "Web"
+msgstr "Web"
+
+#~ msgid "cvs-added"
+#~ msgstr "cvs-afegit"
+
+#~ msgid "cvs-conflict"
+#~ msgstr "cvs-conflicte"
+
+#~ msgid "cvs-controlled"
+#~ msgstr "cvs-controlat"
+
+#~ msgid "cvs-modified"
+#~ msgstr "cvs-modificat"
+
+#~ msgid "cvs-new-file"
+#~ msgstr "cvs-fitxer-nou"
+
+#~ msgid "cvs-removed"
+#~ msgstr "cvs-eliminat"
+
+#~ msgid "cvs-sticky-tag"
+#~ msgstr "cvs-etiqueta-permanent"
+
+#~ msgid "Symbolic link"
+#~ msgstr "Enllaç simbòlic"
+
+#~ msgid "Binary"
+#~ msgstr "Binari"
