@@ -66,6 +66,14 @@ icons_DATA =				\
 	mail-reply-sender.svg		\
 	mail-send-receive.svg		\
 	media-eject.svg			\
+	media-playback-pause.svg \
+	media-playback-start.svg \
+	media-playback-stop.svg \
+	media-record.svg \
+	media-seek-backward.svg \
+	media-seek-forward.svg \
+	media-skip-backward.svg \
+	media-skip-forward.svg \
 	object-flip-horizontal.svg	\
 	object-flip-vertical.svg	\
 	object-rotate-left.svg		\

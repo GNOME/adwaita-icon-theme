@@ -67,6 +67,14 @@ icons_DATA =				\
 	mail-reply-sender.png		\
 	mail-send-receive.png		\
 	media-eject.png			\
+	media-playback-pause.png	\
+	media-playback-start.png	\
+	media-playback-stop.png		\
+	media-record.png		\
+	media-seek-backward.png		\
+	media-seek-forward.png		\
+	media-skip-backward.png		\
+	media-skip-forward.png		\
 	object-flip-horizontal.png	\
 	object-flip-vertical.png	\
 	object-rotate-left.png	\
