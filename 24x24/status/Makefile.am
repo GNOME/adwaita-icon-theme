@@ -42,7 +42,7 @@ icons_DATA =				\
 	software-update-available.png	\
 	software-update-urgent.png	\
 	task-due.png			\
-	task-passed-due.png		\
+	task-past-due.png		\
 	user-trash-full.png		\
 	weather-clear.png		\
 	weather-clear-night.png	\

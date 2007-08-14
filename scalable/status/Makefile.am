@@ -40,7 +40,7 @@ icons_DATA =			\
 	software-update-available.svg \
 	software-update-urgent.svg \
 	task-due.svg	\
-	task-passed-due.svg	\
+	task-past-due.svg	\
 	user-trash-full.svg	\
 	weather-clear.svg	\
 	weather-clear-night.svg	\
