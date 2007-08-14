@@ -9,7 +9,7 @@ icons_DATA =			\
 	face-cool.png \
 	face-crying.png \
 	face-devilish.png \
-	face-embarassed.png \
+	face-embarrassed.png \
 	face-kiss.png \
 	face-monkey.png \
 	face-plain.png \
