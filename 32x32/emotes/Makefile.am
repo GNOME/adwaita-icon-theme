@@ -5,7 +5,17 @@ context = emotes
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
-	face-monkey.png
+	face-angel.png \
+	face-cool.png \
+	face-crying.png \
+	face-embarrassed.png \
+	face-monkey.png \
+	face-plain.png \
+	face-sad.png \
+	face-smile-big.png \
+	face-smile.png \
+	face-surprise.png \
+	face-wink.png
 
 EXTRA_DIST =		\
 	$(icons_DATA)
