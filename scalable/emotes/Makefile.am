@@ -8,6 +8,7 @@ icons_DATA =				\
 	face-cool.svg \
 	face-crying.svg \
 	face-embarrassed.svg \
+	face-kiss.svg \
 	face-monkey.svg \
 	face-plain.svg \
 	face-sad.svg \
