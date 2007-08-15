@@ -12,6 +12,7 @@ icons_DATA =				\
 	face-kiss.png \
 	face-monkey.png \
 	face-plain.png \
+	face-raspberry.png \
 	face-sad.png \
 	face-smile-big.png \
 	face-smile.png \
