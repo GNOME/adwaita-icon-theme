@@ -16,6 +16,7 @@ icons_DATA =				\
 	face-sad.png \
 	face-smile-big.png \
 	face-smile.png \
+	face-smirk.png \
 	face-surprise.png \
 	face-wink.png
 

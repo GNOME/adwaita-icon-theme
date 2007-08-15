@@ -16,6 +16,7 @@ icons_DATA =				\
 	face-sad.svg \
 	face-smile-big.svg \
 	face-smile.svg \
+	face-smirk.svg \
 	face-surprise.svg \
 	face-wink.svg
 
