@@ -62,6 +62,9 @@ icons_DATA =				\
 	list-add.png			\
 	list-remove.png			\
 	mail-forward.png	\
+	mail-mark-important.png		\
+	mail-mark-read.png		\
+	mail-mark-unread.png		\
 	mail-message-new.png		\
 	mail-reply-all.png		\
 	mail-reply-sender.png		\

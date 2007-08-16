@@ -25,6 +25,9 @@ icons_DATA =				\
 	image-loading.png		\
 	image-missing.png	\
 	mail-attachment.png		\
+	mail-read.png			\
+	mail-replied.png		\
+	mail-unread.png			\
 	media-playlist-repeat.png	\
 	media-playlist-shuffle.png	\
 	network-error.png		\

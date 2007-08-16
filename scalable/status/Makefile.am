@@ -26,6 +26,9 @@ icons_DATA =			\
 	image-loading.svg	\
 	image-missing.svg	\
 	mail-attachment.svg	\
+	mail-read.svg		\
+	mail-replied.svg	\
+	mail-unread.svg		\
 	media-playlist-repeat.svg \
 	media-playlist-shuffle.svg \
 	network-error.svg	\

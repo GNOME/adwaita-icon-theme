@@ -61,6 +61,9 @@ icons_DATA =				\
 	list-add.svg			\
 	list-remove.svg			\
 	mail-forward.svg	\
+	mail-mark-important.svg		\
+	mail-mark-read.svg		\
+	mail-mark-unread.svg		\
 	mail-message-new.svg		\
 	mail-reply-all.svg		\
 	mail-reply-sender.svg		\

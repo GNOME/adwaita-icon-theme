@@ -23,6 +23,9 @@ icons_DATA =			\
 	mail-attachment.png	\
 	media-playlist-repeat.png \
 	media-playlist-shuffle.png \
+	mail-read.png		\
+	mail-replied.png	\
+	mail-unread.png		\
 	network-error.png	\
 	network-idle.png	\
 	network-offline.png	\
