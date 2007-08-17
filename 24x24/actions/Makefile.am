@@ -88,8 +88,9 @@ icons_DATA =				\
 	object-rotate-left.png		\
 	object-rotate-right.png		\
 	process-stop.png		\
-	system-run.png			\
 	system-lock-screen.png		\
+	system-run.png			\
+	system-search.png		\
 	tab-new.png			\
 	tools-check-spelling.png	\
 	view-fullscreen.png		\

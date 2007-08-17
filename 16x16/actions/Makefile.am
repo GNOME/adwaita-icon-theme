@@ -90,6 +90,7 @@ icons_DATA =				\
 	process-stop.png		\
 	system-lock-screen.png		\
 	system-run.png			\
+	system-search.png		\
 	tab-new.png			\
 	tools-check-spelling.png	\
 	view-fullscreen.png		\
