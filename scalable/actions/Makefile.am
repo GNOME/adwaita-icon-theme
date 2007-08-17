@@ -85,6 +85,7 @@ icons_DATA =				\
 	process-stop.svg		\
 	system-lock-screen.svg		\
 	system-run.svg			\
+	system-search.svg		\
 	tools-check-spelling.svg	\
 	view-fullscreen.svg		\
 	view-refresh.svg		\
