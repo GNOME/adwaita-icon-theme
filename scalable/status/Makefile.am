@@ -16,6 +16,7 @@ icons_DATA =			\
 	dialog-error.svg	\
 	dialog-information.svg	\
 	dialog-password.svg	\
+	dialog-question.svg	\
 	dialog-warning.svg	\
 	folder-drag-accept.icon	\
 	folder-drag-accept.svg	\

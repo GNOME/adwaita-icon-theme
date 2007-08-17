@@ -16,6 +16,7 @@ icons_DATA =				\
 	dialog-error.png		\
 	dialog-information.png		\
 	dialog-password.png	\
+	dialog-question.png		\
 	dialog-warning.png		\
 	folder-drag-accept.png		\
 	folder-drag-accept.icon		\
