@@ -5,6 +5,8 @@ context = status
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =			\
+	appointment-missed.png	\
+	appointment-soon.png	\
 	audio-volume-high.png	\
 	audio-volume-low.png	\
 	audio-volume-medium.png	\
