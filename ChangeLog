@@ -1,5 +1,13 @@
 2007-08-18  Rodney Dawes  <dobey.pwns@gmail.com>
 
+	* */apps/Makefile.am:
+	* */apps/gnome-searchtool.*:
+	Remove this icon as it is replaced by system-search
+
+	Fixes #370032
+
+2007-08-18  Rodney Dawes  <dobey.pwns@gmail.com>
+
 	* */stock/document/Makefile.am:
 	* */stock/document/stock_attach.*:
 	Remove this icon as it is replaced my mail-attachment

@@ -24,7 +24,6 @@ icons_DATA =				\
 	gnome-logout.png		\
 	gnome-networktool.png		\
 	gnome-pdf.png			\
-	gnome-searchtool.png		\
 	gnome-searchtool-animation.png	\
 	gnome-searchtool-animation-rest.png	\
 	gnome-server-config.png		\
