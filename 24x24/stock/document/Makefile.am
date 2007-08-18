@@ -6,7 +6,6 @@ subtype=document
 icondir = $(datadir)/icons/gnome/$(iconsize)/$(category)/$(subtype)
 
 icon_DATA =\
-   stock_attach.png \
    stock_certificate.png \
    stock_new-drawing.png \
    stock_new-formula.png \
