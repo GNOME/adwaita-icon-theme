@@ -16,6 +16,7 @@ icons_DATA =				\
 	applications-other.png	\
 	applications-science.png	\
 	applications-system.png	\
+	applications-utilites.png	\
 	preferences-desktop.png	\
 	preferences-desktop-peripherals.png	\
 	preferences-desktop-personal.png \
