@@ -1,5 +1,14 @@
 2007-08-18  Rodney Dawes  <dobey.pwns@gmail.com>
 
+	* */emblems/Makefile.am:
+	* */emblems/emblem-noread.*:
+	* */emblems/emblem-nowrite.*:
+	These were replaced with the new emblem-{readonly,unreadable} names
+
+	Fixes #467814
+
+2007-08-18  Rodney Dawes  <dobey.pwns@gmail.com>
+
 	* */apps/Makefile.am:
 	* */apps/gnome-searchtool.*:
 	Remove this icon as it is replaced by system-search

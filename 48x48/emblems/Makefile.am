@@ -18,9 +18,7 @@ icon_in_files =				\
 	emblem-marketing.icon.in	\
 	emblem-money.icon.in		\
 	emblem-multimedia.icon.in	\
-	emblem-noread.icon.in		\
 	emblem-note.icon.in		\
-	emblem-nowrite.icon.in		\
 	emblem-ohno.icon.in		\
 	emblem-OK.icon.in 		\
 	emblem-people.icon.in		\
@@ -50,8 +48,6 @@ png_DATA =				\
 	emblem-money.png		\
 	emblem-multimedia.png		\
 	emblem-note.png			\
-	emblem-noread.png		\
-	emblem-nowrite.png		\
 	emblem-ohno.png			\
 	emblem-OK.png			\
 	emblem-people.png		\
