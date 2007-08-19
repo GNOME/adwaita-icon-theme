@@ -15,7 +15,7 @@ icons_DATA =				\
 	applications-other.svg		\
 	applications-science.svg	\
 	applications-system.svg	\
-	applications-utilites.svg	\
+	applications-utilities.svg	\
 	preferences-desktop.svg	\
 	preferences-desktop-peripherals.svg	\
 	preferences-desktop-personal.svg	\
