@@ -16,6 +16,7 @@ icons_DATA =				\
 	emblem-package.png		\
 	emblem-photos.png		\
 	emblem-readonly.png		\
+	emblem-shared.png	\
 	emblem-symbolic-link.png	\
 	emblem-system.png		\
 	emblem-unreadable.png		\

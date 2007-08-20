@@ -15,7 +15,6 @@ icon_in_files =				\
 	emblem-new.icon.in		\
 	emblem-package.icon.in		\
 	emblem-photos.icon.in		\
-	emblem-special.icon.in		\
 	emblem-urgent.icon.in		\
 	emblem-web.icon.in		\
 	$(NULL)
@@ -34,8 +33,8 @@ svg_DATA =				\
 	emblem-new.svg			\
 	emblem-package.svg		\
 	emblem-photos.svg		\
-	emblem-special.svg		\
 	emblem-readonly.svg		\
+	emblem-shared.svg		\
 	emblem-symbolic-link.svg	\
 	emblem-system.svg		\
 	emblem-unreadable.svg		\

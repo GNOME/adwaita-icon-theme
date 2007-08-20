@@ -27,7 +27,6 @@ icon_in_files =				\
 	emblem-plan.icon.in		\
 	emblem-presentation.icon.in	\
 	emblem-sales.icon.in		\
-	emblem-shared.icon.in		\
 	emblem-sound.icon.in		\
 	emblem-trash.icon.in		\
 	$(NULL)
@@ -56,7 +55,6 @@ png_DATA =				\
 	emblem-plan.png			\
 	emblem-presentation.png		\
 	emblem-sales.png		\
-	emblem-shared.png		\
 	emblem-sound.png		\
 	emblem-trash.png		\
 	$(NULL)
