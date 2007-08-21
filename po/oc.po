@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme 2.18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-04-15 18:18+0200\n"
-"PO-Revision-Date: 2007-08-19 19:44+0200\n"
+"POT-Creation-Date: 2007-08-19 19:56+0100\n"
+"PO-Revision-Date: 2007-08-21 00:01+0200\n"
 "Last-Translator: Yannig MARCHEGAY (Kokoyaya) <yannig@marchegay>\n"
 "Language-Team: Occitan (post 1500) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
 "MIME-Version: 1.0\n"
@@ -46,18 +46,6 @@ msgstr "Certificat"
 msgid "Cool"
 msgstr ""
 
-#: ../48x48/emblems/emblem-cvs-controlled.icon.in.h:1
-msgid "cvs-controlled"
-msgstr "cvs-controlled"
-
-#: ../48x48/emblems/emblem-cvs-modified.icon.in.h:1
-msgid "cvs-modified"
-msgstr "cvs-modified"
-
-#: ../48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
-msgid "cvs-sticky-tag"
-msgstr "cvs-sticky-tag"
-
 # 48x48/emblems/emblem-danger.icon.in.h:1
 # 48x48/emblems/emblem-danger.icon.in.h:1
 #: ../48x48/emblems/emblem-danger.icon.in.h:1
@@ -72,13 +60,6 @@ msgstr "Burèu"
 #: ../48x48/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
 msgstr ""
-
-# 48x48/emblems/emblem-documents.icon.in.h:1
-# 48x48/emblems/emblem-documents.icon.in.h:1
-# 48x48/emblems/emblem-documents.icon.in.h:1
-#: ../48x48/emblems/emblem-documents.icon.in.h:1
-msgid "Documents"
-msgstr "Documents"
 
 # 48x48/emblems/emblem-draft.icon.in.h:1
 #: ../48x48/emblems/emblem-draft.icon.in.h:1
@@ -111,19 +92,9 @@ msgstr "Argent"
 msgid "Multimedia"
 msgstr "Multimedià"
 
-#: ../48x48/emblems/emblem-noread.icon.in.h:1
-msgid "No read"
-msgstr ""
-
 #: ../48x48/emblems/emblem-note.icon.in.h:1
 msgid "Note"
 msgstr "Nòta"
-
-# 48x48/emblems/emblem-favorite.icon.in.h:1
-# 48x48/emblems/emblem-favorite.icon.in.h:1
-#: ../48x48/emblems/emblem-nowrite.icon.in.h:1
-msgid "No write"
-msgstr ""
 
 # 48x48/emblems/emblem-ohno.icon.in.h:1
 # 48x48/emblems/emblem-ohno.icon.in.h:1
@@ -192,17 +163,16 @@ msgstr "Tèma per defaut de GNOME"
 msgid "GNOME"
 msgstr "GNOME"
 
-#: ../scalable/emblems/emblem-cvs-added.icon.in.h:1
-msgid "cvs-added"
-msgstr "cvs-added"
+# 48x48/emblems/emblem-documents.icon.in.h:1
+# 48x48/emblems/emblem-documents.icon.in.h:1
+# 48x48/emblems/emblem-documents.icon.in.h:1
+#: ../scalable/emblems/emblem-documents.icon.in.h:1
+msgid "Documents"
+msgstr "Documents"
 
-#: ../scalable/emblems/emblem-cvs-conflict.icon.in.h:1
-msgid "cvs-conflict"
-msgstr "cvs-conflict"
-
-#: ../scalable/emblems/emblem-cvs-removed.icon.in.h:1
-msgid "cvs-removed"
-msgstr "cvs-removed"
+#: ../scalable/emblems/emblem-downloads.icon.in.h:1
+msgid "Downloads"
+msgstr "Descargas"
 
 # 48x48/emblems/emblem-favorite.icon.in.h:1
 # 48x48/emblems/emblem-favorite.icon.in.h:1
@@ -239,10 +209,24 @@ msgstr "Novèl"
 msgid "Package"
 msgstr "Paquetatge"
 
+#: ../scalable/emblems/emblem-photos.icon.in.h:1
+msgid "Photos"
+msgstr ""
+
+# 48x48/emblems/emblem-favorite.icon.in.h:1
+# 48x48/emblems/emblem-favorite.icon.in.h:1
+#: ../scalable/emblems/emblem-readonly.icon.in.h:1
+msgid "No write"
+msgstr ""
+
 # 48x48/emblems/emblem-special.icon.in.h:1
 #: ../scalable/emblems/emblem-special.icon.in.h:1
 msgid "Special"
 msgstr "Especial"
+
+#: ../scalable/emblems/emblem-unreadable.icon.in.h:1
+msgid "No read"
+msgstr ""
 
 # 48x48/emblems/emblem-urgent.icon.in.h:1
 #: ../scalable/emblems/emblem-urgent.icon.in.h:1
@@ -256,3 +240,20 @@ msgstr "Urgent"
 msgid "Web"
 msgstr "Web"
 
+#~ msgid "cvs-controlled"
+#~ msgstr "cvs-controlled"
+
+#~ msgid "cvs-modified"
+#~ msgstr "cvs-modified"
+
+#~ msgid "cvs-sticky-tag"
+#~ msgstr "cvs-sticky-tag"
+
+#~ msgid "cvs-added"
+#~ msgstr "cvs-added"
+
+#~ msgid "cvs-conflict"
+#~ msgstr "cvs-conflict"
+
+#~ msgid "cvs-removed"
+#~ msgstr "cvs-removed"
