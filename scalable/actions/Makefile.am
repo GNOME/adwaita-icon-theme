@@ -26,6 +26,7 @@ icons_DATA =				\
 	document-revert.svg		\
 	document-save.svg		\
 	document-save-as.svg		\
+	document-send.svg		\
 	folder-new.svg			\
 	edit-cut.svg			\
 	edit-delete.svg			\

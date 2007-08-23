@@ -20,6 +20,7 @@ icons_DATA =				\
 	document-revert.png		\
 	document-save.png		\
 	document-save-as.png		\
+	document-send.png		\
 	edit-clear.png			\
 	edit-copy.png			\
 	edit-cut.png			\
