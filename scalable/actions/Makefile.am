@@ -54,6 +54,7 @@ icons_DATA =				\
 	format-text-strikethrough.svg	\
 	format-text-underline.svg	\
 	help-about.svg	\
+	help-contents.svg		\
 	help-faq.svg			\
 	insert-image.svg		\
 	insert-link.svg			\

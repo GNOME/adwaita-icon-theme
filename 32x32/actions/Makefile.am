@@ -43,6 +43,7 @@ icons_DATA =				\
 	go-top.png			\
 	go-up.png			\
 	help-about.png	\
+	help-contents.png		\
 	help-faq.png			\
 	insert-image.png		\
 	insert-link.png			\
