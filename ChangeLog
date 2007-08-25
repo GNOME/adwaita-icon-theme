@@ -1,3 +1,11 @@
+2007-08-25  Rodney Dawes  <dobey.pwns@gmail.com>
+
+	* 24x24/apps/Makefile.am:
+	* 24x24/apps/config-users.png:
+	Remove config-users as it gets replaced by system-users
+
+	Fixes #470249
+
 2007-08-25  Lapo Calamandrei <calamandrei@gmail.com>
 
 	* */actions/help-contents.* : the metaphor made no sense, changed.
