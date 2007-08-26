@@ -35,7 +35,6 @@ icons_DATA =				\
 	hint.png			\
 	hwbrowser.png			\
 	im.png				\
-	image-viewer.png		\
 	launcher-program.png		\
 	network-config.png		\
 	palm-pilot.png			\

@@ -1,3 +1,11 @@
+2007-08-26  Rodney Dawes  <dobey.pwns@gmail.com>
+
+	* */apps/Makefile.am:
+	* */apps/image-viewer.*:
+	Remove the old image-viewer icon as eog ships its own now
+
+	Fixes #470391
+
 2007-08-26  Lapo Calamandrei <calamandrei@gmail.com>
 
 	* 32x32/actions/appointment-new.* : tweaks.

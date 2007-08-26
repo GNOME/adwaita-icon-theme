@@ -14,7 +14,6 @@ icons_DATA =				\
 	gnome-settings-ui-behavior.png	\
 	gnome-shutdown.png		\
 	help-browser.png		\
-	image-viewer.png		\
 	im.png				\
 	im-aim.png			\
 	im-icq.png			\

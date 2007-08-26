@@ -35,7 +35,6 @@ icons_DATA =				\
 	gnome-status.png		\
 	gnome-unknown.png		\
 	help-browser.png		\
-	image-viewer.png		\
 	im-aim.png			\
 	im-icq.png			\
 	im-jabber.png			\
