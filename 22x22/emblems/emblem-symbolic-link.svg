@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg
+   xmlns:ns="http://creativecommons.org/ns#"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:cc="http://web.resource.org/cc/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
@@ -16,8 +17,8 @@
    height="22"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.45+devel"
-   sodipodi:docbase="/home/lapo/Icone/cvs/gnome-icon-theme/32x32/emblems"
+   inkscape:version="0.45"
+   sodipodi:docbase="/home/dobey/Projects/gnome-icon-theme/22x22/emblems"
    sodipodi:docname="emblem-symbolic-link.svg"
    version="1.0"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
@@ -61,21 +62,6 @@
          style="stop-color:#ffffff;stop-opacity:0;"
          offset="1"
          id="stop5269" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient2790">
-      <stop
-         style="stop-color:white;stop-opacity:1;"
-         offset="0"
-         id="stop2792" />
-      <stop
-         id="stop2798"
-         offset="0.8108108"
-         style="stop-color:#d3d7cf;stop-opacity:1;" />
-      <stop
-         style="stop-color:#959e8b;stop-opacity:1;"
-         offset="1"
-         id="stop2794" />
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
@@ -185,18 +171,18 @@
   <metadata
      id="metadata4">
     <rdf:RDF>
-      <cc:Work
+      <ns:Work
          rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
         <dc:creator>
-          <cc:Agent>
+          <ns:Agent>
             <dc:title>Jakub Steiner</dc:title>
-          </cc:Agent>
+          </ns:Agent>
         </dc:creator>
         <dc:source>http://jimmac.musichall.cz</dc:source>
-        <cc:license
+        <ns:license
            rdf:resource="http://creativecommons.org/licenses/GPL/2.0/" />
         <dc:title>Symbolic Link</dc:title>
         <dc:subject>
@@ -209,22 +195,28 @@
             <rdf:li>file</rdf:li>
           </rdf:Bag>
         </dc:subject>
-      </cc:Work>
-      <cc:License
+      </ns:Work>
+      <ns:License
          rdf:about="http://creativecommons.org/licenses/GPL/2.0/">
-        <cc:permits
+        <ns:permits
            rdf:resource="http://web.resource.org/cc/Reproduction" />
-        <cc:permits
+        <ns:permits
            rdf:resource="http://web.resource.org/cc/Distribution" />
-        <cc:requires
+        <ns:requires
            rdf:resource="http://web.resource.org/cc/Notice" />
-        <cc:permits
+        <ns:permits
            rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
-        <cc:requires
+        <ns:requires
            rdf:resource="http://web.resource.org/cc/ShareAlike" />
-        <cc:requires
+        <ns:requires
            rdf:resource="http://web.resource.org/cc/SourceCode" />
-      </cc:License>
+      </ns:License>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
     </rdf:RDF>
   </metadata>
   <g

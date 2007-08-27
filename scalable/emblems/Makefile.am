@@ -15,6 +15,8 @@ icon_in_files =				\
 	emblem-new.icon.in		\
 	emblem-package.icon.in		\
 	emblem-photos.icon.in		\
+	emblem-readonly.icon.in		\
+	emblem-unreadable.icon.in	\
 	emblem-urgent.icon.in		\
 	emblem-web.icon.in		\
 	$(NULL)

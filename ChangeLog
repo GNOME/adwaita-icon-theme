@@ -1,5 +1,11 @@
 2007-08-27  Rodney Dawes  <dobey.pwns@gmail.com>
 
+	* scalable/emblems/Makefile.am: Add missing .icon.in files
+
+	* */*/*.svg: inkscape -z --vacuum-defs
+
+2007-08-27  Rodney Dawes  <dobey.pwns@gmail.com>
+
 	* */places/Makefile.am: Include folder.icon if not already present
 	
 	* */places/folder.icon: Update emblem positioning and add missing sizes
