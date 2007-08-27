@@ -86,6 +86,7 @@ icons_DATA =				\
 	object-rotate-right.svg		\
 	process-stop.svg		\
 	system-lock-screen.svg		\
+	system-log-out.svg		\
 	system-run.svg			\
 	system-search.svg		\
 	tools-check-spelling.svg	\

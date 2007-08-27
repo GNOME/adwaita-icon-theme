@@ -90,6 +90,7 @@ icons_DATA =				\
 	object-rotate-right.png		\
 	process-stop.png		\
 	system-lock-screen.png		\
+	system-log-out.png		\
 	system-run.png			\
 	system-search.png		\
 	tab-new.png			\
