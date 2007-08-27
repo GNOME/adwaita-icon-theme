@@ -20,6 +20,7 @@ icons_DATA =					\
 	preferences-desktop.png			\
 	preferences-desktop-peripherals.png	\
 	preferences-desktop-personal.png	\
+	preferences-other.png	\
 	preferences-system.png			\
 	preferences-system-network.png		\
 	system-help.png
