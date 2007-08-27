@@ -19,6 +19,7 @@ icons_DATA =				\
 	preferences-desktop.svg	\
 	preferences-desktop-peripherals.svg	\
 	preferences-desktop-personal.svg	\
+	preferences-other.svg \
 	preferences-system.svg		\
 	preferences-system-network.svg
 
