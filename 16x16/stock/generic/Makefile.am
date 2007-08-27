@@ -24,7 +24,6 @@ icon_DATA =\
    stock_calc-accept.png \
    stock_calc-cancel.png \
    stock_calendar-and-tasks.png \
-   stock_cell-phone.png \
    stock_check-filled.png \
    stock_color.png \
    stock_default-folder.png \

@@ -11,7 +11,6 @@ icon_DATA =					\
 	stock_autopilot.png 			\
 	stock_briefcase.png			\
 	stock_calendar-and-tasks.png		\
-	stock_cell-phone.png 			\
 	stock_creditcard.png			\
 	stock_edit.png				\
 	stock_example.png 			\

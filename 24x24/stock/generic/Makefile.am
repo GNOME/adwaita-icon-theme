@@ -28,7 +28,6 @@ icon_DATA =\
 	stock_calendar-view-work-week.png 		\
 	stock_calendar-view-year.png 		\
 	stock_calendar-and-tasks.png 		\
-	stock_cell-phone.png 		\
 	stock_color.png 			\
 	stock_edit.png			\
 	stock_equals.png 		\
