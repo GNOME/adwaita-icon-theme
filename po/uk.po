@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-03-01 11:25+0200\n"
-"PO-Revision-Date: 2007-02-16 15:15+0300\n"
+"POT-Creation-Date: 2007-09-11 16:20+0300\n"
+"PO-Revision-Date: 2007-09-11 15:15+0300\n"
 "Last-Translator: Maxim Dzumanenko <dziumanenko@gmail.com>\n"
 "Language-Team: Ukrainian <linux@linux.org.ua>\n"
 "MIME-Version: 1.0\n"
@@ -38,18 +38,6 @@ msgstr "Сертифікованою"
 msgid "Cool"
 msgstr "Класно"
 
-#: ../48x48/emblems/emblem-cvs-controlled.icon.in.h:1
-msgid "cvs-controlled"
-msgstr "Керується (cvs)"
-
-#: ../48x48/emblems/emblem-cvs-modified.icon.in.h:1
-msgid "cvs-modified"
-msgstr "Змінено (cvs)"
-
-#: ../48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
-msgid "cvs-sticky-tag"
-msgstr "Тег (cvs)"
-
 #: ../48x48/emblems/emblem-danger.icon.in.h:1
 msgid "Danger"
 msgstr "Небезпека"
@@ -61,11 +49,6 @@ msgstr "Робочий стіл"
 #: ../48x48/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
 msgstr "Видатне"
-
-# 48x48/emblems/emblem-documents.icon.in.h:1
-#: ../48x48/emblems/emblem-documents.icon.in.h:1
-msgid "Documents"
-msgstr "Документи"
 
 #: ../48x48/emblems/emblem-draft.icon.in.h:1
 msgid "Draft"
@@ -91,17 +74,9 @@ msgstr "Гроші"
 msgid "Multimedia"
 msgstr "Мультимедіа"
 
-#: ../48x48/emblems/emblem-noread.icon.in.h:1
-msgid "No read"
-msgstr "Не для читання"
-
 #: ../48x48/emblems/emblem-note.icon.in.h:1
 msgid "Note"
 msgstr "Примітка"
-
-#: ../48x48/emblems/emblem-nowrite.icon.in.h:1
-msgid "No write"
-msgstr "Не для запису"
 
 #: ../48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
@@ -136,10 +111,6 @@ msgstr "Презентація"
 msgid "Sales"
 msgstr "Продаж"
 
-#: ../48x48/emblems/emblem-shared.icon.in.h:1
-msgid "Shared"
-msgstr "Спільне"
-
 # 48x48/emblems/emblem-sound.icon.in.h:1
 #: ../48x48/emblems/emblem-sound.icon.in.h:1
 msgid "Sound"
@@ -157,17 +128,14 @@ msgstr "Типова тема середовища GNOME"
 msgid "GNOME"
 msgstr "GNOME"
 
-#: ../scalable/emblems/emblem-cvs-added.icon.in.h:1
-msgid "cvs-added"
-msgstr "Додано (cvs)"
+# 48x48/emblems/emblem-documents.icon.in.h:1
+#: ../scalable/emblems/emblem-documents.icon.in.h:1
+msgid "Documents"
+msgstr "Документи"
 
-#: ../scalable/emblems/emblem-cvs-conflict.icon.in.h:1
-msgid "cvs-conflict"
-msgstr "Конфліктує (cvs)"
-
-#: ../scalable/emblems/emblem-cvs-removed.icon.in.h:1
-msgid "cvs-removed"
-msgstr "Видалено (cvs)"
+#: ../scalable/emblems/emblem-downloads.icon.in.h:1
+msgid "Downloads"
+msgstr "Завантаження"
 
 #: ../scalable/emblems/emblem-favorite.icon.in.h:1
 msgid "Favorite"
@@ -195,9 +163,17 @@ msgstr "Нове"
 msgid "Package"
 msgstr "Пакет"
 
-#: ../scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "Особливе"
+#: ../scalable/emblems/emblem-photos.icon.in.h:1
+msgid "Photos"
+msgstr "Фотографії"
+
+#: ../scalable/emblems/emblem-readonly.icon.in.h:1
+msgid "No write"
+msgstr "Не для запису"
+
+#: ../scalable/emblems/emblem-unreadable.icon.in.h:1
+msgid "No read"
+msgstr "Не для читання"
 
 #: ../scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
@@ -207,6 +183,30 @@ msgstr "Термінове"
 #: ../scalable/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Веб"
+
+#~ msgid "cvs-controlled"
+#~ msgstr "Керується (cvs)"
+
+#~ msgid "cvs-modified"
+#~ msgstr "Змінено (cvs)"
+
+#~ msgid "cvs-sticky-tag"
+#~ msgstr "Тег (cvs)"
+
+#~ msgid "Shared"
+#~ msgstr "Спільне"
+
+#~ msgid "cvs-added"
+#~ msgstr "Додано (cvs)"
+
+#~ msgid "cvs-conflict"
+#~ msgstr "Конфліктує (cvs)"
+
+#~ msgid "cvs-removed"
+#~ msgstr "Видалено (cvs)"
+
+#~ msgid "Special"
+#~ msgstr "Особливе"
 
 # 48x48/emblems/emblem-bin.icon.in.h:1
 #~ msgid "Binary"
