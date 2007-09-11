@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-08-08 14:34+0200\n"
-"PO-Revision-Date: 2005-08-03 20:30+0200\n"
+"POT-Creation-Date: 2007-09-12 01:10+0200\n"
+"PO-Revision-Date: 2007-09-12 01:11+0200\n"
 "Last-Translator: Igor Nestorović <igor@prevod.org>\n"
 "Language-Team: Serbian (sr) <gnom@prevod.org>\n"
 "MIME-Version: 1.0\n"
@@ -41,34 +41,6 @@ msgstr "Potvrđeno"
 msgid "Cool"
 msgstr "Odlično"
 
-#: ../48x48/emblems/emblem-cvs-added.icon.in.h:1
-msgid "cvs-added"
-msgstr "SUV-dodato"
-
-#: ../48x48/emblems/emblem-cvs-conflict.icon.in.h:1
-msgid "cvs-conflict"
-msgstr "SUV-sukob"
-
-#: ../48x48/emblems/emblem-cvs-controlled.icon.in.h:1
-msgid "cvs-controlled"
-msgstr "SUV-upravlja"
-
-#: ../48x48/emblems/emblem-cvs-modified.icon.in.h:1
-msgid "cvs-modified"
-msgstr "SUV-izmenio"
-
-#: ../48x48/emblems/emblem-cvs-new-file.icon.in.h:1
-msgid "cvs-new-file"
-msgstr "SUV-nova-datoteka"
-
-#: ../48x48/emblems/emblem-cvs-removed.icon.in.h:1
-msgid "cvs-removed"
-msgstr "SUV-uklonio"
-
-#: ../48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
-msgid "cvs-sticky-tag"
-msgstr "SUV-lepljiva-oznaka"
-
 #: ../48x48/emblems/emblem-danger.icon.in.h:1
 msgid "Danger"
 msgstr "Opasno"
@@ -80,10 +52,6 @@ msgstr "Radna površina"
 #: ../48x48/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
 msgstr "Izuzetno"
-
-#: ../48x48/emblems/emblem-documents.icon.in.h:1
-msgid "Documents"
-msgstr "Dokumenti"
 
 #: ../48x48/emblems/emblem-draft.icon.in.h:1
 msgid "Draft"
@@ -105,29 +73,13 @@ msgstr "Novac"
 msgid "Multimedia"
 msgstr "Multimedija"
 
-#: ../48x48/emblems/emblem-new.icon.in.h:1
-msgid "New"
-msgstr "Novo"
-
-#: ../48x48/emblems/emblem-noread.icon.in.h:1
-msgid "No read"
-msgstr "Nema čitanja"
-
 #: ../48x48/emblems/emblem-note.icon.in.h:1
 msgid "Note"
 msgstr "Beleška"
 
-#: ../48x48/emblems/emblem-nowrite.icon.in.h:1
-msgid "No write"
-msgstr "Nema upisa"
-
 #: ../48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
 msgstr "O ne!"
-
-#: ../48x48/emblems/emblem-package.icon.in.h:1
-msgid "Package"
-msgstr "Paket"
 
 #: ../48x48/emblems/emblem-people.icon.in.h:1
 msgid "People"
@@ -153,25 +105,13 @@ msgstr "Predstavljanje"
 msgid "Sales"
 msgstr "Prodaja"
 
-#: ../48x48/emblems/emblem-shared.icon.in.h:1
-msgid "Shared"
-msgstr "Deljeno"
-
 #: ../48x48/emblems/emblem-sound.icon.in.h:1
 msgid "Sound"
 msgstr "Zvuk"
 
-#: ../48x48/emblems/emblem-symbolic-link.icon.in.h:1
-msgid "Symbolic link"
-msgstr "Simbolička veza"
-
 #: ../48x48/emblems/emblem-trash.icon.in.h:1
 msgid "Trash"
 msgstr "Smeće"
-
-#: ../48x48/emblems/emblem-web.icon.in.h:1
-msgid "Web"
-msgstr "Veb"
 
 #: ../index.theme.in.h:1
 msgid "Default GNOME Theme"
@@ -181,9 +121,13 @@ msgstr "Podrazumevana tema Gnoma"
 msgid "GNOME"
 msgstr "Gnom"
 
-#: ../scalable/emblems/emblem-bin.icon.in.h:1
-msgid "Binary"
-msgstr "Binarno"
+#: ../scalable/emblems/emblem-documents.icon.in.h:1
+msgid "Documents"
+msgstr "Dokumenti"
+
+#: ../scalable/emblems/emblem-downloads.icon.in.h:1
+msgid "Downloads"
+msgstr "Preuzeto"
 
 #: ../scalable/emblems/emblem-favorite.icon.in.h:1
 msgid "Favorite"
@@ -201,10 +145,63 @@ msgstr "Važno"
 msgid "Mail"
 msgstr "Pošta"
 
-#: ../scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "Posebno"
+#: ../scalable/emblems/emblem-new.icon.in.h:1
+msgid "New"
+msgstr "Novo"
+
+#: ../scalable/emblems/emblem-package.icon.in.h:1
+msgid "Package"
+msgstr "Paket"
+
+#: ../scalable/emblems/emblem-photos.icon.in.h:1
+msgid "Photos"
+msgstr "Fotografije"
+
+#: ../scalable/emblems/emblem-readonly.icon.in.h:1
+msgid "No write"
+msgstr "Nema upisa"
+
+#: ../scalable/emblems/emblem-unreadable.icon.in.h:1
+msgid "No read"
+msgstr "Nema čitanja"
 
 #: ../scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
 msgstr "Hitno"
+
+#: ../scalable/emblems/emblem-web.icon.in.h:1
+msgid "Web"
+msgstr "Veb"
+
+#~ msgid "cvs-added"
+#~ msgstr "SUV-dodato"
+
+#~ msgid "cvs-conflict"
+#~ msgstr "SUV-sukob"
+
+#~ msgid "cvs-controlled"
+#~ msgstr "SUV-upravlja"
+
+#~ msgid "cvs-modified"
+#~ msgstr "SUV-izmenio"
+
+#~ msgid "cvs-new-file"
+#~ msgstr "SUV-nova-datoteka"
+
+#~ msgid "cvs-removed"
+#~ msgstr "SUV-uklonio"
+
+#~ msgid "cvs-sticky-tag"
+#~ msgstr "SUV-lepljiva-oznaka"
+
+#~ msgid "Shared"
+#~ msgstr "Deljeno"
+
+#~ msgid "Symbolic link"
+#~ msgstr "Simbolička veza"
+
+#~ msgid "Binary"
+#~ msgstr "Binarno"
+
+#~ msgid "Special"
+#~ msgstr "Posebno"

@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-08-08 14:34+0200\n"
-"PO-Revision-Date: 2005-08-03 20:30+0200\n"
+"POT-Creation-Date: 2007-09-12 01:10+0200\n"
+"PO-Revision-Date: 2007-09-12 01:11+0200\n"
 "Last-Translator: Игор Несторовић <igor@prevod.org>\n"
 "Language-Team: Serbian (sr) <gnom@prevod.org>\n"
 "MIME-Version: 1.0\n"
@@ -41,34 +41,6 @@ msgstr "Потврђено"
 msgid "Cool"
 msgstr "Одлично"
 
-#: ../48x48/emblems/emblem-cvs-added.icon.in.h:1
-msgid "cvs-added"
-msgstr "СУВ-додато"
-
-#: ../48x48/emblems/emblem-cvs-conflict.icon.in.h:1
-msgid "cvs-conflict"
-msgstr "СУВ-сукоб"
-
-#: ../48x48/emblems/emblem-cvs-controlled.icon.in.h:1
-msgid "cvs-controlled"
-msgstr "СУВ-управља"
-
-#: ../48x48/emblems/emblem-cvs-modified.icon.in.h:1
-msgid "cvs-modified"
-msgstr "СУВ-изменио"
-
-#: ../48x48/emblems/emblem-cvs-new-file.icon.in.h:1
-msgid "cvs-new-file"
-msgstr "СУВ-нова-датотека"
-
-#: ../48x48/emblems/emblem-cvs-removed.icon.in.h:1
-msgid "cvs-removed"
-msgstr "СУВ-уклонио"
-
-#: ../48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
-msgid "cvs-sticky-tag"
-msgstr "СУВ-лепљива-ознака"
-
 #: ../48x48/emblems/emblem-danger.icon.in.h:1
 msgid "Danger"
 msgstr "Опасно"
@@ -80,10 +52,6 @@ msgstr "Радна површина"
 #: ../48x48/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
 msgstr "Изузетно"
-
-#: ../48x48/emblems/emblem-documents.icon.in.h:1
-msgid "Documents"
-msgstr "Документи"
 
 #: ../48x48/emblems/emblem-draft.icon.in.h:1
 msgid "Draft"
@@ -105,29 +73,13 @@ msgstr "Новац"
 msgid "Multimedia"
 msgstr "Мултимедија"
 
-#: ../48x48/emblems/emblem-new.icon.in.h:1
-msgid "New"
-msgstr "Ново"
-
-#: ../48x48/emblems/emblem-noread.icon.in.h:1
-msgid "No read"
-msgstr "Нема читања"
-
 #: ../48x48/emblems/emblem-note.icon.in.h:1
 msgid "Note"
 msgstr "Белешка"
 
-#: ../48x48/emblems/emblem-nowrite.icon.in.h:1
-msgid "No write"
-msgstr "Нема уписа"
-
 #: ../48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
 msgstr "О не!"
-
-#: ../48x48/emblems/emblem-package.icon.in.h:1
-msgid "Package"
-msgstr "Пакет"
 
 #: ../48x48/emblems/emblem-people.icon.in.h:1
 msgid "People"
@@ -153,25 +105,13 @@ msgstr "Представљање"
 msgid "Sales"
 msgstr "Продаја"
 
-#: ../48x48/emblems/emblem-shared.icon.in.h:1
-msgid "Shared"
-msgstr "Дељено"
-
 #: ../48x48/emblems/emblem-sound.icon.in.h:1
 msgid "Sound"
 msgstr "Звук"
 
-#: ../48x48/emblems/emblem-symbolic-link.icon.in.h:1
-msgid "Symbolic link"
-msgstr "Симболичка веза"
-
 #: ../48x48/emblems/emblem-trash.icon.in.h:1
 msgid "Trash"
 msgstr "Смеће"
-
-#: ../48x48/emblems/emblem-web.icon.in.h:1
-msgid "Web"
-msgstr "Веб"
 
 #: ../index.theme.in.h:1
 msgid "Default GNOME Theme"
@@ -181,9 +121,13 @@ msgstr "Подразумевана тема Гнома"
 msgid "GNOME"
 msgstr "Гном"
 
-#: ../scalable/emblems/emblem-bin.icon.in.h:1
-msgid "Binary"
-msgstr "Бинарно"
+#: ../scalable/emblems/emblem-documents.icon.in.h:1
+msgid "Documents"
+msgstr "Документи"
+
+#: ../scalable/emblems/emblem-downloads.icon.in.h:1
+msgid "Downloads"
+msgstr "Преузето"
 
 #: ../scalable/emblems/emblem-favorite.icon.in.h:1
 msgid "Favorite"
@@ -201,10 +145,63 @@ msgstr "Важно"
 msgid "Mail"
 msgstr "Пошта"
 
-#: ../scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "Посебно"
+#: ../scalable/emblems/emblem-new.icon.in.h:1
+msgid "New"
+msgstr "Ново"
+
+#: ../scalable/emblems/emblem-package.icon.in.h:1
+msgid "Package"
+msgstr "Пакет"
+
+#: ../scalable/emblems/emblem-photos.icon.in.h:1
+msgid "Photos"
+msgstr "Фотографије"
+
+#: ../scalable/emblems/emblem-readonly.icon.in.h:1
+msgid "No write"
+msgstr "Нема уписа"
+
+#: ../scalable/emblems/emblem-unreadable.icon.in.h:1
+msgid "No read"
+msgstr "Нема читања"
 
 #: ../scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
 msgstr "Хитно"
+
+#: ../scalable/emblems/emblem-web.icon.in.h:1
+msgid "Web"
+msgstr "Веб"
+
+#~ msgid "cvs-added"
+#~ msgstr "СУВ-додато"
+
+#~ msgid "cvs-conflict"
+#~ msgstr "СУВ-сукоб"
+
+#~ msgid "cvs-controlled"
+#~ msgstr "СУВ-управља"
+
+#~ msgid "cvs-modified"
+#~ msgstr "СУВ-изменио"
+
+#~ msgid "cvs-new-file"
+#~ msgstr "СУВ-нова-датотека"
+
+#~ msgid "cvs-removed"
+#~ msgstr "СУВ-уклонио"
+
+#~ msgid "cvs-sticky-tag"
+#~ msgstr "СУВ-лепљива-ознака"
+
+#~ msgid "Shared"
+#~ msgstr "Дељено"
+
+#~ msgid "Symbolic link"
+#~ msgstr "Симболичка веза"
+
+#~ msgid "Binary"
+#~ msgstr "Бинарно"
+
+#~ msgid "Special"
+#~ msgstr "Посебно"
