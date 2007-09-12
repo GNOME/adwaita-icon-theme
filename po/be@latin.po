@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-03-10 19:09+0200\n"
-"PO-Revision-Date: 2007-03-10 19:09+0300\n"
+"POT-Creation-Date: 2007-09-13 02:03+0300\n"
+"PO-Revision-Date: 2007-09-13 02:04+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
 "MIME-Version: 1.0\n"
@@ -32,18 +32,6 @@ msgstr "Sertifikavany"
 msgid "Cool"
 msgstr "Fajny"
 
-#: ../48x48/emblems/emblem-cvs-controlled.icon.in.h:1
-msgid "cvs-controlled"
-msgstr "cvs-kiravany"
-
-#: ../48x48/emblems/emblem-cvs-modified.icon.in.h:1
-msgid "cvs-modified"
-msgstr "cvs-madyfikavany"
-
-#: ../48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
-msgid "cvs-sticky-tag"
-msgstr "cvs-pryklejeny-značnik"
-
 #: ../48x48/emblems/emblem-danger.icon.in.h:1
 msgid "Danger"
 msgstr "Niebiaśpieka"
@@ -55,10 +43,6 @@ msgstr "Stoł"
 #: ../48x48/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
 msgstr "Adrozny"
-
-#: ../48x48/emblems/emblem-documents.icon.in.h:1
-msgid "Documents"
-msgstr "Dakumenty"
 
 #: ../48x48/emblems/emblem-draft.icon.in.h:1
 msgid "Draft"
@@ -80,17 +64,9 @@ msgstr "Hrošy"
 msgid "Multimedia"
 msgstr "Multymedyja"
 
-#: ../48x48/emblems/emblem-noread.icon.in.h:1
-msgid "No read"
-msgstr "Biez čytańnia"
-
 #: ../48x48/emblems/emblem-note.icon.in.h:1
 msgid "Note"
 msgstr "Natatka"
-
-#: ../48x48/emblems/emblem-nowrite.icon.in.h:1
-msgid "No write"
-msgstr "Biaz zapisu"
 
 #: ../48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
@@ -120,10 +96,6 @@ msgstr "Prezentacyja"
 msgid "Sales"
 msgstr "Prodaž"
 
-#: ../48x48/emblems/emblem-shared.icon.in.h:1
-msgid "Shared"
-msgstr "Supolny"
-
 #: ../48x48/emblems/emblem-sound.icon.in.h:1
 msgid "Sound"
 msgstr "Huk"
@@ -140,17 +112,13 @@ msgstr "Zmoŭčany matyŭ GNOME"
 msgid "GNOME"
 msgstr "GNOME"
 
-#: ../scalable/emblems/emblem-cvs-added.icon.in.h:1
-msgid "cvs-added"
-msgstr "cvs-dadany"
+#: ../scalable/emblems/emblem-documents.icon.in.h:1
+msgid "Documents"
+msgstr "Dakumenty"
 
-#: ../scalable/emblems/emblem-cvs-conflict.icon.in.h:1
-msgid "cvs-conflict"
-msgstr "cvs-kanflikt"
-
-#: ../scalable/emblems/emblem-cvs-removed.icon.in.h:1
-msgid "cvs-removed"
-msgstr "cvs-vydaleny"
+#: ../scalable/emblems/emblem-downloads.icon.in.h:1
+msgid "Downloads"
+msgstr "Zahruzki"
 
 #: ../scalable/emblems/emblem-favorite.icon.in.h:1
 msgid "Favorite"
@@ -176,9 +144,17 @@ msgstr "Novy"
 msgid "Package"
 msgstr "Pakunak"
 
-#: ../scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "Admysłovy"
+#: ../scalable/emblems/emblem-photos.icon.in.h:1
+msgid "Photos"
+msgstr "Fatahrafii"
+
+#: ../scalable/emblems/emblem-readonly.icon.in.h:1
+msgid "No write"
+msgstr "Biaz zapisu"
+
+#: ../scalable/emblems/emblem-unreadable.icon.in.h:1
+msgid "No read"
+msgstr "Biez čytańnia"
 
 #: ../scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
@@ -187,3 +163,27 @@ msgstr "Pilny"
 #: ../scalable/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Sieciva"
+
+#~ msgid "cvs-controlled"
+#~ msgstr "cvs-kiravany"
+
+#~ msgid "cvs-modified"
+#~ msgstr "cvs-madyfikavany"
+
+#~ msgid "cvs-sticky-tag"
+#~ msgstr "cvs-pryklejeny-značnik"
+
+#~ msgid "Shared"
+#~ msgstr "Supolny"
+
+#~ msgid "cvs-added"
+#~ msgstr "cvs-dadany"
+
+#~ msgid "cvs-conflict"
+#~ msgstr "cvs-kanflikt"
+
+#~ msgid "cvs-removed"
+#~ msgstr "cvs-vydaleny"
+
+#~ msgid "Special"
+#~ msgstr "Admysłovy"
