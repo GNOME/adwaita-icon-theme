@@ -7,19 +7,21 @@
 # Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004.
 # Djihed Afifi <djihed@gmail.com>, 2006.
 # Khaled Hosny <khaledhosny@eglug.org>, 2006.
+# Anas Husseini <linux.anas@gmail.org>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme.gnome-2-16.ar\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-10-04 08:07+0200\n"
+"POT-Creation-Date: 2007-08-21 03:20+0100\n"
 "PO-Revision-Date: 2006-11-24 18:51+0200\n"
-"Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
+"Last-Translator: Anas Husseini <linux.anas@gmail.org>\n"
 "Language-Team: Arabic <support@arabeyes.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: Plural-Forms: nplurals=4; plural=n==1 ? 0 : n==2 ? 1 : n>=3 && n<=10 ? 2 : 3\n"
+"Plural-Forms: Plural-Forms: nplurals=4; plural=n==1 ? 0 : n==2 ? 1 : n>=3 && "
+"n<=10 ? 2 : 3\n"
 
 #: ../48x48/emblems/emblem-OK.icon.in.h:1
 msgid "OK"
@@ -43,18 +45,6 @@ msgstr "مرخّص"
 msgid "Cool"
 msgstr "مثير"
 
-#: ../48x48/emblems/emblem-cvs-controlled.icon.in.h:1
-msgid "cvs-controlled"
-msgstr "cvs-متحكَّم"
-
-#: ../48x48/emblems/emblem-cvs-modified.icon.in.h:1
-msgid "cvs-modified"
-msgstr "cvs-معدّل"
-
-#: ../48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
-msgid "cvs-sticky-tag"
-msgstr "cvs-شارة-لاصقة"
-
 #: ../48x48/emblems/emblem-danger.icon.in.h:1
 msgid "Danger"
 msgstr "خطر"
@@ -66,11 +56,6 @@ msgstr "سطح المكتب"
 #: ../48x48/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
 msgstr "متميّز"
-
-# 48x48/emblems/emblem-documents.icon.in.h:1
-#: ../48x48/emblems/emblem-documents.icon.in.h:1
-msgid "Documents"
-msgstr "مستندات"
 
 #: ../48x48/emblems/emblem-draft.icon.in.h:1
 msgid "Draft"
@@ -96,21 +81,13 @@ msgstr "مال"
 msgid "Multimedia"
 msgstr "وسائط متعدّدة"
 
-#: ../48x48/emblems/emblem-noread.icon.in.h:1
-msgid "No read"
-msgstr "لا قراءة"
-
 #: ../48x48/emblems/emblem-note.icon.in.h:1
 msgid "Note"
 msgstr "ملحوظة"
 
-#: ../48x48/emblems/emblem-nowrite.icon.in.h:1
-msgid "No write"
-msgstr "لا كتابة"
-
 #: ../48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
-msgstr "آه ﻻ!"
+msgstr "آه لا!"
 
 # 48x48/emblems/emblem-people.icon.in.h:1
 #: ../48x48/emblems/emblem-people.icon.in.h:1
@@ -141,10 +118,6 @@ msgstr "تقديم"
 msgid "Sales"
 msgstr "مبيعات"
 
-#: ../48x48/emblems/emblem-shared.icon.in.h:1
-msgid "Shared"
-msgstr "مشترك"
-
 # 48x48/emblems/emblem-sound.icon.in.h:1
 #: ../48x48/emblems/emblem-sound.icon.in.h:1
 msgid "Sound"
@@ -162,17 +135,14 @@ msgstr "سِمة جنوم الإفتراضية"
 msgid "GNOME"
 msgstr "جنوم"
 
-#: ../scalable/emblems/emblem-cvs-added.icon.in.h:1
-msgid "cvs-added"
-msgstr "cvs-مضاف"
+# 48x48/emblems/emblem-documents.icon.in.h:1
+#: ../scalable/emblems/emblem-documents.icon.in.h:1
+msgid "Documents"
+msgstr "مستندات"
 
-#: ../scalable/emblems/emblem-cvs-conflict.icon.in.h:1
-msgid "cvs-conflict"
-msgstr "cvs-تضارب"
-
-#: ../scalable/emblems/emblem-cvs-removed.icon.in.h:1
-msgid "cvs-removed"
-msgstr "cvs-محذوف"
+#: ../scalable/emblems/emblem-downloads.icon.in.h:1
+msgid "Downloads"
+msgstr "ملفات محمّلة"
 
 #: ../scalable/emblems/emblem-favorite.icon.in.h:1
 msgid "Favorite"
@@ -200,9 +170,17 @@ msgstr "جديد"
 msgid "Package"
 msgstr "حزمة"
 
-#: ../scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "خاص"
+#: ../scalable/emblems/emblem-photos.icon.in.h:1
+msgid "Photos"
+msgstr "صور"
+
+#: ../scalable/emblems/emblem-readonly.icon.in.h:1
+msgid "No write"
+msgstr "لا كتابة"
+
+#: ../scalable/emblems/emblem-unreadable.icon.in.h:1
+msgid "No read"
+msgstr "لا قراءة"
 
 #: ../scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
@@ -213,3 +191,26 @@ msgstr "عاجِل"
 msgid "Web"
 msgstr "ويب"
 
+#~ msgid "cvs-controlled"
+#~ msgstr "cvs-متحكَّم"
+
+#~ msgid "cvs-modified"
+#~ msgstr "cvs-معدّل"
+
+#~ msgid "cvs-sticky-tag"
+#~ msgstr "cvs-شارة-لاصقة"
+
+#~ msgid "Shared"
+#~ msgstr "مشترك"
+
+#~ msgid "cvs-added"
+#~ msgstr "cvs-مضاف"
+
+#~ msgid "cvs-conflict"
+#~ msgstr "cvs-تضارب"
+
+#~ msgid "cvs-removed"
+#~ msgstr "cvs-محذوف"
+
+#~ msgid "Special"
+#~ msgstr "خاص"
