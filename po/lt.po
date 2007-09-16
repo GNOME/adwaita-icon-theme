@@ -1,21 +1,26 @@
+# translation of lt.po to Lithuanian
 # Lithuanian translation of gnome-icon-theme.
-# Copyright (C) 2003-2005 Free Software Foundation, Inc.
+# Copyright (C) 2003-2005, 2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome-icon-theme package.
+#
+#
 # Tomas Kuliavas <tokul@users.sourceforge.net>, 2003-2004.
 # Žygimantas Beručka <uid0@akl.lt>, 2004-2005.
-# 
-# 
+# Gintautas Miliauskas <gintas@akl.lt>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-icon-theme HEAD\n"
+"Project-Id-Version: lt\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-02-27 15:47+0200\n"
-"PO-Revision-Date: 2005-01-30 14:17+0200\n"
+"POT-Creation-Date: 2007-09-17 00:44+0300\n"
+"PO-Revision-Date: 2007-09-17 00:40+0300\n"
 "Last-Translator: Žygimantas Beručka <uid0@akl.lt>\n"
-"Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
+"Language-Team: Lithuanian <gnome-lt@lists.akl.lt>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
+"100<10 || n%100>=20) ? 1 : 2);\n"
 
 # 48x48/emblems/emblem-OK.icon.in.h:1
 #: ../48x48/emblems/emblem-OK.icon.in.h:1
@@ -45,18 +50,6 @@ msgstr "Sertifikuota"
 msgid "Cool"
 msgstr "Šaunu"
 
-#: ../48x48/emblems/emblem-cvs-controlled.icon.in.h:1
-msgid "cvs-controlled"
-msgstr "cvs-kontroliuojama"
-
-#: ../48x48/emblems/emblem-cvs-modified.icon.in.h:1
-msgid "cvs-modified"
-msgstr "cvs-pakeista"
-
-#: ../48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
-msgid "cvs-sticky-tag"
-msgstr "cvs-lipni-žymė"
-
 # 48x48/emblems/emblem-danger.icon.in.h:1
 # 48x48/emblems/emblem-danger.icon.in.h:1
 #: ../48x48/emblems/emblem-danger.icon.in.h:1
@@ -71,12 +64,6 @@ msgstr "Darbalaukis"
 #: ../48x48/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
 msgstr "Išskirtinė"
-
-# 48x48/emblems/emblem-documents.icon.in.h:1
-# 48x48/emblems/emblem-documents.icon.in.h:1
-#: ../48x48/emblems/emblem-documents.icon.in.h:1
-msgid "Documents"
-msgstr "Dokumentai"
 
 # 48x48/emblems/emblem-draft.icon.in.h:1
 #: ../48x48/emblems/emblem-draft.icon.in.h:1
@@ -107,19 +94,9 @@ msgstr "Finansai"
 msgid "Multimedia"
 msgstr "Multimedija"
 
-#: ../48x48/emblems/emblem-noread.icon.in.h:1
-msgid "No read"
-msgstr "Neskaitoma"
-
 #: ../48x48/emblems/emblem-note.icon.in.h:1
 msgid "Note"
 msgstr "Pastaba"
-
-# 48x48/emblems/emblem-favorite.icon.in.h:1
-# 48x48/emblems/emblem-favorite.icon.in.h:1
-#: ../48x48/emblems/emblem-nowrite.icon.in.h:1
-msgid "No write"
-msgstr "Nerašoma"
 
 # 48x48/emblems/emblem-ohno.icon.in.h:1
 # 48x48/emblems/emblem-ohno.icon.in.h:1
@@ -162,10 +139,6 @@ msgstr "Pristatymas"
 msgid "Sales"
 msgstr "Pardavimai"
 
-#: ../48x48/emblems/emblem-shared.icon.in.h:1
-msgid "Shared"
-msgstr "Viešinama"
-
 # 48x48/emblems/emblem-sound.icon.in.h:1
 # 48x48/emblems/emblem-sound.icon.in.h:1
 #: ../48x48/emblems/emblem-sound.icon.in.h:1
@@ -184,17 +157,15 @@ msgstr "Standartinė GNOME tema"
 msgid "GNOME"
 msgstr "GNOME"
 
-#: ../scalable/emblems/emblem-cvs-added.icon.in.h:1
-msgid "cvs-added"
-msgstr "cvs-pridėta"
+# 48x48/emblems/emblem-documents.icon.in.h:1
+# 48x48/emblems/emblem-documents.icon.in.h:1
+#: ../scalable/emblems/emblem-documents.icon.in.h:1
+msgid "Documents"
+msgstr "Dokumentai"
 
-#: ../scalable/emblems/emblem-cvs-conflict.icon.in.h:1
-msgid "cvs-conflict"
-msgstr "cvs-konfliktas"
-
-#: ../scalable/emblems/emblem-cvs-removed.icon.in.h:1
-msgid "cvs-removed"
-msgstr "cvs-ištrinta"
+#: ../scalable/emblems/emblem-downloads.icon.in.h:1
+msgid "Downloads"
+msgstr "Parsiuntimai"
 
 # 48x48/emblems/emblem-favorite.icon.in.h:1
 # 48x48/emblems/emblem-favorite.icon.in.h:1
@@ -229,10 +200,19 @@ msgstr "Nauja"
 msgid "Package"
 msgstr "Paketas"
 
-# 48x48/emblems/emblem-special.icon.in.h:1
-#: ../scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "Speciali"
+#: ../scalable/emblems/emblem-photos.icon.in.h:1
+msgid "Photos"
+msgstr "Nuotraukos"
+
+# 48x48/emblems/emblem-favorite.icon.in.h:1
+# 48x48/emblems/emblem-favorite.icon.in.h:1
+#: ../scalable/emblems/emblem-readonly.icon.in.h:1
+msgid "No write"
+msgstr "Nerašoma"
+
+#: ../scalable/emblems/emblem-unreadable.icon.in.h:1
+msgid "No read"
+msgstr "Neskaitoma"
 
 # 48x48/emblems/emblem-urgent.icon.in.h:1
 #: ../scalable/emblems/emblem-urgent.icon.in.h:1
@@ -244,14 +224,3 @@ msgstr "Skubu"
 #: ../scalable/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Tinklas"
-
-# 48x48/emblems/emblem-bin.icon.in.h:1
-# 48x48/emblems/emblem-bin.icon.in.h:1
-#~ msgid "Binary"
-#~ msgstr "Dvejetainė"
-
-#~ msgid "cvs-new-file"
-#~ msgstr "cvs-nauja-byla"
-
-#~ msgid "Symbolic link"
-#~ msgstr "Simbolinė nuoroda"
