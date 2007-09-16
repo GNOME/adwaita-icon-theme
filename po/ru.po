@@ -1,23 +1,22 @@
-# translation of gnome-icon-theme.HEAD.po to
-# Russian translation for gnome-icon-theme.
+# translation of gnome-icon-theme.HEAD.po to Russian
 # Copyright (C) 2003, 2005 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome-icon-theme package.
+#
 # Dmitry G. Mastrukov <dmitry@taurussoft.org>, 2003-2004.
 # Leonid Kanter <leon@asplinux.ru>, 2005.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-icon-theme.HEAD\n"
+"Project-Id-Version: gnome-icon-theme trunk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-09-01 14:49+0000\n"
-"PO-Revision-Date: 2005-09-01 18:12+0300\n"
-"Last-Translator: Leonid Kanter <leon@asplinux.ru>\n"
-"Language-Team:  <gnome-cyr@gnome.org>\n"
+"POT-Creation-Date: 2007-09-16 20:13+0400\n"
+"PO-Revision-Date: 2007-09-16 18:12+0300\n"
+"Last-Translator: Nickolay V. Shmyrev <nshmyrev@yandex.ru>\n"
+"Language-Team: Russian <gnome-cyr@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.10.2\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../48x48/emblems/emblem-OK.icon.in.h:1
 msgid "OK"
@@ -41,34 +40,6 @@ msgstr "Сертифицировано"
 msgid "Cool"
 msgstr "Круто"
 
-#: ../48x48/emblems/emblem-cvs-added.icon.in.h:1
-msgid "cvs-added"
-msgstr "Добавлен (cvs)"
-
-#: ../48x48/emblems/emblem-cvs-conflict.icon.in.h:1
-msgid "cvs-conflict"
-msgstr "Конфликтует (cvs)"
-
-#: ../48x48/emblems/emblem-cvs-controlled.icon.in.h:1
-msgid "cvs-controlled"
-msgstr "Управляется (cvs)"
-
-#: ../48x48/emblems/emblem-cvs-modified.icon.in.h:1
-msgid "cvs-modified"
-msgstr "Изменён (cvs)"
-
-#: ../48x48/emblems/emblem-cvs-new-file.icon.in.h:1
-msgid "cvs-new-file"
-msgstr "Новый файл (cvs)"
-
-#: ../48x48/emblems/emblem-cvs-removed.icon.in.h:1
-msgid "cvs-removed"
-msgstr "удалён (cvs)"
-
-#: ../48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
-msgid "cvs-sticky-tag"
-msgstr "Тег (cvs)"
-
 #: ../48x48/emblems/emblem-danger.icon.in.h:1
 msgid "Danger"
 msgstr "Опасность"
@@ -80,11 +51,6 @@ msgstr "Рабочий стол"
 #: ../48x48/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
 msgstr "Выдающийся"
-
-# 48x48/emblems/emblem-documents.icon.in.h:1
-#: ../48x48/emblems/emblem-documents.icon.in.h:1
-msgid "Documents"
-msgstr "Документы"
 
 #: ../48x48/emblems/emblem-draft.icon.in.h:1
 msgid "Draft"
@@ -110,30 +76,13 @@ msgstr "Деньги"
 msgid "Multimedia"
 msgstr "Мультимедиа"
 
-#: ../48x48/emblems/emblem-new.icon.in.h:1
-msgid "New"
-msgstr "Новый"
-
-#: ../48x48/emblems/emblem-noread.icon.in.h:1
-msgid "No read"
-msgstr "Не для чтения"
-
 #: ../48x48/emblems/emblem-note.icon.in.h:1
 msgid "Note"
 msgstr "Заметка"
 
-#: ../48x48/emblems/emblem-nowrite.icon.in.h:1
-msgid "No write"
-msgstr "Не для записи"
-
 #: ../48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
 msgstr "О, нет!"
-
-# 48x48/emblems/emblem-package.icon.in.h:1
-#: ../48x48/emblems/emblem-package.icon.in.h:1
-msgid "Package"
-msgstr "Пакет"
 
 # 48x48/emblems/emblem-people.icon.in.h:1
 #: ../48x48/emblems/emblem-people.icon.in.h:1
@@ -164,27 +113,14 @@ msgstr "Презентация"
 msgid "Sales"
 msgstr "Продажи"
 
-#: ../48x48/emblems/emblem-shared.icon.in.h:1
-msgid "Shared"
-msgstr "Общий доступ"
-
 # 48x48/emblems/emblem-sound.icon.in.h:1
 #: ../48x48/emblems/emblem-sound.icon.in.h:1
 msgid "Sound"
 msgstr "Звук"
 
-#: ../48x48/emblems/emblem-symbolic-link.icon.in.h:1
-msgid "Symbolic link"
-msgstr "Символическая ссылка"
-
 #: ../48x48/emblems/emblem-trash.icon.in.h:1
 msgid "Trash"
 msgstr "Корзина"
-
-# 48x48/emblems/emblem-web.icon.in.h:1
-#: ../48x48/emblems/emblem-web.icon.in.h:1
-msgid "Web"
-msgstr "Веб"
 
 #: ../index.theme.in.h:1
 msgid "Default GNOME Theme"
@@ -194,10 +130,14 @@ msgstr "Стандартная тема среды GNOME"
 msgid "GNOME"
 msgstr "Среда GNOME"
 
-# 48x48/emblems/emblem-bin.icon.in.h:1
-#: ../scalable/emblems/emblem-bin.icon.in.h:1
-msgid "Binary"
-msgstr "Двоичный"
+# 48x48/emblems/emblem-documents.icon.in.h:1
+#: ../scalable/emblems/emblem-documents.icon.in.h:1
+msgid "Documents"
+msgstr "Документы"
+
+#: ../scalable/emblems/emblem-downloads.icon.in.h:1
+msgid "Downloads"
+msgstr "Загрузки"
 
 #: ../scalable/emblems/emblem-favorite.icon.in.h:1
 msgid "Favorite"
@@ -216,11 +156,33 @@ msgstr "Важно"
 msgid "Mail"
 msgstr "Почта"
 
-#: ../scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "Специальный"
+#: ../scalable/emblems/emblem-new.icon.in.h:1
+msgid "New"
+msgstr "Новый"
+
+# 48x48/emblems/emblem-package.icon.in.h:1
+#: ../scalable/emblems/emblem-package.icon.in.h:1
+msgid "Package"
+msgstr "Пакет"
+
+#: ../scalable/emblems/emblem-photos.icon.in.h:1
+msgid "Photos"
+msgstr "Фотографии"
+
+#: ../scalable/emblems/emblem-readonly.icon.in.h:1
+msgid "No write"
+msgstr "Не для записи"
+
+#: ../scalable/emblems/emblem-unreadable.icon.in.h:1
+msgid "No read"
+msgstr "Не для чтения"
 
 #: ../scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
 msgstr "Срочный"
+
+# 48x48/emblems/emblem-web.icon.in.h:1
+#: ../scalable/emblems/emblem-web.icon.in.h:1
+msgid "Web"
+msgstr "Веб"
 
