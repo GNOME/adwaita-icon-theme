@@ -26,7 +26,6 @@ icons_DATA =				\
 	gnome-eyes.png			\
 	gnome-favorites.png		\
 	gnome-finance.png		\
-	gnome-logout.png		\
 	gnome-mini-commander.png	\
 	gnome-networktool.png		\
 	gnome-settings-sound.png	\
