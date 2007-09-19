@@ -1,15 +1,15 @@
-# Bulgarian translation of GNOME icon theme.
+# Bulgarian translation of gnome-icon-theme po-file.
 # Copyright (C) 2004, 2005, 2007 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome icon theme package.
+# This file is distributed under the same license as the gnome-icon-theme package.
 # Alexander Shopov <ash@contact.bg>, 2004, 2005, 2007.
 # Vladimir Petkov <vpetkov@i-space.org>, 2004.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-icon-theme trunk\n"
+"Project-Id-Version: gnome-icon-theme gnome-2-20\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-06-02 10:29+0300\n"
-"PO-Revision-Date: 2007-06-02 10:22+0300\n"
+"POT-Creation-Date: 2007-09-19 07:15+0300\n"
+"PO-Revision-Date: 2007-09-19 07:08+0300\n"
 "Last-Translator: Vladimir Petkov <vpetkov@i-space.org>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
 "MIME-Version: 1.0\n"
@@ -37,18 +37,6 @@ msgstr "Проверено"
 msgid "Cool"
 msgstr "Готино"
 
-#: ../48x48/emblems/emblem-cvs-controlled.icon.in.h:1
-msgid "cvs-controlled"
-msgstr "Проследявано (cvs)"
-
-#: ../48x48/emblems/emblem-cvs-modified.icon.in.h:1
-msgid "cvs-modified"
-msgstr "Променено (cvs)"
-
-#: ../48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
-msgid "cvs-sticky-tag"
-msgstr "Етикет (cvs)"
-
 #: ../48x48/emblems/emblem-danger.icon.in.h:1
 msgid "Danger"
 msgstr "Опасно"
@@ -60,10 +48,6 @@ msgstr "Работно място"
 #: ../48x48/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
 msgstr "Бележито"
-
-#: ../48x48/emblems/emblem-documents.icon.in.h:1
-msgid "Documents"
-msgstr "Документи"
 
 #: ../48x48/emblems/emblem-draft.icon.in.h:1
 msgid "Draft"
@@ -85,17 +69,9 @@ msgstr "Пари"
 msgid "Multimedia"
 msgstr "Мултимедия"
 
-#: ../48x48/emblems/emblem-noread.icon.in.h:1
-msgid "No read"
-msgstr "Забранено четенето"
-
 #: ../48x48/emblems/emblem-note.icon.in.h:1
 msgid "Note"
 msgstr "Бележка"
-
-#: ../48x48/emblems/emblem-nowrite.icon.in.h:1
-msgid "No write"
-msgstr "Забранено писането"
 
 #: ../48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
@@ -111,7 +87,7 @@ msgstr "Лично"
 
 #: ../48x48/emblems/emblem-pictures.icon.in.h:1
 msgid "Pictures"
-msgstr "Картинки"
+msgstr "Изображения"
 
 #: ../48x48/emblems/emblem-plan.icon.in.h:1
 msgid "Plan"
@@ -124,10 +100,6 @@ msgstr "Презентация"
 #: ../48x48/emblems/emblem-sales.icon.in.h:1
 msgid "Sales"
 msgstr "Продажби"
-
-#: ../48x48/emblems/emblem-shared.icon.in.h:1
-msgid "Shared"
-msgstr "Споделено"
 
 #: ../48x48/emblems/emblem-sound.icon.in.h:1
 msgid "Sound"
@@ -145,17 +117,13 @@ msgstr "Тема на GNOME по подразбиране"
 msgid "GNOME"
 msgstr "GNOME"
 
-#: ../scalable/emblems/emblem-cvs-added.icon.in.h:1
-msgid "cvs-added"
-msgstr "Добавено (cvs)"
+#: ../scalable/emblems/emblem-documents.icon.in.h:1
+msgid "Documents"
+msgstr "Документи"
 
-#: ../scalable/emblems/emblem-cvs-conflict.icon.in.h:1
-msgid "cvs-conflict"
-msgstr "Конфликт (cvs)"
-
-#: ../scalable/emblems/emblem-cvs-removed.icon.in.h:1
-msgid "cvs-removed"
-msgstr "Премахнато (cvs)"
+#: ../scalable/emblems/emblem-downloads.icon.in.h:1
+msgid "Downloads"
+msgstr "Изтегляния"
 
 #: ../scalable/emblems/emblem-favorite.icon.in.h:1
 msgid "Favorite"
@@ -181,9 +149,17 @@ msgstr "Ново"
 msgid "Package"
 msgstr "Пакет"
 
-#: ../scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "Специално"
+#: ../scalable/emblems/emblem-photos.icon.in.h:1
+msgid "Photos"
+msgstr "Фотографии"
+
+#: ../scalable/emblems/emblem-readonly.icon.in.h:1
+msgid "No write"
+msgstr "Забранено писането"
+
+#: ../scalable/emblems/emblem-unreadable.icon.in.h:1
+msgid "No read"
+msgstr "Забранено четенето"
 
 #: ../scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
