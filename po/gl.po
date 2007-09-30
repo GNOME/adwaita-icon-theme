@@ -1,41 +1,32 @@
-# traducción de es.po al Gallego
-# translation of es.po to Galician
-# translation of gnome-icon-theme.HEAD.po to Galician
-# Gnome Icon Theme Galician Translation
-# Copyright (C) 2002 Gnome Software Foundation
-# This file is distributed under the same license as the Gnome-Icon-Theme package.
-# 
+# translation of gl.po to Galego
+# Galician translation of gnome-icon-theme
+# Copyright (C) 2004 Ignacion Casal Quinteiro.
+#
 # Ignacio Casal Quinteiro <adorador_del_heavy@hotmail.com>, 2004.
 # Ignacio Casal Quinteiro <nacho.resa@gmail.com>, 2005.
-# Ricardo González Castro <rick@jinlabs.com>, 2007.
+# Ignacio Casal Quinteiro <icq@cvs.gnome.org>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-icon-theme.HEAD.es\n"
+"Project-Id-Version: gl\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-06-03 20:52+0000\n"
-"PO-Revision-Date: 2007-06-25 12:14+0100\n"
-"Last-Translator: Ricardo González Castro<rick@jinlabs.com>\n"
-"Language-Team: Galego\n"
+"POT-Creation-Date: 2007-09-30 21:00+0200\n"
+"PO-Revision-Date: 2007-09-30 21:00+0200\n"
+"Last-Translator: Ignacio Casal Quinteiro <icq@cvs.gnome.org>\n"
+"Language-Team: Galego <proxecto@trasno.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: poEdit 1.3.6\n"
-"Plural-Forms: nplurals=2; plural=(n!= 1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: ../48x48/emblems/emblem-OK.icon.in.h:1
 msgid "OK"
-msgstr "OK"
+msgstr "Aceptar"
 
-# 48x48/emblems/emblem-art.icon.in.h:1
-# 48x48/emblems/emblem-art.icon.in.h:1
-# 48x48/emblems/emblem-art.icon.in.h:1
 #: ../48x48/emblems/emblem-art.icon.in.h:1
 msgid "Art"
 msgstr "Arte"
 
-# 48x48/emblems/emblem-camera.icon.in.h:1
-# 48x48/emblems/emblem-camera.icon.in.h:1
-# 48x48/emblems/emblem-camera.icon.in.h:1
 #: ../48x48/emblems/emblem-camera.icon.in.h:1
 msgid "Camera"
 msgstr "Cámara"
@@ -44,29 +35,13 @@ msgstr "Cámara"
 msgid "Certified"
 msgstr "Certificado"
 
-# 48x48/emblems/emblem-cool.icon.in.h:1
-# 48x48/emblems/emblem-cool.icon.in.h:1
 #: ../48x48/emblems/emblem-cool.icon.in.h:1
 msgid "Cool"
 msgstr "Divertido"
 
-#: ../48x48/emblems/emblem-cvs-controlled.icon.in.h:1
-msgid "cvs-controlled"
-msgstr "controlado co cvs"
-
-#: ../48x48/emblems/emblem-cvs-modified.icon.in.h:1
-msgid "cvs-modified"
-msgstr "modificado no cvs"
-
-#: ../48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
-msgid "cvs-sticky-tag"
-msgstr "etiqueta persistente cvs"
-
-# 48x48/emblems/emblem-danger.icon.in.h:1
-# 48x48/emblems/emblem-danger.icon.in.h:1
 #: ../48x48/emblems/emblem-danger.icon.in.h:1
 msgid "Danger"
-msgstr "Perigro"
+msgstr "Perigo"
 
 #: ../48x48/emblems/emblem-desktop.icon.in.h:1
 msgid "Desktop"
@@ -74,102 +49,60 @@ msgstr "Escritorio"
 
 #: ../48x48/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
-msgstr "Distinguido"
-
-# 48x48/emblems/emblem-documents.icon.in.h:1
-# 48x48/emblems/emblem-documents.icon.in.h:1
-# 48x48/emblems/emblem-documents.icon.in.h:1
-#: ../48x48/emblems/emblem-documents.icon.in.h:1
-msgid "Documents"
-msgstr "Documentos"
+msgstr "Distintivo"
 
 #: ../48x48/emblems/emblem-draft.icon.in.h:1
 msgid "Draft"
 msgstr "Borrador"
 
-# 48x48/emblems/emblem-handshake.icon.in.h:1
 #: ../48x48/emblems/emblem-handshake.icon.in.h:1
 msgid "Handshake"
 msgstr "Acordo"
 
-# 48x48/emblems/emblem-marketing.icon.in.h:1
-# 48x48/emblems/emblem-marketing.icon.in.h:1
 #: ../48x48/emblems/emblem-marketing.icon.in.h:1
 msgid "Marketing"
 msgstr "Mercadotecnia"
 
-# 48x48/emblems/emblem-money.icon.in.h:1
 #: ../48x48/emblems/emblem-money.icon.in.h:1
 msgid "Money"
-msgstr "Cartos"
+msgstr "Diñeiro"
 
-# 48x48/emblems/emblem-multimedia.icon.in.h:1
-# 48x48/emblems/emblem-multimedia.icon.in.h:1
-# 48x48/emblems/emblem-multimedia.icon.in.h:1
 #: ../48x48/emblems/emblem-multimedia.icon.in.h:1
 msgid "Multimedia"
 msgstr "Multimedia"
-
-#: ../48x48/emblems/emblem-noread.icon.in.h:1
-msgid "No read"
-msgstr "Non lexible"
 
 #: ../48x48/emblems/emblem-note.icon.in.h:1
 msgid "Note"
 msgstr "Nota"
 
-# 48x48/emblems/emblem-favorite.icon.in.h:1
-# 48x48/emblems/emblem-favorite.icon.in.h:1
-#: ../48x48/emblems/emblem-nowrite.icon.in.h:1
-msgid "No write"
-msgstr "Non escribible"
-
-# 48x48/emblems/emblem-ohno.icon.in.h:1
-# 48x48/emblems/emblem-ohno.icon.in.h:1
 #: ../48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
-msgstr "¡Ou non!"
+msgstr "Ou non!"
 
-# 48x48/emblems/emblem-people.icon.in.h:1
 #: ../48x48/emblems/emblem-people.icon.in.h:1
 msgid "People"
-msgstr "Xente"
+msgstr "Persoas"
 
 #: ../48x48/emblems/emblem-personal.icon.in.h:1
 msgid "Personal"
 msgstr "Persoal"
 
-# 48x48/emblems/emblem-pictures.icon.in.h:1
-# 48x48/emblems/emblem-pictures.icon.in.h:1
-# 48x48/emblems/emblem-pictures.icon.in.h:1
 #: ../48x48/emblems/emblem-pictures.icon.in.h:1
 msgid "Pictures"
 msgstr "Imaxes"
 
-# 48x48/emblems/emblem-plan.icon.in.h:1
-# 48x48/emblems/emblem-plan.icon.in.h:1
 #: ../48x48/emblems/emblem-plan.icon.in.h:1
 msgid "Plan"
 msgstr "Planificación"
 
-# 48x48/emblems/emblem-presentation.icon.in.h:1
 #: ../48x48/emblems/emblem-presentation.icon.in.h:1
 msgid "Presentation"
 msgstr "Presentación"
 
-# 48x48/emblems/emblem-sales.icon.in.h:1
-# 48x48/emblems/emblem-sales.icon.in.h:1
 #: ../48x48/emblems/emblem-sales.icon.in.h:1
 msgid "Sales"
-msgstr "Ventas"
+msgstr "Vendas"
 
-#: ../48x48/emblems/emblem-shared.icon.in.h:1
-msgid "Shared"
-msgstr "Compartido"
-
-# 48x48/emblems/emblem-sound.icon.in.h:1
-# 48x48/emblems/emblem-sound.icon.in.h:1
-# 48x48/emblems/emblem-sound.icon.in.h:1
 #: ../48x48/emblems/emblem-sound.icon.in.h:1
 msgid "Sound"
 msgstr "Son"
@@ -186,24 +119,14 @@ msgstr "Tema predeterminado de Gnome"
 msgid "GNOME"
 msgstr "Gnome"
 
-#: ../scalable/emblems/emblem-cvs-added.icon.in.h:1
-msgid "cvs-added"
-msgstr "engadido o cvs"
-
-#: ../scalable/emblems/emblem-cvs-conflict.icon.in.h:1
-msgid "cvs-conflict"
-msgstr "conflicto no cvs"
-
-#: ../scalable/emblems/emblem-cvs-removed.icon.in.h:1
-msgid "cvs-removed"
-msgstr "eliminado do cvs"
+#: ../scalable/emblems/emblem-documents.icon.in.h:1
+msgid "Documents"
+msgstr "Documentos"
 
 #: ../scalable/emblems/emblem-downloads.icon.in.h:1
 msgid "Downloads"
 msgstr "Descargas"
 
-# 48x48/emblems/emblem-favorite.icon.in.h:1
-# 48x48/emblems/emblem-favorite.icon.in.h:1
 #: ../scalable/emblems/emblem-favorite.icon.in.h:1
 msgid "Favorite"
 msgstr "Favorito"
@@ -216,9 +139,6 @@ msgstr "Xenérico"
 msgid "Important"
 msgstr "Importante"
 
-# 48x48/emblems/emblem-mail.icon.in.h:1
-# 48x48/emblems/emblem-mail.icon.in.h:1
-# 48x48/emblems/emblem-mail.icon.in.h:1
 #: ../scalable/emblems/emblem-mail.icon.in.h:1
 msgid "Mail"
 msgstr "Correo"
@@ -227,28 +147,26 @@ msgstr "Correo"
 msgid "New"
 msgstr "Novo"
 
-# 48x48/emblems/emblem-package.icon.in.h:1
-# 48x48/emblems/emblem-package.icon.in.h:1
-# 48x48/emblems/emblem-package.icon.in.h:1
 #: ../scalable/emblems/emblem-package.icon.in.h:1
 msgid "Package"
 msgstr "Paquete"
 
 #: ../scalable/emblems/emblem-photos.icon.in.h:1
 msgid "Photos"
-msgstr "Fotos"
+msgstr "Fotografías"
 
-#: ../scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "Especial"
+#: ../scalable/emblems/emblem-readonly.icon.in.h:1
+msgid "No write"
+msgstr "Sen escritura"
+
+#: ../scalable/emblems/emblem-unreadable.icon.in.h:1
+msgid "No read"
+msgstr "Non lido"
 
 #: ../scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
 msgstr "Urxente"
 
-# 48x48/emblems/emblem-web.icon.in.h:1
-# 48x48/emblems/emblem-web.icon.in.h:1
-# 48x48/emblems/emblem-web.icon.in.h:1
 #: ../scalable/emblems/emblem-web.icon.in.h:1
 msgid "Web"
 msgstr "Web"
