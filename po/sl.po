@@ -1,18 +1,24 @@
 # Slovenian translation file for gnome-icon-theme.
 # Copyright (C) 2002 Free Software Foundation, Inc.
-# Andraz Tori <andraz.tori1@guest.arnes.si> 2002
+#
+# Andraz Tori <andraz.tori1@guest.arnes.si>, 2002.
+# Matej Urbančič <mateju@svn.gnome.org>, 2007.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-06-13 20:51+0000\n"
-"PO-Revision-Date: 2005-06-13 23:44+0100\n"
-"Last-Translator: Matjaz Horvat <matjaz@owca.info>\n"
+"POT-Creation-Date: 2007-08-21 03:20+0100\n"
+"PO-Revision-Date: 2007-10-25 13:52+0100\n"
+"Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian <sl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
+"X-Poedit-Country: SLOVENIA\n"
+"X-Poedit-Language: Slovenian\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 # G:3 K:0 O:0
 #: ../48x48/emblems/emblem-OK.icon.in.h:1
@@ -22,7 +28,7 @@ msgstr "V redu"
 # G:3 K:0 O:0
 #: ../48x48/emblems/emblem-art.icon.in.h:1
 msgid "Art"
-msgstr "Umetnija"
+msgstr "Umetnina"
 
 # G:1 K:0 O:0
 #: ../48x48/emblems/emblem-camera.icon.in.h:1
@@ -39,34 +45,6 @@ msgstr "Preverjeno"
 msgid "Cool"
 msgstr "Kul"
 
-#: ../48x48/emblems/emblem-cvs-added.icon.in.h:1
-msgid "cvs-added"
-msgstr "cvs-dodano"
-
-#: ../48x48/emblems/emblem-cvs-conflict.icon.in.h:1
-msgid "cvs-conflict"
-msgstr "cvs-spor"
-
-#: ../48x48/emblems/emblem-cvs-controlled.icon.in.h:1
-msgid "cvs-controlled"
-msgstr "cvs-nadzorovano"
-
-#: ../48x48/emblems/emblem-cvs-modified.icon.in.h:1
-msgid "cvs-modified"
-msgstr "cvs-spremenjeno"
-
-#: ../48x48/emblems/emblem-cvs-new-file.icon.in.h:1
-msgid "cvs-new-file"
-msgstr "cvs-nova-datoteka"
-
-#: ../48x48/emblems/emblem-cvs-removed.icon.in.h:1
-msgid "cvs-removed"
-msgstr "cvs-odstranjeno"
-
-#: ../48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
-msgid "cvs-sticky-tag"
-msgstr "cvs-lepljiva-oznaka"
-
 # G:2 K:0 O:0
 #: ../48x48/emblems/emblem-danger.icon.in.h:1
 msgid "Danger"
@@ -80,11 +58,6 @@ msgstr "Namizje"
 #: ../48x48/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
 msgstr "Odlikovano"
-
-# G:1 K:0 O:0
-#: ../48x48/emblems/emblem-documents.icon.in.h:1
-msgid "Documents"
-msgstr "Dokumenti"
 
 # G:2 K:0 O:0
 #: ../48x48/emblems/emblem-draft.icon.in.h:1
@@ -108,33 +81,14 @@ msgstr "Denar"
 msgid "Multimedia"
 msgstr "Večpredstavnost"
 
-# G:3 K:0 O:0
-#: ../48x48/emblems/emblem-new.icon.in.h:1
-msgid "New"
-msgstr "Novo"
-
-#: ../48x48/emblems/emblem-noread.icon.in.h:1
-msgid "No read"
-msgstr "Brez branja"
-
 #: ../48x48/emblems/emblem-note.icon.in.h:1
 msgid "Note"
 msgstr "Opomba"
-
-# G:3 K:1 O:0
-#: ../48x48/emblems/emblem-nowrite.icon.in.h:1
-msgid "No write"
-msgstr "Brez pisanja"
 
 # G:4 K:5 O:0
 #: ../48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
 msgstr "O, ne!"
-
-# G:3 K:0 O:0
-#: ../48x48/emblems/emblem-package.icon.in.h:1
-msgid "Package"
-msgstr "Paket"
 
 #: ../48x48/emblems/emblem-people.icon.in.h:1
 msgid "People"
@@ -162,27 +116,14 @@ msgstr "Predstavitev"
 msgid "Sales"
 msgstr "Prodaja"
 
-#: ../48x48/emblems/emblem-shared.icon.in.h:1
-msgid "Shared"
-msgstr "Deljeno"
-
 # G:1 K:1 O:0
 #: ../48x48/emblems/emblem-sound.icon.in.h:1
 msgid "Sound"
 msgstr "Zvok"
 
-#: ../48x48/emblems/emblem-symbolic-link.icon.in.h:1
-msgid "Symbolic link"
-msgstr "Simbolna povezava"
-
 #: ../48x48/emblems/emblem-trash.icon.in.h:1
 msgid "Trash"
 msgstr "Koš"
-
-# G:9 K:5 O:0
-#: ../48x48/emblems/emblem-web.icon.in.h:1
-msgid "Web"
-msgstr "Splet"
 
 #: ../index.theme.in.h:1
 msgid "Default GNOME Theme"
@@ -192,9 +133,14 @@ msgstr "Privzeta tema GNOME"
 msgid "GNOME"
 msgstr "GNOME"
 
-#: ../scalable/emblems/emblem-bin.icon.in.h:1
-msgid "Binary"
-msgstr "Binarno"
+# G:1 K:0 O:0
+#: ../scalable/emblems/emblem-documents.icon.in.h:1
+msgid "Documents"
+msgstr "Dokumenti"
+
+#: ../scalable/emblems/emblem-downloads.icon.in.h:1
+msgid "Downloads"
+msgstr "Prenosi"
 
 # G:3 K:1 O:0
 #: ../scalable/emblems/emblem-favorite.icon.in.h:1
@@ -216,13 +162,57 @@ msgstr "Pomembno"
 msgid "Mail"
 msgstr "Pošta"
 
-# G:3 K:4 O:0
-#: ../scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "Posebno"
+# G:3 K:0 O:0
+#: ../scalable/emblems/emblem-new.icon.in.h:1
+msgid "New"
+msgstr "Novo"
+
+# G:3 K:0 O:0
+#: ../scalable/emblems/emblem-package.icon.in.h:1
+msgid "Package"
+msgstr "Paket"
+
+#: ../scalable/emblems/emblem-photos.icon.in.h:1
+msgid "Photos"
+msgstr "Fotografije"
+
+# G:3 K:1 O:0
+#: ../scalable/emblems/emblem-readonly.icon.in.h:1
+msgid "No write"
+msgstr "Brez pisanja"
+
+#: ../scalable/emblems/emblem-unreadable.icon.in.h:1
+msgid "No read"
+msgstr "Brez branja"
 
 # G:2 K:1 O:0
 #: ../scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
 msgstr "Nujno"
+
+# G:9 K:5 O:0
+#: ../scalable/emblems/emblem-web.icon.in.h:1
+msgid "Web"
+msgstr "Splet"
+
+#~ msgid "cvs-added"
+#~ msgstr "cvs-dodano"
+#~ msgid "cvs-conflict"
+#~ msgstr "cvs-spor"
+#~ msgid "cvs-controlled"
+#~ msgstr "cvs-nadzorovano"
+#~ msgid "cvs-modified"
+#~ msgstr "cvs-spremenjeno"
+#~ msgid "cvs-new-file"
+#~ msgstr "cvs-nova-datoteka"
+#~ msgid "cvs-removed"
+#~ msgstr "cvs-odstranjeno"
+#~ msgid "cvs-sticky-tag"
+#~ msgstr "cvs-lepljiva-oznaka"
+#~ msgid "Shared"
+#~ msgstr "Deljeno"
+#~ msgid "Symbolic link"
+#~ msgstr "Simbolna povezava"
+#~ msgid "Binary"
+#~ msgstr "Binarno"
 
