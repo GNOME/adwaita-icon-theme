@@ -10,11 +10,11 @@ icons_DATA =				\
 	face-devilish.svg \
 	face-embarrassed.svg \
 	face-kiss.svg \
+	face-laugh.svg \
 	face-monkey.svg \
 	face-plain.svg \
 	face-raspberry.svg \
 	face-sad.svg \
-	face-smile-big.svg \
 	face-smile.svg \
 	face-smirk.svg \
 	face-surprise.svg \

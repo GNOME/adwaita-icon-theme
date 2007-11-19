@@ -10,11 +10,11 @@ icons_DATA =				\
 	face-devilish.png \
 	face-embarrassed.png \
 	face-kiss.png \
+	face-laugh.png \
 	face-monkey.png \
 	face-plain.png \
 	face-raspberry.png \
 	face-sad.png \
-	face-smile-big.png \
 	face-smile.png \
 	face-smirk.png \
 	face-surprise.png \
