@@ -28,6 +28,8 @@ icons_DATA =				\
 	mail-attachment.png		\
 	mail-read.png			\
 	mail-replied.png		\
+	mail-signed.png			\
+	mail-signed-verified.png	\
 	mail-unread.png			\
 	media-playlist-repeat.png	\
 	media-playlist-shuffle.png	\
