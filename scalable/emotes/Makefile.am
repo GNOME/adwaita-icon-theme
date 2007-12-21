@@ -5,6 +5,7 @@ iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
 	face-angel.svg \
+	face-angry.svg \
 	face-cool.svg \
 	face-crying.svg \
 	face-devilish.svg \
