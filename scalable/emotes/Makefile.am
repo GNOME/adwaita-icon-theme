@@ -16,6 +16,7 @@ icons_DATA =				\
 	face-plain.svg \
 	face-raspberry.svg \
 	face-sad.svg \
+	face-sick.svg \
 	face-smile.svg \
 	face-smile-big.svg \
 	face-smirk.svg \
