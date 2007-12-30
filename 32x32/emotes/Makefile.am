@@ -21,6 +21,7 @@ icons_DATA =				\
 	face-smile-big.png \
 	face-smirk.png \
 	face-surprise.png \
+	face-uncertain.png \
 	face-wink.png
 
 EXTRA_DIST =		\
