@@ -15,7 +15,7 @@
    sodipodi:version="0.32"
    inkscape:version="0.45.1"
    version="1.0"
-   sodipodi:docbase="/home/dobey/Projects/gnome-icon-theme/scalable/emotes"
+   sodipodi:docbase="/home/lapo/Icone/gnome-icon-theme/scalable/emotes"
    sodipodi:docname="face-uncertain.svg"
    inkscape:export-filename="/home/lapo/Desktop/smileys.png"
    inkscape:export-xdpi="90"
@@ -23,6 +23,30 @@
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3198">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3200" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop3202" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3188">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3190" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop3192" />
+    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient8431">
@@ -121,18 +145,6 @@
          offset="1"
          style="stop-color:white;stop-opacity:0.50570345" />
     </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient3704">
-      <stop
-         style="stop-color:white;stop-opacity:1;"
-         offset="0"
-         id="stop3706" />
-      <stop
-         style="stop-color:white;stop-opacity:0;"
-         offset="1"
-         id="stop3708" />
-    </linearGradient>
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3734"
@@ -174,17 +186,6 @@
        fx="5.3851099"
        fy="3.2659137"
        r="10.108456" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3704"
-       id="radialGradient14478"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.172092,0,0,0.779118,114.2479,84.6887)"
-       cx="-79.065781"
-       cy="66.5"
-       fx="-79.065781"
-       fy="66.5"
-       r="11.89852" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient7824"
@@ -249,15 +250,26 @@
        y2="-127.34384" />
     <radialGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient3704"
-       id="radialGradient2223"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.5277876,-0.4861139,0,2.7971319,143.13971,-189.4399)"
-       cx="-79.065781"
-       cy="66.5"
-       fx="-79.065781"
-       fy="66.5"
-       r="11.89852" />
+       xlink:href="#linearGradient3188"
+       id="radialGradient3194"
+       cx="29.687502"
+       cy="30.9375"
+       fx="29.687502"
+       fy="30.9375"
+       r="12"
+       gradientTransform="matrix(1.1770833,-0.1614583,4.5298547e-2,0.330241,-6.6585856,27.513962)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3198"
+       id="radialGradient3204"
+       cx="28.375002"
+       cy="29.017046"
+       fx="28.375002"
+       fy="29.017046"
+       r="10.5"
+       gradientTransform="matrix(1.0595236,-0.1666667,0.1211834,0.7703798,-5.2053657,13.437523)"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -266,15 +278,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="15.25"
-     inkscape:cx="24"
-     inkscape:cy="24.20449"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="20.076668"
+     inkscape:cy="12.71107"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      width="48px"
      height="48px"
      inkscape:showpageshadow="false"
-     showgrid="true"
+     showgrid="false"
      gridempspacing="2"
      gridspacingx="0.5px"
      gridspacingy="0.5px"
@@ -282,10 +294,10 @@
      showborder="true"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="822"
+     inkscape:window-width="872"
      inkscape:window-height="960"
      inkscape:window-x="316"
-     inkscape:window-y="8"
+     inkscape:window-y="24"
      inkscape:grid-points="true"
      inkscape:grid-bbox="true"
      inkscape:object-points="false"
@@ -412,18 +424,12 @@
        inkscape:export-ydpi="90" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#c4a000;stroke-width:1.00000012px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;display:inline"
-       d="M 14.500001,36.5 L 36.500001,29.5"
+       d="M 18.500001,37.5 C 25.429749,29.364772 38.500001,27.5 38.500001,27.5"
        id="path2564"
        inkscape:export-filename="/home/lapo/Desktop/something-along-the-lines.png"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="opacity:0.8;fill:none;fill-rule:evenodd;stroke:url(#radialGradient2223);stroke-width:0.99999958px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;display:inline"
-       d="M 14.5,37.5 L 36.5,30.500001"
-       id="path2566"
-       inkscape:export-filename="/home/lapo/Desktop/something-along-the-lines.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
     <g
        style="display:inline"
        id="g7934"
@@ -492,5 +498,13 @@
     <g
        id="g7909"
        transform="translate(-106,-6)" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:url(#radialGradient3204);stroke-width:1.00000012px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="M 19.000001,38.3125 C 25.929749,30.177272 39.000001,28.3125 39.000001,28.3125"
+       id="path3196"
+       inkscape:export-filename="/home/lapo/Desktop/something-along-the-lines.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
   </g>
 </svg>
