@@ -17,6 +17,7 @@ icons_DATA =			\
 	face-plain.png \
 	face-raspberry.png \
 	face-sad.png \
+	face-sick.png \
 	face-smile.png \
 	face-smile-big.png \
 	face-smirk.png \
