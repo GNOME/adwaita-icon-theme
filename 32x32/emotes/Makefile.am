@@ -22,6 +22,7 @@ icons_DATA =				\
 	face-smile-big.png \
 	face-smirk.png \
 	face-surprise.png \
+	face-tired.png \
 	face-uncertain.png \
 	face-wink.png
 
