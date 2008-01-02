@@ -24,7 +24,8 @@ icons_DATA =				\
 	face-surprise.png \
 	face-tired.png \
 	face-uncertain.png \
-	face-wink.png
+	face-wink.png \
+	face-worried.png
 
 EXTRA_DIST =		\
 	$(icons_DATA)
