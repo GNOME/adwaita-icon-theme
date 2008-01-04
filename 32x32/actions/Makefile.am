@@ -98,7 +98,7 @@ icons_DATA =				\
 	view-sort-descending.png 	\
 	window-close.png			\
 	window-new.png			\
-	zoom-best-fit.png		\
+	zoom-fit-best.png		\
 	zoom-in.png			\
 	zoom-original.png		\
 	zoom-out.png
