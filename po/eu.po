@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-08-04 11:14+0200\n"
+"POT-Creation-Date: 2008-01-07 16:49+0100\n"
 "PO-Revision-Date: 2007-08-04 11:15+0200\n"
 "Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@zundan.com>\n"
 "Language-Team: Basque <eu@li.org>\n"
@@ -91,21 +91,10 @@ msgstr "Dirua"
 msgid "Multimedia"
 msgstr "Multimedia"
 
-# 48x48/emblems/emblem-noread.icon.in.h:1
-#: ../48x48/emblems/emblem-noread.icon.in.h:1
-msgid "No read"
-msgstr "Irakurri gabea"
-
 # 48x48/emblems/emblem-note.icon.in.h:1
 #: ../48x48/emblems/emblem-note.icon.in.h:1
 msgid "Note"
 msgstr "Oharra"
-
-# 48x48/emblems/emblem-favorite.icon.in.h:1
-# 48x48/emblems/emblem-nowrite.icon.in.h:1
-#: ../48x48/emblems/emblem-nowrite.icon.in.h:1
-msgid "No write"
-msgstr "Ez idatzi"
 
 # 48x48/emblems/emblem-ohno.icon.in.h:1
 # 48x48/emblems/emblem-ohno.icon.in.h:1
@@ -147,10 +136,6 @@ msgstr "Aurkezpena"
 #: ../48x48/emblems/emblem-sales.icon.in.h:1
 msgid "Sales"
 msgstr "Salmentak"
-
-#: ../48x48/emblems/emblem-shared.icon.in.h:1
-msgid "Shared"
-msgstr "Partekatua"
 
 # 48x48/emblems/emblem-sound.icon.in.h:1
 # 48x48/emblems/emblem-sound.icon.in.h:1
@@ -218,10 +203,16 @@ msgstr "Paketea"
 msgid "Photos"
 msgstr "Argazkiak"
 
-# 48x48/emblems/emblem-special.icon.in.h:1
-#: ../scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "Berezia"
+# 48x48/emblems/emblem-favorite.icon.in.h:1
+# 48x48/emblems/emblem-nowrite.icon.in.h:1
+#: ../scalable/emblems/emblem-readonly.icon.in.h:1
+msgid "No write"
+msgstr "Ez idatzi"
+
+# 48x48/emblems/emblem-noread.icon.in.h:1
+#: ../scalable/emblems/emblem-unreadable.icon.in.h:1
+msgid "No read"
+msgstr "Irakurri gabea"
 
 # 48x48/emblems/emblem-urgent.icon.in.h:1
 #: ../scalable/emblems/emblem-urgent.icon.in.h:1
@@ -234,3 +225,9 @@ msgstr "Presazkoa"
 msgid "Web"
 msgstr "Web"
 
+#~ msgid "Shared"
+#~ msgstr "Partekatua"
+
+# 48x48/emblems/emblem-special.icon.in.h:1
+#~ msgid "Special"
+#~ msgstr "Berezia"
