@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-icon-theme 2.15.2\n"
+"Project-Id-Version: gnome-icon-theme 2.21.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-06-26 13:40+0800\n"
-"PO-Revision-Date: 2006-06-26 14:21+0800\n"
+"POT-Creation-Date: 2008-02-07 19:53+0800\n"
+"PO-Revision-Date: 2008-02-07 19:53+0800\n"
 "Last-Translator: Abel Cheung <abel@oaka.org>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr "藝術"
 # 48x48/emblems/emblem-camera.icon.in.h:1
 #: ../48x48/emblems/emblem-camera.icon.in.h:1
 msgid "Camera"
-msgstr "相機"
+msgstr "照相機"
 
 #: ../48x48/emblems/emblem-certified.icon.in.h:1
 msgid "Certified"
@@ -36,37 +36,7 @@ msgstr "確認"
 # 48x48/emblems/emblem-cool.icon.in.h:1
 #: ../48x48/emblems/emblem-cool.icon.in.h:1
 msgid "Cool"
-msgstr "正！"
-
-# since short terms are preferred and original strings doesn't look
-# like serious english, I just take approximate meaning -- Abel
-#: ../48x48/emblems/emblem-cvs-added.icon.in.h:1
-msgid "cvs-added"
-msgstr "CVS 加入"
-
-#: ../48x48/emblems/emblem-cvs-conflict.icon.in.h:1
-msgid "cvs-conflict"
-msgstr "CVS 衝突"
-
-#: ../48x48/emblems/emblem-cvs-controlled.icon.in.h:1
-msgid "cvs-controlled"
-msgstr "CVS 監控"
-
-#: ../48x48/emblems/emblem-cvs-modified.icon.in.h:1
-msgid "cvs-modified"
-msgstr "CVS 修改"
-
-#: ../48x48/emblems/emblem-cvs-new-file.icon.in.h:1
-msgid "cvs-new-file"
-msgstr "CVS 新檔案"
-
-#: ../48x48/emblems/emblem-cvs-removed.icon.in.h:1
-msgid "cvs-removed"
-msgstr "CVS 移除"
-
-#: ../48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
-msgid "cvs-sticky-tag"
-msgstr "CVS sticky tag"
+msgstr "酷！"
 
 # 48x48/emblems/emblem-danger.icon.in.h:1
 #: ../48x48/emblems/emblem-danger.icon.in.h:1
@@ -79,12 +49,7 @@ msgstr "桌面"
 
 #: ../48x48/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
-msgstr "突出"
-
-# 48x48/emblems/emblem-documents.icon.in.h:1
-#: ../48x48/emblems/emblem-documents.icon.in.h:1
-msgid "Documents"
-msgstr "文件"
+msgstr "優等"
 
 #: ../48x48/emblems/emblem-draft.icon.in.h:1
 msgid "Draft"
@@ -111,32 +76,14 @@ msgstr "金錢"
 msgid "Multimedia"
 msgstr "媒體"
 
-#: ../48x48/emblems/emblem-new.icon.in.h:1
-msgid "New"
-msgstr "嶄新"
-
-#: ../48x48/emblems/emblem-noread.icon.in.h:1
-msgid "No read"
-msgstr "禁止讀取"
-
 #: ../48x48/emblems/emblem-note.icon.in.h:1
 msgid "Note"
 msgstr "注意"
-
-# 48x48/emblems/emblem-favorite.icon.in.h:1
-#: ../48x48/emblems/emblem-nowrite.icon.in.h:1
-msgid "No write"
-msgstr "禁止寫入"
 
 # 48x48/emblems/emblem-ohno.icon.in.h:1
 #: ../48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
 msgstr "糟糕！"
-
-# 48x48/emblems/emblem-package.icon.in.h:1
-#: ../48x48/emblems/emblem-package.icon.in.h:1
-msgid "Package"
-msgstr "套件"
 
 # 48x48/emblems/emblem-people.icon.in.h:1
 #: ../48x48/emblems/emblem-people.icon.in.h:1
@@ -145,7 +92,7 @@ msgstr "人羣"
 
 #: ../48x48/emblems/emblem-personal.icon.in.h:1
 msgid "Personal"
-msgstr "私人"
+msgstr "私隱"
 
 # 48x48/emblems/emblem-pictures.icon.in.h:1
 #: ../48x48/emblems/emblem-pictures.icon.in.h:1
@@ -169,27 +116,14 @@ msgstr "簡報"
 msgid "Sales"
 msgstr "銷售"
 
-#: ../48x48/emblems/emblem-shared.icon.in.h:1
-msgid "Shared"
-msgstr "分享"
-
 # 48x48/emblems/emblem-sound.icon.in.h:1
 #: ../48x48/emblems/emblem-sound.icon.in.h:1
 msgid "Sound"
 msgstr "音效"
 
-#: ../48x48/emblems/emblem-symbolic-link.icon.in.h:1
-msgid "Symbolic link"
-msgstr "符號鏈結"
-
 #: ../48x48/emblems/emblem-trash.icon.in.h:1
 msgid "Trash"
 msgstr "回收筒"
-
-# 48x48/emblems/emblem-web.icon.in.h:1
-#: ../48x48/emblems/emblem-web.icon.in.h:1
-msgid "Web"
-msgstr "網頁"
 
 #: ../index.theme.in.h:1
 msgid "Default GNOME Theme"
@@ -199,11 +133,14 @@ msgstr "預設 GNOME 佈景主題"
 msgid "GNOME"
 msgstr "GNOME"
 
-# 48x48/emblems/emblem-bin.icon.in.h:1
-# 48x48/emblems/emblem-bin.icon.in.h:1
-#: ../scalable/emblems/emblem-bin.icon.in.h:1
-msgid "Binary"
-msgstr "二元碼檔"
+# 48x48/emblems/emblem-documents.icon.in.h:1
+#: ../scalable/emblems/emblem-documents.icon.in.h:1
+msgid "Documents"
+msgstr "文件"
+
+#: ../scalable/emblems/emblem-downloads.icon.in.h:1
+msgid "Downloads"
+msgstr "下載"
 
 # 48x48/emblems/emblem-favorite.icon.in.h:1
 #: ../scalable/emblems/emblem-favorite.icon.in.h:1
@@ -223,10 +160,70 @@ msgstr "重要"
 msgid "Mail"
 msgstr "郵件"
 
-#: ../scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "特別"
+#: ../scalable/emblems/emblem-new.icon.in.h:1
+msgid "New"
+msgstr "嶄新"
+
+# 48x48/emblems/emblem-package.icon.in.h:1
+#: ../scalable/emblems/emblem-package.icon.in.h:1
+msgid "Package"
+msgstr "套件"
+
+#: ../scalable/emblems/emblem-photos.icon.in.h:1
+msgid "Photos"
+msgstr "相片"
+
+# 48x48/emblems/emblem-favorite.icon.in.h:1
+#: ../scalable/emblems/emblem-readonly.icon.in.h:1
+msgid "No write"
+msgstr "禁止寫入"
+
+#: ../scalable/emblems/emblem-unreadable.icon.in.h:1
+msgid "No read"
+msgstr "禁止讀取"
 
 #: ../scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
 msgstr "緊急"
+
+# 48x48/emblems/emblem-web.icon.in.h:1
+#: ../scalable/emblems/emblem-web.icon.in.h:1
+msgid "Web"
+msgstr "網頁"
+
+# since short terms are preferred and original strings doesn't look
+# like serious english, I just take approximate meaning -- Abel
+#~ msgid "cvs-added"
+#~ msgstr "CVS 加入"
+
+#~ msgid "cvs-conflict"
+#~ msgstr "CVS 衝突"
+
+#~ msgid "cvs-controlled"
+#~ msgstr "CVS 監控"
+
+#~ msgid "cvs-modified"
+#~ msgstr "CVS 修改"
+
+#~ msgid "cvs-new-file"
+#~ msgstr "CVS 新檔案"
+
+#~ msgid "cvs-removed"
+#~ msgstr "CVS 移除"
+
+#~ msgid "cvs-sticky-tag"
+#~ msgstr "CVS sticky tag"
+
+#~ msgid "Shared"
+#~ msgstr "分享"
+
+#~ msgid "Symbolic link"
+#~ msgstr "符號連結"
+
+# 48x48/emblems/emblem-bin.icon.in.h:1
+# 48x48/emblems/emblem-bin.icon.in.h:1
+#~ msgid "Binary"
+#~ msgstr "二元碼檔"
+
+#~ msgid "Special"
+#~ msgstr "特別"
