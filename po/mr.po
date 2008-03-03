@@ -1,25 +1,26 @@
-# translation of gnome-icon-theme.HEAD.po to Marathi
+# translation of gnome-icon-theme.HEAD.mr.po to marathi
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-# Rahul Bhalerao <b.rahul.pm@gmail.com>, 2006.
 #
+# Rahul Bhalerao <b.rahul.pm@gmail.com>, 2006.
+# Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-icon-theme.HEAD\n"
+"Project-Id-Version: gnome-icon-theme.HEAD.mr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-08-24 08:14+0200\n"
-"PO-Revision-Date: 2006-08-24 21:24+0530\n"
-"Last-Translator: Rahul Bhalerao <b.rahul.pm@gmail.com>\n"
-"Language-Team: Marathi\n"
+"POT-Creation-Date: 2007-08-21 03:20+0100\n"
+"PO-Revision-Date: 2008-02-29 21:23+0530\n"
+"Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
+"Language-Team: marathi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.9.1\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
 
 #: ../48x48/emblems/emblem-OK.icon.in.h:1
 msgid "OK"
-msgstr "ठीक"
+msgstr "ठिक"
 
 #: ../48x48/emblems/emblem-art.icon.in.h:1
 msgid "Art"
@@ -37,18 +38,6 @@ msgstr "प्रमाणित"
 msgid "Cool"
 msgstr "थंड"
 
-#: ../48x48/emblems/emblem-cvs-controlled.icon.in.h:1
-msgid "cvs-controlled"
-msgstr "cvs-controlled"
-
-#: ../48x48/emblems/emblem-cvs-modified.icon.in.h:1
-msgid "cvs-modified"
-msgstr "cvs-modified"
-
-#: ../48x48/emblems/emblem-cvs-sticky-tag.icon.in.h:1
-msgid "cvs-sticky-tag"
-msgstr "cvs-sticky-tag"
-
 #: ../48x48/emblems/emblem-danger.icon.in.h:1
 msgid "Danger"
 msgstr "धोका"
@@ -60,10 +49,6 @@ msgstr "कार्यस्थळ"
 #: ../48x48/emblems/emblem-distinguished.icon.in.h:1
 msgid "Distinguished"
 msgstr "अलौकिक"
-
-#: ../48x48/emblems/emblem-documents.icon.in.h:1
-msgid "Documents"
-msgstr "दस्तऐवज"
 
 #: ../48x48/emblems/emblem-draft.icon.in.h:1
 msgid "Draft"
@@ -85,21 +70,9 @@ msgstr "पैसा"
 msgid "Multimedia"
 msgstr "मल्टीमीडिया"
 
-#: ../48x48/emblems/emblem-new.icon.in.h:1
-msgid "New"
-msgstr "नविन"
-
-#: ../48x48/emblems/emblem-noread.icon.in.h:1
-msgid "No read"
-msgstr "वाचन नाही"
-
 #: ../48x48/emblems/emblem-note.icon.in.h:1
 msgid "Note"
 msgstr "नोंद"
-
-#: ../48x48/emblems/emblem-nowrite.icon.in.h:1
-msgid "No write"
-msgstr "लेखन नाही"
 
 #: ../48x48/emblems/emblem-ohno.icon.in.h:1
 msgid "Oh no!"
@@ -129,10 +102,6 @@ msgstr "सादरीकरण"
 msgid "Sales"
 msgstr "विक्री"
 
-#: ../48x48/emblems/emblem-shared.icon.in.h:1
-msgid "Shared"
-msgstr "भागीदारीत"
-
 #: ../48x48/emblems/emblem-sound.icon.in.h:1
 msgid "Sound"
 msgstr "आवाज"
@@ -149,17 +118,13 @@ msgstr "मुलभूत GNOME थीम"
 msgid "GNOME"
 msgstr "GNOME"
 
-#: ../scalable/emblems/emblem-cvs-added.icon.in.h:1
-msgid "cvs-added"
-msgstr "cvs-added"
+#: ../scalable/emblems/emblem-documents.icon.in.h:1
+msgid "Documents"
+msgstr "दस्तऐवज"
 
-#: ../scalable/emblems/emblem-cvs-conflict.icon.in.h:1
-msgid "cvs-conflict"
-msgstr "cvs-conflict"
-
-#: ../scalable/emblems/emblem-cvs-removed.icon.in.h:1
-msgid "cvs-removed"
-msgstr "cvs-removed"
+#: ../scalable/emblems/emblem-downloads.icon.in.h:1
+msgid "Downloads"
+msgstr "डाउनलोड"
 
 #: ../scalable/emblems/emblem-favorite.icon.in.h:1
 msgid "Favorite"
@@ -177,13 +142,25 @@ msgstr "महत्वाचे"
 msgid "Mail"
 msgstr "मेल"
 
+#: ../scalable/emblems/emblem-new.icon.in.h:1
+msgid "New"
+msgstr "नविन"
+
 #: ../scalable/emblems/emblem-package.icon.in.h:1
 msgid "Package"
 msgstr "संकुल"
 
-#: ../scalable/emblems/emblem-special.icon.in.h:1
-msgid "Special"
-msgstr "खास"
+#: ../scalable/emblems/emblem-photos.icon.in.h:1
+msgid "Photos"
+msgstr "छायाचित्र"
+
+#: ../scalable/emblems/emblem-readonly.icon.in.h:1
+msgid "No write"
+msgstr "लेखन नाही"
+
+#: ../scalable/emblems/emblem-unreadable.icon.in.h:1
+msgid "No read"
+msgstr "वाचन नाही"
 
 #: ../scalable/emblems/emblem-urgent.icon.in.h:1
 msgid "Urgent"
