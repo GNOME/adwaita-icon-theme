@@ -20,7 +20,6 @@ icons_DATA =				\
 	gnome-desktop-config.png 	\
 	gnome-favorites.png		\
 	gnome-finance.png		\
-	gnome-grecord.png		\
 	gnome-networktool.png		\
 	gnome-pdf.png			\
 	gnome-searchtool-animation.png	\
