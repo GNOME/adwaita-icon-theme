@@ -26,7 +26,7 @@ AC_SUBST(ACLOCAL_AMFLAGS, "\${ACLOCAL_FLAGS}")
 # Define the toplevel path here
 AC_SUBST(themedir, "\${datadir}/icons/gnome")
 
-ICONMAP="/bin/true"
+ICONMAP="true"
 AC_MSG_CHECKING([development series build])
 DEVVERSION="`echo $PACKAGE_VERSION|cut -d. -f2`"
 if expr $DEVVERSION % 2 > /dev/null != "0"; then

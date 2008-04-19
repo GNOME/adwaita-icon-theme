@@ -1,3 +1,10 @@
+2008-04-19  Rodney Dawes  <dobey.pwns@gmail.com>
+
+	* configure.in:
+	Don't hardcode the path to true as /bin/true
+
+	Fixes #525988
+
 2008-04-12  Rodney Dawes  <dobey.pwns@gmail.com>
 
 	* */stock/io/Makefile.am:
