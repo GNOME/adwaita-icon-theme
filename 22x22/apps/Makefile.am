@@ -32,7 +32,7 @@ icons_DATA =				\
 	preferences-desktop-wallpaper.png	\
 	preferences-system-windows.png	\
 	system-file-manager.png		\
-	system-software-installer.png	\
+	system-software-install.png	\
 	system-software-update.png	\
 	system-users.png	\
 	user-info.png	\
