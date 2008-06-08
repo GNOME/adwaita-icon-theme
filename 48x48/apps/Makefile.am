@@ -13,7 +13,6 @@ icons_DATA =				\
 	config-date.png			\
 	config-xfree.png		\
 	disks.png			\
-	eyes.png			\
 	gdm.png				\
 	gnome-amusements.png		\
 	gnome-audio.png			\
@@ -25,7 +24,6 @@ icons_DATA =				\
 	gnome-searchtool-animation.png	\
 	gnome-searchtool-animation-rest.png	\
 	gnome-server-config.png		\
-	gnome-settings-sound.png	\
 	gnome-settings-accessibility-keyboard.png	\
 	gnome-settings-default-applications.png		\
 	gnome-system-config.png		\
@@ -38,7 +36,6 @@ icons_DATA =				\
 	palm-pilot-sync.png		\
 	postscript-viewer.png		\
 	serviceconf.png			\
-	stock-ticker.png		\
 	visor.png			\
 	$(NULL)
 

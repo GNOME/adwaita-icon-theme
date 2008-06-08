@@ -28,8 +28,6 @@ icons_DATA =				\
 	gnome-finance.png		\
 	gnome-mini-commander.png	\
 	gnome-networktool.png		\
-	gnome-settings-sound.png	\
-	gnome-settings-ui-behavior.png	\
 	gnome-shutdown.png		\
 	gnome-status.png		\
 	help-browser.png		\
@@ -62,7 +60,6 @@ icons_DATA =				\
 	preferences-desktop-wallpaper.png	\
 	preferences-system-windows.png	\
 	shares.png			\
-	stock-ticker.png		\
 	system-file-manager.png		\
 	system-software-install.png	\
 	system-software-update.png	\

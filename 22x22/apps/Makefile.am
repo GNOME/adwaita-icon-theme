@@ -10,7 +10,6 @@ icons_DATA =				\
 	accessories-text-editor.png	\
 	applets-screenshooter.png	\
 	boot.png			\
-	gnome-settings-ui-behavior.png	\
 	gnome-shutdown.png		\
 	help-browser.png		\
 	im-aim.png			\
