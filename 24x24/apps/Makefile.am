@@ -32,7 +32,6 @@ icons_DATA =				\
 	gnome-settings-ui-behavior.png	\
 	gnome-shutdown.png		\
 	gnome-status.png		\
-	gnome-unknown.png		\
 	help-browser.png		\
 	im-aim.png			\
 	im-icq.png			\
