@@ -23,7 +23,6 @@ icons_DATA =				\
 	gnome-audio.png			\
 	gnome-cpu.png			\
 	gnome-desktop-config.png	\
-	gnome-eyes.png			\
 	gnome-favorites.png		\
 	gnome-finance.png		\
 	gnome-mini-commander.png	\
