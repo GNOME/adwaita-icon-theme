@@ -16,4 +16,7 @@ MAINTAINERCLEANFILES =	\
 
 install-data-local: install-iconsDATA
 	(cd $(DESTDIR)$(themedir)/$(size) && $(ICONMAP) -c $(context))
-
+	(cd $(DESTDIR)$(themedir)/$(size)/$(context) && \
+		ln -s process-idle.png gnome-searchtool-animation-rest.png && \
+		ln -s process-working.png gnome-searchtool-animation.png \
+	)

@@ -21,8 +21,6 @@ icons_DATA =				\
 	gnome-finance.png		\
 	gnome-networktool.png		\
 	gnome-pdf.png			\
-	gnome-searchtool-animation.png	\
-	gnome-searchtool-animation-rest.png	\
 	gnome-server-config.png		\
 	gnome-settings-accessibility-keyboard.png	\
 	gnome-settings-default-applications.png		\
