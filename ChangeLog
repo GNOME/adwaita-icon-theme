@@ -1,5 +1,17 @@
 2008-06-09  Rodney Dawes  <dobey.pwns@gmail.com>
 
+	* 32x32/apps/Makefile.am:
+	* 32x32/apps/gnome-settings-ui-behavior.*:
+	* scalable/apps/Makefile.am:
+	* scalable/apps/gnome-settings-ui-behavior.svg:
+	Remove this icon as it is no longer needed
+
+	* 48x48/apps/Makefile.am:
+	* 48x48/apps/gnome-settings-accessibility-keyboard.png:
+	Remove this icon as it is no longer used (in gnome-control-center)
+
+2008-06-09  Rodney Dawes  <dobey.pwns@gmail.com>
+
 	* 48x48/animations/Makefile.am:
 	* 48x48/apps/Makefile.am:
 	* 48x48/apps/gnome-searchtool-animation.png:

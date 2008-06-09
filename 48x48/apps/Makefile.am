@@ -22,7 +22,6 @@ icons_DATA =				\
 	gnome-networktool.png		\
 	gnome-pdf.png			\
 	gnome-server-config.png		\
-	gnome-settings-accessibility-keyboard.png	\
 	gnome-settings-default-applications.png		\
 	gnome-system-config.png		\
 	hint.png			\

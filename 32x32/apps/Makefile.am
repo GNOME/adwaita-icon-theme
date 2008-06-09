@@ -9,7 +9,6 @@ icons_DATA =				\
 	accessories-character-map.png	\
 	accessories-dictionary.png	\
 	accessories-text-editor.png	\
-	gnome-settings-ui-behavior.png	\
 	help-browser.png		\
 	logviewer.png			\
 	multimedia-volume-control.png			\
