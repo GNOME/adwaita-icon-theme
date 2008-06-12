@@ -10,6 +10,8 @@ icons_DATA =				\
 	appointment-new.png		\
 	bookmark-new.png		\
 	contact-new.png			\
+	call-start.png		\
+	call-stop.png		\
 	document-new.png		\
 	document-open.png		\
 	document-open-recent.png	\
