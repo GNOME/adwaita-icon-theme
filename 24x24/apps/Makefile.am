@@ -14,7 +14,6 @@ icons_DATA =				\
 	applets-screenshooter.png	\
 	boot.png			\
 	character-picker.png		\
-	display-capplet.png		\
 	evolution-calendar.png		\
 	evolution-mail.png		\
 	evolution-tasks.png		\

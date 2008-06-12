@@ -1,3 +1,42 @@
+2008-06-12  Rodney Dawes  <dobey.pwns@gmail.com>
+
+	* 24x24/apps/Makefile.am:
+	* 24x24/apps/display-capplet.png:
+	Remove this as control-center ships its own
+	
+	* 48x48/apps/Makefile.am:
+	* 48x48/apps/gnome-amusements.png:
+	* 48x48/apps/gnome-audio.png:
+	* 48x48/apps/gnome-desktop-config.png:
+	* 48x48/apps/gnome-pdf.png:
+	* 48x48/apps/gnome-server-config.png:
+	* 48x48/apps/gnome-system-config.png:
+	* 48x48/apps/hint.png:
+	* 48x48/apps/im.png:
+	* 48x48/apps/launcher-program.png:
+	* 48x48/apps/postscript-viewer.png:
+	Remove more deprecated icons
+
+	* 48x48/emblems/Makefile.am:
+	* 48x48/emblems/emblem-OK.*:
+	* 48x48/emblems/emblem-camera.*:
+	* 48x48/emblems/emblem-distinguished.*:
+	* 48x48/emblems/emblem-draft.*:
+	* 48x48/emblems/emblem-handshake.*:
+	* 48x48/emblems/emblem-note.*:
+	* 48x48/emblems/emblem-people.*:
+	* 48x48/emblems/emblem-pictures.*:
+	* 48x48/emblems/emblem-presentation.*:
+	* 48x48/emblems/emblem-sound.*:
+	* 48x48/emblems/emblem-trash.*:
+	Remove some otherwise useless emblems
+
+	* 48x48/emblems/Makefile.am:
+	* 48x48/emblems/emblem-desktop.*:
+	* scalable/emblems/Makefile.am:
+	* scalable/emblems/emblem-desktop.*:
+	Replaced the old emblem-desktop with a new style version
+
 2008-06-09  Rodney Dawes  <dobey.pwns@gmail.com>
 
 	* 32x32/apps/Makefile.am:

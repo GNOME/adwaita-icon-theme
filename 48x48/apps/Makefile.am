@@ -14,24 +14,14 @@ icons_DATA =				\
 	config-xfree.png		\
 	disks.png			\
 	gdm.png				\
-	gnome-amusements.png		\
-	gnome-audio.png			\
-	gnome-desktop-config.png 	\
 	gnome-favorites.png		\
 	gnome-finance.png		\
 	gnome-networktool.png		\
-	gnome-pdf.png			\
-	gnome-server-config.png		\
 	gnome-settings-default-applications.png		\
-	gnome-system-config.png		\
-	hint.png			\
 	hwbrowser.png			\
-	im.png				\
-	launcher-program.png		\
 	network-config.png		\
 	palm-pilot.png			\
 	palm-pilot-sync.png		\
-	postscript-viewer.png		\
 	serviceconf.png			\
 	visor.png			\
 	$(NULL)

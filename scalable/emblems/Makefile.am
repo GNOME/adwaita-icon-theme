@@ -6,6 +6,7 @@ iconsdir = $(themedir)/$(size)/$(context)
 svgdir = $(iconsdir)
 
 icon_in_files =				\
+	emblem-desktop.icon.in		\
 	emblem-documents.icon.in	\
 	emblem-downloads.icon.in	\
 	emblem-favorite.icon.in		\
@@ -26,6 +27,7 @@ icons_DATA =				\
 
 svg_DATA =				\
 	emblem-default.svg		\
+	emblem-desktop.svg		\
 	emblem-documents.svg		\
 	emblem-downloads.svg		\
 	emblem-favorite.svg		\
