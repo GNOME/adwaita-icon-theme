@@ -1,5 +1,13 @@
 2008-06-14  Rodney Dawes  <dobey.pwns@gmail.com>
 
+	* configure.in:
+	Up the icon-naming-utils requirement to 0.8.7 (#523707)
+	Remove 48x48/emblems/Makefile from AC_OUTPUT
+
+	Fixes #523707
+
+2008-06-14  Rodney Dawes  <dobey.pwns@gmail.com>
+
 	* 48x48/animations/Makefile.am:
 	Use ln -sf for installing the symlink for gnome-searchtool animation
 

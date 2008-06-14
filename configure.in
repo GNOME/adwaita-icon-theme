@@ -34,7 +34,7 @@ if expr $DEVVERSION % 2 > /dev/null != "0"; then
 else
    AC_MSG_RESULT([no])
 
-   UTILS_REQUIRED=0.8.1
+   UTILS_REQUIRED=0.8.7
 
    AC_MSG_CHECKING([icon-naming-utils >= $UTILS_REQUIRED])
    PKG_CHECK_EXISTS(icon-naming-utils >= $UTILS_REQUIRED,
@@ -141,7 +141,6 @@ scalable/Makefile
 48x48/animations/Makefile
 48x48/apps/Makefile
 48x48/devices/Makefile
-48x48/emblems/Makefile
 48x48/filesystems/Makefile
 48x48/stock/Makefile
 48x48/stock/code/Makefile
