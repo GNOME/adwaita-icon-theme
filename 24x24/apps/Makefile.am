@@ -8,26 +8,8 @@ icons_DATA =				\
 	accessories-character-map.png	\
 	accessories-dictionary.png	\
 	accessories-text-editor.png	\
-	administration.png		\
-	advanced-directory.png		\
-	apacheconf.png			\
 	applets-screenshooter.png	\
-	boot.png			\
-	character-picker.png		\
-	evolution-calendar.png		\
-	evolution-mail.png		\
-	evolution-tasks.png		\
-	gdm.png				\
-	gnome-amusements.png		\
-	gnome-audio.png			\
-	gnome-cpu.png			\
-	gnome-desktop-config.png	\
-	gnome-favorites.png		\
-	gnome-finance.png		\
-	gnome-mini-commander.png	\
-	gnome-networktool.png		\
 	gnome-shutdown.png		\
-	gnome-status.png		\
 	help-browser.png		\
 	im-aim.png			\
 	im-icq.png			\
@@ -37,16 +19,6 @@ icons_DATA =				\
 	im-yahoo.png			\
 	logviewer.png			\
 	multimedia-volume-control.png	\
-	ooo_calc.png			\
-	ooo_draw.png			\
-	ooo_gulls.png			\
-	ooo_impress.png			\
-	ooo_math.png			\
-	ooo_printeradmin.png		\
-	ooo_template.png		\
-	ooo_web.png			\
-	ooo_writer.png			\
-	postscript-viewer.png		\
 	preferences-desktop-accessibility.png	\
 	preferences-desktop-font.png	\
 	preferences-desktop-keyboard.png	\
@@ -57,7 +29,6 @@ icons_DATA =				\
 	preferences-desktop-screensaver.png	\
 	preferences-desktop-wallpaper.png	\
 	preferences-system-windows.png	\
-	shares.png			\
 	system-file-manager.png		\
 	system-software-install.png	\
 	system-software-update.png	\

@@ -1,5 +1,35 @@
 2008-06-15  Rodney Dawes  <dobey.pwns@gmail.com>
 
+	* 24x24/apps/Makefile.am:
+	* 48x48/apps/Makefile.am:
+	* */apps/administration.png:
+	* */apps/advanced-directory.png:
+	* */apps/apacheconf.png:
+	* */apps/boot.png:
+	* */apps/character-picker.png:
+	* */apps/config-*.png:
+	* */apps/disks.png:
+	* */apps/evolution-*.png:
+	* */apps/gdm.png:
+	* */apps/gnome-amusements.png:
+	* */apps/gnome-audio.png:
+	* */apps/gnome-cpu.png:
+	* */apps/gnome-desktop-config.png:
+	* */apps/gnome-favorites.png:
+	* */apps/gnome-finance.png:
+	* */apps/gnome-mini-commander.png:
+	* */apps/gnome-networktool.png:
+	* */apps/gnome-status.png:
+	* */apps/hwbrowser.png:
+	* */apps/network-config.png:
+	* */apps/ooo_*.png:
+	* */apps/postscript-viewer.*:
+	* */apps/serviceconf.png:
+	* */apps/shares.png:
+	Remove some more deprecated icons
+	
+2008-06-15  Rodney Dawes  <dobey.pwns@gmail.com>
+
 	* Makefile.am:
 	Remove the intltool scripts bits, as new intltool uses installed copies
 
