@@ -1,5 +1,13 @@
 2008-06-15  Rodney Dawes  <dobey.pwns@gmail.com>
 
+	* */actions/Makefile.am:
+	* */apps/Makefile.am:
+	* */actions/system-shutdown.*:
+	* */apps/gnome-shutdown.*:
+	Move the apps/gnome-shutdown icon to actions/system-shutdown
+
+2008-06-15  Rodney Dawes  <dobey.pwns@gmail.com>
+
 	* 24x24/apps/Makefile.am:
 	* 48x48/apps/Makefile.am:
 	* */apps/administration.png:

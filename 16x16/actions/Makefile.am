@@ -95,6 +95,7 @@ icons_DATA =				\
 	system-log-out.png		\
 	system-run.png			\
 	system-search.png		\
+	system-shutdown.png		\
 	tab-new.png			\
 	tools-check-spelling.png	\
 	view-fullscreen.png		\

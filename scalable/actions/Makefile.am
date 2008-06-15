@@ -91,6 +91,7 @@ icons_DATA =				\
 	system-log-out.svg		\
 	system-run.svg			\
 	system-search.svg		\
+	system-shutdown.svg		\
 	tools-check-spelling.svg	\
 	view-fullscreen.svg		\
 	view-refresh.svg		\
