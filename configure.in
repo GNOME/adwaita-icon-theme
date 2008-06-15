@@ -7,7 +7,7 @@ AC_CONFIG_SRCDIR(index.theme.in)
 
 AM_INIT_AUTOMAKE([1.9 tar-ustar])
 
-IT_PROG_INTLTOOL([0.35.0])
+IT_PROG_INTLTOOL([0.40.0])
 PKG_PROG_PKG_CONFIG([0.19])
 
 GETTEXT_PACKAGE="${PACKAGE}"
@@ -26,14 +26,24 @@ AC_SUBST(ACLOCAL_AMFLAGS, "\${ACLOCAL_FLAGS}")
 # Define the toplevel path here
 AC_SUBST(themedir, "\${datadir}/icons/gnome")
 
-ICONMAP="true"
 AC_MSG_CHECKING([development series build])
 DEVVERSION="`echo $PACKAGE_VERSION|cut -d. -f2`"
 if expr $DEVVERSION % 2 > /dev/null != "0"; then
+   mapenable=no
    AC_MSG_RESULT([yes])
 else
+   mapenable=yes
    AC_MSG_RESULT([no])
+fi
 
+AC_ARG_ENABLE([icon-mapping],
+	AC_HELP_STRING([--enable-icon-mapping],
+			[Enable compatibility symlinks [default=$mapenable]]),
+	enable_mapping=$enableval,
+	enable_mapping=$mapenable)
+
+ICONMAP="true"
+if test "x$enable_mapping" != "xno"; then
    UTILS_REQUIRED=0.8.7
 
    AC_MSG_CHECKING([icon-naming-utils >= $UTILS_REQUIRED])

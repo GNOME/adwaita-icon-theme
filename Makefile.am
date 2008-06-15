@@ -11,9 +11,6 @@ theme_DATA = index.theme
 
 EXTRA_DIST=				\
 	index.theme.in 			\
-	intltool-update.in 		\
-	intltool-merge.in 		\
-	intltool-extract.in		\
 	gnome-icon-theme.pc.in		\
 	mkinstalldirs
 
@@ -25,19 +22,11 @@ install-data-local:
 CLEANFILES = 				\
 	index.theme
 
-DISTCLEANFILES = 			\
-	intltool-extract		\
-	intltool-merge			\
-	intltool-update
-
 MAINTAINERCLEANFILES =			\
 	Makefile.in			\
 	aclocal.m4			\
 	configure			\
 	install-sh			\
-	intltool-extract.in		\
-	intltool-merge.in		\
-	intltool-update.in		\
 	missing				\
 	mkinstalldirs
 

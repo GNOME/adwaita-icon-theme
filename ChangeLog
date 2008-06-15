@@ -1,5 +1,15 @@
 2008-06-15  Rodney Dawes  <dobey.pwns@gmail.com>
 
+	* Makefile.am:
+	Remove the intltool scripts bits, as new intltool uses installed copies
+
+	* configure.in:
+	Up the intltool requirement to 0.40.0
+	Update the devel version check and add an --enable-icon-mapping
+	argument to configure for forcing the use of symlinks for packagers
+
+2008-06-15  Rodney Dawes  <dobey.pwns@gmail.com>
+
 	* configure.in:
 	Up version to 2.23.1 for release
 
