@@ -6,7 +6,6 @@ iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
 	applets-screenshooter.png	\
-	gnome-settings-default-applications.png		\
 	palm-pilot.png			\
 	palm-pilot-sync.png		\
 	visor.png			\

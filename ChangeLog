@@ -1,5 +1,13 @@
 2008-06-15  Rodney Dawes  <dobey.pwns@gmail.com>
 
+	* 48x48/apps/Makefile.am:
+	* 48x48/apps/gnome-settings-default-applications.png:
+	Remove this icon which is no longer needed
+
+	Fixes #538474
+
+2008-06-15  Rodney Dawes  <dobey.pwns@gmail.com>
+
 	* configure.in:
 	Fix the help text for icon-mapping to say auto instead of $mapenable
 
