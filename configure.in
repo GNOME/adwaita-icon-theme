@@ -38,7 +38,7 @@ fi
 
 AC_ARG_ENABLE([icon-mapping],
 	AC_HELP_STRING([--enable-icon-mapping],
-			[Enable compatibility symlinks [default=$mapenable]]),
+			[Enable compatibility symlinks [default=auto]]),
 	enable_mapping=$enableval,
 	enable_mapping=$mapenable)
 
