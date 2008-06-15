@@ -9,7 +9,6 @@ icons_DATA =				\
 	accessories-dictionary.png	\
 	accessories-text-editor.png	\
 	applets-screenshooter.png	\
-	boot.png			\
 	help-browser.png		\
 	im.png				\
 	im-aim.png			\
