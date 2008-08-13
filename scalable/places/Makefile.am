@@ -13,6 +13,7 @@ icons_DATA =			\
 	network-server.svg	\
 	network-workgroup.svg	\
 	start-here.svg		\
+	user-bookmark.svg	\
 	user-desktop.svg	\
 	user-home.svg		\
 	user-trash.svg
