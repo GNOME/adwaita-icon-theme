@@ -1,3 +1,8 @@
+2008-08-14  Wouter Bolsterlee  <wbolster@svn.gnome.org>
+
+	* scalable/places/Makefile.am: Fixed typo that broke the
+	build: user-bookmark should be user-bookmarks.
+
 2008-08-13  Andreas Nilsson  <andreas@imendio.com>
 
 	* {16x16,22x22,24x24,32x32,scalable}/places/user-bookmarks.png:
