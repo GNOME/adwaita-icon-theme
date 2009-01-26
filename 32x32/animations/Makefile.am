@@ -5,7 +5,6 @@ context = animations
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =			\
-	process-idle.png	\
 	process-working.png
 
 EXTRA_DIST =		\

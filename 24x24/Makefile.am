@@ -1,6 +1,5 @@
 SUBDIRS =		\
 	actions		\
-	animations	\
 	apps		\
 	categories	\
 	devices		\
