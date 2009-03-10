@@ -5,11 +5,8 @@ context = actions
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA =				\
-	appointment-new.png		\
 	mail-mark-junk.png		\
-	mail-mark-not-junk.png		\
-	mail-message-new.png		\
-	mail-send-receive.png
+	mail-mark-not-junk.png
 
 EXTRA_DIST =				\
 	$(icons_DATA)
