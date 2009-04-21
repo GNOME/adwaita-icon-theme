@@ -6,7 +6,7 @@ include REXML
 INKSCAPE = '/usr/bin/inkscape'
 SRC = "./src"
 
-def renderit(file)
+def renderit(file,explicit)
   svg = Document.new(File.new("#{SRC}/#{file}", 'r'))
   #puts "DEBUG: #{file}"
   svg.root.each_element("//g[contains(@inkscape:label,'baseplate')]") do |icon|
@@ -19,7 +19,7 @@ def renderit(file)
         out = "#{dir}/#{icon_name.gsub(/$/,'.png')}"
         cmd = "#{INKSCAPE} -i #{box.attributes['id']} -e #{out} #{SRC}/#{file} > /dev/null 2>&1"
         File.makedirs(dir) unless File.exists?(dir)
-        if File.exists?(out)
+        if (!explicit && File.exists?(out))
           print "-" #skip if PNG exists
         else
           system(cmd)
@@ -34,13 +34,13 @@ end
 if (ARGV[0].nil?) #render all SVGs
   puts "Rendering from SVGs in #{SRC}"
   Dir.foreach(SRC) do |file|
-    renderit(file) if file.match(/svg$/)
+    renderit(file, false) if file.match(/svg$/)
   end
   puts "\nrendered all SVGs"
 else #only render the SVG passed
   file = "#{ARGV[0]}.svg"
   if (File.exists?("#{SRC}/#{file}"))
-    renderit(file)
+    renderit(file,true)
     puts "\nrendered #{file}"
   else
     puts "[E] No such file (#{file})"
