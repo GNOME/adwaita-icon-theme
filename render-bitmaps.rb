@@ -40,7 +40,7 @@ if (ARGV[0].nil?) #render all SVGs
 else #only render the SVG passed
   file = "#{ARGV[0]}.svg"
   if (File.exists?("#{SRC}/#{file}"))
-    renderit(file,true)
+    renderit(file, true)
     puts "\nrendered #{file}"
   else
     puts "[E] No such file (#{file})"
