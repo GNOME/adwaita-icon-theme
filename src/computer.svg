@@ -16,7 +16,7 @@
    height="300"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.46+devel"
+   inkscape:version="0.46"
    sodipodi:docname="computer.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
@@ -62,13 +62,6 @@
   </sodipodi:namedview>
   <defs
      id="defs3">
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 150 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="400 : 150 : 1"
-       inkscape:persp3d-origin="200 : 100 : 1"
-       id="perspective825" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient4158">
@@ -3374,15 +3367,17 @@
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
         <dc:creator>
           <cc:Agent>
-            <dc:title />
+            <dc:title>Lapo Calamandrei</dc:title>
           </cc:Agent>
         </dc:creator>
         <dc:source />
         <cc:license
            rdf:resource="" />
-        <dc:title />
+        <dc:title>Computer</dc:title>
         <dc:subject>
-          <rdf:Bag />
+          <rdf:Bag>
+            <rdf:li>computer</rdf:li>
+          </rdf:Bag>
         </dc:subject>
         <dc:date />
         <dc:rights>
@@ -3402,7 +3397,7 @@
         <dc:description />
         <dc:contributor>
           <cc:Agent>
-            <dc:title />
+            <dc:title>Jakub Steiner</dc:title>
           </cc:Agent>
         </dc:contributor>
       </cc:Work>
