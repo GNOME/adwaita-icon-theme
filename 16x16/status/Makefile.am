@@ -12,6 +12,10 @@ icons_DATA =				\
 	audio-volume-medium.png		\
 	audio-volume-muted.png		\
 	battery-caution.png		\
+	battery-charging.png		\
+	battery-critical.png		\
+	battery-full.png		\
+	battery-good.png		\
 	battery-low.png			\
 	dialog-error.png		\
 	dialog-information.png		\
@@ -47,6 +51,12 @@ icons_DATA =				\
 	software-update-urgent.png	\
 	task-due.png	\
 	task-past-due.png		\
+	user-away.png			\
+	user-busy.png			\
+	user-idle.png			\
+	user-invisible.png		\
+	user-offline.png		\
+	user-online.png			\
 	user-trash-full.png		\
 	weather-clear.png		\
 	weather-clear-night.png		\

@@ -20,9 +20,13 @@ icons_DATA =				\
 	x-office-address-book.png	\
 	x-office-calendar.png		\
 	x-office-document.png		\
+	x-office-document-template.png	\
 	x-office-drawing.png		\
+	x-office-drawing-template.png	\
 	x-office-presentation.png	\
-	x-office-spreadsheet.png
+	x-office-presentation-template.png\
+	x-office-spreadsheet.png	\
+	x-office-spreadsheet-template.png
 
 EXTRA_DIST =		\
 	$(icons_DATA)

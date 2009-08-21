@@ -11,6 +11,7 @@ icons_DATA =				\
 	audio-volume-muted.png		\
 	battery-caution.png		\
 	battery-charging.png		\
+	battery-critical.png		\
 	battery-full.png		\
 	battery-good.png		\
 	battery-low.png			\
