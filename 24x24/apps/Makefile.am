@@ -10,12 +10,6 @@ icons_DATA =				\
 	accessories-text-editor.png	\
 	applets-screenshooter.png	\
 	help-browser.png		\
-	im-aim.png			\
-	im-icq.png			\
-	im-jabber.png			\
-	im-msn.png			\
-	im-nov.png			\
-	im-yahoo.png			\
 	logviewer.png			\
 	multimedia-volume-control.png	\
 	preferences-desktop-accessibility.png	\
