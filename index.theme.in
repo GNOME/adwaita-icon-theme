@@ -3,7 +3,7 @@ _Name=Mango
 _Comment=Default GNOME theme.
 Inherits=Tango,oxygen
 
-Directories=256x256/actions,256x256/mimetypes,256x256/places,256x256/status,48x48/apps,48x48/mimetypes,48x48/places,48x48/status,32x32/actions,32x32/animations,32x32/apps/,32x32/categories,32x32/devices,32x32/emblems,32x32/emotes,32x32/mimetypes,32x32/places,32x32/status,24x24/actions,24x24/apps,24x24/mimetypes,24x24/places,24x24/status,22x22/actions,22x22/emblems,22x22/mimetypes,22x22/places,22x22/status,16x16/actions,16x16/animations,16x16/apps,16x16/categories,16x16/devices,16x16/emblems,16x16/emotes,16x16/mimetypes,16x16/places,16x16/status
+Directories=256x256/actions,256x256/mimetypes,256x256/places,256x256/status,48x48/apps,48x48/mimetypes,48x48/places,48x48/status,32x32/actions,32x32/animations,32x32/apps/,32x32/categories,32x32/devices,32x32/emblems,32x32/emotes,32x32/mimetypes,32x32/places,32x32/status,24x24/actions,24x24/apps,24x24/mimetypes,24x24/places,24x24/status,22x22/actions,22x22/animations,22x22/apps,22x22/categories,22x22/devices,22x22/emblems,22x22/emotes,22x22/mimetypes,22x22/places,22x22/status,16x16/actions,16x16/animations,16x16/apps,16x16/categories,16x16/devices,16x16/emblems,16x16/emotes,16x16/mimetypes,16x16/places,16x16/status
 
 [256x256/actions]
 Size=256
@@ -138,14 +138,34 @@ Size=22
 Context=Actions
 Type=Fixed
 
+[22x22/animations]
+Size=22
+Context=Animations
+Type=Fixed
+
 [22x22/apps]
 Size=22
 Context=Applications
 Type=Fixed
 
+[22x22/categories]
+Size=22
+Context=Categories
+Type=Fixed
+
+[22x22/devices]
+Size=22
+Context=Devices
+Type=Fixed
+
 [22x22/emblems]
 Size=22
 Context=Emblems
+Type=Fixed
+
+[22x22/emotes]
+Size=22
+Context=Emotes
 Type=Fixed
 
 [22x22/mimetypes]
