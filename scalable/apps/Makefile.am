@@ -8,13 +8,6 @@ icons_DATA =				\
 	accessories-character-map.svg	\
 	accessories-dictionary.svg	\
 	accessories-text-editor.svg	\
-	help-browser.svg		\
-	im-aim.svg			\
-	im-icq.svg			\
-	im-jabber.svg			\
-	im-msn.svg			\
-	im-nov.svg			\
-	im-yahoo.svg			\
 	logviewer.svg			\
 	multimedia-volume-control.svg	\
 	preferences-desktop-accessibility.svg	\
