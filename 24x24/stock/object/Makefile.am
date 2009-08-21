@@ -72,3 +72,5 @@ icon_DATA =\
 	$(NULL)
 
 EXTRA_DIST = $(icon_DATA)
+
+-include $(top_srcdir)/git.mk

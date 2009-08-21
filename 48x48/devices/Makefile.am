@@ -12,3 +12,5 @@ EXTRA_DIST =				\
 
 install-data-local: install-iconsDATA
 	(cd $(DESTDIR)$(themedir)/$(size) && $(ICONMAP) -c $(context))
+
+-include $(top_srcdir)/git.mk

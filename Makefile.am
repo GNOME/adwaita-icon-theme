@@ -23,6 +23,7 @@ CLEANFILES = 				\
 	index.theme
 
 MAINTAINERCLEANFILES =			\
+	INSTALL				\
 	Makefile.in			\
 	aclocal.m4			\
 	configure			\
@@ -30,3 +31,5 @@ MAINTAINERCLEANFILES =			\
 	missing				\
 	mkinstalldirs
 
+
+-include $(top_srcdir)/git.mk

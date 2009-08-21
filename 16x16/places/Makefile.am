@@ -44,3 +44,5 @@ check:
 			fi; \
 		done; \
 	fi
+
+-include $(top_srcdir)/git.mk
