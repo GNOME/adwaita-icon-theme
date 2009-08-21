@@ -2,7 +2,9 @@ SUBDIRS =		\
 	actions		\
 	animations	\
 	apps		\
+	categories	\
 	devices		\
+	emblems		\
 	mimetypes	\
 	places		\
 	stock
