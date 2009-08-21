@@ -3,6 +3,7 @@ SUBDIRS =		\
 	animations	\
 	apps		\
 	devices		\
+	mimetypes	\
 	places		\
 	stock
 
