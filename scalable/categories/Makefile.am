@@ -7,7 +7,6 @@ icons_DATA =				\
 	applications-accessories.svg	\
 	applications-development.svg	\
 	applications-engineering.svg	\
-	applications-graphics.svg	\
 	applications-internet.svg	\
 	applications-multimedia.svg	\
 	applications-office.svg		\
