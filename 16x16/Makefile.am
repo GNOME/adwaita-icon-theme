@@ -4,9 +4,8 @@ SUBDIRS = 		\
 	apps		\
 	categories	\
 	devices		\
-	emblems	\
-	emotes \
-	filesystems	\
+	emblems		\
+	emotes		\
 	mimetypes	\
 	places		\
 	status		\

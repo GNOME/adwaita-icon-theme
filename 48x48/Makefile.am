@@ -3,7 +3,6 @@ SUBDIRS =		\
 	animations	\
 	apps		\
 	devices		\
-	filesystems	\
 	places		\
 	stock
 
