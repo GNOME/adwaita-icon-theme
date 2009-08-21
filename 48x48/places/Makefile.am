@@ -1,5 +1,5 @@
 
-size = 32x32
+size = 48x48
 context = places
 
 iconsdir = $(themedir)/$(size)/$(context)
@@ -7,13 +7,10 @@ iconsdir = $(themedir)/$(size)/$(context)
 icons_DATA =			\
 	folder.icon		\
 	folder.png		\
+	folder-remote.icon	\
 	folder-remote.png	\
 	folder-saved-search.png	\
-	network-server.png	\
 	network-workgroup.png	\
-	start-here.png		\
-	user-bookmarks.png	\
-	user-desktop.png	\
 	user-home.png		\
 	user-trash.png
 
@@ -28,7 +25,7 @@ install-data-local: install-iconsDATA
 
 check:
 	if test -r CVS/Entries; then \
-		for icon in *.png; do \
+		for icon in *.svg; do \
 			if grep $$icon CVS/Entries > /dev/null; then \
 				if ! grep $$icon Makefile > /dev/null; then \
 					echo "Missing $$icon in Makefile.am"; \
@@ -37,7 +34,7 @@ check:
 			fi; \
 		done; \
 	else \
-		for icon in *.png; do \
+		for icon in *.svg; do \
 			if ! grep $$icon Makefile > /dev/null; then \
 				echo "Missing $$icon in Makefile.am"; \
 				exit 1; \

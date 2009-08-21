@@ -4,6 +4,7 @@ SUBDIRS =		\
 	apps		\
 	devices		\
 	filesystems	\
+	places		\
 	stock
 
 MAINTAINERCLEANFILES =	\
