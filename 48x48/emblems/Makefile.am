@@ -1,4 +1,3 @@
-NULL=
 
 size = 48x48
 context = emblems
@@ -8,10 +7,12 @@ icons_DATA =				\
 	emblem-photos.png		\
 	emblem-readonly.png		\
 	emblem-symbolic-link.png	\
-	emblem-unreadable.png		\
-	$(NULL)
+	emblem-unreadable.png
 
 EXTRA_DIST = $(icons_DATA)
+
+MAINTAINERCLEANFILES =	\
+	Makefile.in
 
 install-data-local: install-iconsDATA
 	(cd $(DESTDIR)$(themedir)/$(size) && $(ICONMAP) -c $(context))
