@@ -1,6 +1,0 @@
-themedir = $(datadir)/icons/gnome/256x256/mimetypes
-theme_DATA =   application-x-executable.png audio-x-generic.png font-x-generic.png image-x-generic.png package-x-generic.png text-html.png text-x-generic.png text-x-generic-template.png text-x-script.png video-x-generic.png x-office-address-book.png x-office-document.png x-office-document-template.png x-office-drawing.png x-office-drawing-template.png x-office-presentation.png x-office-presentation-template.png x-office-spreadsheet.png x-office-spreadsheet-template.png
-EXTRA_DIST = $(theme_DATA)
-install-data-local: install-themeDATA
-	(cd "$(DESTDIR)$(themedir)" && $(ICONMAP) -c mimetypes )
-MAINTAINERCLEANFILES = Makefile.in
