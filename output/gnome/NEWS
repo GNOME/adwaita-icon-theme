@@ -1,0 +1,483 @@
+Version 2.16.0.1
+
+* Updated system-lock-screen icon to fill all sizes
+  -- bug #354257 (Lapo Calamandrei)
+* Updated accessories-text-editor icon to fill all sizes
+  -- bug #354256 (Lapo Calamandrei)
+* Updated 24x24 utilities-terminal icon from 22x22 icon
+  -- bug #354279 (Rodney Dawes)
+
+Version 2.16.0
+
+* Add gtk-edit icon at 16x16, 22x22, and 24x24 sizes (Lapo Calamandrei)
+* Install 24x24 video-display icon
+  -- bug #354112 (Rodney Dawes)
+* Update 24x24 computer icon from updated 22x22 source
+  -- bug #354111 (Rodney Dawes)
+* Add a new logviewer icon (Lapo Calamandrei)
+* New help-browser, emblem-new, and user-desktop icons (Lapo Calamandrei)
+* New text-x-generic-template icon (Andreas Nilsson)
+* Add scalable and 32x32 go action icons (Andras Nilsson)
+* Updated scalable and 32x32 go-home icons (Lapo Calamandrei)
+* New list-add and list-remove icons
+  -- bug #348415 (Andreas Nilsson)
+* Port some cvs emblem icons to scalable (Rodney Dawes)
+* Replace emblem-package and emblem-web with new style icons (Rodney Dawes)
+* Add missing 32x32 mimetypes directory to index.theme.in (Rodney Dawes)
+* Updated network status icons (Lapo Calamandrei)
+* New translations [mg, mr]
+
+Version 2.15.92
+
+* Add x-office-drawing icon (Lapo Calamandrei)
+* Add 32x32 mime type icons (Lapo Calamandrei)
+* Update scalable mime type icon shadows (Lapo Calamandrei)
+* Add application-certificate icon (Andreas Nilsson)
+* More icon cleanup to remove replaced icons (Rodney Dawes)
+* Add zoom-best-fit icon (Lapo Calamandrei)
+* Add 32x32 and scalable folder-new icons (Lapo Calamandrei)
+* Fix scalable web-browser icon not being installed
+  -- bug #351249 (Rodney Dawes)
+* 32x32 versions of zoom icons (Lapo Calamandrei)
+* Updated style weather status icons (Lapo Calamandrei)
+* 32x32 and scalable applications-development icons (Andreas Nilsson)
+* Updated translations [de]
+
+Version 2.15.91
+
+* Add applications-accessories scalable icon (Andreas Nilsson, Jakub Steiner)
+* Add new preferences-system icon (Andreas Nilsson, Jakub Steiner)
+* Add new network-workgroup icon (Andreas Nilsson, Jakub Steiner)
+* Add missing size icons, and fixes (Lapo Calamandrei, Jakub Steiner)
+* Add new start-here icon (Lapo Calamandrei, Jakub Steiner)
+* Add new media-flash icon (Rodney Dawes, Jakub Steiner)
+* New generic multimedia-player icon (Andreas Nilsson, Jakub Steiner)
+* Add new network-server icon (Andreas Nilsson, Jakub Steiner)
+* Add new applications-games icon (Andreas Nilsson, Jakub Steiner)
+* Rename {drive,media}-cdrom to {drive,media}-optical (Rodney Dawes)
+* Add properly sized process-{idle,working} animation icons
+  -- bug #349353 (Jakub Steiner)
+* Add missing directories to index.theme.in
+  -- bug #349353 (Rodney Dawes)
+* Add missing tab-new in 16x16/actions/Makefile.am
+  -- bug #348981 (Rodney Dawes)
+* Add new view-fullscreen and view-restore icons (Jakub Steiner)
+* New and updated translations [bn_IN, fr, mk, ml, or]
+
+Version 2.15.90
+
+* Moved stock_* fullscreen icons to view-* action names (Rodney Dawes)
+* Removed stock_close icons
+  -- bug #348509 (Rodney Dawes)
+* Removed stock_open icons
+  -- bug #348401 (Rodney Dawes)
+* Add document-new icons and update new "emblem" on *-new icons
+  -- bug #348433 (Jakub Steiner)
+* New utilities-terminal icons (Andreas Nilsson)
+* Fix missing computer.svg in scalable/devices/Makefile.am (Rodney Dawes)
+* New system-run icons (Lapo Calamendrei)
+* New preferences-desktop-screensaver and system-file-manager (Andreas Nilsson)
+* 32x32 version of spinner images (Jakub Steiner)
+* Removed some old icons replaced with newer versions already (Rodney Dawes)
+* Scalable versions of the appointment-* status icons
+  (Rodney Dawes, Jakub Steiner)
+
+Version 2.15.3
+
+* Various build related bug fixes
+  -- bugs #347083 #346870 #346306 #346580 (Rodney Dawes, Jakub Steiner)
+* More removal and renaming of icons
+  -- bugs #346621 #347023 (Rodney Dawes)
+* 8x8 version of the symlink emblem icon
+  -- bugs #311279 #310402 (Rodney Dawes)
+* Add folder-remote.icon for scalable to match emblems of folder.icon
+  -- bug #309113 (Rodney Dawes)
+* New symbolic link icon
+  -- bug #310402 (Jakub Steiner)
+* New utilities-system-monitor icon
+  -- bug #306537 (Rodney Dawes, Lapo Calemendrei)
+* New dialog-warning, dialog-error, dialog-information icons (Jakub Steiner)
+* New appointment status icons (Jakub Steiner)
+* Scalable version of applications-internet
+  -- bug #164068 (Rodney Dawes)
+* New emblem-important, emblem-favorite icons (Jakub Steiner)
+* New preferences-desktop-wallpaper icon
+  -- bug #313643 (Andreas Nilsson, Rodney Dawes, Jakub Steiner)
+* Removed xchat icon
+  -- bug #153078 (Rodney Dawes)
+* New audio-volume status icons at bitmap sizes (Jakub Steiner)
+* use proper coordinates for SVG for text-x-preview.icon
+  -- bug #329877 (Rodney Dawes)
+* New and updated translations [bn_IN, zh_HK, zh_TW]
+
+Version 2.15.2
+
+* Use of po/LINGUAS and requirement of intltool 0.35.0 (Rodney Dawes)
+* Scalable zoom icons (Lapo Calamendre, Jakub Steiner)
+* Updated translations [lv]
+
+Version 2.15.1
+
+* New printer device and print action icons (Lapo Calamendrei)
+* New find/replace action icons (Lapo Calamendrei)
+* Scalable delete/save action icons (Lapo Calamendrei)
+* New dictionary icon (Ulisse Perusin)
+* Remove obsolete no_NO locale (Kjartan Maraas)
+* Style updates for many icons (Jakub Steiner, Rodney Dawes, Lapo Calamendrei)
+* Remove unmaintained and distro-specific spec file (Rodney Dawes)
+* Added MAINTAINERS file (Rodney Dawes)
+* New and updated translations [be, ca, dz, et, ka]
+
+Changes since 2.13.7
+
+* Add in spinner animations to replace gnome-spinner images
+  (Jakub Steiner, Rodney Dawes)
+* Update scalable folders to match the pixmaps better (Jakub Steiner)
+ 
+Changes since 2.13.6
+
+* Require icon-naming-utils 0.6.7 for updates (Rodney Dawes)
+* Replace gnome-fs-regular with text-x-preview (Rodney Dawes)
+* Remove the old gnome-mime-application-x-gnome-saved-search icons that were
+  replaced with the folder-saved-search icon (Rodney Dawes)
+* Update 24x24 icons to match the new 22x22 icons (Rodney Dawes)
+* Remove 48x48/mimetypes as they are replaced by scalable versions
+  (Rodney Dawes)
+* Updated style for icons (Jakub Steiner)
+* Fix typographical error in index.theme.in (Luca Ferretti)
+* Renamed volume-knob to multimedia-volume-control to match naming spec
+  (Rodney Dawes)
+* Match color in 16px computer screen with larger versions
+  -- bug #165860 (Rodney Dawes)
+
+Changes since 2.13.5.1
+
+* Update a few icons to use hints from Tango Style Guidelines (Jakub Steiner)
+* Fix some icons being installed to wrong size locations (Rodney Dawes)
+
+Changes since 2.13.5
+
+* Initial major cleanup and porting to Icon Naming Spec
+  -- bugs #317460, #318505, #163693, #303601, #112909, #169745 (Rodney Dawes)
+* Replace the stock person icon with an abstract person icon
+  -- bug #311844 (Jakub Steiner)
+* No longer install icons to hicolor to prevent conflicts (Rodney Dawes)
+  (This change requires gtk+ 2.8.10 or newer for themes that do not explicitly
+   have a fallback hierarchy which includes "gnome" for several applications)
+
+Changes since 2.13.4
+
+* Do not use Scalable as the type for bitmap icons (Rodney Dawes)
+* New saved search icon (Jakub Steiner)
+* New translations [te]
+
+Changes since 2.13.2
+
+* Removed specific video mime type icons (Rodney Dawes)
+* Fixups for generic image mime type icon (Jakub Steiner)
+
+Changes since 2.13.0
+
+* Removed specific image mime type icons (Rodney Dawes)
+* Added ruby mime type icon
+  -- bug #317102
+* Updated translations [sk]
+
+Changes since 2.12.1
+
+* Improve architecture independence
+  -- bug #316200 (Stanislav Brabec)
+* Fix permissions of some installed png files to not be executable
+  -- bug #316173 (Stanislav Brabec)
+* Fix installation of media and emoticons to use gnome instead of hicolor
+  -- http://bugzilla.novell.com/show_bug.cgi?id=91387 (Rodney Dawes)
+* Change the volume-knob icon in all sizes, and replace 48x48 with svg
+  -- bug #408160 (Jakub Steiner)
+* Updated translations [bg, bn, eu]
+
+Changes since 2.11.92
+
+* Create icondir before installing into it and no / between destdir and icondir
+  (Tor Lillqvist)
+* Install scalable application icons to hicolor
+  (Jakub Steiner)
+* Make 48x48 filesystem icons be scalable again
+  -- bug #314346 (Jakub Steiner)
+* Updated translations [cy, ru]
+
+Changes since 2.11.91
+
+* Add a generic image-viewer icon
+  -- bug #167087 (Jakub Steiner)
+* Make 48x48 icons scalable so huge icons don't show up in menus
+  -- bug #313052 (Jakub Steiner)
+* Remove Adobe logo from postscript-viewer icon
+  -- bug #313390 (Jakub Steiner)
+* Remove Blender logo icons due to trademark issue (Jakub Steiner)
+* Updated translations [id]
+
+Changes since 2.11.90
+
+* Remove icons or parts of icons as appropriate to remove trademarks
+  (Rodney Dawes)
+* Remove KDE app info icons as the mime type is no longer used
+  (Rodney Dawes)
+* Remove seagulls from OpenDocument mime type icons
+  -- bug #303599 (Jakub Steiner, Rodney Dawes)
+* Add a DnD directory accept icon for 16px size
+  -- bug #306188 (Jakub Steiner)
+* Remove 192px sized cdrom icon
+  -- bug #312099 (Jakub Steiner)
+* Remove Firefox logo icon at 24px size
+  -- bug #312839 (Jakub Steiner)
+* Updated translations [sr, sr@Latn, zh_TW]
+
+Changes since 2.11.5
+
+* Install image files required by symlinks so cp does not break on win32
+  (Rodney Dawes)
+
+Changes since 2.11.4
+
+* Add -f argument to $LN_S variable
+  -- bug #309635 (Rodney Dawes)
+* Require automake 1.9 and use tar-ustar (Shaun McCance, Rodney Dawes)
+
+Changes since 2.10.1
+
+* More icons merged in from GPerfection theme (Jakub Steiner)
+* More conversion of emblems to SVG (Jakub Steiner)
+* New icon for Evolution (Jakub Steiner)
+* Support for Win32 (Tor Lillqvist, Rodney Dawes)
+* New stock_database icon at 16 and 24 px sizes
+  -- bug #132769 (Jakub Steiner)
+* Fix python mime type icon
+  -- bug #167182 (Jakub Steiner)
+* New and updated translations [gl, fa, rw, th, vi, xh, zh_TW]
+
+Changes since 2.10.0
+
+* New OpenOffice.org MIME type icons
+  -- bug #167296 (Jakub Steiner)
+* Renamed gnome-fs-{locally-shared,share-private} to stock_shared-{by,to}-me
+  (Jakub Steiner)
+* Updated translations [en_CA]
+
+Changes since 2.9.92
+
+* Updated translations [hu, pl, ro, sr, sr@Latn, zh_TW]
+
+Changes since 2.9.91
+
+* Scalable mail emblem (Jakub Steiner, Andreas Nilsson)
+* Text Editor icon (Jakub Steiner)
+* 16 pixel versions of 1394 and usb device icons
+  -- bug #166193 (Jakub Steiner)
+* 16 pixel versions of gnome-fs-{ftp,nfs,smb,ssh} icons
+  -- bug #166192 (Jakub Steiner)
+* Consistent wallpaper color for all gnome-fs-client icons
+  -- bug #165860 (Jakub Steiner)
+* Replaced larger gnome-fs-{directory,home} icons with SVG (Jakub Steiner)
+* Updated translations [bg, ca, da, el, en_GB, et, fr, gu, ko, nl, sq, sv, ko]
+
+Changes since 2.9.90
+
+* Scalable trash icons (Jakub Steiner)
+* gnome-window-manager.png
+  -- bug #144880 (Luca Ferretti)
+* 16, 24, and 48 pixel versions of gnome panel action icons
+  -- bug #166156 (Jakub Steiner)
+* Use a scalable icon for the favorite emblem (Jakub Steiner)
+* 16 and 24 pixel versions of the home icon
+  -- bug #164502 (Jakub Steiner)
+* Updated translations [cs, de, en_CA, es, fi, it, ja, lt, nb, no, pt]
+
+Changes since 2.9.3
+
+* 16 and 24 pixel local and and network share icons (Jakub Steiner)
+* New trash icons for empty and full states
+  -- bug #163848 (Jakub Steiner)
+* 16 and 24 pixel stock_leave-fullscreen icons
+  -- bug #164017 (Jakub Steiner)
+
+Changes since 2.9.2
+
+* 16 and 24 pixel volume setting icons (Jakub Steiner)
+* 48 pixel version of stock_insert-floating-frame (Garrett LeSage)
+
+Changes since 2.9.1
+
+* Clear and Partly Cloudy icons for night time in gweather
+* Stock icon for "New Window"
+* Lower resolution gnome-fs-desktop icons (Luca Ferretti, Garrett LeSage)
+* Scalable gnome-fs-{home,directory} icons (Luca Ferretti)
+* Genercize the cd burner icon
+* Print resolution stock icon
+* Update program launcher icon for GNOME 2 style
+* Coaster project file mime type icons, Fixes #157864
+* Openoffice.org mime type icons
+* 48 pixel version of stock_mail-replied
+* Updated translations [bg]
+
+Changes since 2.9.0
+
+* New 72 and 96 pixel versions of home folder icon (Luca Ferretti)
+* New launcher-program icon
+* New dev-disc icons for HAL, fixes #156066
+* New application/x-x509-ca-cert icon, fixes #153245
+* New palm applet icon, Fixes #155567
+* New icon for application/x-dv
+* Clean up of configure.in and autogen.sh, Fixes #154668
+* New translations [gl]
+
+Changes since 2.8.0
+
+* New emblem icon for sharing folders
+* New icons for different panel applets
+* Updated translations [sk]
+
+Changes since 2.7.90
+
+* New mime icon for WordPerfect documents
+* New 16x16 and 24x24 stock_new-tab icons
+* Updated translations [cy, th, zh_TW]
+
+Changes since 1.3.7
+
+* New translations [bs, nb]
+* Updated translations [az, ca, es, eu, fi, ne, sq, sv, uk]
+
+Changes since 1.3.6
+
+* New device icons
+* Updated translations [fi, fr, ms, sr, zh_CN]
+
+Changes since 1.3.5
+
+* Add open lock icons, Fixes #141458
+* Add bittorrent icon, Fixes #148226
+* Add ipod icons
+* Add 32 and 48 px icons for mail-send-receive
+* Updated translations [bg, da, hi, hu, ko, pt_BR, sq]
+
+Changes since 1.3.4
+
+* Updated translations [sq, da, bg, pt_BR]
+
+Changes since 1.3.3:
+
+* Added stock_3dsound and stock_headphones icons for 24 and 16 pixel sizes
+* Added text/x-objcsrc mime type icon, Fixes #144987
+
+Changes since 1.3.2:
+
+* Fix API breakage for stock_save_as vs. stock_save-as
+* Fix build so that make distcheck works
+
+Changes since 1.2.1:
+
+* new smiley icons
+* new stock icons
+* Bugs Fixed: #142977, #142001, #138612
+
+Changes since 1.2.0:
+* new im icons
+* some mime icon updates
+* Some new evolution icons
+
+Changes since 1.1.91:
+* duplex and tumble icon for printing
+
+Changes since 1.1.90:
+* More translations
+
+Changes since 1.1.8:
+* indent icon polish
+* renamed csharp mime icon due to changed mimetype
+
+Changes since 1.1.7:
+* New gnome-fs-directory-visiting icon
+* more small size stock icons
+
+Changes since 1.1.6:
+* new stock icons
+* make install DESTDIR fix
+
+Changes since 1.1.5:
+* new stock icons
+
+Changes since 1.1.4:
+* searchtool icons
+* more evo icons
+* new visiting icon
+* test for hicolor installed at build time
+
+Changes since 1.1.3:
+* Lots of new icons
+* pkg-config file
+
+Changes since 1.1.2:
+* more icons needed for evo
+
+Changes since 1.1.1:
+* web calendar icon
+* vcard mimetype icon
+
+Changes since 1.1.0:
+* Media icons in menu size
+* New emblems
+* Flags
+* removable device icons
+* other icons
+
+Changes since 1.0.9
+* Lots of new icons.
+
+Changes since 1.0.8
+* more evo icons
+
+Changes since 1.0.7
+* Updated translations
+* New icons: todo, cell-phone, addressbook,
+  appointment-reminder
+
+Changes since 1.0.6
+* Remove adobe logo
+* new stock mail open icon
+* build fixes
+
+Changes since 1.0.5:
+* Lots of new icons from jimmac
+
+Changes since 1.0.4:
+* Moved some icons from gnome-desktop
+
+Changes since 1.0.3:
+* Added gnome-spinner
+
+Changes since 1.0.2:
+* desktop emblem
+* notification area icon
+* gnucash mime icon
+* tar mime icon
+* ipod firmware mime icon
+
+Changes since 1.0.1:
+
+* Added a notes emblem
+
+Version 1.0.1
+
+Changes since 1.0.0:
+
+* shockwave flash icon
+
+* OOo draw icon
+
+* scheme icon
+
+* translations
+
+1.0.0:
+
+This is the inital stable release of the gnome icon theme.
