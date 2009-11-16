@@ -27,7 +27,6 @@ end #end of function
 
 
 #main
-FileUtils.mkdir_p("moblin") unless File.exists?("moblin")
 # Open SVG file.
 svg = Document.new(File.new(SRC, 'r'))
 
