@@ -1,0 +1,5 @@
+Primitive build instructions
+============================
+
+Running the render.rb script will chop up the "source" SVG into individual icons. 
+`create-icon-theme.sh gnome-osd-icons` will then create buildable theme in output/gnome-osd-icons
