@@ -12,7 +12,9 @@ render-png: $(icon_in_files) Makefile
 
 else
 render-png: $(icon_in_files) Makefile
-	cp -a $(top_srcdir)/$(SVGOUTDIR) $(top_builddir)/$(SVGOUTDIR)
+	if "x$(top_srcdir)" != "x$(top_builddir)"; then \
+		cp -a $(top_srcdir)/$(SVGOUTDIR) $(top_builddir)/$(SVGOUTDIR); \
+	fi
 
 endif
 
