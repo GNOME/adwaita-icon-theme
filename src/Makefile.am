@@ -1,6 +1,5 @@
 
 icon_in_files = $(shell SRCDIR="$(srcdir)"; for i in `find $$SRCDIR -name "*.svg"`; do printf "$$i "; done)
-icon_files = $(shell for i in `find $(top_builddir)/$(SVGOUTDIR) -name "*.png"`; do printf "$$i"; done)
 
 if ALLOW_RENDERING
 render-png: $(icon_in_files) Makefile
@@ -24,21 +23,17 @@ render: render-png
 
 install-data-local:
 	for size in $(render_sizes); do \
-		for dir in `if [ -d $(top_srcdir)/$(SVGOUTDIR)/$$size ]; then find $(top_srcdir)/$(SVGOUTDIR)/$$size/* -type d; fi`; do \
-			for file in $(icon_files); do \
-				context="`dirname $$file`"; \
-				$(mkdir_p) $(DESTDIR)$(themedir)/$$size/$$context; \
-				$(install_sh_DATA) $(top_srcdir)/$(SVGOUTDIR)/$$size/$$file $(DESTDIR)$(themedir)/$$size/$$file; \
-			done; \
+		for file in `cd $(top_builddir)/$(SVGOUTDIR)/$$size; find . -name "*.png"`; do \
+			context="`dirname $$file`"; \
+			$(mkdir_p) $(DESTDIR)$(themedir)/$$size/$$context; \
+			$(install_sh_DATA) $(top_srcdir)/$(SVGOUTDIR)/$$size/$$file $(DESTDIR)$(themedir)/$$size/$$file; \
 		done; \
 	done
 
 uninstall-local:
 	for size in $(render_sizes); do \
-		for dir in `if [ -d $(top_srcdir)/$(SVGOUTDIR)/$$size ]; then find $(top_srcdir)/$(SVGOUTDIR)/$$size/* -type d; fi`; do \
-			for file in $(icon_files); do \
-				rm -f $(DESTDIR)$(themedir)/$$size/$$file; \
-			done; \
+		for file in `cd $(top_builddir)/$(SVGOUTDIR)/$$size; find . -name "*.png"`; do \
+			rm -f $(DESTDIR)$(themedir)/$$size/$$file; \
 		done; \
 	done
 
