@@ -26,7 +26,7 @@ AC_SUBST(SVGSRCDIR, "src")
 AC_SUBST(SVGOUTDIR, "gnome")
 
 # Icon sizes we want to install
-AC_SUBST([render_sizes], ["8x8 16x16 22x22 32x32 48x48 256x256"])
+AC_SUBST([render_sizes], ["8x8 16x16 22x22 24x24 32x32 48x48 256x256"])
 
 # Allow icon mapping to be disabled
 AC_ARG_ENABLE([icon-mapping],
