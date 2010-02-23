@@ -6,7 +6,7 @@ include REXML
 
 INKSCAPE = '/usr/bin/inkscape'
 SRC = "gnome-osd-icons.svg"
-PREFIX = "gnome-osd-icons/24x24"
+PREFIX = "gnome-osd-icons/16x16"
 
 def chopSVG(icon)
 	FileUtils.mkdir_p(icon[:dir]) unless File.exists?(icon[:dir])
