@@ -25,12 +25,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="117.23493"
-     inkscape:cy="72.302894"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="118.79819"
+     inkscape:cy="79.723779"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
-     showgrid="false"
+     inkscape:current-layer="layer3"
+     showgrid="true"
      showborder="false"
      inkscape:window-width="1680"
      inkscape:window-height="1001"
@@ -59,13 +59,6 @@
      id="title9167">Moblin Icon Theme</title>
   <defs
      id="defs7386">
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 171.5 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="254.00024 : 171.5 : 1"
-       inkscape:persp3d-origin="127.00012 : 114.33333 : 1"
-       id="perspective292" />
     <clipPath
        id="clipPath6259"
        clipPathUnits="userSpaceOnUse">
@@ -290,6 +283,17 @@
          height="11"
          x="21"
          y="281" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3157-7">
+      <rect
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3159-5"
+         width="1.7386366"
+         height="5.21591"
+         x="28.124998"
+         y="221.32954" />
     </clipPath>
   </defs>
   <metadata
@@ -726,7 +730,7 @@ Claire Alexander</dc:title>
          sodipodi:nodetypes="ccccccccccccccccc" />
     </g>
     <g
-       inkscape:label="wireless-signal-excellent"
+       inkscape:label="network-wireless-signal-excellent"
        transform="translate(0,18)"
        id="g3922">
       <path
@@ -792,7 +796,7 @@ Claire Alexander</dc:title>
          sodipodi:type="arc" />
     </g>
     <g
-       inkscape:label="wireless-signal-good"
+       inkscape:label="network-wireless-signal-good"
        id="g3944">
       <path
          sodipodi:end="7.0685835"
@@ -857,7 +861,7 @@ Claire Alexander</dc:title>
          sodipodi:end="7.0685835" />
     </g>
     <g
-       inkscape:label="wireless-signal-ok"
+       inkscape:label="network-wireless-signal-ok"
        id="g3950">
       <path
          clip-path="url(#clipPath6279-6)"
@@ -922,7 +926,7 @@ Claire Alexander</dc:title>
          sodipodi:end="7.0685835" />
     </g>
     <g
-       inkscape:label="wireless-signal-weak"
+       inkscape:label="network-wireless-signal-weak"
        id="g3955">
       <rect
          style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -986,21 +990,8 @@ Claire Alexander</dc:title>
          sodipodi:start="5.4977871"
          sodipodi:end="7.0685835" />
     </g>
-    <rect
-       style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect3825"
-       width="16"
-       height="16"
-       x="20"
-       y="256"
-       inkscape:label="a" />
-    <path
-       id="path3807"
-       style="fill:none;stroke:#bebebe;stroke-width:1.99999976;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-       d="m 24,268 7,-7 -4,-3.99971 0,13.99941 4,-3.9997 -7,-7"
-       sodipodi:nodetypes="cccccc" />
     <g
-       inkscape:label="cellular-signal-excellent"
+       inkscape:label="network-cellular-signal-excellent"
        id="g3281">
       <path
          sodipodi:nodetypes="cc"
@@ -1046,7 +1037,7 @@ Claire Alexander</dc:title>
     <g
        transform="translate(20,0)"
        id="g3288"
-       inkscape:label="cellular-signal-good">
+       inkscape:label="network-cellular-signal-good">
       <path
          id="path3290"
          d="m 34.5,277.5 c 0,0 0,12 0,12"
@@ -1089,7 +1080,7 @@ Claire Alexander</dc:title>
          style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     </g>
     <g
-       inkscape:label="cellular-signal-ok"
+       inkscape:label="network-cellular-signal-ok"
        id="g4072"
        transform="translate(40,0)">
       <path
@@ -1136,7 +1127,7 @@ Claire Alexander</dc:title>
     <g
        transform="translate(60,0)"
        id="g4084"
-       inkscape:label="cellular-signal-weak">
+       inkscape:label="network-cellular-signal-weak">
       <path
          id="path4086"
          d="m 34.5,277.5 c 0,0 0,12 0,12"
@@ -1179,7 +1170,7 @@ Claire Alexander</dc:title>
          style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     </g>
     <g
-       inkscape:label="cellular-signal-none"
+       inkscape:label="network-cellular-signal-none"
        id="g4096"
        transform="translate(80,0)">
       <rect
@@ -1230,7 +1221,7 @@ Claire Alexander</dc:title>
     </g>
     <g
        transform="translate(20,0)"
-       inkscape:label="wireless-signal-none"
+       inkscape:label="network-wireless-signal-none"
        id="g3955-0"
        style="display:inline">
       <rect
@@ -1292,34 +1283,6 @@ Claire Alexander</dc:title>
          id="path3761-2-3-5-4"
          sodipodi:nodetypes="ccccccccccccccccc" />
     </g>
-    <rect
-       y="259"
-       x="23"
-       height="1"
-       width="1"
-       id="rect3940"
-       style="opacity:0.98000004;fill:#bebebe;fill-opacity:1;stroke:none" />
-    <rect
-       style="opacity:0.98000004;fill:#bebebe;fill-opacity:1;stroke:none"
-       id="rect3942"
-       width="1"
-       height="1"
-       x="23"
-       y="268" />
-    <rect
-       y="271"
-       x="26"
-       height="1"
-       width="1"
-       id="rect3944"
-       style="opacity:0.98000004;fill:#bebebe;fill-opacity:1;stroke:none" />
-    <rect
-       style="opacity:0.98000004;fill:#bebebe;fill-opacity:1;stroke:none"
-       id="rect3946"
-       width="1"
-       height="1"
-       x="26"
-       y="256" />
     <g
        id="g6058"
        inkscape:label="battery-full-charging"
@@ -1633,7 +1596,7 @@ Claire Alexander</dc:title>
          y="184.94455">status</tspan></text>
     <g
        id="g4171"
-       inkscape:label="wireless-acquiring"
+       inkscape:label="network-wireless-acquiring"
        transform="translate(40,0)">
       <rect
          transform="matrix(0,-1,1,0,0,0)"
@@ -1676,11 +1639,11 @@ Claire Alexander</dc:title>
          sodipodi:cy="209"
          sodipodi:rx="1"
          sodipodi:ry="1"
-         d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
-         transform="matrix(1.5,0,0,1.5,41.49975,-110)" />
+         d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+         transform="matrix(1.5,0,0,1.5,41.49975,-109)" />
       <path
-         transform="matrix(1.5,0,0,1.5,45.49975,-110)"
-         d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
+         transform="matrix(1.5,0,0,1.5,45.49975,-109)"
+         d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
          sodipodi:ry="1"
          sodipodi:rx="1"
          sodipodi:cy="209"
@@ -1696,12 +1659,26 @@ Claire Alexander</dc:title>
          sodipodi:cy="209"
          sodipodi:rx="1"
          sodipodi:ry="1"
-         d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
-         transform="matrix(1.5,0,0,1.5,49.49975,-110)" />
+         d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+         transform="matrix(1.5,0,0,1.5,49.49975,-109)" />
+      <path
+         sodipodi:end="7.0685835"
+         sodipodi:start="5.4977871"
+         sodipodi:open="true"
+         sodipodi:type="arc"
+         style="opacity:0.25;fill:none;stroke:#bebebe;stroke-width:1.15909111;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+         id="path3745-5-4-5-6"
+         sodipodi:cx="24.9375"
+         sodipodi:cy="223.9375"
+         sodipodi:rx="3.1875"
+         sodipodi:ry="3.1875"
+         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         transform="matrix(0,-1.7254899,1.7254899,0,-298.90189,250.5294)"
+         clip-path="url(#clipPath3157-7)" />
     </g>
     <g
        id="g6099"
-       inkscape:label="cellular-gprs"
+       inkscape:label="network-cellular-gprs"
        style="fill:#bebebe;fill-opacity:1"
        transform="translate(20,-20)">
       <rect
@@ -1720,7 +1697,7 @@ Claire Alexander</dc:title>
     </g>
     <g
        transform="translate(40,-20)"
-       inkscape:label="cellular-umts"
+       inkscape:label="network-cellular-umts"
        id="g7035"
        style="fill:#bebebe;fill-opacity:1">
       <rect
@@ -1739,7 +1716,7 @@ Claire Alexander</dc:title>
     </g>
     <g
        id="g7043"
-       inkscape:label="cellular-edge"
+       inkscape:label="network-cellular-edge"
        transform="translate(60,-20)"
        style="fill:#bebebe;fill-opacity:1">
       <rect
@@ -1759,7 +1736,7 @@ Claire Alexander</dc:title>
     <g
        style="fill:#bebebe;fill-opacity:1"
        transform="translate(80,-20)"
-       inkscape:label="cellular-1xrtt"
+       inkscape:label="network-cellular-1xrtt"
        id="g7075">
       <rect
          style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -1777,7 +1754,7 @@ Claire Alexander</dc:title>
     </g>
     <g
        id="g7091"
-       inkscape:label="cellular-EVDOr0"
+       inkscape:label="network-cellular-evdor0"
        transform="translate(100,-20)"
        style="fill:#bebebe;fill-opacity:1">
       <rect
@@ -1798,7 +1775,7 @@ Claire Alexander</dc:title>
     <g
        style="fill:#bebebe;fill-opacity:1"
        transform="translate(120,-20)"
-       inkscape:label="cellular-EVDOrA"
+       inkscape:label="network-cellular-evdora"
        id="g7113">
       <rect
          style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -1952,7 +1929,7 @@ Claire Alexander</dc:title>
        style="display:inline"
        transform="translate(100,0)"
        id="g4084-0"
-       inkscape:label="cellular-acquiring">
+       inkscape:label="network-cellular-acquiring">
       <rect
          inkscape:label="a"
          y="276"
@@ -2024,6 +2001,58 @@ Claire Alexander</dc:title>
          sodipodi:ry="1"
          d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
          transform="matrix(1.5,0,0,1.5,-9.50025,-28)" />
+    </g>
+    <g
+       id="g6099-3"
+       inkscape:label="bluetooth"
+       style="fill:#bebebe;fill-opacity:1;display:inline"
+       transform="translate(0,-20)">
+      <rect
+         inkscape:label="a"
+         y="276"
+         x="20"
+         height="16"
+         width="16"
+         id="rect6109-6"
+         style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <g
+         transform="translate(0,20)"
+         style="display:inline"
+         id="g3126">
+        <path
+           sodipodi:nodetypes="cccccc"
+           d="m 24,268 7,-7 -4,-3.99971 0,13.99941 4,-3.9997 -7,-7"
+           style="fill:none;stroke:#bebebe;stroke-width:1.99999976;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+           id="path3807" />
+        <rect
+           style="opacity:0.98000004;fill:#bebebe;fill-opacity:1;stroke:none"
+           id="rect3940"
+           width="1"
+           height="1"
+           x="23"
+           y="259" />
+        <rect
+           y="268"
+           x="23"
+           height="1"
+           width="1"
+           id="rect3942"
+           style="opacity:0.98000004;fill:#bebebe;fill-opacity:1;stroke:none" />
+        <rect
+           style="opacity:0.98000004;fill:#bebebe;fill-opacity:1;stroke:none"
+           id="rect3944"
+           width="1"
+           height="1"
+           x="26"
+           y="271" />
+        <rect
+           y="256"
+           x="26"
+           height="1"
+           width="1"
+           id="rect3946"
+           style="opacity:0.98000004;fill:#bebebe;fill-opacity:1;stroke:none" />
+      </g>
     </g>
   </g>
   <g
