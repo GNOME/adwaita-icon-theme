@@ -76,7 +76,11 @@ install-data-local:
 		touch $(DESTDIR)$(themedir); \
 	fi
 
+pkgconfigdir = $(datadir)/pkgconfig
+pkgconfig_DATA = gnome-icon-theme.pc
+
 EXTRA_DIST =			\
+	gnome-icon-theme.pc.in  \
 	gnome			\
 	$(theme_in_files)
 

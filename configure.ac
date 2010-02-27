@@ -1,7 +1,7 @@
 dnl Process this file with autoconf to produce a configure script.
 AC_PREREQ(2.53)
 
-AC_INIT([gnome-icon-theme], [2.29.0],
+AC_INIT([gnome-icon-theme], [2.29.1],
         [http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-icon-theme])
 AC_CONFIG_SRCDIR([index.theme.in.in])
 
@@ -73,6 +73,7 @@ AM_CONDITIONAL(ALLOW_RENDERING, test "x$allow_rendering" = "xyes")
 
 AC_CONFIG_FILES([
 Makefile
+gnome-icon-theme.pc
 po/Makefile.in
 src/Makefile
 ])
