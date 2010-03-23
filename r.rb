@@ -6,7 +6,7 @@ include REXML
 
 INKSCAPE = '/usr/bin/inkscape'
 SRC = "gnome-stencils.svg"
-PREFIX = "gnome-stencils/16x16"
+PREFIX = "gnome/scalable"
 
 def chopSVG(icon)
 	FileUtils.mkdir_p(icon[:dir]) unless File.exists?(icon[:dir])
