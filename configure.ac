@@ -51,7 +51,10 @@ if test "x$enable_mapping" != "xno"; then
       AC_MSG_ERROR([icon-naming-utils >= $UTILS_REQUIRED is required to build
                     and install gnome-icon-theme])
    fi
+else
+   ICONMAP="false"
 fi
+
 AC_SUBST(ICONMAP)
 
 # need git, icontool, and inkscape for rendering
