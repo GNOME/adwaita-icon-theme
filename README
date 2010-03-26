@@ -1,11 +1,21 @@
-GNOME Stencils
-==============
+GNOME Symbolic Icons
+====================
 
-Purpose of this icon theme is to extend the base icon theme that follows the Tango style guidelines for specific purposes. This would include OSD messages, panel system/notification area, and possibly menu icons.
+Purpose of this icon theme is to extend the base icon theme that follows the Tango style guidelines for specific purposes. This would include OSD messages, panel system/notification area, and one we have close to 100% name spec coverage, the menu icons. We will be more open to extending -symbolic to icons that are outside of the realm of the naming spec. More so than in the case of gnome-icon-theme.
 
 Icons follow the naming specification, but have a -symbolic suffix, so only applications specifically looking up these symbolic icons will render them. If a -symbolic icon is missing, the app will fall back to the regular name.
 
 Primitive build instructions
 ============================
 
-Running the render.rb script will chop up the "source" SVG into individual icons. 
+Running the r.rb script will chop up the "source" SVG into individual icons. 
+
+Targets
+=======
+
+Here's places that should make use of this style (and look up icons as -symbolic).
+
+	* Panel systray (and gnome-shell equivalents)
+	* Nautilus' sidebar eject emblem for mounted drives
+	* OSD (volume levels, display, eject etc)
+	* All menu items
