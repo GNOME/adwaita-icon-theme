@@ -50,3 +50,5 @@ MAINTAINERCLEANFILES =		\
 	*~			\
 	Makefile.in		\
 	$(icon_cache)
+
+-include $(top_srcdir)/git.mk
