@@ -4,15 +4,16 @@
 srcdir=`dirname $0`
 test -z "$srcdir" && srcdir=.
 
-PKG_NAME="moblin"
+PKG_NAME="gnome-icon-theme-symbolic"
 REQUIRED_AUTOMAKE_VERSION=1.9
 
-gettext=`which gettext`
-gettext_prefix=`dirname $gettext | xargs dirname`
-
-if [ -x $gettext_prefix/share/gettext/mkinstalldirs ]; then
-    cp $gettext_prefix/share/gettext/mkinstalldirs $srcdir
-fi
+(test -f $srcdir/configure.ac \
+  && test -f $srcdir/src/gnome-stencils.svg \
+  && test -d $srcdir/gnome) || {
+    echo -n "**Error**: Directory "\`$srcdir\'" does not look like the"
+    echo " top-level $PKG_NAME directory"
+    exit 1
+}
 
 which gnome-autogen.sh || {
     echo "You need to install gnome-common from the GNOME CVS"
