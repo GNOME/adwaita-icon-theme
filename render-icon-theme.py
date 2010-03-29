@@ -108,7 +108,7 @@ class ContentHandler(xml.sax.ContentHandler):
                 dir = os.path.join("gnome", "%sx%s" % (width, height), self.context)
                 outfile = os.path.join(dir, self.icon_name+'.png')
                 if not os.path.exists(dir):
-                    os.mkdir(dir)
+                    os.makedirs(dir)
                 # Do a time based check!
                 if self.force or not os.path.exists(outfile):
                     inkscape_render_rect(self.path, id, outfile)
