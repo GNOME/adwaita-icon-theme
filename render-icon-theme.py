@@ -58,7 +58,7 @@ class ContentHandler(xml.sax.ContentHandler):
                 return
         elif self.inside[-1] == self.SVG:
             if (name == "g" and attrs.has_key('inkscape:groupmode') and attrs.has_key('inkscape:label')
-               and attrs['inkscape:groupmode'] == 'layer' and attrs['inkscape:label'] == 'baseplate'):
+               and attrs['inkscape:groupmode'] == 'layer' and attrs['inkscape:label'].startswith('baseplate')):
                 self.stack.append(self.LAYER)
                 self.inside.append(self.LAYER)
                 self.context = None
