@@ -14,12 +14,16 @@ def wait_for_prompt(process, command=None):
     if command is not None:
         process.stdin.write(command+'\n')
 
+    # This is kinda ugly ...
+    # Wait for just a '>', or '\n>' if some other char appearead first
     output = process.stdout.read(1)
+    if output == '>':
+        return
+
     output += process.stdout.read(1)
-    
     while output != "\n>":
-        output = output[-1:]
         output += process.stdout.read(1)
+        output = output[1:]
 
 def start_inkscape():
     process = subprocess.Popen([INKSCAPE, '--shell'], bufsize=0, stdin=subprocess.PIPE, stdout=subprocess.PIPE)
