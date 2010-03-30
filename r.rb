@@ -5,7 +5,7 @@ require "fileutils"
 include REXML
 
 INKSCAPE = '/usr/bin/inkscape'
-SRC = "gnome-stencils.svg"
+SRC = "src/gnome-stencils.svg"
 PREFIX = "gnome/scalable"
 
 def chopSVG(icon)
