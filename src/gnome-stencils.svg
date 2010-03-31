@@ -13,7 +13,7 @@
    height="100"
    id="svg7384"
    version="1.1"
-   inkscape:version="0.47pre4 r22446"
+   inkscape:version="0.47+devel r9222 custom"
    sodipodi:docname="gnome-stencils.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    sodipodi:version="0.32">
@@ -24,17 +24,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="145.97536"
-     inkscape:cy="-137.49456"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="245.93341"
+     inkscape:cy="-126.40271"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
      showgrid="false"
      showborder="false"
      inkscape:window-width="1301"
-     inkscape:window-height="694"
-     inkscape:window-x="59"
-     inkscape:window-y="25"
+     inkscape:window-height="1101"
+     inkscape:window-x="1645"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:showpageshadow="false"
      showguides="true"
@@ -58,6 +58,13 @@
      id="title9167">Gnome Symbolic Icon Theme</title>
   <defs
      id="defs7386">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 50 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="400 : 50 : 1"
+       inkscape:persp3d-origin="200 : 33.333333 : 1"
+       id="perspective460" />
     <clipPath
        id="clipPath6259"
        clipPathUnits="userSpaceOnUse">
@@ -255,6 +262,24 @@
          width="1.8762827"
          id="rect6261-6-0"
          style="color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3141-0">
+      <path
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 101,217 0,2 -2,0 0,1 4,0 0,7 -4,0 0,1 2,0 0,2 5,0 0,-13 -5,0 z"
+         id="path3143-8"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4201-6-8-5">
+      <path
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 101,177 0,5 2,0 0,2 1,0 0,-4 7,0 0,4 1,0 0,-2 2,0 0,-5 -13,0 z"
+         id="path4203-1-2-5"
+         inkscape:connector-curvature="0" />
     </clipPath>
     <clipPath
        clipPathUnits="userSpaceOnUse"
@@ -1121,7 +1146,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
     <g
        id="g6058"
        inkscape:label="battery-full-charging"
-       transform="matrix(0,1,-1,0,412.99975,469.00025)">
+       transform="matrix(0,1,-1,0,432.99975,469.00025)">
       <path
          style="fill:#bebebe;fill-opacity:1;stroke:none"
          d="m 25,249 7.99975,0 0,-3.00025 -2,0 -2,-2 L 25,244 l 0,5 z"
@@ -1200,7 +1225,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          inkscape:connector-curvature="0" />
     </g>
     <g
-       transform="matrix(0,1,-1,0,432.99975,469.00025)"
+       transform="matrix(0,1,-1,0,452.99975,469.00025)"
        inkscape:label="battery-good-charging"
        id="g6255">
       <path
@@ -1283,7 +1308,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
     <g
        id="g6280"
        inkscape:label="battery-low-charging"
-       transform="matrix(0,1,-1,0,452.99975,469.00025)">
+       transform="matrix(0,1,-1,0,472.99975,469.00025)">
       <path
          style="fill:#bebebe;fill-opacity:1;stroke:none"
          d="m 28.99975,249 4,0 0,-3.00025 -2,0 -2,-2 0,5.00025 z"
@@ -1362,7 +1387,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          inkscape:connector-curvature="0" />
     </g>
     <g
-       transform="matrix(0,1,-1,0,472.99975,469.00025)"
+       transform="matrix(0,1,-1,0,492.99975,469.00025)"
        inkscape:label="battery-critical-charging"
        id="g6304">
       <path
@@ -2230,7 +2255,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
        style="display:inline"
        id="g4139-4"
        inkscape:label="security-low"
-       transform="translate(201,193)">
+       transform="translate(241,193)">
       <rect
          y="296"
          x="39.999748"
@@ -2254,7 +2279,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
        style="display:inline"
        id="g4139-4-6"
        inkscape:label="security-medium"
-       transform="translate(221,193)">
+       transform="translate(261,193)">
       <rect
          y="296"
          x="39.999748"
@@ -2284,7 +2309,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
        style="display:inline"
        id="g4139-4-6-9"
        inkscape:label="security-high"
-       transform="translate(241,193)">
+       transform="translate(281,193)">
       <rect
          y="296"
          x="39.999748"
@@ -2320,7 +2345,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:nodetypes="ccccccccc"
          id="path3268"
          d="m 20,222 2.484375,0 2.968754,-3 0.546871,0.0156 0,11 -0.475297,8.3e-4 L 22.484375,227 20,227 l 0,-5 z"
-         style="color:#000000;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;opacity:0.25" />
+         style="color:#000000;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
       <rect
          style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          id="rect3270"
@@ -2534,6 +2559,119 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          id="path4093"
          d="m 21.99975,231 12,0"
          style="color:#000000;fill:#424242;fill-opacity:1;fill-rule:nonzero;stroke:#bebebe;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       transform="matrix(0,1,-1,0,413,469)"
+       id="g10518"
+       inkscape:label="battery-empty">
+      <desc
+         id="desc10524">Used when multiple batteries are installed and one is completely empty.</desc>
+      <rect
+         style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect10522"
+         width="16"
+         height="16"
+         x="20"
+         y="236"
+         inkscape:label="audio-volume-high" />
+    </g>
+    <g
+       transform="matrix(0,1,-1,0,412.99975,469.00025)"
+       id="g11294"
+       inkscape:label="battery-empty">
+      <desc
+         id="desc11302">Used when multiple batteries are present (notebook with extended battery) and one is completely out of juice.</desc>
+      <path
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccccccc"
+         id="path11298"
+         d="m 35,240 0,9 -12,0 0,-2 -1.471431,0 c -0.234375,0 -0.484375,-0.25 -0.484375,-0.46875 l 0,-3.96875 c -0.01563,-0.28125 0.340963,-0.54687 0.622213,-0.5625 L 23,242 l 0,-2 12,0 z"
+         style="color:#000000;fill:none;stroke:#bebebe;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect11300"
+         width="16"
+         height="16"
+         x="20"
+         y="236"
+         inkscape:label="audio-volume-high" />
+    </g>
+    <g
+       transform="matrix(0,1,-1,0,512.99975,469.00025)"
+       inkscape:label="battery-empty-charging"
+       id="g11304">
+      <desc
+         id="desc11328">Used when multiple batteries are present and one is out of juice but charging.</desc>
+      <path
+         inkscape:connector-curvature="0"
+         style="color:#000000;fill:none;stroke:#bebebe;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="M 34.99975,243.99975 35,251 l -12,0 0,-2 -1.471431,0 c -0.234375,0 -0.484375,-0.25 -0.484375,-0.46875 l 0,-3.96875 c -0.01563,-0.28125 0.340963,-0.54687 0.622213,-0.5625 L 23,244 l 0,-2 3.99975,-2.5e-4"
+         id="path11308"
+         sodipodi:nodetypes="ccccccccccc" />
+      <rect
+         inkscape:label="audio-volume-high"
+         y="236"
+         x="20"
+         height="16"
+         width="16"
+         id="rect11310"
+         style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc"
+         id="path11312"
+         d="m 28.99975,240.99975 3,3 0,-5 3,3"
+         style="color:#000000;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:#bebebe;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         transform="matrix(0,-1,1,0,0,0)"
+         y="30.99975"
+         x="-238.99976"
+         height="1"
+         width="1"
+         id="rect11314"
+         style="color:#000000;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         style="color:#000000;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect11316"
+         width="1"
+         height="1"
+         x="-244.99976"
+         y="31.99975"
+         transform="matrix(0,-1,1,0,0,0)" />
+      <rect
+         transform="matrix(0,-1,1,0,0,0)"
+         y="27.99975"
+         x="-240.99976"
+         height="1"
+         width="1"
+         id="rect11318"
+         style="color:#000000;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         style="color:#000000;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect11320"
+         width="1"
+         height="1"
+         x="-242.99976"
+         y="34.999748"
+         transform="matrix(0,-1,1,0,0,0)" />
+      <path
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc"
+         id="path11322"
+         d="m 31.99975,242.99975 -3,-2"
+         style="color:#000000;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:#bebebe;stroke-width:2;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         style="color:#000000;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:#bebebe;stroke-width:2;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 34.99975,241.99975 -3,-2"
+         id="path11324" />
+      <path
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc"
+         transform="matrix(0,-1,1,0,-216.00025,371.99975)"
+         id="path11326"
+         d="m 129,244 2,-2 -2,0 0,2 z"
+         style="color:#000000;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     </g>
   </g>
   <g
@@ -3074,24 +3212,6 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
            id="rect3946-4-5-9-9-3-5-3-2"
            style="opacity:0.98000004;fill:#bebebe;fill-opacity:1;stroke:none;display:inline" />
       </g>
-    </g>
-    <g
-       transform="translate(-259.99975,271)"
-       style="display:inline"
-       id="g4160"
-       inkscape:label="window-close">
-      <rect
-         y="489"
-         x="300.99976"
-         height="16"
-         width="16"
-         id="rect3215-3-4-27"
-         style="color:#000000;fill:none;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-      <path
-         id="rect3319"
-         transform="translate(19.99975,272)"
-         d="m 284.125,218 c -1.108,0 -2,0.892 -2,2 l 0,9 c 0,1.108 0.892,2 2,2 l 8.875,0 c 1.108,0 2,-0.892 2,-2 l 0,-9 c 0,-1.108 -0.892,-2 -2,-2 l -8.875,0 z m 0.875,3 1.375,0 2.125,2.09375 L 290.59375,221 292,221 l 0,1.46875 -2.09375,2.0625 L 292,226.59375 292,228 290.5625,228 288.5,225.9375 286.4375,228 285,228 l 0,-1.40625 2.0625,-2.0625 L 285,222.46875 285,221 z"
-         style="color:#000000;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     </g>
   </g>
   <g
