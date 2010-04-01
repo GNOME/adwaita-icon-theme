@@ -7,13 +7,14 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="400"
    height="100"
    id="svg7384"
    version="1.1"
-   inkscape:version="0.47 r22583"
+   inkscape:version="0.47+devel r9222 custom"
    sodipodi:docname="gnome-stencils.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    sodipodi:version="0.32">
@@ -24,17 +25,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="16"
-     inkscape:cx="193.15182"
-     inkscape:cy="-146.85786"
+     inkscape:zoom="1"
+     inkscape:cx="207.70307"
+     inkscape:cy="-142.17036"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
-     showgrid="true"
+     showgrid="false"
      showborder="false"
-     inkscape:window-width="1272"
-     inkscape:window-height="746"
-     inkscape:window-x="0"
-     inkscape:window-y="26"
+     inkscape:window-width="1059"
+     inkscape:window-height="978"
+     inkscape:window-x="1655"
+     inkscape:window-y="78"
      inkscape:window-maximized="0"
      inkscape:showpageshadow="false"
      showguides="true"
@@ -310,6 +311,63 @@
        inkscape:vp_y="0 : 1000 : 0"
        inkscape:vp_x="0 : 0.5 : 1"
        sodipodi:type="inkscape:persp3d" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9879-4"
+       id="radialGradient9206-9"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.1280507,0,-15.592641)"
+       cx="-170.8718"
+       cy="127.7508"
+       fx="-170.8718"
+       fy="127.7508"
+       r="12.49998" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient9879-4">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0"
+         id="stop9881-6" />
+      <stop
+         style="stop-color:#e4e4e1;stop-opacity:1"
+         offset="1"
+         id="stop9883-2" />
+    </linearGradient>
+    <radialGradient
+       r="12.49998"
+       fy="127.7508"
+       fx="-170.8718"
+       cy="127.7508"
+       cx="-170.8718"
+       gradientTransform="matrix(0.56031926,0,0,0.63206854,304.74252,439.79809)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient12303"
+       xlink:href="#linearGradient9879-4"
+       inkscape:collect="always" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9879-4-9"
+       id="radialGradient9206-9-1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.1280507,0,-15.592641)"
+       cx="-170.8718"
+       cy="127.7508"
+       fx="-170.8718"
+       fy="127.7508"
+       r="12.49998" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient9879-4-9">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0"
+         id="stop9881-6-8" />
+      <stop
+         style="stop-color:#e4e4e1;stop-opacity:1"
+         offset="1"
+         id="stop9883-2-0" />
+    </linearGradient>
   </defs>
   <metadata
      id="metadata7389">
@@ -372,7 +430,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:cy="223.9375"
          sodipodi:rx="3.1875"
          sodipodi:ry="3.1875"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          transform="matrix(0.78431365,0,0,0.78431365,5.9411781,48.862761)"
          sodipodi:open="true"
          sodipodi:start="5.4977871"
@@ -380,7 +438,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
       <path
          clip-path="url(#clipPath6265)"
          transform="matrix(1.7254899,0,0,1.7254899,-17.529404,-161.90189)"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          sodipodi:ry="3.1875"
          sodipodi:rx="3.1875"
          sodipodi:cy="223.9375"
@@ -400,7 +458,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:cy="223.9375"
          sodipodi:rx="3.1875"
          sodipodi:ry="3.1875"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          transform="matrix(2.6666653,0,0,2.6666653,-40.999965,-372.66635)"
          sodipodi:open="true"
          sodipodi:start="5.4977871"
@@ -455,7 +513,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:cy="223.9375"
          sodipodi:rx="3.1875"
          sodipodi:ry="3.1875"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          transform="matrix(0.78431365,0,0,0.78431365,5.941178,48.862757)"
          sodipodi:open="true"
          sodipodi:start="5.4977871"
@@ -463,7 +521,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
       <path
          clip-path="url(#clipPath6265-3)"
          transform="matrix(1.7254899,0,0,1.7254899,-17.529404,-161.90189)"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          sodipodi:ry="3.1875"
          sodipodi:rx="3.1875"
          sodipodi:cy="223.9375"
@@ -483,7 +541,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:cy="223.9375"
          sodipodi:rx="3.1875"
          sodipodi:ry="3.1875"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          transform="matrix(2.6666653,0,0,2.6666653,-40.999965,-372.66635)"
          sodipodi:open="true"
          sodipodi:start="5.4977871"
@@ -516,7 +574,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:cy="223.9375"
          sodipodi:rx="3.1875"
          sodipodi:ry="3.1875"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          transform="matrix(0.78431365,0,0,0.78431365,5.941178,48.862757)"
          sodipodi:open="true"
          sodipodi:start="5.4977871"
@@ -524,7 +582,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
       <path
          clip-path="url(#clipPath6265-3-5)"
          transform="matrix(1.7254899,0,0,1.7254899,-17.529404,-161.90189)"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          sodipodi:ry="3.1875"
          sodipodi:rx="3.1875"
          sodipodi:cy="223.9375"
@@ -544,7 +602,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:cy="223.9375"
          sodipodi:rx="3.1875"
          sodipodi:ry="3.1875"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          transform="matrix(2.6666653,0,0,2.6666653,-40.999969,-372.66635)"
          sodipodi:open="true"
          sodipodi:start="5.4977871"
@@ -703,7 +761,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:cy="223.9375"
          sodipodi:rx="3.1875"
          sodipodi:ry="3.1875"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          transform="matrix(0,-0.78431365,0.78431365,0,-148.13724,209.05882)"
          sodipodi:open="true"
          sodipodi:start="5.4977871"
@@ -711,7 +769,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
       <path
          clip-path="url(#clipPath6265-33)"
          transform="matrix(0,-1.7254899,1.7254899,0,-358.90189,232.5294)"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          sodipodi:ry="3.1875"
          sodipodi:rx="3.1875"
          sodipodi:cy="223.9375"
@@ -731,7 +789,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:cy="223.9375"
          sodipodi:rx="3.1875"
          sodipodi:ry="3.1875"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          transform="matrix(0,-2.6666653,2.6666653,0,-569.66635,255.99996)"
          sodipodi:open="true"
          sodipodi:start="5.4977871"
@@ -747,7 +805,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
       <path
          transform="matrix(1.5,0,0,1.5,-14.5,-123)"
-         d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+         d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
          sodipodi:ry="1"
          sodipodi:rx="1"
          sodipodi:cy="209"
@@ -765,7 +823,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:start="5.4977871"
          sodipodi:open="true"
          transform="matrix(0,-0.78431365,0.78431365,0,-128.13724,227.05882)"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          sodipodi:ry="3.1875"
          sodipodi:rx="3.1875"
          sodipodi:cy="223.9375"
@@ -785,7 +843,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:cy="223.9375"
          sodipodi:rx="3.1875"
          sodipodi:ry="3.1875"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          transform="matrix(0,-1.7254899,1.7254899,0,-338.90189,250.5294)"
          clip-path="url(#clipPath6265-33)" />
       <rect
@@ -805,7 +863,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:cy="209"
          sodipodi:rx="1"
          sodipodi:ry="1"
-         d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+         d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
          transform="matrix(1.5,0,0,1.5,5.5,-105)" />
       <path
          clip-path="url(#clipPath6259-6-8-25)"
@@ -816,7 +874,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:cy="223.9375"
          sodipodi:rx="3.1875"
          sodipodi:ry="3.1875"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          transform="matrix(0,-2.6666653,2.6666653,0,-549.66635,273.99996)"
          sodipodi:open="true"
          sodipodi:start="5.4977871"
@@ -835,7 +893,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:cy="223.9375"
          sodipodi:rx="3.1875"
          sodipodi:ry="3.1875"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          transform="matrix(0,-0.78431365,0.78431365,0,-108.13724,227.05882)"
          sodipodi:open="true"
          sodipodi:start="5.4977871"
@@ -851,7 +909,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
       <path
          transform="matrix(1.5,0,0,1.5,25.5,-105)"
-         d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+         d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
          sodipodi:ry="1"
          sodipodi:rx="1"
          sodipodi:cy="209"
@@ -870,7 +928,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:cy="223.9375"
          sodipodi:rx="3.1875"
          sodipodi:ry="3.1875"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          transform="matrix(0,-1.7254899,1.7254899,0,-318.90189,250.5294)"
          clip-path="url(#clipPath6265-33-6-4)" />
       <path
@@ -882,7 +940,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:cy="223.9375"
          sodipodi:rx="3.1875"
          sodipodi:ry="3.1875"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          transform="matrix(0,-2.6666653,2.6666653,0,-529.66635,273.99996)"
          sodipodi:open="true"
          sodipodi:start="5.4977871"
@@ -909,7 +967,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:cy="209"
          sodipodi:rx="1"
          sodipodi:ry="1"
-         d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+         d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
          transform="matrix(1.5,0,0,1.5,45.5,-105)" />
       <path
          clip-path="url(#clipPath6279-6-1-4)"
@@ -920,7 +978,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:cy="223.9375"
          sodipodi:rx="3.1875"
          sodipodi:ry="3.1875"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          transform="matrix(0,-0.78431365,0.78431365,0,-88.13724,227.05882)"
          sodipodi:open="true"
          sodipodi:start="5.4977871"
@@ -936,7 +994,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:cy="223.9375"
          sodipodi:rx="3.1875"
          sodipodi:ry="3.1875"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          transform="matrix(0,-1.7254899,1.7254899,0,-298.90189,250.5294)"
          clip-path="url(#clipPath6265-33-6-5-1)" />
       <path
@@ -948,7 +1006,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:cy="223.9375"
          sodipodi:rx="3.1875"
          sodipodi:ry="3.1875"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          transform="matrix(0,-2.6666653,2.6666653,0,-509.66635,273.99996)"
          sodipodi:open="true"
          sodipodi:start="5.4977871"
@@ -1500,7 +1558,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
       <path
          transform="matrix(1.5,0,0,1.5,45.5,-105)"
-         d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+         d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
          sodipodi:ry="1"
          sodipodi:rx="1"
          sodipodi:cy="209"
@@ -1513,7 +1571,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:start="5.4977871"
          sodipodi:open="true"
          transform="matrix(0,-2.6666653,2.6666653,0,-509.66635,273.99996)"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          sodipodi:ry="3.1875"
          sodipodi:rx="3.1875"
          sodipodi:cy="223.9375"
@@ -1530,11 +1588,11 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:cy="209"
          sodipodi:rx="1"
          sodipodi:ry="1"
-         d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+         d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
          transform="matrix(1.5,0,0,1.5,41.49975,-109)" />
       <path
          transform="matrix(1.5,0,0,1.5,45.49975,-109)"
-         d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+         d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
          sodipodi:ry="1"
          sodipodi:rx="1"
          sodipodi:cy="209"
@@ -1550,7 +1608,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:cy="209"
          sodipodi:rx="1"
          sodipodi:ry="1"
-         d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+         d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
          transform="matrix(1.5,0,0,1.5,49.49975,-109)" />
       <path
          sodipodi:end="7.0685835"
@@ -1563,7 +1621,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:cy="223.9375"
          sodipodi:rx="3.1875"
          sodipodi:ry="3.1875"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          transform="matrix(0,-1.7254899,1.7254899,0,-298.90189,250.5294)"
          clip-path="url(#clipPath3157-7)" />
     </g>
@@ -1771,11 +1829,11 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:cy="209"
          sodipodi:rx="1"
          sodipodi:ry="1"
-         d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+         d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
          transform="matrix(1.5,0,0,1.5,-17.50025,-87)" />
       <path
          transform="matrix(1.5,0,0,1.5,-13.50025,-87)"
-         d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+         d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
          sodipodi:ry="1"
          sodipodi:rx="1"
          sodipodi:cy="209"
@@ -1791,7 +1849,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:cy="209"
          sodipodi:rx="1"
          sodipodi:ry="1"
-         d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+         d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
          transform="matrix(1.5,0,0,1.5,-9.50025,-87)" />
     </g>
     <g
@@ -1854,11 +1912,11 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:cy="209"
          sodipodi:rx="1"
          sodipodi:ry="1"
-         d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+         d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
          transform="matrix(1.5,0,0,1.5,-17.50025,-28)" />
       <path
          transform="matrix(1.5,0,0,1.5,-13.50025,-28)"
-         d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+         d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
          sodipodi:ry="1"
          sodipodi:rx="1"
          sodipodi:cy="209"
@@ -1874,7 +1932,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:cy="209"
          sodipodi:rx="1"
          sodipodi:ry="1"
-         d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+         d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
          transform="matrix(1.5,0,0,1.5,-9.50025,-28)" />
     </g>
     <g
@@ -2366,7 +2424,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:start="5.4977871"
          sodipodi:open="true"
          transform="matrix(0.78431365,0,0,0.78431365,5.941178,48.862757)"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          sodipodi:ry="3.1875"
          sodipodi:rx="3.1875"
          sodipodi:cy="223.9375"
@@ -2386,7 +2444,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:cy="223.9375"
          sodipodi:rx="3.1875"
          sodipodi:ry="3.1875"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          transform="matrix(1.7254899,0,0,1.7254899,-17.529404,-161.90189)"
          clip-path="url(#clipPath6265-3-5)" />
       <path
@@ -2394,7 +2452,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:start="5.4977871"
          sodipodi:open="true"
          transform="matrix(2.6666653,0,0,2.6666653,-40.999969,-372.66635)"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          sodipodi:ry="3.1875"
          sodipodi:rx="3.1875"
          sodipodi:cy="223.9375"
@@ -2419,7 +2477,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
       <path
          transform="matrix(1.5,0,0,1.5,45.5,-105)"
-         d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+         d="m 29,209 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
          sodipodi:ry="1"
          sodipodi:rx="1"
          sodipodi:cy="209"
@@ -2432,7 +2490,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:start="5.4977871"
          sodipodi:open="true"
          transform="matrix(0,-0.78431365,0.78431365,0,-88.13724,227.05882)"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          sodipodi:ry="3.1875"
          sodipodi:rx="3.1875"
          sodipodi:cy="223.9375"
@@ -2444,7 +2502,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
       <path
          clip-path="url(#clipPath6265-33-6-5-1)"
          transform="matrix(0,-1.7254899,1.7254899,0,-298.90189,250.5294)"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          sodipodi:ry="3.1875"
          sodipodi:rx="3.1875"
          sodipodi:cy="223.9375"
@@ -2460,7 +2518,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:start="5.4977871"
          sodipodi:open="true"
          transform="matrix(0,-2.6666653,2.6666653,0,-509.66635,273.99996)"
-         d="m 27.191403,221.6836 a 3.1875,3.1875 0 0 1 0,4.5078"
+         d="m 27.191403,221.6836 c 1.244796,1.24479 1.244796,3.26301 0,4.5078 0,0 0,0 0,0"
          sodipodi:ry="3.1875"
          sodipodi:rx="3.1875"
          sodipodi:cy="223.9375"
@@ -2683,7 +2741,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
     <g
        style="display:inline"
        id="g4076"
-       inkscape:label="lock">
+       inkscape:label="FIXME-lock">
       <g
          style="fill:#bebebe;fill-opacity:1"
          transform="translate(181,233)"
@@ -2703,6 +2761,52 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          d="M 187.9375,237.0625 C 185.77574,237.0625 184,238.83824 184,241 l 0,3 -1,0 c -0.554,0 -1,0.446 -1,1 l 0,0.53125 0,6.46875 0,1 1,0 12,0 1,0 0,-1 0,-6.46875 L 196,245 c 0,-0.554 -0.446,-1 -1,-1 l -1,0 0,-3 c 0,-2.16176 -1.77574,-3.9375 -3.9375,-3.9375 l -2.125,0 z m 0,2 2.125,0 c 1.08836,0 1.9375,0.84914 1.9375,1.9375 l 0,3 -6,0 0,-3 c 0,-1.08836 0.84914,-1.9375 1.9375,-1.9375 z"
          transform="translate(19.99975,272)"
          id="rect4063" />
+    </g>
+    <g
+       inkscape:label="preferences-desktop-accessibility"
+       id="g11545"
+       style="display:inline"
+       transform="translate(20,0)">
+      <g
+         id="g11547"
+         inkscape:label="lock"
+         transform="translate(181,233)"
+         style="fill:#bebebe;fill-opacity:1">
+        <rect
+           inkscape:label="a"
+           y="276"
+           x="20"
+           height="16"
+           width="16"
+           id="rect11549"
+           style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      </g>
+      <path
+         sodipodi:type="arc"
+         style="color:#000000;fill:none;stroke:#bdbdbd;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path12322"
+         sodipodi:cx="209"
+         sodipodi:cy="245"
+         sodipodi:rx="8"
+         sodipodi:ry="8"
+         d="m 217,245 a 8,8 0 1 1 -16,0 8,8 0 1 1 16,0 z"
+         transform="translate(-2.5e-4,272)" />
+      <path
+         style="fill:#bcbcbc;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline;enable-background:new"
+         d="m 215.22503,513.9056 c -0.0814,0.0131 -0.15902,0.0454 -0.22528,0.0944 l -5.93768,0.0294 L 202.99975,514 c -0.15529,-0.11254 -0.37355,-0.14628 -0.54701,-0.0629 -0.17354,0.0839 -0.28728,0.28174 -0.28966,0.47036 -0.002,0.18858 0.11828,0.35118 0.28966,0.43899 l 4.54701,1.15355 0,3 -2,5 c -0.15995,0.23377 -0.11124,0.53399 0.12875,0.6898 0.23992,0.15584 0.58011,0.10837 0.74007,-0.12545 l 3.20263,-5.56571 3.0275,5.50304 c 0.14219,0.24242 0.45911,0.32665 0.70791,0.18815 0.24888,-0.13858 0.33533,-0.4474 0.19314,-0.68983 l -2,-5 0,-3 4.57905,-1.18492 c 0.19282,-0.13182 0.27664,-0.3812 0.19313,-0.59575 -0.0838,-0.21457 -0.31307,-0.33958 -0.54709,-0.31362 l 1e-5,0 z"
+         id="path9895"
+         sodipodi:nodetypes="ccccssccccscccsccccsccc"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:type="arc"
+         style="color:#000000;fill:#bcbcbc;fill-opacity:1;fill-rule:nonzero;stroke:#bdbdbd;stroke-width:2.00000167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path13134"
+         sodipodi:cx="209"
+         sodipodi:cy="240"
+         sodipodi:rx="1"
+         sodipodi:ry="1"
+         d="m 210,240 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+         transform="translate(-8.6830006e-5,272.00019)" />
     </g>
   </g>
   <g
@@ -2763,11 +2867,11 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:cy="361"
          sodipodi:rx="1"
          sodipodi:ry="1"
-         d="m 24,361 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+         d="m 24,361 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
          transform="matrix(0.5,0,0,0.5,12,101)" />
       <path
          transform="matrix(0.5,0,0,0.5,20,101)"
-         d="m 24,361 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+         d="m 24,361 c 0,0.55228 -0.447715,1 -1,1 -0.552285,0 -1,-0.44772 -1,-1 0,-0.55228 0.447715,-1 1,-1 0.552285,0 1,0.44772 1,1 z"
          sodipodi:ry="1"
          sodipodi:rx="1"
          sodipodi:cy="361"
