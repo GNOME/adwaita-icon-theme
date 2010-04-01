@@ -7,13 +7,14 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="400"
    height="100"
    id="svg7384"
    version="1.1"
-   inkscape:version="0.47 r22583"
+   inkscape:version="0.47+devel r9222 custom"
    sodipodi:docname="gnome-stencils.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    sodipodi:version="0.32">
@@ -25,28 +26,21 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-<<<<<<< HEAD
-     inkscape:cx="235.82689"
-     inkscape:cy="-148.01139"
+     inkscape:cx="228.1358"
+     inkscape:cy="-142.3239"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
-=======
-     inkscape:cx="207.33509"
-     inkscape:cy="-142.30326"
-     inkscape:document-units="px"
-     inkscape:current-layer="vpn"
->>>>>>> vpn through the 'cloud'
      showgrid="false"
      showborder="false"
      inkscape:window-width="1059"
-     inkscape:window-height="746"
-     inkscape:window-x="213"
-     inkscape:window-y="26"
+     inkscape:window-height="978"
+     inkscape:window-x="1655"
+     inkscape:window-y="78"
      inkscape:window-maximized="0"
      inkscape:showpageshadow="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:snap-nodes="false"
+     inkscape:snap-nodes="true"
      inkscape:snap-bbox="true"
      borderlayer="true">
     <inkscape:grid
@@ -71,7 +65,7 @@
        inkscape:vp_y="0 : 1000 : 0"
        inkscape:vp_z="400 : 50 : 1"
        inkscape:persp3d-origin="200 : 33.333333 : 1"
-       id="perspective483" />
+       id="perspective460" />
     <clipPath
        id="clipPath6259"
        clipPathUnits="userSpaceOnUse">
@@ -272,6 +266,24 @@
     </clipPath>
     <clipPath
        clipPathUnits="userSpaceOnUse"
+       id="clipPath3141-0">
+      <path
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 101,217 0,2 -2,0 0,1 4,0 0,7 -4,0 0,1 2,0 0,2 5,0 0,-13 -5,0 z"
+         id="path3143-8"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4201-6-8-5">
+      <path
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 101,177 0,5 2,0 0,2 1,0 0,-4 7,0 0,4 1,0 0,-2 2,0 0,-5 -13,0 z"
+         id="path4203-1-2-5"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
        id="clipPath6810">
       <rect
          style="color:#000000;fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -293,33 +305,58 @@
          y="221.32954" />
     </clipPath>
     <inkscape:perspective
-       id="perspective3308"
+       id="perspective4092"
        inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
        inkscape:vp_z="1 : 0.5 : 1"
        inkscape:vp_y="0 : 1000 : 0"
        inkscape:vp_x="0 : 0.5 : 1"
        sodipodi:type="inkscape:persp3d" />
-    <inkscape:perspective
-       id="perspective3330"
-       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
-       inkscape:vp_z="1 : 0.5 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 0.5 : 1"
-       sodipodi:type="inkscape:persp3d" />
-    <inkscape:perspective
-       id="perspective4134"
-       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
-       inkscape:vp_z="1 : 0.5 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 0.5 : 1"
-       sodipodi:type="inkscape:persp3d" />
-    <inkscape:perspective
-       id="perspective4158"
-       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
-       inkscape:vp_z="1 : 0.5 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 0.5 : 1"
-       sodipodi:type="inkscape:persp3d" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9879-4"
+       id="radialGradient9206-9"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.1280507,0,-15.592641)"
+       cx="-170.8718"
+       cy="127.7508"
+       fx="-170.8718"
+       fy="127.7508"
+       r="12.49998" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient9879-4">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0"
+         id="stop9881-6" />
+      <stop
+         style="stop-color:#e4e4e1;stop-opacity:1"
+         offset="1"
+         id="stop9883-2" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9879-4-9"
+       id="radialGradient9206-9-1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.1280507,0,-15.592641)"
+       cx="-170.8718"
+       cy="127.7508"
+       fx="-170.8718"
+       fy="127.7508"
+       r="12.49998" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient9879-4-9">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0"
+         id="stop9881-6-8" />
+      <stop
+         style="stop-color:#e4e4e1;stop-opacity:1"
+         offset="1"
+         id="stop9883-2-0" />
+    </linearGradient>
   </defs>
   <metadata
      id="metadata7389">
@@ -2693,7 +2730,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
     <g
        style="display:inline"
        id="g4076"
-       inkscape:label="network-encrypted">
+       inkscape:label="FIXME-lock">
       <g
          style="fill:#bebebe;fill-opacity:1"
          transform="translate(181,233)"
@@ -2710,25 +2747,6 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
       </g>
       <path
          style="color:#000000;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-<<<<<<< HEAD
-         d="m 207.93725,509.0625 c -2.16176,0 -3.9375,1.77574 -3.9375,3.9375 l 0,3 -1,0 c -0.554,0 -1,0.446 -1,1 l 0,7 13,0 0,-7 c 0,-0.554 -0.446,-1 -1,-1 l -1,0 0,-3 c 0,-2.16176 -1.77574,-3.9375 -3.9375,-3.9375 l -1.125,0 z m 0,2 1.125,0 c 1.08836,0 1.9375,0.84914 1.9375,1.9375 l 0,3 -5,0 0,-3 c 0,-1.08836 0.84914,-1.9375 1.9375,-1.9375 z"
-         id="rect4063"
-         sodipodi:nodetypes="cccccccccccccccccccc" />
-    </g>
-    <g
-       style="fill:#bebebe;fill-opacity:1"
-       transform="translate(201,233)"
-       inkscape:label="lock"
-       id="g3291">
-      <rect
-         style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         id="rect3293"
-         width="16"
-         height="16"
-         x="20"
-         y="276"
-         inkscape:label="a" />
-=======
          d="M 188.9375,238.0625 C 186.77574,238.0625 185,239.83824 185,242 l 0,2 -1,0 c -0.554,0 -1,0.446 -1,1 l 0,0.53125 0,5.46875 0,1 1,0 10,0 1,0 0,-1 0,-5.46875 L 195,245 c 0,-0.554 -0.446,-1 -1,-1 l -1,0 0,-2 c 0,-2.16176 -1.77574,-3.9375 -3.9375,-3.9375 z m 0,2 0.125,0 c 1.08836,0 1.9375,0.84914 1.9375,1.9375 l 0,2 -4,0 0,-2 c 0,-1.08836 0.84914,-1.9375 1.9375,-1.9375 z"
          transform="translate(19.99975,272)"
          id="rect4063"
@@ -2736,7 +2754,7 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          sodipodi:nodetypes="sscssccccccccsscssssssccss" />
     </g>
     <g
-       inkscape:label="network-vpn"
+       inkscape:label="network-vpn-alt"
        id="vpn"
        style="display:inline"
        transform="translate(20,0)"
@@ -2767,72 +2785,100 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          d="m 202.99975,523 12,0"
          id="path12681-3"
          inkscape:connector-curvature="0" />
-      <path
+      <rect
          style="color:#000000;fill:#bcbcbc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         d="m 209,239.03125 c -1.54158,0 -2.78125,1.23967 -2.78125,2.78125 0,0.23188 0.0405,0.47209 0.0937,0.6875 -0.21541,-0.0533 -0.42437,-0.125 -0.65625,-0.125 -1.54157,0 -2.8125,1.27092 -2.8125,2.8125 0,1.54158 1.27093,2.78125 2.8125,2.78125 l 1.34375,0 4.03125,0 1.3125,0 c 1.54157,0 2.8125,-1.23967 2.8125,-2.78125 0,-1.54158 -1.27093,-2.8125 -2.8125,-2.8125 -0.23188,0 -0.44084,0.0718 -0.65625,0.125 0.0534,-0.21541 0.0937,-0.45562 0.0937,-0.6875 0,-1.54158 -1.23968,-2.78125 -2.78125,-2.78125 z M 209,240 c 0.55228,0 1,0.44772 1,1 0,0.55228 -0.44772,1 -1,1 -0.55228,0 -1,-0.44772 -1,-1 0,-0.55228 0.44772,-1 1,-1 z m -1,3 2,0 0,4 -2,0 0,-3 -1,0 z"
+         id="rect13312"
+         width="8"
+         height="6"
+         x="205"
+         y="242"
          transform="translate(-2.5e-4,272)"
-         id="path13247"
+         ry="0" />
+      <path
+         transform="matrix(0.66666667,0,0,0.66666667,68.99975,351.66667)"
+         style="color:#000000;fill:none;stroke:#bbbbbb;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 213,242 0,2.99999 -6,0 L 207,242 c 0,-1.65685 1.34315,-3 3,-3 1.65685,0 3,1.34315 3,3 z"
+         id="path13314"
          inkscape:connector-curvature="0"
-         sodipodi:nodetypes="sscsssccssscssscssscccccccc" />
->>>>>>> vpn through the 'cloud'
+         sodipodi:nodetypes="sccsss" />
     </g>
-    <path
-       style="color:#000000;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 227.93725,509.0625 c -2.16176,0 -3.9375,1.77574 -3.9375,3.9375 l 0,3 -1,0 c -0.554,0 -1,0.446 -1,1 l 0,7 13,0 0,-7 c 0,-0.554 -0.446,-1 -1,-1 l -1,0 0,-3 c 0,-2.16176 -1.77574,-3.9375 -3.9375,-3.9375 l -1.125,0 z m 0,2 1.125,0 c 1.08836,0 1.9375,0.84914 1.9375,1.9375 l 0,3 -5,0 0,-3 c 0,-1.08836 0.84914,-1.9375 1.9375,-1.9375 z"
-       id="path3295"
-       sodipodi:nodetypes="cccccccccccccccccccc" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#bebebe;fill-opacity:1;stroke:none;display:inline"
-       id="path4959-4-2"
-       sodipodi:cx="28"
-       sodipodi:cy="209"
-       sodipodi:rx="1"
-       sodipodi:ry="1"
-       d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
-       transform="matrix(1.0606597,1.0606605,-1.0606597,1.0606605,435.47915,261.12345)" />
-    <path
-       transform="matrix(2.5036275,2.4763642,-2.5036275,2.4763642,696.61567,-74.400422)"
-       d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
-       sodipodi:ry="1"
-       sodipodi:rx="1"
-       sodipodi:cy="209"
-       sodipodi:cx="28"
-       id="path4116"
-       style="fill:none;stroke:#bebebe;stroke-width:0.5679667;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-       sodipodi:type="arc" />
-    <path
-       transform="matrix(1.0628613,1.0588753,-1.0628613,1.0588753,442.88075,268.54402)"
-       d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
-       sodipodi:ry="1"
-       sodipodi:rx="1"
-       sodipodi:cy="209"
-       sodipodi:cx="28"
-       id="path4122"
-       style="fill:#bebebe;fill-opacity:1;stroke:none;display:inline"
-       sodipodi:type="arc" />
-    <path
-       sodipodi:type="arc"
-       style="fill:none;stroke:#bebebe;stroke-width:0.57272941;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-       id="path4124"
-       sodipodi:cx="28"
-       sodipodi:cy="209"
-       sodipodi:rx="1"
-       sodipodi:ry="1"
-       d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
-       transform="matrix(2.4712481,2.4672591,-2.4712481,2.4672591,697.79053,-65.251174)" />
-    <path
-       style="color:#000000;fill:#424242;fill-opacity:1;fill-rule:nonzero;stroke:#bebebe;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 246.28139,515.39774 1.291,1.42359"
-       id="path12681-8"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cz" />
-    <path
-       sodipodi:nodetypes="cz"
-       inkscape:connector-curvature="0"
-       id="path4187"
-       d="m 244.75106,513.91161 3.82133,3.90972"
-       style="color:#000000;fill:#424242;fill-opacity:1;fill-rule:nonzero;stroke:#474747;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <g
+       id="g16866"
+       transform="translate(2.67257,6.58939)" />
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       transform="translate(40,0)"
+       style="display:inline"
+       id="g16874"
+       inkscape:label="network-vpn">
+      <g
+         style="fill:#bebebe;fill-opacity:1"
+         transform="translate(181,233)"
+         inkscape:label="lock"
+         id="g16876">
+        <rect
+           style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="rect16878"
+           width="16"
+           height="16"
+           x="20"
+           y="276"
+           inkscape:label="a" />
+      </g>
+      <path
+         transform="matrix(1.0606597,1.0606605,-1.0606597,1.0606605,397.51303,262.10147)"
+         d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+         sodipodi:ry="1"
+         sodipodi:rx="1"
+         sodipodi:cy="209"
+         sodipodi:cx="28"
+         id="path4959-4-2"
+         style="fill:#bebebe;fill-opacity:1;stroke:none;display:inline"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:type="arc"
+         style="fill:none;stroke:#bebebe;stroke-width:0.5679667;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+         id="path4116"
+         sodipodi:cx="28"
+         sodipodi:cy="209"
+         sodipodi:rx="1"
+         sodipodi:ry="1"
+         d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+         transform="matrix(2.5036275,2.4763642,-2.5036275,2.4763642,658.6527,-73.421951)" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#bebebe;fill-opacity:1;stroke:none;display:inline"
+         id="path4122"
+         sodipodi:cx="28"
+         sodipodi:cy="209"
+         sodipodi:rx="1"
+         sodipodi:ry="1"
+         d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+         transform="matrix(1.0628613,1.0588753,-1.0628613,1.0588753,404.91463,269.52204)" />
+      <path
+         transform="matrix(2.4712481,2.4672591,-2.4712481,2.4672591,659.82441,-64.273148)"
+         d="m 29,209 a 1,1 0 1 1 -2,0 1,1 0 1 1 2,0 z"
+         sodipodi:ry="1"
+         sodipodi:rx="1"
+         sodipodi:cy="209"
+         sodipodi:cx="28"
+         id="path4124"
+         style="fill:none;stroke:#bebebe;stroke-width:0.57272941;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:nodetypes="cz"
+         inkscape:connector-curvature="0"
+         id="path12681-8"
+         d="m 208.31527,516.37576 1.291,1.42359"
+         style="color:#000000;fill:#424242;fill-opacity:1;fill-rule:nonzero;stroke:#bebebe;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         style="color:#000000;fill:#424242;fill-opacity:1;fill-rule:nonzero;stroke:#474747;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 206.78494,514.88963 3.82133,3.90972"
+         id="path4187"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cz" />
+    </g>
   </g>
   <g
      inkscape:groupmode="layer"
