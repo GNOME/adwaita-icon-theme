@@ -1,0 +1,7 @@
+- each context nees a separate layer
+- every group in th elayer will be exported
+- so any group inside the layer should be 16x16
+- best practice is to have a group include a 16x16 rectangle with no fill and no stroke to make sure the group is 16x16px
+- to select that, go into outline mode
+- group label will be used for final svg filename (+ -symbolic suffix)
+- best way to work with groups is to enter them with ctrl+enter and then exit with ctrl+backspace
