@@ -26,16 +26,16 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="149.38508"
-     inkscape:cy="-307.14338"
+     inkscape:cx="188.60924"
+     inkscape:cy="-165.82124"
      inkscape:document-units="px"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer3"
      showgrid="false"
      showborder="false"
-     inkscape:window-width="1438"
-     inkscape:window-height="830"
-     inkscape:window-x="1989"
-     inkscape:window-y="21"
+     inkscape:window-width="1373"
+     inkscape:window-height="999"
+     inkscape:window-x="1883"
+     inkscape:window-y="-78"
      inkscape:window-maximized="0"
      inkscape:showpageshadow="false"
      showguides="true"
@@ -45,7 +45,9 @@
      borderlayer="true"
      inkscape:snap-global="true"
      objecttolerance="10"
-     gridtolerance="10">
+     gridtolerance="10"
+     inkscape:snap-to-guides="false"
+     inkscape:snap-grids="false">
     <inkscape:grid
        type="xygrid"
        id="grid7831"
@@ -338,6 +340,54 @@
        inkscape:vp_y="0 : 1000 : 0"
        inkscape:vp_x="0 : 16 : 1"
        sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10976"
+       id="linearGradient3576"
+       x1="332.25"
+       y1="230.75438"
+       x2="331.5"
+       y2="223.85889"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-20,0)" />
+    <linearGradient
+       id="linearGradient10976"
+       inkscape:collect="always">
+      <stop
+         id="stop10978"
+         offset="0"
+         style="stop-color:#ef7600;stop-opacity:1" />
+      <stop
+         style="stop-color:#dd7f05;stop-opacity:1"
+         offset="0.59182101"
+         id="stop10980" />
+      <stop
+         id="stop10982"
+         offset="1"
+         style="stop-color:#fcaf3e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10883-8"
+       id="linearGradient3574"
+       x1="328.625"
+       y1="224.875"
+       x2="328.625"
+       y2="232.50125"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-20,0)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient10883-8">
+      <stop
+         style="stop-color:#ce5c00;stop-opacity:1;"
+         offset="0"
+         id="stop10885-2" />
+      <stop
+         style="stop-color:#a84b00;stop-opacity:1"
+         offset="1"
+         id="stop10887-4" />
+    </linearGradient>
   </defs>
   <metadata
      id="metadata7389">
@@ -2856,6 +2906,46 @@ http://git.gnome.org/browse/gnome-icon-theme-symbolic/plain/AUTHORS</dc:title>
          id="path4187"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cz" />
+    </g>
+    <g
+       inkscape:label="software-update-available"
+       id="g16846"
+       transform="translate(161,253)"
+       style="display:inline">
+      <rect
+         style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible"
+         id="rect16848"
+         width="16"
+         height="16"
+         x="20"
+         y="276"
+         inkscape:label="a" />
+      <path
+         style="fill:#bdbdbd;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline;enable-background:new"
+         d="M 169 257 L 166.71875 260.4375 L 163.28125 259.28125 L 164.4375 262.71875 L 161 265 L 164.4375 267.28125 L 163.28125 270.71875 L 166.71875 269.5625 L 169 273 L 171.28125 269.5625 L 174.71875 270.71875 L 173.5625 267.28125 L 177 265 L 173.5625 262.71875 L 174.71875 259.28125 L 171.28125 260.4375 L 169 257 z M 169 261 L 173.0625 265.03125 L 171.03125 265.03125 L 171.03125 267.96875 L 167 267.96875 L 167 265.03125 L 164.96875 265.03125 L 169 261 z "
+         id="rect7040"
+         transform="translate(-141.0002,19)" />
+    </g>
+    <g
+       style="display:inline"
+       transform="translate(181,253)"
+       id="g16905"
+       inkscape:label="software-update-urgent">
+      <rect
+         inkscape:label="a"
+         y="276"
+         x="20"
+         height="16"
+         width="16"
+         id="rect16907"
+         style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+      <path
+         style="fill:#bdbdbd;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline;enable-background:new"
+         d="m 189,257 -2.28125,3.4375 -3.4375,-1.15625 1.15625,3.4375 L 181,265 l 3.4375,2.28125 -1.15625,3.4375 3.4375,-1.15625 L 189,273 l 2.28125,-3.4375 3.4375,1.15625 -1.15625,-3.4375 L 197,265 l -3.4375,-2.28125 1.15625,-3.4375 -3.4375,1.15625 z m -1,4.0625 2,0 0,4.96875 -2,0 z m 1.03125,5.6875 c 0.70761,0 1.28125,0.57364 1.28125,1.28125 0,0.70761 -0.57364,1.28125 -1.28125,1.28125 -0.70761,0 -1.28125,-0.57364 -1.28125,-1.28125 0,-0.70761 0.57364,-1.28125 1.28125,-1.28125 z"
+         transform="translate(-161.0002,19)"
+         id="path16909"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccccccccccccccccccsssss" />
     </g>
   </g>
   <g
