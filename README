@@ -27,5 +27,12 @@ The whole set is maintained in a single SVG, src/gnome-stencils.svg. Each contex
 
 Recoloring
 ----------
+The color of the icon set is defined at runtime by the gtk theme. Every single icon from the set is actually embedded inside an xml container that has a stylesheet overriding the colors.
 
-FIXME
+There is a couple of things the icon author needs to be aware of and a few things s/he can make use of. The stylesheet is setting the color of the fill for all rectangles and paths. _DO_NOT_ leave any rectangles or paths with no fill/stroke thinking it's invisible.
+
+If you need colorize specific part of an icon you need to set a class of that object. In inkscape 0.47 this is sadly only achievable by selecting the object, going into the xml editor and creating a new attribute 'class' and setting its value. There are currently 3 possible values:
+
+- warning - this maps to gtk @warning_fg
+- error - maps to @error_fg
+- success - maps to @success_fg
