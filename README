@@ -1,7 +1,7 @@
 GNOME Symbolic Icons
 ====================
 
-Purpose of this icon theme is to extend the base icon theme that follows the Tango style guidelines for specific purposes. This would include OSD messages, panel system/notification area, and one we have close to 100% name spec coverage, the menu icons. 
+Purpose of this icon theme is to extend the base icon theme that follows the Tango style guidelines for specific purposes. This would include OSD messages, panel system/notification area, and possibly menu icons. 
 
 Icons follow the naming specification, but have a -symbolic suffix, so only applications specifically looking up these symbolic icons will render them. If a -symbolic icon is missing, the app will fall back to the regular name.
 
@@ -18,4 +18,14 @@ Here's places that should make use of this style (and look up icons as -symbolic
 	* Panel systray (and gnome-shell equivalents)
 	* Nautilus' sidebar eject emblem for mounted drives
 	* OSD (volume levels, display, eject etc)
-	* All menu items
+	* text input widgets (caps lock warning, clear icons)
+	
+HOWTO
+=====
+
+The whole set is maintained in a single SVG, src/gnome-stencils.svg. Each context (apps, actions, mimetypes...) lives inside an Inkscape layer (group). Any group inside that layer is treated as an icon and will be exported into the gnome/scalable/<context>/<inkscape:label>-symbolic.svg of the group. This export is handled by using Inkscape's verbs, which means it will pop up Inkscape GUI at you and will take ages.
+
+Recoloring
+----------
+
+FIXME
