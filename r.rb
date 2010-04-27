@@ -19,7 +19,6 @@ def chopSVG(icon)
 		system(cmd)
 		cmd = "#{INKSCAPE} -f #{icon[:file]} -z --vacuum-defs -l #{icon[:file]} > /dev/null 2>&1"
 		system(cmd)
-		system cmd unless (!icon[:dir].match(/app/))
 	else
 		puts " -- #{icon[:name]} already exists"
 	end
