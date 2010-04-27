@@ -4,7 +4,7 @@ require "rexml/document"
 require "fileutils"
 include REXML
 
-INKSCAPE = '/usr/bin/inkscape'
+INKSCAPE = '/opt/artlibre/bin/inkscape'
 SRC = "src/gnome-stencils.svg"
 PREFIX = "gnome/scalable"
 
@@ -19,6 +19,15 @@ def chopSVG(icon)
 		system(cmd)
 		cmd = "#{INKSCAPE} -f #{icon[:file]} -z --vacuum-defs -l #{icon[:file]} > /dev/null 2>&1"
 		system(cmd)
+		svgcrop = Document.new(File.new(icon[:file], 'r'))
+		svgcrop.root.each_element("//rect") do |rect| 
+			if rect.attributes["width"] == '16' && rect.attributes["height"] == '16'
+				rect.remove
+			end
+		end
+    icon_f = File.new(icon[:file],'w+')
+    icon_f.puts svgcrop
+    icon_f.close
 	else
 		puts " -- #{icon[:name]} already exists"
 	end
