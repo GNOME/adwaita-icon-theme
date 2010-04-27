@@ -1,25 +1,7 @@
 
 icon_in_files = $(shell SRCDIR="$(srcdir)"; for i in `find $$SRCDIR -name "*.svg"`; do printf "$$i "; done)
 
-if ALLOW_RENDERING
-render-png: $(icon_in_files) Makefile
-	for file in $(icon_in_files); do \
-		for size in $(render_sizes); do \
-			$(ICONTOOL_RENDER) -s $$size -o $(top_builddir)/$(SVGOUTDIR) $$file >/dev/null; \
-		done; \
-	done
-
-else
-render-png: $(icon_in_files) Makefile
-	if test "x$(top_srcdir)" != "x$(top_builddir)"; then \
-		cp -a $(top_srcdir)/$(SVGOUTDIR) $(top_builddir)/$(SVGOUTDIR); \
-	fi
-
-endif
-
 $(render_sizes): Makefile
-
-render: render-png
 
 install-data-local:
 	for size in $(render_sizes); do \

@@ -7,10 +7,6 @@ theme_DATA = $(theme_in_files:.theme.in.in=.theme)
 
 THEME_DIRS=$(shell SIZES="$(render_sizes)"; for size in $$SIZES; do for dir in `find $(srcdir)/$(SVGOUTDIR)/$$size/* -type d`; do printf "$$dir,"; done; done | sed -e "s/,$$//g")
 
-render: Makefile
-	($(am__cd) $(SVGSRCDIR) && $(MAKE) $(AM_MAKEFLAGS) render) \
-	|| eval `exit 1`
-
 %.theme.in: %.theme.in.in $(SVGOUTDIR) Makefile
 	dirs="`echo $(THEME_DIRS) | sed -e 's#$(srcdir)/gnome/##g'`"; \
 	sed -e "s|\@THEME_DIRS\@|$$dirs|g" < $< > $@; \

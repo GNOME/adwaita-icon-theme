@@ -57,23 +57,6 @@ fi
 
 AC_SUBST(ICONMAP)
 
-# need git, icontool, and inkscape for rendering
-allow_rendering=yes
-AC_PATH_PROG([GIT], [git], [false])
-if test "x$GIT" = "xfalse"; then
-   allow_rendering=no
-fi
-AC_PATH_PROG([ICONTOOL_RENDER], [icontool-render], [false])
-if test "x$ICONTOOL_RENDER" = "xfalse"; then
-   allow_rendering=no
-fi
-AC_PATH_PROG([INKSCAPE], [inkscape], [false])
-if test "x$INKSCAPE" = "xfalse"; then
-   allow_rendering=no
-fi
-AM_CONDITIONAL(ALLOW_RENDERING, test "x$allow_rendering" = "xyes")
-
-
 AC_CONFIG_FILES([
 Makefile
 gnome-icon-theme.pc
