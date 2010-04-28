@@ -1,7 +1,7 @@
 dnl Process this file with autoconf to produce a configure script.
 AC_PREREQ(2.53)
 
-AC_INIT([gnome-icon-theme-symbolic], [2.29.2],
+AC_INIT([gnome-icon-theme-symbolic], [2.30.0],
         [http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-icon-theme-symbolic])
 AC_CONFIG_SRCDIR([src/gnome-stencils.svg])
 
