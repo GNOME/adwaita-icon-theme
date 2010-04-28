@@ -14,7 +14,7 @@
    width="400"
    height="100"
    id="svg7384"
-   inkscape:version="0.47+devel r9385 custom"
+   inkscape:version="0.47 r22583"
    sodipodi:docname="gnome-stencils.svg">
   <metadata
      id="metadata90">
@@ -41,13 +41,13 @@
      inkscape:window-height="865"
      id="namedview88"
      showgrid="false"
-     inkscape:zoom="4"
-     inkscape:cx="169.77391"
-     inkscape:cy="-281.23645"
-     inkscape:window-x="1600"
-     inkscape:window-y="0"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="147.04623"
+     inkscape:cy="-163.4223"
+     inkscape:window-x="399"
+     inkscape:window-y="80"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer11"
+     inkscape:current-layer="layer9"
      showborder="false"
      inkscape:snap-nodes="true"
      inkscape:snap-bbox="true"
@@ -68,6 +68,13 @@
      id="title9167">Gnome Symbolic Icon Theme</title>
   <defs
      id="defs7386">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 50 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="400 : 50 : 1"
+       inkscape:persp3d-origin="200 : 33.333333 : 1"
+       id="perspective677" />
     <clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath6279-6-1-4-5">
@@ -1304,7 +1311,8 @@
          sodipodi:nodetypes="ccccccc"
          id="rect6060"
          d="m 25,249 7.99975,0 0,-3.00025 -2,0 -2,-2 L 25,244 l 0,5 z"
-         style="fill:#bebebe;fill-opacity:1;stroke:none" />
+         style="fill:#4e9a06;fill-opacity:1;stroke:none"
+         class="success" />
       <path
          inkscape:connector-curvature="0"
          style="color:#bebebe;fill:none;stroke:#bebebe;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible"
@@ -2358,9 +2366,10 @@
         <path
            inkscape:connector-curvature="0"
            id="path339"
-           style="color:#bebebe;fill:none;stroke:#bebebe;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible"
+           style="color:#bebebe;fill:none;stroke:#f57900;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible"
            d="m 62.999749,318 10.000002,0 0,6 c 0,2.96398 -5.000001,6 -5.000001,6 0,0 -5.000001,-2.94932 -5.000001,-6 l 0,-6 z"
-           sodipodi:nodetypes="cccccc" />
+           sodipodi:nodetypes="cccccc"
+           class="warning" />
       </g>
     </g>
     <g
@@ -2421,7 +2430,8 @@
            id="rect4034-7-1-6"
            transform="translate(-120,109)"
            d="m 225,211 0,4 c 0,0.35738 0.75517,1.64136 1.84375,2.625 0.57529,0.51983 0.73637,0.58052 1.15625,0.875 0.41988,-0.29448 0.58096,-0.35517 1.15625,-0.875 C 230.24483,216.64136 231,215.35738 231,215 l 0,-4 -6,0 z"
-           style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" />
+           style="color:#bebebe;fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible"
+           class="success" />
       </g>
     </g>
     <g
@@ -3032,10 +3042,11 @@
       </g>
       <path
          inkscape:connector-curvature="0"
-         style="opacity:0.98999999;color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible"
+         style="opacity:0.98999999;color:#bebebe;fill:#cc0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible"
          d="m 32.99975,228 c -1.108,0 -2,0.892 -2,2 l 0,1 c 0,1.108 0.892,2 2,2 l 1,0 c 1.108,0 2,-0.892 2,-2 l 0,-1 c 0,-1.108 -0.892,-2 -2,-2 l -1,0 z m -1,2 3,0 0,1 -3,0 0,-1 z"
          id="rect4572-1"
-         sodipodi:nodetypes="cccccccccccccc" />
+         sodipodi:nodetypes="cccccccccccccc"
+         class="error" />
     </g>
     <g
        id="g3436"
