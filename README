@@ -1,9 +1,13 @@
 GNOME Symbolic Icons
 ====================
 
-Purpose of this icon theme is to extend the base icon theme that follows the Tango style guidelines for specific purposes. This would include OSD messages, panel system/notification area, and possibly menu icons. 
+Purpose of this icon theme is to extend the base icon theme that follows the
+Tango style guidelines for specific purposes. This would include OSD messages,
+panel system/notification area, and possibly menu icons. 
 
-Icons follow the naming specification, but have a -symbolic suffix, so only applications specifically looking up these symbolic icons will render them. If a -symbolic icon is missing, the app will fall back to the regular name.
+Icons follow the naming specification, but have a -symbolic suffix, so only
+applications specifically looking up these symbolic icons will render them. If
+a -symbolic icon is missing, the app will fall back to the regular name.
 
 Primitive build instructions
 ============================
@@ -13,7 +17,8 @@ Running the r.rb script will chop up the "source" SVG into individual icons.
 Targets
 =======
 
-Here's places that should make use of this style (and look up icons as -symbolic).
+Here's places that should make use of this style (and look up icons as
+-symbolic).
 
 	* Panel systray (and gnome-shell equivalents)
 	* Nautilus' sidebar eject emblem for mounted drives
@@ -23,15 +28,34 @@ Here's places that should make use of this style (and look up icons as -symbolic
 HOWTO
 =====
 
-The whole set is maintained in a single SVG, src/gnome-stencils.svg. Each context (apps, actions, mimetypes...) lives inside an Inkscape layer (group). Any group inside that layer is treated as an icon and will be exported into the gnome/scalable/<context>/<inkscape:label>-symbolic.svg of the group. This export is handled by using Inkscape's verbs, which means it will pop up Inkscape GUI at you and will take ages.
+The whole set is maintained in a single SVG, src/gnome-stencils.svg. Each
+context (apps, actions, mimetypes...) lives inside an Inkscape layer (group).
+Any group inside that layer is treated as an icon and will be exported into the
+gnome/scalable/<context>/<inkscape:label>-symbolic.svg of the group. This
+export is handled by using Inkscape's verbs, which means it will pop up
+Inkscape GUI at you and will take ages.
+
+The best way to assure your icon will be precisely 16x16, is to include a blank
+rectangle in the group. This rectangle, as long as it is 16 pixels wide and
+high, will be removed by the crop script. To name the group, open up the object
+properties dialog (Ctrl+Shfit+O) and use the 'label' field. Do not add the
+-symbolic suffix there, that will be done by the script.
 
 Recoloring
 ----------
-The color of the icon set is defined at runtime by the gtk theme. Every single icon from the set is actually embedded inside an xml container that has a stylesheet overriding the colors.
+The color of the icon set is defined at runtime by the gtk theme. Every single
+icon from the set is actually embedded inside an xml container that has a
+stylesheet overriding the colors.
 
-There is a couple of things the icon author needs to be aware of and a few things s/he can make use of. The stylesheet is setting the color of the fill for all rectangles and paths. _DO_NOT_ leave any rectangles or paths with no fill/stroke thinking it's invisible.
+There is a couple of things the icon author needs to be aware of and a few
+things s/he can make use of. The stylesheet is setting the color of the fill
+for all rectangles and paths. _DO_NOT_ leave any rectangles or paths with no
+fill/stroke thinking it's invisible.
 
-If you need colorize specific part of an icon you need to set a class of that object. In inkscape 0.47 this is sadly only achievable by selecting the object, going into the xml editor and creating a new attribute 'class' and setting its value. There are currently 3 possible values:
+If you need colorize specific part of an icon you need to set a class of that
+object. In inkscape 0.47 this is sadly only achievable by selecting the object,
+going into the xml editor and creating a new attribute 'class' and setting its
+value. There are currently 3 possible values:
 
 - warning - this maps to gtk @warning_color
 - error - maps to @error_color
