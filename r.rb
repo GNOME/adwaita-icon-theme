@@ -4,7 +4,7 @@ require "rexml/document"
 require "fileutils"
 include REXML
 
-INKSCAPE = '/opt/artlibre/bin/inkscape'
+INKSCAPE = `which inkscape`
 SRC = "src/gnome-stencils.svg"
 PREFIX = "gnome/scalable"
 
