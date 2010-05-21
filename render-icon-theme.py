@@ -38,9 +38,9 @@ def start_inkscape():
 
 def inkscape_render_rect(icon_file, rect, output_file):
     global inkscape_process
-    #if inkscape_process is None:
-    #    inkscape_process = start_inkscape()
-    #wait_for_prompt(inkscape_process, '%s -i %s -e %s' % (icon_file, rect, output_file))
+    if inkscape_process is None:
+        inkscape_process = start_inkscape()
+    wait_for_prompt(inkscape_process, '%s -i %s -e %s' % (icon_file, rect, output_file))
     optimize_png(output_file)
 
 class ContentHandler(xml.sax.ContentHandler):
