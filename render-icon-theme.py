@@ -6,9 +6,15 @@ import xml.sax
 import subprocess
 
 INKSCAPE = '/usr/bin/inkscape'
+OPTIPNG = '/usr/bin/optipng'
 SRC = os.path.join('.', 'src')
 
 inkscape_process = None
+
+def optimize_png(png_file):
+    if os.path.exists(OPTIPNG):
+        process = subprocess.Popen([OPTIPNG, '-quiet', '-o7', png_file])
+        process.wait()
 
 def wait_for_prompt(process, command=None):
     if command is not None:
@@ -32,9 +38,10 @@ def start_inkscape():
 
 def inkscape_render_rect(icon_file, rect, output_file):
     global inkscape_process
-    if inkscape_process is None:
-        inkscape_process = start_inkscape()
-    wait_for_prompt(inkscape_process, '%s -i %s -e %s' % (icon_file, rect, output_file))
+    #if inkscape_process is None:
+    #    inkscape_process = start_inkscape()
+    #wait_for_prompt(inkscape_process, '%s -i %s -e %s' % (icon_file, rect, output_file))
+    optimize_png(output_file)
 
 class ContentHandler(xml.sax.ContentHandler):
     ROOT = 0
@@ -42,7 +49,7 @@ class ContentHandler(xml.sax.ContentHandler):
     LAYER = 2
     OTHER = 3
     TEXT = 4
-    def __init__(self, path, force=False):
+    def __init__(self, path, force=False, filter=None):
         self.stack = [self.ROOT]
         self.inside = [self.ROOT]
         self.path = path
@@ -50,6 +57,7 @@ class ContentHandler(xml.sax.ContentHandler):
         self.state = self.ROOT
         self.chars = ""
         self.force = force
+        self.filter = filter
 
     def endDocument(self):
         pass
@@ -103,6 +111,10 @@ class ContentHandler(xml.sax.ContentHandler):
         elif stacked == self.LAYER:
             assert self.icon_name
             assert self.context
+
+            if self.filter is not None and not self.icon_name in self.filter:
+                return
+
             print '%s %s' % (self.context, self.icon_name)
             for rect in self.rects:
                 width = rect['width']
@@ -143,8 +155,12 @@ if len(sys.argv) == 1:
             xml.sax.parse(open(file), handler)
 else:
     file = os.path.join(SRC, sys.argv[1] + '.svg')
+    if len(sys.argv) > 2:
+        icons = sys.argv[2:]
+    else:
+        icons = None
     if os.path.exists(os.path.join(file)):
-        handler = ContentHandler(file, True)
+        handler = ContentHandler(file, True, filter=icons)
         xml.sax.parse(open(file), handler)
     else:
         print "Error: No such file %s" % file
