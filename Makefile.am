@@ -5,14 +5,18 @@ SUBDIRS = po $(SVGSRCDIR)
 theme_in_files = index.theme.in.in
 theme_DATA = $(theme_in_files:.theme.in.in=.theme)
 
-THEME_DIRS=$(shell SIZES="$(render_sizes)"; for size in $$SIZES; do for dir in `find $(srcdir)/$(SVGOUTDIR)/$$size/* -type d`; do printf "$$dir,"; done; done | sed -e "s/,$$//g")
+THEME_DIRS=$(shell SIZES="$(render_sizes)"; for size in $$SIZES; do for dir in `find $(srcdir)/$(SVGOUTDIR)/$$size/* -type d`; do printf "$$dir,"; done; done; echo "scalable/actions,scalable/apps,scalable/devices,scalable/emblems,scalable/mimetypes,scalable/places,scalable/status")
 
 %.theme.in: %.theme.in.in $(SVGOUTDIR) Makefile
 	dirs="`echo $(THEME_DIRS) | sed -e 's#$(srcdir)/gnome/##g'`"; \
 	sed -e "s|\@THEME_DIRS\@|$$dirs|g" < $< > $@; \
 	for dir in `echo $$dirs | sed -e "s/,/ /g"`; do \
 		sizefull="`dirname $$dir`"; \
-		size="`echo $$sizefull | sed -e 's/x.*$$//g'`"; \
+		if test "$$sizefull" = "scalable"; then \
+			size="16"; \
+		else \
+			size="`echo $$sizefull | sed -e 's/x.*$$//g'`"; \
+		fi; \
 		context="`basename $$dir`"; \
 		echo "[$$dir]" >> $@; \
 		if test "$$context" = "actions"; then \
@@ -49,7 +53,11 @@ THEME_DIRS=$(shell SIZES="$(render_sizes)"; for size in $$SIZES; do for dir in `
 			echo "Context=Status" >> $@; \
 		fi; \
 		echo "Size=$$size" >> $@; \
-		if test "$$size" = "256"; then \
+		if test "$$sizefull" = "scalable"; then \
+			echo "MinSize=16" >> $@; \
+			echo "MaxSize=256" >> $@; \
+			echo "Type=Scalable" >> $@; \
+		elif test "$$size" = "256"; then \
 			echo "MinSize=56" >> $@; \
 			echo "MaxSize=512" >> $@; \
 			echo "Type=Scalable" >> $@; \
