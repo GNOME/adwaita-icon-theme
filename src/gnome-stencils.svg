@@ -42,12 +42,12 @@
      id="namedview88"
      showgrid="false"
      inkscape:zoom="1"
-     inkscape:cx="91.970452"
-     inkscape:cy="-457.7151"
+     inkscape:cx="157.86624"
+     inkscape:cy="-119.42362"
      inkscape:window-x="54"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer12"
+     inkscape:current-layer="layer9"
      showborder="false"
      inkscape:snap-nodes="true"
      inkscape:snap-bbox="true"
@@ -72,6 +72,13 @@
      id="title9167">Gnome Symbolic Icon Theme</title>
   <defs
      id="defs7386">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 50 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="400 : 50 : 1"
+       inkscape:persp3d-origin="200 : 33.333333 : 1"
+       id="perspective778" />
     <clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath6279-6-1-4-5">
@@ -683,6 +690,8 @@
        id="g3728"
        inkscape:label="battery-full"
        transform="matrix(0,1,-1,0,293.0002,197)">
+      <desc
+         id="desc11549">battery is full and there is no a/c connected.</desc>
       <rect
          transform="scale(1,-1)"
          y="-247"
@@ -1303,6 +1312,8 @@
        transform="matrix(0,1,-1,0,413.0002,197)"
        inkscape:label="battery-full-charging"
        id="g6058">
+      <desc
+         id="desc11547">baterry is almost full, but still charging.</desc>
       <path
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ccccccc"
@@ -1384,7 +1395,7 @@
        style="display:inline"
        id="g6255"
        inkscape:label="battery-good-charging"
-       transform="matrix(0,1,-1,0,433.0002,197)">
+       transform="matrix(0,1,-1,0,453.0002,197)">
       <path
          inkscape:connector-curvature="0"
          style="fill:#bebebe;fill-opacity:1;stroke:none"
@@ -1464,7 +1475,7 @@
     </g>
     <g
        style="display:inline"
-       transform="matrix(0,1,-1,0,453.0002,197)"
+       transform="matrix(0,1,-1,0,473.0002,197)"
        inkscape:label="battery-low-charging"
        id="g6280">
       <path
@@ -1548,7 +1559,7 @@
        style="display:inline"
        id="g6304"
        inkscape:label="battery-caution-charging"
-       transform="matrix(0,1,-1,0,473.0002,197)">
+       transform="matrix(0,1,-1,0,493.0002,197)">
       <path
          inkscape:connector-curvature="0"
          style="fill:#ef2929;fill-opacity:1;stroke:none"
@@ -2344,7 +2355,7 @@
       </g>
     </g>
     <g
-       transform="translate(221.0002,-78.999999)"
+       transform="translate(241.0002,-78.999999)"
        inkscape:label="security-low"
        id="g4139-4"
        style="display:inline">
@@ -2368,7 +2379,7 @@
       </g>
     </g>
     <g
-       transform="translate(241.0002,-78.999999)"
+       transform="translate(261.0002,-78.999999)"
        inkscape:label="security-medium"
        id="g4139-4-6"
        style="display:inline">
@@ -2398,7 +2409,7 @@
       </g>
     </g>
     <g
-       transform="translate(261.0002,-78.999999)"
+       transform="translate(281.0002,-78.999999)"
        inkscape:label="security-high"
        id="g4139-4-6-9"
        style="display:inline">
@@ -2684,7 +2695,7 @@
        style="display:inline"
        id="g11304"
        inkscape:label="battery-empty-charging"
-       transform="matrix(0,1,-1,0,493.0002,197)">
+       transform="matrix(0,1,-1,0,513.0002,197)">
       <desc
          id="desc11328">Used when multiple batteries are present and one is out of juice but charging.</desc>
       <path
@@ -3221,6 +3232,94 @@
          d="m 60.5,407 c -1.93299,0 -3.5,1.56701 -3.5,3.5 0,1.93299 1.56701,3.5 3.5,3.5 1.93299,0 3.5,-1.56701 3.5,-3.5 0,-1.93299 -1.56701,-3.5 -3.5,-3.5 z m -2.5,2.96875 5,0 0,1.03125 -5,0 0,-1.03125 z"
          id="path3482-5"
          class="error" />
+    </g>
+    <g
+       id="g10739"
+       inkscape:label="battery-full-charged"
+       transform="matrix(0,1,-1,0,433.0002,197)"
+       style="display:inline">
+      <desc
+         id="desc11545">slightly odd name for a state where the battery is full, the main a/c is plugged in, but the battery isn't being charged anymore.</desc>
+      <path
+         style="fill:#bebebe;fill-opacity:1;stroke:none"
+         d="m 25,249 7.99975,0 0,-3.00025 -2,0 -2,-2 L 25,244 l 0,5 z"
+         id="path10741"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="ccccccccccc"
+         id="path10743"
+         d="M 34.99975,243.99975 35,251 l -12,0 0,-2 -1.471431,0 c -0.234375,0 -0.484375,-0.25 -0.484375,-0.46875 l 0,-3.96875 c -0.01563,-0.28125 0.340963,-0.54687 0.622213,-0.5625 L 23,244 l 0,-2 3.99975,-2.5e-4"
+         style="color:#bebebe;fill:none;stroke:#bebebe;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible"
+         inkscape:connector-curvature="0" />
+      <rect
+         style="color:#bebebe;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible"
+         id="rect10745"
+         width="16"
+         height="16"
+         x="20"
+         y="236"
+         inkscape:label="audio-volume-high" />
+      <g
+         id="g10763"
+         style="opacity:0.25">
+        <path
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccc"
+           id="path10747"
+           d="m 28.99975,240.99975 3,3 0,-5 3,3"
+           style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:#bebebe;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible" />
+        <rect
+           transform="matrix(0,-1,1,0,0,0)"
+           y="30.99975"
+           x="-238.99976"
+           height="1"
+           width="1"
+           id="rect10749"
+           style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" />
+        <rect
+           style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible"
+           id="rect10751"
+           width="1"
+           height="1"
+           x="-244.99976"
+           y="31.99975"
+           transform="matrix(0,-1,1,0,0,0)" />
+        <rect
+           transform="matrix(0,-1,1,0,0,0)"
+           y="27.99975"
+           x="-240.99976"
+           height="1"
+           width="1"
+           id="rect10753"
+           style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" />
+        <rect
+           style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible"
+           id="rect10755"
+           width="1"
+           height="1"
+           x="-242.99976"
+           y="34.999748"
+           transform="matrix(0,-1,1,0,0,0)" />
+        <path
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc"
+           id="path10757"
+           d="m 31.99975,242.99975 -3,-2"
+           style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:#bebebe;stroke-width:2;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+        <path
+           inkscape:connector-curvature="0"
+           style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:#bebebe;stroke-width:2;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible"
+           d="m 34.99975,241.99975 -3,-2"
+           id="path10759" />
+        <path
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccc"
+           transform="matrix(0,-1,1,0,-216,372)"
+           id="path10761"
+           d="m 129,244 2,-2 -2,0 0,2 z"
+           style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" />
+      </g>
     </g>
   </g>
   <g
