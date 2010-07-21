@@ -42,8 +42,8 @@
      id="namedview88"
      showgrid="false"
      inkscape:zoom="1"
-     inkscape:cx="237.1044"
-     inkscape:cy="-123.11166"
+     inkscape:cx="64.850812"
+     inkscape:cy="-198.0078"
      inkscape:window-x="54"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
@@ -453,6 +453,13 @@
        sodipodi:type="inkscape:persp3d" />
     <inkscape:perspective
        id="perspective41053"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective10865"
        inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
        inkscape:vp_z="1 : 0.5 : 1"
        inkscape:vp_y="0 : 1000 : 0"
@@ -2184,9 +2191,9 @@
          sodipodi:type="arc" />
     </g>
     <g
-       transform="translate(21.0002,-38.999999)"
+       transform="translate(21.0002,41.000001)"
        style="fill:#bebebe;fill-opacity:1;display:inline"
-       inkscape:label="bluetooth"
+       inkscape:label="bluetooth-active"
        id="g6099-3">
       <rect
          style="color:#bebebe;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible"
@@ -3621,6 +3628,64 @@
          sodipodi:start="6.2474862"
          sodipodi:end="7.8757673"
          sodipodi:open="true" />
+    </g>
+    <g
+       id="g10841"
+       inkscape:label="bluetooth-disabled"
+       style="fill:#bebebe;fill-opacity:1;display:inline"
+       transform="translate(41.0002,41.000001)">
+      <rect
+         inkscape:label="a"
+         y="276"
+         x="20"
+         height="16"
+         width="16"
+         id="rect10843"
+         style="color:#bebebe;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+      <g
+         transform="translate(0,20)"
+         style="display:inline;opacity:0.25"
+         id="g10845">
+        <path
+           style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+           d="M 67.875 317 A 1.0001 1.0001 0 0 0 67 318 L 67 321.5625 L 65.71875 320.28125 A 1.016466 1.016466 0 1 0 64.28125 321.71875 L 67 324.4375 L 67 325.5625 L 64.28125 328.28125 A 1.016466 1.016466 0 1 0 65.71875 329.71875 L 67 328.4375 L 67 332 A 1.0001 1.0001 0 0 0 68.71875 332.71875 L 71 330.4375 L 71 327 L 72.4375 327 L 70.4375 325 L 72.71875 322.71875 A 1.0001 1.0001 0 0 0 72.71875 321.28125 L 68.71875 317.28125 A 1.0001 1.0001 0 0 0 67.875 317 z M 69 320.4375 L 70.5625 322 L 69 323.5625 L 69 320.4375 z M 69 326.4375 L 70.5625 328 L 69 329.5625 L 69 326.4375 z "
+           transform="translate(-41.0002,-61.000001)"
+           id="path10847" />
+        <rect
+           style="opacity:0.98000003999999996;fill:#bebebe;fill-opacity:1;stroke:none"
+           id="rect10849"
+           width="1"
+           height="1"
+           x="23"
+           y="259" />
+        <rect
+           y="268"
+           x="23"
+           height="1"
+           width="1"
+           id="rect10851"
+           style="opacity:0.98000003999999996;fill:#bebebe;fill-opacity:1;stroke:none" />
+        <rect
+           style="opacity:0.98000003999999996;fill:#bebebe;fill-opacity:1;stroke:none"
+           id="rect10853"
+           width="1"
+           height="1"
+           x="26"
+           y="271" />
+        <rect
+           y="256"
+           x="26"
+           height="1"
+           width="1"
+           id="rect10855"
+           style="opacity:0.98000003999999996;fill:#bebebe;fill-opacity:1;stroke:none" />
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccccccccccccc"
+         id="path3761-2-3-5-4-8-9-8-0-9"
+         d="m 30.9998,287 1.375,0 1.125,1.09375 1.09375,-1.09375 1.40625,0 0,1.46875 -1.09375,1.0625 1.09375,1.0625 0,1.40625 -1.4375,0 -1.0625,-1.0625 -1.0625,1.0625 -1.4375,0 0,-1.40625 1.0625,-1.0625 -1.0625,-1.0625 0,-1.46875 z"
+         style="color:#bebebe;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible" />
     </g>
   </g>
   <g
