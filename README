@@ -12,7 +12,7 @@ a -symbolic icon is missing, the app will fall back to the regular name.
 Primitive build instructions
 ============================
 
-Running the r.rb script will chop up the "source" SVG into individual icons. 
+Running the r.rb script will chop up the "source" SVG into individual icons. Part of the process is converting paths strokes into objects. This is for the external stylesheet to work at gtk3 runtime. This means objects that rely on this conversion need to be undgrouped inside the master group.
 
 Targets
 =======
