@@ -47,6 +47,11 @@ if test "x$enable_mapping" != "xno"; then
 fi
 AC_SUBST(ICONMAP)
 
+AC_PATH_PROG(GTK_UPDATE_ICON_CACHE, gtk-update-icon-cache)
+if test -z "$GTK_UPDATE_ICON_CACHE"; then
+    AC_MSG_ERROR([Could not find gtk-update-icon-cache])
+fi
+
 # need git, icontool, and inkscape for rendering
 allow_rendering=yes
 AC_PATH_PROG([GIT], [git], [false])
