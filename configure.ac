@@ -57,6 +57,11 @@ fi
 
 AC_SUBST(ICONMAP)
 
+AC_PATH_PROG(GTK_UPDATE_ICON_CACHE, gtk-update-icon-cache)
+if test -z "$GTK_UPDATE_ICON_CACHE"; then
+    AC_MSG_ERROR([Could not find gtk-update-icon-cache])
+fi
+
 AC_CONFIG_FILES([
 Makefile
 gnome-icon-theme.pc

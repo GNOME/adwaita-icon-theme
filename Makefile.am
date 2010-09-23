@@ -80,6 +80,9 @@ install-data-local:
 		touch $(DESTDIR)$(themedir); \
 	fi
 
+install-data-hook:
+	$(GTK_UPDATE_ICON_CACHE) -q $(DESTDIR)$(themedir)
+
 pkgconfigdir = $(datadir)/pkgconfig
 pkgconfig_DATA = gnome-icon-theme.pc
 
