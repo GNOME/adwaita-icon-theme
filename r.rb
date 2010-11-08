@@ -5,8 +5,8 @@ require "fileutils"
 include REXML
 
 
-#INKSCAPE = '/opt/artlibre/bin/inkscape'
-INKSCAPE = '/usr/bin/inkscape' # like this works for me, while using `which` inkscape hangs
+INKSCAPE = '/opt/artlibre/bin/inkscape'
+#INKSCAPE = '/usr/bin/inkscape' # like this works for me, while using `which` inkscape hangs
 SRC = "src/gnome-stencils.svg"
 PREFIX = "gnome/scalable"
 
