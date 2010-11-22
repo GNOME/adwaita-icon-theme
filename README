@@ -52,6 +52,10 @@ things s/he can make use of. The stylesheet is setting the color of the fill
 for all rectangles and paths. _DO_NOT_ leave any rectangles or paths with no
 fill/stroke thinking it's invisible.
 
+Note that the export script in gnome-icon-theme-symbolic will convert strokes
+to paths, so you will need to do this manually (Path -> Stroke to Path in
+inkscape) if you ship an icon outside of gnome-icon-theme-symbolic.
+
 If you need colorize specific part of an icon you need to set a class of that
 object. In inkscape 0.47 this is sadly only achievable by selecting the object,
 going into the xml editor and creating a new attribute 'class' and setting its
