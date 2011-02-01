@@ -89,6 +89,8 @@ pkgconfig_DATA = gnome-icon-theme.pc
 EXTRA_DIST =			\
 	gnome-icon-theme.pc.in  \
 	gnome			\
+	COPYING_CCBYSA3		\
+	COPYING_LGPL		\
 	$(theme_in_files)
 
 CLEANFILES = 			\
