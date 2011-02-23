@@ -16,7 +16,7 @@
    inkscape:export-xdpi="90.000000"
    inkscape:export-ydpi="90.000000"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   inkscape:version="0.47 r22583"
+   inkscape:version="0.48.1 r9760"
    sodipodi:docname="cabinets.svg"
    sodipodi:version="0.32"
    style="display:inline;enable-background:new"
@@ -62,9 +62,9 @@ Hylke Bons</dc:title>
      guidetolerance="13"
      height="300px"
      id="base"
-     inkscape:current-layer="g4540"
-     inkscape:cx="723.67824"
-     inkscape:cy="127.46159"
+     inkscape:current-layer="g4260"
+     inkscape:cx="623.62473"
+     inkscape:cy="317.80187"
      inkscape:document-units="px"
      inkscape:grid-bbox="true"
      inkscape:pageopacity="0.0"
@@ -72,10 +72,10 @@ Hylke Bons</dc:title>
      inkscape:showpageshadow="false"
      inkscape:snap-bbox="true"
      inkscape:snap-nodes="true"
-     inkscape:window-height="1005"
+     inkscape:window-height="1016"
      inkscape:window-width="1920"
      inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-y="26"
      inkscape:zoom="1"
      objecttolerance="7"
      pagecolor="#ffffff"
@@ -85,7 +85,8 @@ Hylke Bons</dc:title>
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:window-maximized="1"
-     showborder="true">
+     showborder="true"
+     inkscape:snap-global="false">
     <inkscape:grid
        enabled="true"
        id="grid5883"
@@ -98,6 +99,18 @@ Hylke Bons</dc:title>
   </sodipodi:namedview>
   <defs
      id="defs3">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient7096">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop7098" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop7100" />
+    </linearGradient>
     <linearGradient
        id="linearGradient4878"
        inkscape:collect="always">
@@ -1003,7 +1016,7 @@ Hylke Bons</dc:title>
     <linearGradient
        y2="87.220863"
        x2="314.9375"
-       y1="75.4375"
+       y1="70.935944"
        x1="314.9375"
        gradientTransform="matrix(0.80952377,0,0,0.83333309,59.95239,80.583349)"
        gradientUnits="userSpaceOnUse"
@@ -1055,7 +1068,7 @@ Hylke Bons</dc:title>
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1.0476191,0,0,1,-14.738098,1)"
        x1="314.9375"
-       y1="75.4375"
+       y1="72.185425"
        x2="314.9375"
        y2="87.220863" />
     <filter
@@ -1329,16 +1342,6 @@ Hylke Bons</dc:title>
          id="feGaussianBlur4984-4-9" />
     </filter>
     <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient11250"
-       id="linearGradient5647-7"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(5.3333333,0,0,5.3333333,-1562.6666,-228)"
-       x1="306.56833"
-       y1="59.683353"
-       x2="335.06158"
-       y2="81.257019" />
-    <linearGradient
        id="linearGradient11250">
       <stop
          style="stop-color:#babdb6;stop-opacity:1"
@@ -1473,11 +1476,11 @@ Hylke Bons</dc:title>
        inkscape:collect="always"
        id="linearGradient4005-9">
       <stop
-         style="stop-color:#555753;stop-opacity:1"
+         style="stop-color:#2e3436;stop-opacity:1"
          offset="0"
          id="stop4007-7" />
       <stop
-         style="stop-color:#babdb6;stop-opacity:1"
+         style="stop-color:#888a85;stop-opacity:1"
          offset="1"
          id="stop4009-4" />
     </linearGradient>
@@ -1641,37 +1644,6 @@ Hylke Bons</dc:title>
          stdDeviation="0.1625"
          id="feGaussianBlur4709-9" />
     </filter>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4063-0"
-       id="linearGradient4100"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-2.1100432e-6,1)"
-       x1="307.62076"
-       y1="58.927143"
-       x2="330.49265"
-       y2="88.158249" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4047-8"
-       id="linearGradient4102"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-2.1100432e-6,1)"
-       x1="333.5"
-       y1="94.4375"
-       x2="318.25"
-       y2="53" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4015-6"
-       id="radialGradient4105"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.6225967,0,0,0.40561314,-198.73095,35.177245)"
-       cx="320"
-       cy="57.5"
-       fx="320"
-       fy="57.5"
-       r="13" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4055-1"
@@ -1704,68 +1676,6 @@ Hylke Bons</dc:title>
        fx="320"
        fy="57.5"
        r="13" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4061-6-4"
-       id="radialGradient4113"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(41.250758,0,0,36.508271,-3303.3144,-4546.6654)"
-       cx="85"
-       cy="128.16054"
-       fx="85"
-       fy="128.16054"
-       r="1" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4013-4"
-       id="radialGradient4115"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(41.250758,0,0,37,-3421.3144,-4608)"
-       cx="85"
-       cy="128"
-       fx="85"
-       fy="128"
-       r="1" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4149-9"
-       id="radialGradient4117"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(2.1754915,0,0,0.55284558,-169.27078,1.2276373)"
-       cx="144"
-       cy="166"
-       fx="144"
-       fy="166"
-       r="61.5" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4068-5-2-1-4-0"
-       id="radialGradient4119"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.76712329,0,0,1.1246233,33.534247,-127.0282)"
-       cx="144"
-       cy="267.23532"
-       fx="144"
-       fy="267.23532"
-       r="73" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4005-9"
-       id="linearGradient4121"
-       gradientUnits="userSpaceOnUse"
-       x1="171.00002"
-       y1="147.75188"
-       x2="154.50002"
-       y2="114.47823" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4455-2"
-       id="linearGradient4123"
-       gradientUnits="userSpaceOnUse"
-       x1="130.75"
-       y1="140.30243"
-       x2="130.75"
-       y2="153.93678" />
     <filter
        color-interpolation-filters="sRGB"
        inkscape:collect="always"
@@ -2067,18 +1977,6 @@ Hylke Bons</dc:title>
          style="stop-color:#d3d7cf;stop-opacity:1"
          offset="1"
          id="stop4019-0-6-9-1-4-0" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4077-8-6-6-8-7-6">
-      <stop
-         style="stop-color:#babdb6;stop-opacity:1"
-         offset="0"
-         id="stop4079-8-0-16-0-53-6" />
-      <stop
-         style="stop-color:#555753;stop-opacity:1"
-         offset="1"
-         id="stop4081-2-1-9-1-8-4" />
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
@@ -2468,69 +2366,6 @@ Hylke Bons</dc:title>
        y1="232.81923"
        x2="372.38617"
        y2="229.91768" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4063-0-1-8-4-9"
-       id="linearGradient7599"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.77785571,0,0,0.78106537,70.086181,84.032519)"
-       x1="307.62076"
-       y1="58.927143"
-       x2="330.49265"
-       y2="88.158249" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4047-8-0-7-5-1"
-       id="linearGradient7601"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.77785571,0,0,0.78106537,70.086181,84.032519)"
-       x1="333.5"
-       y1="94.4375"
-       x2="318.25"
-       y2="53" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4015-6-2-20-2-0"
-       id="radialGradient7603"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.2153995,0,0,0.31681038,-69.927847,110.72719)"
-       cx="320"
-       cy="57.5"
-       fx="320"
-       fy="57.5"
-       r="13" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4055-1-3-5-2-9"
-       id="radialGradient7605"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.9184774,0,0,0.46744627,-293.91277,29.556732)"
-       cx="319.15298"
-       cy="55.5"
-       fx="319.15298"
-       fy="55.5"
-       r="12.3125" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4015-7-9-9-3-3-3"
-       id="radialGradient7607"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.92425772,0,0,0.31681038,23.237534,113.85145)"
-       cx="320"
-       cy="57.5"
-       fx="320"
-       fy="57.5"
-       r="13" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4077-8-6-6-8-7-6"
-       id="linearGradient7609"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.80952377,0,0,0.83333341,59.95239,68.583326)"
-       x1="314.9375"
-       y1="75.4375"
-       x2="314.9375"
-       y2="87.220863" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4789-4-0"
@@ -4087,6 +3922,478 @@ Hylke Bons</dc:title>
        y1="146.77014"
        x2="380.03128"
        y2="146.77014" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4005-9-4"
+       id="linearGradient4121-1"
+       gradientUnits="userSpaceOnUse"
+       x1="171.00002"
+       y1="147.75188"
+       x2="154.50002"
+       y2="114.47823" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4005-9-4">
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0"
+         id="stop4007-7-7" />
+      <stop
+         style="stop-color:#babdb6;stop-opacity:1"
+         offset="1"
+         id="stop4009-4-7" />
+    </linearGradient>
+    <filter
+       inkscape:collect="always"
+       id="filter7062">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.92"
+         id="feGaussianBlur7064" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7096-6"
+       id="radialGradient7112-5"
+       gradientUnits="userSpaceOnUse"
+       cx="86.125"
+       cy="94.25"
+       fx="86.125"
+       fy="94.25"
+       r="0.625" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient7096-6">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop7098-6" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop7100-4" />
+    </linearGradient>
+    <radialGradient
+       r="0.625"
+       fy="94.25"
+       fx="86.125"
+       cy="94.25"
+       cx="86.125"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient7131"
+       xlink:href="#linearGradient7096-6"
+       inkscape:collect="always" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4204-3-2"
+       id="radialGradient4210-6-0"
+       cx="140.56004"
+       cy="180.14461"
+       fx="140.56004"
+       fy="180.14461"
+       r="70"
+       gradientTransform="matrix(3.5136191,0.94147141,-0.33646476,1.2557036,-304.76215,-179.04149)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4204-3-2">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4206-6-0" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop4208-1-0" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4063-0-5-1-5"
+       id="linearGradient4039-6-4"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.3333333,0,0,5.3333333,-1562.6666,-228)"
+       x1="306.5"
+       y1="64.364647"
+       x2="333.5"
+       y2="85.345749" />
+    <linearGradient
+       id="linearGradient4063-0-5-1-5">
+      <stop
+         style="stop-color:#e2e3e0;stop-opacity:1"
+         offset="0"
+         id="stop4065-1-0-4-2" />
+      <stop
+         id="stop4075-3-4-1-9"
+         offset="0.16057782"
+         style="stop-color:#ffffff;stop-opacity:1" />
+      <stop
+         style="stop-color:#eeeeec;stop-opacity:1"
+         offset="0.37340996"
+         id="stop3224-5-9" />
+      <stop
+         id="stop4073-6-5-6-2"
+         offset="0.58624208"
+         style="stop-color:#c5c6c4;stop-opacity:1" />
+      <stop
+         id="stop4071-1-6-3-6"
+         offset="0.71557051"
+         style="stop-color:#eeeeec;stop-opacity:1" />
+      <stop
+         style="stop-color:#888a85;stop-opacity:1"
+         offset="1"
+         id="stop4067-4-7-7-2" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4063-0"
+       id="linearGradient7443"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-2e-6,1)"
+       x1="307.62076"
+       y1="58.927143"
+       x2="330.49265"
+       y2="88.158249" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4047-8"
+       id="linearGradient7445"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-2e-6,1)"
+       x1="333.5"
+       y1="94.4375"
+       x2="318.25"
+       y2="53" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4063-0-3"
+       id="linearGradient7443-5"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-2e-6,1)"
+       x1="307.62076"
+       y1="58.927143"
+       x2="330.49265"
+       y2="88.158249" />
+    <linearGradient
+       id="linearGradient4063-0-3">
+      <stop
+         style="stop-color:#d3d7cf;stop-opacity:1"
+         offset="0"
+         id="stop4065-1-8" />
+      <stop
+         id="stop4075-3-1"
+         offset="0.29354656"
+         style="stop-color:#eeeeec;stop-opacity:1" />
+      <stop
+         id="stop4073-6-6"
+         offset="0.58624208"
+         style="stop-color:#babdb6;stop-opacity:1" />
+      <stop
+         id="stop4071-1-5"
+         offset="0.79022098"
+         style="stop-color:#eeeeec;stop-opacity:1" />
+      <stop
+         style="stop-color:#babdb6;stop-opacity:1"
+         offset="1"
+         id="stop4067-4-0" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4047-8-1"
+       id="linearGradient7445-3"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-2e-6,1)"
+       x1="333.5"
+       y1="94.4375"
+       x2="318.25"
+       y2="53" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4047-8-1">
+      <stop
+         style="stop-color:#888a85;stop-opacity:1"
+         offset="0"
+         id="stop4049-5-6" />
+      <stop
+         style="stop-color:#babdb6;stop-opacity:1"
+         offset="1"
+         id="stop4051-7-9" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4390-1-8"
+       id="linearGradient4109-6"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0476191,0,0,1,-14.738098,-14)"
+       x1="314.9375"
+       y1="75.4375"
+       x2="314.9375"
+       y2="87.220863" />
+    <linearGradient
+       id="linearGradient4390-1-8"
+       inkscape:collect="always">
+      <stop
+         id="stop4392-5-4"
+         offset="0"
+         style="stop-color:#babdb6;stop-opacity:1" />
+      <stop
+         id="stop4394-6-5"
+         offset="1"
+         style="stop-color:#555753;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4015-6"
+       id="radialGradient7658"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.2692312,0,0,0.40561314,-405.654,35.177245)"
+       cx="320"
+       cy="57.5"
+       fx="320"
+       fy="57.5"
+       r="13" />
+    <linearGradient
+       y2="87.220863"
+       x2="314.9375"
+       y1="75.4375"
+       x1="314.9375"
+       gradientTransform="matrix(0.80952377,0,0,0.83333309,59.95239,68.583349)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3500-9-0"
+       xlink:href="#linearGradient4077-8-6-6-8-0"
+       inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4077-8-6-6-8-0">
+      <stop
+         style="stop-color:#babdb6;stop-opacity:1"
+         offset="0"
+         id="stop4079-8-0-16-0-6" />
+      <stop
+         style="stop-color:#555753;stop-opacity:1"
+         offset="1"
+         id="stop4081-2-1-9-1-9" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4077-8-6-6-8-7-6-8"
+       id="linearGradient7825-5"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.80952377,0,0,0.83333341,59.95239,68.583326)"
+       x1="314.9375"
+       y1="75.4375"
+       x2="314.9375"
+       y2="87.220863" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4077-8-6-6-8-7-6-8">
+      <stop
+         style="stop-color:#babdb6;stop-opacity:1"
+         offset="0"
+         id="stop4079-8-0-16-0-53-6-1" />
+      <stop
+         style="stop-color:#555753;stop-opacity:1"
+         offset="1"
+         id="stop4081-2-1-9-1-8-4-8" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4077-8-6-6-8-7-6-8-8"
+       id="linearGradient7962-8"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.80952377,0,0,0.83333341,59.95239,68.583326)"
+       x1="314.9375"
+       y1="75.4375"
+       x2="314.9375"
+       y2="87.220863" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4077-8-6-6-8-7-6-8-8">
+      <stop
+         style="stop-color:#babdb6;stop-opacity:1"
+         offset="0"
+         id="stop4079-8-0-16-0-53-6-1-7" />
+      <stop
+         style="stop-color:#555753;stop-opacity:1"
+         offset="1"
+         id="stop4081-2-1-9-1-8-4-8-8" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4063-0-1-8-4-9"
+       id="linearGradient8063"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.77785571,0,0,0.78106537,70.086181,84.032519)"
+       x1="307.62076"
+       y1="58.927143"
+       x2="330.49265"
+       y2="88.158249" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4047-8-0-7-5-1"
+       id="linearGradient8065"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.77785571,0,0,0.78106537,70.086181,84.032519)"
+       x1="333.5"
+       y1="94.4375"
+       x2="318.25"
+       y2="53" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4015-6-2-20-2-0"
+       id="radialGradient8067"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2153995,0,0,0.31681038,-69.927847,110.72719)"
+       cx="320"
+       cy="57.5"
+       fx="320"
+       fy="57.5"
+       r="13" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4055-1-3-5-2-9"
+       id="radialGradient8069"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.9184774,0,0,0.46744627,-293.91277,29.556732)"
+       cx="319.15298"
+       cy="55.5"
+       fx="319.15298"
+       fy="55.5"
+       r="12.3125" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4015-7-9-9-3-3-3"
+       id="radialGradient8071"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.92425772,0,0,0.31681038,23.237534,113.85145)"
+       cx="320"
+       cy="57.5"
+       fx="320"
+       fy="57.5"
+       r="13" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4077-8-6-6-8-7-6-8-8"
+       id="linearGradient8073"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.80952377,0,0,0.83333341,59.95239,68.583326)"
+       x1="314.9375"
+       y1="75.4375"
+       x2="314.9375"
+       y2="87.220863" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7096-66"
+       id="radialGradient7339-9"
+       gradientUnits="userSpaceOnUse"
+       cx="86.125"
+       cy="94.25"
+       fx="86.125"
+       fy="94.25"
+       r="0.625" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient7096-66">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop7098-5" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop7100-9" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7096-66"
+       id="radialGradient8175"
+       gradientUnits="userSpaceOnUse"
+       cx="86.125"
+       cy="94.25"
+       fx="86.125"
+       fy="94.25"
+       r="0.625" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient11250"
+       id="linearGradient8411"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.3333333,0,0,5.3333333,-1562.6666,-228)"
+       x1="306.56833"
+       y1="59.683353"
+       x2="335.06158"
+       y2="81.257019" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4061-6-4"
+       id="radialGradient8413"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(41.250758,0,0,36.508271,-3303.3144,-4546.6654)"
+       cx="85"
+       cy="128.16054"
+       fx="85"
+       fy="128.16054"
+       r="1" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4013-4"
+       id="radialGradient8415"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(41.250758,0,0,37,-3421.3144,-4608)"
+       cx="85"
+       cy="128"
+       fx="85"
+       fy="128"
+       r="1" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4149-9"
+       id="radialGradient8417"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.1754915,0,0,0.55284558,-169.27078,1.2276373)"
+       cx="144"
+       cy="166"
+       fx="144"
+       fy="166"
+       r="61.5" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4068-5-2-1-4-0"
+       id="radialGradient8419"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.76712329,0,0,1.1246233,33.534247,-127.0282)"
+       cx="144"
+       cy="267.23532"
+       fx="144"
+       fy="267.23532"
+       r="73" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4005-9"
+       id="linearGradient8421"
+       gradientUnits="userSpaceOnUse"
+       x1="171.00002"
+       y1="147.75188"
+       x2="154.50002"
+       y2="114.47823" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7096"
+       id="radialGradient8425"
+       gradientUnits="userSpaceOnUse"
+       cx="86.125"
+       cy="94.25"
+       fx="86.125"
+       fy="94.25"
+       r="0.625" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4455-2"
+       id="linearGradient8429"
+       gradientUnits="userSpaceOnUse"
+       x1="130.75"
+       y1="140.30243"
+       x2="130.75"
+       y2="153.93678" />
   </defs>
   <g
      id="layer1"
@@ -4194,12 +4501,18 @@ Hylke Bons</dc:title>
            sodipodi:nodetypes="ccccccc"
            id="rect2846"
            d="m 310.49999,54.5 -4,4 0,34 28,0 0,-34 -4,-4 -20,0 z"
-           style="color:#000000;fill:url(#linearGradient4100);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient4102);stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+           style="color:#000000;fill:url(#linearGradient7443);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient7445);stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           inkscape:connector-curvature="0" />
+        <path
+           style="opacity:0.14588862;color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 307,59 0,33 27,0 0,-33 -27,0 z m 2.5,2.5 22,0 0,12 -22,0 0,-12 z m 0,15 22,0 0,12 -22,0 0,-12 z"
+           id="rect2846-5-9-5"
+           inkscape:connector-curvature="0" />
         <path
            sodipodi:nodetypes="cc"
            id="rect2846-7-9"
            d="m 307.51921,58.5 25.96155,0"
-           style="color:#000000;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:url(#radialGradient4105);stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+           style="color:#000000;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:url(#radialGradient7658);stroke-width:0.99999994000000003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
         <path
            transform="translate(-2.1100432e-6,1)"
            style="color:#000000;fill:url(#radialGradient4107);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -4210,7 +4523,7 @@ Hylke Bons</dc:title>
            sodipodi:nodetypes="ccccccc"
            id="path3802"
            d="m 310.93749,55.5 -3.4375,3.4375 0,32.5625 26,0 0,-32.5625 -3.4375,-3.4375 -19.125,0 z"
-           style="opacity:0.5;color:#000000;fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+           style="opacity:0.6;color:#000000;fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
         <g
            id="g8696">
           <path
@@ -4263,12 +4576,22 @@ Hylke Bons</dc:title>
              id="rect2846-7-9-0"
              sodipodi:nodetypes="cc" />
         </g>
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path8075"
+           sodipodi:cx="308.9375"
+           sodipodi:cy="61.9375"
+           sodipodi:rx="1.25"
+           sodipodi:ry="1.25"
+           d="m 310.1875,61.9375 a 1.25,1.25 0 1 1 -2.5,0 1.25,1.25 0 1 1 2.5,0 z"
+           transform="matrix(0.8625,0,0,0.8625,44.057031,9.0945312)" />
       </g>
       <g
          id="g8685"
          transform="translate(-1,0)">
         <path
-           style="color:#000000;fill:none;stroke:url(#linearGradient9364);stroke-width:0.99999988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           style="color:#000000;fill:none;stroke:url(#linearGradient9364);stroke-width:0.99999987999999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
            d="m 309.50002,76.5 22,0 0,12 -22,0 0,-12 z"
            id="rect2846-4-5-0"
            inkscape:connector-curvature="0" />
@@ -4350,11 +4673,6 @@ Hylke Bons</dc:title>
          id="path4045-5-5"
          sodipodi:nodetypes="ccccc" />
       <path
-         style="opacity:0.5;color:#000000;fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         d="m 308.56249,178.5 -2.0625,1.71875 0,16.28125 15.00001,0 0,-16.28125 -2.0625,-1.71875 -10.87501,0 z"
-         id="path3802-5-8"
-         sodipodi:nodetypes="ccccccc" />
-      <path
          style="opacity:0.1;fill:#000000;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;enable-background:new"
          d="m 311.5,185.5 0,1 5,0 0,-1"
          id="path4185-6-29-5"
@@ -4383,11 +4701,6 @@ Hylke Bons</dc:title>
            style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
            sodipodi:type="arc" />
       </g>
-      <path
-         style="color:#000000;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:url(#radialGradient5063);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         d="m 306.49999,180.5 15.00001,0"
-         id="rect2846-7-9-2-4"
-         sodipodi:nodetypes="cc" />
       <rect
          style="color:#000000;fill:none;stroke:url(#linearGradient5139);stroke-width:0.99999982;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          id="rect2846-4-5-0-1-7-0-3"
@@ -4450,10 +4763,11 @@ Hylke Bons</dc:title>
          x="306"
          y="220" />
       <path
-         style="opacity:0.5;color:#000000;fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         style="opacity:0.22811671;color:#000000;fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          d="m 305.49995,233.5 11.00001,0 4e-5,-12 -11,0 -5e-5,12 z"
          id="path3802-5-8-5"
-         sodipodi:nodetypes="ccccc" />
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0" />
       <path
          style="color:#000000;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:url(#radialGradient5776);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          d="m 305.5,221.5 10.95835,0"
@@ -4555,6 +4869,11 @@ Hylke Bons</dc:title>
            d="m 311.5,126.5 -3,3 -10e-4,26 21.0021,0 -0.001,-26 -3,-3 -15,0 z"
            style="color:#000000;fill:url(#linearGradient3477-0);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient3479-9);stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
         <path
+           style="opacity:0.14588862;color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 309,130 0,25 20,0 0,-25 -20,0 z m 1.5,1.5 17,0 0,10 -17,0 0,-10 z m 0,12 17,0 0,10 -17,0 0,-10 z"
+           id="rect2846-5-9-5-0"
+           inkscape:connector-curvature="0" />
+        <path
            sodipodi:nodetypes="cc"
            id="rect2846-7-9-08"
            d="m 309.5,129.5 19,0"
@@ -4639,7 +4958,7 @@ Hylke Bons</dc:title>
            height="9.9999971"
            width="17"
            id="rect2846-4-5-0-6-8-3"
-           style="color:#000000;fill:none;stroke:url(#linearGradient3538-4);stroke-width:0.99999976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+           style="color:#000000;fill:none;stroke:url(#linearGradient3538-4);stroke-width:0.99999976000000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
         <g
            transform="translate(-60,18)"
            id="g3595-6"
@@ -4686,6 +5005,52 @@ Hylke Bons</dc:title>
              transform="matrix(0.81012567,0,0,0.81012611,120.50029,77.411424)" />
         </g>
       </g>
+      <path
+         inkscape:connector-curvature="0"
+         style="opacity:0.29973475;color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994000000003;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 306,180 0,17 16,0 0,-17 -16,0 z m 1,1 14,0 0,15 -14,0 0,-15 z"
+         id="rect2846-5-9-5-0-0" />
+      <path
+         style="color:#000000;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:url(#radialGradient5063);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 306.49999,180.5 15.00001,0"
+         id="rect2846-7-9-2-4"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="opacity:0.5;color:#000000;fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 308.62499,178.5625 -2.0625,1.71875 0,16.28125 15.00001,0 0,-16.28125 -2.0625,-1.71875 -10.87501,0 z"
+         id="path3802-5-8"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:type="arc"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path8075-4-2"
+         sodipodi:cx="308.9375"
+         sodipodi:cy="61.9375"
+         sodipodi:rx="1.25"
+         sodipodi:ry="1.25"
+         d="m 310.1875,61.9375 a 1.25,1.25 0 1 1 -2.5,0 1.25,1.25 0 1 1 2.5,0 z"
+         transform="matrix(0.6625,0,0,0.6625,105.84453,91.482031)" />
+      <path
+         sodipodi:type="arc"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;opacity:0.60477454"
+         id="path8075-4-2-3"
+         sodipodi:cx="308.9375"
+         sodipodi:cy="61.9375"
+         sodipodi:rx="1.25"
+         sodipodi:ry="1.25"
+         d="m 310.1875,61.9375 a 1.25,1.25 0 1 1 -2.5,0 1.25,1.25 0 1 1 2.5,0 z"
+         transform="matrix(0.6625,0,0,0.6625,105.84453,103.48203)" />
+      <path
+         sodipodi:type="arc"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path8075-4"
+         sodipodi:cx="308.9375"
+         sodipodi:cy="61.9375"
+         sodipodi:rx="1.25"
+         sodipodi:ry="1.25"
+         d="m 310.1875,61.9375 a 1.25,1.25 0 1 1 -2.5,0 1.25,1.25 0 1 1 2.5,0 z"
+         transform="matrix(0.6625,0,0,0.6625,104.84453,36.482031)" />
     </g>
     <g
        inkscape:groupmode="layer"
@@ -4744,6 +5109,12 @@ Hylke Bons</dc:title>
              sodipodi:nodetypes="ccccc"
              inkscape:connector-curvature="0" />
           <path
+             inkscape:connector-curvature="0"
+             style="opacity:0.2;color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994000000003;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             d="m 72,80 0,180 144,0 0,-180 z"
+             id="rect2846-5-9"
+             sodipodi:nodetypes="ccccc" />
+          <path
              id="path4212"
              d="m 72,80 144,0"
              style="fill:none;stroke:url(#radialGradient4242-8);stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;enable-background:new"
@@ -4766,9 +5137,35 @@ Hylke Bons</dc:title>
            d="M 213,256 213,80 M 75,80 75,256"
            id="rect2846-5-7-4"
            sodipodi:nodetypes="cccc" />
+        <g
+           style="display:inline;enable-background:new"
+           id="g7104-7"
+           transform="matrix(1.0666666,0,0,1.0666666,-17.130531,-20.437361)">
+          <path
+             transform="matrix(2.4,0,0,2.4,-120.575,-131.95)"
+             d="m 86.75,94.25 c 0,0.345178 -0.279822,0.625 -0.625,0.625 -0.345178,0 -0.625,-0.279822 -0.625,-0.625 0,-0.345178 0.279822,-0.625 0.625,-0.625 0.345178,0 0.625,0.279822 0.625,0.625 z"
+             sodipodi:ry="0.625"
+             sodipodi:rx="0.625"
+             sodipodi:cy="94.25"
+             sodipodi:cx="86.125"
+             id="path7068-9"
+             style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             sodipodi:type="arc" />
+          <path
+             transform="matrix(6,0,0,6,-430.625,-471.25)"
+             d="m 86.75,94.25 c 0,0.345178 -0.279822,0.625 -0.625,0.625 -0.345178,0 -0.625,-0.279822 -0.625,-0.625 0,-0.345178 0.279822,-0.625 0.625,-0.625 0.345178,0 0.625,0.279822 0.625,0.625 z"
+             sodipodi:ry="0.625"
+             sodipodi:rx="0.625"
+             sodipodi:cy="94.25"
+             sodipodi:cx="86.125"
+             id="path7068-7-5"
+             style="color:#000000;fill:url(#radialGradient8175);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             sodipodi:type="arc" />
+        </g>
       </g>
       <g
-         id="g4260">
+         id="g4260"
+         transform="matrix(1.0271484,0,0,1.0271484,-3.9048254,-3.4821224)">
         <rect
            style="opacity:0.5;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4982-6);enable-background:accumulate"
            id="rect2846-4-5-0-1-6-2-2-3"
@@ -4780,20 +5177,20 @@ Hylke Bons</dc:title>
            sodipodi:nodetypes="ccccc"
            id="rect2846-4-5-0-1-6-2-2"
            d="m 84,92 0,72 120,0 0,-72 -120,0 z"
-           style="color:#000000;fill:url(#linearGradient5647-7);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           style="color:#000000;fill:url(#linearGradient8411);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
            inkscape:connector-curvature="0" />
         <g
            clip-path="url(#clipPath4848-2)"
            id="g4797"
            style="display:inline;enable-background:new">
           <path
-             style="color:#000000;fill:none;stroke:url(#radialGradient4113);stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             style="color:#000000;fill:none;stroke:url(#radialGradient8413);stroke-width:1.94713831;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
              d="m 203,92 0,72"
              id="rect2846-5-7-4-1-1"
              sodipodi:nodetypes="cc"
              inkscape:connector-curvature="0" />
           <path
-             style="color:#000000;fill:none;stroke:url(#radialGradient4115);stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             style="color:#000000;fill:none;stroke:url(#radialGradient8415);stroke-width:1.94713831;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
              d="m 85,92 0,72"
              id="rect2846-5-7-4-1"
              sodipodi:nodetypes="cc"
@@ -4802,23 +5199,30 @@ Hylke Bons</dc:title>
              sodipodi:nodetypes="cc"
              id="path4611-7"
              d="m 84,93 120,0"
-             style="fill:none;stroke:url(#radialGradient4117);stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;enable-background:new"
+             style="fill:none;stroke:url(#radialGradient8417);stroke-width:1.94713831;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;enable-background:new"
+             inkscape:connector-curvature="0" />
+          <path
+             sodipodi:nodetypes="ccccc"
+             id="rect2846-4-5-0-1-6-2-2-2-7"
+             d="m 85,93 120,0 0,72 -120,0 0,-72 z"
+             style="opacity:0.66578249;color:#000000;fill:none;stroke:#ffffff;stroke-width:5.84141493;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter7062);enable-background:accumulate"
              inkscape:connector-curvature="0" />
           <path
              id="path4212-8-4-3"
              d="m 88.767124,162 110.465756,0"
-             style="opacity:0.3;fill:none;stroke:url(#radialGradient4119);stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;enable-background:new"
+             style="opacity:0.3;fill:none;stroke:url(#radialGradient8419);stroke-width:1.94713831;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;enable-background:new"
              inkscape:connector-curvature="0" />
           <path
              sodipodi:nodetypes="ccccc"
              id="rect2846-4-5-0-1-6-2-2-2"
              d="m 84,92 120,0 0,72 -120,0 0,-72 z"
-             style="color:#000000;fill:none;stroke:url(#linearGradient4121);stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4852-3);enable-background:accumulate"
+             style="color:#000000;fill:none;stroke:url(#linearGradient8421);stroke-width:1.94713831;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4852-3);enable-background:accumulate"
              inkscape:connector-curvature="0" />
         </g>
         <g
            id="g4711"
-           style="display:inline;enable-background:new">
+           style="display:inline;enable-background:new"
+           transform="matrix(1.1227391,0,0,1.1227391,-17.919915,-16.650084)">
           <g
              id="g4473">
             <g
@@ -4829,7 +5233,7 @@ Hylke Bons</dc:title>
                id="g4235">
               <path
                  sodipodi:nodetypes="cccccccccc"
-                 style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:#d3d7cf;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4326-5);enable-background:new;font-family:Abandoned Bitplane;-inkscape-font-specification:Abandoned Bitplane"
+                 style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:#d3d7cf;stroke-width:0.86713743;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4326-5);enable-background:new;font-family:Abandoned Bitplane;-inkscape-font-specification:Abandoned Bitplane"
                  d="m 155.125,111.03125 -0.25,1.96875 -21.59375,0 -0.34375,-2.78125 m -7.875,1.5625 1,4 c 0.35895,1.8017 2.1004,3.22527 3.9375,3.21875 l 28,0 c 1.76623,-0.003 3.44711,-1.31763 3.875,-3.03125 l 1,-3"
                  id="path5706-6-2-2"
                  inkscape:connector-curvature="0" />
@@ -4837,10 +5241,10 @@ Hylke Bons</dc:title>
                  sodipodi:nodetypes="cccc"
                  id="path5706-4-3"
                  d="m 129,113 1,4 28,0 1,-4"
-                 style="fill:none;stroke:#ffffff;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter4174-9-4);enable-background:new"
+                 style="fill:none;stroke:#ffffff;stroke-width:3.46854973;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter4174-9-4);enable-background:new"
                  inkscape:connector-curvature="0" />
               <path
-                 style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:#2e3436;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4266-7);enable-background:new;font-family:Abandoned Bitplane;-inkscape-font-specification:Abandoned Bitplane"
+                 style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:#2e3436;stroke-width:0.43356872;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4266-7);enable-background:new;font-family:Abandoned Bitplane;-inkscape-font-specification:Abandoned Bitplane"
                  d="m 128.9375,106.9375 a 4.0004,4.0004 0 0 0 -3.875,4.84375 l 1,5 A 4.0004,4.0004 0 0 0 130,120 l 28,0 a 4.0004,4.0004 0 0 0 3.875,-3.03125 l 1,-4 a 4.0004,4.0004 0 1 0 -7.75,-1.9375 l -0.25,0.96875 -21.59375,0 -0.34375,-1.78125 a 4.0004,4.0004 0 0 0 -4,-3.28125 z"
                  id="path5706-6-2"
                  inkscape:connector-curvature="0" />
@@ -4849,31 +5253,31 @@ Hylke Bons</dc:title>
                sodipodi:nodetypes="cccc"
                id="path5706-2-3"
                d="m 129,133 4,14 30,0 -4,-14"
-               style="opacity:0.2;fill:none;stroke:url(#linearGradient4123);stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter4469-7);enable-background:new"
+               style="opacity:0.2;fill:none;stroke:url(#linearGradient8429);stroke-width:6.93709946;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter4469-7);enable-background:new"
                inkscape:connector-curvature="0" />
             <g
                clip-path="url(#clipPath5795-4)"
                id="g5778">
               <path
-                 style="fill:none;stroke:#888a85;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+                 style="fill:none;stroke:#888a85;stroke-width:6.93709946;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
                  d="m 129,131 -1,5 32,0 -1,-4"
                  id="path5706"
                  sodipodi:nodetypes="cccc"
                  inkscape:connector-curvature="0" />
               <path
-                 style="fill:none;stroke:#ffffff;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter4174-4);enable-background:new"
+                 style="fill:none;stroke:#ffffff;stroke-width:3.46854973;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter4174-4);enable-background:new"
                  d="m 129,130 -1,4 32,0 -1,-4"
                  id="path5706-4"
                  sodipodi:nodetypes="cccc"
                  inkscape:connector-curvature="0" />
               <path
                  sodipodi:nodetypes="cccccccsccc"
-                 style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:#d3d7cf;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4028-8);enable-background:new;font-family:Abandoned Bitplane;-inkscape-font-specification:Abandoned Bitplane"
+                 style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:#d3d7cf;stroke-width:0.86713743;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4028-8);enable-background:new;font-family:Abandoned Bitplane;-inkscape-font-specification:Abandoned Bitplane"
                  d="m 129.125,127.9375 c -1.82405,-0.0472 -3.58707,1.31643 -4,3.09375 l -1,3 c -0.58543,2.34656 1.45652,4.96486 3.875,4.96875 l 32,0 c 2.41848,-0.004 4.46043,-2.62219 3.875,-4.96875 l -1,-3 c -0.4782,-1.86222 -2.45486,-3.21022 -4.36312,-2.97548 C 156.60363,128.29052 155.01261,131.0774 155,133 l -22,0 c 0.0332,-2.07405 -1.80169,-4.99774 -3.875,-5.0625 z"
                  id="path5706-36-9"
                  inkscape:connector-curvature="0" />
               <path
-                 style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:#2e3436;stroke-width:0.60000002;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4129-5);enable-background:new;font-family:Abandoned Bitplane;-inkscape-font-specification:Abandoned Bitplane"
+                 style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:none;stroke:#2e3436;stroke-width:0.52028245;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4129-5);enable-background:new;font-family:Abandoned Bitplane;-inkscape-font-specification:Abandoned Bitplane"
                  d="m 129.125,127.9375 a 4.0004,4.0004 0 0 0 -4,3.09375 l -1,4 A 4.0004,4.0004 0 0 0 128,140 l 32,0 a 4.0004,4.0004 0 0 0 3.875,-4.96875 l -1,-4 A 4.0004,4.0004 0 0 0 155,132 l -22,0 a 4.0004,4.0004 0 0 0 -3.875,-4.0625 z"
                  id="path5706-36"
                  inkscape:connector-curvature="0" />
@@ -4890,9 +5294,34 @@ Hylke Bons</dc:title>
              d="m 130.375,132.625 c 0,1.79493 -1.45507,3.25 -3.25,3.25 -1.79493,0 -3.25,-1.45507 -3.25,-3.25 0,-1.79493 1.45507,-3.25 3.25,-3.25 1.79493,0 3.25,1.45507 3.25,3.25 z"
              transform="matrix(0.85027477,0,0,0.85027477,20.408828,20.857311)" />
         </g>
+        <g
+           id="g7104"
+           transform="matrix(1.5333333,0,0,1.5333333,-44.947198,-49.545696)">
+          <path
+             transform="matrix(2.4,0,0,2.4,-120.575,-131.95)"
+             d="m 86.75,94.25 c 0,0.345178 -0.279822,0.625 -0.625,0.625 -0.345178,0 -0.625,-0.279822 -0.625,-0.625 0,-0.345178 0.279822,-0.625 0.625,-0.625 0.345178,0 0.625,0.279822 0.625,0.625 z"
+             sodipodi:ry="0.625"
+             sodipodi:rx="0.625"
+             sodipodi:cy="94.25"
+             sodipodi:cx="86.125"
+             id="path7068"
+             style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             sodipodi:type="arc" />
+          <path
+             transform="matrix(6,0,0,6,-430.625,-471.25)"
+             d="m 86.75,94.25 c 0,0.345178 -0.279822,0.625 -0.625,0.625 -0.345178,0 -0.625,-0.279822 -0.625,-0.625 0,-0.345178 0.279822,-0.625 0.625,-0.625 0.345178,0 0.625,0.279822 0.625,0.625 z"
+             sodipodi:ry="0.625"
+             sodipodi:rx="0.625"
+             sodipodi:cy="94.25"
+             sodipodi:cx="86.125"
+             id="path7068-7"
+             style="color:#000000;fill:url(#radialGradient8425);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             sodipodi:type="arc" />
+        </g>
       </g>
       <g
-         id="g4253">
+         id="g4253"
+         transform="matrix(1.0272214,0,0,1.0272214,-3.9198769,-5.7981512)">
         <rect
            style="opacity:0.5;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4982-0-3);enable-background:accumulate"
            id="rect2846-4-5-0-1-6-2-2-3-4"
@@ -4930,6 +5359,31 @@ Hylke Bons</dc:title>
            y="0"
            x="0"
            style="display:inline;enable-background:new" />
+      </g>
+      <g
+         style="display:inline;enable-background:new"
+         id="g7104-0"
+         transform="matrix(1.5333333,0,0,1.5333333,-44.947198,34.454306)">
+        <path
+           transform="matrix(2.4,0,0,2.4,-120.575,-131.95)"
+           d="m 86.75,94.25 c 0,0.345178 -0.279822,0.625 -0.625,0.625 -0.345178,0 -0.625,-0.279822 -0.625,-0.625 0,-0.345178 0.279822,-0.625 0.625,-0.625 0.345178,0 0.625,0.279822 0.625,0.625 z"
+           sodipodi:ry="0.625"
+           sodipodi:rx="0.625"
+           sodipodi:cy="94.25"
+           sodipodi:cx="86.125"
+           id="path7068-4"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           sodipodi:type="arc" />
+        <path
+           transform="matrix(6,0,0,6,-430.625,-471.25)"
+           d="m 86.75,94.25 c 0,0.345178 -0.279822,0.625 -0.625,0.625 -0.345178,0 -0.625,-0.279822 -0.625,-0.625 0,-0.345178 0.279822,-0.625 0.625,-0.625 0.345178,0 0.625,0.279822 0.625,0.625 z"
+           sodipodi:ry="0.625"
+           sodipodi:rx="0.625"
+           sodipodi:cy="94.25"
+           sodipodi:cx="86.125"
+           id="path7068-7-4"
+           style="color:#000000;fill:url(#radialGradient7131);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           sodipodi:type="arc" />
       </g>
     </g>
     <g
@@ -5409,7 +5863,8 @@ Hylke Bons</dc:title>
              sodipodi:nodetypes="ccccc"
              id="path3873"
              d="m 310.5,87.5 19,0 4,4 -27,0 4,-4 z"
-             style="opacity:0.3;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30362403;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4434-9-9-6-6-9-4);enable-background:accumulate" />
+             style="opacity:0.3;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30362403;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4434-9-9-6-6-9-4);enable-background:accumulate"
+             inkscape:connector-curvature="0" />
           <rect
              style="opacity:0.39792391;fill:#1a1a1a;fill-opacity:1;stroke:none;filter:url(#filter5197-2)"
              id="rect5167"
@@ -5423,7 +5878,8 @@ Hylke Bons</dc:title>
              sodipodi:nodetypes="ccccc"
              id="path3875"
              d="m 310.5,87.5 19,0 4,4 -27,0 4,-4 z"
-             style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.37353194;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4487-7-7-7-1-9-0);enable-background:accumulate" />
+             style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.37353194;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4487-7-7-7-1-9-0);enable-background:accumulate"
+             inkscape:connector-curvature="0" />
         </g>
         <g
            transform="translate(55.032233,1.9999993)"
@@ -5433,16 +5889,24 @@ Hylke Bons</dc:title>
              sodipodi:nodetypes="cccccccc"
              id="path3879"
              d="m 311.5,126.5 -3,3 -10e-4,24 21.0021,0 -0.001,-24 -3,-3 -15,0 -10e-5,0 z"
-             style="color:#000000;fill:url(#linearGradient7599);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient7601);stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+             style="color:#000000;fill:url(#linearGradient8063);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient8065);stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             inkscape:connector-curvature="0" />
+          <path
+             style="opacity:0.14588862;color:#000000;fill:#555753;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             d="m 308.96777,130 0,23 20,0 0,-23 z m 1.5,1.5 17,0 0,10 -17,0 z m 0,12 17,0 0,8 -17,0 z"
+             id="rect2846-5-9-5-0-4"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ccccccccccccccc" />
           <path
              sodipodi:nodetypes="cc"
              id="path3881"
              d="m 309.5,129.5 19,0"
-             style="color:#000000;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:url(#radialGradient7603);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+             style="color:#000000;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:url(#radialGradient8067);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             inkscape:connector-curvature="0" />
           <path
              d="m 310.6875,54 -3,3 24.625,0 -3,-3 -18.625,0 z"
              id="path3883"
-             style="color:#000000;fill:url(#radialGradient7605);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             style="color:#000000;fill:url(#radialGradient8069);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
              inkscape:original="M 310.5 53.5 L 306.5 57.5 L 333.5 57.5 L 329.5 53.5 L 310.5 53.5 z "
              inkscape:radius="-0.4861359"
              sodipodi:type="inkscape:offset"
@@ -5451,67 +5915,75 @@ Hylke Bons</dc:title>
              sodipodi:nodetypes="ccccccc"
              id="path3885"
              d="m 312,127.5 -2.5,2 0,23 19,0 0,-23 -2.5,-2 -14,0 z"
-             style="opacity:0.5;color:#000000;fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+             style="opacity:0.5;color:#000000;fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             inkscape:connector-curvature="0" />
           <path
              sodipodi:nodetypes="cc"
              id="path3887"
              d="m 311.5,132.5 15,0"
-             style="color:#000000;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:url(#radialGradient7607);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+             style="color:#000000;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:url(#radialGradient8071);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           transform="translate(55.03223,1.9999999)"
+           style="display:inline;enable-background:new;opacity:0.5"
+           id="g5056">
           <g
-             style="opacity:0.5"
-             id="g5056">
+             id="g3891"
+             transform="translate(-60,6)">
             <g
-               id="g3891"
-               transform="translate(-60,6)">
-              <g
-                 style="opacity:0.2;display:inline;enable-background:new"
-                 transform="matrix(1,0,0,-1,60,196)"
-                 id="g3893">
-                <path
-                   style="fill:none;stroke:#888a85;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;enable-background:new"
-                   d="m 316.5,66.5 0,1 5,0 0,-1"
-                   id="path3895"
-                   sodipodi:nodetypes="cccc" />
-                <path
-                   style="fill:none;stroke:#ffffff;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline;enable-background:new"
-                   d="m 316.5,66.5 0,1 5,0 0,-1"
-                   id="path3897"
-                   sodipodi:nodetypes="cccc" />
-              </g>
+               style="opacity:0.20000000000000001;display:inline;enable-background:new"
+               transform="matrix(1,0,0,-1,60,196)"
+               id="g3893">
               <path
+                 style="fill:none;stroke:#888a85;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;enable-background:new"
+                 d="m 316.5,66.5 0,1 5,0 0,-1"
+                 id="path3895"
                  sodipodi:nodetypes="cccc"
-                 id="path3899"
-                 d="m 376.5,131.5 0,1 5,0 0,-1"
-                 style="opacity:0.1;fill:#000000;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;enable-background:new" />
+                 inkscape:connector-curvature="0" />
               <path
+                 style="fill:none;stroke:#ffffff;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline;enable-background:new"
+                 d="m 316.5,66.5 0,1 5,0 0,-1"
+                 id="path3897"
                  sodipodi:nodetypes="cccc"
-                 id="path3901"
-                 d="m 376.5,130.5 0,1 5,0 0,-1"
-                 style="fill:none;stroke:#888a85;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;enable-background:new" />
-              <path
-                 sodipodi:nodetypes="cccc"
-                 id="path3903"
-                 d="m 376.5,130.5 0,1 5,0 0,-1"
-                 style="fill:none;stroke:#eeeeec;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline;enable-background:new" />
-              <path
-                 transform="matrix(0.81012567,0,0,0.81012611,120.50029,77.411424)"
-                 d="m 317.23438,66.765625 c 0,0.681727 -0.55265,1.234376 -1.23438,1.234376 -0.68173,0 -1.23438,-0.552649 -1.23438,-1.234376 0,-0.681727 0.55265,-1.234376 1.23438,-1.234376 0.68173,0 1.23438,0.552649 1.23438,1.234376 z"
-                 sodipodi:ry="1.2343757"
-                 sodipodi:rx="1.2343757"
-                 sodipodi:cy="66.765625"
-                 sodipodi:cx="316"
-                 id="path3905"
-                 style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-                 sodipodi:type="arc" />
+                 inkscape:connector-curvature="0" />
             </g>
-            <rect
-               style="color:#000000;fill:none;stroke:url(#linearGradient7609);stroke-width:0.99999976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-               id="rect3907"
-               width="17"
-               height="10.000001"
-               x="310.5"
-               y="131.5" />
+            <path
+               sodipodi:nodetypes="cccc"
+               id="path3899"
+               d="m 376.5,131.5 0,1 5,0 0,-1"
+               style="opacity:0.10000000000000001;fill:#000000;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;enable-background:new"
+               inkscape:connector-curvature="0" />
+            <path
+               sodipodi:nodetypes="cccc"
+               id="path3901"
+               d="m 376.5,130.5 0,1 5,0 0,-1"
+               style="fill:none;stroke:#888a85;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;enable-background:new"
+               inkscape:connector-curvature="0" />
+            <path
+               sodipodi:nodetypes="cccc"
+               id="path3903"
+               d="m 376.5,130.5 0,1 5,0 0,-1"
+               style="fill:none;stroke:#eeeeec;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;display:inline;enable-background:new"
+               inkscape:connector-curvature="0" />
+            <path
+               transform="matrix(0.81012567,0,0,0.81012611,120.50029,77.411424)"
+               d="m 317.23438,66.765625 c 0,0.681727 -0.55265,1.234376 -1.23438,1.234376 -0.68173,0 -1.23438,-0.552649 -1.23438,-1.234376 0,-0.681727 0.55265,-1.234376 1.23438,-1.234376 0.68173,0 1.23438,0.552649 1.23438,1.234376 z"
+               sodipodi:ry="1.2343757"
+               sodipodi:rx="1.2343757"
+               sodipodi:cy="66.765625"
+               sodipodi:cx="316"
+               id="path3905"
+               style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+               sodipodi:type="arc" />
           </g>
+          <rect
+             style="color:#000000;fill:none;stroke:url(#linearGradient8073);stroke-width:0.99999976000000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             id="rect3907"
+             width="17"
+             height="10.000001"
+             x="310.5"
+             y="131.5" />
         </g>
       </g>
       <path
