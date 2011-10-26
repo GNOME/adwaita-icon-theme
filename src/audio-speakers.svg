@@ -61,8 +61,8 @@
      guidetolerance="13"
      height="300px"
      id="base"
-     inkscape:current-layer="layer4"
-     inkscape:cx="314.681"
+     inkscape:current-layer="layer6"
+     inkscape:cx="175.681"
      inkscape:cy="227.19505"
      inkscape:document-units="px"
      inkscape:grid-bbox="true"
@@ -73,8 +73,8 @@
      inkscape:snap-nodes="false"
      inkscape:window-height="867"
      inkscape:window-width="968"
-     inkscape:window-x="209"
-     inkscape:window-y="95"
+     inkscape:window-x="2182"
+     inkscape:window-y="379"
      inkscape:zoom="1"
      objecttolerance="7"
      pagecolor="#ffffff"
@@ -522,19 +522,6 @@
          offset="1"
          id="stop4378-1-2-2-8-5" />
     </linearGradient>
-    <filter
-       color-interpolation-filters="sRGB"
-       inkscape:collect="always"
-       id="filter4386-4-9-0-4-4"
-       x="-0.25229308"
-       width="1.5045861"
-       y="-0.19725075"
-       height="1.3945014">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="7.1357185"
-         id="feGaussianBlur4388-9-0-5-1-8" />
-    </filter>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient4532-8-4-1-2">
@@ -586,15 +573,6 @@
          offset="1"
          id="stop5185-7-6-8" />
     </linearGradient>
-    <filter
-       color-interpolation-filters="sRGB"
-       inkscape:collect="always"
-       id="filter5193-8-1-4">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.7530478"
-         id="feGaussianBlur5195-2-5-7" />
-    </filter>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient5173-6-9-4">
@@ -1792,15 +1770,6 @@
          offset="1"
          id="stop4970-9-2-4" />
     </linearGradient>
-    <filter
-       color-interpolation-filters="sRGB"
-       inkscape:collect="always"
-       id="filter4978-2-9-4">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.33"
-         id="feGaussianBlur4980-9-8-3" />
-    </filter>
     <radialGradient
        r="63.25"
        fy="185.35994"
@@ -1850,15 +1819,6 @@
          offset="1"
          id="stop5185-7-6-1" />
     </linearGradient>
-    <filter
-       color-interpolation-filters="sRGB"
-       inkscape:collect="always"
-       id="filter5193-8-1-1">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.7530478"
-         id="feGaussianBlur5195-2-5-2" />
-    </filter>
     <radialGradient
        r="20.52606"
        fy="112.69416"
@@ -2031,19 +1991,6 @@
          offset="1"
          id="stop5885-6" />
     </linearGradient>
-    <filter
-       color-interpolation-filters="sRGB"
-       inkscape:collect="always"
-       id="filter5837-5"
-       x="-0.12039929"
-       width="1.2407986"
-       y="-0.12039929"
-       height="1.2407986">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.6554902"
-         id="feGaussianBlur5839-6" />
-    </filter>
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4138-4-4-0-9-1-5"
@@ -2331,8 +2278,7 @@
        id="layer6"
        inkscape:groupmode="layer"
        inkscape:label="baseplate"
-       style="display:none"
-       sodipodi:insensitive="true">
+       style="display:none">
       <rect
          height="48"
          id="rect6284"
@@ -2376,10 +2322,11 @@
       <text
          id="context"
          inkscape:label="context"
-         style="font-size:18.30070686px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Bitstream Vera Sans"
+         style="font-size:18.30070686px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell"
          x="20.970737"
          xml:space="preserve"
-         y="21.513618"><tspan
+         y="21.513618"
+         sodipodi:linespacing="125%"><tspan
            id="tspan2716"
            sodipodi:role="line"
            x="20.970737"
@@ -2388,14 +2335,14 @@
          id="icon-name"
          inkscape:label="icon-name"
          sodipodi:linespacing="125%"
-         style="font-size:18.30070686px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Bold"
-         x="251.97073"
+         style="font-size:18.30070686px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;enable-background:new;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+         x="246.97073"
          xml:space="preserve"
          y="21.513618"><tspan
            id="tspan3023"
            sodipodi:role="line"
-           x="251.97073"
-           y="21.513618">speaker</tspan></text>
+           x="246.97073"
+           y="21.513618">audio-speakers</tspan></text>
       <rect
          height="256"
          id="rect6282"
