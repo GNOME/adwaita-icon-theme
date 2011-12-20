@@ -39,7 +39,9 @@ The best way to assure your icon will be precisely 16x16, is to include a blank
 rectangle in the group. This rectangle, as long as it is 16 pixels wide and
 high, will be removed by the crop script. To name the group, open up the object
 properties dialog (Ctrl+Shfit+O) and use the 'label' field. Do not add the
--symbolic suffix there, that will be done by the script.
+-symbolic suffix there, that will be done by the script. Also, don't nest groups
+too much inside the main one. The script will only convert outlines properly down
+to two subgroups.
 
 Recoloring
 ----------
