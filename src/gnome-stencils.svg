@@ -42,12 +42,12 @@
      id="namedview88"
      showgrid="false"
      inkscape:zoom="1"
-     inkscape:cx="117.82328"
-     inkscape:cy="-44.051685"
+     inkscape:cx="282.49776"
+     inkscape:cy="-157.38158"
      inkscape:window-x="1600"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer14"
+     inkscape:current-layer="layer15"
      showborder="false"
      inkscape:snap-nodes="false"
      inkscape:snap-bbox="true"
@@ -75,6 +75,24 @@
      id="title9167">Gnome Symbolic Icon Theme</title>
   <defs
      id="defs7386">
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect18814"
+       is_visible="true"
+       pattern="M 0,0 0,10 10,5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect18812"
+       is_visible="true" />
     <inkscape:path-effect
        effect="spiro"
        id="path-effect38569"
@@ -8055,19 +8073,6 @@
     </g>
     <g
        style="display:inline"
-       id="g12251"
-       transform="translate(59.999996,-186)"
-       inkscape:label="folder-publicshare">
-      <use
-         id="use12249"
-         xlink:href="#g4697"
-         y="0"
-         x="0"
-         width="1"
-         height="1" />
-    </g>
-    <g
-       style="display:inline"
        id="g13339"
        transform="translate(520,-772)"
        inkscape:label="user-home">
@@ -8078,6 +8083,20 @@
          x="0"
          width="1"
          height="1" />
+    </g>
+    <g
+       style="display:inline"
+       id="g18836"
+       transform="translate(59.999996,-165)"
+       inkscape:label="folder-publicshare">
+      <use
+         height="16"
+         width="16"
+         transform="translate(0,-20)"
+         id="use18834"
+         xlink:href="#g24870-7-2"
+         y="0"
+         x="0" />
     </g>
   </g>
   <g
@@ -8650,19 +8669,6 @@
          sodipodi:nodetypes="sccccccccccsccccccccccsccccccccccsccccccccccssssss" />
     </g>
     <g
-       id="g4697"
-       inkscape:label="emblem-shared">
-      <use
-         transform="translate(480,-526)"
-         height="1"
-         width="1"
-         id="use4677"
-         xlink:href="#g24870-7"
-         y="0"
-         x="0"
-         style="display:inline" />
-    </g>
-    <g
        style="display:inline"
        id="g4882"
        transform="translate(400,-506)"
@@ -8674,6 +8680,59 @@
          x="0"
          width="1"
          height="1" />
+    </g>
+    <g
+       style="display:inline"
+       inkscape:label="emblem-shared"
+       transform="translate(174.8095,-582.1781)"
+       id="g24870-7-2">
+      <g
+         id="g24872-6-2"
+         inkscape:label="emblem-important">
+        <rect
+           y="963.1781"
+           x="346.1907"
+           height="16"
+           width="16"
+           id="rect24874-9-5"
+           style="color:#bebebe;fill:none;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      </g>
+      <path
+         transform="matrix(1.5079365,0,0,1.5079365,-86.649872,702.68703)"
+         d="m 291,178.03125 a 1.96875,1.96875 0 1 1 -3.9375,0 1.96875,1.96875 0 1 1 3.9375,0 z"
+         sodipodi:ry="1.96875"
+         sodipodi:rx="1.96875"
+         sodipodi:cy="178.03125"
+         sodipodi:cx="289.03125"
+         id="path24876-5-1"
+         style="color:#000000;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:type="arc"
+         style="color:#000000;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+         id="path18806"
+         sodipodi:cx="289.03125"
+         sodipodi:cy="178.03125"
+         sodipodi:rx="1.96875"
+         sodipodi:ry="1.96875"
+         d="m 291,178.03125 c 0,1.08731 -0.88144,1.96875 -1.96875,1.96875 -1.08731,0 -1.96875,-0.88144 -1.96875,-1.96875 0,-1.08731 0.88144,-1.96875 1.96875,-1.96875 1.08731,0 1.96875,0.88144 1.96875,1.96875 z"
+         transform="matrix(1.5079365,0,0,1.5079365,-76.681322,707.68703)" />
+      <path
+         transform="matrix(1.5079365,0,0,1.5079365,-76.681322,697.68703)"
+         d="m 291,178.03125 a 1.96875,1.96875 0 1 1 -3.9375,0 1.96875,1.96875 0 1 1 3.9375,0 z"
+         sodipodi:ry="1.96875"
+         sodipodi:rx="1.96875"
+         sodipodi:cy="178.03125"
+         sodipodi:cx="289.03125"
+         id="path18808"
+         style="color:#000000;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+         sodipodi:type="arc" />
+      <path
+         style="color:#000000;fill:none;stroke:#bebebe;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 359.24227,966.22268 -10.05039,4.89483 10.05039,5.05997"
+         id="path18810"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccc" />
     </g>
   </g>
   <g
