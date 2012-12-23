@@ -83,6 +83,9 @@ install-data-local:
 install-data-hook:
 	$(GTK_UPDATE_ICON_CACHE) -q $(DESTDIR)$(themedir)
 
+uninstall-hook:
+	@rm -f  $(DESTDIR)$(themedir)/icon-theme.cache
+
 pkgconfigdir = $(datadir)/pkgconfig
 pkgconfig_DATA = gnome-icon-theme.pc
 
