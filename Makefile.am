@@ -23,7 +23,10 @@ install-data-hook:
 		$(GTK_UPDATE_ICON_CACHE) -q $(DESTDIR)$(themedir); \
 	fi
 
-EXTRA_DIST = gnome
+pkgconfigdir = $(datadir)/pkgconfig
+pkgconfig_DATA = gnome-icon-theme-symbolic.pc
+
+EXTRA_DIST = gnome-icon-theme-symbolic.pc.in gnome
 
 MAINTAINERCLEANFILES =			\
 	Makefile.in			\

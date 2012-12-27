@@ -70,6 +70,7 @@ AM_CONDITIONAL(ALLOW_RENDERING, test "x$allow_rendering" = "xyes")
 
 
 AC_CONFIG_FILES([
+gnome-icon-theme-symbolic.pc
 Makefile
 src/Makefile
 ])
