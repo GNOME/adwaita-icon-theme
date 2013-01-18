@@ -5,7 +5,7 @@ AC_INIT([gnome-icon-theme-symbolic], [3.7.4.1],
         [http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-icon-theme])
 AC_CONFIG_SRCDIR([src/gnome-stencils.svg])
 
-AM_INIT_AUTOMAKE([1.9 tar-ustar foreign dist-bzip2 no-dist-gzip])
+AM_INIT_AUTOMAKE([1.9 tar-ustar foreign dist-xz no-dist-gzip])
 
 PKG_PROG_PKG_CONFIG([0.19])
 
