@@ -3,7 +3,6 @@ AC_PREREQ(2.53)
 
 AC_INIT([gnome-icon-theme], [3.9.5],
         [http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-icon-theme])
-AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_SRCDIR([index.theme.in.in])
 
 AM_INIT_AUTOMAKE([1.9 dist-xz no-dist-gzip tar-ustar foreign])

@@ -2,8 +2,6 @@ DISTCHECK_CONFIGURE_FLAGS = --disable-icon-mapping
 
 SUBDIRS = po $(SVGSRCDIR)
 
-ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
-
 theme_in_files = index.theme.in.in
 theme_DATA = $(theme_in_files:.theme.in.in=.theme)
 
