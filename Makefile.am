@@ -71,6 +71,13 @@ THEME_DIRS=$(shell SIZES="$(render_sizes)"; for size in $$SIZES; do for dir in `
 
 @INTLTOOL_THEME_RULE@
 
+# Symbolic?
+#THEME_DIRS=$(shell SIZES="$(render_sizes)"; for size in $$SIZES; do for dir in `find $(srcdir)/$(SVGOUTDIR)/$$size/* -type d`; do printf "$$dir,"; done; done | sed -e "s/,$$//g")
+
+render: Makefile
+	($(am__cd) $(SVGSRCDIR) && $(MAKE) $(AM_MAKEFLAGS) render) \
+	|| eval `exit 1`
+
 # we don't want to install mo files, all translations are already stored
 # in theme files
 install-data-local:

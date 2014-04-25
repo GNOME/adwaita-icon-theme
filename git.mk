@@ -45,7 +45,7 @@
 # build dir.
 #
 # This file knows how to handle autoconf, automake, libtool, gtk-doc,
-# gnome-doc-utils, yelp.m4, mallard, intltool, gsettings, dejagnu.
+# gnome-doc-utils, yelp.m4, mallard, intltool, gsettings, dejagnu, appdata.
 #
 # This makefile provides the following targets:
 #
@@ -202,6 +202,11 @@ $(srcdir)/.gitignore: Makefile.am $(top_srcdir)/git.mk
 				$(gsettings__enum_file) \
 			; do echo "/$$x"; done; \
 		fi; \
+		if test "x$(appdata_XML)" = x; then :; else \
+			for x in \
+				$(appdata_XML:.xml=.valid) \
+			; do echo "/$$x"; done; \
+		fi; \
 		if test -f $(srcdir)/po/Makefile.in.in; then \
 			for x in \
 				po/Makefile.in.in \
@@ -262,6 +267,8 @@ $(srcdir)/.gitignore: Makefile.am $(top_srcdir)/git.mk
 			$(TEST_LOGS:.log=.trs) \
 			$(TEST_SUITE_LOG) \
 			"*.$(OBJEXT)" \
+			"*.gcda" \
+			"*.gcno" \
 			$(DISTCLEANFILES) \
 			$(am__CONFIG_DISTCLEAN_FILES) \
 			$(CONFIG_CLEAN_FILES) \
@@ -273,7 +280,7 @@ $(srcdir)/.gitignore: Makefile.am $(top_srcdir)/git.mk
 			$(patsubst %.vala,%.c,$(filter %.vala,$(SOURCES))) \
 			$(filter %_vala.stamp,$(DIST_COMMON)) \
 			$(filter %.vapi,$(DIST_COMMON)) \
-			$(filter %$(patsubst %.vapi,%.h,$(filter %.vapi,$(DIST_COMMON))),$(DIST_COMMON)) \
+			$(filter $(addprefix %,$(notdir $(patsubst %.vapi,%.h,$(filter %.vapi,$(DIST_COMMON))))),$(DIST_COMMON)) \
 			Makefile \
 			Makefile.in \
 			"*.orig" \
