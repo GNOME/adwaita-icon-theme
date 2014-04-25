@@ -68,6 +68,7 @@ Makefile
 adwaita-icon-theme.pc
 po/Makefile.in
 src/Makefile
+src/fullcolor/Makefile
 ])
 
 AC_OUTPUT

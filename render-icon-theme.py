@@ -7,7 +7,7 @@ import subprocess
 
 INKSCAPE = '/usr/bin/inkscape'
 OPTIPNG = '/usr/bin/optipng'
-SRC = os.path.join('.', 'src')
+SRC = os.path.join('.', 'src', 'fullcolor')
 
 inkscape_process = None
 
