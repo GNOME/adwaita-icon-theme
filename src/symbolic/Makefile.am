@@ -11,9 +11,6 @@ render-png: $(icon_in_files) Makefile
 
 else
 render-png: $(icon_in_files) Makefile
-	if test "x$(top_srcdir)" != "x$(top_builddir)"; then \
-		cp -a $(top_srcdir)/$(SVGOUTDIR) $(top_builddir)/$(SVGOUTDIR); \
-	fi
 
 endif
 
@@ -24,20 +21,6 @@ render: render-png
 all-local: render
 
 install-data-local:
-	for size in $(symbolic_render_sizes); do \
-		for file in `cd $(top_builddir)/$(SVGOUTDIR)/$$size; find . -name "*.png"`; do \
-			context="`dirname $$file`"; \
-			$(mkdir_p) $(DESTDIR)$(themedir)/$$size/$$context; \
-			$(install_sh_DATA) $(top_srcdir)/$(SVGOUTDIR)/$$size/$$file $(DESTDIR)$(themedir)/$$size/$$file; \
-		done; \
-	done
-	for file in `cd $(top_builddir)/$(SVGOUTDIR)/scalable; find . -name "*.svg"`; do \
-		context="`dirname $$file`"; \
-		$(mkdir_p) $(DESTDIR)$(themedir)/scalable/$$context; \
-		$(install_sh_DATA) $(top_srcdir)/$(SVGOUTDIR)/scalable/$$file $(DESTDIR)$(themedir)/scalable/$$file; \
-	done
-
-uninstall-local:
 	for size in $(symbolic_render_sizes); do \
 		for file in `cd $(top_builddir)/$(SVGOUTDIR)/$$size; find . -name "*.png"`; do \
 			context="`dirname $$file`"; \

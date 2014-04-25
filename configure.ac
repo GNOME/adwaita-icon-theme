@@ -24,7 +24,7 @@ AC_SUBST(themedir, "\${datadir}/icons/Adwaita")
 
 # Input and Output dirs for the rendering
 AC_SUBST(SVGOUTDIR, "Adwaita")
-AC_SUBST(SVGSRCDIR, "src")
+AC_SUBST(SVGSRCDIR, "src/symbolic")
 
 # Icon sizes we want to install
 AC_SUBST([render_sizes], ["8x8 16x16 22x22 24x24 32x32 48x48 256x256"])
