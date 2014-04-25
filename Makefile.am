@@ -10,7 +10,7 @@ theme_DATA = $(theme_in_files:.theme.in.in=.theme)
 THEME_DIRS=$(shell SIZES="$(render_sizes)"; for size in $$SIZES; do for dir in `find $(srcdir)/$(SVGOUTDIR)/$$size/* -type d`; do printf "$$dir,"; done; done; echo "scalable/actions,scalable/apps,scalable/devices,scalable/emblems,scalable/mimetypes,scalable/places,scalable/status,scalable/categories")
 
 %.theme.in: %.theme.in.in $(SVGOUTDIR) Makefile
-	dirs="`echo $(THEME_DIRS) | sed -e 's#$(srcdir)/gnome/##g'`"; \
+	dirs="`echo $(THEME_DIRS) | sed -e 's#$(srcdir)/Adwaita/##g'`"; \
 	sed -e "s|\@THEME_DIRS\@|$$dirs|g" < $< > $@; \
 	for dir in `echo $$dirs | sed -e "s/,/ /g"`; do \
 		sizefull="`dirname $$dir`"; \
@@ -91,11 +91,11 @@ uninstall-hook:
 	@rm -f  $(DESTDIR)$(themedir)/icon-theme.cache
 
 pkgconfigdir = $(datadir)/pkgconfig
-pkgconfig_DATA = gnome-icon-theme.pc
+pkgconfig_DATA = adwaita-icon-theme.pc
 
 EXTRA_DIST =			\
-	gnome-icon-theme.pc.in  \
-	gnome			\
+	adwaita-icon-theme.pc.in  \
+	Adwaita			\
 	COPYING_CCBYSA3		\
 	COPYING_LGPL		\
 	$(theme_in_files)

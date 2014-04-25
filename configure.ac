@@ -1,8 +1,8 @@
 dnl Process this file with autoconf to produce a configure script.
 AC_PREREQ(2.53)
 
-AC_INIT([gnome-icon-theme], [3.12.1],
-        [http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-icon-theme])
+AC_INIT([adwaita-icon-theme], [3.12.1],
+        [http://bugzilla.gnome.org/enter_bug.cgi?product=adwaita-icon-theme])
 AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_SRCDIR([index.theme.in.in])
 
@@ -20,11 +20,11 @@ AC_SUBST(localedir)
 AC_SUBST(ACLOCAL_AMFLAGS, "\${ACLOCAL_FLAGS}")
 
 # Define the toplevel path here
-AC_SUBST(themedir, "\${datadir}/icons/gnome")
+AC_SUBST(themedir, "\${datadir}/icons/Adwaita")
 
 # Input and Output dirs for the rendering
 AC_SUBST(SVGSRCDIR, "src")
-AC_SUBST(SVGOUTDIR, "gnome")
+AC_SUBST(SVGOUTDIR, "Adwaita")
 
 # Icon sizes we want to install
 AC_SUBST([render_sizes], ["8x8 16x16 22x22 24x24 32x32 48x48 256x256"])
@@ -50,7 +50,7 @@ if test "x$enable_mapping" != "xno"; then
    else
       AC_MSG_RESULT([no])
       AC_MSG_ERROR([icon-naming-utils >= $UTILS_REQUIRED is required to build
-                    and install gnome-icon-theme])
+                    and install adwaita-icon-theme])
    fi
 else
    ICONMAP="false"
@@ -65,7 +65,7 @@ fi
 
 AC_CONFIG_FILES([
 Makefile
-gnome-icon-theme.pc
+adwaita-icon-theme.pc
 po/Makefile.in
 src/Makefile
 ])
