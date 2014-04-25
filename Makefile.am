@@ -1,6 +1,6 @@
 DISTCHECK_CONFIGURE_FLAGS = --disable-icon-mapping
 
-SUBDIRS = po $(SVGSRCDIR)
+SUBDIRS = po src
 
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 

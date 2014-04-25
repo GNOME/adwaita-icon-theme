@@ -23,7 +23,6 @@ AC_SUBST(ACLOCAL_AMFLAGS, "\${ACLOCAL_FLAGS}")
 AC_SUBST(themedir, "\${datadir}/icons/Adwaita")
 
 # Input and Output dirs for the rendering
-AC_SUBST(SVGSRCDIR, "src")
 AC_SUBST(SVGOUTDIR, "Adwaita")
 
 # Icon sizes we want to install
