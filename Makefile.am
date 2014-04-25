@@ -4,6 +4,9 @@ SUBDIRS = po src
 
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
+cursordir = $(datadir)/icons/Adwaita/cursors
+cursor_DATA = $(wildcard $(srcdir)/Adwaita/cursors/*)
+
 theme_in_files = index.theme.in.in
 theme_DATA = $(theme_in_files:.theme.in.in=.theme)
 
@@ -128,3 +131,4 @@ MAINTAINERCLEANFILES =			\
 	po/$(GETTEXT_PACKAGE).pot
 
 -include $(top_srcdir)/git.mk
+
