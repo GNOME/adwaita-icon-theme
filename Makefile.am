@@ -119,3 +119,5 @@ MAINTAINERCLEANFILES =			\
 	mkinstalldirs			\
 	po/Makefile.in.in		\
 	po/$(GETTEXT_PACKAGE).pot
+
+-include $(top_srcdir)/git.mk
