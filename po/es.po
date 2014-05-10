@@ -9,100 +9,95 @@
 # Francisco Javier F. Serrador <serrador@arrakis.es>, 2003.
 # Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2004.
 # Jorge González <jorgegonz@svn.gnome.org>, 200, 2009.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2014.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme.HEAD.es\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"icon-theme&component=general\n"
-"POT-Creation-Date: 2009-04-21 11:37+0000\n"
-"PO-Revision-Date: 2009-10-16 20:02+0200\n"
-"Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
-"Language-Team: Español <gnome-es-list@gnome.org>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=adwaita-icon-theme&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-04-25 16:29+0000\n"
+"PO-Revision-Date: 2014-05-10 18:06+0200\n"
+"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
+"Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 2.91.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../index.theme.in.h:1
-msgid "Default GNOME Theme"
-msgstr "Tema predeterminado de GNOME"
+#: ../index.theme.in.in.h:1
+msgid "Adwaita"
+msgstr "Adwaita"
 
-#: ../index.theme.in.h:2
-msgid "GNOME"
-msgstr "GNOME"
+#: ../index.theme.in.in.h:2
+msgid "The Only One"
+msgstr "El único"
 
-#: ../scalable/emblems/emblem-desktop.icon.in.h:1
-msgid "Desktop"
-msgstr "Escritorio"
+#~ msgid "Default GNOME Theme"
+#~ msgstr "Tema predeterminado de GNOME"
+
+#~ msgid "GNOME"
+#~ msgstr "GNOME"
+
+#~ msgid "Desktop"
+#~ msgstr "Escritorio"
 
 # 48x48/emblems/emblem-documents.icon.in.h:1
 # 48x48/emblems/emblem-documents.icon.in.h:1
 # 48x48/emblems/emblem-documents.icon.in.h:1
-#: ../scalable/emblems/emblem-documents.icon.in.h:1
-msgid "Documents"
-msgstr "Documentos"
+#~ msgid "Documents"
+#~ msgstr "Documentos"
 
-#: ../scalable/emblems/emblem-downloads.icon.in.h:1
-msgid "Downloads"
-msgstr "Descargas"
+#~ msgid "Downloads"
+#~ msgstr "Descargas"
 
 # 48x48/emblems/emblem-favorite.icon.in.h:1
 # 48x48/emblems/emblem-favorite.icon.in.h:1
-#: ../scalable/emblems/emblem-favorite.icon.in.h:1
-msgid "Favorite"
-msgstr "Favorito"
+#~ msgid "Favorite"
+#~ msgstr "Favorito"
 
-#: ../scalable/emblems/emblem-generic.icon.in.h:1
-msgid "Generic"
-msgstr "Genérico"
+#~ msgid "Generic"
+#~ msgstr "Genérico"
 
-#: ../scalable/emblems/emblem-important.icon.in.h:1
-msgid "Important"
-msgstr "Importante"
+#~ msgid "Important"
+#~ msgstr "Importante"
 
 # 48x48/emblems/emblem-mail.icon.in.h:1
 # 48x48/emblems/emblem-mail.icon.in.h:1
 # 48x48/emblems/emblem-mail.icon.in.h:1
-#: ../scalable/emblems/emblem-mail.icon.in.h:1
-msgid "Mail"
-msgstr "Correo"
+#~ msgid "Mail"
+#~ msgstr "Correo"
 
-#: ../scalable/emblems/emblem-new.icon.in.h:1
-msgid "New"
-msgstr "Nuevo"
+#~ msgid "New"
+#~ msgstr "Nuevo"
 
 # 48x48/emblems/emblem-package.icon.in.h:1
 # 48x48/emblems/emblem-package.icon.in.h:1
 # 48x48/emblems/emblem-package.icon.in.h:1
-#: ../scalable/emblems/emblem-package.icon.in.h:1
-msgid "Package"
-msgstr "Paquete"
+#~ msgid "Package"
+#~ msgstr "Paquete"
 
-#: ../scalable/emblems/emblem-photos.icon.in.h:1
-msgid "Photos"
-msgstr "Fotos"
+#~ msgid "Photos"
+#~ msgstr "Fotos"
 
 # 48x48/emblems/emblem-favorite.icon.in.h:1
 # 48x48/emblems/emblem-favorite.icon.in.h:1
-#: ../scalable/emblems/emblem-readonly.icon.in.h:1
-msgid "No write"
-msgstr "No escrito"
+#~ msgid "No write"
+#~ msgstr "No escrito"
 
-#: ../scalable/emblems/emblem-unreadable.icon.in.h:1
-msgid "No read"
-msgstr "No leído"
+#~ msgid "No read"
+#~ msgstr "No leído"
 
-#: ../scalable/emblems/emblem-urgent.icon.in.h:1
-msgid "Urgent"
-msgstr "Urgente"
+#~ msgid "Urgent"
+#~ msgstr "Urgente"
 
 # 48x48/emblems/emblem-web.icon.in.h:1
 # 48x48/emblems/emblem-web.icon.in.h:1
 # 48x48/emblems/emblem-web.icon.in.h:1
-#: ../scalable/emblems/emblem-web.icon.in.h:1
-msgid "Web"
-msgstr "Web"
+#~ msgid "Web"
+#~ msgstr "Web"
 
 #~ msgid "OK"
 #~ msgstr "Aprobado"
