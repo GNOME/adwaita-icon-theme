@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 #
 # SVGSlice
 #
@@ -34,7 +34,7 @@ optParser.add_option('-d','--debug',action='store_true',dest='debug',help='Enabl
 optParser.add_option('-t','--test',action='store_true',dest='testing',help='Test mode: leave temporary files for examination.')
 optParser.add_option('-p','--sliceprefix',action='store',dest='sliceprefix',help='Specifies the prefix to use for individual slice filenames.')
 
-from xml.sax import saxutils, make_parser, SAXParseException
+from xml.sax import saxutils, make_parser, SAXParseException, handler
 from xml.sax.handler import feature_namespaces
 import os, sys, tempfile, shutil
 
@@ -80,7 +80,7 @@ class SVGRect:
 #			fatalError('ABORTING: Inkscape failed to render the slice.')
 
 
-class SVGHandler(saxutils.DefaultHandler):
+class SVGHandler(handler.ContentHandler):
 	"""Base class for SVG parsers"""
 	def __init__(self):
 		self.pageBounds = SVGRect(0,0,0,0)
