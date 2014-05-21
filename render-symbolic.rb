@@ -38,6 +38,14 @@ def chopSVG(icon)
 	end
 end #end of function
 
+def get_output_filename(d,n)
+	if (/rtl$/.match(n))
+	  outfile = "#{d}/#{n.chomp('-rtl')}-symbolic-rtl.svg"
+	else
+	  outfile = "#{d}/#{icon_name}-symbolic.svg"	  
+  end
+  return outfile
+end
 
 #main
 # Open SVG file.
@@ -56,7 +64,7 @@ if (ARGV[0].nil?) #render all SVGs
 			chopSVG({	:name => icon_name,
 			 					:id => icon.attributes.get_attribute("id"),
 			 					:dir => dir,
-			 					:file => "#{dir}/#{icon_name}-symbolic.svg"})
+			 					:file => get_output_filename(dir, icon_name)})
 		end
 	end
   puts "\nrendered all SVGs"
@@ -68,7 +76,7 @@ else #only render the icons passed
 		chopSVG({	:name => icon_name,
 		 					:id => icon.attributes["id"],
 		 					:dir => dir,
-		 					:file => "#{dir}/#{icon_name}-symbolic.svg",
+		 					:file => get_output_filename(dir, icon_name),
 		 					:forcerender => true})
 	end
   puts "\nrendered #{ARGV.length} icons"
