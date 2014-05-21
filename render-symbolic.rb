@@ -42,7 +42,7 @@ def get_output_filename(d,n)
 	if (/rtl$/.match(n))
 	  outfile = "#{d}/#{n.chomp('-rtl')}-symbolic-rtl.svg"
 	else
-	  outfile = "#{d}/#{icon_name}-symbolic.svg"	  
+	  outfile = "#{d}/#{n}-symbolic.svg"	  
   end
   return outfile
 end
