@@ -1,3 +1,13 @@
+3.13.2
+  - checkbox and radio as icons (for popovers and menus in gtk)
+  - dropped legacy icon name mapping using symlinks (bug #728984)
+  - generic document-new (simple scan)
+  - spinner as icon (process-working)
+  - updated folder design for hicolor
+  - expanders as icons (bug #729565)
+  - settings for high contrast (bug #708311)
+  - updated translations
+  
 3.13.1
   - make a/c status more prominnet (bug #701031)
   - combine fullcolor, symbolic & cursor assets into one module
