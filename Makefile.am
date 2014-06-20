@@ -10,7 +10,7 @@ cursor_DATA = $(wildcard $(srcdir)/Adwaita/cursors/*)
 theme_in_files = index.theme.in.in
 theme_DATA = $(theme_in_files:.theme.in.in=.theme)
 
-THEME_DIRS=$(shell SIZES="$(render_sizes)"; for size in $$SIZES; do for dir in `find $(srcdir)/$(SVGOUTDIR)/$$size/* -type d`; do printf "$$dir,"; done; done; echo "scalable/actions,scalable/apps,scalable/devices,scalable/emblems,scalable/mimetypes,scalable/places,scalable/status,scalable/categories")
+THEME_DIRS=$(shell SIZES="$(render_sizes)"; for size in $$SIZES; do for dir in `find $(srcdir)/$(SVGOUTDIR)/$$size/* -type d`; do printf "$$dir,"; done; done; echo "scalable/actions,scalable/apps,scalable/categories,scalable/devices,scalable/emblems,scalable/emotes,scalable/mimetypes,scalable/places,scalable/status")
 
 %.theme.in: %.theme.in.in $(SVGOUTDIR) Makefile
 	dirs="`echo $(THEME_DIRS) | sed -e 's#$(srcdir)/Adwaita/##g'`"; \
