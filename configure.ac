@@ -58,6 +58,7 @@ po/Makefile.in
 src/Makefile
 src/fullcolor/Makefile
 src/symbolic/Makefile
+src/spinner/Makefile
 ])
 
 AC_OUTPUT
