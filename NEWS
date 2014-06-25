@@ -1,3 +1,10 @@
+3.13.3
+  - symbolic icons for use in gtk theme instead of image assets
+  - spinner that only scales up to 32
+  - naming fixes
+  - sync metaphors between fullcolor and symbolic
+  - fix a few misrendering of symbolic icons
+  
 3.13.2
   - checkbox and radio as icons (for popovers and menus in gtk)
   - dropped legacy icon name mapping using symlinks (bug #728984)
