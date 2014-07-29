@@ -1,219 +1,29 @@
-# Ukrainian translation for gnome-icon-theme.
-# Copyright (C) 2003 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-icon-theme package.
-# Yuriy Syrota <yuri@renome.rovno.ua>
-# Maxim Dzumanenko <dziumanenko@gmail.com>, 2004-2007
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Daniel Korostil <ted.korostiled@gmail.com>, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-icon-theme\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-09-11 16:20+0300\n"
-"PO-Revision-Date: 2007-09-11 15:15+0300\n"
-"Last-Translator: Maxim Dzumanenko <dziumanenko@gmail.com>\n"
-"Language-Team: Ukrainian <linux@linux.org.ua>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product"
+"=adwaita-icon-theme&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-07-29 02:26+0000\n"
+"PO-Revision-Date: 2014-07-29 13:16+0300\n"
+"Last-Translator: Daniel Korostil <ted.korostiled@gmail.com>\n"
+"Language-Team: linux.org.ua\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Virtaal 0.7.1\n"
+"X-Project-Style: gnome\n"
 
-#: ../48x48/emblems/emblem-OK.icon.in.h:1
-msgid "OK"
-msgstr "Гаразд"
+#: ../index.theme.in.in.h:1
+msgid "Adwaita"
+msgstr "Adwaita"
 
-# 48x48/emblems/emblem-art.icon.in.h:1
-#: ../48x48/emblems/emblem-art.icon.in.h:1
-msgid "Art"
-msgstr "Мистецтво"
-
-# 48x48/emblems/emblem-camera.icon.in.h:1
-#: ../48x48/emblems/emblem-camera.icon.in.h:1
-msgid "Camera"
-msgstr "Камера"
-
-#: ../48x48/emblems/emblem-certified.icon.in.h:1
-msgid "Certified"
-msgstr "Сертифікованою"
-
-#: ../48x48/emblems/emblem-cool.icon.in.h:1
-msgid "Cool"
-msgstr "Класно"
-
-#: ../48x48/emblems/emblem-danger.icon.in.h:1
-msgid "Danger"
-msgstr "Небезпека"
-
-#: ../48x48/emblems/emblem-desktop.icon.in.h:1
-msgid "Desktop"
-msgstr "Робочий стіл"
-
-#: ../48x48/emblems/emblem-distinguished.icon.in.h:1
-msgid "Distinguished"
-msgstr "Видатне"
-
-#: ../48x48/emblems/emblem-draft.icon.in.h:1
-msgid "Draft"
-msgstr "Чернетка"
-
-# 48x48/emblems/emblem-handshake.icon.in.h:1
-#: ../48x48/emblems/emblem-handshake.icon.in.h:1
-msgid "Handshake"
-msgstr "Рукостискання"
-
-# 48x48/emblems/emblem-marketing.icon.in.h:1
-#: ../48x48/emblems/emblem-marketing.icon.in.h:1
-msgid "Marketing"
-msgstr "Маркетинг"
-
-# 48x48/emblems/emblem-money.icon.in.h:1
-#: ../48x48/emblems/emblem-money.icon.in.h:1
-msgid "Money"
-msgstr "Гроші"
-
-# 48x48/emblems/emblem-multimedia.icon.in.h:1
-#: ../48x48/emblems/emblem-multimedia.icon.in.h:1
-msgid "Multimedia"
-msgstr "Мультимедіа"
-
-#: ../48x48/emblems/emblem-note.icon.in.h:1
-msgid "Note"
-msgstr "Примітка"
-
-#: ../48x48/emblems/emblem-ohno.icon.in.h:1
-msgid "Oh no!"
-msgstr "О, ні!"
-
-# 48x48/emblems/emblem-people.icon.in.h:1
-#: ../48x48/emblems/emblem-people.icon.in.h:1
-msgid "People"
-msgstr "Люди"
-
-#: ../48x48/emblems/emblem-personal.icon.in.h:1
-msgid "Personal"
-msgstr "Особисте"
-
-# 48x48/emblems/emblem-pictures.icon.in.h:1
-#: ../48x48/emblems/emblem-pictures.icon.in.h:1
-msgid "Pictures"
-msgstr "Малюнки"
-
-# 48x48/emblems/emblem-plan.icon.in.h:1
-#: ../48x48/emblems/emblem-plan.icon.in.h:1
-msgid "Plan"
-msgstr "План"
-
-# 48x48/emblems/emblem-presentation.icon.in.h:1
-#: ../48x48/emblems/emblem-presentation.icon.in.h:1
-msgid "Presentation"
-msgstr "Презентація"
-
-# 48x48/emblems/emblem-sales.icon.in.h:1
-#: ../48x48/emblems/emblem-sales.icon.in.h:1
-msgid "Sales"
-msgstr "Продаж"
-
-# 48x48/emblems/emblem-sound.icon.in.h:1
-#: ../48x48/emblems/emblem-sound.icon.in.h:1
-msgid "Sound"
-msgstr "Звук"
-
-#: ../48x48/emblems/emblem-trash.icon.in.h:1
-msgid "Trash"
-msgstr "Смітник"
-
-#: ../index.theme.in.h:1
-msgid "Default GNOME Theme"
-msgstr "Типова тема середовища GNOME"
-
-#: ../index.theme.in.h:2
-msgid "GNOME"
-msgstr "GNOME"
-
-# 48x48/emblems/emblem-documents.icon.in.h:1
-#: ../scalable/emblems/emblem-documents.icon.in.h:1
-msgid "Documents"
-msgstr "Документи"
-
-#: ../scalable/emblems/emblem-downloads.icon.in.h:1
-msgid "Downloads"
-msgstr "Завантаження"
-
-#: ../scalable/emblems/emblem-favorite.icon.in.h:1
-msgid "Favorite"
-msgstr "Улюблене"
-
-#: ../scalable/emblems/emblem-generic.icon.in.h:1
-msgid "Generic"
-msgstr "Загальне"
-
-#: ../scalable/emblems/emblem-important.icon.in.h:1
-msgid "Important"
-msgstr "Важливе"
-
-# 48x48/emblems/emblem-mail.icon.in.h:1
-#: ../scalable/emblems/emblem-mail.icon.in.h:1
-msgid "Mail"
-msgstr "Пошта"
-
-#: ../scalable/emblems/emblem-new.icon.in.h:1
-msgid "New"
-msgstr "Нове"
-
-# 48x48/emblems/emblem-package.icon.in.h:1
-#: ../scalable/emblems/emblem-package.icon.in.h:1
-msgid "Package"
-msgstr "Пакет"
-
-#: ../scalable/emblems/emblem-photos.icon.in.h:1
-msgid "Photos"
-msgstr "Фотографії"
-
-#: ../scalable/emblems/emblem-readonly.icon.in.h:1
-msgid "No write"
-msgstr "Не для запису"
-
-#: ../scalable/emblems/emblem-unreadable.icon.in.h:1
-msgid "No read"
-msgstr "Не для читання"
-
-#: ../scalable/emblems/emblem-urgent.icon.in.h:1
-msgid "Urgent"
-msgstr "Термінове"
-
-# 48x48/emblems/emblem-web.icon.in.h:1
-#: ../scalable/emblems/emblem-web.icon.in.h:1
-msgid "Web"
-msgstr "Веб"
-
-#~ msgid "cvs-controlled"
-#~ msgstr "Керується (cvs)"
-
-#~ msgid "cvs-modified"
-#~ msgstr "Змінено (cvs)"
-
-#~ msgid "cvs-sticky-tag"
-#~ msgstr "Тег (cvs)"
-
-#~ msgid "Shared"
-#~ msgstr "Спільне"
-
-#~ msgid "cvs-added"
-#~ msgstr "Додано (cvs)"
-
-#~ msgid "cvs-conflict"
-#~ msgstr "Конфліктує (cvs)"
-
-#~ msgid "cvs-removed"
-#~ msgstr "Видалено (cvs)"
-
-#~ msgid "Special"
-#~ msgstr "Особливе"
-
-# 48x48/emblems/emblem-bin.icon.in.h:1
-#~ msgid "Binary"
-#~ msgstr "Двійковий"
-
-#~ msgid "cvs-new-file"
-#~ msgstr "Новий файл (cvs)"
-
-#~ msgid "Symbolic link"
-#~ msgstr "Символічне посилання"
+#: ../index.theme.in.in.h:2
+msgid "The Only One"
+msgstr "Тільки одна-єдина"
