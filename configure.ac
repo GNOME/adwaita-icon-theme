@@ -51,6 +51,13 @@ if test "x$INKSCAPE" = "xfalse"; then
 fi
 AM_CONDITIONAL(ALLOW_RENDERING, test "x$allow_rendering" = "xyes")
 
+symbolic_encode_sizes="16x16 32x32 48x48 64x64 96x96"
+AC_PATH_PROG([GTK_ENCODE_SYMBOLIC_SVG], [gtk-encode-symbolic-svg], [false])
+if test "x$GTK_ENCODE_SYMBOLIC_SVG" = "xfalse"; then
+   symbolic_encode_sizes=""
+fi
+AC_SUBST(symbolic_encode_sizes)
+
 AC_CONFIG_FILES([
 Makefile
 adwaita-icon-theme.pc

@@ -32,6 +32,10 @@ install-data-local:
 		context="`dirname $$file`"; \
 		$(mkdir_p) $(DESTDIR)$(themedir)/scalable/$$context; \
 		$(install_sh_DATA) $(top_srcdir)/$(SVGOUTDIR)/scalable/$$file $(DESTDIR)$(themedir)/scalable/$$file; \
+		for size in $(symbolic_encode_sizes); do \
+			$(mkdir_p) $(DESTDIR)$(themedir)/$$size/$$context; \
+			$(GTK_ENCODE_SYMBOLIC_SVG) $(top_srcdir)/$(SVGOUTDIR)/scalable/$$file $$size -o $(DESTDIR)$(themedir)/$$size/$$context; \
+		done \
 	done
 
 uninstall-local:
