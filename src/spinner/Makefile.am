@@ -4,8 +4,8 @@ icon_in_files = $(shell SRCDIR="$(srcdir)"; for i in `find $$SRCDIR -name "*.svg
 if ALLOW_RENDERING
 render-png: $(icon_in_files) Makefile
 	for file in $(icon_in_files); do \
-		size='scalable-up-to-32'
-		$(ICONTOOL_RENDER) -s $$size -o $(top_builddir)/$(SVGOUTDIR) $$file >/dev/null;
+		size='scalable-up-to-32' \
+		$(ICONTOOL_RENDER) -s $$size -o $(top_builddir)/$(SVGOUTDIR) $$file >/dev/null; \
 	done
 
 else
