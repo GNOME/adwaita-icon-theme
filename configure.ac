@@ -29,6 +29,7 @@ AC_SUBST(SVGSRCDIR, "src/symbolic")
 # Icon sizes we want to install
 AC_SUBST([render_sizes], ["8x8 16x16 22x22 24x24 32x32 48x48 256x256"])
 AC_SUBST([symbolic_render_sizes], [""])
+AC_SUBST([install_sizes], ["8x8 16x16 22x22 24x24 32x32 48x48 64x64 96x96 256x256"])
 
 AC_PATH_PROG(GTK_UPDATE_ICON_CACHE, gtk-update-icon-cache)
 if test -z "$GTK_UPDATE_ICON_CACHE"; then
@@ -51,7 +52,7 @@ if test "x$INKSCAPE" = "xfalse"; then
 fi
 AM_CONDITIONAL(ALLOW_RENDERING, test "x$allow_rendering" = "xyes")
 
-symbolic_encode_sizes="16x16 32x32 48x48 64x64 96x96"
+symbolic_encode_sizes="16x16 24x24 32x32 48x48 64x64 96x96"
 AC_PATH_PROG([GTK_ENCODE_SYMBOLIC_SVG], [gtk-encode-symbolic-svg], [false])
 if test "x$GTK_ENCODE_SYMBOLIC_SVG" = "xfalse"; then
    symbolic_encode_sizes=""
