@@ -39,9 +39,12 @@ install-data-local:
 	done
 
 uninstall-local:
-	for size in $(symbolic_render_sizes); do \
-		for file in `cd $(top_srcdir)/$(SVGOUTDIR)/$$size; find . -name "*.png"`; do \
-			rm -f $(DESTDIR)$(themedir)/$$size/$$file; \
+	for file in `cd $(top_srcdir)/$(SVGOUTDIR)/scalable; find . -name "*.svg"`; do \
+		context="`dirname $$file`"; \
+		rm -f $(DESTDIR)$(themedir)/scalable/$$file; \
+		for size in $(symbolic_encode_sizes); do \
+			name="`basename $$file .svg`.symbolic.png"; \
+			rm -f $(DESTDIR)/$(themedir)/$$size/$$context/$$name; \
 		done; \
 	done
 

@@ -33,9 +33,9 @@ install-data-local:
 	done
 
 uninstall-local:
-	      size='scalable-up-to-32'
-	      for file in `cd $(top_srcdir)/$(SVGOUTDIR)/$$size; find . -name "*.png"`; do \
-		      rm -f $(DESTDIR)$(themedir)/$$size/$$file; 
+	      for file in `cd $(top_srcdir)/$(SVGOUTDIR)/scalable-up-to-32; find . -name "*.svg"`; do \
+		      rm -f $(DESTDIR)$(themedir)/scalable-up-to-32/$$file; \
+	      done
 
 EXTRA_DIST =			\
 	$(icon_in_files)
