@@ -32,9 +32,6 @@ AC_SUBST([symbolic_render_sizes], [""])
 AC_SUBST([install_sizes], ["8x8 16x16 22x22 24x24 32x32 48x48 64x64 96x96 256x256"])
 
 AC_PATH_PROG(GTK_UPDATE_ICON_CACHE, gtk-update-icon-cache)
-if test -z "$GTK_UPDATE_ICON_CACHE"; then
-    AC_MSG_ERROR([Could not find gtk-update-icon-cache])
-fi
 
 # need git, icontool, and inkscape for rendering
 allow_rendering=yes

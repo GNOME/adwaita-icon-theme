@@ -99,7 +99,7 @@ install-data-local:
 	fi
 
 install-data-hook:
-	if test -z "$(DESTDIR)" ; then \
+	if test -z "$(DESTDIR)" && test -n "$(GTK_UPDATE_ICON_CACHE)" ; then \
 		$(GTK_UPDATE_ICON_CACHE) -q $(DESTDIR)$(themedir); \
 	fi
 
