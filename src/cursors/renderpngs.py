@@ -66,20 +66,11 @@ class SVGRect:
 		dbg("New SVGRect: (%s)" % name)
 	
 	def renderFromSVG(self, svgFName, sliceFName):
-		rc = os.system('inkscape --without-gui --export-id="%s" --export-png="pngs/24x24/%s" "%s"' % (self.name, sliceFName, svgFName))
-		if rc > 0:
-			fatalError('ABORTING: Inkscape failed to render the slice.')
-		rc = os.system('inkscape -w 32 -h 32 --without-gui --export-id="%s" --export-png="pngs/32x32/%s" "%s"' % (self.name, sliceFName, svgFName))
-		if rc > 0:
-			fatalError('ABORTING: Inkscape failed to render the slice.')
-		rc = os.system('inkscape -w 48 -h 48 --without-gui --export-id="%s" --export-png="pngs/48x48/%s" "%s"' % (self.name, sliceFName, svgFName))
-		if rc > 0:
-			fatalError('ABORTING: Inkscape failed to render the slice.')
-#		rc = os.system('inkscape -w 128 -h 128 --without-gui --export-id="%s" --export-png="pngs/128x128/%s" "%s"' % (self.name, sliceFName, svgFName))
-#		if rc > 0:
-#			fatalError('ABORTING: Inkscape failed to render the slice.')
-
-
+		for size in [24,32,48,64,96]:
+			rc = os.system('inkscape --without-gui -w %s -h %s --export-id="%s" --export-png="pngs/%s/%s" "%s"' % (size, size, self.name, str(size)+"x"+str(size), sliceFName, svgFName))
+			if rc > 0:
+				fatalError('ABORTING: Inkscape failed to render the slice.')
+		
 class SVGHandler(handler.ContentHandler):
 	"""Base class for SVG parsers"""
 	def __init__(self):
