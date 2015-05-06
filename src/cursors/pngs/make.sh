@@ -9,6 +9,7 @@ xcursorgen crossed_circle.in ../../../Adwaita/cursors/crossed_circle
 xcursorgen right_ptr.in ../../../Adwaita/cursors/right_ptr
 xcursorgen copy.in ../../../Adwaita/cursors/copy
 xcursorgen move.in ../../../Adwaita/cursors/move
+xcursorgen pointer-move.in ../../../Adwaita/cursors/pointer-move
 xcursorgen link.in ../../../Adwaita/cursors/link
 xcursorgen circle.in ../../../Adwaita/cursors/circle
 xcursorgen sb_h_double_arrow.in ../../../Adwaita/cursors/sb_h_double_arrow
@@ -52,6 +53,10 @@ xcursorgen dnd-copy.in ../../../Adwaita/cursors/dnd-copy
 xcursorgen dnd-link.in ../../../Adwaita/cursors/dnd-link
 xcursorgen dnd-move.in ../../../Adwaita/cursors/dnd-move
 xcursorgen dnd-ask.in ../../../Adwaita/cursors/dnd-ask
+xcursorgen zoom-in.in ../../../Adwaita/cursors/zoom-in
+xcursorgen zoom-out.in ../../../Adwaita/cursors/zoom-out
+xcursorgen all-scroll.in ../../../Adwaita/cursors/all-scroll
+xcursorgen vertical-text.in ../../../Adwaita/cursors/vertical-text
 
 cd ../../../Adwaita/cursors
 ln -sf    dotbox			draped_box
@@ -71,10 +76,10 @@ ln -sf    copy				1081e37283d90000800003c07f3ef6bf
 ln -sf    copy				6407b0e94181790501fd1e167b474872
 ln -sf    cross				cross_reverse
 ln -sf    cross				diamond_cross
+ln -sf    hand1				grab
 ln -sf    hand2				9d800788f1b08800ae810202380a0822
 ln -sf    hand2				e29285e634086352946a0e7090d73106
 ln -sf    hand2				hand
-ln -sf    hand2				hand1
 ln -sf    grabbing			fleur
 ln -sf    question_arrow	d9ce0ab605698f320427677b458ad60b
 ln -sf    question_arrow	5c6cd98b3f3ebcb1f9c7f1c204630408
