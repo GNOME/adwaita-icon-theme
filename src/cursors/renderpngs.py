@@ -33,27 +33,145 @@ optParser = OptionParser()
 optParser.add_option('-d','--debug',action='store_true',dest='debug',help='Enable extra debugging info.')
 optParser.add_option('-t','--test',action='store_true',dest='testing',help='Test mode: leave temporary files for examination.')
 optParser.add_option('-p','--sliceprefix',action='store',dest='sliceprefix',help='Specifies the prefix to use for individual slice filenames.')
+optParser.add_option('-r','--remove-shadows',action='store_true',dest='remove_shadows',help='Remove shadows the cursors have.')
+optParser.add_option('-o','--hotspots',action='store_true',dest='hotspots',help='Produce hotspot images and hotspot datafiles.')
+optParser.add_option('-s','--scales',action='store_true',dest='scales',help='Produce 125% (Large) and 150% (Extra Large) scaled versions of each image as well.')
+optParser.add_option('-m','--min-canvas-size',action='store',type='int',dest='min_canvas_size',default=-1, help='Cursor canvas must be at least this big (defaults to -1).')
+optParser.add_option('-f','--fps',action='store',type='int',dest='fps',default=60,help='Assume that all animated cursors have this FPS (defaults to 60).')
+optParser.add_option('-a','--anicursorgen',action='store_true',dest='anicur',default=False,help='Assume that anicursorgen will be used to assemble cursors (xcursorgen is assumed by default).')
+optParser.add_option('-c','--corner-align',action='store_true',dest='align_corner',default=False,help='Align cursors to the top-left corner (by default they are centered).')
+optParser.add_option('-i','--invert',action='store_true',dest='invert',default=False,help='Invert colors (disabled by default).')
+optParser.add_option('-n','--number-of-renderers',action='store',type='int',dest='number_of_renderers',default=1, help='Number of renderer instances run in parallel. Defaults to 1. Set to 0 for autodetection.')
 
-from xml.sax import saxutils, make_parser, SAXParseException, handler
+from xml.sax import saxutils, make_parser, SAXParseException, handler, xmlreader
 from xml.sax.handler import feature_namespaces
-import os, sys, tempfile, shutil
+import os, sys, tempfile, shutil, subprocess
+import re
+from threading import Thread
+from PIL import Image
+import multiprocessing
+import io
 
 svgFilename = None
+hotsvgFilename = None
+sizes = [24,32,48,64,96]
+scale_pairs = [(1.25, 's1'), (1.50, 's2')]
+mode_shadows = ['shadows']
+mode_hotspots = ['hotspots']
+mode_slices = ['slices']
+mode_invert = ['invert']
 
+def natural_sort(l):
+	convert = lambda text: int(text) if text.isdigit() else text.lower()
+	alphanum_key = lambda key: [ convert(c) for c in re.split('([0-9]+)', key) ]
+	return sorted(l, key = alphanum_key)
 
 def dbg(msg):
 	if options.debug:
 		sys.stderr.write(msg)
 
 def cleanup():
+	global inkscape_instances
+	for inkscape, inkscape_stderr, inkscape_stderr_thread in inkscape_instances:
+		inkscape.communicate ('quit\n')
+		del inkscape
+		del inkscape_stderr_thread
+		del inkscape_stderr
+	del inkscape_instances
 	if svgFilename != None and os.path.exists(svgFilename):
 		os.unlink(svgFilename)
+	if hotsvgFilename != None and os.path.exists(hotsvgFilename):
+		os.unlink(hotsvgFilename)
 
 def fatalError(msg):
 	sys.stderr.write(msg)
 	cleanup()
 	sys.exit(20)
 
+def stderr_reader(inkscape, inkscape_stderr):
+	while True:
+		line = inkscape_stderr.readline()
+		if line and len (line.rstrip ('\n').rstrip ('\r')) > 0:
+			fatalError('ABORTING: Inkscape failed to render a slice: {}'.format (line))
+		elif line:
+			print "STDERR> {}".format (line)
+		else:
+			raise UnexpectedEndOfStream
+
+def find_hotspot (hotfile):
+	img = Image.open(hotfile)
+	pixels = img.load()
+	reddest = [-1, -1, -999999]
+	for y in range(img.size[1]):
+		for x in range(img.size[0]):
+			redness = pixels[x,y][0] - pixels[x,y][1] - pixels[x,y][2]
+			if redness > reddest[2]:
+				reddest = [x, y, redness]
+	return (reddest[0] + 1, reddest[1] + 1)
+
+def cropalign (size, filename):
+	img = Image.open (filename)
+	content_dimensions = img.getbbox ()
+	if content_dimensions is None:
+		content_dimensions = (0, 0, img.size[0], img.size[1])
+	hcropped = content_dimensions[2] - content_dimensions[0]
+	vcropped = content_dimensions[3] - content_dimensions[1]
+	if hcropped > size or vcropped > size:
+		if hcropped > size:
+			left = (hcropped - size) / 2
+			right = (hcropped - size) - left
+		else:
+			left = 0
+			right = 0
+		if vcropped > size:
+			top = (vcropped - size) / 2
+			bottom = (vcropped - size) - top
+		else:
+			top = 0
+			bottom = 0
+		content_dimensions = (content_dimensions[0] + left, content_dimensions[1] + top, content_dimensions[2] - right, content_dimensions[3] - bottom)
+		sys.stderr.write ("WARNING: {} is too big to be cleanly cropped to {} ({}x{} at best), cropping to {}x{}!\n".format (filename, size, hcropped, vcropped, content_dimensions[2] - content_dimensions[0], content_dimensions[3] - content_dimensions[1]))
+		sys.stderr.flush ()
+	if options.testing:
+		img.save (filename + ".orig.png", "png")
+	dbg("{} content is {} {} {} {}".format (filename, content_dimensions[0], content_dimensions[1], content_dimensions[2], content_dimensions[3]))
+	cropimg = img.crop ((content_dimensions[0], content_dimensions[1], content_dimensions[2], content_dimensions[3]))
+	pixels = cropimg.load ()
+	if options.testing:
+		cropimg.save (filename + ".crop.png", "png")
+	if options.align_corner:
+		expimg = cropimg.crop ((0, 0, size, size))
+		result = (content_dimensions[0], content_dimensions[1])
+	else:
+		hslack = size - cropimg.size[0]
+		vslack = size - cropimg.size[1]
+		left = hslack / 2
+		top = vslack / 2
+		expimg = cropimg.crop ((-left, -top, size - left, size - top))
+		result = (content_dimensions[0] - left, content_dimensions[1] - top)
+	pixels = expimg.load ()
+	if options.invert:
+		negative (expimg)
+	expimg.save (filename, "png")
+	del cropimg
+	del img
+	return result
+
+def cropalign_hotspot (new_base, size, filename):
+	if new_base is None:
+		return
+	img = Image.open (filename)
+	expimg = img.crop ((new_base[0], new_base[1], new_base[0] + size, new_base[1] + size))
+	pixels = expimg.load ()
+	expimg.save (filename, "png")
+	del img
+
+def negative (img):
+	pixels = img.load ()
+	for y in range (0, img.size[1]):
+		for x in range (0, img.size[0]):
+			r, g, b, a = pixels[x,y]
+			pixels[x,y] = (255 - r, 255 - g, 255 - b, a)
 
 class SVGRect:
 	"""Manages a simple rectangular area, along with certain attributes such as a name"""
@@ -65,12 +183,173 @@ class SVGRect:
 		self.name = name
 		dbg("New SVGRect: (%s)" % name)
 	
-	def renderFromSVG(self, svgFName, sliceFName):
-		for size in [24,32,48,64,96]:
-			rc = os.system('inkscape --without-gui -w %s -h %s --export-id="%s" --export-png="pngs/%s/%s" "%s"' % (size, size, self.name, str(size)+"x"+str(size), sliceFName, svgFName))
-			if rc > 0:
-				fatalError('ABORTING: Inkscape failed to render the slice.')
+	def renderFromSVG(self, svgFName, slicename, skipped, roundrobin, hotsvgFName):
+
+		def do_res (size, output, svgFName, skipped, roundrobin):
+			global inkscape_instances
+			if os.path.exists (output):
+				skipped[output] = True
+				return
+			command = '-w {size} -h {size} --export-id="{export_id}" --export-png="{export_png}" {svg}\n'.format (size=size, export_id=self.name, export_png=output, svg=svgFName)
+			dbg("Command: {}".format (command))
+			inkscape_instances[roundrobin[0]][0].stdin.write (command)
+
+		pngsliceFName = slicename + '.png'
+		hotsliceFName = slicename + '.hotspot.png'
 		
+		dbg('Saving slice as: "%s"' % pngsliceFName)
+		for i, size in enumerate (sizes):
+			subdir = 'pngs/{}x{}'.format (size, size)
+			if not os.path.exists (subdir):
+				os.makedirs (subdir)
+			relslice = '{}/{}'.format (subdir, pngsliceFName)
+			do_res (size, relslice, svgFName, skipped, roundrobin)
+			if options.hotspots:
+				hotrelslice = '{}/{}'.format (subdir, hotsliceFName)
+				do_res (size, hotrelslice, hotsvgFName, skipped, roundrobin)
+			for scale in scale_pairs:
+				subdir = 'pngs/{}x{}_{}'.format (size, size, scale[1])
+				relslice = '{}/{}'.format (subdir, pngsliceFName)
+				if not os.path.exists (subdir):
+					os.makedirs (subdir)
+				scaled_size = int (size * scale[0])
+				do_res (scaled_size, relslice, svgFName, skipped, roundrobin)
+				if options.hotspots:
+					hotrelslice = '{}/{}'.format (subdir, hotsliceFName)
+					do_res (scaled_size, hotrelslice, hotsvgFName, skipped, roundrobin)
+			# This is not inside do_res() because we want each instance to work all scales in case scales are enabled,
+			# otherwise instances that get mostly smallscale renders will finish up way before the others
+			roundrobin[0] += 1
+			if roundrobin[0] >= options.number_of_renderers:
+				roundrobin[0] = 0
+
+def get_next_size (index, current_size):
+	if index % 2 == 0:
+		# 24->32, 48->64, 96->128, 192->256
+		return (current_size * 4) / 3
+	else:
+		# 32->48, 64->96, 128->192, 256->384
+		return (current_size * 3) / 2
+
+def get_csize (index, current_size):
+	size = current_size
+	if len (scale_pairs) > 0:
+		size = get_next_size (index, size)
+	return max (options.min_canvas_size, size)
+
+def postprocess_slice (slicename, skipped):
+	pngsliceFName = slicename + '.png'
+	hotsliceFName = slicename + '.hotspot.png'
+	
+	for i, size in enumerate (sizes):
+		subdir = 'pngs/{}x{}'.format (size, size)
+		relslice = '{}/{}'.format (subdir, pngsliceFName)
+		csize = get_csize (i, size)
+		if relslice not in skipped:
+			new_base = cropalign (csize, relslice)
+			if options.hotspots:
+				hotrelslice = '{}/{}'.format (subdir, hotsliceFName)
+				cropalign_hotspot (new_base, csize, hotrelslice)
+		for scale in scale_pairs:
+			subdir = 'pngs/{}x{}_{}'.format (size, size, scale[1])
+			relslice = '{}/{}'.format (subdir, pngsliceFName)
+			if relslice not in skipped:
+				new_base = cropalign (csize, relslice)
+				if options.hotspots:
+					hotrelslice = '{}/{}'.format (subdir, hotsliceFName)
+					cropalign_hotspot (new_base, csize, hotrelslice)
+
+def write_xcur(slicename):
+	pngsliceFName = slicename + '.png'
+	hotsliceFName = slicename + '.hotspot.png'
+
+	framenum = -1
+	if slicename[-5:].startswith ('_'):
+		try:
+			framenum = int (slicename[-4:])
+			slicename = slicename[:-5]
+		except:
+			pass
+
+	# This relies on the fact that frame 1 is the first frame of an animation in the rect list
+	# If that is not so, the *icongen input file will end up missing some of the lines
+	if framenum == -1 or framenum == 1:
+		mode = 'wb'
+	else:
+		mode = 'ab'
+	if framenum == -1:
+		fps_field = ''
+	else:
+		if options.anicur:
+			# For anicursorgen use jiffies
+			fps_field = ' {}'.format (int (60.0 / options.fps))
+		else:
+			# For xcursorgen use milliseconds
+			fps_field = ' {}'.format (int (1000.0 / options.fps))
+	xcur = {}
+	xcur['s0'] = open ('pngs/{}.in'.format (slicename), mode)
+	if len (scale_pairs) > 0:
+		xcur['s1'] = open ('pngs/{}.s1.in'.format (slicename), mode)
+		xcur['s2'] = open ('pngs/{}.s2.in'.format (slicename), mode)
+	for i, size in enumerate (sizes):
+		subdir = 'pngs/{}x{}'.format (size, size)
+		relslice = '{}/{}'.format (subdir, pngsliceFName)
+		hotrelslice = '{}/{}'.format (subdir, hotsliceFName)
+		hot = find_hotspot (hotrelslice)
+		csize = get_csize (i, size)
+		xcur['s0'].write ("{csize} {hotx} {hoty} {filename}{fps_field}\n".format (csize=csize, hotx=hot[0], hoty=hot[1], filename='{}x{}/{}'.format (size, size, pngsliceFName), fps_field=fps_field))
+		for scale in scale_pairs:
+			subdir = 'pngs/{}x{}_{}'.format (size, size, scale[1])
+			relslice = '{}/{}'.format (subdir, pngsliceFName)
+			scaled_size = int (size * scale[0])
+			hotrelslice = '{}/{}'.format (subdir, hotsliceFName)
+			hot = find_hotspot (hotrelslice)
+			xcur[scale[1]].write ("{csize} {hotx} {hoty} {filename}{fps_field}\n".format (csize=csize, hotx=hot[0], hoty=hot[1], filename='{}x{}_{}/{}'.format (size, size, scale[1], pngsliceFName), fps_field=fps_field))
+	xcur['s0'].close ()
+	if len (scale_pairs) > 0:
+		xcur['s1'].close ()
+		xcur['s2'].close ()
+
+def sort_file(filename):
+	with open (filename, 'rb') as src:
+		contents = src.readlines ()
+	with open (filename, 'wb') as dst:
+		for line in natural_sort (contents):
+			dst.write (line)
+
+def sort_xcur(slicename, passed):
+	pngsliceFName = slicename + '.png'
+
+	framenum = -1
+	if slicename[-5:].startswith ('_'):
+		try:
+			framenum = int (slicename[-4:])
+			slicename = slicename[:-5]
+		except:
+			pass
+	if slicename in passed:
+		return
+	passed[slicename] = True
+
+	sort_file ('pngs/{}.in'.format (slicename))
+	if len (scale_pairs) > 0:
+		sort_file ('pngs/{}.s1.in'.format (slicename))
+		sort_file ('pngs/{}.s2.in'.format (slicename))
+
+def delete_hotspot(slicename):
+	hotsliceFName = slicename + '.hotspot.png'
+	
+	for i, size in enumerate (sizes):
+		subdir = 'pngs/{}x{}'.format (size, size)
+		hotrelslice = '{}/{}'.format (subdir, hotsliceFName)
+		if os.path.exists (hotrelslice):
+			os.unlink (hotrelslice)
+		for scale in scale_pairs:
+			subdir = 'pngs/{}x{}_{}'.format (size, size, scale[1])
+			hotrelslice = '{}/{}'.format (subdir, hotsliceFName)
+			if os.path.exists (hotrelslice):
+				os.unlink (hotrelslice)
+
 class SVGHandler(handler.ContentHandler):
 	"""Base class for SVG parsers"""
 	def __init__(self):
@@ -162,8 +441,7 @@ class SVGLayerHandler(SVGHandler):
 	
 	def startElement(self, name, attrs):
 		"""Generic hook for examining and/or parsing all SVG tags"""
-		if options.debug:
-			dbg('Beginning element "%s"' % name)
+		dbg('Beginning element "%s"' % name)
 		if name == 'svg':
 			self.startElement_svg(name, attrs)
 		elif name == 'g':
@@ -200,6 +478,137 @@ class SVGLayerHandler(SVGHandler):
 		write('    </body>\n')
 		write('</html>\n')
 
+class SVGFilter (saxutils.XMLFilterBase):
+	def __init__ (self, upstream, downstream, mode, **kwargs):
+		saxutils.XMLFilterBase.__init__(self, upstream)
+		self._downstream = downstream
+		self.mode = mode
+
+	def startDocument (self):
+		self.in_throwaway_layer_stack = [False]
+
+	def startElement (self, localname, attrs):
+		def modify_style (style, old_style, new_style=None):
+			styles = style.split (';')
+			new_styles = []
+			if old_style is not None:
+				match_to = old_style + ':'
+			for s in styles:
+				if len (s) > 0 and (old_style is None or not s.startswith (match_to)):
+					new_styles.append (s)
+			if new_style is not None:
+				new_styles.append (new_style)
+			return ';'.join (new_styles)
+
+		dict = {}
+		is_throwaway_layer = False
+		is_slices = False
+		is_hotspots = False
+		is_shadows = False
+		is_layer = False
+		if localname == 'g':
+			for key, value in attrs.items ():
+				if key == 'inkscape:label':
+					if value == 'slices':
+						is_slices = True
+					elif value == 'hotspots':
+						is_hotspots = True
+					elif value == 'shadows':
+						is_shadows = True
+				elif key == 'inkscape:groupmode':
+					if value == 'layer':
+						is_layer = True
+		if mode_shadows in self.mode and is_shadows:
+			# Only remove the shadows
+			is_throwaway_layer = True
+		elif mode_hotspots in self.mode and not (is_hotspots or is_slices):
+			# Remove all layers but hotspots and slices
+			if localname == 'g':
+				is_throwaway_layer = True
+		idict = {}
+		idict.update (attrs)
+		if 'style' not in attrs.keys ():
+			idict['style'] = ''
+		for key, value in idict.items():
+			alocalname = key
+			if alocalname == 'style':
+				had_style = True
+			if alocalname == 'style' and is_slices:
+				# Make slices invisible. Do not check the mode, because there is
+				# no circumstances where we *want* to render slices
+				value = modify_style (value, 'display', 'display:none')
+			if alocalname == 'style' and is_hotspots:
+				if mode_hotspots in self.mode:
+					# Make hotspots visible in hotspots mode
+					value = modify_style (value, 'display', 'display:inline')
+				else:
+					# Make hotspots invisible otherwise
+					value = modify_style (value, 'display', 'display:none')
+			if alocalname == 'style' and mode_invert in self.mode and is_layer and is_shadows:
+				value = modify_style (value, None, 'filter:url(#InvertFilter)')
+			dict[key] = value
+
+		if self.in_throwaway_layer_stack[0] or is_throwaway_layer:
+			self.in_throwaway_layer_stack.insert(0, True)
+		else:
+			self.in_throwaway_layer_stack.insert(0, False)
+			attrs = xmlreader.AttributesImpl(dict)
+			self._downstream.startElement(localname, attrs)
+
+	def characters(self, content):
+		if self.in_throwaway_layer_stack[0]:
+			return
+		self._downstream.characters(content)
+
+	def endElement(self, localname):
+		if self.in_throwaway_layer_stack.pop(0):
+			return
+		self._downstream.endElement(localname)
+
+def filter_svg (input, output, mode):
+	"""filter_svg(input:file, output:file, mode)
+	
+	Parses the SVG input from the input stream.
+	For mode == 'hotspots' it filters out all
+	layers except for hotspots and slices. Also makes hotspots
+	visible.
+	For mode == 'shadows' it filters out the shadows layer.
+	"""
+
+	mode_objs = []
+	if 'hotspots' in mode:
+		mode_objs.append (mode_hotspots)
+	if 'shadows' in mode:
+		mode_objs.append (mode_shadows)
+	if 'slices' in mode:
+		mode_objs.append (mode_slices)
+	if 'invert' in mode:
+		mode_objs.append (mode_invert)
+	if len (mode_objs) == 0:
+		raise ValueError()
+
+	output_gen = saxutils.XMLGenerator(output)
+	parser = make_parser()
+	filter = SVGFilter(parser, output_gen, mode_objs)
+	filter.setFeature(handler.feature_namespaces, False)
+	filter.setErrorHandler(handler.ErrorHandler())
+	# This little I/O dance is here to ensure that SAX parser does not stash away
+	# an open file descriptor for the input file, which would prevent us from unlinking it later
+	with open (input, 'rb') as inp:
+		contents = inp.read ()
+	contents_io = io.BytesIO (contents)
+	source_object = saxutils.prepare_input_source (contents_io)
+	filter.parse(source_object)
+	del filter
+	del parser
+	del output_gen
+
+def autodetect_threadcount ():
+	try:
+		count = multiprocessing.cpu_count()
+	except NotImplementedError:
+		count = 1
+	return count
 
 if __name__ == '__main__':
 	# parse command line into arguments and options
@@ -210,8 +619,19 @@ if __name__ == '__main__':
 	originalFilename = args[0]
 
 	svgFilename = originalFilename + '.svg'
-	shutil.copyfile(originalFilename, svgFilename)
-	
+	hotsvgFilename = originalFilename + '.hotspots.svg'
+	modes = ['slices']
+	if options.remove_shadows:
+		modes.append ('shadows')
+	if options.invert:
+		modes.append ('invert')
+
+	with open (svgFilename, 'wb') as output:
+		filter_svg(originalFilename, output, modes)
+
+	if options.hotspots:
+		with open (hotsvgFilename, 'wb') as output:
+			filter_svg(originalFilename, output, ['hotspots'])
 	# setup program variables from command line (in other words, handle non-option args)
 	basename = os.path.splitext(svgFilename)[0]
 	
@@ -219,7 +639,23 @@ if __name__ == '__main__':
 		sliceprefix = options.sliceprefix
 	else:
 		sliceprefix = ''
-	
+
+	if not options.scales:
+		del scale_pairs[:]
+
+	if options.number_of_renderers <= 0:
+		options.number_of_renderers = autodetect_threadcount ()
+
+	inkscape_instances = []
+
+	for i in range (0, options.number_of_renderers):
+		inkscape = subprocess.Popen (['inkscape', '--without-gui', '--shell'], stdin=subprocess.PIPE, stderr=subprocess.PIPE)
+		if inkscape is None:
+			fatalError("Failed to start Inkscape shell process")
+		inkscape_stderr = inkscape.stderr
+		inkscape_stderr_thread = Thread (target = stderr_reader, args=(inkscape, inkscape_stderr))
+		inkscape_instances.append ([inkscape, inkscape_stderr, inkscape_stderr_thread])
+
 	# initialise results before actually attempting to parse the SVG file
 	svgBounds = SVGRect(0,0,0,0)
 	rectList = []
@@ -234,7 +670,7 @@ if __name__ == '__main__':
 	try:
 		xmlParser.parse(svgFilename)
 	except SAXParseException, e:
-		fatalError("Error parsing SVG file '%s': line %d,col %d: %s.  If you're seeing this within inkscape, it probably indicates a bug that should be reported." % (svgfile, e.getLineNumber(), e.getColumnNumber(), e.getMessage()))
+		fatalError("Error parsing SVG file '%s': line %d,col %d: %s.  If you're seeing this within inkscape, it probably indicates a bug that should be reported." % (svgFilename, e.getLineNumber(), e.getColumnNumber(), e.getMessage()))
 	
 	# verify that the svg file actually contained some rectangles.
 	if len(svgLayerHandler.svg_rects) == 0:
@@ -245,14 +681,31 @@ if __name__ == '__main__':
 		dbg("Parsing successful.")
 	
 	#svgLayerHandler.generateXHTMLPage()
-	
+	del xmlParser
+
+	skipped = {}
+	roundrobin = [0]
+
 	# loop through each slice rectangle, and render a PNG image for it
+	svgLayerHandler.svg_rects
 	for rect in svgLayerHandler.svg_rects:
-		sliceFName = sliceprefix + rect.name + '.png'
-		
-		dbg('Saving slice as: "%s"' % sliceFName)
-		rect.renderFromSVG(svgFilename, sliceFName)
+		slicename = sliceprefix + rect.name
+		rect.renderFromSVG(svgFilename, slicename, skipped, roundrobin, hotsvgFilename)
 
 	cleanup()
+
+	for rect in svgLayerHandler.svg_rects:
+		slicename = sliceprefix + rect.name
+		postprocess_slice(slicename, skipped)
+		if options.hotspots:
+			write_xcur(slicename)
+
+	if options.hotspots:
+		passed = {}
+		for rect in svgLayerHandler.svg_rects:
+			slicename = sliceprefix + rect.name
+			sort_xcur(slicename, passed)
+			#if not option.testing:
+			#	delete_hotspot(slicename)
 
 	dbg('Slicing complete.')
