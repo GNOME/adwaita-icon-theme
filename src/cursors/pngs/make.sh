@@ -42,7 +42,8 @@ xcursorgen ll_angle.in ../../../Adwaita/cursors/ll_angle
 xcursorgen ur_angle.in ../../../Adwaita/cursors/ur_angle
 xcursorgen lr_angle.in ../../../Adwaita/cursors/lr_angle
 xcursorgen X_cursor.in ../../../Adwaita/cursors/X_cursor
-xcursorgen crosshair.in ../../../Adwaita/cursors/crosshair
+#xcursorgen crosshair.in ../../../Adwaita/cursors/crosshair
+xcursorgen crosshair.in ../../../Adwaita/cursors/cell
 xcursorgen cross.in ../../../Adwaita/cursors/cross
 xcursorgen tcross.in ../../../Adwaita/cursors/tcross
 xcursorgen dotbox.in ../../../Adwaita/cursors/dotbox
@@ -100,5 +101,39 @@ ln -sf    sb_v_double_arrow v_double_arrow
 ln -sf    sb_v_double_arrow	2870a09082c103050810ffdffffe0204
 ln -sf    v_double_arrow	00008160000006810000408080010102
 #ln -sf    center_ptr		centre_ptr
+
+# css cursor names
+                              # none
+ln -sf  left_ptr                default
+                              # help
+ln -sf  hand                    pointer
+ln -sf  left_ptr_watch          progress
+ln -sf  watch                   wait
+                              # cell
+ln -sf  cross                   crosshair
+ln -sf  xterm                   text
+                              # vertical-text
+ln -sf  dnd-link                alias
+ln -sf  dnd-copy                copy
+                              # move
+ln -sf  dnd-none                no-drop
+ln -sf  crossed_circle          not-allowed
+                              # all-scroll
+ln -sf  sb_h_double_arrow       col-resize
+ln -sf  sb_v_double_arrow       row-resize
+ln -sf  top_side                n-resize
+ln -sf  right_side              e-resize
+ln -sf  bottom_side             s-resize
+ln -sf  left_side               w-resize
+ln -sf  top_right_corner        ne-resize
+ln -sf  top_left_corner         nw-resize
+ln -sf  bottom_right_corner     se-resize
+ln -sf  bottom_left_corner      sw-resize
+ln -sf  sb_h_double_arrow       ew-resize
+ln -sf  sb_v_double_arrow       ns-resize
+ln -sf  fd_double_arrow         nesw-resize
+ln -sf  bd_double_arrow         nwse-resize
+                              # zoom-in
+                              # zoom-out
 
 #cp -RPv * /usr/share/icons/Vanilla-DMZ/cursors/
