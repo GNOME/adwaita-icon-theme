@@ -7957,6 +7957,20 @@
        fx="0.053942412"
        fy="189.15244"
        r="27.330345" />
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Invert"
+       id="InvertFilter">
+      <feColorMatrix
+         type="hueRotate"
+         values="180"
+         result="color1"
+         id="feColorMatrix6994" />
+      <feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1 0 "
+         result="color2"
+         id="feColorMatrix6996" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
