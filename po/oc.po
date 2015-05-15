@@ -1,184 +1,29 @@
-# Occitan tranlation of gnome-icon-theme.
-# Copyright (C) 2007 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-icon-theme package.
+# Occitan Tranlation of adwaita-icon-theme.
+# Copyright (C) 2014 Free Software Foundation, Inc.
+# This file is distributed under the same license as the adwaita-icon-theme package.
 #
-# Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, 2007.
+# Cédric Valmary (Tot en Òc) <cvalmary@yahoo.fr>, 2015.
 msgid ""
 msgstr ""
-"Project-Id-Version: oc\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-07-02 08:58+0200\n"
-"PO-Revision-Date: 2008-02-26 22:17+0100\n"
-"Last-Translator: Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>\n"
-"Language-Team: Occitan <ubuntu-l10n-oci@lists.ubuntu.com>\n"
-"MIME-Version: 1.0\n"
+"Project-Id-Version: gnome-icon-theme 2.14.2\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=adwaita-"
+"icon-theme&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-04-25 16:29+0000\n"
+"PO-Revision-Date: 2015-05-15 17:47+0100\n"
+"Last-Translator: Cédric Valmary (totenoc.eu) <cvalmary@yahoo.fr>\n"
+"Language-Team: www.totenoc.org\n"
+"Language: oc\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Project-Style: gnome\n"
+"MIME-Version: 1.0\n"
 
-#: ../index.theme.in.h:1
-msgid "Default GNOME Theme"
-msgstr "Tèma per defaut de GNOME"
+#: ../index.theme.in.in.h:1
+msgid "Adwaita"
+msgstr "Adwaita"
 
-#: ../index.theme.in.h:2
-msgid "GNOME"
-msgstr "GNOME"
-
-#: ../scalable/emblems/emblem-desktop.icon.in.h:1
-msgid "Desktop"
-msgstr "Burèu"
-
-# 48x48/emblems/emblem-documents.icon.in.h:1
-# 48x48/emblems/emblem-documents.icon.in.h:1
-# 48x48/emblems/emblem-documents.icon.in.h:1
-#: ../scalable/emblems/emblem-documents.icon.in.h:1
-msgid "Documents"
-msgstr "Documents"
-
-#: ../scalable/emblems/emblem-downloads.icon.in.h:1
-msgid "Downloads"
-msgstr "Descargas"
-
-# 48x48/emblems/emblem-favorite.icon.in.h:1
-# 48x48/emblems/emblem-favorite.icon.in.h:1
-#: ../scalable/emblems/emblem-favorite.icon.in.h:1
-msgid "Favorite"
-msgstr "Favorit"
-
-# 48x48/emblems/emblem-generic.icon.in.h:1
-#: ../scalable/emblems/emblem-generic.icon.in.h:1
-msgid "Generic"
-msgstr "Generic"
-
-# 48x48/emblems/emblem-important.icon.in.h:1
-#: ../scalable/emblems/emblem-important.icon.in.h:1
-msgid "Important"
-msgstr "Important"
-
-# 48x48/emblems/emblem-mail.icon.in.h:1
-# 48x48/emblems/emblem-mail.icon.in.h:1
-# 48x48/emblems/emblem-mail.icon.in.h:1
-#: ../scalable/emblems/emblem-mail.icon.in.h:1
-msgid "Mail"
-msgstr "Corrièl"
-
-# 48x48/emblems/emblem-new.icon.in.h:1
-#: ../scalable/emblems/emblem-new.icon.in.h:1
-msgid "New"
-msgstr "Novèl"
-
-# 48x48/emblems/emblem-package.icon.in.h:1
-# 48x48/emblems/emblem-package.icon.in.h:1
-# 48x48/emblems/emblem-package.icon.in.h:1
-#: ../scalable/emblems/emblem-package.icon.in.h:1
-msgid "Package"
-msgstr "Paquetatge"
-
-#: ../scalable/emblems/emblem-photos.icon.in.h:1
-msgid "Photos"
-msgstr "Fotografias"
-
-# 48x48/emblems/emblem-favorite.icon.in.h:1
-# 48x48/emblems/emblem-favorite.icon.in.h:1
-#: ../scalable/emblems/emblem-readonly.icon.in.h:1
-msgid "No write"
-msgstr ""
-
-#: ../scalable/emblems/emblem-unreadable.icon.in.h:1
-msgid "No read"
-msgstr ""
-
-# 48x48/emblems/emblem-urgent.icon.in.h:1
-#: ../scalable/emblems/emblem-urgent.icon.in.h:1
-msgid "Urgent"
-msgstr "Urgent"
-
-# 48x48/emblems/emblem-web.icon.in.h:1
-# 48x48/emblems/emblem-web.icon.in.h:1
-# 48x48/emblems/emblem-web.icon.in.h:1
-#: ../scalable/emblems/emblem-web.icon.in.h:1
-msgid "Web"
-msgstr "Web"
-
-# 48x48/emblems/emblem-OK.icon.in.h:1
-#~ msgid "OK"
-#~ msgstr "Validar"
-
-# 48x48/emblems/emblem-art.icon.in.h:1
-# 48x48/emblems/emblem-art.icon.in.h:1
-# 48x48/emblems/emblem-art.icon.in.h:1
-#~ msgid "Art"
-#~ msgstr "Art"
-
-# 48x48/emblems/emblem-camera.icon.in.h:1
-# 48x48/emblems/emblem-camera.icon.in.h:1
-# 48x48/emblems/emblem-camera.icon.in.h:1
-#~ msgid "Camera"
-#~ msgstr "Aparelh de fotografiar"
-
-# 48x48/emblems/emblem-certified.icon.in.h:1
-#~ msgid "Certified"
-#~ msgstr "Certificat"
-
-# 48x48/emblems/emblem-danger.icon.in.h:1
-# 48x48/emblems/emblem-danger.icon.in.h:1
-#~ msgid "Danger"
-#~ msgstr "Dangièr"
-
-# 48x48/emblems/emblem-draft.icon.in.h:1
-#~ msgid "Draft"
-#~ msgstr "Borrolhon"
-
-# 48x48/emblems/emblem-money.icon.in.h:1
-# 48x48/emblems/emblem-money.icon.in.h:1
-#~ msgid "Money"
-#~ msgstr "Argent"
-
-# 48x48/emblems/emblem-multimedia.icon.in.h:1
-# 48x48/emblems/emblem-multimedia.icon.in.h:1
-# 48x48/emblems/emblem-multimedia.icon.in.h:1
-#~ msgid "Multimedia"
-#~ msgstr "Multimedià"
-
-#~ msgid "Note"
-#~ msgstr "Nòta"
-
-# 48x48/emblems/emblem-ohno.icon.in.h:1
-# 48x48/emblems/emblem-ohno.icon.in.h:1
-#~ msgid "Oh no!"
-#~ msgstr "O, non !"
-
-# 48x48/emblems/emblem-people.icon.in.h:1
-# 48x48/emblems/emblem-people.icon.in.h:1
-#~ msgid "People"
-#~ msgstr "Gents"
-
-# 48x48/emblems/emblem-personal.icon.in.h:1
-#~ msgid "Personal"
-#~ msgstr "Personal"
-
-# 48x48/emblems/emblem-pictures.icon.in.h:1
-# 48x48/emblems/emblem-pictures.icon.in.h:1
-# 48x48/emblems/emblem-pictures.icon.in.h:1
-#~ msgid "Pictures"
-#~ msgstr "Imatges"
-
-# 48x48/emblems/emblem-presentation.icon.in.h:1
-# 48x48/emblems/emblem-presentation.icon.in.h:1
-#~ msgid "Presentation"
-#~ msgstr "Presentacion"
-
-# 48x48/emblems/emblem-sales.icon.in.h:1
-# 48x48/emblems/emblem-sales.icon.in.h:1
-# 48x48/emblems/emblem-sales.icon.in.h:1
-#~ msgid "Sales"
-#~ msgstr "Ventas"
-
-# 48x48/emblems/emblem-sound.icon.in.h:1
-# 48x48/emblems/emblem-sound.icon.in.h:1
-# 48x48/emblems/emblem-sound.icon.in.h:1
-#~ msgid "Sound"
-#~ msgstr "Son"
-
-#~ msgid "Trash"
-#~ msgstr "Banasta"
+#: ../index.theme.in.in.h:2
+msgid "The Only One"
+msgstr "L'unic"
