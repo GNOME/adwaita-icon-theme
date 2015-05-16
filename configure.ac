@@ -31,6 +31,7 @@ AC_SUBST([render_sizes], ["8x8 16x16 22x22 24x24 32x32 48x48 256x256"])
 AC_SUBST([symbolic_render_sizes], [""])
 AC_SUBST([install_sizes], ["8x8 16x16 22x22 24x24 32x32 48x48 64x64 96x96 256x256"])
 
+AC_PROG_LN_S
 AC_PATH_PROG(GTK_UPDATE_ICON_CACHE, gtk-update-icon-cache)
 
 # need git, icontool, and inkscape for rendering
@@ -55,6 +56,29 @@ if test "x$GTK_ENCODE_SYMBOLIC_SVG" = "xfalse"; then
    symbolic_encode_sizes=""
 fi
 AC_SUBST(symbolic_encode_sizes)
+
+AC_ARG_ENABLE([w32-cursors],
+  [AS_HELP_STRING([--enable-w32-cursors],
+    [Make and install Windows cursors (.cur and .ani) instead of X cursors])],
+  [case "${enableval}" in
+    yes) enable_w32_cursors=yes ;;
+    no)  enable_w32_cursors=no ;;
+    *) AC_MSG_ERROR([bad value ${enableval} for --enable-w32-cursors]) ;;
+   esac],
+  [enable_w32_cursors=no])
+AC_SUBST(enable_w32_cursors)
+
+AC_ARG_ENABLE([l-xl-variants],
+  [AS_HELP_STRING([--enable-l-xl-variants],
+    [Also make and install Large and Extra Large Windows cursor versions])],
+  [case "${enableval}" in
+    yes) enable_l_xl_variants=yes ;;
+    no)  enable_l_xl_variants=no ;;
+    *) AC_MSG_ERROR([bad value ${enableval} for --enable-l-xl-variants]) ;;
+   esac],
+  [enable_l_xl_variants=no])
+AC_SUBST(enable_l_xl_variants)
+AM_CONDITIONAL([ENABLE_L_XL_VARIANTS], [test x$enable_l_xl_variants = xyes])
 
 AC_CONFIG_FILES([
 Makefile
