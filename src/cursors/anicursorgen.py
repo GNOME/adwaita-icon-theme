@@ -24,7 +24,9 @@ import argparse
 import shlex
 import io
 import struct
+import math
 from PIL import Image
+from PIL import ImageFilter
 
 p = struct.pack
 
@@ -40,6 +42,21 @@ def main ():
                        help='Display the usage message and exit.')
   parser.add_argument ('-p', '--prefix', metavar='dir', default=None,
                        help='Find cursor images in the directory specified by dir. If not specified, the current directory is used.')
+  parser.add_argument ('-s', '--add-shadows', action='store_true', dest='add_shadows', default=False,
+                       help='Generate shadows for cursors (disabled by default).')
+  parser.add_argument ('-n', '--no-shadows', action='store_false', dest='add_shadows', default=False,
+                       help='Do not generate shadows for cursors (put after --add-shadows to cancel its effect).')
+
+  shadows = parser.add_argument_group (title='Shadow generation', description='Only relevant when --add-shadows is given')
+
+  shadows.add_argument ('-r', '--right-shift', metavar='%', type=float, default=9.375,
+                       help='Shift shadow right by this percentage of the canvas size (default is 9.375).')
+  shadows.add_argument ('-d', '--down-shift', metavar='%', type=float, default=3.125,
+                       help='Shift shadow down by this percentage of the canvas size (default is 3.125).')
+  shadows.add_argument ('-b', '--blur', metavar='%', type=float, default=3.125,
+                       help='Blur radius, in percentage of the canvas size (default is 3.125, set to 0 to disable blurring).')
+  shadows.add_argument ('-c', '--color', metavar='%', default='0x80808080',
+                       help='Shadow color in 0xRRGGBBAA form (default is 0x80808080).')
 
   parser.add_argument ('input_config', default='-', metavar='input-config [output-file]', nargs='?',
                        help='Input config file (stdin by default).')
@@ -47,6 +64,15 @@ def main ():
                        help='Output cursor file (stdout by default).')
 
   args = parser.parse_args ()
+
+  try:
+    if args.color[0] != '0' or args.color[1] not in ['x', 'X'] or len (args.color) != 10:
+      raise ValueError
+    args.color = (int (args.color[2:4], 16), int (args.color[4:6], 16), int (args.color[6:8], 16), int (args.color[8:10], 16))
+  except:
+    print ("Can't parse the color '{}'".format (args.color), file=sys.stderr)
+    parser.print_help ()
+    return 1
 
   if args.prefix is None:
     args.prefix = os.getcwd ()
@@ -61,22 +87,22 @@ def main ():
   else:
     output_file = open (args.output_file, 'wb')
 
-  result = make_cursor_from (input_config, output_file, args.prefix)
+  result = make_cursor_from (input_config, output_file, args)
 
   input_config.close ()
   output_file.close ()
 
   return result
 
-def make_cursor_from (inp, out, prefix):
-  frames = parse_config_from (inp, prefix)
+def make_cursor_from (inp, out, args):
+  frames = parse_config_from (inp, args.prefix)
 
   animated = frames_have_animation (frames)
 
   if animated:
-    result = make_ani (frames, out)
+    result = make_ani (frames, out, args)
   else:
-    buf = make_cur (frames)
+    buf = make_cur (frames, args)
     copy_to (out, buf)
     result = 0
 
@@ -102,7 +128,7 @@ def frames_have_animation (frames):
 
   return False
 
-def make_cur (frames):
+def make_cur (frames, args):
   buf = io.BytesIO ()
   buf.write (p ('<HHH', 0, 2, len (frames)))
   frame_offsets = []
@@ -120,12 +146,22 @@ def make_cur (frames):
     frame_offset = buf.seek (0, io.SEEK_CUR)
     frame_offsets[i].append (frame_offset)
 
+    frame_png = Image.open (frame[3])
+
+    if args.add_shadows:
+      succeeded, shadowed = create_shadow (frame_png, args)
+      if succeeded == 0:
+        frame_png.close ()
+        frame_png = shadowed
+
     compressed = frame[0] > 48
 
     if compressed:
-      write_png (buf, frame)
+      write_png (buf, frame, frame_png)
     else:
-      write_cur (buf, frame)
+      write_cur (buf, frame, frame_png)
+
+    frame_png.close ()
 
     frame_end = buf.seek (0, io.SEEK_CUR)
     frame_offsets[i].append (frame_end - frame_offset)
@@ -172,7 +208,7 @@ def make_framesets (frames):
 
   return framesets
 
-def make_ani (frames, out):
+def make_ani (frames, out, args):
   framesets = make_framesets (frames)
   if framesets is None:
     return 1
@@ -207,7 +243,7 @@ def make_ani (frames, out):
 
   for frameset in framesets:
     buf.write (b'icon')
-    cur = make_cur (frameset)
+    cur = make_cur (frameset, args)
     cur_size = cur.seek (0, io.SEEK_END)
     aligned_cur_size = cur_size
     #if cur_size % 4 != 0:
@@ -228,17 +264,11 @@ def make_ani (frames, out):
 
   return 0
 
-def write_png (out, frame):
-  with open (frame[3], 'rb') as src:
-    while True:
-      buf = src.read (1024)
-      if buf is None or len (buf) == 0:
-        break
-      out.write (buf)
+def write_png (out, frame, frame_png):
+  frame_png.save (out, "png", optimize=True)
 
-def write_cur (out, frame):
-  img = Image.open (frame[3])
-  pixels = img.load ()
+def write_cur (out, frame, frame_png):
+  pixels = frame_png.load ()
 
   out.write (p ('<I II HH IIIIII', 40, frame[0], frame[0] * 2, 1, 32, 0, 0, 0, 0, 0, 0))
 
@@ -292,6 +322,40 @@ def parse_config_from (inp, prefix):
     frames.append ((size, hotx, hoty, filename, duration))
 
   return frames
+
+def create_shadow (orig, args):
+  blur_px = orig.size[0] / 100.0 * args.blur
+  right_px = int (orig.size[0] / 100.0 * args.right_shift)
+  down_px = int (orig.size[1] / 100.0 * args.down_shift)
+
+  shadow = Image.new ('RGBA', orig.size, (0, 0, 0, 0))
+  shadowize (shadow, orig, args.color)
+  shadow.load ()
+
+  if args.blur > 0:
+    crop = (int (math.floor (-blur_px)), int (math.floor (-blur_px)), orig.size[0] + int (math.ceil (blur_px)), orig.size[1] + int (math.ceil (blur_px)))
+    right_px += int (math.floor (-blur_px))
+    down_px += int (math.floor (-blur_px))
+    shadow = shadow.crop (crop)
+    flt = ImageFilter.GaussianBlur (blur_px)
+    shadow = shadow.filter (flt)
+  shadow.load ()
+
+  shadowed = Image.new ('RGBA', orig.size, (0, 0, 0, 0))
+  shadowed.paste (shadow, (right_px, down_px))
+  shadowed.crop ((0, 0, orig.size[0], orig.size[1]))
+  shadowed = Image.alpha_composite (shadowed, orig)
+
+  return 0, shadowed
+
+def shadowize (shadow, orig, color):
+  o_pxs = orig.load ()
+  s_pxs = shadow.load ()
+  for y in range (orig.size[1]):
+    for x in range (orig.size[0]):
+      o_px = o_pxs[x, y]
+      if o_px[3] > 0:
+        s_pxs[x, y] = (color[0], color[1], color[2], int (color[3] * (o_px[3] / 255.0)))
 
 if __name__ == '__main__':
   sys.exit (main ())
