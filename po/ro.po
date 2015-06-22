@@ -2,88 +2,84 @@
 # Copyright (C) 2003, 2004 Free Software Foundation, Inc.
 # Mișu Moldovan <dumol@go.ro>, 2003, 2004.
 # Adi Roiban https://launchpad.net/~adiroiban, 2009
-#
+# Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-icon-theme\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-11-07 13:05+0100\n"
-"PO-Revision-Date: 2009-02-17 22:37+0200\n"
-"Last-Translator: Adi Roiban <adi@roiban.ro>\n"
-"Language-Team: Romanian <gnomero-list@lists.sourceforge.net>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product"
+"=adwaita-icon-theme&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-04-25 16:29+0000\n"
+"PO-Revision-Date: 2015-06-22 20:00+0200\n"
+"Last-Translator: Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>\n"
+"Language-Team: Gnome Romanian Translation Team\n"
+"Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3;plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1))\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.7.1\n"
+"X-Project-Style: gnome\n"
 
-#: ../index.theme.in.h:1
-msgid "Default GNOME Theme"
-msgstr "Temă implicită GNOME"
+#: ../index.theme.in.in.h:1
+msgid "Adwaita"
+msgstr "Adwaita"
 
-#: ../index.theme.in.h:2
-msgid "GNOME"
-msgstr "GNOME"
+#: ../index.theme.in.in.h:2
+msgid "The Only One"
+msgstr "Singura"
 
-#: ../scalable/emblems/emblem-desktop.icon.in.h:1
-msgid "Desktop"
-msgstr "Desktop"
+#~ msgid "Default GNOME Theme"
+#~ msgstr "Temă implicită GNOME"
+
+#~ msgid "GNOME"
+#~ msgstr "GNOME"
+
+#~ msgid "Desktop"
+#~ msgstr "Desktop"
 
 # 48x48/emblems/emblem-documents.icon.in.h:1
-#: ../scalable/emblems/emblem-documents.icon.in.h:1
-msgid "Documents"
-msgstr "Documente"
+#~ msgid "Documents"
+#~ msgstr "Documente"
 
-#: ../scalable/emblems/emblem-downloads.icon.in.h:1
-msgid "Downloads"
-msgstr "Descărcări"
+#~ msgid "Downloads"
+#~ msgstr "Descărcări"
 
-#: ../scalable/emblems/emblem-favorite.icon.in.h:1
-msgid "Favorite"
-msgstr "Favorit"
+#~ msgid "Favorite"
+#~ msgstr "Favorit"
 
-#: ../scalable/emblems/emblem-generic.icon.in.h:1
-msgid "Generic"
-msgstr "Generic"
+#~ msgid "Generic"
+#~ msgstr "Generic"
 
-#: ../scalable/emblems/emblem-important.icon.in.h:1
-msgid "Important"
-msgstr "Important"
+#~ msgid "Important"
+#~ msgstr "Important"
 
 # 48x48/emblems/emblem-mail.icon.in.h:1
-#: ../scalable/emblems/emblem-mail.icon.in.h:1
-msgid "Mail"
-msgstr "Mesaj"
+#~ msgid "Mail"
+#~ msgstr "Mesaj"
 
-#: ../scalable/emblems/emblem-new.icon.in.h:1
-msgid "New"
-msgstr "Nou"
+#~ msgid "New"
+#~ msgstr "Nou"
 
 # 48x48/emblems/emblem-package.icon.in.h:1
-#: ../scalable/emblems/emblem-package.icon.in.h:1
-msgid "Package"
-msgstr "Pachet"
+#~ msgid "Package"
+#~ msgstr "Pachet"
 
-#: ../scalable/emblems/emblem-photos.icon.in.h:1
-msgid "Photos"
-msgstr "Fotografii"
+#~ msgid "Photos"
+#~ msgstr "Fotografii"
 
-#: ../scalable/emblems/emblem-readonly.icon.in.h:1
-msgid "No write"
-msgstr "Protejat la scriere"
+#~ msgid "No write"
+#~ msgstr "Protejat la scriere"
 
-#: ../scalable/emblems/emblem-unreadable.icon.in.h:1
-msgid "No read"
-msgstr "Protejat la citire"
+#~ msgid "No read"
+#~ msgstr "Protejat la citire"
 
-#: ../scalable/emblems/emblem-urgent.icon.in.h:1
-msgid "Urgent"
-msgstr "Urgent"
+#~ msgid "Urgent"
+#~ msgstr "Urgent"
 
 # 48x48/emblems/emblem-web.icon.in.h:1
-#: ../scalable/emblems/emblem-web.icon.in.h:1
-msgid "Web"
-msgstr "Internet"
+#~ msgid "Web"
+#~ msgstr "Internet"
 
 #~ msgid "OK"
 #~ msgstr "Ok"
-
