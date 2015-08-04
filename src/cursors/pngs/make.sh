@@ -102,6 +102,13 @@ ln -sf    sb_v_double_arrow	2870a09082c103050810ffdffffe0204
 ln -sf    v_double_arrow	00008160000006810000408080010102
 #ln -sf    center_ptr		centre_ptr
 
+#kde cursor names
+ln -sf  fleur             size_all
+ln -sf  fd_double_arrow   size_bdiag
+ln -sf  bd_double_arrow   size_fdiag
+ln -sf  h_double_arrow   size_hor
+ln -sf  v_double_arrow   size_ver
+
 # css cursor names
                               # none
 ln -sf  left_ptr                default
