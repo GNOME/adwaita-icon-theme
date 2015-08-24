@@ -5,34 +5,30 @@ require "fileutils"
 include REXML
 
 
-INKSCAPE = '/usr/bin/inkscape'
+RENDERER = 'rsvg-convert'
 #INKSCAPE = '/usr/bin/inkscape' # like this works for me, while using `which` inkscape hangs
 SRC = "src/symbolic/gnome-stencils.svg"
-PREFIX = "Adwaita/scalable"
+PREFIX = "Adwaita/scalable-rsvg"
 
 def chopSVG(icon)
 	FileUtils.mkdir_p(icon[:dir]) unless File.exists?(icon[:dir])
 	unless (File.exists?(icon[:file]) && !icon[:forcerender])
-		FileUtils.cp(SRC,icon[:file]) 
-		puts " >> #{icon[:name]}"
-		cmd = "#{INKSCAPE} -f #{icon[:file]} --select #{icon[:id]} --verb=FitCanvasToSelection  --verb=EditInvertInAllLayers "
-		cmd += "--verb=EditDelete --verb=EditSelectAll --verb=SelectionUnGroup --verb=SelectionUnGroup --verb=SelectionUnGroup --verb=StrokeToPath --verb=FileVacuum "
-		cmd += "--verb=FileSave --verb=FileClose > /dev/null 2>&1"
+		cmd = "#{RENDERER} -f svg #{SRC} -i #{icon[:id]} -o #{icon[:file]}"
+		puts cmd
 		system(cmd)
-		#saving as plain SVG gets rid of the classes :/
-		#cmd = "#{INKSCAPE} -f #{icon[:file]} -z --vacuum-defs -l #{icon[:file]} > /dev/null 2>&1"
-		#system(cmd)
-		svgcrop = Document.new(File.new(icon[:file], 'r'))
-		svgcrop.root.each_element("//rect") do |rect| 
-			w = ((rect.attributes["width"].to_f * 10).round / 10.0).to_i #get rid of 16 vs 15.99999 
-			h = ((rect.attributes["width"].to_f * 10).round / 10.0).to_i #Inkscape bugs
-			if w == 16 && h == 16
-				rect.remove
-			end
-		end
-    icon_f = File.new(icon[:file],'w+')
-    icon_f.puts svgcrop
-    icon_f.close
+		
+#   remove rectangle
+#		svgcrop = Document.new(File.new(icon[:file], 'r'))
+#		svgcrop.root.each_element("//rect") do |rect| 
+#			w = ((rect.attributes["width"].to_f * 10).round / 10.0).to_i #get rid of 16 vs 15.99999 
+#			h = ((rect.attributes["width"].to_f * 10).round / 10.0).to_i #Inkscape bugs
+#			if w == 16 && h == 16
+#				rect.remove
+#			end
+#		end
+#    icon_f = File.new(icon[:file],'w+')
+#    icon_f.puts svgcrop
+#    icon_f.close
 	else
 		puts " -- #{icon[:name]} already exists"
 	end
