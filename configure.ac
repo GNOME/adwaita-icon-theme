@@ -4,12 +4,11 @@ AC_PREREQ(2.53)
 AC_INIT([adwaita-icon-theme], [3.18.0],
         [http://bugzilla.gnome.org/enter_bug.cgi?product=adwaita-icon-theme])
 AC_CONFIG_MACRO_DIR([m4])
-AC_CONFIG_SRCDIR([index.theme.in.in])
+AC_CONFIG_SRCDIR([index.theme.in])
 
 AM_INIT_AUTOMAKE([1.9 dist-xz no-dist-gzip tar-ustar foreign])
 
 PKG_PROG_PKG_CONFIG([0.19])
-IT_PROG_INTLTOOL([0.40.0])
 
 GETTEXT_PACKAGE="${PACKAGE}"
 AC_SUBST(GETTEXT_PACKAGE)
@@ -81,7 +80,6 @@ AM_CONDITIONAL([ENABLE_L_XL_VARIANTS], [test x$enable_l_xl_variants = xyes])
 AC_CONFIG_FILES([
 Makefile
 adwaita-icon-theme.pc
-po/Makefile.in
 src/Makefile
 src/fullcolor/Makefile
 src/symbolic/Makefile
