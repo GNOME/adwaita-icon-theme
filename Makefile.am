@@ -1,6 +1,6 @@
 DISTCHECK_CONFIGURE_FLAGS = --disable-icon-mapping
 
-SUBDIRS = src
+SUBDIRS = src build
 
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
