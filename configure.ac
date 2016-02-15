@@ -84,6 +84,8 @@ src/Makefile
 src/fullcolor/Makefile
 src/symbolic/Makefile
 src/spinner/Makefile
+build/Makefile
+build/win32/Makefile
 ])
 
 AC_OUTPUT
