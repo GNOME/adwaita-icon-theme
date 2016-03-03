@@ -55,8 +55,8 @@ def main ():
                        help='Shift shadow down by this percentage of the canvas size (default is 3.125).')
   shadows.add_argument ('-b', '--blur', metavar='%', type=float, default=3.125,
                        help='Blur radius, in percentage of the canvas size (default is 3.125, set to 0 to disable blurring).')
-  shadows.add_argument ('-c', '--color', metavar='%', default='0x80808080',
-                       help='Shadow color in 0xRRGGBBAA form (default is 0x80808080).')
+  shadows.add_argument ('-c', '--color', metavar='%', default='0x00000040',
+                       help='Shadow color in 0xRRGGBBAA form (default is 0x00000040).')
 
   parser.add_argument ('input_config', default='-', metavar='input-config [output-file]', nargs='?',
                        help='Input config file (stdin by default).')
