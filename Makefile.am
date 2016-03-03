@@ -143,6 +143,7 @@ install-data-hook:
 		$(LN_S) -f  copy$$cur			6407b0e94181790501fd1e167b474872$$cur && \
 		$(LN_S) -f  cross$$cur			cross_reverse$$cur && \
 		$(LN_S) -f  cross$$cur			diamond_cross$$cur && \
+		$(LN_S) -f  hand2$$cur			hand1$$cur && \
 		$(LN_S) -f  hand1$$cur			grab$$cur && \
 		$(LN_S) -f  hand2$$cur			9d800788f1b08800ae810202380a0822$$cur && \
 		$(LN_S) -f  hand2$$cur			e29285e634086352946a0e7090d73106$$cur && \
@@ -164,6 +165,11 @@ install-data-hook:
 		$(LN_S) -f  sb_v_double_arrow$$cur 	v_double_arrow$$cur && \
 		$(LN_S) -f  sb_v_double_arrow$$cur	2870a09082c103050810ffdffffe0204$$cur && \
 		$(LN_S) -f  v_double_arrow$$cur		00008160000006810000408080010102$$cur && \
+		$(LN_S) -f  fleur$$cur			size_all$$cur && \
+		$(LN_S) -f  fd_double_arrow$$cur	size_bdiag$$cur && \
+		$(LN_S) -f  bd_double_arrow$$cur	size_fdiag$$cur && \
+		$(LN_S) -f  h_double_arrow$$cur		size_hor$$cur && \
+		$(LN_S) -f  v_double_arrow$$cur		size_ver$$cur && \
 		$(LN_S) -f  left_ptr$$cur		default$$cur && \
 		$(LN_S) -f  hand$$cur			pointer$$cur && \
 		$(LN_S) -f  left_ptr_watch$$ani		progress$$ani && \
