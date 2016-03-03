@@ -72,12 +72,23 @@ def dbg(msg):
 
 def cleanup():
 	global inkscape_instances
-	for inkscape, inkscape_stderr, inkscape_stderr_thread in inkscape_instances:
-		inkscape.communicate ('quit\n')
+	stdin_threads = []
+	for inkscape, inkscape_stderr, inkscape_stderr_thread, inkscape_stdin_buf in inkscape_instances:
+		inkscape_stdin_buf.append ('quit\n')
+		stdin_threads.append (Thread (target = stdin_writer, args=(inkscape, ''.join (inkscape_stdin_buf))))
+		stdin_threads[-1].start ()
+		inkscape_stderr_thread.start ()
+	for t in stdin_threads:
+		t.join ()
+		del t
+	for inkscape, inkscape_stderr, inkscape_stderr_thread, inkscape_stdin_buf in inkscape_instances:
+		inkscape_stderr_thread.join ()
 		del inkscape
 		del inkscape_stderr_thread
 		del inkscape_stderr
+		del inkscape_stdin_buf
 	del inkscape_instances
+	del stdin_threads
 	if svgFilename != None and os.path.exists(svgFilename):
 		os.unlink(svgFilename)
 	if hotsvgFilename != None and os.path.exists(hotsvgFilename):
@@ -96,7 +107,10 @@ def stderr_reader(inkscape, inkscape_stderr):
 		elif line:
 			print "STDERR> {}".format (line)
 		else:
-			raise UnexpectedEndOfStream
+			raise EOFError
+
+def stdin_writer(inkscape, inkscape_stdin):
+	inkscape.stdin.write (inkscape_stdin)
 
 def find_hotspot (hotfile):
 	img = Image.open(hotfile)
@@ -192,7 +206,7 @@ class SVGRect:
 				return
 			command = '-w {size} -h {size} --export-id="{export_id}" --export-png="{export_png}" {svg}\n'.format (size=size, export_id=self.name, export_png=output, svg=svgFName)
 			dbg("Command: {}".format (command))
-			inkscape_instances[roundrobin[0]][0].stdin.write (command)
+			inkscape_instances[roundrobin[0]][3].append (command)
 
 		pngsliceFName = slicename + '.png'
 		hotsliceFName = slicename + '.hotspot.png'
@@ -654,7 +668,8 @@ if __name__ == '__main__':
 			fatalError("Failed to start Inkscape shell process")
 		inkscape_stderr = inkscape.stderr
 		inkscape_stderr_thread = Thread (target = stderr_reader, args=(inkscape, inkscape_stderr))
-		inkscape_instances.append ([inkscape, inkscape_stderr, inkscape_stderr_thread])
+		inkscape_stdin_buf = []
+		inkscape_instances.append ([inkscape, inkscape_stderr, inkscape_stderr_thread, inkscape_stdin_buf])
 
 	# initialise results before actually attempting to parse the SVG file
 	svgBounds = SVGRect(0,0,0,0)
