@@ -47,7 +47,7 @@ do
   ${GEN} ur_angle.in ../../../$theme/cursors/ur_angle.cur
   ${GEN} lr_angle.in ../../../$theme/cursors/lr_angle.cur
   ${GEN} X_cursor.in ../../../$theme/cursors/X_cursor.cur
-  ${GEN} crosshair.in ../../../$theme/cursors/crosshair.cur
+  ${GEN} crosshair.in ../../../$theme/cursors/cell.cur
   ${GEN} cross.in ../../../$theme/cursors/cross.cur
   ${GEN} --no-shadows tcross.in ../../../$theme/cursors/tcross.cur
   ${GEN} dotbox.in ../../../$theme/cursors/dotbox.cur
