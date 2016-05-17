@@ -125,7 +125,7 @@ ln -sf  xterm                   text
 ln -sf  dnd-link                alias
 ln -sf  dnd-copy                copy
                               # move
-ln -sf  dnd-none                no-drop
+ln -sf  dnd-no-drop             no-drop
 ln -sf  crossed_circle          not-allowed
                               # all-scroll
 ln -sf  sb_h_double_arrow       col-resize
