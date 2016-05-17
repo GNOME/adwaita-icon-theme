@@ -54,6 +54,7 @@ xcursorgen dnd-copy.in ../../../Adwaita/cursors/dnd-copy
 xcursorgen dnd-link.in ../../../Adwaita/cursors/dnd-link
 xcursorgen dnd-move.in ../../../Adwaita/cursors/dnd-move
 xcursorgen dnd-ask.in ../../../Adwaita/cursors/dnd-ask
+xcursorgen dnd-no-drop.in ../../../Adwaita/cursors/dnd-no-drop
 xcursorgen zoom-in.in ../../../Adwaita/cursors/zoom-in
 xcursorgen zoom-out.in ../../../Adwaita/cursors/zoom-out
 xcursorgen all-scroll.in ../../../Adwaita/cursors/all-scroll
