@@ -58,6 +58,7 @@ xcursorgen zoom-in.in ../../../Adwaita/cursors/zoom-in
 xcursorgen zoom-out.in ../../../Adwaita/cursors/zoom-out
 xcursorgen all-scroll.in ../../../Adwaita/cursors/all-scroll
 xcursorgen vertical-text.in ../../../Adwaita/cursors/vertical-text
+xcursorgen context-menu.in ../../../Adwaita/cursors/context-menu
 
 cd ../../../Adwaita/cursors
 ln -sf    dotbox			draped_box
