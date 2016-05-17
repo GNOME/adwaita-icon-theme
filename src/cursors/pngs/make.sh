@@ -78,7 +78,7 @@ ln -sf    copy				1081e37283d90000800003c07f3ef6bf
 ln -sf    copy				6407b0e94181790501fd1e167b474872
 ln -sf    cross				cross_reverse
 ln -sf    cross				diamond_cross
-ln -sf    hand1				grab
+ln -sf    grabbing			grab
 ln -sf    hand2				9d800788f1b08800ae810202380a0822
 ln -sf    hand2				e29285e634086352946a0e7090d73106
 ln -sf    hand2				hand
