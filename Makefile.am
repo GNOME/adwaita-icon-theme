@@ -144,7 +144,7 @@ install-data-hook:
 		$(LN_S) -f  cross$$cur			cross_reverse$$cur && \
 		$(LN_S) -f  cross$$cur			diamond_cross$$cur && \
 		$(LN_S) -f  hand2$$cur			hand1$$cur && \
-		$(LN_S) -f  hand1$$cur			grab$$cur && \
+		$(LN_S) -f  grabbing$$cur		grab$$cur && \
 		$(LN_S) -f  hand2$$cur			9d800788f1b08800ae810202380a0822$$cur && \
 		$(LN_S) -f  hand2$$cur			e29285e634086352946a0e7090d73106$$cur && \
 		$(LN_S) -f  hand2$$cur			hand$$cur && \
@@ -178,7 +178,7 @@ install-data-hook:
 		$(LN_S) -f  xterm$$cur			text$$cur && \
 		$(LN_S) -f  dnd-link$$cur		alias$$cur && \
 		$(LN_S) -f  dnd-copy$$cur		copy$$cur && \
-		$(LN_S) -f  dnd-none$$cur		no-drop$$cur && \
+		$(LN_S) -f  dnd-no-drop$$cur		no-drop$$cur && \
 		$(LN_S) -f  crossed_circle$$cur		not-allowed$$cur && \
 		$(LN_S) -f  sb_h_double_arrow$$cur	col-resize$$cur && \
 		$(LN_S) -f  sb_v_double_arrow$$cur	row-resize$$cur && \
