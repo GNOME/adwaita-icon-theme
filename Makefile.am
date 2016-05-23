@@ -143,7 +143,6 @@ install-data-hook:
 		$(LN_S) -f  copy$$cur			6407b0e94181790501fd1e167b474872$$cur && \
 		$(LN_S) -f  cross$$cur			cross_reverse$$cur && \
 		$(LN_S) -f  cross$$cur			diamond_cross$$cur && \
-		$(LN_S) -f  hand2$$cur			hand1$$cur && \
 		$(LN_S) -f  hand1$$cur			grab$$cur && \
 		$(LN_S) -f  hand2$$cur			9d800788f1b08800ae810202380a0822$$cur && \
 		$(LN_S) -f  hand2$$cur			e29285e634086352946a0e7090d73106$$cur && \

@@ -1,6 +1,6 @@
 #!/bin/sh
 xcursorgen left_ptr_watch.in ../../../Adwaita/cursors/left_ptr_watch
-#xcursorgen hand1.in ../../../Adwaita/cursors/hand1
+xcursorgen hand1.in ../../../Adwaita/cursors/hand1
 xcursorgen hand2.in ../../../Adwaita/cursors/hand2
 xcursorgen left_ptr.in ../../../Adwaita/cursors/left_ptr
 #xcursorgen center_ptr.in ../../../Adwaita/cursors/center_ptr
