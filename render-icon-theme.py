@@ -6,8 +6,10 @@ import xml.sax
 import subprocess
 
 INKSCAPE = '/usr/bin/inkscape'
+LASEM = '/opt/gnome/bin/lasem-render-0.6'
 OPTIPNG = '/usr/bin/optipng'
 SRC = os.path.join('.', 'src', 'fullcolor')
+RENDERER = 'lasem'
 
 inkscape_process = None
 
@@ -36,12 +38,17 @@ def start_inkscape():
     wait_for_prompt(process)
     return process
 
-def inkscape_render_rect(icon_file, rect, output_file):
-    global inkscape_process
-    if inkscape_process is None:
-        inkscape_process = start_inkscape()
-    wait_for_prompt(inkscape_process, '%s -i %s -e %s' % (icon_file, rect, output_file))
-    optimize_png(output_file)
+def render_rect(icon_file, rect, output_file):
+    if RENDERER=='inkscape':
+      global inkscape_process
+      if inkscape_process is None:
+          inkscape_process = start_inkscape()
+      wait_for_prompt(inkscape_process, '%s -i %s -e %s' % (icon_file, rect, output_file))
+      optimize_png(output_file)
+    else:
+      subprocess.call([LASEM,icon_file, "-i", rect, "-o", output_file])
+      optimize_png(output_file)
+
 
 class ContentHandler(xml.sax.ContentHandler):
     ROOT = 0
@@ -127,13 +134,13 @@ class ContentHandler(xml.sax.ContentHandler):
                     os.makedirs(dir)
                 # Do a time based check!
                 if self.force or not os.path.exists(outfile):
-                    inkscape_render_rect(self.path, id, outfile)
+                    render_rect(self.path, id, outfile)
                     sys.stdout.write('.')
                 else:
                     stat_in = os.stat(self.path)
                     stat_out = os.stat(outfile)
                     if stat_in.st_mtime > stat_out.st_mtime:
-                        inkscape_render_rect(self.path, id, outfile)
+                        render_rect(self.path, id, outfile)
                         sys.stdout.write('.')
                     else:
                         sys.stdout.write('-')
