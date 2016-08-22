@@ -132,6 +132,17 @@ def make_cur (frames, args):
   buf = io.BytesIO ()
   buf.write (p ('<HHH', 0, 2, len (frames)))
   frame_offsets = []
+
+  def frame_size_cmp (f1, f2):
+    if f1[0] < f2[0]:
+      return -1
+    elif f1[0] > f2[0]:
+      return 1
+    else:
+      return 0
+
+  frames = sorted (frames, frame_size_cmp, reverse=True)
+
   for frame in frames:
     width = frame[0]
     if width > 255:
@@ -205,6 +216,16 @@ def make_framesets (frames):
       if frameset[i - 1][4] != frameset[i][4]:
         print ("Frameset {} has duration {} for framesize {}, but {} for framesize {}".format (i, frameset[i][4], frameset[i][0], frameset[i - 1][4], frameset[i - 1][0]), file=sys.stderr)
         return None
+
+  def frameset_size_cmp (f1, f2):
+    if f1[0][0] < f2[0][0]:
+      return -1
+    elif f1[0][0] > f2[0][0]:
+      return 1
+    else:
+      return 0
+
+  framesets = sorted (framesets, frameset_size_cmp, reverse=True)
 
   return framesets
 
