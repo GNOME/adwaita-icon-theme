@@ -14,7 +14,7 @@ do
     s=
   fi
   ${GEN} left_ptr_watch$s.in ../../../$theme/cursors/left_ptr_watch.ani
-#  ${GEN} hand1$s.in ../../../$theme/cursors/hand1.cur
+  ${GEN} hand1$s.in ../../../$theme/cursors/hand1.cur
   ${GEN} hand2$s.in ../../../$theme/cursors/hand2.cur
   ${GEN} left_ptr$s.in ../../../$theme/cursors/left_ptr.cur
 #  ${GEN} center_ptr$s.in ../../../$theme/cursors/center_ptr.cur
@@ -67,8 +67,10 @@ do
   ${GEN} dnd-link$s.in ../../../$theme/cursors/dnd-link.cur
   ${GEN} dnd-move$s.in ../../../$theme/cursors/dnd-move.cur
   ${GEN} dnd-ask$s.in ../../../$theme/cursors/dnd-ask.cur
+  ${GEN} dnd-no-drop$s.in ../../../$theme/cursors/dnd-no-drop.cur
   ${GEN} zoom-in$s.in ../../../$theme/cursors/zoom-in.cur
   ${GEN} zoom-out$s.in ../../../$theme/cursors/zoom-out.cur
   ${GEN} all-scroll$s.in ../../../$theme/cursors/all-scroll.cur
   ${GEN} vertical-text$s.in ../../../$theme/cursors/vertical-text.cur
+  ${GEN} context-menu$s.in ../../../$theme/cursors/context-menu.cur
 done
