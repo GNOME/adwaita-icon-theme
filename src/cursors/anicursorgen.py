@@ -128,7 +128,7 @@ def frames_have_animation (frames):
 
   return False
 
-def make_cur (frames, args):
+def make_cur (frames, args, animated=False):
   buf = io.BytesIO ()
   buf.write (p ('<HHH', 0, 2, len (frames)))
   frame_offsets = []
@@ -165,7 +165,17 @@ def make_cur (frames, args):
         frame_png.close ()
         frame_png = shadowed
 
-    compressed = frame[0] > 48
+#   Windows 10 fails to read PNG-compressed cursors for some reason
+#   and the information about storing PNG-compressed cursors is
+#   sparse. This is why PNG compression is not used.
+#   Previously this was conditional on cursor size (<= 48 to be uncompressed).
+    compressed = False
+
+#   On the other hand, Windows 10 refuses to read very large
+#   uncompressed animated cursor files, but does accept
+#   PNG-compressed animated cursors for some reason. Go figure.
+    if animated:
+      compressed = True
 
     if compressed:
       write_png (buf, frame, frame_png)
@@ -264,7 +274,7 @@ def make_ani (frames, out, args):
 
   for frameset in framesets:
     buf.write (b'icon')
-    cur = make_cur (frameset, args)
+    cur = make_cur (frameset, args, animated=True)
     cur_size = cur.seek (0, io.SEEK_END)
     aligned_cur_size = cur_size
     #if cur_size % 4 != 0:
