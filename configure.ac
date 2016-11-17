@@ -3,6 +3,7 @@ AC_PREREQ(2.53)
 
 AC_INIT([adwaita-icon-theme], [3.21.91],
         [http://bugzilla.gnome.org/enter_bug.cgi?product=adwaita-icon-theme])
+AC_CANONICAL_HOST
 AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_SRCDIR([index.theme.in])
 
@@ -54,16 +55,16 @@ if test "x$GTK_ENCODE_SYMBOLIC_SVG" = "xfalse"; then
 fi
 AC_SUBST(symbolic_encode_sizes)
 
-AC_ARG_ENABLE([w32-cursors],
-  [AS_HELP_STRING([--enable-w32-cursors],
-    [Make and install Windows cursors (.cur and .ani) instead of X cursors])],
-  [case "${enableval}" in
-    yes) enable_w32_cursors=yes ;;
-    no)  enable_w32_cursors=no ;;
-    *) AC_MSG_ERROR([bad value ${enableval} for --enable-w32-cursors]) ;;
-   esac],
-  [enable_w32_cursors=no])
-AC_SUBST(enable_w32_cursors)
+case "$host" in
+  *-*-mingw*|*-*-cygwin*)
+    platform_win32=yes
+    ;;
+  *)
+    platform_win32=no
+    ;;
+esac
+AC_SUBST(platform_win32)
+AM_CONDITIONAL([PLATFORM_WIN32], [test x$platform_win32 = xyes])
 
 AC_ARG_ENABLE([l-xl-variants],
   [AS_HELP_STRING([--enable-l-xl-variants],

@@ -5,7 +5,15 @@ SUBDIRS = src build
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
 cursordir = $(datadir)/icons/Adwaita/cursors
-cursor_DATA = $(wildcard $(srcdir)/Adwaita/cursors/*)
+
+# Install .cur/.ani on Windows and X cursors everywhere else
+win_cursors = $(wildcard $(srcdir)/Adwaita/cursors/*.cur) $(wildcard $(srcdir)/Adwaita/cursors/*.ani)
+if PLATFORM_WIN32
+cursor_DATA = $(win_cursors)
+else
+cursor_DATA = $(filter-out $(win_cursors), $(wildcard $(srcdir)/Adwaita/cursors/*))
+endif
+
 if ENABLE_L_XL_VARIANTS
 cursorldir = $(datadir)/icons/Adwaita-Large/cursors
 cursorl_DATA = $(wildcard $(srcdir)/Adwaita-Large/cursors/*)
@@ -108,7 +116,7 @@ install-data-local:
 
 install-data-hook:
 	cd $(DESTDIR)$(cursordir) && \
-	if test "x$(enable_w32_cursors)" = "xyes"; \
+	if test "x$(platform_win32)" = "xyes"; \
 	then \
 		cur=.cur && \
 		ani=.ani; \
