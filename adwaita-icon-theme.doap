@@ -6,6 +6,20 @@
 
   <name xml:lang="en">adwaita-icon-theme</name>
   <shortdesc xml:lang="en">Standard Icons</shortdesc>
+  <description>
+  Adwaita icon theme provides basic icon assets for the GNOME OS. The package
+  includes a fullcolor icon used for devices, and some filetypes exposed 
+  through Files.
+
+  There is also the symbolic icons, that are resolution independent and used 
+  in application chrome and the system.
+
+  Please refer to the GNOME Human Interface Guidelines on when to use
+  which and how to create your own.
+
+  https://developer.gnome.org/hig/stable/icons-and-artwork.html.en
+
+  </description>
   <homepage rdf:resource="http://www.gnome.org/" />
   <download-page rdf:resource="http://download.gnome.org/sources/adwaita-icon-theme/" />
   <bug-database rdf:resource="http://bugzilla.gnome.org/browse.cgi?product=adwaita-icon-theme" />
