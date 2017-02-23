@@ -23,13 +23,7 @@ The required dependencies are as follows:
 
 For optimal results, you will also need:
 -The gtk-update-icon-cache tool, which can be found by building the latest GTK+
- 2.24+/3.18+ package.  If Visual Studio projects were not provided to build it,
- one can still build it manually after building GTK+ itself by running in
- $(GTK_srcroot)\gtk, $(PREFIX) is the prefix where the other parts of the GTK+
- stack reside:
- 'cl /MD /O2 /W3 /GL /FImsvc_recommended_pragmas.h /I.. /I$(PREFIX)\include\gdk-pixbuf-2.0 /I$(PREFIX)\include\glib-2.0 /I$(PREFIX)\lib\glib-2.0\include /I$(PREFIX)\include updateiconcache.c /link /libpath:$(PREFIX)\lib gdk_pixbuf-2.0.lib gio-2.0.lib gobject-2.0.lib glib-2.0.lib intl.lib /DEBUG /out:gtk-update-icon-cache.exe /LTCG /opt:ref'
- (Embed the generated .exe.manifest or copy it if on Visual Studio 2008 using
-  mt.exe)
+ 2.24.x/3.18.x (or later) package.
  The tool should be placed in $(PREFIX)\bin.
 
 -PNG versions of the SVG symbolic icons are generated in 16x16, 24x24, 32x32,
@@ -49,7 +43,7 @@ that the icons will be ready for use by GTK+-using applications.
 A 'clean' target is provided to remove all the generated files-to uninstall
 the installed icons, simply delete the $(PREFIX)\share\icons\Adwaita folder.
 
-Please refer to the README.txt file in $(GLib_src_root)\build\win32\vs<Visual Studio Version>
+Please refer to the README.txt file in $(GLib_src_root)\win32\vs<Visual Studio Version>
 on how to build GLib using your version of Visual Studio.  Versions 2008 through 2015 are
 currently supported.
 
@@ -60,6 +54,6 @@ folder <root>:
 <root>\<Visual Studio Version>\<PlatformName>
 
 *this* file you are now reading is thus located at
-<root>\<this-adwaita-icon-theme-source-tree>\build\README.txt
+<root>\<this-adwaita-icon-theme-source-tree>\win32\README.txt
 
 --Chun-wei Fan <fanc999@gmail.com>

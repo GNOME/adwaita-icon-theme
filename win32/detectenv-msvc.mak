@@ -1,3 +1,8 @@
+# Common NMake Makefile module for checking the build environment
+# This can be copied from $(glib_srcroot)\build\win32 for GNOME items
+# that support MSVC builds and introspection under MSVC, and can be used
+# for building test programs as well.
+
 # Check to see we are configured to build with MSVC (MSDEVDIR, MSVCDIR or
 # VCINSTALLDIR) or with the MS Platform SDK (MSSDK or WindowsSDKDir)
 !if !defined(VCINSTALLDIR) && !defined(WINDOWSSDKDIR)
@@ -35,8 +40,10 @@ VSVER = 10
 VSVER = 11
 !elseif $(VCVERSION) > 1799 && $(VCVERSION) < 1900
 VSVER = 12
-!elseif $(VCVERSION) > 1899 && $(VCVERSION) < 2000
+!elseif $(VCVERSION) > 1899 && $(VCVERSION) < 1910
 VSVER = 14
+!elseif $(VCVERSION) > 1909 && $(VCVERSION) < 2000
+VSVER = 15
 !else
 VSVER = 0
 !endif
@@ -45,20 +52,23 @@ VSVER = 0
 MSG = ^
 This NMake Makefile set supports Visual Studio^
 9 (2008) through 14 (2015).  Your Visual Studio^
-version is not supported.  Note that there is no^
-Visual Studio 13.
+version is not supported.
 !error $(MSG)
 !endif
 
 VALID_CFGSET = FALSE
-!if "$(CFG)" == "release" || "$(CFG)" == "debug"
+!if "$(CFG)" == "release" || "$(CFG)" == "debug" || "$(CFG)" == "Release" || "$(CFG)" == "Debug"
 VALID_CFGSET = TRUE
 !endif
 
-!if "$(CFG)" == "release"
-CFLAGS_ADD = /MD /O2
+# We want debugging symbols logged for all builds,
+# using .pdb files for release builds
+CFLAGS_BASE = /Zi
+
+!if "$(CFG)" == "release" || "$(CFG)" == "Release"
+CFLAGS_ADD = /MD /O2 $(CFLAGS_BASE)
 !else
-CFLAGS_ADD = /MDd /Od /Zi
+CFLAGS_ADD = /MDd /Od $(CFLAGS_BASE)
 !endif
 
 !if "$(PLAT)" == "x64"

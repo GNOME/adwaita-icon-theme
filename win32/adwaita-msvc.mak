@@ -5,7 +5,7 @@
 !include detectenv-msvc.mak
 
 !IF "$(SRCROOTDIR)" == ""
-SRCROOTDIR=..\..
+SRCROOTDIR=..
 !ENDIF
 
 # Python.exe either needs to be in your PATH or you need to pass
