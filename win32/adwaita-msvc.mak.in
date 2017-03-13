@@ -28,6 +28,7 @@ _HASH=^#
 NULL=
 ICON_SUBDIR=share\icons\Adwaita
 GDK_PIXBUF_MOD_VERSION=2.10.0
+ADWAITA_VERSION=@VERSION@
 
 # Generate the NMake Makefile modules for the listing of subdirs for each icon size
 !if [@for /f %s in ('dir /b /on $(SRCROOTDIR)\Adwaita') do @if not "%s" == "cursors" (@echo SIZE_%s_dirs = \> %s.mak) & (@for /f %d in ('dir /b $(SRCROOTDIR)\Adwaita\%s') do @echo %s/%d \>> %s.mak) & @echo ^$(NULL) >> %s.mak]

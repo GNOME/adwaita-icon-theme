@@ -86,6 +86,7 @@ src/fullcolor/Makefile
 src/symbolic/Makefile
 src/spinner/Makefile
 win32/Makefile
+win32/adwaita-msvc.mak
 ])
 
 AC_OUTPUT
