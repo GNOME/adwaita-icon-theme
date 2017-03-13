@@ -18,14 +18,9 @@ def main(argv):
 
     base_pc.setup(argv)
 
-    # Generate libsoup-2.4.pc
+    # Generate adwaita-icon-theme.pc
     replace_multi(base_pc.top_srcdir + '/adwaita-icon-theme.pc.in',
                   base_pc.srcdir + '/adwaita-icon-theme.pc',
-                  base_pc.base_replace_items)
-
-    # Generate libsoup-gnome-2.4.pc
-    replace_multi(base_pc.top_srcdir + '/gnome-icon-theme-symbolic.pc.in',
-                  base_pc.srcdir + '/gnome-icon-theme-symbolic.pc',
                   base_pc.base_replace_items)
 
 if __name__ == '__main__':
