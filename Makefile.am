@@ -87,7 +87,7 @@ THEME_DIRS=$(shell SIZES="$(install_sizes)"; for size in $$SIZES; do for dir in 
 			echo "MinSize=16" >> $@; \
 			echo "MaxSize=32" >> $@; \
 			echo "Type=Scalable" >> $@; \
-		elif test "$$size" = "256"; then \
+		elif test "$$size" = "512"; then \
 			echo "MinSize=56" >> $@; \
 			echo "MaxSize=512" >> $@; \
 			echo "Type=Scalable" >> $@; \
