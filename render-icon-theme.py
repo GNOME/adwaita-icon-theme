@@ -14,7 +14,7 @@ inkscape_process = None
 
 def optimize_png(png_file):
     if os.path.exists(ZOPFLIPNG):
-        process = subprocess.Popen([ZOPFLIPNG, '-ym', png_file])
+        process = subprocess.Popen([ZOPFLIPNG, '-y', '-m', png_file, png_file])
         process.wait()
     elif os.path.exists(OPTIPNG):
         process = subprocess.Popen([OPTIPNG, '-quiet', '-o7', png_file])
