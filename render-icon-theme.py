@@ -8,12 +8,16 @@ import subprocess
 INKSCAPE = '/usr/bin/inkscape'
 OPTIPNG = '/usr/bin/optipng'
 ZOPFLIPNG = '/usr/bin/zopflipng'
+PNGQUANT = '/usr/bin/pngquant'
 SRC = os.path.join('.', 'src', 'fullcolor')
 
 inkscape_process = None
 
 def optimize_png(png_file):
-    if os.path.exists(ZOPFLIPNG):
+    if os.path.exists(PNGQUANT):
+        process = subprocess.Popen([PNGQUANT, '-f', '--speed', '1', '--output', png_file, png_file])
+        process.wait()
+    elif os.path.exists(ZOPFLIPNG):
         process = subprocess.Popen([ZOPFLIPNG, '-y', '-m', png_file, png_file])
         process.wait()
     elif os.path.exists(OPTIPNG):
