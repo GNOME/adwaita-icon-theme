@@ -5,7 +5,7 @@ require "fileutils"
 include REXML
 
 
-INKSCAPE = '/usr/bin/inkscape'
+INKSCAPE = 'flatpak run org.inkscape.Inkscape'
 #INKSCAPE = '/usr/bin/inkscape' # like this works for me, while using `which` inkscape hangs
 SRC = "src/symbolic/gnome-stencils.svg"
 PREFIX = "Adwaita/scalable"
