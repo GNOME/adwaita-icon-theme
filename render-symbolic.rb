@@ -6,7 +6,7 @@ include REXML
 
 
 INKSCAPE = 'flatpak run org.inkscape.Inkscape'
-#INKSCAPE = '/usr/bin/inkscape' # like this works for me, while using `which` inkscape hangs
+# INKSCAPE = '/usr/bin/inkscape' # like this works for me, while using `which` inkscape hangs
 SRC = "src/symbolic/gnome-stencils.svg"
 PREFIX = "Adwaita/scalable"
 
@@ -30,9 +30,9 @@ def chopSVG(icon)
 				rect.remove
 			end
 		end
-    icon_f = File.new(icon[:file],'w+')
-    icon_f.puts svgcrop
-    icon_f.close
+	icon_f = File.new(icon[:file],'w+')
+	icon_f.puts svgcrop
+	icon_f.close
 	else
 		puts " -- #{icon[:name]} already exists"
 	end
@@ -40,11 +40,11 @@ end #end of function
 
 def get_output_filename(d,n)
 	if (/rtl$/.match(n))
-	  outfile = "#{d}/#{n.chomp('-rtl')}-symbolic-rtl.svg"
+		outfile = "#{d}/#{n.chomp('-rtl')}-symbolic-rtl.svg"
 	else
-	  outfile = "#{d}/#{n}-symbolic.svg"	  
-  end
-  return outfile
+		outfile = "#{d}/#{n}-symbolic.svg"	  
+	end
+	return outfile
 end
 
 #main
@@ -52,7 +52,7 @@ end
 svg = Document.new(File.new(SRC, 'r'))
 
 if (ARGV[0].nil?) #render all SVGs
-  puts "Rendering from icons in #{SRC}"
+	puts "Rendering from icons in #{SRC}"
 	# Go through every layer.
 	svg.root.each_element("/svg/g[@inkscape:groupmode='layer']") do |context| 
 		context_name = context.attributes.get_attribute("inkscape:label").value  
@@ -61,23 +61,30 @@ if (ARGV[0].nil?) #render all SVGs
 			#puts "DEBUG #{icon.attributes.get_attribute('id')}"
 			dir = "#{PREFIX}/#{context_name}"
 			icon_name = icon.attributes.get_attribute("inkscape:label").value
-			chopSVG({	:name => icon_name,
-			 					:id => icon.attributes.get_attribute("id"),
-			 					:dir => dir,
-			 					:file => get_output_filename(dir, icon_name)})
+			# prevent rendering of icons ending in :
+			if icon_name.end_with?("-alt", "-old", "-template", "-source", "-ltr", "-rtl", "-working")
+				puts " >> skipping icon '" + icon_name + "'"
+			elsif icon_name =~ /\d$/
+				puts " >> skipping icon '" + icon_name + "'"
+			else
+				chopSVG({ :name => icon_name,
+						:id => icon.attributes.get_attribute("id"),
+						:dir => dir,
+						:file => get_output_filename(dir, icon_name)})
+			end
 		end
 	end
-  puts "\nrendered all SVGs"
+	puts "\nrendered all SVGs"
 else #only render the icons passed
-  icons = ARGV
-  ARGV.each do |icon_name|
-  	icon = svg.root.elements["//g[@inkscape:label='#{icon_name}']"]
-  	dir = "#{PREFIX}/#{icon.parent.attributes['inkscape:label']}"
+	icons = ARGV
+	ARGV.each do |icon_name|
+	icon = svg.root.elements["//g[@inkscape:label='#{icon_name}']"]
+	dir = "#{PREFIX}/#{icon.parent.attributes['inkscape:label']}"
 		chopSVG({	:name => icon_name,
-		 					:id => icon.attributes["id"],
-		 					:dir => dir,
-		 					:file => get_output_filename(dir, icon_name),
-		 					:forcerender => true})
+					:id => icon.attributes["id"],
+					:dir => dir,
+					:file => get_output_filename(dir, icon_name),
+					:forcerender => true})
 	end
-  puts "\nrendered #{ARGV.length} icons"
+	puts "\nrendered #{ARGV.length} icons"
 end
