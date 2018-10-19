@@ -5,7 +5,6 @@ import sys
 import xml.sax
 import subprocess
 
-INKSCAPE = '/usr/bin/inkscape'
 OPTIPNG = '/usr/bin/optipng'
 ZOPFLIPNG = '/usr/bin/zopflipng'
 SRC = os.path.join('.', 'src', 'fullcolor')
@@ -36,7 +35,7 @@ def wait_for_prompt(process, command=None):
         output = output[1:]
 
 def start_inkscape():
-    process = subprocess.Popen([INKSCAPE, '--shell'], bufsize=0, stdin=subprocess.PIPE, stdout=subprocess.PIPE)
+    process = subprocess.Popen(['flatpak','run','org.inkscape.Inkscape','--shell'], bufsize=0, stdin=subprocess.PIPE, stdout=subprocess.PIPE)
     wait_for_prompt(process)
     return process
 
