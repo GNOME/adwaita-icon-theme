@@ -29,7 +29,7 @@ endif
 theme_in_files = index.theme.in
 theme_DATA = $(theme_in_files:.theme.in=.theme)
 
-THEME_DIRS=$(shell SIZES="$(install_sizes)"; for size in $$SIZES; do for dir in `find $(srcdir)/$(SVGOUTDIR)/$$size/* -type d`; do printf "$$dir,"; done; done; echo "scalable/actions,scalable/apps,scalable/categories,scalable/devices,scalable/emblems,scalable/emotes,scalable/mimetypes,scalable/places,scalable/status,scalable/legacy,scalable-up-to-32/status,")
+THEME_DIRS=$(shell SIZES="$(install_sizes)"; for size in $$SIZES; do for dir in `find $(srcdir)/$(SVGOUTDIR)/$$size/* -type d`; do printf "$$dir,"; done; done; echo "symbolic/actions,symbolic/apps,symbolic/categories,symbolic/devices,symbolic/emblems,symbolic/emotes,symbolic/mimetypes,symbolic/places,symbolic/status,symbolic/legacy,symbolic-up-to-32/status,scalable/actions,scalable/apps,scalable/categories,scalable/devices,scalable/emblems,scalable/emotes,scalable/mimetypes,scalable/places,scalable/status,scalable/legacy,")
 
 %.theme: %.theme.in $(SVGOUTDIR) Makefile
 	dirs="`echo $(THEME_DIRS) | sed -e 's#$(srcdir)/Adwaita/##g'`"; \
@@ -37,8 +37,10 @@ THEME_DIRS=$(shell SIZES="$(install_sizes)"; for size in $$SIZES; do for dir in 
 	for dir in `echo $$dirs | sed -e "s/,/ /g"`; do \
 		sizefull="`dirname $$dir`"; \
 		if test "$$sizefull" = "scalable"; then \
+			size="128"; \
+		elif test "$$sizefull" = "symbolic"; then \
 			size="16"; \
-		elif test "$$sizefull" = "scalable-up-to-32"; then \
+		elif test "$$sizefull" = "symbolic-up-to-32"; then \
 			size="16"; \
 		else \
 			size="`echo $$sizefull | sed -e 's/x.*$$//g'`"; \
@@ -86,7 +88,11 @@ THEME_DIRS=$(shell SIZES="$(install_sizes)"; for size in $$SIZES; do for dir in 
 			echo "MinSize=8" >> $@; \
 			echo "MaxSize=512" >> $@; \
 			echo "Type=Scalable" >> $@; \
-		elif test "$$sizefull" = "scalable-up-to-32"; then \
+		elif test "$$sizefull" = "symbolic"; then \
+			echo "MinSize=8" >> $@; \
+			echo "MaxSize=512" >> $@; \
+			echo "Type=Scalable" >> $@; \
+		elif test "$$sizefull" = "symbolic-up-to-32"; then \
 			echo "MinSize=16" >> $@; \
 			echo "MaxSize=32" >> $@; \
 			echo "Type=Scalable" >> $@; \
