@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" version="1.0" height="128">
+    <defs>
+        <clipPath id="d" clipPathUnits="userSpaceOnUse">
+            <path d="M64-116c-17.728 0-32 14.272-32 32v256c0 17.728 14.272 32 32 32h320l96-95.998V-84c0-17.728-14.272-32-32-32z" fill="#9b6fe2"/>
+        </clipPath>
+        <radialGradient r="160" id="e" xlink:href="#a" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-.84952 2.08881 -1.13265 -1.16464 289.736 -250.694)" fy="148.63" fx="105.224" cy="148.63" cx="105.224"/>
+        <linearGradient id="a">
+            <stop offset="0" stop-color="#e0371b"/>
+            <stop offset="1" stop-color="#f6d32d"/>
+        </linearGradient>
+        <radialGradient r="192" id="f" xlink:href="#b" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.92527 -1.60262 .97904 .56525 -204.75 514.724)" fy="275.93" fx="352.98" cy="275.93" cx="352.98"/>
+        <linearGradient id="b">
+            <stop offset="0" stop-color="#50db81"/>
+            <stop offset="1" stop-color="#8ff0a4" stop-opacity=".004"/>
+        </linearGradient>
+        <radialGradient r="192" id="g" xlink:href="#c" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 1.3953 -1.42347 0 661.08 -908.197)" fy="194.651" fx="527.624" cy="194.651" cx="527.624"/>
+        <linearGradient id="c">
+            <stop offset="0" stop-color="#4a86cf"/>
+            <stop offset="1" stop-color="#87bae1" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <g transform="translate(-280 -2562)">
+        <path style="marker:none" d="M296 2588h96c4.432 0 8 3.568 8 8v46l-23.75 26H296c-4.432 0-8-3.568-8-8v-64c0-4.432 3.568-8 8-8z" opacity=".1"/>
+        <g transform="matrix(.25 0 0 .25 280 2615)" clip-path="url(#d)">
+            <rect y="-116" x="32" width="448" style="marker:none" ry="32" rx="32" height="320" fill="#f6f5f4"/>
+            <rect y="-172" x="64" width="384" transform="scale(1 -1)" style="marker:none" ry="0" rx="0" height="256" fill="url(#e)"/>
+            <rect y="-172" x="64" width="384" transform="scale(1 -1)" style="marker:none" ry="0" rx="0" height="256" fill="url(#f)"/>
+            <rect y="-172" x="64" width="384" transform="scale(1 -1)" style="marker:none" ry="0" rx="0" height="256" fill="url(#g)"/>
+        </g>
+    </g>
+</svg>

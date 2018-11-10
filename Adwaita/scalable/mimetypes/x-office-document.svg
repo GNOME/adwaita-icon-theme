@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" version="1.0" height="128">
+    <defs>
+        <clipPath id="c" clipPathUnits="userSpaceOnUse">
+            <path d="M276.181-123.204L398.568-.5 395.6 294.002l-309.4.9L88-124z" fill="#e74747"/>
+        </clipPath>
+        <clipPath id="d" clipPathUnits="userSpaceOnUse">
+            <path d="M282.546 116.999L398.25.818l-2.2-294.82-310.75-1.35L88 124z" fill="#e74747"/>
+        </clipPath>
+        <linearGradient id="a">
+            <stop offset="0" stop-color="#50db81"/>
+            <stop offset="1" stop-color="#8ff0a4" stop-opacity=".004"/>
+        </linearGradient>
+        <linearGradient id="b">
+            <stop offset="0" stop-color="#4a86cf"/>
+            <stop offset="1" stop-color="#87bae1" stop-opacity="0"/>
+        </linearGradient>
+        <radialGradient r="192" id="e" xlink:href="#a" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.92527 -1.60262 .97904 .56525 211.25 -1533.276)" fy="226.773" fx="413.639" cy="226.773" cx="413.639"/>
+        <radialGradient r="192" id="f" xlink:href="#b" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 1.11373 -1.13621 0 1011.477 -2809.244)" fy="228.371" fx="521.89" cy="228.371" cx="521.89"/>
+    </defs>
+    <g transform="translate(-140 -2722)">
+        <g transform="matrix(.25 0 0 .25 0 2275)">
+            <g transform="translate(560 2000)">
+                <path d="M128-172.056c-17.728 0-32 14.272-32 32v384.112c0 17.728 14.272 32 32 32h256c17.728 0 32-14.272 32-32v-303.98L304.158-172.057z" opacity=".1"/>
+                <rect y="-116" x="96" width="288.037" transform="matrix(1.11097 0 0 1.11097 -10.653 -51.24)" ry="28.804" rx="28.804" height="403.352" clip-path="url(#c)" fill="#f6f5f4"/>
+            </g>
+            <rect y="15.086" x="283.224" width="131.876" transform="matrix(1.11097 0 0 -1.11097 549.59 1948.76)" style="marker:none" ry="28.804" rx="28.804" height="115.812" clip-path="url(#d)" fill="#d5d3cf"/>
+            <path style="marker:none" d="M880 2180h56v16h-56zm0-40h56v16h-56zm0-40h56v16h-56zm0-40h56v16h-56zm0-40h56v16h-56zm-184-40h240v16H696zm0-40h152v16H696zm0-40h152v16H696z" fill="#d5d3cf"/>
+            <rect y="-2220" x="696" width="168" transform="scale(1 -1)" style="marker:none" ry="0" rx="0" height="200.139" fill="url(#e)"/>
+            <rect y="-2220" x="696" width="168" transform="scale(1 -1)" style="marker:none" ry="0" rx="0" height="200.139" fill="url(#f)"/>
+        </g>
+    </g>
+</svg>
