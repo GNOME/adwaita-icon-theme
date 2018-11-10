@@ -1,27 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" version="1.0" height="128">
-    <defs>
-        <clipPath id="a" clipPathUnits="userSpaceOnUse">
-            <path d="M276.181-123.204L398.568-.5 395.6 294.002l-309.4.9L88-124z" fill="#e74747"/>
-        </clipPath>
-        <clipPath id="c" clipPathUnits="userSpaceOnUse">
-            <path d="M282.546 116.999L398.25.818l-2.2-294.82-310.75-1.35L88 124z" fill="#e74747"/>
-        </clipPath>
-        <clipPath id="b" clipPathUnits="userSpaceOnUse">
-            <path d="M672-180.056c-17.728 0-32 14.272-32 32v384.112c0 17.728 14.272 32 32 32h256c17.728 0 32-14.272 32-32v-303.98L848.158-180.057z" fill="#26a269" stroke-width="2" stroke-linejoin="round"/>
-        </clipPath>
-    </defs>
     <g transform="translate(-140 -2242)">
-        <g transform="matrix(.25 0 0 .25 0 2295)">
-            <g transform="translate(560)">
-                <path d="M128-172.056c-17.728 0-32 14.272-32 32v384.112c0 17.728 14.272 32 32 32h256c17.728 0 32-14.272 32-32v-303.98L304.158-172.057z" opacity=".1"/>
-                <rect y="-116" x="96" width="288.037" transform="matrix(1.11097 0 0 1.11097 -10.653 -51.24)" ry="28.804" rx="28.804" height="403.352" clip-path="url(#a)" fill="#f6f5f4"/>
-            </g>
-            <g transform="translate(16)" clip-path="url(#b)">
-                <rect y="-180" x="792" width="168" style="marker:none" ry="0" rx="0" height="448" fill="#f8f8f8"/>
-                <path d="M791.96-180.125l168.998 463.862 3.536-471.64z" fill="#fcfcfc"/>
-                <path d="M792.494-180.125L623.495 283.737l-3.535-471.64z" fill="#eceae8"/>
-            </g>
-            <rect y="15.086" x="283.224" width="131.876" transform="matrix(1.11097 0 0 -1.11097 549.59 -51.24)" style="marker:none" ry="28.804" rx="28.804" height="115.812" clip-path="url(#c)" fill="#d5d3cf"/>
+        <path d="M164 2254h50l30 30.125V2358c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8v-96c0-4.432 3.568-8 8-8z" fill="#f6f5f4"/>
+        <path d="M156 2356v2c0 4.432 3.568 8 8 8h72c4.432 0 8-3.568 8-8v-2c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8zM214 2254v22c0 4.432 3.568 8 8 8h21.875z" fill="#deddda"/>
+        <g>
+            <path style="marker:none" d="M198.861 2254.014V2364H236c4.432 0 8-3.568 8-8v-71.875l-.125-.125H222c-4.432 0-8-3.568-8-8v-21.986z" fill="#f8f8f8"/>
+            <path d="M164 2254c-4.432 0-8 3.568-8 8v24.732l.54 72.147a7.976 7.976 0 0 0 2.796 3.619L198.867 2254z" fill="#edeceb"/>
+            <path style="marker:none" d="M198.861 2254.014l41.52 108.688A7.98 7.98 0 0 0 244 2356v-71.875l-.125-.125H222c-4.432 0-8-3.568-8-8v-21.986z" fill="#fcfcfc"/>
         </g>
     </g>
 </svg>

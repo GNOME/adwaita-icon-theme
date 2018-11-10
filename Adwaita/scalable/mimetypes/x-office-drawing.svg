@@ -1,40 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" version="1.0" height="128">
     <defs>
-        <clipPath id="d" clipPathUnits="userSpaceOnUse">
-            <path d="M276.181-123.204L398.568-.5 395.6 294.002l-309.4.9L88-124z" fill="#e74747"/>
-        </clipPath>
-        <clipPath id="e" clipPathUnits="userSpaceOnUse">
-            <path d="M282.546 116.999L398.25.818l-2.2-294.82-310.75-1.35L88 124z" fill="#e74747"/>
-        </clipPath>
-        <linearGradient y2="359.924" y1="350.856" x2="944.207" x1="953.275" id="f" xlink:href="#a" gradientUnits="userSpaceOnUse"/>
+        <linearGradient y2="359.924" y1="350.856" x2="944.207" x1="953.275" id="d" xlink:href="#a" gradientUnits="userSpaceOnUse"/>
         <linearGradient id="a">
             <stop offset="0" stop-color="#e9b96e"/>
             <stop offset="1" stop-color="#dc9321"/>
         </linearGradient>
-        <linearGradient y2="216.919" y1="227" x2="428.919" x1="418.838" id="g" xlink:href="#b" gradientUnits="userSpaceOnUse"/>
+        <linearGradient y2="216.919" y1="227" x2="428.919" x1="418.838" id="e" xlink:href="#b" gradientUnits="userSpaceOnUse"/>
         <linearGradient id="b">
             <stop offset="0" stop-color="#bcbcb4"/>
             <stop offset="1" stop-color="#eeeeec"/>
         </linearGradient>
-        <radialGradient r="40" id="h" xlink:href="#c" gradientUnits="userSpaceOnUse" gradientTransform="translate(-305.28 49.12) scale(1.64648)" fy="225.395" fx="450.948" cy="225.395" cx="450.948"/>
+        <radialGradient r="40" id="f" xlink:href="#c" gradientUnits="userSpaceOnUse" gradientTransform="translate(-305.28 49.12) scale(1.64648)" fy="225.395" fx="450.948" cy="225.395" cx="450.948"/>
         <linearGradient id="c">
             <stop offset="0" stop-color="#505050"/>
             <stop offset="1"/>
         </linearGradient>
     </defs>
     <g transform="translate(-420 -2402)">
-        <g transform="matrix(.25 0 0 .25 0 2295)">
-            <g transform="translate(1679.829 640)">
-                <path d="M128-172.056c-17.728 0-32 14.272-32 32v384.112c0 17.728 14.272 32 32 32h256c17.728 0 32-14.272 32-32v-303.98L304.158-172.057z" opacity=".1"/>
-                <rect y="-116" x="96" width="288.037" transform="matrix(1.11097 0 0 1.11097 -10.653 -51.24)" ry="28.804" rx="28.804" height="403.352" clip-path="url(#d)" fill="#f6f5f4"/>
-            </g>
-            <rect y="15.086" x="283.224" width="131.876" transform="matrix(1.11097 0 0 -1.11097 1669.418 588.76)" style="marker:none" ry="28.804" rx="28.804" height="115.812" clip-path="url(#e)" fill="#d5d3cf"/>
-            <g transform="matrix(1.50858 0 0 1.50858 1323.882 407.7)" stroke-width=".663">
-                <path transform="translate(-600 -212)" style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" d="M931.516 348.484l108 108c4.656 4.85 12.388 4.928 17.142.174s4.676-12.486-.174-17.142L964.97 348c-10.383-8.905-24.97-8-33.453.484z" color="#000" font-weight="400" font-family="sans-serif" overflow="visible" fill="url(#f)"/>
-                <path style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" d="M391.832 163.838a16.002 16.002 0 0 0-11.146 27.476l56 56a16.002 16.002 0 1 0 22.628-22.628l-56-56a16.002 16.002 0 0 0-11.482-4.848z" color="#000" font-weight="400" font-family="sans-serif" overflow="visible" fill="url(#g)"/>
-                <path transform="translate(0 -212)" style="marker:none" d="M440 400c-22.091 0-40 17.909-40 40s17.909 40 40 40h40v-40c0-22.091-17.909-40-40-40z" fill="url(#h)"/>
-                <circle transform="scale(1 -1)" style="marker:none" r="6.355" cy="-208.355" cx="436" color="#000" overflow="visible" fill="#7a8599"/>
-            </g>
+        <path d="M443.957 2414h50l30 30.125V2518c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8v-96c0-4.432 3.568-8 8-8z" fill="#f6f5f4"/>
+        <path d="M435.957 2516v2c0 4.432 3.568 8 8 8h72c4.432 0 8-3.568 8-8v-2c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8zM493.957 2414v22c0 4.432 3.568 8 8 8h21.875z" fill="#deddda"/>
+        <g transform="matrix(.37714 0 0 .37714 326.97 2396.925)" stroke-width=".663">
+            <path transform="translate(-600 -212)" style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" d="M931.516 348.484l108 108c4.656 4.85 12.388 4.928 17.142.174s4.676-12.486-.174-17.142L964.97 348c-10.383-8.905-24.97-8-33.453.484z" color="#000" font-weight="400" font-family="sans-serif" overflow="visible" fill="url(#d)"/>
+            <path style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" d="M391.832 163.838a16.002 16.002 0 0 0-11.146 27.476l56 56a16.002 16.002 0 1 0 22.628-22.628l-56-56a16.002 16.002 0 0 0-11.482-4.848z" color="#000" font-weight="400" font-family="sans-serif" overflow="visible" fill="url(#e)"/>
+            <path transform="translate(0 -212)" style="marker:none" d="M440 400c-22.091 0-40 17.909-40 40s17.909 40 40 40h40v-40c0-22.091-17.909-40-40-40z" fill="url(#f)"/>
+            <circle transform="scale(1 -1)" style="marker:none" r="6.355" cy="-208.355" cx="436" color="#000" overflow="visible" fill="#7a8599"/>
         </g>
     </g>
 </svg>
