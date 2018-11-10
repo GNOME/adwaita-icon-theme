@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" version="1.0" height="128">
+    <defs>
+        <linearGradient id="a">
+            <stop offset="0" stop-color="#c0bfbc"/>
+            <stop offset="1" stop-color="#acaba7"/>
+        </linearGradient>
+        <linearGradient id="b">
+            <stop offset="0" stop-color="#f6f5f4"/>
+            <stop offset="1" stop-color="#d7d3ce"/>
+        </linearGradient>
+        <linearGradient id="c">
+            <stop offset="0" stop-color="#babdb6"/>
+            <stop offset=".042" stop-color="#f6f5f4"/>
+            <stop offset=".083" stop-color="#d5d3cf"/>
+            <stop offset=".917" stop-color="#deddda"/>
+            <stop offset=".958" stop-color="#f6f5f4"/>
+            <stop offset="1" stop-color="#babdb6"/>
+        </linearGradient>
+        <linearGradient id="d">
+            <stop offset="0" stop-color="#fff"/>
+            <stop offset="1" stop-color="#fff" stop-opacity=".094"/>
+        </linearGradient>
+        <linearGradient y2="276" y1="282" x2="68" x1="68" id="e" xlink:href="#a" gradientUnits="userSpaceOnUse" gradientTransform="translate(-16 2040)"/>
+        <linearGradient y2="288" y1="284" x2="66" x1="66" id="f" xlink:href="#b" gradientUnits="userSpaceOnUse" gradientTransform="translate(-16 2040)"/>
+        <linearGradient y2="44" y1="44" x2="464" x1="48" id="g" xlink:href="#c" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.17308 0 0 .17391 3.692 2268.609)"/>
+        <radialGradient r="44" id="h" xlink:href="#d" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-3.22314 0 0 -.92307 254.281 2441.51)" fy="194.19" fx="64" cy="194.19" cx="64"/>
+        <linearGradient y2="276" y1="282" x2="68" x1="68" id="i" xlink:href="#a" gradientUnits="userSpaceOnUse" gradientTransform="translate(-16 2040)"/>
+        <linearGradient y2="288" y1="284" x2="66" x1="66" id="j" xlink:href="#b" gradientUnits="userSpaceOnUse" gradientTransform="translate(-16 2040)"/>
+        <linearGradient y2="44" y1="44" x2="464" x1="48" id="k" xlink:href="#c" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.17308 0 0 .17391 3.692 2268.609)"/>
+        <radialGradient r="44" id="l" xlink:href="#d" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-3.22314 0 0 -.92307 254.281 2441.51)" fy="194.19" fx="64" cy="194.19" cx="64"/>
+    </defs>
+    <g transform="translate(0 -2242)">
+        <path d="M40 2276l-4 48h24l-4-48h-8z" fill="url(#e)"/>
+        <path d="M28 2324h40.063c1.937 0 3.937 2 3.937 4H24c0-2 2-4 4-4z" fill="url(#f)"/>
+        <rect y="2254" x="12" width="72" style="marker:none" ry="8" rx="8" height="64" fill="url(#g)"/>
+        <rect y="2254" x="12" width="72" style="marker:none" ry="8" rx="8" height="60" fill="#f6f5f4"/>
+        <rect y="2258" x="16" width="64" style="marker:none" ry="3.75" rx="3.75" height="48" fill="#241f31"/>
+        <rect y="2260" x="18" width="60" style="marker:none" ry="1.75" rx="1.75" height="44" opacity=".05" fill="url(#h)"/>
+        <g transform="translate(36 30)">
+            <path d="M40 2276l-4 48h24l-4-48h-8z" fill="url(#i)"/>
+            <path d="M28 2324h40.063c1.937 0 3.937 2 3.937 4H24c0-2 2-4 4-4z" fill="url(#j)"/>
+            <rect y="2254" x="12" width="72" style="marker:none" ry="8" rx="8" height="64" fill="url(#k)"/>
+            <rect y="2254" x="12" width="72" style="marker:none" ry="8" rx="8" height="60" fill="#f6f5f4"/>
+            <rect y="2258" x="16" width="64" style="marker:none" ry="3.75" rx="3.75" height="48" fill="#241f31"/>
+            <rect y="2260" x="18" width="60" style="marker:none" ry="1.75" rx="1.75" height="44" opacity=".05" fill="url(#l)"/>
+        </g>
+    </g>
+</svg>
