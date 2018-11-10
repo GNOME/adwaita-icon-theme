@@ -1,10 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" version="1.0" height="128">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" version="1.0" height="128">
+    <defs>
+        <linearGradient id="a">
+            <stop offset="0" stop-color="#655034"/>
+            <stop offset="1" stop-color="#655034" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient y2="1401" y1="1272.5" x2="172.5" x1="172.5" id="c" xlink:href="#a" gradientUnits="userSpaceOnUse"/>
+        <linearGradient y2="1401" y1="1272.5" x2="172.5" x1="172.5" id="b" xlink:href="#a" gradientUnits="userSpaceOnUse"/>
+    </defs>
     <g transform="translate(-420 -2882)">
-        <path d="M444 2894h50l30 30.125V2998c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8v-96c0-4.432 3.568-8 8-8z" fill="#f6f5f4"/>
-        <path d="M436 2996v2c0 4.432 3.568 8 8 8h72c4.432 0 8-3.568 8-8v-2c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8zM494 2894v22c0 4.432 3.568 8 8 8h21.875z" fill="#deddda"/>
-        <path style="marker:none" d="M478.861 2894.014V3004H516c4.432 0 8-3.568 8-8v-71.875l-.125-.125H502c-4.432 0-8-3.568-8-8v-21.986z" fill="#f8f8f8"/>
-        <path d="M444 2894c-4.432 0-8 3.568-8 8v24.732l.54 72.147a7.976 7.976 0 0 0 2.796 3.619L478.867 2894z" fill="#edeceb"/>
-        <path style="marker:none" d="M478.861 2894.014l41.52 108.688A7.98 7.98 0 0 0 524 2996v-71.875l-.125-.125H502c-4.432 0-8-3.568-8-8v-21.986z" fill="#fcfcfc"/>
+        <path d="M447.957 2890.082h50l30 30.125v73.875c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8v-96c0-4.432 3.568-8 8-8z" fill="#f6f5f4"/>
+        <path d="M439.957 2992.082v2c0 4.432 3.568 8 8 8h72c4.432 0 8-3.568 8-8v-2c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8zM497.957 2890.082v22c0 4.432 3.568 8 8 8h21.875z" fill="#deddda"/>
+        <path style="marker:none" d="M482.799 2890.076v109.986h37.139c4.432 0 8-3.567 8-8v-71.874l-.125-.126h-21.875c-4.432 0-8-3.567-8-8v-21.986z" fill="#f8f8f8"/>
+        <path d="M447.938 2890.063c-4.432 0-8 3.567-8 8v24.732l.539 72.146a7.976 7.976 0 0 0 2.796 3.62l39.532-108.499z" fill="#edeceb"/>
+        <path style="marker:none" d="M482.799 2890.076l41.52 108.688a7.98 7.98 0 0 0 3.619-6.702v-71.874l-.125-.126h-21.875c-4.432 0-8-3.567-8-8v-21.986z" fill="#fcfcfc"/>
         <g transform="matrix(.25 0 0 .25 -4 2425)" fill="#d5d3cf">
             <rect y="2068" x="1816" width="8" height="152"/>
             <rect y="-2056" x="2212" width="8" transform="rotate(90)" height="240"/>

@@ -1,5 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" version="1.0" height="128">
     <defs>
+        <linearGradient id="c">
+            <stop offset="0" stop-color="#655034"/>
+            <stop offset="1" stop-color="#655034" stop-opacity="0"/>
+        </linearGradient>
         <linearGradient id="a">
             <stop offset="0" stop-color="#50db81"/>
             <stop offset="1" stop-color="#8ff0a4" stop-opacity=".004"/>
@@ -8,16 +12,18 @@
             <stop offset="0" stop-color="#4a86cf"/>
             <stop offset="1" stop-color="#87bae1" stop-opacity="0"/>
         </linearGradient>
-        <radialGradient r="192" id="c" xlink:href="#a" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.92527 -1.60262 .97904 .56525 187.25 -1549.276)" fy="226.773" fx="413.639" cy="226.773" cx="413.639"/>
-        <radialGradient r="192" id="d" xlink:href="#b" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 1.11373 -1.13621 0 987.477 -2825.244)" fy="228.371" fx="521.89" cy="228.371" cx="521.89"/>
+        <radialGradient r="192" id="f" xlink:href="#a" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.92527 -1.60262 .97904 .56525 211.25 -1533.276)" fy="226.773" fx="413.639" cy="226.773" cx="413.639"/>
+        <radialGradient r="192" id="g" xlink:href="#b" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 1.11373 -1.13621 0 1011.477 -2809.244)" fy="228.371" fx="521.89" cy="228.371" cx="521.89"/>
+        <linearGradient y2="1401" y1="1272.5" x2="172.5" x1="172.5" id="e" xlink:href="#c" gradientUnits="userSpaceOnUse"/>
+        <linearGradient y2="1401" y1="1272.5" x2="172.5" x1="172.5" id="d" xlink:href="#c" gradientUnits="userSpaceOnUse"/>
     </defs>
     <g transform="translate(-140 -2722)">
         <g transform="matrix(.25 0 0 .25 0 2275)">
-            <path d="M656 1836h200l120 120.5V2252c0 17.728-14.272 32-32 32H656c-17.728 0-32-14.272-32-32v-384c0-17.728 14.272-32 32-32z" fill="#f6f5f4"/>
-            <path d="M624 2244v8c0 17.728 14.272 32 32 32h288c17.728 0 32-14.272 32-32v-8c0 17.728-14.272 32-32 32H656c-17.728 0-32-14.272-32-32zM856 1836v88c0 17.728 14.272 32 32 32h87.5z" fill="#deddda"/>
-            <path style="marker:none" d="M856 2196h56v16h-56zm0-40h56v16h-56zm0-40h56v16h-56zm0-40h56v16h-56zm0-40h56v16h-56zm-184-40h240v16H672zm0-40h152v16H672zm0-40h152v16H672z" fill="#d5d3cf"/>
-            <rect y="-2236" x="672" width="168" transform="scale(1 -1)" style="marker:none" ry="0" rx="0" height="200.139" fill="url(#c)"/>
-            <rect y="-2236" x="672" width="168" transform="scale(1 -1)" style="marker:none" ry="0" rx="0" height="200.139" fill="url(#d)"/>
+            <path d="M671.828 1820.328h200l120 120.5v295.5c0 17.728-14.272 32-32 32h-288c-17.728 0-32-14.272-32-32v-384c0-17.728 14.272-32 32-32z" fill="#f6f5f4"/>
+            <path d="M639.828 2228.328v8c0 17.728 14.272 32 32 32h288c17.728 0 32-14.272 32-32v-8c0 17.728-14.272 32-32 32h-288c-17.728 0-32-14.272-32-32zM871.828 1820.328v88c0 17.728 14.272 32 32 32h87.5z" fill="#deddda"/>
+            <path style="marker:none" d="M880 2180h56v16h-56zm0-40h56v16h-56zm0-40h56v16h-56zm0-40h56v16h-56zm0-40h56v16h-56zm-184-40h240v16H696zm0-40h152v16H696zm0-40h152v16H696z" fill="#d5d3cf"/>
+            <rect y="-2220" x="696" width="168" transform="scale(1 -1)" style="marker:none" ry="0" rx="0" height="200.139" fill="url(#f)"/>
+            <rect y="-2220" x="696" width="168" transform="scale(1 -1)" style="marker:none" ry="0" rx="0" height="200.139" fill="url(#g)"/>
         </g>
     </g>
 </svg>

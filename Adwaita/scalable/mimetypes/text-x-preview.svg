@@ -1,9 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" version="1.0" height="128">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" version="1.0" height="128">
+    <defs>
+        <linearGradient id="a">
+            <stop offset="0" stop-color="#655034"/>
+            <stop offset="1" stop-color="#655034" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient y2="1401" y1="1272.5" x2="172.5" x1="172.5" id="c" xlink:href="#a" gradientUnits="userSpaceOnUse"/>
+        <linearGradient y2="1401" y1="1272.5" x2="172.5" x1="172.5" id="b" xlink:href="#a" gradientUnits="userSpaceOnUse"/>
+    </defs>
     <g transform="translate(0 -2242)">
-        <path d="M24 2254h50l30 30.125V2358c0 4.432-3.568 8-8 8H24c-4.432 0-8-3.568-8-8v-96c0-4.432 3.568-8 8-8z" fill="#f6f5f4"/>
-        <path d="M16 2356v2c0 4.432 3.568 8 8 8h72c4.432 0 8-3.568 8-8v-2c0 4.432-3.568 8-8 8H24c-4.432 0-8-3.568-8-8zM74 2254v22c0 4.432 3.568 8 8 8h21.875z" fill="#deddda"/>
+        <path d="M27.957 2250.082h50l30 30.125v73.875c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8v-96c0-4.432 3.568-8 8-8z" fill="#f6f5f4"/>
+        <path d="M19.957 2352.082v2c0 4.432 3.568 8 8 8h72c4.432 0 8-3.568 8-8v-2c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8zM77.957 2250.082v22c0 4.432 3.568 8 8 8h21.875z" fill="#deddda"/>
         <g>
-            <path d="M16 2356v2c0 4.432 3.568 8 8 8h72c4.432 0 8-3.568 8-8v-2c0 4.432-3.568 8-8 8H24c-4.432 0-8-3.568-8-8z" fill="#deddda"/>
+            <path d="M19.957 2352.082v2c0 4.432 3.568 8 8 8h72c4.432 0 8-3.568 8-8v-2c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8z" fill="#deddda"/>
         </g>
     </g>
 </svg>

@@ -1,11 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" version="1.0" height="128">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" version="1.0" height="128">
+    <defs>
+        <linearGradient id="a">
+            <stop offset="0" stop-color="#655034"/>
+            <stop offset="1" stop-color="#655034" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient y2="1401" y1="1272.5" x2="172.5" x1="172.5" id="c" xlink:href="#a" gradientUnits="userSpaceOnUse"/>
+        <linearGradient y2="1401" y1="1272.5" x2="172.5" x1="172.5" id="b" xlink:href="#a" gradientUnits="userSpaceOnUse"/>
+    </defs>
     <g transform="translate(-420 -2562)">
-        <path d="M443.957 2574h50l30 30.125V2678c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8v-96c0-4.432 3.568-8 8-8z" fill="#f6f5f4"/>
-        <path d="M435.957 2676v2c0 4.432 3.568 8 8 8h72c4.432 0 8-3.568 8-8v-2c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8zM493.957 2574v22c0 4.432 3.568 8 8 8h21.875z" fill="#deddda"/>
+        <path d="M447.914 2570.082h50l30 30.125v73.875c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8v-96c0-4.432 3.568-8 8-8z" fill="#f6f5f4"/>
+        <path d="M439.914 2672.082v2c0 4.432 3.568 8 8 8h72c4.432 0 8-3.568 8-8v-2c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8zM497.914 2570.082v22c0 4.432 3.568 8 8 8h21.875z" fill="#deddda"/>
         <g>
-            <path style="marker:none" d="M478.819 2574.014V2684h37.138c4.432 0 8-3.568 8-8v-71.875l-.125-.125h-21.875c-4.432 0-8-3.568-8-8v-21.986z" fill="#f8f8f8"/>
-            <path d="M443.957 2574c-4.432 0-8 3.568-8 8v24.732l.54 72.147a7.976 7.976 0 0 0 2.796 3.619L478.824 2574z" fill="#edeceb"/>
-            <path style="marker:none" d="M478.819 2574.014l41.52 108.688a7.98 7.98 0 0 0 3.618-6.702v-71.875l-.125-.125h-21.875c-4.432 0-8-3.568-8-8v-21.986z" fill="#fcfcfc"/>
+            <path style="marker:none" d="M482.861 2570.014V2680H520c4.432 0 8-3.568 8-8v-71.875l-.125-.125H506c-4.432 0-8-3.568-8-8v-21.986z" fill="#f8f8f8"/>
+            <path d="M448 2570c-4.432 0-8 3.568-8 8v24.732l.54 72.147a7.976 7.976 0 0 0 2.796 3.619L482.867 2570z" fill="#edeceb"/>
+            <path style="marker:none" d="M482.861 2570.014l41.52 108.688A7.98 7.98 0 0 0 528 2672v-71.875l-.125-.125H506c-4.432 0-8-3.568-8-8v-21.986z" fill="#fcfcfc"/>
         </g>
         <path style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" d="M456.039 2607.85c-2.265.066-4.44.95-6.039 2.55l16.734 16.735a6.035 6.035 0 0 0 1.81 3.943l8.335 8.334a15.018 15.018 0 0 0-1.05 5.502c0 8.332 6.753 15.086 15.085 15.086H506v-15.086c0-8.332-6.754-15.086-15.086-15.086-1.944 0-3.795.381-5.502 1.05l-8.334-8.333a6.035 6.035 0 0 0-3.943-1.81l-10.518-10.518c-1.958-1.68-4.313-2.433-6.578-2.367z" color="#000" font-weight="400" font-family="sans-serif" overflow="visible" fill="#d5d3cf"/>
     </g>

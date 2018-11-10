@@ -1,11 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" version="1.0" height="128">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" version="1.0" height="128">
+    <defs>
+        <linearGradient id="a">
+            <stop offset="0" stop-color="#655034"/>
+            <stop offset="1" stop-color="#655034" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient y2="1401" y1="1272.5" x2="172.5" x1="172.5" id="c" xlink:href="#a" gradientUnits="userSpaceOnUse"/>
+        <linearGradient y2="1401" y1="1272.5" x2="172.5" x1="172.5" id="b" xlink:href="#a" gradientUnits="userSpaceOnUse"/>
+    </defs>
     <g transform="translate(-140 -2242)">
-        <path d="M164 2254h50l30 30.125V2358c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8v-96c0-4.432 3.568-8 8-8z" fill="#f6f5f4"/>
-        <path d="M156 2356v2c0 4.432 3.568 8 8 8h72c4.432 0 8-3.568 8-8v-2c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8zM214 2254v22c0 4.432 3.568 8 8 8h21.875z" fill="#deddda"/>
+        <path d="M167.957 2250.082h50l30 30.125v73.875c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8v-96c0-4.432 3.568-8 8-8z" fill="#f6f5f4"/>
+        <path d="M159.957 2352.082v2c0 4.432 3.568 8 8 8h72c4.432 0 8-3.568 8-8v-2c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8zM217.957 2250.082v22c0 4.432 3.568 8 8 8h21.875z" fill="#deddda"/>
         <g>
-            <path style="marker:none" d="M198.861 2254.014V2364H236c4.432 0 8-3.568 8-8v-71.875l-.125-.125H222c-4.432 0-8-3.568-8-8v-21.986z" fill="#f8f8f8"/>
-            <path d="M164 2254c-4.432 0-8 3.568-8 8v24.732l.54 72.147a7.976 7.976 0 0 0 2.796 3.619L198.867 2254z" fill="#edeceb"/>
-            <path style="marker:none" d="M198.861 2254.014l41.52 108.688A7.98 7.98 0 0 0 244 2356v-71.875l-.125-.125H222c-4.432 0-8-3.568-8-8v-21.986z" fill="#fcfcfc"/>
+            <path style="marker:none" d="M202.861 2250.014V2360H240c4.432 0 8-3.568 8-8v-71.875l-.125-.125H226c-4.432 0-8-3.568-8-8v-21.986z" fill="#f8f8f8"/>
+            <path d="M168 2250c-4.432 0-8 3.568-8 8v24.732l.54 72.147a7.976 7.976 0 0 0 2.796 3.619L202.867 2250z" fill="#edeceb"/>
+            <path style="marker:none" d="M202.861 2250.014l41.52 108.688A7.98 7.98 0 0 0 248 2352v-71.875l-.125-.125H226c-4.432 0-8-3.568-8-8v-21.986z" fill="#fcfcfc"/>
         </g>
     </g>
 </svg>

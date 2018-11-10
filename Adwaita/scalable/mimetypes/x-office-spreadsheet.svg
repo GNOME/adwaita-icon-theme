@@ -1,8 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" version="1.0" height="128">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" version="1.0" height="128">
+    <defs>
+        <linearGradient id="a">
+            <stop offset="0" stop-color="#655034"/>
+            <stop offset="1" stop-color="#655034" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient y2="1401" y1="1272.5" x2="172.5" x1="172.5" id="c" xlink:href="#a" gradientUnits="userSpaceOnUse"/>
+        <linearGradient y2="1401" y1="1272.5" x2="172.5" x1="172.5" id="b" xlink:href="#a" gradientUnits="userSpaceOnUse"/>
+    </defs>
     <g transform="translate(-420 -2722)">
-        <path d="M444 2734h50l30 30.125V2838c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8v-96c0-4.432 3.568-8 8-8z" fill="#f6f5f4"/>
-        <path d="M436 2836v2c0 4.432 3.568 8 8 8h72c4.432 0 8-3.568 8-8v-2c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8zM494 2734v22c0 4.432 3.568 8 8 8h21.875z" fill="#deddda"/>
-        <g transform="matrix(.25 0 0 .25 -4 2283)" opacity=".3" fill="#d5d3cf">
+        <path d="M447.957 2730.082h50l30 30.125v73.875c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8v-96c0-4.432 3.568-8 8-8z" fill="#f6f5f4"/>
+        <path d="M439.957 2832.082v2c0 4.432 3.568 8 8 8h72c4.432 0 8-3.568 8-8v-2c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8zM497.957 2730.082v22c0 4.432 3.568 8 8 8h21.875z" fill="#deddda"/>
+        <g transform="matrix(.25 0 0 .25 0 2281)" opacity=".3" fill="#d5d3cf">
             <rect y="1852" x="1816" width="8" height="120"/>
             <rect y="1852" x="1856" width="8" height="120"/>
             <rect y="1852" x="1920" width="8" height="120"/>
@@ -23,7 +31,7 @@
             <rect y="2164" x="1984" width="8" height="56"/>
             <rect y="2164" x="2048" width="8" height="56"/>
         </g>
-        <g transform="matrix(.25 0 0 .25 -4 2263)">
+        <g transform="matrix(.25 0 0 .25 0 2261)">
             <rect y="2068" x="1816" width="8" height="152" fill="#d5d3cf"/>
             <rect y="-2056" x="2212" width="8" transform="rotate(90)" height="240" fill="#d5d3cf"/>
             <rect y="2124" x="1832" width="24" height="80" fill="#50db81"/>

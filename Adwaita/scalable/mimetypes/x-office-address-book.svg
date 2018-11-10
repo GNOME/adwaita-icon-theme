@@ -1,11 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" version="1.0" height="128">
     <defs>
-        <linearGradient y2="120" y1="120" x2="416" x1="384" id="b" xlink:href="#a" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 640)"/>
+        <linearGradient id="b">
+            <stop offset="0" stop-color="#655034"/>
+            <stop offset="1" stop-color="#655034" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient y2="120" y1="120" x2="416" x1="384" id="e" xlink:href="#a" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 640)"/>
         <linearGradient id="a">
             <stop offset="0" stop-color="#e8e7e4"/>
             <stop offset=".511" stop-color="#fff"/>
             <stop offset="1" stop-color="#c2bfba"/>
         </linearGradient>
+        <linearGradient y2="1401" y1="1272.5" x2="172.5" x1="172.5" id="d" xlink:href="#b" gradientUnits="userSpaceOnUse"/>
+        <linearGradient y2="1401" y1="1272.5" x2="172.5" x1="172.5" id="c" xlink:href="#b" gradientUnits="userSpaceOnUse"/>
     </defs>
     <g transform="translate(0 -2722)">
         <g transform="matrix(.25 0 0 .25 0 2275)">
@@ -14,7 +20,7 @@
             <rect y="2012" x="384" width="64" style="marker:none" ry="32.014" rx="32" height="96" fill="#8f5aa0"/>
             <rect y="2076" x="384" width="64" style="marker:none" ry="32.014" rx="32" height="96" fill="#f66151"/>
             <path style="marker:none" d="M96 1820v448h288c17.728 0 32-14.272 32-32v-384c0-17.728-14.272-32-32-32z" fill="#9d8c68"/>
-            <path style="marker:none" d="M104 620v280h280c17.728 0 32-14.272 32-32V652c0-17.728-14.272-32-32-32z" fill="url(#b)" transform="translate(0 1360)"/>
+            <path style="marker:none" d="M104 620v280h280c17.728 0 32-14.272 32-32V652c0-17.728-14.272-32-32-32z" fill="url(#e)" transform="translate(0 1360)"/>
             <path style="marker:none" d="M96 1820v416h288c17.728 0 32-14.272 32-32v-352c0-17.728-14.272-32-32-32z" fill="#9d8c68"/>
             <path style="marker:none" d="M96 1820v408h288c17.728 0 32-14.272 32-32v-344c0-17.728-14.272-32-32-32z" fill="#c0b59e"/>
             <path style="marker:none" d="M104 1820h8v408h-8z" opacity=".187" fill="#fff"/>

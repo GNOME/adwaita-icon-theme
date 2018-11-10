@@ -8,13 +8,19 @@
             <stop offset="0" stop-color="#747471"/>
             <stop offset="1" stop-color="#949390"/>
         </linearGradient>
-        <linearGradient y2="2932" y1="2692" x2="1376" x1="1376" id="d" xlink:href="#a" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.15 0 0 1.08108 -766.4 -215.027)"/>
-        <linearGradient y2="2964" y1="2948" x2="1368" x1="1368" id="c" xlink:href="#b" gradientUnits="userSpaceOnUse" gradientTransform="translate(-560 24)"/>
+        <linearGradient id="c">
+            <stop offset="0" stop-color="#655034"/>
+            <stop offset="1" stop-color="#655034" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient y2="2932" y1="2692" x2="1376" x1="1376" id="g" xlink:href="#a" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.15 0 0 1.08108 -766.4 -215.027)"/>
+        <linearGradient y2="2964" y1="2948" x2="1368" x1="1368" id="f" xlink:href="#b" gradientUnits="userSpaceOnUse" gradientTransform="translate(-560 24)"/>
+        <linearGradient y2="1401" y1="1272.5" x2="172.5" x1="172.5" id="e" xlink:href="#c" gradientUnits="userSpaceOnUse"/>
+        <linearGradient y2="1401" y1="1272.5" x2="172.5" x1="172.5" id="d" xlink:href="#c" gradientUnits="userSpaceOnUse"/>
     </defs>
     <g transform="translate(-140 -2882)">
         <g transform="matrix(.25 0 0 .25 0 2247)">
-            <path d="M848 2948l64 64h-24l-40-40zm-64 0l-64 64h24l40-40z" fill="url(#c)"/>
-            <rect y="2652" x="632" width="368" style="marker:none" ry="0" rx="0" height="320" fill="url(#d)"/>
+            <path d="M848 2948l64 64h-24l-40-40zm-64 0l-64 64h24l40-40z" fill="url(#f)"/>
+            <rect y="2652" x="632" width="368" style="marker:none" ry="0" rx="0" height="320" fill="url(#g)"/>
             <rect y="2964" x="632" width="368" style="marker:none" height="8" fill="#d5d3cf"/>
             <path style="marker:none" d="M839.985 2820a71.985 71.985 0 0 1-44.437 66.506 71.985 71.985 0 0 1-78.45-15.605 71.985 71.985 0 0 1-15.604-78.449A71.985 71.985 0 0 1 768 2748.015V2820z" fill="#d5d3cf" stroke="#204a87" stroke-width=".029"/>
             <path d="M800 2660l-168 304v-320z" fill="#eceae8"/>

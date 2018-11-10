@@ -1,28 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" version="1.0" height="128">
     <defs>
-        <linearGradient y2="359.924" y1="350.856" x2="944.207" x1="953.275" id="d" xlink:href="#a" gradientUnits="userSpaceOnUse"/>
+        <linearGradient id="d">
+            <stop offset="0" stop-color="#655034"/>
+            <stop offset="1" stop-color="#655034" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient y2="359.924" y1="350.856" x2="944.207" x1="953.275" id="g" xlink:href="#a" gradientUnits="userSpaceOnUse"/>
         <linearGradient id="a">
             <stop offset="0" stop-color="#e9b96e"/>
             <stop offset="1" stop-color="#dc9321"/>
         </linearGradient>
-        <linearGradient y2="216.919" y1="227" x2="428.919" x1="418.838" id="e" xlink:href="#b" gradientUnits="userSpaceOnUse"/>
+        <linearGradient y2="216.919" y1="227" x2="428.919" x1="418.838" id="h" xlink:href="#b" gradientUnits="userSpaceOnUse"/>
         <linearGradient id="b">
             <stop offset="0" stop-color="#bcbcb4"/>
             <stop offset="1" stop-color="#eeeeec"/>
         </linearGradient>
-        <radialGradient r="40" id="f" xlink:href="#c" gradientUnits="userSpaceOnUse" gradientTransform="translate(-305.28 49.12) scale(1.64648)" fy="225.395" fx="450.948" cy="225.395" cx="450.948"/>
+        <radialGradient r="40" id="i" xlink:href="#c" gradientUnits="userSpaceOnUse" gradientTransform="translate(-305.28 49.12) scale(1.64648)" fy="225.395" fx="450.948" cy="225.395" cx="450.948"/>
         <linearGradient id="c">
             <stop offset="0" stop-color="#505050"/>
             <stop offset="1"/>
         </linearGradient>
+        <linearGradient y2="1401" y1="1272.5" x2="172.5" x1="172.5" id="f" xlink:href="#d" gradientUnits="userSpaceOnUse"/>
+        <linearGradient y2="1401" y1="1272.5" x2="172.5" x1="172.5" id="e" xlink:href="#d" gradientUnits="userSpaceOnUse"/>
     </defs>
     <g transform="translate(-420 -2402)">
-        <path d="M443.957 2414h50l30 30.125V2518c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8v-96c0-4.432 3.568-8 8-8z" fill="#f6f5f4"/>
-        <path d="M435.957 2516v2c0 4.432 3.568 8 8 8h72c4.432 0 8-3.568 8-8v-2c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8zM493.957 2414v22c0 4.432 3.568 8 8 8h21.875z" fill="#deddda"/>
+        <path d="M447.914 2410.082h50l30 30.125v73.875c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8v-96c0-4.432 3.568-8 8-8z" fill="#f6f5f4"/>
+        <path d="M439.914 2512.082v2c0 4.432 3.568 8 8 8h72c4.432 0 8-3.568 8-8v-2c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8zM497.914 2410.082v22c0 4.432 3.568 8 8 8h21.875z" fill="#deddda"/>
         <g transform="matrix(.37714 0 0 .37714 326.97 2396.925)" stroke-width=".663">
-            <path transform="translate(-600 -212)" style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" d="M931.516 348.484l108 108c4.656 4.85 12.388 4.928 17.142.174s4.676-12.486-.174-17.142L964.97 348c-10.383-8.905-24.97-8-33.453.484z" color="#000" font-weight="400" font-family="sans-serif" overflow="visible" fill="url(#d)"/>
-            <path style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" d="M391.832 163.838a16.002 16.002 0 0 0-11.146 27.476l56 56a16.002 16.002 0 1 0 22.628-22.628l-56-56a16.002 16.002 0 0 0-11.482-4.848z" color="#000" font-weight="400" font-family="sans-serif" overflow="visible" fill="url(#e)"/>
-            <path transform="translate(0 -212)" style="marker:none" d="M440 400c-22.091 0-40 17.909-40 40s17.909 40 40 40h40v-40c0-22.091-17.909-40-40-40z" fill="url(#f)"/>
+            <path transform="translate(-600 -212)" style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" d="M931.516 348.484l108 108c4.656 4.85 12.388 4.928 17.142.174s4.676-12.486-.174-17.142L964.97 348c-10.383-8.905-24.97-8-33.453.484z" color="#000" font-weight="400" font-family="sans-serif" overflow="visible" fill="url(#g)"/>
+            <path style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" d="M391.832 163.838a16.002 16.002 0 0 0-11.146 27.476l56 56a16.002 16.002 0 1 0 22.628-22.628l-56-56a16.002 16.002 0 0 0-11.482-4.848z" color="#000" font-weight="400" font-family="sans-serif" overflow="visible" fill="url(#h)"/>
+            <path transform="translate(0 -212)" style="marker:none" d="M440 400c-22.091 0-40 17.909-40 40s17.909 40 40 40h40v-40c0-22.091-17.909-40-40-40z" fill="url(#i)"/>
             <circle transform="scale(1 -1)" style="marker:none" r="6.355" cy="-208.355" cx="436" color="#000" overflow="visible" fill="#7a8599"/>
         </g>
     </g>

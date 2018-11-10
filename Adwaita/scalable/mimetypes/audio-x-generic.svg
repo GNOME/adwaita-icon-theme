@@ -1,4 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" version="1.0" height="128">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" version="1.0" height="128">
+    <defs>
+        <linearGradient id="a">
+            <stop offset="0" stop-color="#655034"/>
+            <stop offset="1" stop-color="#655034" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient y2="1401" y1="1272.5" x2="172.5" x1="172.5" id="c" xlink:href="#a" gradientUnits="userSpaceOnUse"/>
+        <linearGradient y2="1401" y1="1272.5" x2="172.5" x1="172.5" id="b" xlink:href="#a" gradientUnits="userSpaceOnUse"/>
+    </defs>
     <g transform="translate(-280 -2402)">
         <path style="marker:none" d="M324 2434v45.142a21 21 0 0 0-11-3.142c-11.598 0-21 9.402-21 21s9.402 21 21 21c11.199-.014 20.416-8.814 20.95-20h.05v-52h46.972v33.144A21 21 0 0 0 369.97 2476c-11.598 0-21 9.402-21 21s9.402 21 21 21c11.199-.014 20.416-8.814 20.95-20h.08v-72h-59c-4 0-8 4-8 8z" fill="#2ab273"/>
         <path style="marker:none" d="M334 2446v2c0-1.222 1.006-2 2.063-2h44.91v-2H336c-1.039 0-2 .983-2 2zm-41.976 50c-.015.331-.024.665-.024 1 0 11.598 9.402 21 21 21 11.199-.014 20.416-8.814 20.95-20h.05v-2h-.05c-.534 11.186-9.751 19.986-20.95 20-11.263 0-20.453-8.867-20.976-20zm56.97 0c-.015.331-.024.665-.024 1 0 11.598 9.402 21 21 21 11.199-.014 20.416-8.814 20.95-20h.08v-2h-.08c-.534 11.186-9.751 19.986-20.95 20-11.263 0-20.454-8.867-20.976-20z" fill="#26a269"/>

@@ -1,11 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" version="1.0" height="128">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" version="1.0" height="128">
+    <defs>
+        <linearGradient id="a">
+            <stop offset="0" stop-color="#655034"/>
+            <stop offset="1" stop-color="#655034" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient y2="1401" y1="1272.5" x2="172.5" x1="172.5" id="c" xlink:href="#a" gradientUnits="userSpaceOnUse"/>
+        <linearGradient y2="1401" y1="1272.5" x2="172.5" x1="172.5" id="b" xlink:href="#a" gradientUnits="userSpaceOnUse"/>
+    </defs>
     <g transform="translate(-280 -2722)">
-        <path d="M304 2734h50l30 30.125V2838c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8v-96c0-4.432 3.568-8 8-8z" fill="#f6f5f4"/>
-        <path d="M296 2836v2c0 4.432 3.568 8 8 8h72c4.432 0 8-3.568 8-8v-2c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8zM354 2734v22c0 4.432 3.568 8 8 8h21.875z" fill="#deddda"/>
-        <path style="marker:none" d="M338.861 2734.014V2844H376c4.432 0 8-3.568 8-8v-71.875l-.125-.125H362c-4.432 0-8-3.568-8-8v-21.986z" fill="#f8f8f8"/>
-        <path d="M304 2734c-4.432 0-8 3.568-8 8v24.732l.54 72.147a7.976 7.976 0 0 0 2.796 3.619L338.867 2734z" fill="#edeceb"/>
-        <path style="marker:none" d="M338.861 2734.014l41.52 108.688A7.98 7.98 0 0 0 384 2836v-71.875l-.125-.125H362c-4.432 0-8-3.568-8-8v-21.986z" fill="#fcfcfc"/>
-        <path style="marker:none" d="M310 2834h42v-50.035h-42zm46-10h14v4h-14zm0-10h14v4h-14zm0-10h14v4h-14zm0-10h14v4h-14zm0-10h14v4h-14zm-46-10h60v4h-60zm0-10h38v4h-38zm0-10h38v4h-38z" fill="#d5d3cf"/>
-        <path d="M310 2754v4h19.368l1.458-4zm0 10v4h15.725l1.457-4zm0 10v4h12.082l1.457-4zm0 9.965v27.196l9.908-27.196z" fill="#c9c7c2"/>
+        <path d="M307.957 2730.082h50l30 30.125v73.875c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8v-96c0-4.432 3.568-8 8-8z" fill="#f6f5f4"/>
+        <path d="M299.957 2832.082v2c0 4.432 3.568 8 8 8h72c4.432 0 8-3.568 8-8v-2c0 4.432-3.568 8-8 8h-72c-4.432 0-8-3.568-8-8zM357.957 2730.082v22c0 4.432 3.568 8 8 8h21.875z" fill="#deddda"/>
+        <path style="marker:none" d="M342.861 2730.014V2840H380c4.432 0 8-3.568 8-8v-71.875l-.125-.125H366c-4.432 0-8-3.568-8-8v-21.986z" fill="#f8f8f8"/>
+        <path d="M308 2730c-4.432 0-8 3.568-8 8v24.732l.54 72.147a7.976 7.976 0 0 0 2.796 3.619L342.867 2730z" fill="#edeceb"/>
+        <path style="marker:none" d="M342.861 2730.014l41.52 108.688A7.98 7.98 0 0 0 388 2832v-71.875l-.125-.125H366c-4.432 0-8-3.568-8-8v-21.986z" fill="#fcfcfc"/>
+        <path style="marker:none" d="M316 2830h42v-50.035h-42zm46-10h14v4h-14zm0-10h14v4h-14zm0-10h14v4h-14zm0-10h14v4h-14zm0-10h14v4h-14zm-46-10h60v4h-60zm0-10h38v4h-38zm0-10h38v4h-38z" fill="#d5d3cf"/>
+        <path d="M316 2750.035v4h18.11l1.457-4zm0 10v4h14.466l1.458-4zm0 10v4h10.823l1.458-4zm0 9.965v23.74l8.637-23.705z" fill="#c9c7c2"/>
     </g>
 </svg>

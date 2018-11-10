@@ -1,16 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" version="1.0" height="128">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" version="1.0" height="128">
+    <defs>
+        <linearGradient id="a">
+            <stop offset="0" stop-color="#655034"/>
+            <stop offset="1" stop-color="#655034" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient y2="1401" y1="1272.5" x2="172.5" x1="172.5" id="c" xlink:href="#a" gradientUnits="userSpaceOnUse"/>
+        <linearGradient y2="1401" y1="1272.5" x2="172.5" x1="172.5" id="b" xlink:href="#a" gradientUnits="userSpaceOnUse"/>
+    </defs>
     <g transform="translate(-280 -2242)">
         <g transform="matrix(.25 0 0 .25 0 2295)">
-            <path d="M1215.829-164h200l120 120.5V252c0 17.728-14.272 32-32 32h-288c-17.728 0-32-14.272-32-32v-384c0-17.728 14.272-32 32-32z" fill="#f6f5f4"/>
-            <path d="M1183.829 244v8c0 17.728 14.272 32 32 32h288c17.728 0 32-14.272 32-32v-8c0 17.728-14.272 32-32 32h-288c-17.728 0-32-14.272-32-32zM1415.829-164v88c0 17.728 14.272 32 32 32h87.5z" fill="#deddda"/>
-            <rect y="-76" x="1240" width="152" style="marker:none" height="16" fill="#d5d3cf"/>
-            <rect y="-36" x="1240" width="152" style="marker:none" height="16" fill="#d5d3cf"/>
-            <rect y="4" x="1240" width="240" style="marker:none" height="16" fill="#d5d3cf"/>
-            <rect y="44" x="1240" width="240" style="marker:none" height="16" fill="#d5d3cf"/>
-            <rect y="84" x="1240" width="240" style="marker:none" height="16" fill="#d5d3cf"/>
-            <rect y="124" x="1240" width="240" style="marker:none" height="16" fill="#d5d3cf"/>
-            <rect y="164" x="1240" width="240" style="marker:none" height="16" fill="#d5d3cf"/>
-            <rect y="204" x="1240" width="240" style="marker:none" height="16" fill="#d5d3cf"/>
+            <path d="M1231.657-179.672h200l120 120.5v295.5c0 17.728-14.272 32-32 32h-288c-17.728 0-32-14.272-32-32v-384c0-17.728 14.272-32 32-32z" fill="#f6f5f4"/>
+            <path d="M1199.657 228.328v8c0 17.728 14.272 32 32 32h288c17.728 0 32-14.272 32-32v-8c0 17.728-14.272 32-32 32h-288c-17.728 0-32-14.272-32-32zM1431.657-179.672v88c0 17.728 14.272 32 32 32h87.5z" fill="#deddda"/>
+            <rect y="-92" x="1256" width="152" style="marker:none" height="16" fill="#d5d3cf"/>
+            <rect y="-52" x="1256" width="152" style="marker:none" height="16" fill="#d5d3cf"/>
+            <rect y="-12" x="1256" width="240" style="marker:none" height="16" fill="#d5d3cf"/>
+            <rect y="28" x="1256" width="240" style="marker:none" height="16" fill="#d5d3cf"/>
+            <rect y="68" x="1256" width="240" style="marker:none" height="16" fill="#d5d3cf"/>
+            <rect y="108" x="1256" width="240" style="marker:none" height="16" fill="#d5d3cf"/>
+            <rect y="148" x="1256" width="240" style="marker:none" height="16" fill="#d5d3cf"/>
+            <rect y="188" x="1256" width="240" style="marker:none" height="16" fill="#d5d3cf"/>
         </g>
     </g>
 </svg>
