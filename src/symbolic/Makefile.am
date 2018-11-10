@@ -28,20 +28,20 @@ install-data-local:
 			$(install_sh_DATA) $(top_srcdir)/$(SVGOUTDIR)/$$size/$$file $(DESTDIR)$(themedir)/$$size/$$file; \
 		done; \
 	done
-	for file in `cd $(top_srcdir)/$(SVGOUTDIR)/scalable; find . -name "*.svg"`; do \
+	for file in `cd $(top_srcdir)/$(SVGOUTDIR)/symbolic; find . -name "*.svg"`; do \
 		context="`dirname $$file`"; \
-		$(mkdir_p) $(DESTDIR)$(themedir)/scalable/$$context; \
-		$(install_sh_DATA) $(top_srcdir)/$(SVGOUTDIR)/scalable/$$file $(DESTDIR)$(themedir)/scalable/$$file; \
+		$(mkdir_p) $(DESTDIR)$(themedir)/symbolic/$$context; \
+		$(install_sh_DATA) $(top_srcdir)/$(SVGOUTDIR)/symbolic/$$file $(DESTDIR)$(themedir)/symbolic/$$file; \
 		for size in $(symbolic_encode_sizes); do \
 			$(mkdir_p) $(DESTDIR)$(themedir)/$$size/$$context; \
-			$(GTK_ENCODE_SYMBOLIC_SVG) $(top_srcdir)/$(SVGOUTDIR)/scalable/$$file $$size -o $(DESTDIR)$(themedir)/$$size/$$context; \
+			$(GTK_ENCODE_SYMBOLIC_SVG) $(top_srcdir)/$(SVGOUTDIR)/symbolic/$$file $$size -o $(DESTDIR)$(themedir)/$$size/$$context; \
 		done \
 	done
 
 uninstall-local:
-	for file in `cd $(top_srcdir)/$(SVGOUTDIR)/scalable; find . -name "*.svg"`; do \
+	for file in `cd $(top_srcdir)/$(SVGOUTDIR)/symbolic; find . -name "*.svg"`; do \
 		context="`dirname $$file`"; \
-		rm -f $(DESTDIR)$(themedir)/scalable/$$file; \
+		rm -f $(DESTDIR)$(themedir)/symbolic/$$file; \
 		for size in $(symbolic_encode_sizes); do \
 			name="`basename $$file .svg`.symbolic.png"; \
 			rm -f $(DESTDIR)/$(themedir)/$$size/$$context/$$name; \

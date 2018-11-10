@@ -53,7 +53,7 @@ done
 
 echo "Creating Makefiles"
 
-SIZES=$(find * -maxdepth 0 -type d -not -name 'scalable' -printf '%f ')
+SIZES=$(find * -maxdepth 0 -type d -not -name 'symbolic' -printf '%f ')
 
 MAKEFILES='Makefile\n'
 for dir in $SIZES
