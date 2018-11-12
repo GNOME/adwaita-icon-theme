@@ -1,3 +1,3 @@
-SUBDIRS = fullcolor symbolic spinner
+SUBDIRS = fullcolor symbolic
 
 -include $(top_srcdir)/git.mk
