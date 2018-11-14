@@ -52,30 +52,6 @@
          offset="1"
          id="stop972" />
     </linearGradient>
-    <clipPath
-       id="clipPath1381-7"
-       clipPathUnits="userSpaceOnUse">
-      <rect
-         y="186.00011"
-         x="314"
-         width="99.999962"
-         style="display:inline;opacity:1;fill:#5e5c64;fill-opacity:1;stroke:none;stroke-width:0.24999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;enable-background:new"
-         ry="6"
-         rx="6"
-         id="rect1383-7"
-         height="81.999901" />
-    </clipPath>
-    <filter
-       y="-0.07590735"
-       x="-0.062243976"
-       width="1.124488"
-       style="color-interpolation-filters:sRGB"
-       id="filter1389"
-       height="1.1518147">
-      <feGaussianBlur
-         stdDeviation="2.593498"
-         id="feGaussianBlur1391" />
-    </filter>
     <linearGradient
        y2="203.59586"
        y1="248.39008"
@@ -83,7 +59,8 @@
        x1="356.03427"
        id="linearGradient1399"
        xlink:href="#linearGradient1397"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.91304346,0,0,0.8918919,31.652181,23.540538)" />
     <linearGradient
        id="linearGradient1397">
       <stop
@@ -95,6 +72,30 @@
          offset="1"
          id="stop1395" />
     </linearGradient>
+    <clipPath
+       id="clipPath1222"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="190.00011"
+         x="317.99997"
+         width="92"
+         style="display:inline;opacity:1;fill:#c0bfbc;fill-opacity:1;stroke:none;stroke-width:0.24999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;enable-background:new"
+         ry="6.7625704"
+         rx="6.7625704"
+         id="rect1224"
+         height="74" />
+    </clipPath>
+    <filter
+       y="-0.10229189"
+       x="-0.082278259"
+       width="1.1645565"
+       style="color-interpolation-filters:sRGB"
+       id="filter1234"
+       height="1.2045838">
+      <feGaussianBlur
+         stdDeviation="3.154"
+         id="feGaussianBlur1236" />
+    </filter>
   </defs>
   <metadata
      id="metadata4">
@@ -408,7 +409,7 @@
            y="184"
            x="312"
            width="104"
-           style="display:inline;opacity:1;fill:#fcfcfc;fill-opacity:1;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;enable-background:new"
+           style="display:inline;opacity:1;fill:#f6f5f4;fill-opacity:1;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;enable-background:new"
            ry="8"
            rx="8"
            id="rect974"
@@ -432,37 +433,28 @@
            id="rect1366"
            height="4.1871843" />
         <g
-           style="fill:#e3e1e1;fill-opacity:1;stroke:#90879f;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter1389)"
-           id="g1379"
-           clip-path="url(#clipPath1381-7)">
+           style="stroke:#3d3846;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter1234)"
+           id="g1205"
+           clip-path="url(#clipPath1222)">
           <rect
-             y="187.11623"
-             x="314"
-             width="99.999962"
-             style="display:inline;opacity:1;fill:#e3e1e1;fill-opacity:1;stroke:#90879f;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;enable-background:new"
-             ry="5.25"
-             rx="5.25"
-             id="rect1374"
-             height="81.999901" />
+             y="190.00011"
+             x="317.99997"
+             width="92"
+             style="display:inline;opacity:1;fill:#c0bfbc;fill-opacity:1;stroke:#3d3846;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;enable-background:new"
+             ry="6.7625704"
+             rx="6.7625704"
+             id="rect1403"
+             height="74" />
         </g>
         <rect
-           y="192.00011"
-           x="317.99997"
-           width="92"
-           style="display:inline;opacity:1;fill:#c0bfbc;fill-opacity:1;stroke:none;stroke-width:0.24999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;enable-background:new"
-           ry="3.9341359"
-           rx="3.9341359"
-           id="rect1403"
-           height="73.999992" />
-        <rect
-           y="190.00011"
-           x="317.99997"
-           width="92"
+           y="193.00011"
+           x="321.99997"
+           width="84"
            style="display:inline;opacity:1;fill:url(#linearGradient1399);fill-opacity:1;stroke:none;stroke-width:0.24999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;enable-background:new"
-           ry="3.9341359"
-           rx="3.9341359"
+           ry="2.6967063"
+           rx="2.6967063"
            id="rect1370"
-           height="73.999992" />
+           height="65.999992" />
       </g>
     </g>
   </g>
