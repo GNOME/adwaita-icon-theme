@@ -162,7 +162,7 @@ install-data-hook:
 		$(LN_S) -f  hand2$$cur			9d800788f1b08800ae810202380a0822$$cur && \
 		$(LN_S) -f  hand2$$cur			e29285e634086352946a0e7090d73106$$cur && \
 		$(LN_S) -f  hand2$$cur			hand$$cur && \
-		$(LN_S) -f  grabbing$$cur		fleur$$cur && \
+		$(LN_S) -f  all-scroll$$cur		fleur$$cur && \
 		$(LN_S) -f  question_arrow$$cur		d9ce0ab605698f320427677b458ad60b$$cur && \
 		$(LN_S) -f  question_arrow$$cur		5c6cd98b3f3ebcb1f9c7f1c204630408$$cur && \
 		$(LN_S) -f  question_arrow$$cur		help$$cur && \
