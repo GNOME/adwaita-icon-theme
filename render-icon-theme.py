@@ -12,6 +12,7 @@ SRC = os.path.join('.', 'src', 'fullcolor')
 inkscape_process = None
 
 def optimize_png(png_file):
+    return
     if os.path.exists(ZOPFLIPNG):
         process = subprocess.Popen([ZOPFLIPNG, '-y', '-m', png_file, png_file])
         process.wait()
