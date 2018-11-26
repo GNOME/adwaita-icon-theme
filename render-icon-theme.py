@@ -12,12 +12,11 @@ SRC = os.path.join('.', 'src', 'fullcolor')
 inkscape_process = None
 
 def optimize_png(png_file):
-    return
     if os.path.exists(ZOPFLIPNG):
-        process = subprocess.Popen([ZOPFLIPNG, '-y', '-m', png_file, png_file])
+        process = subprocess.Popen([ZOPFLIPNG, '-y', '-m', png_file, png_file], stdout=open(os.devnull, 'wb'))
         process.wait()
     elif os.path.exists(OPTIPNG):
-        process = subprocess.Popen([OPTIPNG, '-quiet', '-o7', png_file])
+        process = subprocess.Popen([OPTIPNG, '-quiet', '-o7', png_file], stdout=open(os.devnull, 'wb'))
         process.wait()
 
 def wait_for_prompt(process, command=None):
