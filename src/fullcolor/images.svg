@@ -35,7 +35,7 @@
             <dc:title>Lapo Calamandrei</dc:title>
           </cc:Agent>
         </dc:creator>
-        <dc:title></dc:title>
+        <dc:title />
         <dc:description>Based of Jakub Steiner work</dc:description>
         <dc:contributor>
           <cc:Agent>
@@ -61,9 +61,9 @@
      guidetolerance="13"
      height="300px"
      id="base"
-     inkscape:current-layer="g26011"
-     inkscape:cx="820.59114"
-     inkscape:cy="40.492586"
+     inkscape:current-layer="layer2"
+     inkscape:cx="362.59114"
+     inkscape:cy="-39.507414"
      inkscape:document-units="px"
      inkscape:grid-bbox="true"
      inkscape:pageopacity="0.0"
@@ -578,19 +578,6 @@
          stdDeviation="2.0006923"
          id="feGaussianBlur1529" />
     </filter>
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter1533"
-       x="-0.064307965"
-       width="1.1286159"
-       y="-0.081782167"
-       height="1.1635643">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="12.004154"
-         id="feGaussianBlur1535" />
-    </filter>
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient1634"
@@ -860,12 +847,6 @@
        style="display:inline">
       <g
          id="g1456">
-        <path
-           sodipodi:nodetypes="sssccssss"
-           inkscape:connector-curvature="0"
-           id="path1531"
-           d="m 84.125,-120.2769 h 384 c 17.728,0 32,14.272 32,32 V 112 L 380.1247,232 H 84.125 c -17.728,0 -32,-14.272 -32,-32 V -88.2769 c 0,-17.728 14.272,-32 32,-32 z"
-           style="opacity:0.2;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;filter:url(#filter1533)" />
         <path
            style="opacity:0.4;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;filter:url(#filter1527)"
            d="m 84.125,-121.2769 h 384 c 17.728,0 32,14.272 32,32 V 111 L 380.1247,231 H 84.125 c -17.728,0 -32,-14.272 -32,-32 V -89.2769 c 0,-17.728 14.272,-32 32,-32 z"
