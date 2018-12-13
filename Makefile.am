@@ -29,7 +29,7 @@ endif
 theme_in_files = index.theme.in
 theme_DATA = $(theme_in_files:.theme.in=.theme)
 
-THEME_DIRS=$(shell SIZES="$(install_sizes)"; for size in $$SIZES; do for dir in `find $(srcdir)/$(SVGOUTDIR)/$$size/* -type d`; do printf "$$dir,"; done; done; echo "scalable/actions,scalable/apps,scalable/categories,scalable/devices,scalable/emblems,scalable/emotes,scalable/mimetypes,scalable/places,scalable/status,scalable/legacy,scalable-up-to-32/status,")
+THEME_DIRS=$(shell SIZES="$(install_sizes)"; for size in $$SIZES; do for dir in `find $(srcdir)/$(SVGOUTDIR)/$$size/* -type d`; do printf "$$dir,"; done; done; echo "scalable/actions,scalable/apps,scalable/categories,scalable/devices,scalable/emblems,scalable/emotes,scalable/mimetypes,scalable/places,scalable/status,scalable/legacy,scalable/ui,scalable-up-to-32/status,")
 
 %.theme: %.theme.in $(SVGOUTDIR) Makefile
 	dirs="`echo $(THEME_DIRS) | sed -e 's#$(srcdir)/Adwaita/##g'`"; \
