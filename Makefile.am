@@ -78,6 +78,9 @@ THEME_DIRS=$(shell SIZES="$(install_sizes)"; for size in $$SIZES; do for dir in 
 		if test "$$context" = "status"; then \
 			echo "Context=Status" >> $@; \
 		fi; \
+		if test "$$context" = "ui"; then \
+			echo "Context=UI" >> $@; \
+		fi; \
 		if test "$$context" = "legacy"; then \
 			echo "Context=Legacy" >> $@; \
 		fi; \
