@@ -1,3 +1,21 @@
+3.31.91
+  - symbolic: folder-download, inode-directory
+  - symbolic: privacy, dnd, phone device icons
+  - symbolic: new ui context for things that aren't strictly icons. Might go into gtk
+  - symbolic: emoji category tweaks
+  - symbolic: mail-reply, battery status (issue #6)
+  - symbolic: action icons eg rotation
+  - symbolic: drive icon tweaks 
+  - fullcolor: more app/mimetype/device/status to legacy
+  - fullcolor: new style for fullcolor icons - folders, mimetypes and devices
+  - cursors: fix a symlink mixup (mr #5)
+  
+3.31.1
+  - few symbolic updates
+  - move a lot of fullcolor icons to legacy context. They will go or be updated 
+    in 2 releases.
+  - symbolic: lists (issue #16)
+  - fullcolor: more app, device, mimetypes to legacy
 3.30.0
   - audio-speakers-symbolic rendering glitch (issue #11)
   - *starred-symbolic 2px outline as per guidelines (issue #7)
