@@ -45,7 +45,7 @@ def chopSVG(icon)
 		cmd = "#{INKSCAPE} -f #{icon[:file]} -z --vacuum-defs --export-plain-svg=#{icon[:file]} > /dev/null 2>&1"
 		system(cmd)
 		# remove as many extraneous elements as possible with SVGO
-		cmd = "#{SVGO} --pretty --disable=convertShapeToPath -i #{icon[:file]} -o  #{icon[:file]} > /dev/null 2>&1"
+		cmd = "#{SVGO} --pretty --disable=convertShapeToPath --enable=removeStyleElement -i #{icon[:file]} -o  #{icon[:file]} > /dev/null 2>&1"
 		system(cmd)
 	else
 		puts " -- #{icon[:name]} already exists"
