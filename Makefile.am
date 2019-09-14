@@ -227,6 +227,7 @@ EXTRA_DIST =			\
 	Adwaita			\
 	COPYING_CCBYSA3		\
 	COPYING_LGPL		\
+	README.md		\
 	$(theme_in_files)
 
 CLEANFILES = 			\
