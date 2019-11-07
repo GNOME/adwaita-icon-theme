@@ -5,8 +5,8 @@ require "fileutils"
 include REXML
 
 
-INKSCAPE = 'flatpak run org.inkscape.Inkscape'
-# INKSCAPE = '/usr/bin/inkscape'
+#INKSCAPE = 'flatpak run org.inkscape.Inkscape'
+INKSCAPE = '/usr/bin/inkscape'
 SRC = "src/symbolic/gnome-stencils.svg"
 PREFIX = "Adwaita/scalable"
 PREFIX32 = "Adwaita/scalable-up-to-32" # dirty but it allows rendering those up-to icons
