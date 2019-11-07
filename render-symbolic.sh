@@ -4,4 +4,4 @@
 # install the flatpak from here:
 # https://gitlab.gnome.org/jsparber/svago-export
 
-flatpak run org.gnome.SvagoExport src/symbolic/gnome-stencils.svg
+flatpak run org.gnome.SvagoExport src/symbolic/gnome-stencils.svg -o ./Adwaita/scalable/
