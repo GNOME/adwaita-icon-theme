@@ -1,6 +1,8 @@
-Bugs and Requests
+Adwaita Icon Theme
 -----------------
 
+Bugs and Requests
+==================
 Requests for icons that will be useful for more than a single
 application and it makes sense to share it in an icon theme should be
 filed in the GitLab [issue tracker][1] of this module.
