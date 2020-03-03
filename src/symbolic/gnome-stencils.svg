@@ -12,7 +12,7 @@
    width="720"
    height="1024"
    id="svg7384"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
    sodipodi:docname="gnome-stencils.svg"
    style="enable-background:new"
    inkscape:export-filename="/home/sam/source-symbolic.png"
@@ -27,15 +27,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
+     inkscape:window-width="5120"
+     inkscape:window-height="1376"
      id="namedview88"
-     showgrid="true"
-     inkscape:zoom="8"
-     inkscape:cx="169.96868"
-     inkscape:cy="823.06866"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     showgrid="false"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="141.13562"
+     inkscape:cy="927.85829"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      showborder="false"
@@ -6008,18 +6008,6 @@
        id="g3852"
        inkscape:label="battery-level-70-charging">
       <path
-         inkscape:connector-curvature="0"
-         style="fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:1"
-         d="m 137,35 v 1 h 6 v -1 z"
-         id="path3832" />
-      <path
-         style="fill:#2e3436;fill-opacity:1;stroke:none"
-         d="m -203,120 v 3 2 h 3 v -2 l 3,-3 v 0 z"
-         transform="translate(340,-84)"
-         id="path3834"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cccccccc" />
-      <path
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#2e3436;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none"
          d="M 142.00025,42.99975 135,43 V 31 h 2 v -1.504577 c 0,-0.234375 0.25,-0.484375 0.46875,-0.484375 h 4.96875 c 0.28125,-0.01563 0.54687,0.340963 0.5625,0.622213 V 31 h 2 l 2.5e-4,3.99975"
          id="path3836"
@@ -6067,6 +6055,12 @@
          height="1"
          x="142.96899"
          y="42.968498" />
+      <path
+         style="fill:#33d17a;fill-opacity:1;stroke:none;stroke-width:1;enable-background:new"
+         d="m 137,35 v 1 3 2 h 3 v -2 l 3,-3 v -1 z"
+         id="path3832"
+         class="success"
+         inkscape:connector-curvature="0" />
     </g>
     <g
        inkscape:label="battery-level-60-charging"
@@ -6079,7 +6073,8 @@
          id="path3856"
          transform="translate(340,-84)"
          d="m -203,120 v 3 2 h 3 v -2 l 3,-3 v 0 z"
-         style="fill:#2e3436;fill-opacity:1;stroke:none" />
+         style="fill:#33d17a;fill-opacity:1;stroke:none"
+         class="success" />
       <path
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ccccccccccc"
@@ -6195,7 +6190,7 @@
        id="g3911"
        inkscape:label="battery-level-50-charging">
       <path
-         style="fill:#2e3436;fill-opacity:1;stroke:none"
+         style="fill:#33d17a;fill-opacity:1;stroke:none"
          d="m -103,121 v 2 2 h 3 v -2 l 2,-2 z"
          transform="translate(240,-84)"
          id="path3895"
@@ -6255,11 +6250,12 @@
        style="enable-background:new"
        transform="translate(20)">
       <path
-         style="fill:#2e3436;fill-opacity:1;stroke:none"
+         style="fill:#33d17a;fill-opacity:1;stroke:none"
          d="m -83,122 v 1 2 h 3 v -2 l 1,-1 z"
          transform="translate(220,-84)"
          id="path3916"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         class="success" />
       <path
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ccccccccccc"
@@ -6315,11 +6311,12 @@
        inkscape:label="battery-level-30-charging"
        transform="translate(40)">
       <path
-         style="fill:#2e3436;fill-opacity:1;stroke:none"
+         style="fill:#33d17a;fill-opacity:1;stroke:none"
          d="m -63,123 v 2 h 3 v -2 z"
          transform="translate(200,-84)"
          id="path3938"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         class="success" />
       <path
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#2e3436;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none"
          d="M 142.00025,42.99975 135,43 V 31 h 2 v -1.504577 c 0,-0.234375 0.25,-0.484375 0.46875,-0.484375 h 4.96875 c 0.28125,-0.01563 0.54687,0.340963 0.5625,0.622213 V 31 h 2 l 2.5e-4,3.99975"
@@ -6377,9 +6374,9 @@
       <path
          id="path3966"
          d="m 137,40 v 1 h 3 v -1 z"
-         style="fill:#e01b24;fill-opacity:1;stroke:none;stroke-width:1"
+         style="fill:#33d17a;fill-opacity:1;stroke:none;stroke-width:1"
          inkscape:connector-curvature="0"
-         class="error" />
+         class="success" />
       <path
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ccccccccccc"
@@ -6520,8 +6517,8 @@
          inkscape:connector-curvature="0"
          id="path4011"
          d="m 137,39 v 2 h 3 v -2 z"
-         style="fill:#f57900;fill-opacity:1;stroke:none;stroke-width:1"
-         class="warning"
+         style="fill:#33d17a;fill-opacity:1;stroke:none;stroke-width:1"
+         class="success"
          sodipodi:nodetypes="ccccc" />
       <path
          inkscape:connector-curvature="0"
@@ -6617,14 +6614,13 @@
          id="rect4049"
          style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none" />
       <rect
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#33d17a;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;enable-background:accumulate"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;enable-background:accumulate"
          id="rect4051"
          width="8"
          height="6"
          x="25"
          y="-247"
-         transform="scale(1,-1)"
-         class="success" />
+         transform="scale(1,-1)" />
     </g>
     <g
        id="g4563"
