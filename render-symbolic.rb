@@ -6,13 +6,14 @@ include REXML
 
 
 INKSCAPE = 'flatpak run org.inkscape.Inkscape'
-#INKSCAPE = '/usr/bin/inkscape'
+# INKSCAPE = '/usr/bin/inkscape'
 SRC = "src/symbolic/gnome-stencils.svg"
 PREFIX = "Adwaita/scalable"
 PREFIX32 = "Adwaita/scalable-up-to-32" # dirty but it allows rendering those up-to icons
 
 # SVGO is a Node.js SVG optimization tool install with 'sudo npm install -g svgo'
 # script will skip if SVGO is not present
+# SVGO = '/usr/local/bin/svgo' # it gets put here on some distros
 SVGO = '/usr/bin/svgo'
 
 def chopSVG(icon)
@@ -45,7 +46,7 @@ def chopSVG(icon)
 		cmd = "#{INKSCAPE} -f #{icon[:file]} -z --vacuum-defs --export-plain-svg=#{icon[:file]} > /dev/null 2>&1"
 		system(cmd)
 		# remove as many extraneous elements as possible with SVGO
-		cmd = "#{SVGO} --pretty --disable=convertShapeToPath --enable=removeStyleElement -i #{icon[:file]} -o  #{icon[:file]} > /dev/null 2>&1"
+		cmd = "#{SVGO} --pretty --disable=convertShapeToPath --disable=convertPathData --enable=removeStyleElement -i #{icon[:file]} -o  #{icon[:file]} > /dev/null 2>&1"
 		system(cmd)
 	else
 		puts " -- #{icon[:name]} already exists"
