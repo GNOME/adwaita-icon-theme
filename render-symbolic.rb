@@ -13,8 +13,8 @@ PREFIX32 = "Adwaita/scalable-up-to-32" # dirty but it allows rendering those up-
 
 # SVGO is a Node.js SVG optimization tool install with 'sudo npm install -g svgo'
 # script will skip if SVGO is not present
-# SVGO = '/usr/local/bin/svgo' # it gets put here on some distros
 SVGO = '/usr/bin/svgo'
+# SVGO = '/usr/local/bin/svgo' # it gets put here on some distros
 
 def chopSVG(icon)
 	FileUtils.mkdir_p(icon[:dir]) unless File.exists?(icon[:dir])
