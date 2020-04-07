@@ -5,7 +5,7 @@ $(render_sizes): Makefile
 
 install-data-local:
 	for size in $(render_sizes); do \
-		echo -e "Going to copy files for $$size"; \
+		echo "Going to copy files for $$size"; \
 		for file in `cd $(top_srcdir)/$(SVGOUTDIR)/$$size && find . -name "*.png"`; do \
 			context="`dirname $$file`"; \
 			$(mkdir_p) $(DESTDIR)$(themedir)/$$size/$$context; \
