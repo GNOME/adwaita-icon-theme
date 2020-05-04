@@ -22,29 +22,23 @@ def chopSVG(icon)
 		FileUtils.cp(SRC,icon[:file]) 
 		puts " >> #{icon[:name]}"
 		# extract the icon
-		cmd = "#{INKSCAPE} -f #{icon[:file]} "
-		cmd += "--select #{icon[:id]} --verb=FitCanvasToSelection --verb=EditInvertInAllLayers --verb=EditDelete " # delete everything but the icon
-		cmd += "--verb=FileVacuum --verb=FileSave --verb=FileQuit > /dev/null 2>&1"
+		cmd = "#{INKSCAPE} -g #{icon[:file]} --select #{icon[:id]} --verb=\"FitCanvasToSelection;EditInvertInAllLayers"
+		cmd += ";EditDelete;EditSelectAll;SelectionUnGroup;SelectionUnGroup;SelectionUnGroup;StrokeToPath;FileVacuum"
+		cmd += ";FileSave;FileQuit;\"" 
 		system(cmd)
 		# remove bounding rectangle
+		#bounding rectangle is now a path. needs to be removed
 		svgcrop = Document.new(File.new(icon[:file], 'r'))
-		svgcrop.root.each_element("//rect") do |rect| 
-			w = ((rect.attributes["width"].to_f * 10).round / 10.0).to_i #get rid of 16 vs 15.99999 
-			h = ((rect.attributes["width"].to_f * 10).round / 10.0).to_i #Inkscape bugs
-			if w == 16 && h == 16
-				rect.remove
-			end
-		end
+		svgcrop.root.each_element("//path") do |path|
+	    puts(path.attributes['style'])
+	    if path.attributes['style'].include? 'fill:none;'
+		    puts "DEBUG: found rect to remove #{path}"
+		    path.remove
+	    end
+    end
 		icon_f = File.new(icon[:file],'w+')
 		icon_f.puts svgcrop
 		icon_f.close
-		# convert any strokes and objects to paths
-		cmd = "#{INKSCAPE} -f #{icon[:file]} --verb=EditSelectAll --verb=SelectionUnGroup --verb=SelectionUnGroup --verb=SelectionUnGroup --verb=ObjectToPath --verb=StrokeToPath "
-		cmd += "--verb=FileSave --verb=FileQuit > /dev/null 2>&1"
-		system(cmd)
-		# save as plain SVG
-		cmd = "#{INKSCAPE} -f #{icon[:file]} -z --vacuum-defs --export-plain-svg=#{icon[:file]} > /dev/null 2>&1"
-		system(cmd)
 		# remove as many extraneous elements as possible with SVGO
 		cmd = "#{SVGO} --pretty --disable=convertShapeToPath --disable=convertPathData --enable=removeStyleElement -i #{icon[:file]} -o  #{icon[:file]} > /dev/null 2>&1"
 		system(cmd)
