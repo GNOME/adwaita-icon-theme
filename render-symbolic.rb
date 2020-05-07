@@ -24,15 +24,15 @@ def chopSVG(icon)
 		# extract the icon
 		cmd = "#{INKSCAPE} -g #{icon[:file]} --select #{icon[:id]} --verb=\"FitCanvasToSelection;EditInvertInAllLayers"
 		cmd += ";EditDelete;EditSelectAll;SelectionUnGroup;SelectionUnGroup;SelectionUnGroup;StrokeToPath;FileVacuum"
-		cmd += ";FileSave;FileQuit;\"" 
+		cmd += ";FileSave;FileQuit;\" > /dev/null 2>&1" 
 		system(cmd)
 		# remove bounding rectangle
 		#bounding rectangle is now a path. needs to be removed
 		svgcrop = Document.new(File.new(icon[:file], 'r'))
 		svgcrop.root.each_element("//path") do |path|
-	    puts(path.attributes['style'])
+	    #puts(path.attributes['style'])
 	    if path.attributes['style'].include? 'fill:none;'
-		    puts "DEBUG: found rect to remove #{path}"
+		    #puts "DEBUG: found rect to remove #{path}"
 		    path.remove
 	    end
     end
