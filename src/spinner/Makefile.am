@@ -20,7 +20,7 @@ render: render-png
 all-local: render
 
 install-data-local:
-	      size='scalable-up-to-32'
+	      size='scalable-up-to-32' ; \
 	      for file in `cd $(top_srcdir)/$(SVGOUTDIR)/$$size; find . -name "*.png"`; do \
 		      context="`dirname $$file`"; \
 		      $(mkdir_p) $(DESTDIR)$(themedir)/$$size/$$context; \
