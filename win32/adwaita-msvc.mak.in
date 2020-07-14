@@ -23,6 +23,16 @@ PYTHON=python
 PREFIX=$(SRCROOTDIR)\..\vs$(VSVER)\$(PLAT)
 !ENDIF
 
+# Location of gtk-update-icon-cache.exe (default $(PREFIX)\bin\gtk-update-icon-cache.exe)
+!if "$(GTK_UPDATE_ICON_CACHE)" == ""
+GTK_UPDATE_ICON_CACHE=$(PREFIX)\bin\gtk-update-icon-cache.exe
+!endif
+
+# Location of gtk-encode-symbolic-svg.exe (default $(PREFIX)\bin\gtk-encode-symbolic-svg.exe)
+!if "$(GTK_ENCODE_SYMBOLIC_SVG)" == ""
+GTK_ENCODE_SYMBOLIC_SVG=$(PREFIX)\bin\gtk-encode-symbolic-svg.exe
+!endif
+
 ERRNUL  = 2>NUL
 _HASH=^#
 NULL=
@@ -157,21 +167,21 @@ install: index.theme $(ADWAITA_PC_FILES)
 		 (mkdir $(PREFIX)\$(ICON_SUBDIR)\%d\%f) &								\
 		 (copy /b $(SRCROOTDIR)\Adwaita\%d\%f\* $(PREFIX)\$(ICON_SUBDIR)\%d\%f))				\
 	  else (copy /b $(SRCROOTDIR)\Adwaita\%d\* $(PREFIX)\$(ICON_SUBDIR)\%d))
-	@if exist $(PREFIX)\bin\gtk-encode-symbolic-svg.exe								\
-	if exist $(PREFIX)\lib\gdk-pixbuf-2.0\$(GDK_PIXBUF_MOD_VERSION)\loaders\libpixbufloader-svg.dll			\
-	if exist $(PREFIX)\lib\gdk-pixbuf-2.0\$(GDK_PIXBUF_MOD_VERSION)\loaders.cache 					\
+	@for %x in ($(GTK_ENCODE_SYMBOLIC_SVG) $(GTK_ENCODE_SYMBOLIC_SVG).exe) do if exist %x	\
+	if exist %~dpx\..\lib\gdk-pixbuf-2.0\$(GDK_PIXBUF_MOD_VERSION)\loaders\libpixbufloader-svg.dll			\
+	if exist %~dpx\..\lib\gdk-pixbuf-2.0\$(GDK_PIXBUF_MOD_VERSION)\loaders.cache 					\
 		@(echo Converting symbolic SVG icons to PNG...) &							\
 		@(for %z in (16x16 24x24 32x32 48x48 64x64 96x96) do							\
 			@(echo Converting symbolic SVG icons to %z PNG...) &						\
 			@(for /f %d in ('dir /b /on $(SRCROOTDIR)\Adwaita\scalable') do					\
 				@(for /f %f in ('dir /b /on $(SRCROOTDIR)\Adwaita\scalable\%d') do			\
-					@($(PREFIX)\bin\gtk-encode-symbolic-svg $(SRCROOTDIR)\Adwaita\scalable\%d\%f	\
+					@($(GTK_ENCODE_SYMBOLIC_SVG) $(SRCROOTDIR)\Adwaita\scalable\%d\%f	\
 					 %z -o $(PREFIX)\$(ICON_SUBDIR)\%z\%d))))
 	if not exist $(PREFIX)\share\pkgconfig mkdir $(PREFIX)\share\pkgconfig
 	copy adwaita-icon-theme.pc $(PREFIX)\share\pkgconfig
-	@if exist $(PREFIX)\bin\gtk-update-icon-cache.exe 								\
+	@for %x in ($(GTK_UPDATE_ICON_CACHE) $(GTK_UPDATE_ICON_CACHE).exe) do if exist %x	\
 	@(echo Update icon cache...) &											\
-	@($(PREFIX)\bin\gtk-update-icon-cache -q $(PREFIX)\$(ICON_SUBDIR))
+	@($(GTK_UPDATE_ICON_CACHE) -q $(PREFIX)\$(ICON_SUBDIR))
 	@echo Adwaita icon theme install complete.
 
 clean:
