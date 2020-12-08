@@ -1,107 +1,18 @@
-Adwaita Icon Theme
------------------
-
-Bugs and Requests
-==================
-Requests for icons that will be useful for more than a single
-application and it makes sense to share it in an icon theme should be
-filed in the GitLab [issue tracker][1] of this module.
+# Adwaita Icon Theme
 
 
-High resolution icons
-=====================
+## Bugs and Requests
+If you're a core GNOME application maintainer and you have an icon need that bridges multiple components or apps, feel free to file a request in the [issue tracker](https://gitlab.gnome.org/GNOME/adwaita-icon-theme/-/issues). If you're an application developer, file a request against the [Icon Development Kit](https://gitlab.gnome.org/Teams/Design/icon-development-kit/-/issues) instead.
 
-Application launcher icons and filetype icons in general will benefit
-in providing a high resolution variant. For Tango, the canvas size is
-256x256 pixels.
 
-We suggest creating artwork for this large canvas as vectors. It may
-require more time as vector art with filter effects tends to be very
-computentionally intensive, but the benefit is that it allows to
-create derivative works easily. In addition, if we need a higher
-resolution than 256x256 in future, it's simply a matter of
-re-rendering the icons.
+## Fullcolor vs symbolic
+For an up to date guide on how to use and how to design GNOME style icons, see the [GNOME User Interface Guidelines](https://developer.gnome.org/hig/stable/icons-and-artwork.html.en).
 
-Due to the large canvas a lot of the guidelines discussed elsewhere in
-this document do not apply. What still stands is the use of colors,
-the perspective and lighting.
+## Building and Contributing to Adwaita
+If you have experience designing symbolic icons for 3rd party GNOME apps and would like to help maintaining `adwaita-icon-theme`, here's a few tips on how to get going and how it differs from the [Devkit](https://gitlab.gnome.org/Teams/Design/icon-development-kit).
 
-* FIXME: outlines (strokes alternative - wip)
-* FIXME: highlights (inner stroke alternative)
-* FIXME: shadows (wip)
-
-Inkscape workflow tips:
------------------------
-
-* The 256x256 icon needs to be nice when scaled down to 64x64 (25%
-  zoom), so, in inkscape, it's necessary to use a 1x1 pixels grid with
-  major lines every 4. Lining up the main objects to the major lines
-  of the grid will help making the icon less blurry when scaled down.
-
-* Text: the best trick we found (atm) for text in high resolution
-  icons is to use the text tool to write something (lorem ipsum, funny
-  things, nonsenses and so on:-)) using the Bitstream Vera Sans
-  typeface with a 6pt size, trying to have the main bodies of the
-  letters between two horizontal major grid lines, then we convert the
-  text object to path and simplify (`ctrl+l`) 3 times. In case the text
-  is not visible enough when scaling down overlaying the line with a
-  very subtle rectangle 4px tall will help (see `text-x-generic`).
-
-* Outlines: to make the things stand out we darken the edges using
-  various tecniques. Lapo's favourite is to group the all objects
-  costituting the shape; copy, paste in place, ungroup and make the
-  boolean union to obtain the silouhette [`ctrl+c`, `crtl+alt+v`, `ctrl+u`,
-  `ctrl++`]; copy again; set this path fill to none, set the stroke from
-  0.5 to 2 pixels in a dark color (usaully black) and set blur from 1
-  to 2 points; group it with the previous group; paste in place and
-  select the new group and the pasted path apply a clipping mask (the
-  pasted path will be used as a clipping mask) [Object -> Clip ->
-  Set]. Now you can do group editing with the clipping mask in place
-  [`ctrl+enter` to "enter" the group]. You can play with various stroke
-  width and color or gradients and with different blur settings.
-
-* Shadows: there's usually two shadow objects, one darker, less
-  blurred, less offset. The other very fuzzy, very transparent. So you
-  get a nice soft, non-linear falloff.
-
-Symbolic Icons
-==============
-
-Purpose of this icon theme is to extend the base icon theme that
-follows the Tango style guidelines for specific purposes. This would
-include OSD messages, panel system/notification area, and possibly
-menu icons.
-
-Icons follow the naming specification, but have a `-symbolic` suffix, so
-only applications specifically looking up these symbolic icons will
-render them. If a `-symbolic` icon is missing, the app will fall back to
-the regular name.
-
-Primitive build instructions
-============================
-
-Running the r.rb script will chop up the "source" SVG into individual
-icons. Part of the process is converting paths strokes into
-objects. This is for the external stylesheet to work at gtk3
-runtime. This means objects that rely on this conversion need to be
-undgrouped inside the master group.
-
-Targets
-=======
-
-Here's places that should make use of this style (and look up icons as
-`-symbolic`).
-
-* Panel systray (and gnome-shell equivalents)
-* Nautilus' sidebar eject emblem for mounted drives
-* OSD (volume levels, display, eject etc)
-* text input widgets (caps lock warning, clear icons)
-
-HOWTO
-=====
-
-The whole set is maintained in a single SVG,
-`src/gnome-stencils.svg`. Each context (apps, actions, mimetypes...)
+Just like larger assets in the [Icon Devkit](https://gitlab.gnome.org/Teams/Design/icon-development-kit) or apps relying on [Symbolic Preview](https://gitlab.gnome.org/World/design/symbolic-preview), the set is maintained in a single SVG,
+`src/gnome-stencils.svg`. There are many similarities. The icons are grouped in inkscape layes per icon context (`apps`, `actions`, `mimetypes`…)
 lives inside an Inkscape layer (group).  Any group inside that layer
 is treated as an icon and will be exported into the
 `gnome/scalable/<context>/<inkscape:label>-symbolic.svg` of the
