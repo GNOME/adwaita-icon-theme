@@ -41,16 +41,16 @@
      inkscape:window-height="1011"
      id="namedview88"
      showgrid="false"
-     inkscape:zoom="4.1585029"
-     inkscape:cx="125.40571"
-     inkscape:cy="472.28535"
+     inkscape:zoom="4.0786281"
+     inkscape:cx="142.57245"
+     inkscape:cy="266.02082"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer10"
+     inkscape:current-layer="layer12"
      showborder="false"
      inkscape:snap-nodes="true"
-     inkscape:snap-bbox="false"
+     inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
      showguides="false"
      inkscape:guide-bbox="true"
@@ -94,6 +94,40 @@
      id="title9167">Gnome Symbolic Icon Theme</title>
   <defs
      id="defs7386">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect7961"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,0.999996,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,1.999996,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,1.000004,0,1 @ F,0,0,1,0,0.994146,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="0"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect7957"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,0.999996,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0.999996,0,1 @ F,0,0,1,0,0.999996,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="0"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
     <inkscape:path-effect
        effect="fillet_chamfer"
        id="path-effect69553"
@@ -351,7 +385,7 @@
        inkscape:label="preferences system notifications bell notification ring alarm feedback control"
        id="g2982"
        style="display:inline;enable-background:new"
-       transform="translate(8.0174494,-108.00474)">
+       transform="translate(8.0174494,-98.00474)">
       <title
          id="title2975">preferences-system-notifications</title>
       <rect
@@ -410,12 +444,11 @@
     </g>
     <text
        id="text3375"
-       y="350.33923"
+       y="560.33923"
        x="18.823317"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:start;text-anchor:start;display:inline;fill:#2e3436;fill-opacity:1;stroke:none;enable-background:new"
-       xml:space="preserve"
-       transform="translate(0,200)"><tspan
-         y="350.33923"
+       xml:space="preserve"><tspan
+         y="560.33923"
          x="18.823317"
          id="tspan3373"
          sodipodi:role="line">apps</tspan></text>
@@ -430,7 +463,7 @@
        style="display:inline;enable-background:new"
        id="g4757"
        inkscape:label="emblem system gear cog machine settings preferences options"
-       transform="translate(-422,-112.00029)">
+       transform="translate(-422,-102.00029)">
       <title
          id="title14692">emblem-system</title>
       <rect
@@ -443,16 +476,16 @@
       <path
          id="path14694"
          style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
-         d="M 28 490 C 27.74784 490 27.49621 490.01236 27.25 490.03516 L 26.785156 492.42773 C 26.402936 492.51153 26.029047 492.62904 25.679688 492.78516 L 23.929688 491.10742 C 23.485558 491.3704 23.098314 491.69412 22.714844 492.03516 L 23.75 494.21484 C 23.49582 494.49939 23.265966 494.81117 23.072266 495.14258 L 20.679688 494.82031 C 20.476578 495.28746 20.326294 495.77674 20.214844 496.28516 L 22.322266 497.42773 C 22.302766 497.61982 22.285156 497.80275 22.285156 498 C 22.285156 498.19725 22.302766 498.37822 22.322266 498.57031 L 20.214844 499.71484 C 20.326264 500.22326 20.476578 500.71059 20.679688 501.17773 L 23.072266 500.85742 C 23.265966 501.18883 23.49582 501.50061 23.75 501.78516 L 22.714844 503.96289 C 23.098314 504.30393 23.485557 504.62961 23.929688 504.89258 L 25.679688 503.21289 C 26.029047 503.36901 26.402936 503.48649 26.785156 503.57031 L 27.25 505.96289 C 27.49621 505.98579 27.74784 506 28 506 C 28.25217 506 28.50379 505.98569 28.75 505.96289 L 29.214844 503.57031 C 29.597064 503.48651 29.972906 503.36901 30.322266 503.21289 L 32.072266 504.89258 C 32.516396 504.62961 32.901686 504.30393 33.285156 503.96289 L 32.25 501.78516 C 32.50419 501.50061 32.734024 501.18883 32.927734 500.85742 L 35.322266 501.17773 C 35.525376 500.71059 35.673696 500.22326 35.785156 499.71484 L 33.677734 498.57031 C 33.697234 498.37822 33.714844 498.19725 33.714844 498 C 33.714844 497.80275 33.697134 497.61982 33.677734 497.42773 L 35.785156 496.28516 C 35.673736 495.77674 35.525376 495.28746 35.322266 494.82031 L 32.927734 495.14258 C 32.734024 494.81117 32.50419 494.49939 32.25 494.21484 L 33.285156 492.03516 C 32.901686 491.69412 32.516396 491.3704 32.072266 491.10742 L 30.322266 492.78516 C 29.972906 492.62904 29.597064 492.51155 29.214844 492.42773 L 28.75 490.03516 C 28.50379 490.01226 28.25217 490 28 490 z M 28 495 A 2.9999986 2.9999986 0 0 1 31 498 A 2.9999986 2.9999986 0 0 1 28 501 A 2.9999986 2.9999986 0 0 1 25 498 A 2.9999986 2.9999986 0 0 1 28 495 z "
+         d="m 28,490 c -0.25216,0 -0.50379,0.0124 -0.75,0.0352 l -0.464844,2.39257 c -0.38222,0.0838 -0.756109,0.20131 -1.105468,0.35743 l -1.75,-1.67774 c -0.44413,0.26298 -0.831374,0.5867 -1.214844,0.92774 L 23.75,494.21484 c -0.25418,0.28455 -0.484034,0.59633 -0.677734,0.92774 l -2.392578,-0.32227 c -0.20311,0.46715 -0.353394,0.95643 -0.464844,1.46485 l 2.107422,1.14257 c -0.0195,0.19209 -0.03711,0.37502 -0.03711,0.57227 0,0.19725 0.01761,0.37822 0.03711,0.57031 l -2.107422,1.14453 c 0.11142,0.50842 0.261734,0.99575 0.464844,1.46289 l 2.392578,-0.32031 c 0.1937,0.33141 0.423554,0.64319 0.677734,0.92774 l -1.035156,2.17773 c 0.38347,0.34104 0.770713,0.66672 1.214844,0.92969 l 1.75,-1.67969 c 0.349359,0.15612 0.723248,0.2736 1.105468,0.35742 L 27.25,505.96289 C 27.49621,505.98579 27.74784,506 28,506 c 0.25217,0 0.50379,-0.0143 0.75,-0.0371 l 0.464844,-2.39258 c 0.38222,-0.0838 0.758062,-0.2013 1.107422,-0.35742 l 1.75,1.67969 c 0.44413,-0.26297 0.82942,-0.58865 1.21289,-0.92969 L 32.25,501.78516 c 0.25419,-0.28455 0.484024,-0.59633 0.677734,-0.92774 l 2.394532,0.32031 c 0.20311,-0.46714 0.35143,-0.95447 0.46289,-1.46289 l -2.107422,-1.14453 c 0.0195,-0.19209 0.03711,-0.37306 0.03711,-0.57031 0,-0.19725 -0.01771,-0.38018 -0.03711,-0.57227 l 2.107422,-1.14257 c -0.11142,-0.50842 -0.25978,-0.9977 -0.46289,-1.46485 l -2.394532,0.32227 C 32.734024,494.81117 32.50419,494.49939 32.25,494.21484 l 1.035156,-2.17968 c -0.38347,-0.34104 -0.76876,-0.66476 -1.21289,-0.92774 l -1.75,1.67774 c -0.34936,-0.15612 -0.725202,-0.27361 -1.107422,-0.35743 L 28.75,490.03516 C 28.50379,490.01226 28.25217,490 28,490 Z m 0,5 a 2.9999986,2.9999986 0 0 1 3,3 2.9999986,2.9999986 0 0 1 -3,3 2.9999986,2.9999986 0 0 1 -3,-3 2.9999986,2.9999986 0 0 1 3,-3 z"
          transform="translate(422,-87.99971)" />
     </g>
     <text
        id="text12139"
-       y="280.33923"
+       y="290.33923"
        x="18.823317"
-       style="display:inline;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:start;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;enable-background:new"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:start;text-anchor:start;display:inline;fill:#2e3436;fill-opacity:1;stroke:none;enable-background:new"
        xml:space="preserve"><tspan
-         y="280.33923"
+         y="290.33923"
          x="18.823317"
          id="tspan12137"
          sodipodi:role="line">emblems</tspan></text>
@@ -460,7 +493,7 @@
        style="display:inline"
        inkscape:label="emblem ok good approve check checkmark"
        id="g1388-3"
-       transform="rotate(90,62.069489,188.93369)">
+       transform="rotate(90,57.069489,193.93369)">
       <title
          id="title1373-6">emblem-ok</title>
       <g
@@ -489,7 +522,7 @@
        style="display:inline;enable-background:new"
        id="g5244"
        inkscape:label="emblem synchronizing reload refresh update arrow circular"
-       transform="translate(-441.00019,-90.999996)">
+       transform="translate(-441.00019,-80.999996)">
       <title
          id="title5783">emblem-synchronizing</title>
       <rect
@@ -526,13 +559,13 @@
      inkscape:groupmode="layer">
     <path
        style="color:#000000;fill:#2e3436;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:26.4;-inkscape-stroke:none"
-       d="m 86,420 c -1.644701,0 -3,1.3553 -3,3 v 10 c 0,1.6447 1.355299,3 3,3 h 4 c 1.644701,0 3,-1.3553 3,-3 v -10 c 0,-1.6447 -1.355299,-3 -3,-3 z m 0,2 h 4 c 0.571297,0 1,0.4287 1,1 v 10 c 0,0.5713 -0.428703,1 -1,1 h -4 c -0.571297,0 -1,-0.4287 -1,-1 v -10 c 0,-0.5713 0.428703,-1 1,-1 z"
+       d="m 86,430 c -1.644701,0 -3,1.3553 -3,3 v 10 c 0,1.6447 1.355299,3 3,3 h 4 c 1.644701,0 3,-1.3553 3,-3 v -10 c 0,-1.6447 -1.355299,-3 -3,-3 z m 0,2 h 4 c 0.571297,0 1,0.4287 1,1 v 10 c 0,0.5713 -0.428703,1 -1,1 h -4 c -0.571297,0 -1,-0.4287 -1,-1 v -10 c 0,-0.5713 0.428703,-1 1,-1 z"
        id="rect2428" />
     <g
        style="display:inline"
        inkscape:label="audio headphones music listen"
        id="g6633"
-       transform="rotate(90,-12.93051,243.93368)">
+       transform="rotate(90,-17.93051,248.93368)">
       <title
          id="title6619">audio-headphones</title>
       <g
@@ -592,7 +625,7 @@
        style="display:inline"
        inkscape:label="audio headphones music listen headset microphone record call"
        id="g8437"
-       transform="rotate(90,-2.93051,253.93368)">
+       transform="rotate(90,-7.93051,258.93368)">
       <title
          id="title8419">audio-headset</title>
       <g
@@ -655,7 +688,7 @@
        style="display:inline"
        inkscape:label="phone smartphone mobile cellular call hardware"
        id="g16959"
-       transform="rotate(90,17.06949,273.93368)">
+       transform="rotate(90,12.06949,278.93368)">
       <title
          id="title16941">phone</title>
       <rect
@@ -680,7 +713,7 @@
        style="display:inline"
        inkscape:label="computer pc display screen"
        id="g19699"
-       transform="rotate(90,27.06949,283.93368)">
+       transform="rotate(90,22.06949,288.93368)">
       <title
          id="title19687">computer</title>
       <rect
@@ -709,7 +742,7 @@
        style="display:inline;enable-background:new"
        id="g40392"
        inkscape:label="media optical drive cd dvd bluray disc"
-       transform="translate(-82,-28.000007)">
+       transform="translate(-82,-18.000007)">
       <title
          id="title28352">media-optical</title>
       <path
@@ -737,7 +770,7 @@
      inkscape:label="status"
      style="display:inline">
     <g
-       transform="translate(28.01745,-328.00458)"
+       transform="translate(28.01745,-318.00458)"
        style="display:inline;enable-background:new"
        id="g2018"
        inkscape:label="star filled favorite bookmark">
@@ -771,7 +804,7 @@
        style="display:inline;enable-background:new"
        inkscape:label="dialog password key lock unlock encryption security privacy"
        id="g19750"
-       transform="translate(-220.99993,82.999991)">
+       transform="translate(-220.99993,92.999991)">
       <title
          id="title1311">dialog-password</title>
       <rect
@@ -804,7 +837,7 @@
        inkscape:label="star outline favorite bookmark"
        id="g2010"
        style="display:inline;enable-background:new"
-       transform="translate(8.01745,-328.00458)">
+       transform="translate(8.01745,-318.00458)">
       <title
          id="title2004">non-starred</title>
       <rect
@@ -819,6 +852,54 @@
          d="m 267.35742,-226.66602 -1.53711,4.85352 -4.86133,1.54688 4.14063,2.96289 -0.0312,5.09961 4.09766,-3.02344 4.84179,1.60742 -0.58398,-1.75 -1.02539,-3.08203 3.02343,-4.10742 -5.09179,0.0371 z m 0.64844,4.07422 1.38086,1.92578 2.35937,-0.0176 -1.40429,1.9082 0.74609,2.24023 -2.25,-0.74609 -1.89844,1.40039 0.0137,-2.36914 -1.91992,-1.37305 2.25977,-0.71875 z"
          id="path2008"
          transform="matrix(1.0693492,0.16796633,-0.16796633,1.0693492,-303.9936,865.641)" />
+    </g>
+    <g
+       id="g7160"
+       inkscape:label="notifications disabled bell off silent quiet"
+       transform="translate(-1.769271,0.70636953)">
+      <title
+         id="title7180">notifications-disabled</title>
+      <rect
+         style="color:#bebebe;display:inline;overflow:visible;visibility:visible;opacity:0.514644;fill:none;stroke:none;stroke-width:3;marker:none;enable-background:accumulate"
+         id="rect3026"
+         width="16"
+         height="16"
+         x="81.769279"
+         y="349.29364" />
+      <g
+         id="g3038"
+         transform="translate(70.06756,-324.18003)"
+         style="display:inline">
+        <path
+           id="circle3028"
+           style="display:inline;fill:#2e3436;stroke-width:2;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:8, 8"
+           d="m 608,243.5 a 5,5 0 0 0 -4.57227,2.97656 L 611.95312,255 H 613.5 c 0.554,0 1,-0.446 1,-1 0,-0.554 -0.446,-1 -1,-1 H 613 v -4.5 a 5,5 0 0 0 -5,-5 z m -4.98828,4.68359 A 5,5 0 0 0 603,248.5 v 4.5 h -0.5 c -0.554,0 -1,0.446 -1,1 0,0.554 0.446,1 1,1 h 7.32812 z"
+           transform="translate(-588.29826,431.47363)" />
+        <path
+           style="display:inline;fill:#2e3436;stroke-width:2;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:8, 8"
+           id="path3034"
+           sodipodi:type="arc"
+           sodipodi:cx="19.701799"
+           sodipodi:cy="687.47363"
+           sodipodi:rx="2"
+           sodipodi:ry="2"
+           sodipodi:start="0"
+           sodipodi:end="3.1415927"
+           sodipodi:open="true"
+           sodipodi:arc-type="arc"
+           d="m 21.701799,687.47363 a 2,2 0 0 1 -1,1.73205 2,2 0 0 1 -2,0 2,2 0 0 1 -1,-1.73205" />
+        <circle
+           style="display:inline;fill:#2e3436;stroke-width:2;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:8.00002, 8.00002"
+           id="circle3036"
+           cx="19.701799"
+           cy="674.97363"
+           r="1.5" />
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         style="display:inline;fill:#2e3436;fill-opacity:1;stroke:none"
+         d="m 83.30039,349.75144 -1.061,1.061 14,14 1.062,-1.062 z"
+         id="path3849-3-6-7" />
     </g>
   </g>
   <g
@@ -1098,7 +1179,7 @@
        style="display:inline"
        inkscape:label="go previous arrow left back"
        id="g48536"
-       transform="rotate(90,247.06949,-16.066316)">
+       transform="rotate(90,242.06949,-11.066316)">
       <title
          id="title48528">go-previous</title>
       <rect
@@ -1148,7 +1229,7 @@
        style="display:inline"
        inkscape:label="go next following arrow left back"
        id="g48778"
-       transform="matrix(0,1,1,0,-155.00317,-263.13581)">
+       transform="matrix(0,1,1,0,-155.00317,-253.13581)">
       <title
          id="title48758">go-next</title>
       <rect
@@ -1198,7 +1279,7 @@
        style="display:inline"
        inkscape:label="go first arrow left back"
        id="g51887"
-       transform="rotate(90,237.06949,-6.066316)">
+       transform="rotate(90,232.06949,-1.066316)">
       <title
          id="title51867">go-first</title>
       <rect
@@ -1256,7 +1337,7 @@
        style="display:inline"
        inkscape:label="go last arrow left back"
        id="g55067"
-       transform="matrix(0,1,1,0,-155.00317,-243.13581)">
+       transform="matrix(0,1,1,0,-155.00317,-233.13581)">
       <title
          id="title55045">go-last</title>
       <rect
@@ -1314,7 +1395,7 @@
        style="display:inline"
        inkscape:label="go previous arrow left back"
        id="g58200"
-       transform="translate(-103.1358,-295.00318)">
+       transform="translate(-103.1358,-285.00318)">
       <title
          id="title58180">go-down</title>
       <rect
@@ -1364,7 +1445,7 @@
        style="display:inline"
        inkscape:label="go next following arrow left back"
        id="g58222"
-       transform="matrix(1,0,0,-1,-83.135799,111.00317)">
+       transform="matrix(1,0,0,-1,-83.135799,121.00317)">
       <title
          id="title58202">go-up</title>
       <rect
@@ -1414,7 +1495,7 @@
        style="display:inline"
        inkscape:label="go first arrow left back"
        id="g58246"
-       transform="translate(-103.1358,-275.00318)">
+       transform="translate(-103.1358,-265.00318)">
       <title
          id="title58224">go-bottom</title>
       <rect
@@ -1472,7 +1553,7 @@
        style="display:inline"
        inkscape:label="go last arrow left back"
        id="g58270"
-       transform="matrix(1,0,0,-1,-83.135799,131.00317)">
+       transform="matrix(1,0,0,-1,-83.135799,141.00317)">
       <title
          id="title58248">go-top</title>
       <rect
@@ -1619,7 +1700,7 @@
        style="display:inline"
        inkscape:label="view fullscreen maximize enlarge large"
        id="g83430"
-       transform="rotate(90,227.06949,3.933684)">
+       transform="rotate(90,387.06949,133.93368)">
       <title
          id="title83408">view-fullscreen</title>
       <rect
@@ -1706,7 +1787,7 @@
        style="display:inline"
        inkscape:label="view restore unmaximize"
        id="g104311"
-       transform="rotate(90,237.06949,13.933684)">
+       transform="rotate(90,397.06949,143.93368)">
       <title
          id="title104271">view-restore</title>
       <rect
@@ -1778,7 +1859,7 @@
        style="display:inline"
        inkscape:label="document save"
        id="g108622"
-       transform="rotate(90,247.06949,23.933684)">
+       transform="rotate(90,407.06949,153.93368)">
       <title
          id="title108597">document-save</title>
       <rect
@@ -1809,7 +1890,7 @@
        style="display:inline"
        inkscape:label="document save as name"
        id="g115302"
-       transform="rotate(90,257.06949,33.933684)">
+       transform="rotate(90,417.06949,163.93368)">
       <title
          id="title115292">document-save-as</title>
       <rect
@@ -1861,7 +1942,7 @@
        style="display:inline"
        inkscape:label="document save as name"
        id="g121741"
-       transform="rotate(90,367.06949,143.93368)">
+       transform="rotate(90,367.06949,163.93368)">
       <title
          id="title121731">document-edit</title>
       <rect
@@ -1885,7 +1966,7 @@
        style="display:inline"
        inkscape:label="document save as name"
        id="g122872"
-       transform="rotate(90,377.06949,153.93368)">
+       transform="rotate(90,377.06949,173.93368)">
       <title
          id="title122862">error-correct</title>
       <rect
@@ -1957,7 +2038,7 @@
        id="g6955"
        inkscape:label="color select picker palette colorize dropper"
        style="enable-background:new"
-       transform="translate(27.994386,-668)">
+       transform="translate(47.994386,-648)">
       <title
          id="title55097">color-select</title>
       <rect
@@ -1978,7 +2059,7 @@
        style="display:inline"
        inkscape:label="view list three lines dots squares"
        id="g126538"
-       transform="rotate(90,192.06949,38.933684)">
+       transform="rotate(90,182.06949,48.933684)">
       <title
          id="title126498">view-list</title>
       <g
@@ -2046,7 +2127,7 @@
        style="display:inline"
        inkscape:label="view grid dots squares"
        id="g127032"
-       transform="rotate(90,202.06949,48.933684)">
+       transform="rotate(90,192.06949,58.933684)">
       <title
          id="title127018">view-grid</title>
       <rect
@@ -2101,7 +2182,7 @@
        style="display:inline"
        inkscape:label="open menu primary three lines"
        id="g130640"
-       transform="rotate(90,167.06949,63.933684)">
+       transform="rotate(90,157.06949,73.933684)">
       <title
          id="title130626">open-menu</title>
       <g
@@ -2145,7 +2226,7 @@
        style="display:inline"
        inkscape:label="tab new create navigation"
        id="g130656"
-       transform="rotate(90,177.06949,73.933684)">
+       transform="rotate(90,167.06949,83.933684)">
       <title
          id="title130642">tab-new</title>
       <g
@@ -2187,7 +2268,7 @@
        style="display:inline"
        inkscape:label="edit find search loupe"
        id="g132298"
-       transform="rotate(90,277.06949,53.933684)">
+       transform="rotate(90,277.06949,73.933684)">
       <title
          id="title132282">edit-find</title>
       <rect
@@ -2213,10 +2294,10 @@
        y="0"
        xlink:href="#g132298"
        id="use132565"
-       transform="translate(20)"
        width="100%"
        height="100%"
-       inkscape:label="edit find search loupe system">
+       inkscape:label="edit find search loupe system"
+       transform="translate(20)">
       <title
          id="title132647">system-search</title>
     </use>
@@ -2224,7 +2305,7 @@
        style="display:inline"
        inkscape:label="edit find replace search loupe pencil"
        id="g133092"
-       transform="rotate(90,297.06949,73.933684)">
+       transform="rotate(90,297.06949,93.933684)">
       <title
          id="title133084">edit-find-replace</title>
       <rect
@@ -2237,7 +2318,7 @@
       <path
          id="path133088"
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:new"
-         d="M 169.33984 149.21484 C 169.29442 149.25296 169.25211 149.29494 169.21484 149.33984 L 169.33984 149.21484 z M 171.40234 149.97266 L 169.98633 151.40039 L 173.30273 154.7168 C 174.26107 155.65484 175.66732 154.21734 174.70898 153.2793 L 171.40234 149.97266 z "
+         d="m 169.33984,149.21484 c -0.0454,0.0381 -0.0877,0.0801 -0.125,0.125 z m 2.0625,0.75782 -1.41601,1.42773 3.3164,3.31641 c 0.95834,0.93804 2.36459,-0.49946 1.40625,-1.4375 z"
          transform="rotate(-90,197.06949,173.93368)" />
       <path
          id="path133090"
@@ -2261,7 +2342,7 @@
        style="display:inline"
        inkscape:label="edit clear delete remove"
        id="g135021"
-       transform="rotate(90,317.06949,93.933684)">
+       transform="rotate(90,317.06949,113.93368)">
       <title
          id="title135007">edit-clear</title>
       <rect
@@ -2281,7 +2362,7 @@
        y="0"
        xlink:href="#g135021"
        id="use135235"
-       transform="matrix(-1,0,0,1,435.99439,0)"
+       transform="matrix(-1,0,0,1,475.99439,0)"
        width="100%"
        height="100%"
        inkscape:label="edit clear delete remove rtl">
@@ -2292,13 +2373,13 @@
        style="display:inline"
        inkscape:label="edit cut scissor copy paste document file text content"
        id="g1220"
-       transform="rotate(90,217.06949,13.933684)">
+       transform="rotate(90,207.06949,23.933684)">
       <title
          id="title1180">edit-cut</title>
       <path
          id="path12159"
          style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         d="M 34 161 L 28.794922 165.97266 L 30.359375 167.5 L 36 162 L 36 161 L 34 161 z M 27.195312 167.5 L 24.21875 170.34375 L 25.90625 171.84375 L 28.794922 169.02734 L 27.195312 167.5 z "
+         d="M 34,161 28.794922,165.97266 30.359375,167.5 36,162 v -1 z m -6.804688,6.5 -2.976562,2.84375 1.6875,1.5 2.888672,-2.81641 z"
          transform="rotate(-90,117.06949,113.93368)" />
       <rect
          y="195.00317"
@@ -2328,7 +2409,7 @@
        style="display:inline"
        inkscape:label="edit copy paste document file text content"
        id="g2407"
-       transform="rotate(90,227.06949,23.933684)">
+       transform="rotate(90,217.06949,33.933684)">
       <title
          id="title2401">edit-paste</title>
       <rect
@@ -2372,7 +2453,7 @@
        style="display:inline"
        inkscape:label="edit copy paste document file text content"
        id="g6927"
-       transform="rotate(90,237.06949,33.933684)">
+       transform="rotate(90,227.06949,43.933684)">
       <title
          id="title6915">edit-copy</title>
       <rect
@@ -2406,7 +2487,7 @@
        style="display:inline"
        inkscape:label="document print printer paper"
        id="g29357"
-       transform="rotate(90,267.06949,63.933684)">
+       transform="rotate(90,267.06949,83.933684)">
       <title
          id="title29347">document-print</title>
       <rect
@@ -2443,7 +2524,7 @@
     <g
        inkscape:label="list remove minus remove item"
        id="g31978"
-       transform="translate(0,-296.00009)"
+       transform="translate(0,-276.00009)"
        style="display:inline;enable-background:new">
       <title
          id="title39217">list-remove</title>
@@ -2464,7 +2545,7 @@
     </g>
     <g
        style="display:inline;enable-background:new"
-       transform="translate(20,-296.00009)"
+       transform="translate(20,-276.00009)"
        id="g31988"
        inkscape:label="list add create item">
       <title
@@ -2487,7 +2568,7 @@
        id="g4278"
        inkscape:label="view more three dots vertical"
        style="enable-background:new"
-       transform="translate(-12.00605,-698)">
+       transform="translate(-12.00605,-678)">
       <title
          id="title39743">view-more</title>
       <rect
@@ -2519,7 +2600,7 @@
     <g
        inkscape:label="view more horizontal three dots"
        id="g4288"
-       transform="rotate(-90,-244.99698,363.00303)"
+       transform="rotate(-90,-234.99698,373.00303)"
        style="enable-background:new">
       <title
          id="title39745">view-more-horizontal</title>
@@ -2553,12 +2634,12 @@
        id="g3471"
        inkscape:label="bookmark new create add favorite remember"
        style="enable-background:new"
-       transform="translate(-32.005854,-638)">
+       transform="translate(-32.005854,-618)">
       <title
          id="title6186">bookmark-new</title>
       <path
          style="color:#000000;fill:#2e3436;fill-rule:evenodd;-inkscape-stroke:none"
-         d="m 177.53125,648 c -1.09215,0 -1.91634,0.67948 -2.23047,1.29492 C 174.98665,649.91036 175,650.5 175,650.5 v 13.11719 l 5,-2.5 5,2.5 V 660 659 h -2 v 1 0.38281 l -3,-1.5 -3,1.5 V 650.5 c 0,0 0.0134,-0.16036 0.082,-0.29492 0.0687,-0.13456 0.0101,-0.20508 0.44922,-0.20508 H 182.5 c 0.41667,0 0.34973,0.0608 0.41797,0.19727 C 182.98621,650.33375 183,650.5 183,650.5 v 0.5 h 2 v -0.5 c 0,0 0.0138,-0.58375 -0.29297,-1.19727 C 184.40027,648.68922 183.58333,648 182.5,648 Z"
+         d="m 177.53125,648 c -1.09215,0 -1.91634,0.67948 -2.23047,1.29492 C 174.98665,649.91036 175,650.5 175,650.5 v 13.11719 l 5,-2.5 5,2.5 V 660 659 h -2 v 1 0.38281 l -3,-1.5 -3,1.5 V 650.5 c 0,0 0.0134,-0.16036 0.082,-0.29492 C 177.1507,650.07052 177.0921,650 177.53122,650 H 182.5 c 0.41667,0 0.34973,0.0608 0.41797,0.19727 C 182.98621,650.33375 183,650.5 183,650.5 v 0.5 h 2 v -0.5 c 0,0 0.0138,-0.58375 -0.29297,-1.19727 C 184.40027,648.68922 183.58333,648 182.5,648 Z"
          id="path3443" />
       <path
          sodipodi:nodetypes="ccccccccccccc"
@@ -2669,7 +2750,7 @@
     <g
        id="g2944"
        inkscape:label="dock dock-left left attach side panel sidebar"
-       transform="rotate(90,155.99988,176.00012)"
+       transform="rotate(90,145.99988,186.00012)"
        style="display:inline">
       <title
          id="title2933">sidebar-show</title>
@@ -2689,7 +2770,7 @@
          style="display:inline;fill:#3584e4">
         <rect
            transform="matrix(0,-1,-1,0,0,0)"
-           style="color:#bebebe;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#2e3436;fill-opacity:0.34999999;stroke:none;stroke-width:0.264583;marker:none"
+           style="color:#bebebe;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#2e3436;fill-opacity:0.35;stroke:none;stroke-width:0.264583;marker:none"
            id="rect10511"
            width="3.1750002"
            height="1.3229166"
@@ -2796,7 +2877,7 @@
        style="display:inline"
        inkscape:label="document print preview printer paper stuff"
        id="g59612"
-       transform="rotate(90,277.06949,73.933684)">
+       transform="rotate(90,277.06949,93.933684)">
       <title
          id="title59602">document-print-preview</title>
       <rect
@@ -2836,29 +2917,29 @@
        xlink:href="#g70938"
        id="use16857"
        inkscape:label="edit clear all erase delete remove"
-       transform="translate(79.996755,100)"
        width="100%"
-       height="100%">
+       height="100%"
+       transform="translate(99.996755,120)">
       <title
          id="title16859">edit-clear-all</title>
     </use>
     <text
        id="text30914"
-       y="130.33923"
+       y="140.33923"
        x="18.823317"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:start;text-anchor:start;display:inline;fill:#2e3436;fill-opacity:1;stroke:none;enable-background:new"
        xml:space="preserve"><tspan
-         y="130.33923"
+         y="140.33923"
          x="18.823317"
          id="tspan30912"
          sodipodi:role="line">status</tspan></text>
     <text
        id="text30918"
-       y="210.33923"
+       y="220.33923"
        x="18.823317"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:start;text-anchor:start;display:inline;fill:#2e3436;fill-opacity:1;stroke:none;enable-background:new"
        xml:space="preserve"><tspan
-         y="210.33923"
+         y="220.33923"
          x="18.823317"
          id="tspan30916"
          sodipodi:role="line">devices</tspan></text>
@@ -3130,10 +3211,10 @@
        y="0"
        xlink:href="#g130640"
        id="use4020"
-       transform="translate(250,-220)"
        width="100%"
        height="100%"
-       inkscape:label="format justify fill">
+       inkscape:label="format justify fill"
+       transform="translate(250,-240)">
       <title
          id="title4022">format-justify-fill</title>
     </use>
@@ -3165,7 +3246,7 @@
        style="display:inline"
        inkscape:label="object select check approve done good"
        id="g1388"
-       transform="rotate(90,197.06949,93.933684)">
+       transform="rotate(90,187.06949,103.93368)">
       <title
          id="title1373">object-select-symbolic</title>
       <g
@@ -3193,7 +3274,7 @@
     <g
        id="g16526"
        inkscape:label="edit undo arrow left"
-       transform="matrix(1,0,0,-1,83.01385,282.56338)"
+       transform="matrix(1,0,0,-1,243.01385,232.56338)"
        style="display:inline;enable-background:new">
       <title
          id="title16516">edit-undo</title>
@@ -3232,7 +3313,7 @@
        y="0"
        xlink:href="#g16526"
        id="use17905"
-       transform="matrix(-1,0,0,1,196.00018,0)"
+       transform="matrix(-1,0,0,1,516.00018,0)"
        width="100%"
        height="100%"
        inkscape:label="edit redo arrow right">
@@ -3241,7 +3322,7 @@
     </use>
     <g
        style="display:inline;enable-background:new"
-       transform="translate(58.00909,-438)"
+       transform="translate(78.00909,-418)"
        inkscape:label="zoom fit best"
        id="g14642-3">
       <title
@@ -3249,7 +3330,7 @@
       <path
          id="rect18655"
          style="opacity:1;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-dashoffset:26.4;stroke-opacity:1"
-         d="M 204 161 C 202.338 161 201 162.338 201 164 L 201 172 C 201 173.662 202.338 175 204 175 L 212 175 C 213.662 175 215 173.662 215 172 L 215 164 C 215 162.338 213.662 161 212 161 L 204 161 z M 204 163 L 207.00977 163 L 207.00977 165 L 205.00977 165 L 205.00977 167 L 203.00977 167 L 203 164 C 203.00065 163.87205 203.02582 163.74541 203.07422 163.62695 C 203.07622 163.62195 203.07808 163.61653 203.08008 163.61133 C 203.12878 163.49728 203.19838 163.3933 203.28516 163.30469 C 203.29116 163.29769 203.29809 163.29156 203.30469 163.28516 C 203.39329 163.19836 203.49728 163.12883 203.61133 163.08008 C 203.61633 163.07808 203.62175 163.07622 203.62695 163.07422 C 203.74541 163.02582 203.87205 163.0006 204 163 z M 209 163 L 212.00977 163 C 212.13772 163.0006 212.26435 163.02582 212.38281 163.07422 C 212.38801 163.07622 212.39344 163.07808 212.39844 163.08008 C 212.51249 163.12883 212.61648 163.19836 212.70508 163.28516 C 212.71168 163.29156 212.71861 163.29769 212.72461 163.30469 C 212.81139 163.3933 212.88099 163.49728 212.92969 163.61133 C 212.93169 163.61653 212.93355 163.62195 212.93555 163.62695 C 212.98395 163.74541 213.00912 163.87205 213.00977 164 L 213 167 L 211 167 L 211 165 L 209 165 L 209 163 z M 203.00977 169 L 205.00977 169 L 205.00977 171 L 207.00977 171 L 207.00977 173 L 204 173 C 203.87205 172.9994 203.74541 172.97418 203.62695 172.92578 C 203.62175 172.92378 203.61633 172.92192 203.61133 172.91992 C 203.49728 172.87117 203.39329 172.80164 203.30469 172.71484 C 203.29809 172.70844 203.29116 172.70231 203.28516 172.69531 C 203.19838 172.6067 203.12878 172.50272 203.08008 172.38867 C 203.07808 172.38347 203.07622 172.37805 203.07422 172.37305 C 203.02582 172.25459 203.00065 172.12795 203 172 L 203.00977 169 z M 211 169 L 213 169 L 213.00977 172 C 213.00912 172.12795 212.98395 172.25459 212.93555 172.37305 C 212.93355 172.37805 212.93169 172.38347 212.92969 172.38867 C 212.88099 172.50272 212.81139 172.6067 212.72461 172.69531 C 212.71861 172.70231 212.71168 172.70844 212.70508 172.71484 C 212.61648 172.80164 212.51249 172.87117 212.39844 172.91992 C 212.39344 172.92192 212.38801 172.92378 212.38281 172.92578 C 212.26435 172.97418 212.13772 172.9994 212.00977 173 L 209 173 L 209 171 L 211 171 L 211 169 z "
+         d="m 204,161 c -1.662,0 -3,1.338 -3,3 v 8 c 0,1.662 1.338,3 3,3 h 8 c 1.662,0 3,-1.338 3,-3 v -8 c 0,-1.662 -1.338,-3 -3,-3 z m 0,2 h 3.00977 v 2 h -2 v 2 h -2 L 203,164 c 6.5e-4,-0.12795 0.0258,-0.25459 0.0742,-0.37305 0.002,-0.005 0.004,-0.0104 0.006,-0.0156 0.0487,-0.11405 0.1183,-0.21803 0.20508,-0.30664 0.006,-0.007 0.0129,-0.0131 0.0195,-0.0195 0.0886,-0.0868 0.19259,-0.15633 0.30664,-0.20508 0.005,-0.002 0.0104,-0.004 0.0156,-0.006 0.11846,-0.0484 0.2451,-0.0736 0.37305,-0.0742 z m 5,0 h 3.00977 c 0.12795,6e-4 0.25458,0.0258 0.37304,0.0742 0.005,0.002 0.0106,0.004 0.0156,0.006 0.11405,0.0487 0.21804,0.11828 0.30664,0.20508 0.007,0.006 0.0135,0.0125 0.0195,0.0195 0.0868,0.0886 0.15638,0.19259 0.20508,0.30664 0.002,0.005 0.004,0.0106 0.006,0.0156 0.0484,0.11846 0.0736,0.2451 0.0742,0.37305 l -0.01,3 h -2 v -2 h -2 z m -5.99023,6 h 2 v 2 h 2 v 2 H 204 c -0.12795,-6e-4 -0.25459,-0.0258 -0.37305,-0.0742 -0.005,-0.002 -0.0106,-0.004 -0.0156,-0.006 -0.11405,-0.0487 -0.21804,-0.11828 -0.30664,-0.20508 -0.007,-0.006 -0.0135,-0.0125 -0.0195,-0.0195 -0.0868,-0.0886 -0.15638,-0.19259 -0.20508,-0.30664 -0.002,-0.005 -0.004,-0.0106 -0.006,-0.0156 C 203.02582,172.25459 203.00065,172.12795 203,172 Z M 211,169 h 2 l 0.01,3 c -6.5e-4,0.12795 -0.0258,0.25459 -0.0742,0.37305 -0.002,0.005 -0.004,0.0104 -0.006,0.0156 -0.0487,0.11405 -0.1183,0.21803 -0.20508,0.30664 -0.006,0.007 -0.0129,0.0131 -0.0195,0.0195 -0.0886,0.0868 -0.19259,0.15633 -0.30664,0.20508 -0.005,0.002 -0.0104,0.004 -0.0156,0.006 -0.11846,0.0484 -0.24509,0.0736 -0.37304,0.0742 H 209 v -2 h 2 z"
          transform="translate(-58.00909,238)" />
       <rect
          style="fill:none;stroke:none"
@@ -3263,7 +3344,7 @@
     </g>
     <g
        style="display:inline;enable-background:new"
-       transform="translate(78.00909,-438)"
+       transform="translate(98.00909,-418)"
        inkscape:label="zoom out"
        id="g19187">
       <title
@@ -3285,7 +3366,7 @@
     </g>
     <g
        style="display:inline;enable-background:new"
-       transform="translate(118.00909,-438)"
+       transform="translate(138.00909,-418)"
        inkscape:label="zoom original"
        id="g19274">
       <title
@@ -3307,7 +3388,7 @@
     </g>
     <g
        style="display:inline;enable-background:new"
-       transform="rotate(180,167.99985,136)"
+       transform="rotate(180,87.99985,111)"
        inkscape:label="object flip horizontal mirror"
        id="g15397">
       <title
@@ -3339,7 +3420,7 @@
     <g
        style="display:inline;enable-background:new"
        id="g7787-6"
-       transform="translate(-61.00018,-307)"
+       transform="translate(-21.00018,-287)"
        inkscape:label="view dual pages panes">
       <title
          id="title67151">view-dual</title>
@@ -3401,7 +3482,7 @@
     <g
        style="display:inline;enable-background:new"
        id="g7797-1"
-       transform="translate(-60.00018,-307.00012)"
+       transform="translate(-20.00018,-287.00012)"
        inkscape:label="view paged">
       <title
          id="title67149">view-paged</title>
@@ -3448,7 +3529,7 @@
     <g
        style="display:inline;enable-background:new"
        id="g7400-1-1"
-       transform="translate(-61.00018,-287)"
+       transform="translate(-21.00018,-267)"
        inkscape:label="view continuous scrolling">
       <title
          id="title63470">view-continuous</title>
@@ -3518,7 +3599,7 @@
     <g
        id="g15409"
        inkscape:label="object flip vertical mirror"
-       transform="rotate(180,177.99985,136)"
+       transform="rotate(180,97.99985,111)"
        style="display:inline;enable-background:new">
       <title
          id="title26740">object-flip-vertical</title>
@@ -3548,7 +3629,7 @@
     </g>
     <g
        style="display:inline;enable-background:new"
-       transform="translate(98.00909,-438)"
+       transform="translate(118.00909,-418)"
        inkscape:label="zoom in"
        id="g19635">
       <title
@@ -3571,7 +3652,7 @@
     <g
        id="g43543"
        inkscape:label="object rotate left"
-       transform="matrix(0,-1,-1,0,662.56333,-27.01385)"
+       transform="matrix(0,-1,-1,0,502.56333,-77.01385)"
        style="display:inline;enable-background:new">
       <title
          id="title43531">object-rotate-left</title>
@@ -3618,13 +3699,236 @@
        y="0"
        xlink:href="#g43543"
        id="use52381"
-       transform="matrix(-1,0,0,1,715.99989,0)"
+       transform="matrix(-1,0,0,1,395.99989,0)"
        width="100%"
        height="100%"
        inkscape:label="object rotate right">
       <title
          id="title52383">object-rotate-right</title>
     </use>
+    <g
+       id="g13028"
+       inkscape:label="edit select all">
+      <title
+         id="title13891">edit-select-all</title>
+      <g
+         style="display:inline"
+         inkscape:label="edit select all multi selection mode"
+         id="g7953"
+         transform="rotate(90,237.06949,53.933684)">
+        <title
+           id="title7943">edit-select-all</title>
+        <rect
+           y="195.00317"
+           x="163.1358"
+           height="16"
+           width="16"
+           id="rect7945"
+           style="fill:none" />
+        <g
+           id="g7947"
+           transform="translate(1.875926,-1.203126)" />
+      </g>
+      <rect
+         style="fill:#2e3436;stroke-width:2;stroke-linejoin:round;stroke-dashoffset:26.4"
+         id="rect8735"
+         width="3"
+         height="3"
+         x="80"
+         y="-20"
+         rx="2" />
+      <rect
+         style="fill:#2e3436;stroke-width:2;stroke-linejoin:round;stroke-dashoffset:26.4"
+         id="rect8817"
+         width="3"
+         height="3"
+         x="93"
+         y="-20"
+         rx="2" />
+      <rect
+         style="fill:#2e3436;stroke-width:2;stroke-linejoin:round;stroke-dashoffset:26.4"
+         id="rect8899"
+         width="3"
+         height="3"
+         x="80"
+         y="-7"
+         rx="2" />
+      <rect
+         style="fill:#2e3436;stroke-width:2;stroke-linejoin:round;stroke-dashoffset:26.4"
+         id="rect8901"
+         width="3"
+         height="3"
+         x="93"
+         y="-7"
+         rx="2" />
+      <g
+         id="g11520">
+        <rect
+           style="fill:#2e3436;stroke-width:1.99999;stroke-linejoin:round;stroke-dashoffset:26.4"
+           id="rect8903"
+           width="2"
+           height="4"
+           x="80"
+           y="-16" />
+        <rect
+           style="fill:#2e3436;stroke-width:1.99998;stroke-linejoin:round;stroke-dashoffset:26.4"
+           id="rect9015"
+           width="2"
+           height="3"
+           x="80"
+           y="-11" />
+        <rect
+           style="fill:#2e3436;stroke-width:1.99998;stroke-linejoin:round;stroke-dashoffset:26.4"
+           id="rect9017"
+           width="2"
+           height="3"
+           x="94"
+           y="-16" />
+        <rect
+           style="fill:#2e3436;stroke-width:1.99998;stroke-linejoin:round;stroke-dashoffset:26.4"
+           id="rect9021"
+           width="2"
+           height="4"
+           x="94"
+           y="-12" />
+      </g>
+      <rect
+         style="fill:#2e3436;stroke-width:2;stroke-linejoin:round;stroke-dashoffset:26.4"
+         id="rect9046"
+         width="4"
+         height="4"
+         x="83"
+         y="-11"
+         rx="1" />
+      <rect
+         style="fill:#2e3436;stroke-width:2;stroke-linejoin:round;stroke-dashoffset:26.4"
+         id="rect9820"
+         width="4"
+         height="4"
+         x="83"
+         y="-17"
+         rx="1" />
+      <rect
+         style="fill:#2e3436;stroke-width:2;stroke-linejoin:round;stroke-dashoffset:26.4"
+         id="rect9822"
+         width="4"
+         height="4"
+         x="89"
+         y="-11"
+         rx="1" />
+      <rect
+         style="fill:#2e3436;stroke-width:2;stroke-linejoin:round;stroke-dashoffset:26.4"
+         id="rect9824"
+         width="4"
+         height="4"
+         x="89"
+         y="-17"
+         rx="1" />
+      <use
+         x="0"
+         y="0"
+         xlink:href="#g11520"
+         id="use11536"
+         transform="rotate(90,88,-12)"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       style="display:inline;enable-background:new"
+       id="g10263"
+       inkscape:label="find location position map locate gps coordinates"
+       transform="matrix(0.99835036,0,0,1,0.27713,-457)">
+      <title
+         id="title17109">find-location</title>
+      <rect
+         ry="0"
+         rx="0"
+         y="487"
+         x="160"
+         height="16"
+         width="16"
+         id="rect10265"
+         style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none" />
+      <ellipse
+         style="fill:#2e3436;fill-opacity:1;stroke-width:2.00165;stroke-linejoin:round;stroke-dashoffset:26.4"
+         id="path17253"
+         cx="168.00002"
+         cy="495"
+         rx="3.004957"
+         ry="3" />
+      <path
+         style="color:#000000;fill:#2e3436;stroke-linejoin:round;stroke-dashoffset:26.4;-inkscape-stroke:none"
+         d="m 168,488 c -3.85894,0 -7.00977,3.14537 -7.00977,7 0,3.85463 3.15083,6.99805 7.00977,6.99805 3.85894,0 7.01172,-3.14342 7.01172,-6.99805 0,-3.85463 -3.15278,-7 -7.01172,-7 z m 0,2.00195 c 2.77925,0 5.00977,2.22728 5.00977,4.99805 0,2.77077 -2.23052,4.99609 -5.00977,4.99609 -2.77925,0 -5.00781,-2.22532 -5.00781,-4.99609 0,-2.77077 2.22856,-4.99805 5.00781,-4.99805 z"
+         id="ellipse18310" />
+      <rect
+         style="display:inline;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:2.00165;stroke-linejoin:round;stroke-dashoffset:26.4"
+         id="rect18554"
+         width="2.0033047"
+         height="3"
+         x="166.99835"
+         y="487" />
+      <rect
+         style="display:inline;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:2.00165;stroke-linejoin:round;stroke-dashoffset:26.4"
+         id="rect18556"
+         width="2.0033047"
+         height="3"
+         x="166.99835"
+         y="500" />
+      <g
+         id="g18799"
+         transform="matrix(0,0.99835036,-1.0016524,0,663.81793,327.27714)">
+        <rect
+           style="display:inline;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:2.00165;stroke-linejoin:round;stroke-dashoffset:26.4"
+           id="rect18793"
+           width="2.0033047"
+           height="3"
+           x="166.99835"
+           y="487" />
+        <rect
+           style="display:inline;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:2.00165;stroke-linejoin:round;stroke-dashoffset:26.4"
+           id="rect18795"
+           width="2.0033047"
+           height="3"
+           x="166.99835"
+           y="500" />
+      </g>
+    </g>
+    <g
+       id="g6458"
+       transform="translate(-791.7491,375.46655)"
+       style="display:inline"
+       inkscape:label="find location position map locate gps coordinates pin">
+      <title
+         id="title30054">mark-location</title>
+      <g
+         transform="translate(811.7491,-832.46627)"
+         inkscape:label="mark location map gps pin find locate position coordinates"
+         id="g6448"
+         style="display:inline;enable-background:new">
+        <title
+           id="title6444">mark-location</title>
+        <rect
+           style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none"
+           id="rect6446"
+           width="16"
+           height="16"
+           x="160"
+           y="487"
+           rx="0"
+           ry="0" />
+      </g>
+      <path
+         id="circle6450"
+         style="display:inline;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:2.00001;stroke-linejoin:round;stroke-dashoffset:26.4"
+         d="m 742.61328,228.68555 a 6.4991598,6.4991598 0 0 0 -6.49805,6.5 6.4991598,6.4991598 0 0 0 6.49805,6.49804 6.4991598,6.4991598 0 0 0 6.5,-6.49804 6.4991598,6.4991598 0 0 0 -6.5,-6.5 z m 0,4 a 2.4991608,2.4991608 0 0 1 2.5,2.5 2.4991608,2.4991608 0 0 1 -2.5,2.49804 2.4991608,2.4991608 0 0 1 -2.49805,-2.49804 2.4991608,2.4991608 0 0 1 2.49805,-2.5 z"
+         transform="translate(237.13496,-574.1521)" />
+      <path
+         id="path6454"
+         style="display:inline;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 748.71289,237.43164 -5.66211,1.23242 -6.53516,-1.23047 c 0.69016,2.14975 4.097,5.24942 6.09766,7.25 l 0.002,0.002 v -0.004 c 2.00066,-2.00058 5.40751,-5.10025 6.09766,-7.25 z"
+         transform="translate(237.13496,-574.1521)"
+         sodipodi:nodetypes="cccscccc" />
+    </g>
   </g>
   <text
      xml:space="preserve"
