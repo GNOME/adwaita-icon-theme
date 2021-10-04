@@ -6,7 +6,7 @@ If you're a core GNOME application maintainer and you have an icon need that bri
 
 
 ## Fullcolor vs symbolic
-For an up to date guide on how to use and how to design GNOME style icons, see the [GNOME User Interface Guidelines](https://developer.gnome.org/hig/stable/icons-and-artwork.html.en).
+For an up to date guide on how to use and how to design GNOME style icons, see the GNOME User Interface Guidelines: [UI Icons](https://developer.gnome.org/hig/guidelines/ui-icons.html) and [App Icons](https://developer.gnome.org/hig/guidelines/app-icons.html).
 
 ## Building and Contributing to Adwaita
 Symbolic icons are no longer maintained using hand rolled ruby script and inkscape to render them out, but instead shares the same workflow as 3rd party symbolics, the [icon devkit](https://gitlab.gnome.org/Teams/Design/icon-development-kit).
