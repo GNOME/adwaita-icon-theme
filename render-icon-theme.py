@@ -8,6 +8,7 @@ import subprocess
 OPTIPNG = '/usr/bin/optipng'
 ZOPFLIPNG = '/usr/bin/zopflipng'
 SRC = os.path.join('.', 'src', 'fullcolor')
+INKSCAPE_PREFIX = ['flatpak','run','org.inkscape.Inkscape']
 
 inkscape_process = None
 
@@ -36,7 +37,8 @@ def wait_for_prompt(process, command=None):
 
 def inkscape_render_rect(icon_file, rect, output_file):    
     #print("flatpak run org.inkscape.Inkscape --batch-process -i %s --export-type=png -o %s %s" % (rect, output_file,icon_file));
-    subprocess.run(['flatpak','run','org.inkscape.Inkscape', '--batch-process', '-i', rect, '--export-type=png', '-o', output_file, icon_file])
+    commandline_sulfix = ['--batch-process', '-i', rect, '--export-type=png', '-o', output_file, icon_file]
+    subprocess.run(INKSCAPE_PREFIX + commandline_sulfix)
     optimize_png(output_file)
 
 class ContentHandler(xml.sax.ContentHandler):
@@ -139,6 +141,15 @@ class ContentHandler(xml.sax.ContentHandler):
 
     def characters(self, chars):
         self.chars += chars.strip()
+
+if subprocess.run(['flatpak', 'info', '--show-ref', 'org.inkscape.Inkscape']).returncode != 0:
+    try:
+        subprocess.run(['inkscape', '--version'])
+    except FileNotFoundError:
+        print("Inkscape is required for this script")
+        exit()
+        
+    INKSCAPE_PREFIX = ['inkscape']
 
 if len(sys.argv) == 1:
     if not os.path.exists('Adwaita'):
