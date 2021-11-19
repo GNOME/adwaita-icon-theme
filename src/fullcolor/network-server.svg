@@ -7,7 +7,7 @@
    height="560"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
    sodipodi:docname="network-server.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
@@ -25,6 +25,18 @@
      id="title4162">Adwaita Icon Template</title>
   <defs
      id="defs3">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient252">
+      <stop
+         style="stop-color:#9a9996;stop-opacity:1"
+         offset="0"
+         id="stop248" />
+      <stop
+         style="stop-color:#f6f5f4;stop-opacity:1"
+         offset="1"
+         id="stop250" />
+    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient31335">
@@ -610,6 +622,42 @@
        x2="-396.37006"
        y2="277.5444"
        gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient252"
+       id="linearGradient254"
+       x1="611.34399"
+       y1="-159.19458"
+       x2="611.34399"
+       y2="-179.53638"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient252"
+       id="linearGradient10192"
+       gradientUnits="userSpaceOnUse"
+       x1="591.43408"
+       y1="-93.665558"
+       x2="591.43408"
+       y2="-104.97513" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient252"
+       id="linearGradient10404"
+       gradientUnits="userSpaceOnUse"
+       x1="588.51794"
+       y1="-46.941959"
+       x2="588.51794"
+       y2="-54.876194" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient252"
+       id="linearGradient10552"
+       gradientUnits="userSpaceOnUse"
+       x1="581.63812"
+       y1="-2.7042818"
+       x2="581.63812"
+       y2="-10.960997" />
   </defs>
   <sodipodi:namedview
      stroke="#ef2929"
@@ -623,7 +671,7 @@
      inkscape:zoom="1"
      inkscape:cx="-99.949399"
      inkscape:cy="101.9264"
-     inkscape:current-layer="g25727"
+     inkscape:current-layer="layer9"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
@@ -1089,7 +1137,7 @@
              ry="9.414835" />
         </g>
         <rect
-           style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#9a9996;stroke-width:1.02285;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;stop-color:#000000;stop-opacity:1"
+           style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient254);stroke-width:1.02285;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;stop-color:#000000;stop-opacity:1"
            id="rect12056"
            width="43.977146"
            height="34.937344"
@@ -1216,7 +1264,7 @@
            ry="15.388916" />
       </g>
       <rect
-         style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#9a9996;stroke-width:1.02285;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;stop-color:#000000"
+         style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient10192);stroke-width:1.02285;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;stop-color:#000000;opacity:1;stop-opacity:1"
          id="rect24665"
          width="26.977161"
          height="20.976547"
@@ -1307,7 +1355,7 @@
            ry="19.921923" />
       </g>
       <rect
-         style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#9a9996;stroke-width:1.02285;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;stop-color:#000000"
+         style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient10404);stroke-width:1.02285;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;stop-color:#000000;opacity:1;stop-opacity:1"
          id="rect24951"
          width="20.843725"
          height="16.203573"
@@ -1392,7 +1440,7 @@
            ry="7.5835896" />
       </g>
       <rect
-         style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#9a9996;stroke-width:1.02285;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;stop-color:#000000"
+         style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient10552);stroke-width:1.02285;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;stop-color:#000000;opacity:1;stop-opacity:1"
          id="rect29359"
          width="14.99889"
          height="11.087214"
