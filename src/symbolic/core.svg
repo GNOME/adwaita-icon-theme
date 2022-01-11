@@ -40,14 +40,14 @@
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      id="namedview88"
-     showgrid="false"
+     showgrid="true"
      inkscape:zoom="8"
      inkscape:cx="44.75"
      inkscape:cy="509.625"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer20"
+     inkscape:current-layer="layer21"
      showborder="false"
      inkscape:snap-nodes="true"
      inkscape:snap-bbox="true"
@@ -101,6 +101,23 @@
      id="title9167">Gnome Symbolic Icon Theme</title>
   <defs
      id="defs7386">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect10862"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,1.51562,0,1 @ F,0,0,1,0,1.51562,0,1 @ F,0,0,1,0,0,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="0"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
     <inkscape:path-effect
        effect="fillet_chamfer"
        id="path-effect104916"
@@ -1033,6 +1050,56 @@
          width="16"
          id="rect8433"
          style="fill:none" />
+    </g>
+    <g
+       style="display:inline;enable-background:new"
+       inkscape:label="network ethernet eth wired lan"
+       id="g8415"
+       transform="translate(-161.0002,262.98438)">
+      <title
+         id="title11987">network-wired</title>
+      <rect
+         y="177"
+         x="241.0002"
+         height="16"
+         width="16"
+         id="rect8417"
+         style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none" />
+      <rect
+         ry="1.2317376"
+         y="187.01562"
+         x="241.0002"
+         height="5.9881687"
+         width="5.9968424"
+         id="rect8421"
+         style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;enable-background:accumulate"
+         rx="1.2181022" />
+      <rect
+         style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;enable-background:accumulate"
+         id="rect8425"
+         width="6.0000014"
+         height="6.0000029"
+         x="251.0002"
+         y="187"
+         ry="1.2187439"
+         rx="1.2187439" />
+      <path
+         style="color:#000000;fill:#2e3436;-inkscape-stroke:none"
+         d="m 245.51758,184.01562 c -1.37749,10e-6 -2.51563,1.13814 -2.51563,2.51563 v 1.51562 h 2 v -1.51562 c 0,-0.29661 0.21901,-0.51562 0.51563,-0.51563 h 6.9375 c 0.29661,0 0.51562,0.21902 0.51562,0.51563 v 1.51562 h 2 v -1.51562 c 0,-1.37749 -1.13813,-2.51562 -2.51562,-2.51563 z"
+         id="path8427" />
+      <path
+         style="color:#000000;fill:#2e3436;-inkscape-stroke:none"
+         d="m 248,182 v 3.5 h 2 V 182 Z"
+         id="path9198" />
+      <rect
+         ry="1.215571"
+         y="177.01562"
+         x="246.01582"
+         height="5.9843822"
+         width="5.9843812"
+         id="rect9200"
+         style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;enable-background:accumulate"
+         rx="1.215571" />
     </g>
     <g
        style="display:inline"
@@ -2526,6 +2593,32 @@
          d="m 673,277 c -0.554,0 -1,0.446 -1,1 v 12 c 0,0.554 0.446,1 1,1 h 1 c 0.554,0 1,-0.446 1,-1 v -12 c 0,-0.554 -0.446,-1 -1,-1 z m -4,3 c -0.554,0 -1,0.446 -1,1 v 9 c 0,0.554 0.446,1 1,1 h 1 c 0.554,0 1,-0.446 1,-1 v -9 c 0,-0.554 -0.446,-1 -1,-1 z m -4,3 c -0.554,0 -1,0.446 -1,1 v 6 c 0,0.554 0.446,1 1,1 h 1 c 0.554,0 1,-0.446 1,-1 v -6 c 0,-0.554 -0.446,-1 -1,-1 z" />
     </g>
     <g
+       style="display:inline;enable-background:new"
+       inkscape:label="network ethernet eth wired lan off offline disconnected"
+       id="g8415-3"
+       transform="translate(358.99981,215)">
+      <title
+         id="title11987-6">network-wired-offline</title>
+      <rect
+         y="177"
+         x="241.0002"
+         height="16"
+         width="16"
+         id="rect8417-7"
+         style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none" />
+      <path
+         id="rect8421-5"
+         style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:#2e3436;fill-opacity:0.34999999;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;enable-background:accumulate"
+         d="M 606.23047 392.01562 C 605.55704 392.01562 605.01563 392.55704 605.01562 393.23047 L 605.01562 396.78516 C 605.01562 397.45858 605.55704 398 606.23047 398 L 607 398 L 607 399.01562 L 604.51758 399.01562 C 603.14009 399.01563 602.00195 400.15376 602.00195 401.53125 L 602.00195 402.01562 L 601.21875 402.01562 C 600.54392 402.01562 600 402.56566 600 403.24805 L 600 406.77148 C 600 407.45387 600.54392 408.00391 601.21875 408.00391 L 604.7793 408.00391 C 605.45413 408.00391 605.99609 407.45387 605.99609 406.77148 L 605.99609 403.24805 C 605.99609 402.56566 605.45413 402.01563 604.7793 402.01562 L 604.00195 402.01562 L 604.00195 401.53125 C 604.00195 401.23464 604.22096 401.01565 604.51758 401.01562 L 611.45508 401.01562 C 611.75169 401.01562 611.9707 401.23464 611.9707 401.53125 L 611.9707 402 L 613.9707 402 L 613.9707 401.53125 C 613.9707 400.15376 612.83257 399.01565 611.45508 399.01562 L 609 399.01562 L 609 398 L 609.78516 398 C 610.45858 398 611 397.45858 611 396.78516 L 611 393.23047 C 611 392.55704 610.45858 392.01563 609.78516 392.01562 L 606.23047 392.01562 z "
+         transform="translate(-358.99981,-215)" />
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccccc"
+       id="path3761-2-3-5-4-8-9-8-0-1-7-8-7-9"
+       d="m 611,403 h 1.375 L 613.5,404.09375 614.59375,403 H 616 v 1.46875 l -1.09375,1.0625 1.09375,1.0625 V 408 h -1.4375 L 613.5,406.9375 612.4375,408 H 611 v -1.40625 l 1.0625,-1.0625 -1.0625,-1.0625 z"
+       style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:new" />
+    <g
        id="g44877"
        inkscape:label="cellular"
        transform="translate(0,20)">
@@ -2811,6 +2904,55 @@
          id="path111810"
          d="m 688,336 c -0.25588,0 -0.51177,0.0978 -0.70703,0.29297 L 685.58594,338 H 683 c -0.55226,6e-5 -0.99994,0.44774 -1,1 v 2.58594 l -1.70703,1.70703 c -0.39037,0.39053 -0.39037,1.02353 0,1.41406 L 682,346.41406 V 349 c 6e-5,0.55226 0.44774,0.99994 1,1 h 2.58594 l 1.70703,1.70703 c 0.39053,0.39037 1.02353,0.39037 1.41406,0 L 690.41406,350 H 693 c 0.55226,-6e-5 0.99994,-0.44774 1,-1 v -2.58594 l 1.70703,-1.70703 c 0.39037,-0.39053 0.39037,-1.02353 0,-1.41406 L 694,341.58594 V 339 c -6e-5,-0.55226 -0.44774,-0.99994 -1,-1 h -2.58594 l -1.70703,-1.70703 C 688.51177,336.09778 688.25588,336 688,336 Z m 0,5 c 0.25588,0 0.51177,0.0978 0.70703,0.29297 l 2,2 c 0.18539,0.18847 0.28911,0.44267 0.28711,0.70703 H 691 v 1 h -1 -1 v 2 h -2 v -2 h -1 -1 v -1 h 0.006 c -0.002,-0.26436 0.10186,-0.51856 0.28711,-0.70703 l 2,-2 C 687.48823,341.09778 687.74412,341 688,341 Z"
          style="fill:#2e3436;fill-opacity:1" />
+    </g>
+    <g
+       style="display:inline;enable-background:new"
+       inkscape:label="network ethernet eth wired lan getting ip dhcp"
+       id="g15140"
+       transform="translate(378.99981,215)">
+      <title
+         id="title15134">network-wired-acquiring</title>
+      <rect
+         y="177"
+         x="241.0002"
+         height="16"
+         width="16"
+         id="rect15136"
+         style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none" />
+      <path
+         id="path15138"
+         style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:#2e3436;fill-opacity:0.35;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;enable-background:accumulate"
+         d="M 626.23047 392.01562 C 625.55704 392.01562 625.01565 392.55704 625.01562 393.23047 L 625.01562 396.78516 C 625.01562 396.85843 625.02286 396.93038 625.03516 397 L 630.98047 397 C 630.99276 396.93038 631 396.85843 631 396.78516 L 631 393.23047 C 631 392.55704 630.45858 392.01565 629.78516 392.01562 L 626.23047 392.01562 z M 635.17383 402.06641 C 634.62798 402.64063 633.85848 403 633 403 L 630.02148 403 C 630.00818 403.0712 630 403.14331 630 403.21875 L 630 406.78125 C 630 407.45643 630.54357 408 631.21875 408 L 634.78125 408 C 635.45645 408.00002 636 407.45643 636 406.78125 L 636 403.21875 C 636 402.68115 635.6552 402.22883 635.17383 402.06641 z M 620.83789 402.08008 C 620.35084 402.24116 620 402.70052 620 403.24805 L 620 406.77148 C 620 407.45387 620.54392 408.00391 621.21875 408.00391 L 624.7793 408.00391 C 625.45413 408.00391 625.99609 407.45387 625.99609 406.77148 L 625.99609 403.24805 C 625.99609 403.16255 625.98535 403.08018 625.96875 403 L 623 403 C 622.14803 403 621.38299 402.64668 620.83789 402.08008 z "
+         transform="translate(-378.99981,-215)" />
+      <path
+         id="path43423-9"
+         d="m 244.00019,183 a 2,2 0 0 0 -2,2 2,2 0 0 0 2,2 2,2 0 0 0 2,-2 2,2 0 0 0 -2,-2 z m 5,0 a 2,2 0 0 0 -2,2 2,2 0 0 0 2,2 2,2 0 0 0 2,-2 2,2 0 0 0 -2,-2 z m 5,0 a 2,2 0 0 0 -2,2 2,2 0 0 0 2,2 2,2 0 0 0 2,-2 2,2 0 0 0 -2,-2 z"
+         style="display:inline;fill:#2e3436;fill-opacity:1;enable-background:new" />
+    </g>
+    <g
+       style="display:inline;enable-background:new"
+       inkscape:label="network ethernet eth wired lan no-route no-internet"
+       id="g15448"
+       transform="translate(398.99981,215)">
+      <title
+         id="title15442">network-wired-no-route</title>
+      <path
+         id="rect8421-2-9"
+         style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:#2e3436;fill-opacity:0.34999999;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;enable-background:accumulate"
+         d="M 646.23047 392.01562 C 645.55704 392.01562 645.01563 392.55705 645.01562 393.23047 L 645.01562 396.32812 C 645.4108 395.88376 645.90558 395.52365 646.47656 395.28711 C 647.04009 395.05364 647.63749 394.95809 648.2207 394.98828 C 649.19399 395.03858 650.14019 395.44087 650.85742 396.1582 C 650.90718 396.20797 650.95327 396.26059 651 396.3125 L 651 393.23047 C 651 392.55705 650.45858 392.01563 649.78516 392.01562 L 646.23047 392.01562 z M 648.03516 399 A 1.0198582 1.0198582 0 0 1 648.01758 399.01758 C 648.01991 399.0184 648.02467 399.01707 648.02344 399.01758 C 648.01845 399.01964 648.03516 398.99438 648.03516 399 z M 644.00586 399.06836 C 642.86909 399.30812 642.00195 400.32875 642.00195 401.53125 L 642.00195 402.01562 L 641.21875 402.01562 C 640.54392 402.01562 640 402.56567 640 403.24805 L 640 406.77148 C 640 407.45386 640.54392 408.00391 641.21875 408.00391 L 644.7793 408.00391 C 645.45413 408.00391 645.99609 407.45386 645.99609 406.77148 L 645.99609 405 L 645.99609 403.24805 C 645.99609 402.56567 645.45413 402.01563 644.7793 402.01562 L 644.00195 402.01562 L 644.00195 401.53125 C 644.00195 401.23465 644.22096 401.01564 644.51758 401.01562 L 645.99609 401.01562 L 645.99609 401 C 645.99609 400.63131 646.22666 400.32832 646.42383 400.01953 L 645.01562 400.01953 A 1.0198582 1.0198582 0 0 1 644.00586 399.06836 z M 652.0332 399.08594 C 652.02325 399.57656 651.92305 400.06936 651.72852 400.53906 C 651.65825 400.70873 651.57446 400.86726 651.48047 401.01758 C 651.76376 401.03 651.9707 401.2434 651.9707 401.53125 L 651.9707 402 L 651.21875 402 C 650.64203 402 650.16309 402.39715 650.03516 402.93359 L 650.03516 403 A 1.0198582 1.0198582 0 0 1 650.01562 403.03711 C 650.00678 403.09654 650 403.15678 650 403.21875 L 650 404.66016 C 650.02197 404.77144 650.03516 404.88513 650.03516 405 C 650.03516 405.11551 650.02182 405.2297 650 405.3418 L 650 406.78125 C 650 407.45644 650.54357 408 651.21875 408 L 654.78125 408 C 655.45643 408 656 407.45644 656 406.78125 L 656 403.21875 C 656 402.54357 655.45643 402 654.78125 402 L 653.9707 402 L 653.9707 401.53125 C 653.9707 400.35257 653.13675 399.35103 652.0332 399.08594 z "
+         transform="translate(-398.99981,-215)" />
+      <rect
+         y="177"
+         x="241.0002"
+         height="16"
+         width="16"
+         id="rect15444"
+         style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:1;marker:none" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:new"
+         d="m 249.16819,181.00586 c -0.43663,-0.0226 -0.88138,0.0489 -1.30078,0.22266 -1.1184,0.46331 -1.85156,1.56091 -1.85156,2.77148 h 2 c 0,-0.4075 0.24089,-0.76794 0.61719,-0.92383 0.3763,-0.15589 0.80179,-0.0713 1.08984,0.2168 0.288,0.28809 0.37271,0.71338 0.2168,1.08984 C 249.78377,184.75927 249.42313,185 249.01585,185 a 1,1 0 0 0 -1,1 v 2 h 2 v -1.17969 c 0.7862,-0.27965 1.44125,-0.87451 1.77148,-1.67187 0.46322,-1.11845 0.20556,-2.41347 -0.65039,-3.26953 -0.53496,-0.53504 -1.24102,-0.83544 -1.96875,-0.87305 z M 249.01585,189 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z"
+         id="path4023-6-2-0"
+         inkscape:connector-curvature="0" />
     </g>
   </g>
   <g
