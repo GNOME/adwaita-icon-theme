@@ -41,13 +41,13 @@
      inkscape:window-height="1011"
      id="namedview88"
      showgrid="false"
-     inkscape:zoom="4"
-     inkscape:cx="658.75"
-     inkscape:cy="581.5"
+     inkscape:zoom="11.313708"
+     inkscape:cx="296.89646"
+     inkscape:cy="242.53763"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer10"
+     inkscape:current-layer="layer12"
      showborder="false"
      inkscape:snap-nodes="true"
      inkscape:snap-bbox="true"
@@ -5742,7 +5742,8 @@
     </g>
     <g
        id="g21283"
-       inkscape:label="view sort ascending alphabetic smallest-to-largest">
+       inkscape:label="view sort ascending alphabetic smallest-to-largest"
+       transform="translate(20)">
       <title
          id="title21285">view-sort-ascending</title>
       <path
@@ -5750,7 +5751,7 @@
          d="m 306.5,42 c -0.277,0 -0.5,-0.223 -0.5,-0.5 v -1 c 0,-0.277 0.223,-0.5 0.5,-0.5 h 5 c 0.277,0 0.5,0.223 0.5,0.5 v 1 c 0,0.277 -0.223,0.5 -0.5,0.5 z m 0,-3 c -0.277,0 -0.5,-0.223 -0.5,-0.5 v -1 c 0,-0.277 0.223,-0.5 0.5,-0.5 h 7 c 0.277,0 0.5,0.223 0.5,0.5 v 1 c 0,0.277 -0.223,0.5 -0.5,0.5 z m 0,-3 c -0.277,0 -0.5,-0.223 -0.5,-0.5 v -1 c 0,-0.277 0.223,-0.5 0.5,-0.5 h 9 c 0.277,0 0.5,0.223 0.5,0.5 v 1 c 0,0.277 -0.223,0.5 -0.5,0.5 z"
          style="fill:#2e3436;fill-opacity:1" />
       <rect
-         style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:2;marker:none;fill-opacity:1"
+         style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;fill-opacity:1;stroke:none;stroke-width:2;marker:none"
          id="rect20415"
          width="16"
          height="16"
@@ -5764,11 +5765,12 @@
     </g>
     <g
        id="g21292"
-       inkscape:label="view sort descending alphabetic largest-to-smallest">
+       inkscape:label="view sort descending alphabetic largest-to-smallest"
+       transform="translate(20)">
       <title
          id="title21294">view-sort-descending</title>
       <rect
-         style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:2;marker:none;fill-opacity:1"
+         style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;fill-opacity:1;stroke:none;stroke-width:2;marker:none"
          id="rect3215-3-7"
          width="16"
          height="16"
@@ -6520,6 +6522,44 @@
          x="90"
          height="16"
          width="16" />
+    </g>
+    <g
+       id="g14444"
+       inkscape:label="view wrapped"
+       transform="translate(20)">
+      <title
+         id="title14612">view-wrapped-rtl</title>
+      <rect
+         y="-296"
+         x="-45.999989"
+         height="16"
+         width="16"
+         id="rect6643"
+         style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;fill-opacity:1;stroke:none;stroke-width:2;marker:none"
+         transform="matrix(0,-1,-1,0,0,0)" />
+      <path
+         id="path11015"
+         style="color:#000000;fill:#2e3436;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+         d="m 289,30 c -2.7527,0 -5,2.2473 -5,5 v 0.58594 l -0.29297,-0.29297 A 1,1 0 0 0 283,35 a 1,1 0 0 0 -0.70703,0.29297 1,1 0 0 0 0,1.41406 l 2,2 a 1.0001,1.0001 0 0 0 1.41406,0 l 2,-2 a 1,1 0 0 0 0,-1.41406 1,1 0 0 0 -1.41406,0 L 286,35.58594 V 35 c 0,-1.6793 1.3207,-3 3,-3 1.6793,0 3,1.3207 3,3 v 6 c 0,1.6793 -1.3207,3 -3,3 -1.6793,0 -3,-1.3207 -3,-3 a 1,1 0 0 0 -1,-1 1,1 0 0 0 -1,1 c 0,2.7527 2.2473,5 5,5 2.7527,0 5,-2.2473 5,-5 v -6 c 0,-2.7527 -2.2473,-5 -5,-5 z" />
+    </g>
+    <g
+       id="g14610"
+       transform="matrix(-1,0,0,1,576,0)"
+       inkscape:label="view wrapped">
+      <title
+         id="title14614">view-wrapped</title>
+      <rect
+         y="-296"
+         x="-45.999989"
+         height="16"
+         width="16"
+         id="rect14606"
+         style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:none;fill-opacity:1;stroke:none;stroke-width:2;marker:none"
+         transform="matrix(0,-1,-1,0,0,0)" />
+      <path
+         id="path14608"
+         style="color:#000000;fill:#2e3436;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+         d="m 289,30 c -2.7527,0 -5,2.2473 -5,5 v 0.58594 l -0.29297,-0.29297 A 1,1 0 0 0 283,35 a 1,1 0 0 0 -0.70703,0.29297 1,1 0 0 0 0,1.41406 l 2,2 a 1.0001,1.0001 0 0 0 1.41406,0 l 2,-2 a 1,1 0 0 0 0,-1.41406 1,1 0 0 0 -1.41406,0 L 286,35.58594 V 35 c 0,-1.6793 1.3207,-3 3,-3 1.6793,0 3,1.3207 3,3 v 6 c 0,1.6793 -1.3207,3 -3,3 -1.6793,0 -3,-1.3207 -3,-3 a 1,1 0 0 0 -1,-1 1,1 0 0 0 -1,1 c 0,2.7527 2.2473,5 5,5 2.7527,0 5,-2.2473 5,-5 v -6 c 0,-2.7527 -2.2473,-5 -5,-5 z" />
     </g>
   </g>
   <text
