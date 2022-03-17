@@ -11,7 +11,7 @@ For an up to date guide on how to use and how to design GNOME style icons, see t
 ## Building and Contributing to Adwaita
 Symbolic icons are no longer maintained using hand rolled ruby script and inkscape to render them out, but instead shares the same workflow as 3rd party symbolics, the [icon devkit](https://gitlab.gnome.org/Teams/Design/icon-development-kit).
 
-While many legacy symbolics only live as the exported individual SVGS in `Adwaita/scalable/`, the replacements are maintained in `src/symbolic/core.svg`. The contexts are [no longer used](https://gitlab.gnome.org/GNOME/adwaita-icon-theme/-/issues/73) and all icons go into `actions`. Please refer to the [Devkit guidelines]() on how to structure the metadata.
+While many legacy symbolics only live as the exported individual SVGS in `Adwaita/scalable/`, the replacements are maintained in `src/symbolic/core.svg`. The contexts are [no longer used](https://gitlab.gnome.org/GNOME/adwaita-icon-theme/-/issues/73) and all icons go into `actions`. Please refer to the [Devkit guidelines](https://gitlab.gnome.org/Teams/Design/icon-development-kit) on how to structure the metadata.
 
 Do note that no new additions should be made unless very thoroughly discussed. *a-i-t* is the wrong way to reuse icon assets (no API, false promise of stability).
 
@@ -20,7 +20,7 @@ The color of the icon set is defined at runtime by the gtk theme. Every single i
 
 There is a couple of things the icon author needs to be aware of and a few things s/he can make use of. The stylesheet is setting the color of the fill for all rectangles and paths. **DO NOT** leave any rectangles or paths with no fill/stroke thinking it's invisible.
 
-Symblic Preview doesn't convert strokes to paths yet, so you need to do it manually for now in Inkscape (`Path -> Stroke to Path`). Alternativly you can add Live path effect `join type` to your stroke and keep it non destructive.
+[Symbolic Preview](https://flathub.org/apps/details/org.gnome.design.SymbolicPreview) doesn't convert strokes to paths yet, so you need to do it manually for now in Inkscape (`Path -> Stroke to Path`). Alternatively you can add Live path effect `join type` to your stroke and keep it non destructive.
 
 Gtk doesn't care about the colors you define for the icon. They are recolored at runtime. If you need portions of icons to have a color, you need to include a `class` attribute to the shape or group and set it to one of the three values below. 
 
