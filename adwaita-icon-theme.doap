@@ -1,0 +1,19 @@
+<Project xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:gnome="http://api.gnome.org/doap-extensions#"
+         xmlns="http://usefulinc.com/ns/doap#">
+
+  <name xml:lang="en">adwaita-icon-theme</name>
+  <shortdesc xml:lang="en">Private icons for GNOME core.</shortdesc>
+  <homepage rdf:resource="http://www.gnome.org/" />
+  <download-page rdf:resource="https://download.gnome.org/sources/adwaita-icon-theme/" />
+  <bug-database rdf:resource="https://gitlab.gnome.org/GNOME/adwaita-icon-theme/issues/" />
+
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Jakub Steiner</foaf:name>
+      <gnome:userid>jimmac</gnome:userid>
+    </foaf:Person>
+  </maintainer>
+</Project>
