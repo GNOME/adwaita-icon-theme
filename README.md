@@ -18,7 +18,7 @@ Do note that no new additions should be made unless very thoroughly discussed. *
 ### Recoloring
 The color of the icon set is defined at runtime by [gtk](https://gtk.org). Every single icon from the set is actually embedded inside an xml container that has a stylesheet overriding the colors.
 
-There is a couple of things the icon author needs to be aware of and a few things s/he can make use of. The stylesheet is setting the color of the fill for all rectangles and paths. **DO NOT** leave any rectangles or paths with no fill/stroke thinking it's invisible.
+There is a couple of things the icon author needs to be aware of and a few things they can make use of. The stylesheet is setting the color of the fill for all rectangles and paths. **DO NOT** leave any rectangles or paths with no fill/stroke thinking it's invisible.
 
 [Symbolic Preview](https://flathub.org/apps/details/org.gnome.design.SymbolicPreview) doesn't convert strokes to paths yet, so you need to do it manually for now in Inkscape (`Path -> Stroke to Path`). Alternatively you can add Live path effect `join type` to your stroke and keep it non destructive.
 
