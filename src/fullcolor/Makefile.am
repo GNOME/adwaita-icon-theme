@@ -11,6 +11,7 @@ install-data-local:
 			$(mkdir_p) $(DESTDIR)$(themedir)/$$size/$$context; \
 			$(install_sh_DATA) $(top_srcdir)/$(SVGOUTDIR)/$$size/$$file $(DESTDIR)$(themedir)/$$size/$$file & \
 		done; \
+		wait; \
 	done; \
 	wait
 

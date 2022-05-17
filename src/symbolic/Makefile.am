@@ -36,6 +36,7 @@ install-data-local:
 			$(mkdir_p) $(DESTDIR)$(themedir)/$$size/$$context; \
 			$(install_sh_DATA) $(top_srcdir)/$(SVGOUTDIR)/$$size/$$file $(DESTDIR)$(themedir)/$$size/$$file & \
 		done; \
+		wait; \
 	done; \
 	for file in `cd $(top_srcdir)/$(SVGOUTDIR)/scalable; find . -name "*.svg"`; do \
 		context="`dirname $$file`"; \
@@ -44,7 +45,8 @@ install-data-local:
 		for size in $(symbolic_encode_sizes); do \
 			$(mkdir_p) $(DESTDIR)$(themedir)/$$size/$$context; \
 			$(GTK_ENCODE_SYMBOLIC_SVG) $(top_srcdir)/$(SVGOUTDIR)/scalable/$$file $$size -o $(DESTDIR)$(themedir)/$$size/$$context & \
-		done \
+		done; \
+		wait; \
 	done; \
 	wait
 
