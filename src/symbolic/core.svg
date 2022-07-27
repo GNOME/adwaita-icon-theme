@@ -40,14 +40,14 @@
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      id="namedview88"
-     showgrid="true"
+     showgrid="false"
      inkscape:zoom="11.313708"
      inkscape:cx="1108.4341"
      inkscape:cy="108.98283"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer21"
+     inkscape:current-layer="layer3"
      showborder="false"
      inkscape:snap-nodes="true"
      inkscape:snap-bbox="true"
@@ -103,6 +103,26 @@
      id="title9167">Gnome Symbolic Icon Theme</title>
   <defs
      id="defs7386">
+    <inkscape:path-effect
+       effect="join_type"
+       id="path-effect31805"
+       is_visible="true"
+       lpeversion="1"
+       linecap_type="round"
+       line_width="2"
+       linejoin_type="round"
+       miter_limit="100"
+       attempt_force_join="true" />
+    <inkscape:path-effect
+       effect="join_type"
+       id="path-effect31803"
+       is_visible="true"
+       lpeversion="1"
+       linecap_type="round"
+       line_width="2"
+       linejoin_type="round"
+       miter_limit="100"
+       attempt_force_join="true" />
     <inkscape:path-effect
        effect="join_type"
        id="path-effect88619"
@@ -6477,17 +6497,26 @@
          width="16"
          id="rect10145"
          style="fill:none" />
-      <rect
-         style="fill:none"
-         id="rect10151"
-         width="16"
-         height="16"
-         x="119.98557"
-         y="195.98587" />
       <path
-         id="path10284"
-         d="m 127.80469,196.01953 a 1.0001,1.0001 0 0 0 -0.35938,0.14844 l -6,4 A 1.0001,1.0001 0 0 0 121,201 v 6 a 1.0001,1.0001 0 0 0 0.44531,0.83203 l 6,4 a 1.0001,1.0001 0 0 0 1.10938,0 l 6,-4 A 1.0001,1.0001 0 0 0 135,207 v -6 a 1.0001,1.0001 0 0 0 -0.44531,-0.83203 l -6,-4 a 1.0001,1.0001 0 0 0 -0.75,-0.14844 z M 128,198.20117 V 205 l 5,-3.33398 v 4.79882 l -5,3.33399 V 205 l -5,-3.33398 v -0.13086 z"
-         style="fill:#2e3436;fill-opacity:1" />
+         style="color:#000000;fill:#2e3434;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+         d="m 124.02539,196.99609 c -1.66029,0 -3.02734,1.36706 -3.02734,3.02735 v 7.91015 c 0,1.66029 1.36705,3.0293 3.02734,3.0293 h 7.94727 c 1.66029,0 3.02734,-1.36901 3.02734,-3.0293 v -7.91015 c 0,-1.66029 -1.36705,-3.02735 -3.02734,-3.02735 z m 0,2 h 7.94727 c 0.58688,0 1.02734,0.44046 1.02734,1.02735 v 7.91015 c 0,0.58689 -0.44046,1.0293 -1.02734,1.0293 h -7.94727 c -0.58688,0 -1.02734,-0.44241 -1.02734,-1.0293 v -7.91015 c 0,-0.58689 0.44046,-1.02735 1.02734,-1.02735 z"
+         id="rect25691" />
+      <path
+         style="color:#000000;fill:#2e3434;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+         d="m 124.02539,197 c -1.66029,0 -3.02734,1.36705 -3.02734,3.02734 v 0.94532 c 0,1.66029 1.36705,3.02734 3.02734,3.02734 h 7.94727 C 133.63295,204 135,202.63295 135,200.97266 v -0.94532 C 135,198.36705 133.63295,197 131.97266,197 Z m 0,2 h 7.94727 c 0.58688,0 1.02734,0.44046 1.02734,1.02734 v 0.94532 C 133,201.55954 132.55954,202 131.97266,202 h -7.94727 c -0.58688,0 -1.02734,-0.44046 -1.02734,-1.02734 v -0.94532 c 0,-0.58688 0.44046,-1.02734 1.02734,-1.02734 z"
+         id="rect26784" />
+      <rect
+         style="fill:#2e3434;fill-opacity:0.25;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stop-color:#000000"
+         id="rect26901"
+         width="6"
+         height="4.8035269"
+         x="125"
+         y="197.19647" />
+      <path
+         id="rect27076"
+         style="fill:#2e3434;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
+         d="m 127,196.99522 h 2 v 10.03316 l -2,-0.98859 z"
+         sodipodi:nodetypes="ccccc" />
     </g>
     <g
        inkscape:label="file office document calendar"
