@@ -7,7 +7,7 @@ AC_CANONICAL_HOST
 AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_SRCDIR([index.theme.in])
 
-AM_INIT_AUTOMAKE([1.9 dist-xz no-dist-gzip tar-ustar foreign])
+AM_INIT_AUTOMAKE([1.9 dist-xz no-dist-gzip tar-pax foreign])
 
 PKG_PROG_PKG_CONFIG([0.19])
 
