@@ -25,9 +25,9 @@ AC_SUBST(SVGOUTDIR, "Adwaita")
 AC_SUBST(SVGSRCDIR, "src/symbolic")
 
 # Icon sizes we want to install
-AC_SUBST([render_sizes], ["8x8 16x16 22x22 24x24 32x32 48x48 256x256 512x512"])
+AC_SUBST([render_sizes], ["8x8 16x16 22x22 24x24 32x32 48x48 256x256 512x512 scalable"])
 AC_SUBST([symbolic_render_sizes], [""])
-AC_SUBST([install_sizes], ["8x8 16x16 22x22 24x24 32x32 48x48 64x64 96x96 256x256 512x512"])
+AC_SUBST([install_sizes], ["8x8 16x16 22x22 24x24 32x32 48x48 64x64 96x96 256x256 512x512 scalable"])
 
 AC_PROG_LN_S
 AC_PATH_PROG(GTK_UPDATE_ICON_CACHE, gtk-update-icon-cache)
