@@ -47,7 +47,7 @@
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer17"
+     inkscape:current-layer="layer20"
      showborder="false"
      inkscape:snap-nodes="true"
      inkscape:snap-bbox="true"
@@ -1117,6 +1117,23 @@
        linejoin_type="round"
        miter_limit="100"
        attempt_force_join="true" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect10514"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0.91027833,0,1 @ F,0,0,1,0,0.88684083,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="0"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
   </defs>
   <g
      inkscape:groupmode="layer"
@@ -8595,23 +8612,45 @@
          transform="translate(0.9998,-73)" />
     </g>
     <g
-       inkscape:label="document print printer paper"
-       id="g362986"
-       transform="rotate(90,27.06949,383.93368)">
+       id="g10141"
+       inkscape:label="printer network office laser remote"
+       transform="matrix(1,0,0,-1,-400.00604,1259.9883)"
+       style="fill:#222222">
       <title
-         id="title362972">printer-network</title>
+         id="title10133">printer-network</title>
       <rect
-         y="195.00317"
-         x="163.1358"
-         height="16"
+         style="fill:none"
+         id="rect10135"
          width="16"
-         id="rect362974"
-         style="fill:none;fill-opacity:1" />
+         height="16"
+         x="600.00604"
+         y="724" />
       <path
-         id="path362978"
+         d="m 604,731 c -1.08984,0 -2,0.91016 -2,2 v 5 c 0,1.08984 0.91016,2 2,2 h 6.07922 a 2.0252897,2.0252897 155.79819 0 0 1.51459,-0.68074 l 1.81744,-2.04728 A 2.3348475,2.3348475 110.79819 0 0 614,735.72192 V 733 c 0,-1.08984 -0.91016,-2 -2,-2 z m 0,2.98218 h 8 v 2.02001 L 610.06665,738 H 604 Z"
+         id="path10137"
          style="fill:#2e3436;fill-opacity:1"
-         d="M 205 521 A 0.999996 0.999996 0 0 0 204 522 L 204 523 L 212 523 L 212 522 A 0.999996 0.999996 0 0 0 211 521 L 205 521 z M 202 524 C 200.892 524 200 524.892 200 526 L 200 530 C 200 531.108 200.892 532 202 532 L 207 532 L 207 534 L 201.5 534 C 201.22302 534 201 534.223 201 534.5 L 201 535.5 C 201 535.777 201.22302 536 201.5 536 L 214.5 536 C 214.77699 536 215 535.777 215 535.5 L 215 534.5 C 215 534.223 214.77699 534 214.5 534 L 209 534 L 209 532 L 214 532 C 215.108 532 216 531.108 216 530 L 216 526 C 216 524.892 215.108 524 214 524 L 202 524 z M 203 530 L 213 530 L 213 531 L 203 531 L 203 530 z "
-         transform="rotate(-90,27.06949,383.93368)" />
+         sodipodi:nodetypes="ssssccssscccccc"
+         inkscape:path-effect="#path-effect10514"
+         inkscape:original-d="m 604,731 c -1.08984,0 -2,0.91016 -2,2 v 5 c 0,1.08984 0.91016,2 2,2 h 6.9895 L 614,736.60876 V 733 c 0,-1.08984 -0.91016,-2 -2,-2 z m 0,2.98218 h 8 v 2.02001 L 610.06665,738 H 604 Z" />
+      <path
+         d="m 602,729.01291 c -1.10938,0 -2,0.89062 -2,2 V 733 c 0,1.10937 0.89062,2 2,2 h 1 v -2 c 0,-0.55469 0.44531,-1 1,-1 h 8 c 0.55469,0 1,0.44531 1,1 v 2 h 1 c 1.10937,0 2,-0.89063 2,-2 v -1.98709 c 0,-1.10938 -0.89063,-2 -2,-2 z"
+         id="path10139"
+         style="fill:#2e3436;fill-opacity:1"
+         sodipodi:nodetypes="sssscsssscsssss" />
+      <path
+         id="path4473-3"
+         style="color:#000000;fill:#2e3436;fill-opacity:1;stroke-linecap:round"
+         d="m 607.99414,728.00002 a 2.0056458,2.0056458 0 0 1 -1.71484,-0.97266 h -3.28516 a 1,1 0 0 1 -1,-1 1,1 0 0 1 1,-1 h 3.24805 a 2.0056458,2.0056458 0 0 1 1.75195,-1.03906 2.0056458,2.0056458 0 0 1 1.75195,1.03906 h 3.25977 a 1,1 0 0 1 1,1 1,1 0 0 1 -1,1 h -3.29297 a 2.0056458,2.0056458 0 0 1 -1.71875,0.97266 z m 0,-1 A 1.0056458,1.0056458 0 0 0 609,725.99416 a 1.0056458,1.0056458 0 0 0 -1.00586,-1.00586 1.0056458,1.0056458 0 0 0 -1.00586,1.00586 1.0056458,1.0056458 0 0 0 1.00586,1.00586 z" />
+      <rect
+         style="fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+         id="rect5646-6"
+         width="2.0095215"
+         height="3.0000002"
+         x="606.99048"
+         y="-730"
+         rx="0"
+         ry="0"
+         transform="scale(1,-1)" />
     </g>
     <g
        id="g11833"
