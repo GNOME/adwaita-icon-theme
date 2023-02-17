@@ -1,3 +1,7 @@
+44.beta
+- fullcolor: use scalables instead of large bitmaps, using the app icon toolchain. #205
+- fullcolor: low res only at 16x16, lean onto the scalables for everything else
+- symbolic: updated rounded style
 43
 43.beta.1
  - build: fix dist tarball creation (symlink issue) #206
