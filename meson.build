@@ -1,7 +1,7 @@
 project('adwaita-icon-theme', 'c', version : '44.0')
 cc = meson.get_compiler('c')
 
-gtk_update_icon_cache = find_program('gtk-update-icon-cache')
+gnome = import('gnome')
 
 conf = configuration_data()
 conf.set_quoted('VERSION', meson.project_version())
@@ -15,7 +15,6 @@ win32_project = cc.get_id() == 'msvc'
 
 distcheck_configure_flags = '--disable-icon-mapping'
 add_global_arguments(distcheck_configure_flags, language : 'c')
-
 
 srcdir = meson.source_root()
 
@@ -175,3 +174,7 @@ endforeach
 install_data(cursor_data, install_dir: cursor_dir)
 install_data(cursorl_data, install_dir: cursorl_dir)
 install_data(cursorxl_data, install_dir: cursorxl_dir)
+
+gnome.post_install(
+  gtk_update_icon_cache: true,
+)
