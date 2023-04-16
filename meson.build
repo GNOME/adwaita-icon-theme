@@ -3,20 +3,10 @@ cc = meson.get_compiler('c')
 
 themedir = get_option('prefix') / 'share' / 'icons' / 'Adwaita'
 SVGOUTDIR = 'Adwaita'
-SVGSRCDIR = 'src/symbolic'
-render_sizes = ['16x16', 'scalable']
 symbolic_render_sizes = []
 install_sizes = ['16x16', 'scalable']
-symbolic_encode_sizes = ['16x16', '32x32']
 
-allow_rendering = false
 gtk_update_icon_cache = find_program('gtk-update-icon-cache')
-git = find_program('git', required : false)
-icontool_render = find_program('icontool-render', required : false)
-inkscape = find_program('inkscape', required : false)
-if git.found() and icontool_render.found() and inkscape.found()
-  allow_rendering = true
-endif
 
 themedir_def = '-Dthemedir=' + themedir
 gettext_package = 'adwaita-icon-theme'
@@ -29,21 +19,6 @@ configure_file(
     'GETTEXT_PACKAGE' : gettext_package,
   },
 )
-
-render_opts = ['-G', '-r', '@BASEDIR@/' + SVGOUTDIR, '-i', '@BASEDIR@/' + SVGSRCDIR, '-s', ','.join(render_sizes)]
-if symbolic_render_sizes.length() > 0
-  render_opts += ['-S', symbolic_render_sizes.join(',')]
-endif
-if allow_rendering
-  adwaita_cmd = [find_program('python3'), 'render.py'] + render_opts
-  configure_file(
-    input : 'render.py.in',
-    output : 'render.py',
-    configuration : adwaita_cmd,
-    executable : true,
-    install : true,
-  )
-endif
 
 
 configure_file(input: 'index.theme.in', output: 'index.theme', install_dir: get_option('datadir'), copy: true)
