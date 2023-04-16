@@ -3,29 +3,24 @@ cc = meson.get_compiler('c')
 
 themedir = get_option('prefix') / 'share' / 'icons' / 'Adwaita'
 SVGOUTDIR = 'Adwaita'
-symbolic_render_sizes = []
-install_sizes = ['16x16', 'scalable']
 
 gtk_update_icon_cache = find_program('gtk-update-icon-cache')
 
 themedir_def = '-Dthemedir=' + themedir
 gettext_package = 'adwaita-icon-theme'
 
+
+conf = configuration_data()
+conf.set_quoted('VERSION', meson.project_version())
+conf.set('themedir', themedir_def)
+conf.set('GETTEXT_PACKAGE', gettext_package)
 configure_file(
   input : 'adwaita-icon-theme.pc.in',
   output : 'adwaita-icon-theme.pc',
-  configuration : {
-    'themedir' : themedir_def,
-    'GETTEXT_PACKAGE' : gettext_package,
-  },
+  configuration : conf,
 )
 
-
-configure_file(input: 'index.theme.in', output: 'index.theme', install_dir: get_option('datadir'), copy: true)
-
 win32_project = cc.get_id() == 'msvc'
-
-install_sizes = [16, 22, 24, 32, 48, 64, 128, 256, 512]
 
 distcheck_configure_flags = '--disable-icon-mapping'
 add_global_arguments(distcheck_configure_flags, language : 'c')
@@ -186,27 +181,12 @@ endforeach
   cursorxl_data = []
 # endif
 
-theme_in_files = ['index.theme.in']
-theme_data = []
-foreach f : theme_in_files
-  theme_data += [f.replace('.theme.in', '.theme')]
-endforeach
-
-theme_dirs = []
-foreach size: install_sizes
-  found_dirs = []
-  files_list = files(srcdir / 'SVGOUTDIR' / size / '*')
-  foreach dir: files_list
-    if is_dir(dir)
-      found_dirs += dir
-    endif
-  endforeach
-  foreach dir: found_dirs
-    theme_dirs += dir.relative_path(srcdir)
-  endforeach
-endforeach
-
-theme_dirs += [
+theme_dirs = [
+  '16x16/devices',
+  '16x16/emblems',
+  '16x16/mimetypes',
+  '16x16/places',
+  '16x16/places',
   'scalable/actions',
   'scalable/apps',
   'scalable/categories',
@@ -232,18 +212,18 @@ theme_dirs += [
   'symbolic/ui',
 ]
 
-template = configure_file(
-  input: srcdir / theme_in_files[0],
-  output: meson.current_build_dir() / theme_data[0],
+conf_data = configuration_data()
+conf_data.set('THEME_DIRS', ','.join(theme_dirs))
+index_theme = configure_file(
+  input: 'index.theme.in',
+  output: 'index.theme',
+  install_dir: get_option('datadir'),
   install: true,
-  install_dir: get_option('datadir') / 'icons' / 'Adwaita' / 'index.theme',
-  configuration: [
-    'THEME_DIRS= {}'.format(';'.join(theme_dirs))
-  ],
+  configuration: conf_data,
 )
 
-install_data(template, install_dir: get_option('datadir') / 'icons' / 'Adwaita' / 'index.theme')
+install_data(index_theme, install_dir: get_option('datadir') / 'icons' / 'Adwaita')
 
 install_data(cursor_data, install_dir: cursor_dir)
 install_data(cursorl_data, install_dir: cursorl_dir)
-install_data(cursorlx_data, install_dir: cursorlx_dir)
+install_data(cursorxl_data, install_dir: cursorxl_dir)
