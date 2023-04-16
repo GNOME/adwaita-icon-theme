@@ -1,19 +1,10 @@
 project('adwaita-icon-theme', 'c', version : '44.0')
 cc = meson.get_compiler('c')
 
-themedir = get_option('prefix') / 'share' / 'icons' / 'Adwaita'
-SVGOUTDIR = 'Adwaita'
-
 gtk_update_icon_cache = find_program('gtk-update-icon-cache')
-
-themedir_def = '-Dthemedir=' + themedir
-gettext_package = 'adwaita-icon-theme'
-
 
 conf = configuration_data()
 conf.set_quoted('VERSION', meson.project_version())
-conf.set('themedir', themedir_def)
-conf.set('GETTEXT_PACKAGE', gettext_package)
 configure_file(
   input : 'adwaita-icon-theme.pc.in',
   output : 'adwaita-icon-theme.pc',
@@ -180,49 +171,6 @@ endforeach
   cursorxl_dir = ''
   cursorxl_data = []
 # endif
-
-theme_dirs = [
-  '16x16/devices',
-  '16x16/emblems',
-  '16x16/mimetypes',
-  '16x16/places',
-  '16x16/places',
-  'scalable/actions',
-  'scalable/apps',
-  'scalable/categories',
-  'scalable/devices',
-  'scalable/emblems',
-  'scalable/emotes',
-  'scalable/mimetypes',
-  'scalable/places',
-  'scalable/status',
-  'scalable/legacy',
-  'scalable/ui',
-  'symbolic-up-to-32/status',
-  'symbolic/actions',
-  'symbolic/apps',
-  'symbolic/categories',
-  'symbolic/devices',
-  'symbolic/emblems',
-  'symbolic/emotes',
-  'symbolic/mimetypes',
-  'symbolic/places',
-  'symbolic/status',
-  'symbolic/legacy',
-  'symbolic/ui',
-]
-
-conf_data = configuration_data()
-conf_data.set('THEME_DIRS', ','.join(theme_dirs))
-index_theme = configure_file(
-  input: 'index.theme.in',
-  output: 'index.theme',
-  install_dir: get_option('datadir'),
-  install: true,
-  configuration: conf_data,
-)
-
-install_data(index_theme, install_dir: get_option('datadir') / 'icons' / 'Adwaita')
 
 install_data(cursor_data, install_dir: cursor_dir)
 install_data(cursorl_data, install_dir: cursorl_dir)
