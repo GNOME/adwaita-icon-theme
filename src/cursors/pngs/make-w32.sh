@@ -25,7 +25,6 @@ do
   ${GEN} move$s.in ../../../$theme/cursors/move.cur
   ${GEN} pointer-move$s.in ../../../$theme/cursors/pointer-move.cur
   ${GEN} link$s.in ../../../$theme/cursors/link.cur
-  ${GEN} circle$s.in ../../../$theme/cursors/circle.cur
   ${GEN} sb_h_double_arrow$s.in ../../../$theme/cursors/sb_h_double_arrow.cur
   ${GEN} sb_v_double_arrow$s.in ../../../$theme/cursors/sb_v_double_arrow.cur
   ${GEN} top_left_corner$s.in ../../../$theme/cursors/top_left_corner.cur

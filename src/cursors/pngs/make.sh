@@ -11,7 +11,6 @@ xcursorgen copy.in ../../../Adwaita/cursors/copy
 xcursorgen move.in ../../../Adwaita/cursors/move
 xcursorgen pointer-move.in ../../../Adwaita/cursors/pointer-move
 xcursorgen link.in ../../../Adwaita/cursors/link
-xcursorgen circle.in ../../../Adwaita/cursors/circle
 xcursorgen sb_h_double_arrow.in ../../../Adwaita/cursors/sb_h_double_arrow
 xcursorgen sb_v_double_arrow.in ../../../Adwaita/cursors/sb_v_double_arrow
 xcursorgen top_left_corner.in ../../../Adwaita/cursors/top_left_corner
