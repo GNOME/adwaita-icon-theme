@@ -3,12 +3,12 @@ cc = meson.get_compiler('c')
 
 gnome = import('gnome')
 
-conf = configuration_data()
-conf.set_quoted('VERSION', meson.project_version())
+pc_conf = configuration_data()
+pc_conf.set_quoted('VERSION', meson.project_version())
 configure_file(
   input : 'adwaita-icon-theme.pc.in',
   output : 'adwaita-icon-theme.pc',
-  configuration : conf,
+  configuration : pc_conf,
 )
 pkgconfig_dir = get_option('datadir') / 'pkgconfig'
 install_data('adwaita-icon-theme.pc', install_dir: pkgconfig_dir, install_tag: 'pkgconfig')
@@ -17,6 +17,14 @@ licenses_dir = get_option('datadir') / 'licenses' / 'adwaita-icon-theme'
 install_data('COPYING', install_dir: licenses_dir, install_tag: 'license')
 install_data('COPYING_CCBYSA3', install_dir: licenses_dir, install_tag: 'license')
 install_data('COPYING_LGPL', install_dir: licenses_dir, install_tag: 'license')
+
+index_conf = configuration_data()
+index_conf.set_quoted('THEME_DIRS', 'symbolic/actions')
+configure_file(
+  input : 'index.theme.in',
+  output : 'index.theme',
+  configuration : index_conf,
+)
 
 srcdir = meson.source_root()
 
