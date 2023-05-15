@@ -10,6 +10,13 @@ configure_file(
   output : 'adwaita-icon-theme.pc',
   configuration : conf,
 )
+pkgconfig_dir = get_option('datadir') / 'pkgconfig'
+install_data('adwaita-icon-theme.pc', install_dir: pkgconfig_dir, install_tag: 'pkgconfig')
+
+licenses_dir = get_option('datadir') / 'licenses' / 'adwaita-icon-theme'
+install_data('COPYING', install_dir: licenses_dir, install_tag: 'license')
+install_data('COPYING_CCBYSA3', install_dir: licenses_dir, install_tag: 'license')
+install_data('COPYING_LGPL', install_dir: licenses_dir, install_tag: 'license')
 
 srcdir = meson.source_root()
 
