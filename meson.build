@@ -146,29 +146,8 @@ foreach f: cur_files
   cursor_data += [path]
 endforeach
 
-# if get_option('enable-l-xl-variants')
-#   cursorl_dir = get_option('datadir') / 'icons' / 'Adwaita-Large' / 'cursors'
-#     foreach f: cur_files
-#       path = files(srcdir / 'Adwaita-Large' / 'cursors' / f)
-#       cursorl_data += [path]
-#     endforeach
-#   cursorxl_dir = get_option('datadir') / 'icons' / 'Adwaita-ExtraLarge' / 'cursors'
-#     foreach f: cur_files
-#       path = files(srcdir / 'Adwaita-ExtraLarge' / 'cursors' / f)
-#       cursorxl_data += [path]
-#     endforeach
-# else
-  cursorl_dir = ''
-  cursorl_data = []
-  cursorxl_dir = ''
-  cursorxl_data = []
-# endif
-
 cursor_dir = get_option('datadir') / 'icons' / 'Adwaita' / 'cursors'
-
 install_data(cursor_data, install_dir: cursor_dir)
-install_data(cursorl_data, install_dir: cursorl_dir)
-install_data(cursorxl_data, install_dir: cursorxl_dir)
 
 symbolic_actions_files = [
   'action-unavailable-symbolic.svg',
