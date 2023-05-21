@@ -19,10 +19,4 @@ install_data('index.theme', install_dir: get_option('datadir') / 'icons' / 'Adwa
 
 subdir('Adwaita')
 
-icon_theme_cache = get_option('datadir') / 'icons' / 'hicolor' / '.icon-theme.cache'
-fs = import('fs')
-if fs.is_file(icon_theme_cache)
-  gnome.post_install(
-    gtk_update_icon_cache: true,
-  )
-endif
+gnome.post_install(gtk_update_icon_cache: true)
