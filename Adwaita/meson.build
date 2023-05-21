@@ -3,7 +3,7 @@ svg_png_files = command_output.stdout().strip().split('\n')
 install_data(svg_png_files, install_dir: get_option('datadir') / 'icons' / 'Adwaita', preserve_path: true)
 
 if host_machine.system() == 'windows'
-  command_output = run_command('../tools/find_cursors_win.py', check: true)
+  command_output = run_command('../tools/find_cursors_win32.py', check: true)
 else
   command_output = run_command('../tools/find_cursors.py', check: true)
 endif
