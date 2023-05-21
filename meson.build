@@ -3,16 +3,12 @@ cc = meson.get_compiler('c')
 
 gnome = import('gnome')
 
-pc_conf = configuration_data()
-pc_conf.set_quoted('VERSION', meson.project_version())
-configure_file(
-  input : 'adwaita-icon-theme.pc.in',
-  output : 'adwaita-icon-theme.pc',
-  configuration : pc_conf,
+pkg = import('pkgconfig')
+pkg.generate(
+  name : 'adwaita-icon-theme',
+  description : 'A collection of icons used as the basis for GNOME themes',
+  dataonly : true,
 )
-pkgconfig_dir = get_option('datadir') / 'pkgconfig'
-#FIXME: temporarily skip installing .pc that isn't getting generated
-#install_data('adwaita-icon-theme.pc', install_dir: pkgconfig_dir, install_tag: 'pkgconfig')
 
 licenses_dir = get_option('datadir') / 'licenses' / 'adwaita-icon-theme'
 install_data('COPYING', install_dir: licenses_dir, install_tag: 'license')
