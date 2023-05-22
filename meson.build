@@ -11,7 +11,8 @@ configure_file(
   configuration : pc_conf,
 )
 pkgconfig_dir = get_option('datadir') / 'pkgconfig'
-install_data('adwaita-icon-theme.pc', install_dir: pkgconfig_dir, install_tag: 'pkgconfig')
+#FIXME: temporarily skip installing .pc that isn't getting generated
+#install_data('adwaita-icon-theme.pc', install_dir: pkgconfig_dir, install_tag: 'pkgconfig')
 
 licenses_dir = get_option('datadir') / 'licenses' / 'adwaita-icon-theme'
 install_data('COPYING', install_dir: licenses_dir, install_tag: 'license')
