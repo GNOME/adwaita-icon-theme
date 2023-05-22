@@ -10,6 +10,6 @@ build:
   before_script:
     - dnf update -y --nogpgcheck && dnf install -y --nogpgcheck $DEPENDENCIES
   script:
-    - meson setup --prefix="$(pwd)/destdir" _build
+    - meson setup _build
     - ninja -C _build install
 
