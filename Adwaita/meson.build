@@ -8,7 +8,7 @@ else
   command_output = run_command('../tools/find_cursors.py', check: true)
 endif
 cursors = command_output.stdout().strip().split('\n')
-install_data(cursors, install_dir: get_option('datadir') / 'icons', preserve_path: true)
+install_data(cursors, install_dir: get_option('datadir') / 'icons' / 'Adwaita', preserve_path: true)
 
 command_output = run_command('../tools/find_symlinks.py', check: true)
 symlinks = command_output.stdout().strip().split('\n')
