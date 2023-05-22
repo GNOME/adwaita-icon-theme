@@ -3,14 +3,13 @@ image: registry.fedoraproject.org/fedora:latest
 variables:
   GIT_DEPTH: '5'
   DEPENDENCIES: >-
-    autoconf automake make libtool gettext-common-devel gettext-common-devel
+    meson ninja-build libtool gettext-common-devel gettext-common-devel
     librsvg2 gtk3-devel glib2-devel gcc  glibc-devel
 
 build:
   before_script:
     - dnf update -y --nogpgcheck && dnf install -y --nogpgcheck $DEPENDENCIES
   script:
-    - ./autogen.sh --disable-dependency-tracking
-    - make
-    - DESTDIR="$(pwd)/destdir" make install
+    - meson setup --prefix="$(pwd)/destdir" _build
+    - ninja -C _build install
 
