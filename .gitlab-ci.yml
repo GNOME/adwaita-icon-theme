@@ -4,7 +4,7 @@ variables:
   GIT_DEPTH: '5'
   DEPENDENCIES: >-
     meson ninja-build libtool gettext-common-devel gettext-common-devel
-    librsvg2 gtk3-devel glib2-devel gcc  glibc-devel python3
+    librsvg2 gtk3-devel glib2-devel gcc glibc-devel python3 hicolor-icon-theme
 
 build:
   before_script:
