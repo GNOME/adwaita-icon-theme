@@ -17,6 +17,16 @@ install_data('COPYING_LGPL', install_dir: licenses_dir, install_tag: 'license')
 
 install_data('index.theme', install_dir: get_option('datadir') / 'icons' / 'Adwaita', install_tag: 'index')
 
+install_subdir(
+  'Adwaita',
+  install_dir: get_option('datadir') / 'icons' / 'Adwaita',
+  exclude_files: ['meson.build'],
+  exclude_directories: ['cursors'],
+  strip_directory : true
+)
 subdir('Adwaita')
 
-gnome.post_install(gtk_update_icon_cache: true)
+# Post install
+
+find_program(['gtk4-update-icon-cache', 'gtk-update-icon-cache'], required : true)
+meson.add_install_script('tools/update_icon_cache.py')
