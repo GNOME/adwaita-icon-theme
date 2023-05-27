@@ -44,7 +44,5 @@ else
   )
 endif
 
-# Post install
-
 find_program(['gtk4-update-icon-cache', 'gtk-update-icon-cache'], required : true)
 meson.add_install_script('tools/update_icon_cache.py')
