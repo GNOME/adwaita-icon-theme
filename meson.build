@@ -20,11 +20,24 @@ install_data('index.theme', install_dir: get_option('datadir') / 'icons' / 'Adwa
 install_subdir(
   'Adwaita',
   install_dir: get_option('datadir') / 'icons' / 'Adwaita',
-  exclude_files: ['meson.build'],
   exclude_directories: ['cursors'],
   strip_directory : true
 )
-subdir('Adwaita')
+
+command_output = run_command('tools/find_cursors_win32.py', check: true)
+win32_cursors = command_output.stdout().strip().split('\n')
+if host_machine.system() == 'windows'
+  foreach cursor : win32_cursors
+    f'Adwaita/cursors/@cursor@'
+  endforeach
+  install_data(win32_cursors, install_dir: get_option('datadir') / 'icons' / 'Adwaita', preserve_path: true)
+else
+  install_subdir(
+    'Adwaita/cursors',
+    install_dir: get_option('datadir') / 'icons' / 'Adwaita',
+    exclude_files: win32_cursors,
+  )
+endif
 
 # Post install
 
