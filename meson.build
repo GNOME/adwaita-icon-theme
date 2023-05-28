@@ -3,16 +3,12 @@ cc = meson.get_compiler('c')
 
 gnome = import('gnome')
 
-pc_conf = configuration_data()
-pc_conf.set_quoted('VERSION', meson.project_version())
-configure_file(
-  input : 'adwaita-icon-theme.pc.in',
-  output : 'adwaita-icon-theme.pc',
-  configuration : pc_conf,
+pkg = import('pkgconfig')
+pkg.generate(
+  name : 'adwaita-icon-theme',
+  description : 'A collection of icons used as the basis for GNOME themes',
+  dataonly : true,
 )
-pkgconfig_dir = get_option('datadir') / 'pkgconfig'
-#FIXME: temporarily skip installing .pc that isn't getting generated
-#install_data('adwaita-icon-theme.pc', install_dir: pkgconfig_dir, install_tag: 'pkgconfig')
 
 licenses_dir = get_option('datadir') / 'licenses' / 'adwaita-icon-theme'
 install_data('COPYING', install_dir: licenses_dir, install_tag: 'license')
@@ -21,12 +17,32 @@ install_data('COPYING_LGPL', install_dir: licenses_dir, install_tag: 'license')
 
 install_data('index.theme', install_dir: get_option('datadir') / 'icons' / 'Adwaita', install_tag: 'index')
 
-subdir('Adwaita')
+install_subdir(
+  'Adwaita',
+  install_dir: get_option('datadir') / 'icons' / 'Adwaita',
+  exclude_directories: ['cursors'],
+  strip_directory : true
+)
 
-icon_theme_cache = get_option('datadir') / 'icons' / 'hicolor' / '.icon-theme.cache'
-fs = import('fs')
-if fs.is_file(icon_theme_cache)
-  gnome.post_install(
-    gtk_update_icon_cache: true,
+command_output = run_command('tools/find_cursors_win32.py', check: true)
+win32_cursors = command_output.stdout().strip().split('\n')
+if host_machine.system() != 'windows'
+  cursors_with_rel_path = []
+  foreach cursor : win32_cursors
+    cursors_with_rel_path += f'Adwaita/cursors/@cursor@'
+  endforeach
+  install_data(
+    cursors_with_rel_path,
+    install_dir: get_option('datadir') / 'icons' / 'Adwaita',
+    preserve_path: true
+  )
+else
+  install_subdir(
+    'Adwaita/cursors',
+    install_dir: get_option('datadir') / 'icons' / 'Adwaita',
+    exclude_files: win32_cursors,
   )
 endif
+
+find_program(['gtk4-update-icon-cache', 'gtk-update-icon-cache'], required : true)
+meson.add_install_script('tools/update_icon_cache.py')
