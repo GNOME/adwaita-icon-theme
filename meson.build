@@ -8,12 +8,12 @@ pkg.generate(
 )
 
 licenses_dir = get_option('datadir') / 'licenses' / 'adwaita-icon-theme'
-install_data('COPYING', install_dir: licenses_dir)
-install_data('COPYING_CCBYSA3', install_dir: licenses_dir)
-install_data('COPYING_LGPL', install_dir: licenses_dir)
+install_data('COPYING', install_dir : licenses_dir, install_tag : 'runtime')
+install_data('COPYING_CCBYSA3', install_dir : licenses_dir, install_tag : 'runtime')
+install_data('COPYING_LGPL', install_dir : licenses_dir, install_tag : 'runtime')
 
 adwaita_dir = get_option('datadir') / 'icons' / 'Adwaita'
-install_data('index.theme', install_dir: adwaita_dir)
+install_data('index.theme', install_dir : adwaita_dir, install_tag : 'runtime')
 
 install_subdir(
   'Adwaita',
