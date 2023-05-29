@@ -26,7 +26,7 @@ install_subdir(
 
 command_output = run_command('tools/find_cursors_win32.py', check: true)
 win32_cursors = command_output.stdout().strip().split('\n')
-if host_machine.system() != 'windows'
+if host_machine.system() == 'windows'
   cursors_with_rel_path = []
   foreach cursor : win32_cursors
     cursors_with_rel_path += f'Adwaita/cursors/@cursor@'
