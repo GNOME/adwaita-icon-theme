@@ -11,17 +11,19 @@ pkg.generate(
 )
 
 licenses_dir = get_option('datadir') / 'licenses' / 'adwaita-icon-theme'
-install_data('COPYING', install_dir: licenses_dir, install_tag: 'license')
-install_data('COPYING_CCBYSA3', install_dir: licenses_dir, install_tag: 'license')
-install_data('COPYING_LGPL', install_dir: licenses_dir, install_tag: 'license')
+install_data('COPYING', install_dir: licenses_dir)
+install_data('COPYING_CCBYSA3', install_dir: licenses_dir)
+install_data('COPYING_LGPL', install_dir: licenses_dir)
 
-install_data('index.theme', install_dir: get_option('datadir') / 'icons' / 'Adwaita', install_tag: 'index')
+adwaita_dir = get_option('datadir') / 'icons' / 'Adwaita'
+install_data('index.theme', install_dir: adwaita_dir)
 
 install_subdir(
   'Adwaita',
-  install_dir: get_option('datadir') / 'icons' / 'Adwaita',
+  install_dir: adwaita_dir,
   exclude_directories: ['cursors'],
-  strip_directory : true
+  strip_directory : true,
+  install_tag : 'runtime',
 )
 
 command_output = run_command('tools/find_cursors_win32.py', check: true)
@@ -33,14 +35,16 @@ if host_machine.system() == 'windows'
   endforeach
   install_data(
     cursors_with_rel_path,
-    install_dir: get_option('datadir') / 'icons' / 'Adwaita',
-    preserve_path: true
+    install_dir: adwaita_dir,
+    preserve_path: true,
+    install_tag : 'runtime',
   )
 else
   install_subdir(
     'Adwaita/cursors',
-    install_dir: get_option('datadir') / 'icons' / 'Adwaita',
+    install_dir: adwaita_dir,
     exclude_files: win32_cursors,
+    install_tag : 'runtime',
   )
 endif
 
