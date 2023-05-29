@@ -1,7 +1,4 @@
 project('adwaita-icon-theme', 'c', version : '44.0', meson_version : '>= 0.64.0')
-cc = meson.get_compiler('c')
-
-gnome = import('gnome')
 
 pkg = import('pkgconfig')
 pkg.generate(
