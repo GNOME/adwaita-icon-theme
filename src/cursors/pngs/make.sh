@@ -96,7 +96,7 @@ cp right_side e-resize
 cp hand2 e29285e634086352946a0e7090d73106
 cp sb_h_double_arrow ew-resize
 cp fd_double_arrow fcf1c3c7cd4491d801f1e1c78f100000
-cp all-scroll fleur
+cp move fleur
 cp hand1 grab
 cp sb_h_double_arrow h_double_arrow
 cp hand2 hand
