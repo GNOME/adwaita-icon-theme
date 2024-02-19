@@ -43,8 +43,39 @@ else
     exclude_files: win32_cursors,
     install_tag : 'runtime',
   )
-  cursor_symlinks = {  }
+  cursor_symlinks = {
+    # Each one is of the form:
+    # 'css-name': ['x11-name', 'x11-name', ...],
+
+    'crosshair': ['cross', 'cross_reverse', 'diamond_cross', 'tcross'],
+    'default': ['arrow', 'left_ptr', 'top_left_arrow'],
+    'e-resize': ['right_side'],
+    'ew-resize': ['sb_h_double_arrow'],
+    'grab': ['hand1'],
+    'help': ['question_arrow'],
+    'n-resize': ['top_side'],
+    'ne-resize': ['top_right_corner'],
+    'nesw-resize': ['fd_double_arrow'],
+    'ns-resize': ['sb_v_double_arrow'],
+    'nw-resize': ['top_left_corner'],
+    'nwse-resize': ['bd_double_arrow'],
+    'pointer': ['hand2'],
+    's-resize': ['bottom_side'],
+    'se-resize': ['bottom_right_corner'],
+    'sw-resize': ['bottom_left_corner'],
+    'text': ['xterm'],
+    'w-resize': ['left_side'],
+    'wait': ['watch'],
+
+    # Currently the move cursor is a 4-pointed arrow, but if its visual
+    # metaphor ever changes, this should probably become
+    # 'all-scroll': ['fleur'] as the next-closest equivalent.
+    'move': ['fleur'],
+  }
   foreach src, dests : cursor_symlinks
+    # This acts as an assertion that the src is a cursor that exists
+    files('Adwaita' / 'cursors' / src)
+
     foreach dest : dests
       install_symlink(
         dest,
