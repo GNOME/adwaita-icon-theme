@@ -27,12 +27,13 @@ command_output = run_command('tools/find_cursors_win32.py', check: true)
 win32_cursors = command_output.stdout().strip().split('\n')
 if host_machine.system() == 'windows'
   cursors_with_rel_path = []
+  icons_dir = get_option('datadir') / 'icons'
   foreach cursor : win32_cursors
     cursors_with_rel_path += f'Adwaita/cursors/@cursor@'
   endforeach
   install_data(
     cursors_with_rel_path,
-    install_dir: adwaita_dir,
+    install_dir: icons_dir,
     preserve_path: true,
     install_tag : 'runtime',
   )
