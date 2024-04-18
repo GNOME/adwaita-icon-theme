@@ -1,4 +1,6 @@
 # Adwaita Icon Theme
+Private UI icon set for GNOME core apps.
+
 ![Adwaita Icons](src/logo.svg)
 
 ## Bugs and Requests
@@ -11,7 +13,7 @@ For an up to date guide on how to use and how to design GNOME style icons, see t
 ## Building and Contributing to Adwaita
 The icon set for system components shares the same workflow as 3rd party app symbolics, the [icon devkit](https://gitlab.gnome.org/Teams/Design/icon-development-kit).
 
-While many legacy symbolics only live as the exported individual SVGS in `Adwaita/scalable/`, the replacements are maintained in `src/symbolic/core.svg`. Using icon categories/contexts are [no longer used](https://gitlab.gnome.org/GNOME/adwaita-icon-theme/-/issues/73) and all new icons go into `actions`. Please refer to the [Devkit guidelines](https://gitlab.gnome.org/Teams/Design/icon-development-kit) on how to structure the metadata.
+While many legacy symbolics only live as the exported individual SVGS in `Adwaita/symbolic/`, the replacements are maintained in `src/symbolic/core.svg`. Using icon categories/contexts are [no longer used](https://gitlab.gnome.org/GNOME/adwaita-icon-theme/-/issues/73) and all new icons go into `actions`. Please refer to the [Devkit guidelines](https://gitlab.gnome.org/Teams/Design/icon-development-kit) on how to structure the metadata.
 
 Do note that no new additions should be made unless very thoroughly discussed. *a-i-t* is the wrong way to reuse icon assets (no API, false promise of stability).
 
