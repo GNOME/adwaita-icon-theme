@@ -1,4 +1,4 @@
-project('adwaita-icon-theme', version : '46.2', meson_version : '>= 0.64.0')
+project('adwaita-icon-theme', version : '47.beta', meson_version : '>= 0.64.0')
 
 pkg = import('pkgconfig')
 pkg.generate(
