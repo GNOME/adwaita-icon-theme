@@ -4,7 +4,7 @@ Private UI icon set for GNOME core apps.
 ![Adwaita Icons](src/logo.svg)
 
 ## Bugs and Requests
-If you're a core GNOME application maintainer and you have an icon need that bridges multiple components or apps, feel free to file a request in the [issue tracker](https://gitlab.gnome.org/GNOME/adwaita-icon-theme/-/issues). If you're an application developer, file a request against the [Icon Development Kit](https://gitlab.gnome.org/Teams/Design/icon-development-kit/-/issues) instead.
+If you're a core GNOME application maintainer (`Files` and `gnome-shell`, really) and you have an icon need that bridges multiple components or apps, feel free to file a request in the [issue tracker](https://gitlab.gnome.org/GNOME/adwaita-icon-theme/-/issues). If you're an application developer, file a request against the [Icon Development Kit](https://gitlab.gnome.org/Teams/Design/icon-development-kit/-/issues) instead.
 
 
 ## Fullcolor vs symbolic
