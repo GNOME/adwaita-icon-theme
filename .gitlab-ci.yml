@@ -1,15 +1,39 @@
-image: registry.fedoraproject.org/fedora:latest
+include:
+  - component: gitlab.gnome.org/GNOME/citemplates/release-service@master
+    inputs:
+      dist-job-name: "build"
+      tarball-artifact-path: "${TARBALL_ARTIFACT_PATH}"
 
 variables:
-  GIT_DEPTH: '5'
+  MESON_BUILD_DIR: _build
+  _DESTDIR: "$CI_PROJECT_DIR/destdir/"
+  TARBALL_ARTIFACT_PATH: "${MESON_BUILD_DIR}/meson-dist/${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.tar.xz"
+  GIT_DEPTH: "5"
   DEPENDENCIES: >-
-    meson ninja-build libtool gettext-common-devel gettext-common-devel
+    meson ninja-build git libtool gettext-common-devel gettext-common-devel
     librsvg2 gtk4 glib2-devel gcc glibc-devel python3 hicolor-icon-theme
 
 build:
+  image: registry.fedoraproject.org/fedora:latest
   before_script:
     - dnf update -y --nogpgcheck && dnf install -y --nogpgcheck $DEPENDENCIES
   script:
-    - meson setup _build
-    - ninja -C _build install
+    - git config --global --add safe.directory $CI_PROJECT_DIR
+    - meson setup "${MESON_BUILD_DIR}"
+    - meson compile -C "${MESON_BUILD_DIR}"
+    - mkdir -p $_DESTDIR
+    - meson install -C ${MESON_BUILD_DIR} --no-rebuild --destdir=${_DESTDIR}
 
+    - meson dist -C "${MESON_BUILD_DIR}" --no-tests --include-subprojects
+  after_script:
+    # Cleanup the destdir and thus container volume once we are done
+    - rm -rvf $_DESTDIR
+  artifacts:
+    name: "${CI_JOB_NAME}-${CI_COMMIT_REF_NAME}"
+    when: always
+    paths:
+      - "${TARBALL_ARTIFACT_PATH}"
+      - "${MESON_BUILD_DIR}/meson-logs/"
+      - "${MESON_BUILD_DIR}/meson-dist/"
+    reports:
+      junit: "${MESON_BUILD_DIR}/meson-logs/testlog.junit.xml"
