@@ -9,14 +9,9 @@ variables:
   _DESTDIR: "$CI_PROJECT_DIR/destdir/"
   TARBALL_ARTIFACT_PATH: "${MESON_BUILD_DIR}/meson-dist/${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.tar.xz"
   GIT_DEPTH: "5"
-  DEPENDENCIES: >-
-    meson ninja-build git libtool gettext-common-devel gettext-common-devel
-    librsvg2 gtk4 glib2-devel gcc glibc-devel python3 hicolor-icon-theme
 
 build:
-  image: registry.fedoraproject.org/fedora:latest
-  before_script:
-    - dnf update -y --nogpgcheck && dnf install -y --nogpgcheck $DEPENDENCIES
+  image: "quay.io/gnome_infrastructure/gnome-build-meta:core-nightly"
   script:
     - git config --global --add safe.directory $CI_PROJECT_DIR
     - meson setup "${MESON_BUILD_DIR}"
