@@ -22,7 +22,7 @@ PanelDefault=32
 PanelSizes=16,22,32,48,64,72,96,128
 
 # Directory list
-Directories=16x16/actions,16x16/apps,16x16/categories,16x16/devices,16x16/emblems,16x16/emotes,16x16/legacy,16x16/mimetypes,16x16/places,16x16/status,16x16/ui,scalable/devices,scalable/mimetypes,scalable/places,scalable/status,scalable/actions,scalable/apps,scalable/categories,scalable/emblems,scalable/emotes,scalable/legacy,scalable/ui,symbolic-up-to-32/status,symbolic/actions,symbolic/apps,symbolic/categories,symbolic/devices,symbolic/emblems,symbolic/emotes,symbolic/mimetypes,symbolic/places,symbolic/status,symbolic/legacy,symbolic/ui,
+Directories=16x16/actions,16x16/apps,16x16/categories,16x16/devices,16x16/emblems,16x16/emotes,16x16/legacy,16x16/mimetypes,16x16/places,16x16/status,16x16/ui,scalable/devices,scalable/mimetypes,scalable/places,scalable/status,scalable/actions,scalable/apps,scalable/categories,scalable/emblems,scalable/emotes,scalable/legacy,scalable/ui,symbolic/actions,symbolic/apps,symbolic/categories,symbolic/devices,symbolic/emblems,symbolic/emotes,symbolic/mimetypes,symbolic/places,symbolic/status,symbolic/legacy,symbolic/ui,
 
 [16x16/actions]
 Context=Actions
@@ -154,13 +154,6 @@ Context=UI
 Size=128
 MinSize=8
 MaxSize=512
-Type=Scalable
-
-[symbolic-up-to-32/status]
-Context=Status
-Size=16
-MinSize=16
-MaxSize=32
 Type=Scalable
 
 [symbolic/actions]
