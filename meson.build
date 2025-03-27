@@ -52,7 +52,7 @@ else
 
     # move and dnd-move are separate contexts
     # https://gitlab.gnome.org/GNOME/adwaita-icon-theme/-/issues/286
-    'default': ['arrow', 'dnd-move', 'left_ptr', 'top_left_arrow'],
+    'default': ['arrow', 'dnd-move', 'left_ptr', 'top_left_arrow', 'move'],
 
     'e-resize': ['right_side'],
     'ew-resize': ['sb_h_double_arrow'],

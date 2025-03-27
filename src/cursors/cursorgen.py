@@ -12,6 +12,7 @@ logging.basicConfig(level=logging.DEBUG, format='%(levelname)s: %(message)s')
 nominal_size = 24
 cursors = {
     "alias": (18, 5),
+    "all-resize": (12, 11),
     "all-scroll": (11, 11),
     "cell": (11, 11),
     "col-resize": (12, 12),
@@ -24,7 +25,6 @@ cursors = {
     "grab": (11, 2),
     "grabbing": (9, 5),
     "help": (12, 21),
-    "move": (12, 11),
     "ne-resize": (15, 10),
     "nesw-resize": (11, 11),
     "no-drop": (3, 1),
