@@ -48,6 +48,7 @@ else
     # Each one is of the form:
     # 'css-name': ['x11-name', 'x11-name', ...],
 
+    'all-resize': ['fleur'],
     'crosshair': ['cross', 'cross_reverse', 'diamond_cross', 'tcross'],
 
     # move and dnd-move are separate contexts
@@ -72,10 +73,6 @@ else
     'w-resize': ['left_side'],
     'wait': ['watch'],
 
-    # Currently the move cursor is a 4-pointed arrow, but if its visual
-    # metaphor ever changes, this should probably become
-    # 'all-scroll': ['fleur'] as the next-closest equivalent.
-    'move': ['fleur'],
   }
   foreach src, dests : cursor_symlinks
     # This acts as an assertion that the src is a cursor that exists
