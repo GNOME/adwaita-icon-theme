@@ -50,6 +50,7 @@ else
 
     'all-resize': ['fleur'],
     'crosshair': ['cross', 'cross_reverse', 'diamond_cross', 'tcross'],
+    'context-menu': ['dnd-ask'],
 
     # move and dnd-move are separate contexts
     # https://gitlab.gnome.org/GNOME/adwaita-icon-theme/-/issues/286
