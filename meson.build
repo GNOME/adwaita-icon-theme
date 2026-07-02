@@ -18,7 +18,7 @@ install_data('index.theme', install_dir : adwaita_dir, install_tag : 'runtime')
 install_subdir(
   'Adwaita',
   install_dir: adwaita_dir,
-  exclude_directories: ['cursors'],
+  exclude_directories: ['cursors', 'cursors_scalable'],
   strip_directory : true,
   install_tag : 'runtime',
 )
@@ -106,6 +106,49 @@ else
     endforeach
   endforeach
 endif
+
+# Install scalable SVG+JSON cursor source for gnome-shell (Wayland)
+install_subdir(
+  'Adwaita/cursors_scalable',
+  install_dir: adwaita_dir,
+  install_tag: 'runtime',
+)
+
+# Compatibility symlinks inside cursors_scalable (same mapping as X11 cursors)
+scalable_cursor_symlinks = {
+  'all-resize': ['fleur'],
+  'context-menu': ['dnd-ask'],
+  'crosshair': ['cross', 'cross_reverse', 'diamond_cross', 'tcross'],
+  'default': ['arrow', 'dnd-move', 'left_ptr', 'top_left_arrow', 'move'],
+  'e-resize': ['right_side'],
+  'ew-resize': ['sb_h_double_arrow'],
+  'grab': ['hand1'],
+  'help': ['question_arrow'],
+  'n-resize': ['top_side'],
+  'ne-resize': ['top_right_corner'],
+  'nesw-resize': ['fd_double_arrow'],
+  'ns-resize': ['sb_v_double_arrow'],
+  'nw-resize': ['top_left_corner'],
+  'nwse-resize': ['bd_double_arrow'],
+  'pointer': ['hand2'],
+  's-resize': ['bottom_side'],
+  'se-resize': ['bottom_right_corner'],
+  'sw-resize': ['bottom_left_corner'],
+  'text': ['xterm'],
+  'w-resize': ['left_side'],
+  'wait': ['watch'],
+}
+foreach src, dests : scalable_cursor_symlinks
+  files('Adwaita' / 'cursors_scalable' / src)
+  foreach dest : dests
+    install_symlink(
+      dest,
+      install_dir: adwaita_dir / 'cursors_scalable',
+      install_tag: 'runtime',
+      pointing_to: src,
+    )
+  endforeach
+endforeach
 
 gtk_update_icon_cache = find_program(
   'gtk4-update-icon-cache',
